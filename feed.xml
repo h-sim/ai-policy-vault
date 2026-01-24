@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title>AI Platform Change Watcher</title>
+<link>http://localhost/</link>
+<description>Important changes in AI platforms</description>
+
+<item>
+<title>[Medium] API Docs</title>
+<link>https://platform.openai.com/docs</link>
+<description>Detected change</description>
+<pubDate>Sat, 24 Jan 2026 13:37:42 GMT</pubDate>
+</item>
+
+</channel>
+</rss>
