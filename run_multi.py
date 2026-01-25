@@ -53,6 +53,36 @@ def diff_snippet(old_text: str, new_text: str, max_lines: int = 40) -> str:
 
     return "\n".join(snippet_lines).strip()
 
+def classify_impact(name: str, url: str, snippet: str, default_impact: str) -> str:
+    """
+    重要度の自動判定（LLMなし）
+    - ノイズ削減
+    - 重要な変更の取りこぼし低減
+    """
+    n = (name or "").lower()
+    u = (url or "").lower()
+    s = (snippet or "").lower()
+
+    # OpenAPI Spec: 差分が出たらBreaking固定（仕様変更の可能性が高い）
+    if "openapi" in n or u.endswith((".yml", ".yaml")):
+        return "Breaking"
+
+    # Developer Changelog: 破壊的っぽい語があればBreakingに昇格
+    if "changelog" in n:
+        breaking_kw = ["breaking", "deprecat", "remove", "sunset", "migration required"]
+        if any(k in s for k in breaking_kw):
+            return "Breaking"
+        return "High"
+
+    # News: 原則Medium、重要語があればHighに昇格
+    if "news" in n:
+        high_kw = ["policy", "pricing", "security", "terms", "compliance"]
+        if any(k in s for k in high_kw):
+            return "High"
+        return "Medium"
+
+    return default_impact
+
 
 def utc_now_rfc822() -> str:
     # RSS向け
@@ -148,11 +178,13 @@ def main():
 
         snippet = diff_snippet(old_text, new_text)
         if snippet:
+            impact2 = classify_impact(name, url, snippet, impact)
+
             item_id = make_item_id(url, snippet)
             if item_id not in existing_ids:
                 state.insert(0, {
                     "id": item_id,
-                    "impact": impact,
+                    "impact": impact2,
                     "name": name,
                     "url": url,
                     "snippet": snippet,
@@ -160,9 +192,10 @@ def main():
                 })
                 existing_ids.add(item_id)
 
-            print(f"[{impact}] {name} : 変更あり")
+            print(f"[{impact2}] {name} : 変更あり")
         else:
             print(f"[{impact}] {name} : 変更なし")
+
 
     # 履歴は上限で刈る
     state = state[:MAX_ITEMS]
