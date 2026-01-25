@@ -116,23 +116,25 @@ def main():
             with open(snap_file, "r", encoding="utf-8") as f:
                 old_text = f.read()
 
-try:
-    raw = fetch(url)
+        try:
+            raw = fetch(url)
 
-    if url.endswith((".xml", ".yml", ".yaml")):
-        new_text = raw
-    else:
-        if "<html" in raw.lower() or "<!doctype html" in raw.lower():
-            new_text = extract_text(raw)
-        else:
-            new_text = raw
+            # XML/YAMLはパースせずそのまま比較（警告＆ノイズ回避）
+            if url.endswith((".xml", ".yml", ".yaml")):
+                new_text = raw
+            else:
+                # HTMLっぽい場合だけテキスト抽出
+                if "<html" in raw.lower() or "<!doctype html" in raw.lower():
+                    new_text = extract_text(raw)
+                else:
+                    new_text = raw
 
-    # ここで全形式共通の正規化（推奨）
-    new_text = "\n".join(line.rstrip() for line in new_text.replace("\r\n", "\n").splitlines())
+            # 全形式共通の正規化（CRLF→LF + 行末空白除去）
+            new_text = "\n".join(
+                line.rstrip() for line in new_text.replace("\r\n", "\n").splitlines()
+            )
 
-except Exception as e:
-
-            # 取得失敗は“変更”扱いにしない（炎上耐性・運用安定）
+        except Exception as e:
             print(f"[{impact}] {name} : 取得失敗（今回はスキップ） -> {e}")
             continue
 
