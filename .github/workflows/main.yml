@@ -1,0 +1,36 @@
+name: AI Change Watcher
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 毎日 0:00 UTC（日本時間 9:00）
+  workflow_dispatch:
+
+jobs:
+  run-watcher:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run watcher
+        run: |
+          python run_multi.py
+          python generate_rss.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add feed.xml
+          git diff --cached --quiet || git commit -m "Update RSS feed"
+          git push
