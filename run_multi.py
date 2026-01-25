@@ -116,21 +116,21 @@ def main():
             with open(snap_file, "r", encoding="utf-8") as f:
                 old_text = f.read()
 
-        try:
-            raw = fetch(url)
+try:
+    raw = fetch(url)
 
-            # RSS/XML/YAML は BeautifulSoup に通さず、そのまま比較する（安定・警告回避）
-            if url.endswith((".xml", ".yml", ".yaml")):
-                new_text = raw
-                new_text = "\n".join(line.rstrip() for line in new_text.splitlines())
-            else:
-                # HTMLっぽいときだけテキスト抽出（ノイズ削減）
-                if "<html" in raw.lower() or "<!doctype html" in raw.lower():
-                    new_text = extract_text(raw)
-                else:
-                    new_text = raw
+    if url.endswith((".xml", ".yml", ".yaml")):
+        new_text = raw
+    else:
+        if "<html" in raw.lower() or "<!doctype html" in raw.lower():
+            new_text = extract_text(raw)
+        else:
+            new_text = raw
 
-        except Exception as e:
+    # ここで全形式共通の正規化（推奨）
+    new_text = "\n".join(line.rstrip() for line in new_text.replace("\r\n", "\n").splitlines())
+
+except Exception as e:
 
             # 取得失敗は“変更”扱いにしない（炎上耐性・運用安定）
             print(f"[{impact}] {name} : 取得失敗（今回はスキップ） -> {e}")
