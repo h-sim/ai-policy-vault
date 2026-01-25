@@ -117,9 +117,20 @@ def main():
                 old_text = f.read()
 
         try:
-            html = fetch(url)
-            new_text = extract_text(html)
+            raw = fetch(url)
+
+            # RSS/XML/YAML は BeautifulSoup に通さず、そのまま比較する（安定・警告回避）
+            if url.endswith((".xml", ".yml", ".yaml")):
+                new_text = raw
+            else:
+                # HTMLっぽいときだけテキスト抽出（ノイズ削減）
+                if "<html" in raw.lower() or "<!doctype html" in raw.lower():
+                    new_text = extract_text(raw)
+                else:
+                    new_text = raw
+
         except Exception as e:
+
             # 取得失敗は“変更”扱いにしない（炎上耐性・運用安定）
             print(f"[{impact}] {name} : 取得失敗（今回はスキップ） -> {e}")
             continue
