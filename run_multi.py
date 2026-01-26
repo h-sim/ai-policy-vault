@@ -524,6 +524,38 @@ def run_selftests(verbose: bool = False) -> bool:
             "expect_diff_stats": {"added": 0, "removed": 0, "churn": 0},
         },
         {
+        {
+            "id": "news_compact_keeps_high_signal_line",
+            "name": "OpenAI News (RSS)",
+            "url": "https://openai.com/news/rss.xml",
+            "default": "Medium",
+            "snippet": "\n".join(["- old" for _ in range(20)] + ["+ new" for _ in range(19)] + ["+ Terms of Use update" ]),
+            # compact_news_snippet の回帰防止：高シグナル行が削られないこと
+            "expect_compact_news": {
+                "max_lines": 12,
+                "prefer_keywords": [
+                    "policy",
+                    "terms",
+                    "termsofservice",
+                    "pricing",
+                    "billing",
+                    "security",
+                    "privacy",
+                    "trust",
+                    "safety",
+                ],
+                "must_contain": ["Terms of Use"],
+            },
+        },
+        {
+            "id": "news_item_id_uses_full_snippet",
+            "name": "OpenAI News (RSS)",
+            "url": "https://openai.com/news/rss.xml",
+            "default": "Medium",
+            "snippet": "\n".join(["- old" for _ in range(20)] + ["+ new" for _ in range(19)] + ["+ Terms of Use update" ]),
+            # 仕様要件：state の id は「圧縮前 snippet」で生成し、圧縮方法の変更で重複 item が増えないようにする
+            "expect_item_id_full_vs_compact_different": True,
+        },
             "id": "diff_stats_counts_real_change",
             "name": "real change should count",
             "url": "https://example.com/rss.xml",
@@ -570,6 +602,67 @@ def run_selftests(verbose: bool = False) -> bool:
             else:
                 if verbose:
                     print(f"[PASS] {t['id']}: diff_snippet_len={len(sn)} diff_stats={st2}")
+                else:
+                    print(f"[PASS] {t['id']}")
+            continue
+
+        # compact_news_snippet の回帰テスト（可読性と重要行の保持）
+        exp_compact = t.get("expect_compact_news")
+        if exp_compact is not None:
+            compacted = compact_news_snippet(
+                t.get("snippet") or "",
+                max_lines=int(exp_compact.get("max_lines", 12)),
+                prefer_keywords=list(exp_compact.get("prefer_keywords") or []),
+            )
+            fail_reasons = []
+            # 行数制限
+            if len([ln for ln in compacted.splitlines() if ln.strip()]) > int(exp_compact.get("max_lines", 12)):
+                fail_reasons.append("compact_news_snippet exceeded max_lines")
+            # 必須キーワード行が残る
+            for needle in list(exp_compact.get("must_contain") or []):
+                if needle not in compacted:
+                    fail_reasons.append(f"compact_news_snippet missing '{needle}'")
+            if fail_reasons:
+                ok = False
+                print(f"[FAIL] {t['id']}: " + "; ".join(fail_reasons))
+                if verbose:
+                    print("       compacted=", compacted)
+            else:
+                if verbose:
+                    print(f"[PASS] {t['id']}: compact_lines={len(compacted.splitlines())}")
+                else:
+                    print(f"[PASS] {t['id']}")
+            continue
+
+        # item_id は圧縮前 snippet を使う要件テスト（圧縮ルール変更で重複itemを増やさない）
+        if t.get("expect_item_id_full_vs_compact_different"):
+            raw_sn = t.get("snippet") or ""
+            compacted = compact_news_snippet(
+                raw_sn,
+                max_lines=12,
+                prefer_keywords=[
+                    "policy",
+                    "terms",
+                    "termsofservice",
+                    "pricing",
+                    "billing",
+                    "security",
+                    "privacy",
+                    "trust",
+                    "safety",
+                ],
+            )
+            id_full = make_item_id(t.get("url") or "", raw_sn)
+            id_comp = make_item_id(t.get("url") or "", compacted)
+            if id_full == id_comp:
+                ok = False
+                print(f"[FAIL] {t['id']}: expected item_id(full) != item_id(compact) but got equal")
+                if verbose:
+                    print("       full=", raw_sn)
+                    print("       compact=", compacted)
+            else:
+                if verbose:
+                    print(f"[PASS] {t['id']}: item_id differs as expected")
                 else:
                     print(f"[PASS] {t['id']}")
             continue
@@ -801,6 +894,10 @@ def main(log_diff_stats: bool = False):
             # state.json には常に diff 統計を保存する（ログ出力有無と独立）
             stats_for_state = diff_stats(old_text, new_text)
 
+            # item_id は「圧縮前の完全な diff snippet」で固定（圧縮ルール変更で重複itemが増えないようにする）
+            raw_snippet = snippet
+            snippet_full_for_state = ""
+
             # News は大量入替が起きやすいので、excerpt を短くして可読性を最優先する
             if "news" in (name or "").lower() and stats_for_state.get("churn", 0) >= 20:
                 snippet = compact_news_snippet(
@@ -818,6 +915,7 @@ def main(log_diff_stats: bool = False):
                         "safety",
                     ],
                 )
+                snippet_full_for_state = raw_snippet
 
             impact2, score, reasons = classify_impact(name, url, snippet, impact)
 
@@ -828,7 +926,7 @@ def main(log_diff_stats: bool = False):
                 if not summary_ja:
                     print(f"[{impact2}] {name} : 要約生成に失敗（空のまま継続）")
 
-            item_id = make_item_id(url, snippet)
+            item_id = make_item_id(url, raw_snippet)
             if item_id not in existing_ids:
                 state.insert(
                     0,
@@ -838,6 +936,7 @@ def main(log_diff_stats: bool = False):
                         "name": name,
                         "url": url,
                         "snippet": snippet,
+                        "snippet_full": snippet_full_for_state,
                         "diff": stats_for_state,
                         "score": score,
                         "reasons": reasons,
