@@ -5,13 +5,5 @@
 <link>https://h-sim.github.io/ai-change-watcher/</link>
 <description>All detected text changes (may include noise). Verify on official sources.</description>
 
-<item>
-<title>[Medium] OpenAI News (RSS)</title>
-<link>https://openai.com/news/rss.xml</link>
-<description><![CDATA[Detected a text change. Please verify on the official page.<br/><br/>Diff (excerpt):<br/>-        <lastBuildDate>Mon, 26 Jan 2026 03:02:38 GMT</lastBuildDate><br/>+        <lastBuildDate>Mon, 26 Jan 2026 03:53:02 GMT</lastBuildDate>]]></description>
-<pubDate>Mon, 26 Jan 2026 03:53:02 GMT</pubDate>
-<guid isPermaLink="false">32ceb8cbebd84522aae5e3dc54948643f626ff91</guid>
-</item>
-
 </channel>
 </rss>
