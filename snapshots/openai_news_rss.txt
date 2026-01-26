@@ -4,7 +4,7 @@
         <description><![CDATA[The OpenAI blog]]></description>
         <link>https://openai.com/news</link>
         <generator>OpenAI</generator>
-        <lastBuildDate>Mon, 26 Jan 2026 03:02:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2026 03:53:02 GMT</lastBuildDate>
         <atom:link href="https://openai.com/news/rss" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Unrolling the Codex agent loop]]></title>

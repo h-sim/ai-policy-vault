@@ -5,5 +5,34 @@
 <link>https://h-sim.github.io/ai-change-watcher/</link>
 <description>All detected text changes (may include noise). Verify on official sources.</description>
 
+<item>
+<title>[Medium] OpenAI News (RSS)</title>
+<link>https://openai.com/news/rss.xml</link>
+<description><![CDATA[Detected a text change. Please verify on the official page.
+
+Diff (excerpt):
+-        <lastBuildDate>Mon, 26 Jan 2026 03:02:38 GMT</lastBuildDate>
++        <lastBuildDate>Mon, 26 Jan 2026 03:53:02 GMT</lastBuildDate>]]></description>
+<pubDate>Mon, 26 Jan 2026 03:53:02 GMT</pubDate>
+<guid isPermaLink="false">32ceb8cbebd84522aae5e3dc54948643f626ff91</guid>
+</item>
+
+<item>
+<title>[High] Test Source (Repo file)</title>
+<link>https://raw.githubusercontent.com/h-sim/ai-change-watcher/main/test_source.txt</link>
+<description><![CDATA[Summary (JA, 3 lines):
+「Test Source (Repo file)」に新たに「TEST_CHANGE_1」
+という内容が追加された可能性がありそうです。
+変更の詳細や影響範囲は差分からは不明のようです。
+
+Please verify on the official page.
+Source: https://raw.githubusercontent.com/h-sim/ai-change-watcher/main/test_source.txt
+
+Diff (excerpt):
++TEST_CHANGE_1]]></description>
+<pubDate>Mon, 26 Jan 2026 03:53:02 GMT</pubDate>
+<guid isPermaLink="false">616596dd430909e2b25124c7ccaa914fe62606cf</guid>
+</item>
+
 </channel>
 </rss>
