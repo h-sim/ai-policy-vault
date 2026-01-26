@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "433072f38e7fdd1d6019b76d60f10bde0a4a840d",
+    "impact": "Breaking",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-          # TEST_LOCAL_CHANGE",
+    "summary_ja": "",
+    "pubDate": "Mon, 26 Jan 2026 05:38:23 GMT"
+  }
+]

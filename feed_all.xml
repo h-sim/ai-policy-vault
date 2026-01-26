@@ -2,8 +2,16 @@
 <rss version="2.0">
 <channel>
 <title>AI Change Watcher (All)</title>
-<link>https://h-sim.github.io/ai-change-watcher/</link>
+<link>http://localhost/</link>
 <description>All detected text changes (may include noise). Verify on official sources.</description>
+
+<item>
+<title>[Breaking] OpenAI OpenAPI Spec (YAML)</title>
+<link>https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml</link>
+<description><![CDATA[Detected a text change. Please verify on the official page.<br/><br/>Diff (excerpt):<br/>-          # TEST_LOCAL_CHANGE]]></description>
+<pubDate>Mon, 26 Jan 2026 05:38:23 GMT</pubDate>
+<guid isPermaLink="false">433072f38e7fdd1d6019b76d60f10bde0a4a840d</guid>
+</item>
 
 </channel>
 </rss>
