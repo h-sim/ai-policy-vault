@@ -12,9 +12,21 @@ from openai import OpenAI
 from targets import TARGETS
 
 
+
 SNAPSHOT_DIR = "snapshots"
 STATE_FILE = "state.json"
 MAX_ITEMS = 50  # RSSに残す履歴数（多すぎると読まれない）
+
+# RSS/XML でノイズになりやすいメタデータ差分は無視（価値が低い通知を減らす）
+IGNORE_DIFF_SUBSTRINGS = [
+    "lastbuilddate",
+    "<lastbuilddate>",
+    "</lastbuilddate>",
+    "<generator>",
+    "</generator>",
+    "rel=\"self\"",
+    "type=\"application/rss+xml\"",
+]
 
 
 def slugify(name: str) -> str:
@@ -143,6 +155,10 @@ def diff_snippet(old_text: str, new_text: str, max_lines: int = 40) -> str:
             continue
         # 変更行のみ収集（±）
         if line.startswith(("-", "+")) and not line.startswith(("--", "++")):
+            # ノイズ差分は落とす（lastBuildDate等）
+            low = line.lower()
+            if any(s in low for s in IGNORE_DIFF_SUBSTRINGS):
+                continue
             # 長すぎる行は切る
             snippet_lines.append(line[:200])
         if len(snippet_lines) >= max_lines:
