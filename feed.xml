@@ -2,32 +2,8 @@
 <rss version="2.0">
 <channel>
 <title>AI Change Watcher (Important)</title>
-<link>https://h-sim.github.io/ai-change-watcher/</link>
+<link>http://localhost/</link>
 <description>Breaking/High changes only. Verify on official sources.</description>
-
-<item>
-<title>[Breaking] OpenAI OpenAPI Spec (YAML)</title>
-<link>https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml</link>
-<description><![CDATA[Summary (JA, 3 lines):<br/>OpenAPI仕様が大幅に更新されバージョン2.3.0へ上がったようです。<br/>APIの基本情報や利用規約、連絡先などが新たに追加された可能性があります。<br/>エンドポイントのURLや認証方式が明示され、タグによる機能分類も示されたように見えます。<br/><br/>Please verify on the official page.<br/>Source: https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml<br/><br/>Highlights (excerpt):<br/>+openapi: 3.1.0<br/>+  version: 2.3.0<br/>+  termsOfService: https://openai.com/policies/terms-of-use<br/>+  contact:<br/>+    url: https://help.openai.com/<br/>+  license:<br/>+    url: https://github.com/openai/openai-openapi/blob/master/LICENSE<br/>+servers:<br/>+  - url: https://api.openai.com/v1<br/>+security:<br/>+tags:<br/>+  - name: Assistants<br/>+  - name: Audio<br/>+  - name: Chat<br/>+  - name: Conversations<br/>+  - name: Completions]]></description>
-<pubDate>Mon, 26 Jan 2026 10:21:25 GMT</pubDate>
-<guid isPermaLink="false">f9826f2b2d8b81b8932209236f47c6e37cd77a2e</guid>
-</item>
-
-<item>
-<title>[High] OpenAI Developer Changelog (RSS)</title>
-<link>https://developers.openai.com/changelog/rss.xml</link>
-<description><![CDATA[Summary (JA, 3 lines):<br/>コードクライ CLIでマルチエージェントの制限が強化されたように見えます。<br/>ネットワークアクセス制御としてサンドボックスプロキシやプロキシ構成が追加された可能性があります。<br/>コネクター対応が一部実装され、コラボレーション機能がベータで提供開始のようです。<br/><br/>Please verify on the official page.<br/>Source: https://developers.openai.com/changelog/rss.xml<br/><br/>Diff (excerpt):<br/>-&lt;ul&gt;<br/>-&lt;li&gt;Reduced the maximum allowed number of sub-agents by half to tighten resource usage and guardrails in agent fan-out behavior (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text<br/>-&lt;/ul&gt;<br/>-&lt;h2&gt;Changelog&lt;/h2&gt;<br/>-&lt;p&gt;Full Changelog: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/openai/codex/compare/rust-v0.90.0...rust-v0.91.0&quot;&gt;&lt;tt&gt;rust-v0.90.0...rust-v0.91.0&lt;/tt&gt;&l<br/>-&lt;ul&gt;<br/>-&lt;li&gt;&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3853518456&quot; data-permission-text=&quot;Title is private&quot; data-url=&<br/>-&lt;/ul&gt;</content:encoded></item><item><title>Codex CLI Release: 0.90.0</title><link>https://developers.openai.com/changelog/#github-release-279750097</link><guid>https://developers.openai.com/cha<br/>-&lt;ul&gt;<br/>-&lt;li&gt;Added a network sandbox proxy with policy enforcement to better control outbound network access. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title<br/>-&lt;li&gt;Introduced the first phase of connectors support via the app server and MCP integration, including new config/docs updates. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text<br/>-&lt;li&gt;Shipped collaboration mode as beta in the TUI, with a clearer plan → execute handoff and simplified mode selection (Coding vs Plan). (&lt;a class=&quot;issue-link js-issue-link&quot; data-e<br/>-&lt;li&gt;Added ephemeral threads and improved collaboration tool provenance metadata for spawned threads. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title<br/>-&lt;li&gt;WebSocket connections now support proxy configuration. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3845092743&quot; data<br/>-&lt;li&gt;More strict limitation on multi-agents&lt;/li&gt;<br/>-&lt;/ul&gt;<br/>-&lt;h2&gt;Bug Fixes&lt;/h2&gt;<br/>-&lt<br/>...(truncated)]]></description>
-<pubDate>Mon, 26 Jan 2026 09:12:09 GMT</pubDate>
-<guid isPermaLink="false">d62830a90d4429ba2f76e6200c149f35d8124b5b</guid>
-</item>
-
-<item>
-<title>[High] OpenAI News (RSS)</title>
-<link>https://openai.com/news/rss.xml</link>
-<description><![CDATA[Summary (JA, 3 lines):<br/>OpenAI News (RSS)から多数の記事が削除されたように見えます。削除された記事にはGPT-5関連や企業提携の記事が含まれている可能性があります。これにより影響度が高いニュースフィードの内容変化が予想されます。<br/>差分のみ要確認のように見える<br/>差分のみ要確認のように見える<br/><br/>Please verify on the official page.<br/>Source: https://openai.com/news/rss.xml<br/><br/>Diff (excerpt):<br/>-Fri, 23 Jan 2026 12:00:00 GMT	Unrolling the Codex agent loop	https://openai.com/index/unrolling-the-codex-agent-loop	https://openai.com/index/unrolling-the-codex-agent-loop<br/>-Thu, 22 Jan 2026 12:00:00 GMT	Scaling PostgreSQL to power 800 million ChatGPT users	https://openai.com/index/scaling-postgresql	https://openai.com/index/scaling-postgresql<br/>-Thu, 22 Jan 2026 05:00:00 GMT	Inside Praktika's conversational approach to language learning	https://openai.com/index/praktika	https://openai.com/index/praktika<br/>-Thu, 22 Jan 2026 00:00:00 GMT	Inside GPT-5 for Work: How Businesses Use GPT-5	https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work	https://openai.com/business/<br/>-Wed, 21 Jan 2026 10:00:00 GMT	How Higgsfield turns simple ideas into cinematic social videos	https://openai.com/index/higgsfield	https://openai.com/index/higgsfield<br/>-Wed, 21 Jan 2026 01:00:00 GMT	Introducing Edu for Countries	https://openai.com/index/edu-for-countries	https://openai.com/index/edu-for-countries<br/>-Wed, 21 Jan 2026 01:00:00 GMT	How countries can end the capability overhang	https://openai.com/index/how-countries-can-end-the-capability-overhang	https://openai.com/index/how-countries-can-end-the-c<br/>-Tue, 20 Jan 2026 21:00:00 GMT	Horizon 1000: Advancing AI for primary healthcare	https://openai.com/index/horizon-1000	https://openai.com/index/horizon-1000<br/>-Tue, 20 Jan 2026 19:00:00 GMT	Stargate Community	https://openai.com/index/stargate-community	https://openai.com/index/stargate-community<br/>-Tue, 20 Jan 2026 11:00:00 GMT	Cisco and OpenAI redefine enterprise engineering with AI agents	https://openai.com/index/cisco	https://openai.com/index/cisco<br/>-Tue, 20 Jan 2026 05:45:00 GMT	ServiceNow powers actionable enterprise AI with OpenAI	https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai	https://openai.com/index/serviceno<br/>-Tue, 20 Jan 2026 00:00:00 GMT	Our approach to age prediction	https://openai.com/index/our-approach-to-age-prediction	https<br/>...(truncated)]]></description>
-<pubDate>Mon, 26 Jan 2026 09:01:49 GMT</pubDate>
-<guid isPermaLink="false">924ef19ae8d1d2cc590afa413162aaa6f7caf670</guid>
-</item>
 
 </channel>
 </rss>

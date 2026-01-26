@@ -157,6 +157,23 @@ def build_feed(items: list, title: str, link: str, description: str) -> str:
         is_openapi = "openapi" in (it.get("name") or "").lower()
         summary_ja = (it.get("summary_ja") or "").strip()
 
+        score = it.get("score", None)
+        reasons = it.get("reasons") or []
+        if not isinstance(reasons, list):
+            reasons = []
+
+        # 重要度の根拠を1行で表示（購読者の理解と信頼のため）
+        reason_line = ""
+        if reasons:
+            reason_text = ", ".join(str(r) for r in reasons if r)
+            # 長すぎると読みにくいので軽く制限
+            if len(reason_text) > 220:
+                reason_text = reason_text[:220] + "…"
+            if score is None:
+                reason_line = f"Reason: {reason_text}<br/><br/>"
+            else:
+                reason_line = f"Reason: {reason_text} (score={score})<br/><br/>"
+
         # Diff抜粋が巨大化するとRSSが読めなくなるため上限を設ける
         snippet_raw = snippet if snippet else "(no snippet)"
 
@@ -177,12 +194,14 @@ def build_feed(items: list, title: str, link: str, description: str) -> str:
                 f"{summary_ja_disp}<br/><br/>"
                 "Please verify on the official page.<br/>"
                 f"Source: {it.get('url','')}<br/><br/>"
+                + reason_line
                 + ("Highlights (excerpt):<br/>" if is_openapi else "Diff (excerpt):<br/>")
                 + f"{snippet_disp}"
             )
         else:
             desc = (
                 "Detected a text change. Please verify on the official page.<br/><br/>"
+                + reason_line
                 + ("Highlights (excerpt):<br/>" if is_openapi else "Diff (excerpt):<br/>")
                 + f"{snippet_disp}"
             )
