@@ -396,7 +396,8 @@ def classify_impact(name: str, url: str, snippet: str, default_impact: str):
             return "Low", score, reasons
 
         # 大量の削除/入替は誤検知が多いので弱めに扱う
-        if removed_lines >= 20 or added_lines >= 20:
+        # ただし「規約/安全/料金などの高シグナル」が既に出ている場合は、理由が冗長になりやすいので付けない
+        if (removed_lines >= 20 or added_lines >= 20) and (not has_high_signal):
             score += 10
             reasons.append("News: 大量更新（入替の可能性）")
 
@@ -495,6 +496,7 @@ def run_selftests(verbose: bool = False) -> bool:
             "expect_impact": "High",
             "expect_score_min": 50,
             "expect_reason_contains": ["News: policy/terms/pricing/security", "News: 高シグナル+大量更新（要確認）"],
+            "expect_reason_not_contains": ["News: 大量更新（入替の可能性）"],
         },
         {
             "id": "changelog_breaking",
@@ -580,6 +582,7 @@ def run_selftests(verbose: bool = False) -> bool:
         exp_score = t.get("expect_score")
         exp_score_min = t.get("expect_score_min")
         need_reasons = t.get("expect_reason_contains") or []
+        deny_reasons = t.get("expect_reason_not_contains") or []
 
         fail_reasons = []
         if exp_impact is not None and impact != exp_impact:
@@ -591,6 +594,9 @@ def run_selftests(verbose: bool = False) -> bool:
         for r in need_reasons:
             if r not in reasons:
                 fail_reasons.append(f"missing reason '{r}'")
+        for r in deny_reasons:
+            if r in reasons:
+                fail_reasons.append(f"unexpected reason '{r}'")
 
         if fail_reasons:
             ok = False
