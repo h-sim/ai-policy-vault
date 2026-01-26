@@ -53,21 +53,25 @@ def build_feed(items: list, title: str, link: str, description: str) -> str:
         snippet = it.get("snippet", "").strip()
         summary_ja = (it.get("summary_ja") or "").strip()
 
+        # RSSリーダーで改行が潰れることがあるため、表示は <br/> に統一
+        snippet_disp = (snippet if snippet else "(no snippet)").replace("\n", "<br/>")
+        summary_ja_disp = summary_ja.replace("\n", "<br/>")
+
         if summary_ja:
             # Important向け：日本語3行要約を優先
             desc = (
-                "Summary (JA, 3 lines):\n"
-                f"{summary_ja}\n\n"
-                "Please verify on the official page.\n"
-                f"Source: {it.get('url','')}\n\n"
-                "Diff (excerpt):\n"
-                f"{snippet if snippet else '(no snippet)'}"
+                "Summary (JA, 3 lines):<br/>"
+                f"{summary_ja_disp}<br/><br/>"
+                "Please verify on the official page.<br/>"
+                f"Source: {it.get('url','')}<br/><br/>"
+                "Diff (excerpt):<br/>"
+                f"{snippet_disp}"
             )
         else:
             desc = (
-                "Detected a text change. Please verify on the official page.\n\n"
-                "Diff (excerpt):\n"
-                f"{snippet if snippet else '(no snippet)'}"
+                "Detected a text change. Please verify on the official page.<br/><br/>"
+                "Diff (excerpt):<br/>"
+                f"{snippet_disp}"
             )
 
         # RSSで改行を保ちたいので CDATA に入れる（XMLとして安全）
