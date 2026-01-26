@@ -1,5 +1,14 @@
 [
   {
+    "id": "f9826f2b2d8b81b8932209236f47c6e37cd77a2e",
+    "impact": "Breaking",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-{\n-  \"components\": {\n-    \"schemas\": {\n-      \"ActiveStatus\": {\n-        \"description\": \"Indicates that a thread is active.\",\n-        \"properties\": {\n-          \"type\": {\n-            \"default\": \"active\",\n-            \"description\": \"Status discriminator that is always `active`.\",\n-            \"enum\": [\n-              \"active\"\n+openapi: 3.1.0\n+info:\n+  title: OpenAI API\n+  description: The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.\n+  version: 2.3.0\n+  termsOfService: https://openai.com/policies/terms-of-use\n+  contact:\n+    name: OpenAI Support\n+    url: https://help.openai.com/\n+  license:\n+    name: MIT\n+    url: https://github.com/openai/openai-openapi/blob/master/LICENSE\n+servers:\n+  - url: https://api.openai.com/v1\n+security:\n+  - ApiKeyAuth: []\n+tags:\n+  - name: Assistants\n+    description: Build Assistants that can call models and use tools.\n+  - name: Audio\n+    description: Turn audio into text or text into audio.\n+  - name: Chat\n+    description: Given a list of messages comprising a conversation, the model will return a response.\n+  - name: Conversations\n+    description: Manage conversations and conversation items.\n+  - name: Completions\n+    description: >-\n+      Given a prompt, the model will return one or more predicted completions, and can also return the\n+      probabilities of alternative tokens at each position.",
+    "summary_ja": "OpenAPI仕様が大幅に更新されバージョン2.3.0へ上がったようです。\nAPIの基本情報や利用規約、連絡先などが新たに追加された可能性があります。\nエンドポイントのURLや認証方式が明示され、タグによる機能分類も示されたように見えます。",
+    "pubDate": "Mon, 26 Jan 2026 10:21:25 GMT"
+  },
+  {
     "id": "6e2a8d8369bfac2bfaaef8e6cc957a4c78dad941",
     "impact": "Breaking",
     "name": "OpenAI OpenAPI Spec (YAML)",
