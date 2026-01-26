@@ -30,7 +30,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python3 run_multi.py
+          python3 run_multi.py --log-diff-stats
           python3 generate_rss.py
 
       - name: Commit and push changes
