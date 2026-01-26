@@ -1,0 +1,80 @@
+Fri, 23 Jan 2026 12:00:00 GMT	Unrolling the Codex agent loop	https://openai.com/index/unrolling-the-codex-agent-loop	https://openai.com/index/unrolling-the-codex-agent-loop
+Thu, 22 Jan 2026 12:00:00 GMT	Scaling PostgreSQL to power 800 million ChatGPT users	https://openai.com/index/scaling-postgresql	https://openai.com/index/scaling-postgresql
+Thu, 22 Jan 2026 05:00:00 GMT	Inside Praktika's conversational approach to language learning	https://openai.com/index/praktika	https://openai.com/index/praktika
+Thu, 22 Jan 2026 00:00:00 GMT	Inside GPT-5 for Work: How Businesses Use GPT-5	https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work	https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
+Wed, 21 Jan 2026 10:00:00 GMT	How Higgsfield turns simple ideas into cinematic social videos	https://openai.com/index/higgsfield	https://openai.com/index/higgsfield
+Wed, 21 Jan 2026 01:00:00 GMT	Introducing Edu for Countries	https://openai.com/index/edu-for-countries	https://openai.com/index/edu-for-countries
+Wed, 21 Jan 2026 01:00:00 GMT	How countries can end the capability overhang	https://openai.com/index/how-countries-can-end-the-capability-overhang	https://openai.com/index/how-countries-can-end-the-capability-overhang
+Tue, 20 Jan 2026 21:00:00 GMT	Horizon 1000: Advancing AI for primary healthcare	https://openai.com/index/horizon-1000	https://openai.com/index/horizon-1000
+Tue, 20 Jan 2026 19:00:00 GMT	Stargate Community	https://openai.com/index/stargate-community	https://openai.com/index/stargate-community
+Tue, 20 Jan 2026 11:00:00 GMT	Cisco and OpenAI redefine enterprise engineering with AI agents	https://openai.com/index/cisco	https://openai.com/index/cisco
+Tue, 20 Jan 2026 05:45:00 GMT	ServiceNow powers actionable enterprise AI with OpenAI	https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai	https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai
+Tue, 20 Jan 2026 00:00:00 GMT	Our approach to age prediction	https://openai.com/index/our-approach-to-age-prediction	https://openai.com/index/our-approach-to-age-prediction
+Sun, 18 Jan 2026 12:00:00 GMT	AI for self empowerment	https://openai.com/index/ai-for-self-empowerment	https://openai.com/index/ai-for-self-empowerment
+Sun, 18 Jan 2026 10:00:00 GMT	A business that scales with the value of intelligence	https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence	https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
+Fri, 16 Jan 2026 12:00:00 GMT	The truth left out from Elon Musk’s recent court filing	https://openai.com/index/the-truth-elon-left-out	https://openai.com/index/the-truth-elon-left-out
+Fri, 16 Jan 2026 00:00:00 GMT	Introducing ChatGPT Go, now available worldwide	https://openai.com/index/introducing-chatgpt-go	https://openai.com/index/introducing-chatgpt-go
+Fri, 16 Jan 2026 00:00:00 GMT	Our approach to advertising and expanding access to ChatGPT	https://openai.com/index/our-approach-to-advertising-and-expanding-access	https://openai.com/index/our-approach-to-advertising-and-expanding-access
+Thu, 15 Jan 2026 07:00:00 GMT	Investing in Merge Labs	https://openai.com/index/investing-in-merge-labs	https://openai.com/index/investing-in-merge-labs
+Thu, 15 Jan 2026 00:00:00 GMT	Strengthening the U.S. AI supply chain through domestic manufacturing	https://openai.com/index/strengthening-the-us-ai-supply-chain	https://openai.com/index/strengthening-the-us-ai-supply-chain
+Wed, 14 Jan 2026 14:00:00 GMT	OpenAI partners with Cerebras	https://openai.com/index/cerebras-partnership	https://openai.com/index/cerebras-partnership
+Tue, 13 Jan 2026 16:00:00 GMT	Zenken boosts a lean sales team with ChatGPT Enterprise	https://openai.com/index/zenken	https://openai.com/index/zenken
+Mon, 12 Jan 2026 00:00:00 GMT	OpenAI’s Raising Concerns Policy	https://openai.com/index/openai-raising-concerns-policy	https://openai.com/index/openai-raising-concerns-policy
+Fri, 09 Jan 2026 11:00:00 GMT	OpenAI and SoftBank Group partner with SB Energy	https://openai.com/index/stargate-sb-energy-partnership	https://openai.com/index/stargate-sb-energy-partnership
+Fri, 09 Jan 2026 00:00:00 GMT	Datadog uses Codex for system-level code review	https://openai.com/index/datadog	https://openai.com/index/datadog
+Thu, 08 Jan 2026 13:00:00 GMT	Netomi’s lessons for scaling agentic systems into the enterprise	https://openai.com/index/netomi	https://openai.com/index/netomi
+Thu, 08 Jan 2026 12:00:00 GMT	OpenAI for Healthcare	https://openai.com/index/openai-for-healthcare	https://openai.com/index/openai-for-healthcare
+Wed, 07 Jan 2026 10:00:00 GMT	How Tolan builds voice-first AI with GPT-5.1	https://openai.com/index/tolan	https://openai.com/index/tolan
+Wed, 07 Jan 2026 00:00:00 GMT	Introducing ChatGPT Health	https://openai.com/index/introducing-chatgpt-health	https://openai.com/index/introducing-chatgpt-health
+Fri, 02 Jan 2026 10:00:00 GMT	Announcing OpenAI Grove Cohort 2	https://openai.com/index/openai-grove	https://openai.com/index/openai-grove
+Mon, 22 Dec 2025 00:00:00 GMT	One in a million: celebrating the customers shaping AI’s future	https://openai.com/index/one-in-a-million-customers	https://openai.com/index/one-in-a-million-customers
+Mon, 22 Dec 2025 00:00:00 GMT	Continuously hardening ChatGPT Atlas against prompt injection	https://openai.com/index/hardening-atlas-against-prompt-injection	https://openai.com/index/hardening-atlas-against-prompt-injection
+Thu, 18 Dec 2025 12:00:00 GMT	Evaluating chain-of-thought monitorability	https://openai.com/index/evaluating-chain-of-thought-monitorability	https://openai.com/index/evaluating-chain-of-thought-monitorability
+Thu, 18 Dec 2025 11:00:00 GMT	Deepening our collaboration with the U.S. Department of Energy	https://openai.com/index/us-department-of-energy-collaboration	https://openai.com/index/us-department-of-energy-collaboration
+Thu, 18 Dec 2025 11:00:00 GMT	Updating our Model Spec with teen protections	https://openai.com/index/updating-model-spec-with-teen-protections	https://openai.com/index/updating-model-spec-with-teen-protections
+Thu, 18 Dec 2025 11:00:00 GMT	AI literacy resources for teens and parents	https://openai.com/index/ai-literacy-resources-for-teens-and-parents	https://openai.com/index/ai-literacy-resources-for-teens-and-parents
+Thu, 18 Dec 2025 00:00:00 GMT	Introducing GPT-5.2-Codex	https://openai.com/index/gpt-5-2-codex	https://openai.com/index/gpt-5-2-codex
+Thu, 18 Dec 2025 00:00:00 GMT	Addendum to GPT-5.2 System Card: GPT-5.2-Codex	https://openai.com/index/gpt-5-2-codex-system-card	https://openai.com/index/gpt-5-2-codex-system-card
+Thu, 18 Dec 2025 00:00:00 GMT	Introducing GPT-5.2-Codex	https://openai.com/index/introducing-gpt-5-2-codex	https://openai.com/index/introducing-gpt-5-2-codex
+Wed, 17 Dec 2025 06:00:00 GMT	Introducing OpenAI Academy for News Organizations	https://openai.com/index/openai-academy-for-news-organizations	https://openai.com/index/openai-academy-for-news-organizations
+Wed, 17 Dec 2025 00:00:00 GMT	Developers can now submit apps to ChatGPT	https://openai.com/index/developers-can-now-submit-apps-to-chatgpt	https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
+Tue, 16 Dec 2025 09:00:00 GMT	Evaluating AI’s ability to perform scientific research tasks	https://openai.com/index/frontierscience	https://openai.com/index/frontierscience
+Tue, 16 Dec 2025 08:00:00 GMT	Measuring AI’s capability to accelerate biological research	https://openai.com/index/accelerating-biological-research-in-the-wet-lab	https://openai.com/index/accelerating-biological-research-in-the-wet-lab
+Tue, 16 Dec 2025 00:00:00 GMT	The new ChatGPT Images is here	https://openai.com/index/new-chatgpt-images-is-here	https://openai.com/index/new-chatgpt-images-is-here
+Fri, 12 Dec 2025 00:00:00 GMT	How We Used Codex to Ship Sora for Android in 28 Days	https://openai.com/index/shipping-sora-for-android-with-codex	https://openai.com/index/shipping-sora-for-android-with-codex
+Fri, 12 Dec 2025 00:00:00 GMT	BBVA and OpenAI collaborate to transform global banking	https://openai.com/index/bbva-collaboration-expansion	https://openai.com/index/bbva-collaboration-expansion
+Fri, 12 Dec 2025 00:00:00 GMT	BNY builds “AI for everyone, everywhere” with OpenAI	https://openai.com/index/bny	https://openai.com/index/bny
+Thu, 11 Dec 2025 10:00:00 GMT	Advancing science and math with GPT-5.2	https://openai.com/index/gpt-5-2-for-science-and-math	https://openai.com/index/gpt-5-2-for-science-and-math
+Thu, 11 Dec 2025 00:00:00 GMT	Increasing revenue 300% by bringing AI to SMBs	https://openai.com/index/podium	https://openai.com/index/podium
+Thu, 11 Dec 2025 00:00:00 GMT	Introducing GPT-5.2	https://openai.com/index/introducing-gpt-5-2	https://openai.com/index/introducing-gpt-5-2
+Thu, 11 Dec 2025 00:00:00 GMT	Update to GPT-5 System Card: GPT-5.2	https://openai.com/index/gpt-5-system-card-update-gpt-5-2	https://openai.com/index/gpt-5-system-card-update-gpt-5-2
+Thu, 11 Dec 2025 00:00:00 GMT	Ten years	https://openai.com/index/ten-years	https://openai.com/index/ten-years
+Thu, 11 Dec 2025 00:00:00 GMT	The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora	https://openai.com/index/disney-sora-agreement	https://openai.com/index/disney-sora-agreement
+Wed, 10 Dec 2025 12:00:00 GMT	Strengthening cyber resilience as AI capabilities advance	https://openai.com/index/strengthening-cyber-resilience	https://openai.com/index/strengthening-cyber-resilience
+Tue, 09 Dec 2025 16:00:00 GMT	How Scout24 is building the next generation of real-estate search with AI	https://openai.com/index/scout24	https://openai.com/index/scout24
+Tue, 09 Dec 2025 09:00:00 GMT	OpenAI co-founds Agentic AI Foundation, donates AGENTS.md	https://openai.com/index/agentic-ai-foundation	https://openai.com/index/agentic-ai-foundation
+Tue, 09 Dec 2025 06:00:00 GMT	Launching our first OpenAI Certifications courses	https://openai.com/index/openai-certificate-courses	https://openai.com/index/openai-certificate-courses
+Tue, 09 Dec 2025 00:00:00 GMT	Bringing powerful AI to millions across Europe with Deutsche Telekom	https://openai.com/index/deutsche-telekom-collaboration	https://openai.com/index/deutsche-telekom-collaboration
+Tue, 09 Dec 2025 00:00:00 GMT	OpenAI appoints Denise Dresser as Chief Revenue Officer	https://openai.com/index/openai-appoints-denise-dresser	https://openai.com/index/openai-appoints-denise-dresser
+Tue, 09 Dec 2025 00:00:00 GMT	Building AI fluency at scale with ChatGPT Enterprise	https://openai.com/index/commonwealth-bank-of-australia	https://openai.com/index/commonwealth-bank-of-australia
+Mon, 08 Dec 2025 06:00:00 GMT	Instacart and OpenAI partner on AI shopping experiences	https://openai.com/index/instacart-partnership	https://openai.com/index/instacart-partnership
+Mon, 08 Dec 2025 04:00:00 GMT	The state of enterprise AI	https://openai.com/index/the-state-of-enterprise-ai-2025-report	https://openai.com/index/the-state-of-enterprise-ai-2025-report
+Mon, 08 Dec 2025 00:00:00 GMT	How Virgin Atlantic uses AI to enhance every step of travel	https://openai.com/index/virgin-atlantic-oliver-byers	https://openai.com/index/virgin-atlantic-oliver-byers
+Thu, 04 Dec 2025 19:00:00 GMT	Introducing OpenAI for Australia	https://openai.com/global-affairs/openai-for-australia	https://openai.com/global-affairs/openai-for-australia
+Wed, 03 Dec 2025 10:00:00 GMT	How confessions can keep language models honest	https://openai.com/index/how-confessions-can-keep-language-models-honest	https://openai.com/index/how-confessions-can-keep-language-models-honest
+Wed, 03 Dec 2025 10:00:00 GMT	OpenAI to acquire Neptune	https://openai.com/index/openai-to-acquire-neptune	https://openai.com/index/openai-to-acquire-neptune
+Wed, 03 Dec 2025 08:00:00 GMT	Announcing the initial People-First AI Fund grantees	https://openai.com/index/people-first-ai-fund-grantees	https://openai.com/index/people-first-ai-fund-grantees
+Mon, 01 Dec 2025 22:00:00 GMT	Inside Mirakl's agentic commerce vision	https://openai.com/index/mirakl	https://openai.com/index/mirakl
+Mon, 01 Dec 2025 12:00:00 GMT	Funding grants for new research into AI and mental health	https://openai.com/index/ai-mental-health-research-grants	https://openai.com/index/ai-mental-health-research-grants
+Mon, 01 Dec 2025 06:00:00 GMT	OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”	https://openai.com/index/norad-holiday-collaboration	https://openai.com/index/norad-holiday-collaboration
+Mon, 01 Dec 2025 05:00:00 GMT	OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption	https://openai.com/index/thrive-holdings	https://openai.com/index/thrive-holdings
+Mon, 01 Dec 2025 05:00:00 GMT	Accenture and OpenAI accelerate enterprise AI success	https://openai.com/index/accenture-partnership	https://openai.com/index/accenture-partnership
+Wed, 26 Nov 2025 19:00:00 GMT	Mixpanel security incident: what OpenAI users need to know	https://openai.com/index/mixpanel-incident	https://openai.com/index/mixpanel-incident
+Tue, 25 Nov 2025 22:00:00 GMT	Expanding data residency access to business customers worldwide	https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide	https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
+Tue, 25 Nov 2025 12:00:00 GMT	Our approach to mental health-related litigation	https://openai.com/index/mental-health-litigation-approach	https://openai.com/index/mental-health-litigation-approach
+Tue, 25 Nov 2025 00:00:00 GMT	Inside JetBrains—the company reshaping how the world writes code	https://openai.com/index/jetbrains-2025	https://openai.com/index/jetbrains-2025
+Mon, 24 Nov 2025 00:00:00 GMT	GPT-5 and the future of mathematical discovery	https://openai.com/index/gpt-5-mathematical-discovery	https://openai.com/index/gpt-5-mathematical-discovery
+Mon, 24 Nov 2025 00:00:00 GMT	Introducing shopping research in ChatGPT	https://openai.com/index/chatgpt-shopping-research	https://openai.com/index/chatgpt-shopping-research
+Thu, 20 Nov 2025 14:50:00 GMT	OpenAI and Foxconn collaborate to strengthen U.S. manufacturing across the AI supply chain	https://openai.com/index/openai-and-foxconn-collaborate	https://openai.com/index/openai-and-foxconn-collaborate
+Thu, 20 Nov 2025 06:00:00 GMT	Helping 1,000 small businesses build with AI	https://openai.com/index/small-business-ai-jam	https://openai.com/index/small-business-ai-jam
+Thu, 20 Nov 2025 00:00:00 GMT	Early experiments in accelerating science with GPT-5	https://openai.com/index/accelerating-science-gpt-5	https://openai.com/index/accelerating-science-gpt-5
