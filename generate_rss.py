@@ -51,11 +51,24 @@ def build_feed(items: list, title: str, link: str, description: str) -> str:
 
         # 炎上耐性：断定しない、公式で確認を促す
         snippet = it.get("snippet", "").strip()
-        desc = (
-            "Detected a text change. Please verify on the official page.\n\n"
-            "Diff (excerpt):\n"
-            f"{snippet if snippet else '(no snippet)'}"
-        )
+        summary_ja = (it.get("summary_ja") or "").strip()
+
+        if summary_ja:
+            # Important向け：日本語3行要約を優先
+            desc = (
+                "Summary (JA, 3 lines):\n"
+                f"{summary_ja}\n\n"
+                "Please verify on the official page.\n"
+                f"Source: {it.get('url','')}\n\n"
+                "Diff (excerpt):\n"
+                f"{snippet if snippet else '(no snippet)'}"
+            )
+        else:
+            desc = (
+                "Detected a text change. Please verify on the official page.\n\n"
+                "Diff (excerpt):\n"
+                f"{snippet if snippet else '(no snippet)'}"
+            )
 
         # RSSで改行を保ちたいので CDATA に入れる（XMLとして安全）
         out.append(f"""

@@ -2,8 +2,58 @@
 <rss version="2.0">
 <channel>
 <title>AI Change Watcher (Important)</title>
-<link>https://h-sim.github.io/ai-change-watcher/</link>
+<link>http://localhost/</link>
 <description>Breaking/High changes only. Verify on official sources.</description>
+
+<item>
+<title>[High] OpenAI Developer Changelog (RSS)</title>
+<link>https://developers.openai.com/changelog/rss.xml</link>
+<description><![CDATA[Detected a text change. Please verify on the official page.
+
+Diff (excerpt):
+-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developer changelog</title><
++<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developer changelog</title><
++&lt;ul&gt;
++&lt;li&gt;Reduced the maximum allowed number of sub-agents by half to tighten resource usage and guardrails in agent fan-out behavior (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text
++&lt;/ul&gt;
++&lt;h2&gt;Changelog&lt;/h2&gt;
++&lt;p&gt;Full Changelog: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/openai/codex/compare/rust-v0.90.0...rust-v0.91.0&quot;&gt;&lt;tt&gt;rust-v0.90.0...rust-v0.91.0&lt;/tt&gt;&l
++&lt;ul&gt;
++&lt;li&gt;&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3853518456&quot; data-permission-text=&quot;Title is private&quot; data-url=&
++&lt;/ul&gt;</content:encoded></item><item><title>Codex CLI Release: 0.90.0</title><link>https://developers.openai.com/changelog/#github-release-279750097</link><guid>https://developers.openai.com/cha
++&lt;ul&gt;
++&lt;li&gt;Added a network sandbox proxy with policy enforcement to better control outbound network access. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title
++&lt;li&gt;Introduced the first phase of connectors support via the app server and MCP integration, including new config/docs updates. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text
++&lt;li&gt;Shipped collaboration mode as beta in the TUI, with a clearer plan → execute handoff and simplified mode selection (Coding vs Plan). (&lt;a class=&quot;issue-link js-issue-link&quot; data-e
++&lt;li&gt;Added ephemeral threads and improved collaboration tool provenance metadata for spawned threads. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title
++&lt;li&gt;WebSocket connections now support proxy configuration. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3845092743&quot; data
++&lt;li&gt;More strict limitation on multi-agents&lt;/li&gt;
++&lt;/ul&gt;
++&lt;h2&gt;Bug Fixes&lt;/h2&gt;
++&lt;ul&gt;
++&lt;li&gt;Fixed exec policy parsing for multiline quoted arguments. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3836034142&quot; d
++&lt;li&gt;&lt;code&gt;--yolo&lt;/code&gt; now skips the git repository check instead of failing outside a repo. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load 
++&lt;li&gt;Improved resume reliability by handling out-of-order events and prompting for the working directory when it differs. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;
++&lt;li&gt;Backspace no longer deletes a text element when the cursor is at the element’s left edge. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; 
++&lt;li&gt;Config loading errors are clearer and more actionable across surfaces. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;38461
++&lt;li&gt;Default model selection now respects filtered presets to avoid invalid defaults. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&
++&lt;/ul&gt;
++&lt;h2&gt;Documentation&lt;/h2&gt;
++&lt;ul&gt;
++&lt;li&gt;Corrected a typo in the experimental collaboration prompt template. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;38448345
++&lt;li&gt;Added documentation for the new connectors configuration surface. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3841758895
++&lt;/ul&gt;
++&lt;h2&gt;Chores&lt;/h2&gt;
++&lt;ul&gt;
++&lt;li&gt;Refreshed the bundled model catalog/presets. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3845282520&quot; data-permissio
++&lt;li&gt;Updated GitHub Actions for Node 24 compatibility. (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3845139125&quot; data-perm
++&lt;/ul&gt;
++&lt;h2&gt;Changelog&lt;/h2&gt;
++&lt;p&gt;Full Changelog: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/openai/codex/compare/rust-v0.89.0...rust-v0.90.0&quot;&gt;&lt;tt&gt;rust-v0.89.0...rust-v0.90.0&lt;/tt&gt;&l
++&lt;ul&gt;]]></description>
+<pubDate>Mon, 26 Jan 2026 03:08:06 GMT</pubDate>
+<guid isPermaLink="false">5b6a819810592cfd4fcd9d9db630201e3c355c0d</guid>
+</item>
 
 <item>
 <title>[High] OpenAI Developer Changelog (RSS)</title>
