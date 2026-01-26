@@ -31,8 +31,8 @@ def rss_escape(s: str) -> str:
 
 
 def build_feed(items: list, title: str, link: str, description: str) -> str:
-    header = f"""<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+    header = f"""<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
+<rss version=\"2.0\">
 <channel>
 <title>{rss_escape(title)}</title>
 <link>{rss_escape(link)}</link>
@@ -77,7 +77,7 @@ def build_feed(items: list, title: str, link: str, description: str) -> str:
 <link>{rss_escape(item_link)}</link>
 <description><![CDATA[{desc}]]></description>
 <pubDate>{rss_escape(pub_date)}</pubDate>
-<guid isPermaLink="false">{rss_escape(it["id"])}</guid>
+<guid isPermaLink=\"false\">{rss_escape(it["id"])}</guid>
 </item>
 """)
 

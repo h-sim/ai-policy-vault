@@ -7,6 +7,7 @@ from difflib import unified_diff
 
 import requests
 from bs4 import BeautifulSoup
+from openai import OpenAI
 from targets import TARGETS
 
 
@@ -88,6 +89,55 @@ def classify_impact(name: str, url: str, snippet: str, default_impact: str) -> s
         return "Medium"
 
     return default_impact
+
+
+def summarize_ja_3lines(name: str, url: str, snippet: str, impact: str) -> str:
+    """日本語3行要約（炎上しない設計）
+    - 断定しない（「〜の可能性」「〜のように見える」）
+    - 推測や外部知識を入れない（差分から読める範囲のみ）
+    - 失敗しても運用を止めない（空文字で返す）
+    """
+    api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    if not api_key:
+        return ""
+
+    try:
+        client = OpenAI(api_key=api_key)
+
+        prompt = f"""あなたはプロダクト責任者向けの変更監視アシスタントです。
+以下の差分（+/-行）だけから、日本語で『必ず3行』要約してください。
+
+制約:
+- 必ず3行（改行2つ）
+- 1行は40文字程度まで（長い場合は短く）
+- 断定禁止（「〜の可能性」「〜のように見える」）
+- 推測や外部知識は禁止。差分から読める範囲のみ
+
+対象:
+- name: {name}
+- url: {url}
+- impact: {impact}
+
+差分:
+{snippet}
+"""
+
+        resp = client.responses.create(
+            model="gpt-4.1-mini",
+            input=prompt,
+        )
+
+        text = (getattr(resp, "output_text", "") or "").strip()
+
+        # 保険：必ず3行に整形
+        lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+        lines = lines[:3]
+        while len(lines) < 3:
+            lines.append("要約生成に失敗（差分のみ確認）")
+        return "\n".join(lines)
+
+    except Exception:
+        return ""
 
 
 def utc_now_rfc822() -> str:
@@ -186,6 +236,11 @@ def main():
         if snippet:
             impact2 = classify_impact(name, url, snippet, impact)
 
+            # Important（Breaking/High）の変更だけ日本語3行要約（API失敗時は空で継続）
+            summary_ja = ""
+            if impact2 in ("Breaking", "High"):
+                summary_ja = summarize_ja_3lines(name, url, snippet, impact2)
+
             item_id = make_item_id(url, snippet)
             if item_id not in existing_ids:
                 state.insert(0, {
@@ -194,6 +249,7 @@ def main():
                     "name": name,
                     "url": url,
                     "snippet": snippet,
+                    "summary_ja": summary_ja,
                     "pubDate": utc_now_rfc822(),
                 })
                 existing_ids.add(item_id)
