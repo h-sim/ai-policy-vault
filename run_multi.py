@@ -4,6 +4,7 @@ import json
 import hashlib
 from datetime import datetime, timezone
 from difflib import unified_diff
+import xml.etree.ElementTree as ET
 
 import requests
 from bs4 import BeautifulSoup
@@ -33,6 +34,101 @@ def extract_text(html: str) -> str:
     text = soup.get_text(separator="\n")
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     return "\n".join(lines)
+
+
+def _xml_text(el) -> str:
+    if el is None:
+        return ""
+    return (el.text or "").strip()
+
+
+def _first_child_text(parent, names) -> str:
+    if parent is None:
+        return ""
+    for nm in names:
+        child = parent.find(nm)
+        if child is not None:
+            t = _xml_text(child)
+            if t:
+                return t
+    return ""
+
+
+def _first_link(parent) -> str:
+    if parent is None:
+        return ""
+
+    # Atom: <link href="..." rel="alternate" />
+    for lk in parent.findall("{http://www.w3.org/2005/Atom}link"):
+        href = (lk.attrib.get("href") or "").strip()
+        rel = (lk.attrib.get("rel") or "").strip().lower()
+        if href and (rel in ("", "alternate")):
+            return href
+
+    # RSS: <link>https://...</link>
+    lk = parent.find("link")
+    if lk is not None:
+        t = _xml_text(lk)
+        if t:
+            return t
+
+    # 名前空間付きRSS互換
+    for lk in parent.findall("{*}link"):
+        t = _xml_text(lk)
+        if t:
+            return t
+        href = (lk.attrib.get("href") or "").strip()
+        if href:
+            return href
+
+    return ""
+
+
+def normalize_feed_xml(xml_text: str, max_items: int = 80) -> str:
+    """RSS/AtomのXMLを『更新検知に必要な最小情報』に正規化してノイズを削る。"""
+    xml_text = (xml_text or "").strip()
+    if not xml_text:
+        return ""
+
+    try:
+        root = ET.fromstring(xml_text)
+    except Exception:
+        # XMLとしてパースできない場合はそのまま比較（壊さない）
+        return xml_text
+
+    tag = (root.tag or "").lower()
+    lines = []
+
+    # RSS 2.0
+    if tag.endswith("rss") or "rss" in tag:
+        channel = root.find("channel") or root.find("{*}channel")
+        items = []
+        if channel is not None:
+            items = channel.findall("item") or channel.findall("{*}item")
+
+        for it in items[:max_items]:
+            title = _first_child_text(it, ["title", "{*}title"]) or "(no title)"
+            link = _first_link(it)
+            dt = _first_child_text(it, ["pubDate", "{*}pubDate"]) or _first_child_text(it, ["date", "{*}date"])
+            gid = _first_child_text(it, ["guid", "{*}guid"]) or _first_child_text(it, ["id", "{*}id"])
+            lines.append(f"{dt}\t{title}\t{link}\t{gid}")
+
+        return "\n".join(lines).strip() or xml_text
+
+    # Atom
+    if tag.endswith("feed") or "feed" in tag:
+        ns_atom = "{http://www.w3.org/2005/Atom}"
+        entries = root.findall(f"{ns_atom}entry")
+        for ent in entries[:max_items]:
+            title = _first_child_text(ent, [f"{ns_atom}title", "title", "{*}title"]) or "(no title)"
+            link = _first_link(ent)
+            dt = _first_child_text(ent, [f"{ns_atom}updated", f"{ns_atom}published", "updated", "published", "{*}updated", "{*}published"])
+            gid = _first_child_text(ent, [f"{ns_atom}id", "id", "{*}id"])
+            lines.append(f"{dt}\t{title}\t{link}\t{gid}")
+
+        return "\n".join(lines).strip() or xml_text
+
+    return xml_text
 
 
 def diff_snippet(old_text: str, new_text: str, max_lines: int = 40) -> str:
@@ -205,9 +301,14 @@ def main():
         try:
             raw = fetch(url)
 
-            # XML/YAMLはパースせずそのまま比較（警告＆ノイズ回避）
-            if url.endswith((".xml", ".yml", ".yaml")):
+            # XMLはRSS/Atomなら『エントリ一覧』に正規化して比較（巨大diffのノイズ削減）
+            if url.endswith(".xml"):
+                new_text = normalize_feed_xml(raw, max_items=80)
+
+            # YAMLはそのまま（正規化は行末処理で最低限）
+            elif url.endswith((".yml", ".yaml")):
                 new_text = raw
+
             else:
                 # HTMLっぽい場合だけテキスト抽出
                 if "<html" in raw.lower() or "<!doctype html" in raw.lower():
