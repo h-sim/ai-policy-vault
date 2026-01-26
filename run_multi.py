@@ -181,6 +181,46 @@ def diff_snippet(old_text: str, new_text: str, max_lines: int = 40) -> str:
 
     return "\n".join(snippet_lines).strip()
 
+def diff_stats(old_text: str, new_text: str) -> dict:
+    """diff_snippet と同じフィルタ方針で、追加/削除行数を集計する。"""
+    old_lines = old_text.splitlines(keepends=False)
+    new_lines = new_text.splitlines(keepends=False)
+
+    added = 0
+    removed = 0
+
+    diff = unified_diff(old_lines, new_lines, lineterm="")
+    for line in diff:
+        # ヘッダは除外
+        if line.startswith(("---", "+++", "@@")):
+            continue
+        if line.startswith(("-", "+")) and not line.startswith(("--", "++")):
+            low = line.lower()
+            if any(s in low for s in IGNORE_DIFF_SUBSTRINGS):
+                continue
+            if line.startswith("+"):
+                added += 1
+            elif line.startswith("-"):
+                removed += 1
+
+    return {"added": added, "removed": removed, "churn": added + removed}
+
+def snippet_stats(snippet: str) -> dict:
+    """snippet（+/-行）から、追加/削除/総量(churn)を集計する。"""
+    added = 0
+    removed = 0
+    for line in (snippet or "").splitlines():
+        if not line:
+            continue
+        if line.startswith(("+", "-")) and not line.startswith(("++", "--")):
+            low = line.lower()
+            if any(s in low for s in IGNORE_DIFF_SUBSTRINGS):
+                continue
+            if line.startswith("+"):
+                added += 1
+            elif line.startswith("-"):
+                removed += 1
+    return {"added": added, "removed": removed, "churn": added + removed}
 
 def classify_impact(name: str, url: str, snippet: str, default_impact: str):
     """重要度の自動判定（MVP: 方針2=ノイズ最小優先）
@@ -417,6 +457,7 @@ def run_selftests(verbose: bool = False) -> bool:
 
     for t in tests:
         impact, score, reasons = classify_impact(t["name"], t["url"], t["snippet"], t["default"])
+        st = snippet_stats(t["snippet"])
 
         exp_impact = t.get("expect_impact")
         exp_score = t.get("expect_score")
@@ -442,10 +483,9 @@ def run_selftests(verbose: bool = False) -> bool:
                 print("       snippet=", t["snippet"])
         else:
             if verbose:
-                print(f"[PASS] {t['id']}: impact={impact} score={score} reasons={reasons}")
+                print(f"[PASS] {t['id']}: impact={impact} score={score} reasons={reasons} (+{st['added']}/-{st['removed']}, churn={st['churn']})")
             else:
-                print(f"[PASS] {t['id']}")
-
+                print(f"[PASS] {t['id']} (+{st['added']}/-{st['removed']}, churn={st['churn']})")
     print("[SELFTEST] RESULT:", "PASS" if ok else "FAIL")
     return ok
 
@@ -561,7 +601,7 @@ def fetch(url: str) -> str:
     return r.text
 
 
-def main():
+def main(log_diff_stats: bool = False):
     ensure_dir(SNAPSHOT_DIR)
 
     state = load_state()
@@ -629,6 +669,9 @@ def main():
 
         snippet = diff_snippet(old_text, new_text)
         if snippet:
+            # state.json には常に diff 統計を保存する（ログ出力有無と独立）
+            stats_for_state = diff_stats(old_text, new_text)
+
             impact2, score, reasons = classify_impact(name, url, snippet, impact)
 
             # Important（Breaking/High）の変更だけ日本語3行要約（API失敗時は空で継続）
@@ -648,6 +691,7 @@ def main():
                         "name": name,
                         "url": url,
                         "snippet": snippet,
+                        "diff": stats_for_state,
                         "score": score,
                         "reasons": reasons,
                         "summary_ja": summary_ja,
@@ -656,9 +700,17 @@ def main():
                 )
                 existing_ids.add(item_id)
 
-            print(f"[{impact2}] {name} : 変更あり (score={score})")
+            if log_diff_stats:
+                print(
+                    f"[{impact2}] {name} : 変更あり (score={score}, +{stats_for_state['added']}/-{stats_for_state['removed']}, churn={stats_for_state['churn']})"
+                )
+            else:
+                print(f"[{impact2}] {name} : 変更あり (score={score})")
         else:
-            print(f"[{impact}] {name} : 変更なし")
+            if log_diff_stats:
+                print(f"[{impact}] {name} : 変更なし (+0/-0, churn=0)")
+            else:
+                print(f"[{impact}] {name} : 変更なし")
 
     # 履歴は上限で刈る
     state = state[:MAX_ITEMS]
@@ -669,10 +721,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="AI Change Watcher runner")
     parser.add_argument("--selftest", action="store_true", help="Run rule self-tests without touching snapshots/state.json")
     parser.add_argument("--verbose", action="store_true", help="Verbose output for selftest")
+    parser.add_argument("--log-diff-stats", action="store_true", help="Print diff stats (+/-/churn) for debugging")
     args = parser.parse_args()
 
     if args.selftest:
         passed = run_selftests(verbose=args.verbose)
         raise SystemExit(0 if passed else 1)
 
-    main()
+    main(log_diff_stats=args.log_diff_stats)
