@@ -2,8 +2,16 @@
 <rss version="2.0">
 <channel>
 <title>AI Change Watcher (All)</title>
-<link>http://localhost/</link>
+<link>https://h-sim.github.io/ai-change-watcher/</link>
 <description>All detected text changes (may include noise). Verify on official sources.</description>
+
+<item>
+<title>[High] Test Source (Repo file)</title>
+<link>https://raw.githubusercontent.com/h-sim/ai-change-watcher/main/test_source.txt</link>
+<description><![CDATA[Summary (JA, 3 lines):<br/>タイトル表記が「AI Change Watcher Test Source」から変更されたように見えます。<br/>内容の具体的な行が削除され、「TEST_SOURCE」と「v1」という新しい記述が追加されている可能性があります。<br/>全体の内容が大幅に書き換えられた印象を受けますが、詳細は不明です。<br/><br/>Please verify on the official page.<br/>Source: https://raw.githubusercontent.com/h-sim/ai-change-watcher/main/test_source.txt<br/><br/>Diff (excerpt):<br/>-AI Change Watcher Test Source<br/>-line1<br/>-line2<br/>-TEST_CHANGE_1<br/>+TEST_SOURCE<br/>+v1]]></description>
+<pubDate>Mon, 26 Jan 2026 07:19:20 GMT</pubDate>
+<guid isPermaLink="false">8fb6e749f35242ff7197d76d37af2d4f835c06b5</guid>
+</item>
 
 <item>
 <title>[Breaking] OpenAI OpenAPI Spec (YAML)</title>

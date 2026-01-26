@@ -1,5 +1,14 @@
 [
   {
+    "id": "8fb6e749f35242ff7197d76d37af2d4f835c06b5",
+    "impact": "High",
+    "name": "Test Source (Repo file)",
+    "url": "https://raw.githubusercontent.com/h-sim/ai-change-watcher/main/test_source.txt",
+    "snippet": "-AI Change Watcher Test Source\n-line1\n-line2\n-TEST_CHANGE_1\n+TEST_SOURCE\n+v1",
+    "summary_ja": "タイトル表記が「AI Change Watcher Test Source」から変更されたように見えます。\n内容の具体的な行が削除され、「TEST_SOURCE」と「v1」という新しい記述が追加されている可能性があります。\n全体の内容が大幅に書き換えられた印象を受けますが、詳細は不明です。",
+    "pubDate": "Mon, 26 Jan 2026 07:19:20 GMT"
+  },
+  {
     "id": "433072f38e7fdd1d6019b76d60f10bde0a4a840d",
     "impact": "Breaking",
     "name": "OpenAI OpenAPI Spec (YAML)",
