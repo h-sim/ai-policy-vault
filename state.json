@@ -7,14 +7,5 @@
     "snippet": "-        <lastBuildDate>Mon, 26 Jan 2026 03:02:38 GMT</lastBuildDate>\n+        <lastBuildDate>Mon, 26 Jan 2026 03:53:02 GMT</lastBuildDate>",
     "summary_ja": "",
     "pubDate": "Mon, 26 Jan 2026 03:53:02 GMT"
-  },
-  {
-    "id": "616596dd430909e2b25124c7ccaa914fe62606cf",
-    "impact": "High",
-    "name": "Test Source (Repo file)",
-    "url": "https://raw.githubusercontent.com/h-sim/ai-change-watcher/main/test_source.txt",
-    "snippet": "+TEST_CHANGE_1",
-    "summary_ja": "「Test Source (Repo file)」に新たに「TEST_CHANGE_1」\nという内容が追加された可能性がありそうです。\n変更の詳細や影響範囲は差分からは不明のようです。",
-    "pubDate": "Mon, 26 Jan 2026 03:53:02 GMT"
   }
 ]
