@@ -1,5 +1,22 @@
 [
   {
+    "id": "7baeb71d4c5bb627dbfafd102697cd402daf31dc",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Indeed uses AI to help evolve the job search\n+link: https://openai.com/index/indeed-maggie-hulce\n+id: https://openai.com/index/indeed-maggie-hulce\n+date: Mon, 26 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 27 Jan 2026 01:17:42 GMT"
+  },
+  {
     "id": "4b6c5be32b6b8b74e199133100d20dbf5115bf0a",
     "impact": "Medium",
     "name": "OpenAI Developer Changelog (RSS)",

@@ -2165,6 +2165,12 @@ id: https://openai.com/index/indeed
 date: Thu, 15 Aug 2024 07:00:00 GMT
 body:
 #ITEM
+title: How Indeed uses AI to help evolve the job search
+link: https://openai.com/index/indeed-maggie-hulce
+id: https://openai.com/index/indeed-maggie-hulce
+date: Mon, 26 Jan 2026 00:00:00 GMT
+body:
+#ITEM
 title: Infrastructure for deep learning
 link: https://openai.com/index/infrastructure-for-deep-learning
 id: https://openai.com/index/infrastructure-for-deep-learning
