@@ -51,6 +51,7 @@ jobs:
 
           summary_lines = [ln for ln in lines if ln.startswith('[SUMMARY]')]
           target_lines = [ln for ln in lines if re.match(r'^\[(Breaking|High|Medium|Low)\]\s+.+?:\s+.+$', ln)]
+          suppress_lines = [ln for ln in lines if ln.startswith('[SUPPRESS]')]
 
           site_url = (os.getenv('SITE_URL', '') or '').rstrip('/')
           md = []
@@ -74,6 +75,23 @@ jobs:
                       md.append(f"|{m.group('impact')}|{m.group('name')}|{m.group('rest')}|")
           else:
               md.append('_No per-target lines found in run_multi.log._')
+
+          md.append('')
+          md.append('### Suppressed')
+          md.append('')
+          if suppress_lines:
+              md.append('|Target|Type|Stats|')
+              md.append('|---|---|---|')
+              for ln in suppress_lines:
+                  m2 = re.match(r'^\[SUPPRESS\]\s+(?P<name>.*?)\s*:\s*(?P<rest>.*)$', ln)
+                  if not m2:
+                      continue
+                  rest = m2.group('rest')
+                  typ = rest.split()[0] if rest else ''
+                  stats = rest[len(typ):].strip() if rest else ''
+                  md.append(f"|{m2.group('name')}|{typ}|{stats}|")
+          else:
+              md.append('_No suppressed changes._')
 
           summary_path = os.environ.get('GITHUB_STEP_SUMMARY')
           if summary_path:

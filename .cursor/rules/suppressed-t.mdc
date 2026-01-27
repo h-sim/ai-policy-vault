@@ -1,0 +1,28 @@
+---
+alwaysApply: true
+---
+
+suppressed_total += 1
+rs = " ".join(reasons or [])
+if "ウィンドウ更新" in rs:
+    sup_kind = "window_drop"
+    suppressed_by_type["window_drop"] += 1
+elif "大量更新" in rs:
+    sup_kind = "bulk_update"
+    suppressed_by_type["bulk_update"] += 1
+else:
+    sup_kind = "other"
+    suppressed_by_type["other"] += 1
+
+if log_diff_stats:
+    print(f"[SUPPRESS] {name} : {sup_kind} (+{stats_for_state['added']}/-{stats_for_state['removed']}, churn={stats_for_state['churn']})")
+else:
+    print(f"[SUPPRESS] {name} : {sup_kind}")
+
+if log_diff_stats:
+    print(
+        f"[Low] {name} : 変更あり（通知抑制, +{stats_for_state['added']}/-{stats_for_state['removed']}, churn={stats_for_state['churn']})"
+    )
+else:
+    print(f"[Low] {name} : 変更あり（通知抑制）")
+continue

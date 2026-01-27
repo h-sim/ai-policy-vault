@@ -960,18 +960,19 @@ def main(log_diff_stats: bool = False):
             suppressed_total += 1
             rs = " ".join(reasons or [])
             if "ウィンドウ更新" in rs:
-                suppressed_by_type["window_drop"] += 1
+            sup_kind = "window_drop"
+                suppressed_by_type[sup_kind] += 1
             elif "大量更新" in rs:
-                suppressed_by_type["bulk_update"] += 1
+                sup_kind = "bulk_update"
+                suppressed_by_type[sup_kind] += 1
             else:
-                suppressed_by_type["other"] += 1
+                sup_kind = "other"
+                suppressed_by_type[sup_kind] += 1
 
             if log_diff_stats:
-                print(
-                    f"[Low] {name} : 変更あり（通知抑制, +{stats_for_state['added']}/-{stats_for_state['removed']}, churn={stats_for_state['churn']})"
-                )
+                print(f"[SUPPRESS] {name} : {sup_kind} (+{stats_for_state['added']}/-{stats_for_state['removed']}, churn={stats_for_state['churn']})")
             else:
-                print(f"[Low] {name} : 変更あり（通知抑制）")
+                print(f"[SUPPRESS] {name} : {sup_kind}")
             continue
 
         # ここまで来たら「採用する変更」なので snapshot を更新（変更なし/通知抑制では汚さない）
