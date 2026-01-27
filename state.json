@@ -1,5 +1,39 @@
 [
   {
+    "id": "f53261ee309aa57337b1b6c1065763e21cae046d",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: PVH reimagines the future of fashion with OpenAI\n+link: https://openai.com/index/pvh-future-of-fashion\n+id: https://openai.com/index/pvh-future-of-fashion\n+date: Tue, 27 Jan 2026 06:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 27 Jan 2026 14:00:20 GMT"
+  },
+  {
+    "id": "f40cac455f62096dcbaa85290ab1ac2871f2e729",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+#ITEM\n+title: Codex CLI Release: 0.92.0\n+link: https://developers.openai.com/changelog/#github-release-280265755\n+id: https://developers.openai.com/changelog/#github-release-280265755\n+date: Tue, 27 Jan 2026 00:00:00 GMT\n+body:",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 27 Jan 2026 14:00:19 GMT"
+  },
+  {
     "id": "7baeb71d4c5bb627dbfafd102697cd402daf31dc",
     "impact": "Low",
     "name": "OpenAI News (RSS)",

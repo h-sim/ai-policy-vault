@@ -3911,6 +3911,12 @@ id: https://openai.com/index/put-ai-to-work-for-your-product-team
 date: Mon, 09 Dec 2024 00:00:00 GMT
 body:
 #ITEM
+title: PVH reimagines the future of fashion with OpenAI
+link: https://openai.com/index/pvh-future-of-fashion
+id: https://openai.com/index/pvh-future-of-fashion
+date: Tue, 27 Jan 2026 06:00:00 GMT
+body:
+#ITEM
 title: Quantifying generalization in reinforcement learning
 link: https://openai.com/index/quantifying-generalization-in-reinforcement-learning
 id: https://openai.com/index/quantifying-generalization-in-reinforcement-learning

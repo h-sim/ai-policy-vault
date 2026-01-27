@@ -250,3 +250,9 @@ link: https://developers.openai.com/changelog/#github-release-279755271
 id: https://developers.openai.com/changelog/#github-release-279755271
 date: Sun, 25 Jan 2026 00:00:00 GMT
 body:
+#ITEM
+title: Codex CLI Release: 0.92.0
+link: https://developers.openai.com/changelog/#github-release-280265755
+id: https://developers.openai.com/changelog/#github-release-280265755
+date: Tue, 27 Jan 2026 00:00:00 GMT
+body:
