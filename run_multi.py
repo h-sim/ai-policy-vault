@@ -351,6 +351,11 @@ def classify_impact(name: str, url: str, snippet: str, default_impact: str):
             score += 30
             reasons.append("Changelog: pricing/quota")
 
+        # MVP(方針2): RSSの「直近N件」ウィンドウ更新で古い項目が落ちただけの差分は通知しない
+        st = snippet_stats(snippet or "")
+        if score == 0 and st.get("added", 0) == 0 and st.get("removed", 0) > 0 and st.get("churn", 0) <= 10:
+            reasons.append("Changelog: 古い項目の脱落（ウィンドウ更新）→通知抑制")
+            return "Low", score, reasons
         if score >= 80:
             return "Breaking", score, reasons
         if score >= 50:
@@ -510,6 +515,23 @@ def run_selftests(verbose: bool = False) -> bool:
             "expect_impact": "Breaking",
             "expect_score_min": 80,
             "expect_reason_contains": ["Changelog: breaking/deprecate/removed"],
+        },
+        {
+            "id": "changelog_window_drop_suppressed",
+            "name": "OpenAI Developer Changelog (RSS)",
+            "url": "https://developers.openai.com/changelog/rss.xml",
+            "default": "High",
+            "snippet": "\n".join([
+                "-title: Codex CLI Release: 0.73.0",
+                "-link: https://developers.openai.com/changelog/#github-release-270562118",
+                "-id: https://developers.openai.com/changelog/#github-release-270562118",
+                "-date: Mon, 15 Dec 2025 00:00:00 GMT",
+                "-body:",
+                "-#ITEM",
+            ]),
+            "expect_impact": "Low",
+            "expect_score": 0,
+            "expect_reason_contains": ["Changelog: 古い項目の脱落（ウィンドウ更新）→通知抑制"],
         },
         {
             "id": "diff_snippet_ignores_rss_meta",
@@ -881,85 +903,100 @@ def main(log_diff_stats: bool = False):
             print(f"[{impact}] {name} : 取得失敗（今回はスキップ） -> {e}")
             continue
 
-        # スナップショット更新（次回比較用）
-        with open(snap_file, "w", encoding="utf-8") as f:
-            f.write(new_text)
-
         if not old_text:
+            # 初回は比較対象が無いので、スナップショットだけ保存して終了
+            with open(snap_file, "w", encoding="utf-8") as f:
+                f.write(new_text)
             print(f"[{impact}] {name} : 初回")
             continue
 
         snippet = diff_snippet(old_text, new_text)
-        if snippet:
-            # state.json には常に diff 統計を保存する（ログ出力有無と独立）
-            stats_for_state = diff_stats(old_text, new_text)
-
-            # item_id は「圧縮前の完全な diff snippet」で固定（圧縮ルール変更で重複itemが増えないようにする）
-            raw_snippet = snippet
-            snippet_full_for_state = ""
-
-            # News は大量入替が起きやすいので、excerpt を短くして可読性を最優先する
-            if "news" in (name or "").lower() and stats_for_state.get("churn", 0) >= 20:
-                snippet = compact_news_snippet(
-                    snippet,
-                    max_lines=12,
-                    prefer_keywords=[
-                        "policy",
-                        "terms",
-                        "termsofservice",
-                        "pricing",
-                        "billing",
-                        "security",
-                        "privacy",
-                        "trust",
-                        "safety",
-                    ],
-                )
-                snippet_full_for_state = raw_snippet
-
-            impact2, score, reasons = classify_impact(name, url, snippet, impact)
-
-            # Important（Breaking/High）の変更だけ日本語3行要約（API失敗時は空で継続）
-            summary_ja = ""
-            if impact2 in ("Breaking", "High"):
-                summary_ja = summarize_ja_3lines(name, url, snippet, impact2)
-                if not summary_ja:
-                    print(f"[{impact2}] {name} : 要約生成に失敗（空のまま継続）")
-
-            item_id = make_item_id(url, raw_snippet)
-            if item_id not in existing_ids:
-                state.insert(
-                    0,
-                    {
-                        "id": item_id,
-                        "impact": impact2,
-                        "name": name,
-                        "url": url,
-                        "snippet": snippet,
-                        "snippet_full": snippet_full_for_state,
-                        "diff": stats_for_state,
-                        "score": score,
-                        "reasons": reasons,
-                        "summary_ja": summary_ja,
-                        "pubDate": utc_now_rfc822(),
-                    },
-                )
-                existing_ids.add(item_id)
-                added_total += 1
-                if impact2 in added_by_impact:
-                    added_by_impact[impact2] += 1
-
-            if log_diff_stats:
-                print(
-                    f"[{impact2}] {name} : 変更あり (score={score}, +{stats_for_state['added']}/-{stats_for_state['removed']}, churn={stats_for_state['churn']})"
-                )
-            else:
-                print(f"[{impact2}] {name} : 変更あり (score={score})")
-        else:
+        # 変更なし（=diff_snippet が空）なら、スナップショットも state も更新しない
+        if not snippet:
             if log_diff_stats:
                 print(f"[{impact}] {name} : 変更なし (+0/-0, churn=0)")
             else:
                 print(f"[{impact}] {name} : 変更なし")
+            continue
+
+        # ここから先は「変更あり」
+        # state.json には常に diff 統計を保存する（ログ出力有無と独立）
+        stats_for_state = diff_stats(old_text, new_text)
+
+        # item_id は「圧縮前の完全な diff snippet」で固定（圧縮ルール変更で重複itemが増えないようにする）
+        raw_snippet = snippet
+        snippet_full_for_state = ""
+
+        # News は大量入替が起きやすいので、excerpt を短くして可読性を最優先する
+        if "news" in (name or "").lower() and stats_for_state.get("churn", 0) >= 20:
+            snippet = compact_news_snippet(
+                snippet,
+                max_lines=12,
+                prefer_keywords=[
+                    "policy",
+                    "terms",
+                    "termsofservice",
+                    "pricing",
+                    "billing",
+                    "security",
+                    "privacy",
+                    "trust",
+                    "safety",
+                ],
+            )
+            snippet_full_for_state = raw_snippet
+
+        impact2, score, reasons = classify_impact(name, url, snippet, impact)
+        # 「通知抑制」扱いの Low は履歴にも残さず、スナップショットも更新しない（ノイズを残さない）
+        if impact2 == "Low" and any("通知抑制" in r for r in (reasons or [])):
+            if log_diff_stats:
+                print(
+                    f"[Low] {name} : 変更あり（通知抑制, +{stats_for_state['added']}/-{stats_for_state['removed']}, churn={stats_for_state['churn']})"
+                )
+            else:
+                print(f"[Low] {name} : 変更あり（通知抑制）")
+            continue
+
+        # ここまで来たら「採用する変更」なので snapshot を更新（変更なし/通知抑制では汚さない）
+        with open(snap_file, "w", encoding="utf-8") as f:
+            f.write(new_text)
+
+        # Important（Breaking/High）の変更だけ日本語3行要約（API失敗時は空で継続）
+        summary_ja = ""
+        if impact2 in ("Breaking", "High"):
+            summary_ja = summarize_ja_3lines(name, url, snippet, impact2)
+            if not summary_ja:
+                print(f"[{impact2}] {name} : 要約生成に失敗（空のまま継続）")
+
+        item_id = make_item_id(url, raw_snippet)
+        if item_id not in existing_ids:
+            state.insert(
+                0,
+                {
+                    "id": item_id,
+                    "impact": impact2,
+                    "name": name,
+                    "url": url,
+                    "snippet": snippet,
+                    "snippet_full": snippet_full_for_state,
+                    "diff": stats_for_state,
+                    "score": score,
+                    "reasons": reasons,
+                    "summary_ja": summary_ja,
+                    "pubDate": utc_now_rfc822(),
+                },
+            )
+            existing_ids.add(item_id)
+            added_total += 1
+            if impact2 in added_by_impact:
+                added_by_impact[impact2] += 1
+
+        if log_diff_stats:
+            print(
+                f"[{impact2}] {name} : 変更あり (score={score}, +{stats_for_state['added']}/-{stats_for_state['removed']}, churn={stats_for_state['churn']})"
+            )
+        else:
+            print(f"[{impact2}] {name} : 変更あり (score={score})")
 
     # 履歴は上限で刈る
     state = state[:MAX_ITEMS]
