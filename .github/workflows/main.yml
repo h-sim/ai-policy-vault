@@ -41,6 +41,7 @@ jobs:
           set -e
           python3 run_multi.py --log-diff-stats | tee run_multi.log
           python3 generate_rss.py
+          python3 generate_changes_html.py
 
           python3 - <<'PY'
           import os, re
@@ -59,6 +60,7 @@ jobs:
           md.append('')
           if site_url:
               md.append(f'- Feeds: {site_url}/feed.xml (Important), {site_url}/feed_all.xml (All)')
+              md.append(f'- Browse: {site_url}/changes.html (List)')
           if summary_lines:
               md.extend([f'- {ln}' for ln in summary_lines])
           else:
