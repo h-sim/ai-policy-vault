@@ -1319,6 +1319,12 @@ id: https://openai.com/index/elon-musk-wanted-an-openai-for-profit
 date: Fri, 13 Dec 2024 00:00:00 GMT
 body:
 #ITEM
+title: EMEA Youth & Wellbeing Grant
+link: https://openai.com/index/emea-youth-and-wellbeing-grant
+id: https://openai.com/index/emea-youth-and-wellbeing-grant
+date: Wed, 28 Jan 2026 01:00:00 GMT
+body:
+#ITEM
 title: Emergence of grounded compositional language in multi-agent populations
 link: https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations
 id: https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations
@@ -4553,6 +4559,12 @@ id: https://openai.com/index/the-met-museum
 date: Wed, 14 Aug 2024 10:00:00 GMT
 body:
 #ITEM
+title: The next chapter for AI in the EU
+link: https://openai.com/index/the-next-chapter-for-ai-in-the-eu
+id: https://openai.com/index/the-next-chapter-for-ai-in-the-eu
+date: Wed, 28 Jan 2026 01:00:00 GMT
+body:
+#ITEM
 title: The next chapter for UK sovereign AI
 link: https://openai.com/index/the-next-chapter-for-uk-sovereign-ai
 id: https://openai.com/index/the-next-chapter-for-uk-sovereign-ai
@@ -4623,6 +4635,12 @@ title: Introducing Triton: Open-source GPU programming for neural networks
 link: https://openai.com/index/triton
 id: https://openai.com/index/triton
 date: Wed, 28 Jul 2021 07:00:00 GMT
+body:
+#ITEM
+title: Powering tax donations with AI powered personalized recommendations
+link: https://openai.com/index/trustbank
+id: https://openai.com/index/trustbank
+date: Tue, 27 Jan 2026 00:00:00 GMT
 body:
 #ITEM
 title: TruthfulQA: Measuring how models mimic human falsehoods

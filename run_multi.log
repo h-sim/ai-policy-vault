@@ -1,5 +1,6 @@
 [High] OpenAI Developer Changelog (RSS) : 変更なし (+0/-0, churn=0)
-[Low] OpenAI News (RSS) : 変更あり (score=0, +6/-0, churn=6)
-[Low] OpenAI OpenAPI Spec (YAML) : 変更あり (score=0, +73/-50, churn=123)
-[SUMMARY] Added 2 new items (Low=2)
+[High] OpenAI News (RSS) : 要約生成に失敗（空のまま継続）
+[High] OpenAI News (RSS) : 変更あり (score=50, +18/-0, churn=18)
+[Breaking] OpenAI OpenAPI Spec (YAML) : 変更なし (+0/-0, churn=0)
+[SUMMARY] Added 1 new items (High=1)
 [SUMMARY] Suppressed 0 changes

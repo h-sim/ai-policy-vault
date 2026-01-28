@@ -1,5 +1,24 @@
 [
   {
+    "id": "4e0aa476691348e415bcebc04bf5065d7e2e3f3f",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: EMEA Youth & Wellbeing Grant\n+link: https://openai.com/index/emea-youth-and-wellbeing-grant\n+id: https://openai.com/index/emea-youth-and-wellbeing-grant\n+date: Wed, 28 Jan 2026 01:00:00 GMT\n+body:\n+#ITEM\n+title: The next chapter for AI in the EU\n+link: https://openai.com/index/the-next-chapter-for-ai-in-the-eu\n+id: https://openai.com/index/the-next-chapter-for-ai-in-the-eu\n+date: Wed, 28 Jan 2026 01:00:00 GMT\n+body:\n+#ITEM\n+title: Powering tax donations with AI powered personalized recommendations\n+link: https://openai.com/index/trustbank\n+id: https://openai.com/index/trustbank\n+date: Tue, 27 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 28 Jan 2026 14:31:44 GMT"
+  },
+  {
     "id": "3a98ce3711a8926394579769fc7a44b903290c92",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
