@@ -28,6 +28,38 @@ def iso_to_human(s: str) -> str:
         return s
 
 
+# --- Inserted helper functions for Japanese summary normalization and fallback ---
+def to_int(x, default: int = 0) -> int:
+    try:
+        return int(x)
+    except Exception:
+        return default
+
+
+def first_n_lines(text: str, n: int = 3) -> str:
+    lines = [ln.strip() for ln in (text or "").split("\n")]
+    lines = [ln for ln in lines if ln]
+    return "\n".join(lines[:n])
+
+
+def build_fallback_summary(source: str, impact: str, reasons: str, diff_stats: dict, snippet_full: str, snippet: str) -> str:
+    a = to_int((diff_stats or {}).get("added"), 0)
+    r = to_int((diff_stats or {}).get("removed"), 0)
+    c = to_int((diff_stats or {}).get("churn"), a + r)
+    line1 = f"変更を検知（{impact or '—'}）: {source or 'unknown'}"
+    line2 = (reasons or "").strip()
+    if not line2:
+        line2 = "要点: 公式/原文リンクから一次情報を確認してください"
+    line3 = ""
+    if a or r or c:
+        line3 = f"差分量: +{a} / -{r}（churn={c}）"
+    else:
+        body = (snippet_full or snippet or "").strip()
+        one = body.split("\n")[0].strip() if body else ""
+        line3 = f"差分抜粋: {one[:80]}" if one else "差分抜粋: （なし）"
+    return first_n_lines("\n".join([line1, line2, line3]), 3)
+
+
 def main() -> None:
     base_url = guess_base_url()
     with open("state.json", "r", encoding="utf-8") as f:
@@ -61,12 +93,24 @@ def main() -> None:
             or it.get("snippet_full_for_id")
             or ""
         )
+        # Insert robust diff_stats extraction
+        diff_stats = it.get("diff_stats")
+        if not isinstance(diff_stats, dict):
+            diff_stats = {}
+        if not diff_stats:
+            # tolerate alternate field names if they exist
+            diff_stats = {
+                "added": it.get("added") or it.get("diff_added") or it.get("plus") or 0,
+                "removed": it.get("removed") or it.get("diff_removed") or it.get("minus") or 0,
+                "churn": it.get("churn") or it.get("diff_churn") or 0,
+            }
         reasons = it.get("reasons")
         if isinstance(reasons, list):
             reasons_s = " / ".join([str(x) for x in reasons if x])
         else:
             reasons_s = str(reasons or "")
 
+        # Japanese summary, 3-line normalization, fallback
         summary = it.get("summary")
         if not summary:
             summary = it.get("summary_ja")
@@ -74,7 +118,10 @@ def main() -> None:
             summary = it.get("summary3")
         if not summary:
             summary = it.get("summary_3")
-        summary_s = str(summary or "")
+        summary_s = str(summary or "").strip()
+        summary_s = first_n_lines(summary_s, 3)
+        if not summary_s:
+            summary_s = build_fallback_summary(source, impact, reasons_s, diff_stats, snippet_full, snippet)
 
         items.append(
             {
@@ -88,6 +135,11 @@ def main() -> None:
                 "snippet_full": snippet_full,
                 "reasons": reasons_s,
                 "summary": summary_s,
+                "diff_stats": {
+                    "added": to_int((diff_stats or {}).get("added"), 0),
+                    "removed": to_int((diff_stats or {}).get("removed"), 0),
+                    "churn": to_int((diff_stats or {}).get("churn"), 0),
+                },
             }
         )
 
@@ -110,11 +162,7 @@ def main() -> None:
         diff_body = it.get("snippet_full") or it.get("snippet") or ""
 
         link_html = f'<a href="{esc(url)}" target="_blank" rel="noopener">公式/原文</a>' if url else ""
-        summary_html = (
-            f'<div class="small">要約: {esc(summary).replace("\n", "<br>")}</div>'
-            if summary
-            else ""
-        )
+        summary_html = f'<div class="small">要約: {esc(summary).replace("\n", "<br>")}</div>' if summary else ''
         reasons_html = f'<div class="small">理由: {esc(reasons)}</div>' if reasons else ""
         diff_html = f'<details><summary class="small">差分（snippet）</summary><pre class="mono">{esc(diff_body)}</pre></details>' if diff_body else ""
 
@@ -196,7 +244,7 @@ def main() -> None:
     </header>
 
     <div class="bar">
-      <input id="q" placeholder="検索（タイトル/差分/理由）" />
+      <input id="q" placeholder="検索（タイトル/要約/差分/理由）" />
       <select id="impact">
         <option value="">Impact: All</option>
         <option value="Breaking">Breaking</option>
