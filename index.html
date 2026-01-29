@@ -1,47 +1,112 @@
-import json
-import html
-
-def generate_changes_html(items, sources, base_url):
-    # ... (other code)
-
-    data_json = json.dumps(
-        {"items": items, "sources": sources, "base_url": base_url}, ensure_ascii=False
-    )
-    # <script>内に生で埋めるので、終了タグだけ潰して安全化（HTMLエスケープはしない：JSONとして壊れる）
-    data_json_safe = data_json.replace("</", "<\\/")
-
-    template = """
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Changes</title>
-<style>
-  /* styles omitted for brevity */
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Change Watcher</title>
+  <meta name="description" content="AIプラットフォーム（OpenAIなど）の変更を監視し、読む価値のある変更をRSSで配信します。" />
+
+  <link rel="alternate" type="application/rss+xml" title="AI Change Watcher (Important)" href="feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="AI Change Watcher (All)" href="feed_all.xml" />
+
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Hiragino Sans", "Noto Sans JP", sans-serif; margin: 0; line-height: 1.6; }
+    .wrap { max-width: 940px; margin: 0 auto; padding: 28px 18px; }
+    header { padding: 18px 0 8px; }
+    h1 { margin: 0 0 8px; font-size: 34px; }
+    .sub { margin: 0 0 14px; opacity: 0.85; }
+    .badge { display: inline-block; padding: 6px 10px; border: 1px solid rgba(127,127,127,.35); border-radius: 999px; font-size: 13px; margin-right: 8px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+    @media (min-width: 860px) { .grid { grid-template-columns: 1fr 1fr; } }
+    .card { border: 1px solid rgba(127,127,127,.25); border-radius: 12px; padding: 16px; }
+    .btns { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+    a.btn { display: inline-block; padding: 10px 12px; border-radius: 10px; border: 1px solid rgba(127,127,127,.35); text-decoration: none; }
+    a.btn.primary { font-weight: 700; }
+    a { color: inherit; }
+    ul { margin: 10px 0 0 20px; }
+    footer { margin-top: 26px; padding-top: 14px; border-top: 1px solid rgba(127,127,127,.25); font-size: 13px; opacity: 0.85; }
+    .small { font-size: 13px; opacity: 0.85; }
+  </style>
 </head>
 <body>
-  <h1>Changes</h1>
-  <div id="empty">Loading...</div>
-  <script id="data" type="application/json">__DATA_JSON__</script>
-  <script>
-    let data = {};
-    try {
-      data = JSON.parse(document.getElementById('data').textContent);
-    } catch (e) {
-      const elEmpty = document.getElementById('empty');
-      if (elEmpty) {
-        elEmpty.textContent = 'ERROR: ページ内データの読み込みに失敗しました（JSON parse）。changes.html を再生成してください。';
-      }
-      console.error(e);
-      data = { items: [], sources: [] };
-    }
-    // ... rest of the script
-  </script>
+  <div class="wrap">
+    <header>
+      <span class="badge">ノイズ最小（MVP）</span>
+      <span class="badge">RSS配信</span>
+      <h1>AI Change Watcher</h1>
+      <p class="sub">AIプラットフォーム（OpenAI など）の変更を監視し、<strong>読む価値のある変更だけ</strong>を優先して RSS で配信します。</p>
+
+      <div class="btns">
+        <a class="btn primary" href="feed.xml">Important を購読（推奨）</a>
+        <a class="btn" href="feed_all.xml">All を購読（参考）</a>
+        <a class="btn" href="changes.html">一覧を見る（Changes）</a>
+        <a class="btn" href="https://github.com/h-sim/ai-change-watcher">GitHub</a>
+      </div>
+
+      <p class="small">Important は Breaking/High 中心、All は広め（ノイズ混在の可能性あり）。</p>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Important / All の違い</h2>
+        <ul>
+          <li><strong>Important</strong>：行動につながる変更を優先（ノイズ抑制）。</li>
+          <li><strong>All</strong>：検知した変更を広めに掲載（ノイズが混ざる場合あり）。</li>
+        </ul>
+        <p class="small">RSS のウィンドウ更新で「古い項目が落ちるだけ」など、価値が低い変化は抑制します。</p>
+      </section>
+
+      <section class="card">
+        <h2>監視対象（MVP）</h2>
+        <ul>
+          <li>OpenAI Developer Changelog RSS</li>
+          <li>OpenAI News RSS</li>
+          <li>OpenAI OpenAPI Spec（YAML）</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>使い方（購読）</h2>
+        <ol>
+          <li>Feedly / Inoreader / NetNewsWire などの RSS リーダーを用意</li>
+          <li><code>feed.xml</code>（Important）を追加</li>
+          <li>必要なら <code>feed_all.xml</code>（All）も追加</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>免責</h2>
+        <ul>
+          <li>本フィードは「変更の検知・要約」を提供するもので、正確性を保証しません。</li>
+          <li>重要な判断は必ず一次情報（公式発表・原文）を確認してください。</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Pro（予定）</h2>
+        <p>要望を募集中です（まずは見込み客回収）。</p>
+        <ul>
+          <li>メール通知 / Slack / Discord / Webhook</li>
+          <li>日本語の短い影響サマリ</li>
+          <li>週次まとめ / 過去検索</li>
+        </ul>
+        <p class="small">興味があれば GitHub Issues に <code>pro-interest</code> を付けて投稿（1行でOK）。</p>
+      </section>
+
+      <section class="card">
+        <h2>問い合わせ / フィードバック</h2>
+        <p>「これはノイズ / 重要」など、Important の品質調整に使います。</p>
+        <div class="btns">
+          <a class="btn" href="https://github.com/h-sim/ai-change-watcher/issues">GitHub Issues</a>
+          <a class="btn" href="https://github.com/h-sim/ai-change-watcher#readme">README</a>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div>© AI Change Watcher — GitHub Pages</div>
+    </footer>
+  </div>
 </body>
 </html>
-"""
-
-    out_html = template.replace("__DATA_JSON__", data_json_safe)
-    return out_html
