@@ -67,6 +67,15 @@ def main() -> None:
         else:
             reasons_s = str(reasons or "")
 
+        summary = it.get("summary")
+        if not summary:
+            summary = it.get("summary_ja")
+        if not summary:
+            summary = it.get("summary3")
+        if not summary:
+            summary = it.get("summary_3")
+        summary_s = str(summary or "")
+
         items.append(
             {
                 "impact": impact,
@@ -78,6 +87,7 @@ def main() -> None:
                 "snippet": snippet,
                 "snippet_full": snippet_full,
                 "reasons": reasons_s,
+                "summary": summary_s,
             }
         )
 
@@ -96,9 +106,15 @@ def main() -> None:
         ts = it.get("ts_h") or it.get("ts") or ""
         impact_txt = it.get("impact") or "—"
         reasons = it.get("reasons") or ""
+        summary = it.get("summary") or ""
         diff_body = it.get("snippet_full") or it.get("snippet") or ""
 
         link_html = f'<a href="{esc(url)}" target="_blank" rel="noopener">公式/原文</a>' if url else ""
+        summary_html = (
+            f'<div class="small">要約: {esc(summary).replace("\n", "<br>")}</div>'
+            if summary
+            else ""
+        )
         reasons_html = f'<div class="small">理由: {esc(reasons)}</div>' if reasons else ""
         diff_html = f'<details><summary class="small">差分（snippet）</summary><pre class="mono">{esc(diff_body)}</pre></details>' if diff_body else ""
 
@@ -112,6 +128,7 @@ def main() -> None:
                     '    <div>',
                     f'      <p class="title">{esc(title)}</p>',
                     f'      <div class="links small">{link_html}</div>',
+                    f'      {summary_html}' if summary_html else '',
                     f'      {reasons_html}' if reasons_html else '',
                     f'      {diff_html}' if diff_html else '',
                     '    </div>',
@@ -269,7 +286,7 @@ def main() -> None:
 
     function match(it, q) {
       if (!q) return true;
-      const hay = ((it.title||'') + '\n' + (it.snippet||'') + '\n' + (it.snippet_full||'') + '\n' + (it.reasons||'')).toLowerCase();
+      const hay = ((it.title||'') + '\n' + (it.summary||'') + '\n' + (it.snippet||'') + '\n' + (it.snippet_full||'') + '\n' + (it.reasons||'')).toLowerCase();
       return hay.includes(q);
     }
 
@@ -303,6 +320,7 @@ def main() -> None:
         const url = esc(it.url || '');
         const ts = esc(it.ts_h || it.ts || '');
         const impactTxt = esc(it.impact || '');
+        const summary = it.summary ? esc(it.summary) : '';
         const reasons = it.reasons ? esc(it.reasons) : '';
         const diffBody = it.snippet_full || it.snippet || '';
 
@@ -316,6 +334,7 @@ def main() -> None:
       <div class="links small">
         ${url ? `<a href="${url}" target="_blank" rel="noopener">公式/原文</a>` : ''}
       </div>
+      ${summary ? `<div class="small">要約: ${summary.replace(/\n/g,'<br>')}</div>` : ''}
       ${reasons ? `<div class="small">理由: ${reasons}</div>` : ''}
       ${diffBody ? `<details><summary class="small">差分（snippet）</summary><pre class="mono">${esc(diffBody)}</pre></details>` : ''}
     </div>
