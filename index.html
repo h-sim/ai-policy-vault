@@ -23,6 +23,7 @@
     .btns { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
     a.btn { display: inline-block; padding: 10px 12px; border-radius: 10px; border: 1px solid rgba(127,127,127,.35); text-decoration: none; }
     a.btn.primary { font-weight: 700; }
+    a.btn.cta { font-weight: 800; border-width: 2px; }
     a { color: inherit; }
     ul, ol { margin: 10px 0 0 20px; }
     footer { margin-top: 26px; padding-top: 14px; border-top: 1px solid rgba(127,127,127,.25); font-size: 13px; opacity: 0.85; }
@@ -38,10 +39,10 @@
       <p class="sub">AIプラットフォーム（OpenAI など）の変更を監視し、<strong>読む価値のある変更だけ</strong>を優先して RSS で配信します。</p>
 
       <div class="btns">
+        <a class="btn cta" href="https://docs.google.com/forms/d/e/1FAIpQLSeqA4EdesSnHGp7NvjXdyDuVuhuSEV5kQPUpT-h4H6-P5edZQ/viewform" target="_blank" rel="noopener">待機リスト（無料）</a>
         <a class="btn primary" href="feed.xml">Important を購読（推奨）</a>
         <a class="btn" href="feed_all.xml">All を購読（参考）</a>
         <a class="btn" href="changes.html">一覧を見る（Changes）</a>
-        <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeqA4EdesSnHGp7NvjXdyDuVuhuSEV5kQPUpT-h4H6-P5edZQ/viewform" target="_blank" rel="noopener">待機リスト（無料）</a>
         <a class="btn" href="https://github.com/h-sim/ai-change-watcher">GitHub</a>
       </div>
 
