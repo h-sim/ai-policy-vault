@@ -62,7 +62,235 @@
     <label class="small"><input id="hideLow" type="checkbox" checked /> 初期表示は Low を非表示（ノイズ最小）</label>
     <div class="count" id="count"></div>
 
-    <div id="list"></div>
+    <div class="small mono" id="debug_static">debug_static: items=9, sources=3</div>
+    <div id="list"><div class="row">
+  <div class="top">
+    <div class="meta"><br><span class="badge">Low</span></div>
+    <div class="meta">OpenAI OpenAPI Spec (YAML)</div>
+    <div>
+      <p class="title">+          &quot;status&quot;: {</p>
+      <div class="links small"><a href="https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml" target="_blank" rel="noopener">公式/原文</a></div>
+
+      <details><summary class="small">差分（snippet）</summary><pre class="mono">+          &quot;status&quot;: {
++            &quot;anyOf&quot;: [
++              {
++                &quot;$ref&quot;: &quot;#/components/schemas/FunctionShellCallItemStatus&quot;,
++                &quot;description&quot;: &quot;The status of the shell call output.&quot;
++              },
++              {
++                &quot;type&quot;: &quot;null&quot;
++              }
++            ]
++          },
+-                &quot;go&quot;: &quot;package main\n\nimport (\n  \&quot;context\&quot;\n  \&quot;fmt\&quot;\n\n  \&quot;github.com/openai/openai-go\&quot;\n  \&quot;github.com/openai/openai-go/option\&quot;\n)\n\nfunc main() {\n  client := openai.NewCli
+-                &quot;java&quot;: &quot;package com.openai.example;\n\nimport com.openai.client.OpenAIClient;\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\nimport com.openai.core.http.HttpResponse;\nimport 
++                &quot;go&quot;: &quot;package main\n\nimport (\n  \&quot;context\&quot;\n  \&quot;fmt\&quot;\n\n  \&quot;github.com/openai/openai-go\&quot;\n  \&quot;github.com/openai/openai-go/option\&quot;\n)\n\nfunc main() {\n  client := openai.NewCli
++                &quot;java&quot;: &quot;package com.openai.example;\n\nimport com.openai.client.OpenAIClient;\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\nimport com.openai.core.http.HttpResponse;\nimport 
+-                &quot;ruby&quot;: &quot;require \&quot;openai\&quot;\n\nopenai = OpenAI::Client.new(api_key: \&quot;My API Key\&quot;)\n\nspeech = openai.audio.speech.create(input: \&quot;input\&quot;, model: :string, voice: :ash)\n\nputs(speec
++                &quot;ruby&quot;: &quot;require \&quot;openai\&quot;\n\nopenai = OpenAI::Client.new(api_key: \&quot;My API Key\&quot;)\n\nspeech = openai.audio.speech.create(input: \&quot;input\&quot;, model: :\&quot;tts-1\&quot;, voice: :ash)\n\nputs(sp
+-                &quot;go&quot;: &quot;package main\n\nimport (\n  \&quot;context\&quot;\n  \&quot;fmt\&quot;\n\n  \&quot;github.com/openai/openai-go\&quot;\n  \&quot;github.com/openai/openai-go/option\&quot;\n)\n\nfunc main() {\n  client := openai.NewCli
+-                &quot;java&quot;: &quot;package com.openai.example;\n\nimport com.openai.client.OpenAIClient;\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\nimport com.openai.core.http.HttpResponse;\nimport 
++                &quot;go&quot;: &quot;package main\n\nimport (\n  \&quot;context\&quot;\n  \&quot;fmt\&quot;\n\n  \&quot;github.com/openai/openai-go\&quot;\n  \&quot;github.com/openai/openai-go/option\&quot;\n)\n\nfunc main() {\n  client := openai.NewCli
++                &quot;java&quot;: &quot;package com.openai.example;\n\nimport com.openai.client.OpenAIClient;\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\nimport com.openai.core.http.HttpResponse;\nimport 
+-                &quot;ruby&quot;: &quot;require \&quot;openai\&quot;\n\nopenai = OpenAI::Client.new(api_key: \&quot;My API Key\&quot;)\n\nspeech = openai.audio.speech.create(input: \&quot;input\&quot;, model: :string, voice: :ash)\n\nputs(speec
++                &quot;ruby&quot;: &quot;require \&quot;openai\&quot;\n\nopenai = OpenAI::Client.new(api_key: \&quot;My API Key\&quot;)\n\nspeech = openai.audio.speech.create(input: \&quot;input\&quot;, model: :\&quot;tts-1\&quot;, voice: :ash)\n\nputs(sp
+-                &quot;go&quot;: &quot;package main\n\nimport (\n  \&quot;context\&quot;\n  \&quot;fmt\&quot;\n\n  \&quot;github.com/openai/openai-go\&quot;\n  \&quot;github.com/openai/openai-go/option\&quot;\n)\n\nfunc main() {\n  client := openai.NewCli
+-                &quot;java&quot;: &quot;package com.openai.example;\n\nimport com.openai.client.OpenAIClient;\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\nimport com.openai.models.completions.Completion;\n
++                &quot;go&quot;: &quot;package main\n\nimport (\n  \&quot;context\&quot;\n  \&quot;fmt\&quot;\n\n  \&quot;github.com/openai/openai-go\&quot;\n  \&quot;github.com/openai/openai-go/option\&quot;\n)\n\nfunc main() {\n  client := openai.NewCli
++                &quot;java&quot;: &quot;package com.openai.example;\n\nimport com.openai.client.OpenAIClient;\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\nimport com.openai.models.completions.Completion;\n
+-                &quot;ruby&quot;: &quot;require \&quot;openai\&quot;\n\nopenai = OpenAI::Client.new(api_key: \&quot;My API Key\&quot;)\n\ncompletion = openai.completions.create(model: :string, prompt: \&quot;This is a test.\&quot;)\n\nputs(comp
++                &quot;ruby&quot;: &quot;require \&quot;openai\&quot;\n\nopenai = OpenAI::Client.new(api_key: \&quot;My API Key\&quot;)\n\ncompletion = openai.completions.create(model: :\&quot;gpt-3.5-turbo-instruct\&quot;, prompt: \&quot;This is a t
+-                &quot;go&quot;: &quot;package main\n\nimport (\n  \&quot;context\&quot;\n  \&quot;fmt\&quot;\n\n  \&quot;github.com/openai/openai-go\&quot;\n  \&quot;github.com/openai/openai-go/option\&quot;\n)\n\nfunc main() {\n  client := openai.NewCli
+-                &quot;java&quot;: &quot;package com.openai.example;\n\nimport com.openai.client.OpenAIClient;\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\nimport com.openai.models.completions.Completion;\n
++                &quot;go&quot;: &quot;package main\n\nimport (\n  \&quot;context\&quot;\n  \&quot;fmt\&quot;\n\n  \&quot;github.com/openai/openai-go\&quot;\n  \&quot;github.com/openai/openai-go/option\&quot;\n)\n\nfunc main() {\n  client := openai.NewCli
++                &quot;java&quot;: &quot;package com.openai.example;\n\nimport com.openai.client.OpenAIClient;\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\nimport com.openai.models.completions.Completion;\n
+-                &quot;ruby&quot;: &quot;require \&quot;openai\&quot;\n\nopenai = OpenAI::Client.new(api_key: \&quot;My API Key\&quot;)\n\ncompletion = openai.completions.create(model: :string, prompt: \&quot;This is a test.\&quot;)\n\nputs(comp
++                &quot;ruby&quot;: &quot;require \&quot;openai\&quot;\n\nopenai = OpenAI::Client.new(api_key: \&quot;My API Key\&quot;)\n\ncompletion = openai.completions.create(model: :\&quot;gpt-3.5-turbo-instruct\&quot;, prompt: \&quot;This is a t</pre></details>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="top">
+    <div class="meta"><br><span class="badge">High</span></div>
+    <div class="meta">OpenAI News (RSS)</div>
+    <div>
+      <p class="title">+title: Keeping your data safe when an AI agent clicks a link</p>
+      <div class="links small"><a href="https://openai.com/news/rss.xml" target="_blank" rel="noopener">公式/原文</a></div>
+      <div class="small">理由: News: policy/terms/pricing/security</div>
+      <details><summary class="small">差分（snippet）</summary><pre class="mono">+title: Keeping your data safe when an AI agent clicks a link
++link: https://openai.com/index/ai-agent-link-safety
++id: https://openai.com/index/ai-agent-link-safety
++date: Wed, 28 Jan 2026 00:00:00 GMT
++body:
++#ITEM</pre></details>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="top">
+    <div class="meta"><br><span class="badge">High</span></div>
+    <div class="meta">OpenAI News (RSS)</div>
+    <div>
+      <p class="title">+title: EMEA Youth &amp; Wellbeing Grant</p>
+      <div class="links small"><a href="https://openai.com/news/rss.xml" target="_blank" rel="noopener">公式/原文</a></div>
+      <div class="small">理由: News: policy/terms/pricing/security</div>
+      <details><summary class="small">差分（snippet）</summary><pre class="mono">+title: EMEA Youth &amp; Wellbeing Grant
++link: https://openai.com/index/emea-youth-and-wellbeing-grant
++id: https://openai.com/index/emea-youth-and-wellbeing-grant
++date: Wed, 28 Jan 2026 01:00:00 GMT
++body:
++#ITEM
++title: The next chapter for AI in the EU
++link: https://openai.com/index/the-next-chapter-for-ai-in-the-eu
++id: https://openai.com/index/the-next-chapter-for-ai-in-the-eu
++date: Wed, 28 Jan 2026 01:00:00 GMT
++body:
++#ITEM
++title: Powering tax donations with AI powered personalized recommendations
++link: https://openai.com/index/trustbank
++id: https://openai.com/index/trustbank
++date: Tue, 27 Jan 2026 00:00:00 GMT
++body:
++#ITEM</pre></details>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="top">
+    <div class="meta"><br><span class="badge">Low</span></div>
+    <div class="meta">OpenAI OpenAPI Spec (YAML)</div>
+    <div>
+      <p class="title">-            &quot;$ref&quot;: &quot;#/components/schemas/Drag&quot;</p>
+      <div class="links small"><a href="https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml" target="_blank" rel="noopener">公式/原文</a></div>
+
+      <details><summary class="small">差分（snippet）</summary><pre class="mono">-            &quot;$ref&quot;: &quot;#/components/schemas/Drag&quot;
++            &quot;$ref&quot;: &quot;#/components/schemas/DragParam&quot;
+-            &quot;$ref&quot;: &quot;#/components/schemas/Move&quot;
+-          },
+-          {
+-            &quot;$ref&quot;: &quot;#/components/schemas/Screenshot&quot;
+-          },
+-          {
+-            &quot;$ref&quot;: &quot;#/components/schemas/Scroll&quot;
+-          },
+-          {
+-            &quot;$ref&quot;: &quot;#/components/schemas/Type&quot;
+-          },
+-          {
+-            &quot;$ref&quot;: &quot;#/components/schemas/Wait&quot;
++            &quot;$ref&quot;: &quot;#/components/schemas/MoveParam&quot;
++          },
++          {
++            &quot;$ref&quot;: &quot;#/components/schemas/ScreenshotParam&quot;
++          },
++          {
++            &quot;$ref&quot;: &quot;#/components/schemas/ScrollParam&quot;
++          },
++          {
++            &quot;$ref&quot;: &quot;#/components/schemas/TypeParam&quot;
++          },
++          {
++            &quot;$ref&quot;: &quot;#/components/schemas/WaitParam&quot;
++        &quot;type&quot;: &quot;object&quot;
++      },
++      &quot;CoordParam&quot;: {
++        &quot;description&quot;: &quot;An x/y coordinate pair, e.g. `{ x: 100, y: 200 }`.&quot;,
++        &quot;properties&quot;: {
++          &quot;x&quot;: {
++            &quot;description&quot;: &quot;The x-coordinate.&quot;,
++            &quot;type&quot;: &quot;integer&quot;
++          },
++          &quot;y&quot;: {
++            &quot;description&quot;: &quot;The y-coordinate.&quot;,
++            &quot;type&quot;: &quot;integer&quot;</pre></details>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="top">
+    <div class="meta"><br><span class="badge">Low</span></div>
+    <div class="meta">OpenAI News (RSS)</div>
+    <div>
+      <p class="title">+title: Introducing Prism</p>
+      <div class="links small"><a href="https://openai.com/news/rss.xml" target="_blank" rel="noopener">公式/原文</a></div>
+
+      <details><summary class="small">差分（snippet）</summary><pre class="mono">+title: Introducing Prism
++link: https://openai.com/index/introducing-prism
++id: https://openai.com/index/introducing-prism
++date: Tue, 27 Jan 2026 00:00:00 GMT
++body:
++#ITEM</pre></details>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="top">
+    <div class="meta"><br><span class="badge">Low</span></div>
+    <div class="meta">OpenAI News (RSS)</div>
+    <div>
+      <p class="title">+title: PVH reimagines the future of fashion with OpenAI</p>
+      <div class="links small"><a href="https://openai.com/news/rss.xml" target="_blank" rel="noopener">公式/原文</a></div>
+
+      <details><summary class="small">差分（snippet）</summary><pre class="mono">+title: PVH reimagines the future of fashion with OpenAI
++link: https://openai.com/index/pvh-future-of-fashion
++id: https://openai.com/index/pvh-future-of-fashion
++date: Tue, 27 Jan 2026 06:00:00 GMT
++body:
++#ITEM</pre></details>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="top">
+    <div class="meta"><br><span class="badge">Medium</span></div>
+    <div class="meta">OpenAI Developer Changelog (RSS)</div>
+    <div>
+      <p class="title">+#ITEM</p>
+      <div class="links small"><a href="https://developers.openai.com/changelog/rss.xml" target="_blank" rel="noopener">公式/原文</a></div>
+
+      <details><summary class="small">差分（snippet）</summary><pre class="mono">+#ITEM
++title: Codex CLI Release: 0.92.0
++link: https://developers.openai.com/changelog/#github-release-280265755
++id: https://developers.openai.com/changelog/#github-release-280265755
++date: Tue, 27 Jan 2026 00:00:00 GMT
++body:</pre></details>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="top">
+    <div class="meta"><br><span class="badge">Low</span></div>
+    <div class="meta">OpenAI News (RSS)</div>
+    <div>
+      <p class="title">+title: How Indeed uses AI to help evolve the job search</p>
+      <div class="links small"><a href="https://openai.com/news/rss.xml" target="_blank" rel="noopener">公式/原文</a></div>
+
+      <details><summary class="small">差分（snippet）</summary><pre class="mono">+title: How Indeed uses AI to help evolve the job search
++link: https://openai.com/index/indeed-maggie-hulce
++id: https://openai.com/index/indeed-maggie-hulce
++date: Mon, 26 Jan 2026 00:00:00 GMT
++body:
++#ITEM</pre></details>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="top">
+    <div class="meta"><br><span class="badge">Medium</span></div>
+    <div class="meta">OpenAI Developer Changelog (RSS)</div>
+    <div>
+      <p class="title">-title: Codex CLI Release: 0.72.0</p>
+      <div class="links small"><a href="https://developers.openai.com/changelog/rss.xml" target="_blank" rel="noopener">公式/原文</a></div>
+
+      <details><summary class="small">差分（snippet）</summary><pre class="mono">-title: Codex CLI Release: 0.72.0
+-link: https://developers.openai.com/changelog/#github-release-270052666
+-id: https://developers.openai.com/changelog/#github-release-270052666
+-date: Sat, 13 Dec 2025 00:00:00 GMT
+-body:
+-#ITEM</pre></details>
+    </div>
+  </div>
+</div></div>
     <div id="empty" class="small" style="margin-top:10px;"></div>
     <div id="debug" class="small mono" style="margin-top:10px;"></div>
 

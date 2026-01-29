@@ -1,5 +1,6 @@
 import json
 import os
+import html
 from datetime import datetime, timezone
 
 
@@ -84,6 +85,45 @@ def main() -> None:
     items.sort(key=lambda x: x.get("ts") or "", reverse=True)
     sources = sorted({x.get("source") for x in items if x.get("source")})
 
+    def esc(s: str) -> str:
+        return html.escape(s or "", quote=True)
+
+    rows = []
+    for it in items:
+        title = it.get("title") or (it.get("snippet") or "").split("\n")[0] or "(no title)"
+        src = it.get("source") or ""
+        url = it.get("url") or ""
+        ts = it.get("ts_h") or it.get("ts") or ""
+        impact_txt = it.get("impact") or "—"
+        reasons = it.get("reasons") or ""
+        diff_body = it.get("snippet_full") or it.get("snippet") or ""
+
+        link_html = f'<a href="{esc(url)}" target="_blank" rel="noopener">公式/原文</a>' if url else ""
+        reasons_html = f'<div class="small">理由: {esc(reasons)}</div>' if reasons else ""
+        diff_html = f'<details><summary class="small">差分（snippet）</summary><pre class="mono">{esc(diff_body)}</pre></details>' if diff_body else ""
+
+        rows.append(
+            "\n".join(
+                [
+                    '<div class="row">',
+                    '  <div class="top">',
+                    f'    <div class="meta">{esc(ts)}<br><span class="badge">{esc(impact_txt)}</span></div>',
+                    f'    <div class="meta">{esc(src)}</div>',
+                    '    <div>',
+                    f'      <p class="title">{esc(title)}</p>',
+                    f'      <div class="links small">{link_html}</div>',
+                    f'      {reasons_html}' if reasons_html else '',
+                    f'      {diff_html}' if diff_html else '',
+                    '    </div>',
+                    '  </div>',
+                    '</div>',
+                ]
+            )
+        )
+
+    rows_html = "\n".join([r for r in rows if r.strip()])
+    debug_static = f"debug_static: items={len(items)}, sources={len(sources)}"
+
     data_json = json.dumps(
         {"items": items, "sources": sources, "base_url": base_url}, ensure_ascii=False
     )
@@ -156,7 +196,8 @@ def main() -> None:
     <label class="small"><input id="hideLow" type="checkbox" checked /> 初期表示は Low を非表示（ノイズ最小）</label>
     <div class="count" id="count"></div>
 
-    <div id="list"></div>
+    <div class="small mono" id="debug_static">__DEBUG_STATIC__</div>
+    <div id="list">__ROWS__</div>
     <div id="empty" class="small" style="margin-top:10px;"></div>
     <div id="debug" class="small mono" style="margin-top:10px;"></div>
 
@@ -295,6 +336,8 @@ def main() -> None:
 """
 
     out_html = out_html.replace("__DATA_JSON__", data_json_safe)
+    out_html = out_html.replace("__ROWS__", rows_html)
+    out_html = out_html.replace("__DEBUG_STATIC__", html.escape(debug_static, quote=True))
 
     with open("changes.html", "w", encoding="utf-8") as f:
         f.write(out_html)
