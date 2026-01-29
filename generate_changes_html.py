@@ -158,6 +158,7 @@ def main() -> None:
 
     <div id="list"></div>
     <div id="empty" class="small" style="margin-top:10px;"></div>
+    <div id="debug" class="small mono" style="margin-top:10px;"></div>
 
     <footer class="small" style="margin-top:18px; padding-top:12px; border-top:1px solid rgba(127,127,127,.25);">
       <div>※重要判断は一次情報（公式）を確認してください。</div>
@@ -167,6 +168,8 @@ def main() -> None:
     <script id="data" type="application/json">__DATA_JSON__</script>
   <script>
     const elEmpty = document.getElementById('empty');
+    const elDebug = document.getElementById('debug');
+    if (elEmpty) elEmpty.textContent = 'Loading…';
     window.addEventListener('error', (e) => {
       if (elEmpty) elEmpty.textContent = 'ERROR: ' + (e && e.message ? e.message : String(e));
     });
@@ -185,6 +188,9 @@ def main() -> None:
     }
     const items = data.items || [];
     const sources = data.sources || [];
+    if (elDebug) {
+      elDebug.textContent = `debug: items=${items.length}, sources=${sources.length}`;
+    }
 
     const elQ = document.getElementById('q');
     const elImpact = document.getElementById('impact');
@@ -233,6 +239,10 @@ def main() -> None:
       }
 
       elCount.textContent = `表示: ${filtered.length} 件 / 全体: ${items.length} 件`;
+      if (items.length === 0) {
+        if (elEmpty) elEmpty.textContent = 'データが0件です。state.json の内容が changes.html に埋め込まれていない可能性があります（Actions生成物/コミットを確認）。';
+        return;
+      }
 
       const parts = [];
       for (const it of filtered) {
