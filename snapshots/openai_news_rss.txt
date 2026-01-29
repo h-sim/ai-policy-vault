@@ -509,6 +509,12 @@ id: https://openai.com/index/agentic-ai-foundation
 date: Tue, 09 Dec 2025 09:00:00 GMT
 body:
 #ITEM
+title: Keeping your data safe when an AI agent clicks a link
+link: https://openai.com/index/ai-agent-link-safety
+id: https://openai.com/index/ai-agent-link-safety
+date: Wed, 28 Jan 2026 00:00:00 GMT
+body:
+#ITEM
 title: AI and compute
 link: https://openai.com/index/ai-and-compute
 id: https://openai.com/index/ai-and-compute

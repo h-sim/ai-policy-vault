@@ -1,5 +1,41 @@
 [
   {
+    "id": "cfd3812e8ad5aa8bea0be263f083708ca61915fc",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+          \"status\": {\n+            \"anyOf\": [\n+              {\n+                \"$ref\": \"#/components/schemas/FunctionShellCallItemStatus\",\n+                \"description\": \"The status of the shell call output.\"\n+              },\n+              {\n+                \"type\": \"null\"\n+              }\n+            ]\n+          },\n-                \"go\": \"package main\\n\\nimport (\\n  \\\"context\\\"\\n  \\\"fmt\\\"\\n\\n  \\\"github.com/openai/openai-go\\\"\\n  \\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n  client := openai.NewCli\n-                \"java\": \"package com.openai.example;\\n\\nimport com.openai.client.OpenAIClient;\\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\\nimport com.openai.core.http.HttpResponse;\\nimport \n+                \"go\": \"package main\\n\\nimport (\\n  \\\"context\\\"\\n  \\\"fmt\\\"\\n\\n  \\\"github.com/openai/openai-go\\\"\\n  \\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n  client := openai.NewCli\n+                \"java\": \"package com.openai.example;\\n\\nimport com.openai.client.OpenAIClient;\\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\\nimport com.openai.core.http.HttpResponse;\\nimport \n-                \"ruby\": \"require \\\"openai\\\"\\n\\nopenai = OpenAI::Client.new(api_key: \\\"My API Key\\\")\\n\\nspeech = openai.audio.speech.create(input: \\\"input\\\", model: :string, voice: :ash)\\n\\nputs(speec\n+                \"ruby\": \"require \\\"openai\\\"\\n\\nopenai = OpenAI::Client.new(api_key: \\\"My API Key\\\")\\n\\nspeech = openai.audio.speech.create(input: \\\"input\\\", model: :\\\"tts-1\\\", voice: :ash)\\n\\nputs(sp\n-                \"go\": \"package main\\n\\nimport (\\n  \\\"context\\\"\\n  \\\"fmt\\\"\\n\\n  \\\"github.com/openai/openai-go\\\"\\n  \\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n  client := openai.NewCli\n-                \"java\": \"package com.openai.example;\\n\\nimport com.openai.client.OpenAIClient;\\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\\nimport com.openai.core.http.HttpResponse;\\nimport \n+                \"go\": \"package main\\n\\nimport (\\n  \\\"context\\\"\\n  \\\"fmt\\\"\\n\\n  \\\"github.com/openai/openai-go\\\"\\n  \\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n  client := openai.NewCli\n+                \"java\": \"package com.openai.example;\\n\\nimport com.openai.client.OpenAIClient;\\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\\nimport com.openai.core.http.HttpResponse;\\nimport \n-                \"ruby\": \"require \\\"openai\\\"\\n\\nopenai = OpenAI::Client.new(api_key: \\\"My API Key\\\")\\n\\nspeech = openai.audio.speech.create(input: \\\"input\\\", model: :string, voice: :ash)\\n\\nputs(speec\n+                \"ruby\": \"require \\\"openai\\\"\\n\\nopenai = OpenAI::Client.new(api_key: \\\"My API Key\\\")\\n\\nspeech = openai.audio.speech.create(input: \\\"input\\\", model: :\\\"tts-1\\\", voice: :ash)\\n\\nputs(sp\n-                \"go\": \"package main\\n\\nimport (\\n  \\\"context\\\"\\n  \\\"fmt\\\"\\n\\n  \\\"github.com/openai/openai-go\\\"\\n  \\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n  client := openai.NewCli\n-                \"java\": \"package com.openai.example;\\n\\nimport com.openai.client.OpenAIClient;\\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\\nimport com.openai.models.completions.Completion;\\n\n+                \"go\": \"package main\\n\\nimport (\\n  \\\"context\\\"\\n  \\\"fmt\\\"\\n\\n  \\\"github.com/openai/openai-go\\\"\\n  \\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n  client := openai.NewCli\n+                \"java\": \"package com.openai.example;\\n\\nimport com.openai.client.OpenAIClient;\\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\\nimport com.openai.models.completions.Completion;\\n\n-                \"ruby\": \"require \\\"openai\\\"\\n\\nopenai = OpenAI::Client.new(api_key: \\\"My API Key\\\")\\n\\ncompletion = openai.completions.create(model: :string, prompt: \\\"This is a test.\\\")\\n\\nputs(comp\n+                \"ruby\": \"require \\\"openai\\\"\\n\\nopenai = OpenAI::Client.new(api_key: \\\"My API Key\\\")\\n\\ncompletion = openai.completions.create(model: :\\\"gpt-3.5-turbo-instruct\\\", prompt: \\\"This is a t\n-                \"go\": \"package main\\n\\nimport (\\n  \\\"context\\\"\\n  \\\"fmt\\\"\\n\\n  \\\"github.com/openai/openai-go\\\"\\n  \\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n  client := openai.NewCli\n-                \"java\": \"package com.openai.example;\\n\\nimport com.openai.client.OpenAIClient;\\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\\nimport com.openai.models.completions.Completion;\\n\n+                \"go\": \"package main\\n\\nimport (\\n  \\\"context\\\"\\n  \\\"fmt\\\"\\n\\n  \\\"github.com/openai/openai-go\\\"\\n  \\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n  client := openai.NewCli\n+                \"java\": \"package com.openai.example;\\n\\nimport com.openai.client.OpenAIClient;\\nimport com.openai.client.okhttp.OpenAIOkHttpClient;\\nimport com.openai.models.completions.Completion;\\n\n-                \"ruby\": \"require \\\"openai\\\"\\n\\nopenai = OpenAI::Client.new(api_key: \\\"My API Key\\\")\\n\\ncompletion = openai.completions.create(model: :string, prompt: \\\"This is a test.\\\")\\n\\nputs(comp\n+                \"ruby\": \"require \\\"openai\\\"\\n\\nopenai = OpenAI::Client.new(api_key: \\\"My API Key\\\")\\n\\ncompletion = openai.completions.create(model: :\\\"gpt-3.5-turbo-instruct\\\", prompt: \\\"This is a t",
+    "snippet_full": "",
+    "diff": {
+      "added": 23,
+      "removed": 12,
+      "churn": 35
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 29 Jan 2026 01:23:10 GMT"
+  },
+  {
+    "id": "d3e51571e41c395df167dc3294e70a318921b176",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Keeping your data safe when an AI agent clicks a link\n+link: https://openai.com/index/ai-agent-link-safety\n+id: https://openai.com/index/ai-agent-link-safety\n+date: Wed, 28 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 29 Jan 2026 01:23:04 GMT"
+  },
+  {
     "id": "4e0aa476691348e415bcebc04bf5065d7e2e3f3f",
     "impact": "High",
     "name": "OpenAI News (RSS)",
