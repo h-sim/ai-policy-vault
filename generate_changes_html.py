@@ -1,6 +1,7 @@
 import json
 import os
 import html
+import re
 from datetime import datetime, timezone
 
 
@@ -36,27 +37,118 @@ def to_int(x, default: int = 0) -> int:
         return default
 
 
+
 def first_n_lines(text: str, n: int = 3) -> str:
     lines = [ln.strip() for ln in (text or "").split("\n")]
     lines = [ln for ln in lines if ln]
     return "\n".join(lines[:n])
 
 
-def build_fallback_summary(source: str, impact: str, reasons: str, diff_stats: dict, snippet_full: str, snippet: str) -> str:
+# 新しい summary 正規化関数（summary, reasons, n行）を追加
+def normalize_summary_text(summary: str, reasons: str = "", n: int = 3) -> str:
+    """state.json側に summary があっても、表示用に3行へ正規化する。
+
+    - 先頭の「要約:」プレフィックスを除去
+    - summary 内に「理由:」が混ざる場合は（別欄で表示するため）除去
+    - 空行を除去して先頭 n 行のみ
+    """
+    s = (summary or "").strip()
+    if not s:
+        return ""
+    # HTML の <br> が混ざっていた場合にも耐える
+    s = s.replace("<br>", "\n").replace("<br/>", "\n").replace("<br />", "\n")
+    lines = [ln.strip() for ln in s.split("\n")]
+    out = []
+    for ln in lines:
+        if not ln:
+            continue
+        # 先頭の「要約:」を除去
+        if ln.startswith("要約:"):
+            ln = ln[len("要約:"):].strip()
+            if not ln:
+                continue
+        # summary 側に理由が含まれている場合は落とす（理由欄で別表示）
+        if ln.startswith("理由:"):
+            continue
+        out.append(ln)
+        if len(out) >= n:
+            break
+    return "\n".join(out)
+
+
+
+def _clean_diff_line(ln: str) -> str:
+    ln = (ln or "").strip()
+    if not ln:
+        return ""
+    if ln.startswith(("+", "-", " ")):
+        ln = ln[1:].strip()
+    ln = re.sub(r"\s+", " ", ln)
+    return ln[:160]
+
+
+def _pick_key_lines(diff_text: str):
+    added, removed = [], []
+    for ln in (diff_text or "").splitlines():
+        if not ln:
+            continue
+        # ignore unified diff headers
+        if ln.startswith(("+++", "---", "@@")):
+            continue
+        if ln.startswith("+"):
+            s = _clean_diff_line(ln)
+            if s:
+                added.append(s)
+        elif ln.startswith("-"):
+            s = _clean_diff_line(ln)
+            if s:
+                removed.append(s)
+    return added, removed
+
+
+def build_fallback_summary(
+    source: str,
+    impact: str,
+    title: str,
+    reasons: str,
+    diff_stats: dict,
+    snippet_full: str,
+    snippet: str,
+) -> str:
+    """LLMなしでも『ぱっと見で分かる』日本語3行を作る（差分 +/− から生成）。"""
     a = to_int((diff_stats or {}).get("added"), 0)
     r = to_int((diff_stats or {}).get("removed"), 0)
     c = to_int((diff_stats or {}).get("churn"), a + r)
-    line1 = f"変更を検知（{impact or '—'}）: {source or 'unknown'}"
-    line2 = (reasons or "").strip()
-    if not line2:
-        line2 = "要点: 公式/原文リンクから一次情報を確認してください"
-    line3 = ""
-    if a or r or c:
-        line3 = f"差分量: +{a} / -{r}（churn={c}）"
+
+    src = (source or "unknown").strip()
+    imp = (impact or "—").strip() or "—"
+    ttl = (title or "").strip()
+    rs = (reasons or "").strip()
+
+    # 1) 対象 + 重要度
+    line1 = f"対象: {src}（{imp}）"
+
+    # 2) 変更内容（タイトル優先、なければ差分の代表行）
+    diff_text = (snippet_full or snippet or "").strip()
+    added, removed = _pick_key_lines(diff_text)
+    if ttl:
+        line2 = f"変更: {ttl[:120]}"
+    elif added:
+        line2 = f"追加: {added[0]}"
+    elif removed:
+        line2 = f"削除: {removed[0]}"
+    elif a or r or c:
+        line2 = f"変更: 差分あり（+{a}/-{r}, churn={c}）"
     else:
-        body = (snippet_full or snippet or "").strip()
-        one = body.split("\n")[0].strip() if body else ""
-        line3 = f"差分抜粋: {one[:80]}" if one else "差分抜粋: （なし）"
+        one = diff_text.split("\n")[0].strip() if diff_text else ""
+        line2 = f"変更: {one[:120]}" if one else "変更: 差分あり（詳細は下の『差分』を参照）"
+
+    # 3) 次アクション（理由は別欄で表示するので summary には入れない）
+    if imp in ("Breaking", "High"):
+        line3 = "次: 公式/原文を開いて影響（API/料金/規約/互換）を確認"
+    else:
+        line3 = "次: 必要なら公式/原文で一次情報を確認"
+
     return first_n_lines("\n".join([line1, line2, line3]), 3)
 
 
@@ -118,10 +210,11 @@ def main() -> None:
             summary = it.get("summary3")
         if not summary:
             summary = it.get("summary_3")
-        summary_s = str(summary or "").strip()
-        summary_s = first_n_lines(summary_s, 3)
+
+        # summary は3行に正規化（理由は別欄表示なので summary 側の「理由:」は除去）
+        summary_s = normalize_summary_text(str(summary or ""), reasons_s, 3)
         if not summary_s:
-            summary_s = build_fallback_summary(source, impact, reasons_s, diff_stats, snippet_full, snippet)
+            summary_s = build_fallback_summary(source, impact, title, reasons_s, diff_stats, snippet_full, snippet)
 
         items.append(
             {
@@ -162,7 +255,11 @@ def main() -> None:
         diff_body = it.get("snippet_full") or it.get("snippet") or ""
 
         link_html = f'<a href="{esc(url)}" target="_blank" rel="noopener">公式/原文</a>' if url else ""
-        summary_html = f'<div class="small">要約: {esc(summary).replace("\n", "<br>")}</div>' if summary else ''
+        summary_html = (
+            f'<div class="small">要約: {esc(summary).replace("\n", "<br>")}</div>'
+            if summary
+            else ""
+        )
         reasons_html = f'<div class="small">理由: {esc(reasons)}</div>' if reasons else ""
         diff_html = f'<details><summary class="small">差分（snippet）</summary><pre class="mono">{esc(diff_body)}</pre></details>' if diff_body else ""
 
@@ -368,8 +465,17 @@ def main() -> None:
         const url = esc(it.url || '');
         const ts = esc(it.ts_h || it.ts || '');
         const impactTxt = esc(it.impact || '');
-        const summary = it.summary ? esc(it.summary) : '';
-        const reasons = it.reasons ? esc(it.reasons) : '';
+        let summary = it.summary ? esc(it.summary) : '';
+        let reasons = it.reasons ? esc(it.reasons) : '';
+        if (summary) {
+          // 古い生成物で summary に「理由:」が含まれている場合は除去（理由欄で別表示）
+          summary = summary
+            .split(/\n/)
+            .map(s => (s||'').trim())
+            .filter(s => s && !s.startsWith('理由:'))
+            .slice(0,3)
+            .join('\n');
+        }
         const diffBody = it.snippet_full || it.snippet || '';
 
         parts.push(`
