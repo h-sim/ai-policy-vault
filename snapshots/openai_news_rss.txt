@@ -1236,8 +1236,8 @@ date: Fri, 16 Aug 2024 11:00:00 GMT
 body:
 #ITEM
 title: Disrupting deceptive uses of AI by covert influence operations
-link: https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations
-id: https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations
+link: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations
+id: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations
 date: Thu, 30 May 2024 10:00:00 GMT
 body:
 #ITEM

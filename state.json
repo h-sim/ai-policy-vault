@@ -1,5 +1,45 @@
 [
   {
+    "id": "cb01f5d4a3fffaf51c6ebe0abfc2174101841a92",
+    "impact": "Breaking",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-{\n-  \"components\": {\n-    \"schemas\": {\n-      \"ActiveStatus\": {\n-        \"description\": \"Indicates that a thread is active.\",\n-        \"properties\": {\n-          \"type\": {\n-            \"default\": \"active\",\n-            \"description\": \"Status discriminator that is always `active`.\",\n-            \"enum\": [\n-              \"active\"\n+openapi: 3.1.0\n+info:\n+  title: OpenAI API\n+  description: The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.\n+  version: 2.3.0\n+  termsOfService: https://openai.com/policies/terms-of-use\n+  contact:\n+    name: OpenAI Support\n+    url: https://help.openai.com/\n+  license:\n+    name: MIT\n+    url: https://github.com/openai/openai-openapi/blob/master/LICENSE\n+servers:\n+  - url: https://api.openai.com/v1\n+security:\n+  - ApiKeyAuth: []\n+tags:\n+  - name: Assistants\n+    description: Build Assistants that can call models and use tools.\n+  - name: Audio\n+    description: Turn audio into text or text into audio.\n+  - name: Chat\n+    description: Given a list of messages comprising a conversation, the model will return a response.\n+  - name: Conversations\n+    description: Manage conversations and conversation items.\n+  - name: Completions\n+    description: Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position.\n+  - name: Embeddings\n+    description: Get a vector representation of a given input that can be easily consumed by machine learning models and algorithms.",
+    "snippet_full": "",
+    "diff": {
+      "added": 71012,
+      "removed": 58198,
+      "churn": 129210
+    },
+    "score": 190,
+    "reasons": [
+      "OpenAPI: version変更",
+      "OpenAPI: termsOfService変更",
+      "OpenAPI: servers.url変更",
+      "OpenAPI: security変更",
+      "OpenAPI: tags増減（軽微）"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 31 Jan 2026 01:20:35 GMT"
+  },
+  {
+    "id": "82a2d892e6b9a64193d5e8ca701333881094c106",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-link: https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations\n-id: https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations\n+link: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations\n+id: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 31 Jan 2026 01:20:07 GMT"
+  },
+  {
     "id": "c8c3e0cadf60f9d89ff4edca11e85cacd418b1a6",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
