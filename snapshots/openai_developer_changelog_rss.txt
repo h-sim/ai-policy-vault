@@ -149,6 +149,12 @@ id: https://developers.openai.com/changelog/#codex-2026-01-28-mdx
 date: Wed, 28 Jan 2026 00:00:00 GMT
 body:
 #ITEM
+title: Introducing the Codex app
+link: https://developers.openai.com/changelog/#codex-2026-02-02-mdx
+id: https://developers.openai.com/changelog/#codex-2026-02-02-mdx
+date: Mon, 02 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Resources updates
 link: https://developers.openai.com/changelog/#developers-2025-11-4-mdx
 id: https://developers.openai.com/changelog/#developers-2025-11-4-mdx
@@ -159,18 +165,6 @@ title: Expanded llms.txt coverage
 link: https://developers.openai.com/changelog/#developers-2026-01-22-mdx
 id: https://developers.openai.com/changelog/#developers-2026-01-22-mdx
 date: Thu, 22 Jan 2026 00:00:00 GMT
-body:
-#ITEM
-title: Codex CLI Release: 0.75.0
-link: https://developers.openai.com/changelog/#github-release-271555285
-id: https://developers.openai.com/changelog/#github-release-271555285
-date: Thu, 18 Dec 2025 00:00:00 GMT
-body:
-#ITEM
-title: Codex CLI Release: 0.76.0
-link: https://developers.openai.com/changelog/#github-release-271840565
-id: https://developers.openai.com/changelog/#github-release-271840565
-date: Fri, 19 Dec 2025 00:00:00 GMT
 body:
 #ITEM
 title: Codex CLI Release: 0.77.0
@@ -261,4 +255,10 @@ title: Codex CLI Release: 0.93.0
 link: https://developers.openai.com/changelog/#github-release-281755443
 id: https://developers.openai.com/changelog/#github-release-281755443
 date: Sat, 31 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: Codex CLI Release: 0.94.0
+link: https://developers.openai.com/changelog/#github-release-282298678
+id: https://developers.openai.com/changelog/#github-release-282298678
+date: Mon, 02 Feb 2026 00:00:00 GMT
 body:

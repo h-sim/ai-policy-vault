@@ -1,5 +1,39 @@
 [
   {
+    "id": "17d2e77f9e9e6c05e8f8e02d49aaaf9a8a0410de",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing the Codex app\n+link: https://openai.com/index/introducing-the-codex-app\n+id: https://openai.com/index/introducing-the-codex-app\n+date: Mon, 02 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Snowflake and OpenAI partner to bring frontier intelligence to enterprise data\n+link: https://openai.com/index/snowflake-partnership\n+id: https://openai.com/index/snowflake-partnership\n+date: Mon, 02 Feb 2026 06:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 03 Feb 2026 01:27:26 GMT"
+  },
+  {
+    "id": "bbc7c4729d383c40274248c9f32a9f7939533410",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+title: Introducing the Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-02-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-02-mdx\n+date: Mon, 02 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Codex CLI Release: 0.75.0\n-link: https://developers.openai.com/changelog/#github-release-271555285\n-id: https://developers.openai.com/changelog/#github-release-271555285\n-date: Thu, 18 Dec 2025 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.76.0\n-link: https://developers.openai.com/changelog/#github-release-271840565\n-id: https://developers.openai.com/changelog/#github-release-271840565\n-date: Fri, 19 Dec 2025 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.94.0\n+link: https://developers.openai.com/changelog/#github-release-282298678\n+id: https://developers.openai.com/changelog/#github-release-282298678\n+date: Mon, 02 Feb 2026 00:00:00 GMT\n+body:",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 12,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 03 Feb 2026 01:27:26 GMT"
+  },
+  {
     "id": "2e6096b1ce89278a6222b4422c8d2435eb81b488",
     "impact": "Medium",
     "name": "OpenAI Developer Changelog (RSS)",

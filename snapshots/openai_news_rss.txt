@@ -2555,6 +2555,12 @@ id: https://openai.com/index/introducing-the-chatgpt-app-for-ios
 date: Thu, 18 May 2023 07:00:00 GMT
 body:
 #ITEM
+title: Introducing the Codex app
+link: https://openai.com/index/introducing-the-codex-app
+id: https://openai.com/index/introducing-the-codex-app
+date: Mon, 02 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Introducing the GPT Store
 link: https://openai.com/index/introducing-the-gpt-store
 id: https://openai.com/index/introducing-the-gpt-store
@@ -4215,6 +4221,12 @@ title: Helping 1,000 small businesses build with AI
 link: https://openai.com/index/small-business-ai-jam
 id: https://openai.com/index/small-business-ai-jam
 date: Thu, 20 Nov 2025 06:00:00 GMT
+body:
+#ITEM
+title: Snowflake and OpenAI partner to bring frontier intelligence to enterprise data
+link: https://openai.com/index/snowflake-partnership
+id: https://openai.com/index/snowflake-partnership
+date: Mon, 02 Feb 2026 06:00:00 GMT
 body:
 #ITEM
 title: Solving math word problems
