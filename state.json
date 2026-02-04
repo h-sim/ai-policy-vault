@@ -1,5 +1,22 @@
 [
   {
+    "id": "6eaba78b1ae8bdec7542521a3ce67144f5d066b5",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-date: Tue, 30 Sep 2025 10:00:00 GMT\n+date: Tue, 03 Feb 2026 00:00:00 GMT",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 04 Feb 2026 01:23:00 GMT"
+  },
+  {
     "id": "17d2e77f9e9e6c05e8f8e02d49aaaf9a8a0410de",
     "impact": "Low",
     "name": "OpenAI News (RSS)",

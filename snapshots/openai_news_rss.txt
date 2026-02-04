@@ -4262,7 +4262,7 @@ body:
 title: The Sora feed philosophy
 link: https://openai.com/index/sora-feed-philosophy
 id: https://openai.com/index/sora-feed-philosophy
-date: Tue, 30 Sep 2025 10:00:00 GMT
+date: Tue, 03 Feb 2026 00:00:00 GMT
 body:
 #ITEM
 title: Sora first impressions
