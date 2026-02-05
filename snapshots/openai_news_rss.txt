@@ -3035,6 +3035,12 @@ id: https://openai.com/index/my-dog-the-math-tutor
 date: Tue, 04 Feb 2025 00:00:00 GMT
 body:
 #ITEM
+title: Navigating health questions with ChatGPT
+link: https://openai.com/index/navigating-health-questions
+id: https://openai.com/index/navigating-health-questions
+date: Thu, 05 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Navigating the challenges and opportunities of synthetic voices
 link: https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices
 id: https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices
@@ -4733,6 +4739,12 @@ id: https://openai.com/index/universe
 date: Mon, 05 Dec 2016 08:00:00 GMT
 body:
 #ITEM
+title: Unlocking the Codex harness: how we built the App Server
+link: https://openai.com/index/unlocking-the-codex-harness
+id: https://openai.com/index/unlocking-the-codex-harness
+date: Wed, 04 Feb 2026 13:00:00 GMT
+body:
+#ITEM
 title: Unrolling the Codex agent loop
 link: https://openai.com/index/unrolling-the-codex-agent-loop
 id: https://openai.com/index/unrolling-the-codex-agent-loop
@@ -4809,6 +4821,12 @@ title: Variational option discovery algorithms
 link: https://openai.com/index/variational-option-discovery-algorithms
 id: https://openai.com/index/variational-option-discovery-algorithms
 date: Thu, 26 Jul 2018 07:00:00 GMT
+body:
+#ITEM
+title: VfL Wolfsburg turns ChatGPT into a club-wide capability
+link: https://openai.com/index/vfl-wolfsburg
+id: https://openai.com/index/vfl-wolfsburg
+date: Wed, 04 Feb 2026 00:00:00 GMT
 body:
 #ITEM
 title: Accurately analyzing large scale qualitative data

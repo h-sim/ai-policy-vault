@@ -1,5 +1,5 @@
-[SUPPRESS] OpenAI Developer Changelog (RSS) : window_drop (+0/-6, churn=6)
-[Low] OpenAI News (RSS) : 変更あり (score=0, +1/-1, churn=2)
+[Medium] OpenAI Developer Changelog (RSS) : 変更あり (score=0, +18/-0, churn=18)
+[Low] OpenAI News (RSS) : 変更あり (score=0, +18/-0, churn=18)
 [Breaking] OpenAI OpenAPI Spec (YAML) : 変更なし (+0/-0, churn=0)
-[SUMMARY] Added 1 new items (Low=1)
-[SUMMARY] Suppressed 1 changes (window_drop=1)
+[SUMMARY] Added 2 new items (Medium=1, Low=1)
+[SUMMARY] Suppressed 0 changes

@@ -1,5 +1,39 @@
 [
   {
+    "id": "591476be80e2748a94099b13bcf49a9b351be5e4",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Navigating health questions with ChatGPT\n+link: https://openai.com/index/navigating-health-questions\n+id: https://openai.com/index/navigating-health-questions\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Unlocking the Codex harness: how we built the App Server\n+link: https://openai.com/index/unlocking-the-codex-harness\n+id: https://openai.com/index/unlocking-the-codex-harness\n+date: Wed, 04 Feb 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: VfL Wolfsburg turns ChatGPT into a club-wide capability\n+link: https://openai.com/index/vfl-wolfsburg\n+id: https://openai.com/index/vfl-wolfsburg\n+date: Wed, 04 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 05 Feb 2026 01:23:20 GMT"
+  },
+  {
+    "id": "a7a8c51f91fff716397cb2a895b6f91a23e44d99",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+title: Added ChatGPT Apps lessons guest post\n+link: https://developers.openai.com/changelog/#developers-2026-02-03-mdx\n+id: https://developers.openai.com/changelog/#developers-2026-02-03-mdx\n+date: Tue, 03 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.95.0\n+link: https://developers.openai.com/changelog/#github-release-282823276\n+id: https://developers.openai.com/changelog/#github-release-282823276\n+date: Wed, 04 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.96.0\n+link: https://developers.openai.com/changelog/#github-release-283083942\n+id: https://developers.openai.com/changelog/#github-release-283083942\n+date: Wed, 04 Feb 2026 00:00:00 GMT\n+body:",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 05 Feb 2026 01:23:20 GMT"
+  },
+  {
     "id": "6eaba78b1ae8bdec7542521a3ce67144f5d066b5",
     "impact": "Low",
     "name": "OpenAI News (RSS)",

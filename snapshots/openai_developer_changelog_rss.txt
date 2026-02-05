@@ -167,6 +167,12 @@ id: https://developers.openai.com/changelog/#developers-2026-01-22-mdx
 date: Thu, 22 Jan 2026 00:00:00 GMT
 body:
 #ITEM
+title: Added ChatGPT Apps lessons guest post
+link: https://developers.openai.com/changelog/#developers-2026-02-03-mdx
+id: https://developers.openai.com/changelog/#developers-2026-02-03-mdx
+date: Tue, 03 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Codex CLI Release: 0.78.0
 link: https://developers.openai.com/changelog/#github-release-274610568
 id: https://developers.openai.com/changelog/#github-release-274610568
@@ -255,4 +261,16 @@ title: Codex CLI Release: 0.94.0
 link: https://developers.openai.com/changelog/#github-release-282298678
 id: https://developers.openai.com/changelog/#github-release-282298678
 date: Mon, 02 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Codex CLI Release: 0.95.0
+link: https://developers.openai.com/changelog/#github-release-282823276
+id: https://developers.openai.com/changelog/#github-release-282823276
+date: Wed, 04 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Codex CLI Release: 0.96.0
+link: https://developers.openai.com/changelog/#github-release-283083942
+id: https://developers.openai.com/changelog/#github-release-283083942
+date: Wed, 04 Feb 2026 00:00:00 GMT
 body:
