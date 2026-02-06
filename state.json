@@ -1,5 +1,41 @@
 [
   {
+    "id": "1d77a6b581c662309086b9e809ce75e64fd36adb",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing Trusted Access for Cyber\n+link: https://openai.com/index/trusted-access-for-cyber\n+id: https://openai.com/index/trusted-access-for-cyber\n+title: GPT-5.3-Codex System Card\n+link: https://openai.com/index/gpt-5-3-codex-system-card\n+id: https://openai.com/index/gpt-5-3-codex-system-card\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5 lowers the cost of cell-free protein synthesis\n+link: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost\n+id: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+    "snippet_full": "+title: GPT-5.3-Codex System Card\n+link: https://openai.com/index/gpt-5-3-codex-system-card\n+id: https://openai.com/index/gpt-5-3-codex-system-card\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5 lowers the cost of cell-free protein synthesis\n+link: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost\n+id: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost\n+date: Thu, 05 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-5.3-Codex\n+link: https://openai.com/index/introducing-gpt-5-3-codex\n+id: https://openai.com/index/introducing-gpt-5-3-codex\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing OpenAI Frontier\n+link: https://openai.com/index/introducing-openai-frontier\n+id: https://openai.com/index/introducing-openai-frontier\n+date: Thu, 05 Feb 2026 06:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Trusted Access for Cyber\n+link: https://openai.com/index/trusted-access-for-cyber\n+id: https://openai.com/index/trusted-access-for-cyber\n+date: Thu, 05 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 30,
+      "removed": 0,
+      "churn": 30
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Feb 2026 01:24:08 GMT"
+  },
+  {
+    "id": "dac7de9ac5df03861594adc6e33370442b0e7c36",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-04-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-04-app-mdx\n+date: Wed, 04 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-05-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-05-app-mdx\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-5.3-Codex\n+link: https://developers.openai.com/changelog/#codex-2026-02-05-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-05-mdx\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Codex CLI Release: 0.78.0\n-link: https://developers.openai.com/changelog/#github-release-274610568\n-id: https://developers.openai.com/changelog/#github-release-274610568\n-date: Tue, 06 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.79.0\n-link: https://developers.openai.com/changelog/#github-release-274682036\n-id: https://developers.openai.com/changelog/#github-release-274682036\n-date: Wed, 07 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.97.0\n+link: https://developers.openai.com/changelog/#github-release-283219180\n+id: https://developers.openai.com/changelog/#github-release-283219180\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.98.0\n+link: https://developers.openai.com/changelog/#github-release-283440153\n+id: https://developers.openai.com/changelog/#github-release-283440153",
+    "snippet_full": "",
+    "diff": {
+      "added": 30,
+      "removed": 12,
+      "churn": 42
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Feb 2026 01:23:52 GMT"
+  },
+  {
     "id": "591476be80e2748a94099b13bcf49a9b351be5e4",
     "impact": "Low",
     "name": "OpenAI News (RSS)",

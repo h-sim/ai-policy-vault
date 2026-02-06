@@ -155,6 +155,24 @@ id: https://developers.openai.com/changelog/#codex-2026-02-02-mdx
 date: Mon, 02 Feb 2026 00:00:00 GMT
 body:
 #ITEM
+title: Codex app
+link: https://developers.openai.com/changelog/#codex-2026-02-04-app-mdx
+id: https://developers.openai.com/changelog/#codex-2026-02-04-app-mdx
+date: Wed, 04 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Codex app
+link: https://developers.openai.com/changelog/#codex-2026-02-05-app-mdx
+id: https://developers.openai.com/changelog/#codex-2026-02-05-app-mdx
+date: Thu, 05 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-5.3-Codex
+link: https://developers.openai.com/changelog/#codex-2026-02-05-mdx
+id: https://developers.openai.com/changelog/#codex-2026-02-05-mdx
+date: Thu, 05 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Resources updates
 link: https://developers.openai.com/changelog/#developers-2025-11-4-mdx
 id: https://developers.openai.com/changelog/#developers-2025-11-4-mdx
@@ -171,18 +189,6 @@ title: Added ChatGPT Apps lessons guest post
 link: https://developers.openai.com/changelog/#developers-2026-02-03-mdx
 id: https://developers.openai.com/changelog/#developers-2026-02-03-mdx
 date: Tue, 03 Feb 2026 00:00:00 GMT
-body:
-#ITEM
-title: Codex CLI Release: 0.78.0
-link: https://developers.openai.com/changelog/#github-release-274610568
-id: https://developers.openai.com/changelog/#github-release-274610568
-date: Tue, 06 Jan 2026 00:00:00 GMT
-body:
-#ITEM
-title: Codex CLI Release: 0.79.0
-link: https://developers.openai.com/changelog/#github-release-274682036
-id: https://developers.openai.com/changelog/#github-release-274682036
-date: Wed, 07 Jan 2026 00:00:00 GMT
 body:
 #ITEM
 title: Codex CLI Release: 0.80.0
@@ -273,4 +279,16 @@ title: Codex CLI Release: 0.96.0
 link: https://developers.openai.com/changelog/#github-release-283083942
 id: https://developers.openai.com/changelog/#github-release-283083942
 date: Wed, 04 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Codex CLI Release: 0.97.0
+link: https://developers.openai.com/changelog/#github-release-283219180
+id: https://developers.openai.com/changelog/#github-release-283219180
+date: Thu, 05 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Codex CLI Release: 0.98.0
+link: https://developers.openai.com/changelog/#github-release-283440153
+id: https://developers.openai.com/changelog/#github-release-283440153
+date: Thu, 05 Feb 2026 00:00:00 GMT
 body:
