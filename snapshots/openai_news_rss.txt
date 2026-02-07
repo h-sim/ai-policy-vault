@@ -3809,6 +3809,12 @@ id: https://openai.com/index/our-approach-to-alignment-research
 date: Wed, 24 Aug 2022 07:00:00 GMT
 body:
 #ITEM
+title: Making AI work for everyone, everywhere: our approach to localization
+link: https://openai.com/index/our-approach-to-localization
+id: https://openai.com/index/our-approach-to-localization
+date: Fri, 06 Feb 2026 10:00:00 GMT
+body:
+#ITEM
 title: Resolving digital threats 100x faster with OpenAI
 link: https://openai.com/index/outtake
 id: https://openai.com/index/outtake
@@ -5007,6 +5013,12 @@ title: OpenAI o1 Contributions
 link: https://openai.com/openai-o1-contributions
 id: https://openai.com/openai-o1-contributions
 date: Thu, 12 Sep 2024 10:00:00 GMT
+body:
+#ITEM
+title: Korea privacy policy
+link: https://openai.com/policies/kr-privacy-policy
+id: https://openai.com/policies/kr-privacy-policy
+date: Fri, 06 Feb 2026 10:00:00 GMT
 body:
 #ITEM
 title: Outbound coordinated vulnerability disclosure policy

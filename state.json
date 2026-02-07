@@ -1,5 +1,41 @@
 [
   {
+    "id": "36be807b725be14257191ab8791c4f5bcff4e3f3",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Making AI work for everyone, everywhere: our approach to localization\n+link: https://openai.com/index/our-approach-to-localization\n+id: https://openai.com/index/our-approach-to-localization\n+date: Fri, 06 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Korea privacy policy\n+link: https://openai.com/policies/kr-privacy-policy\n+id: https://openai.com/policies/kr-privacy-policy\n+date: Fri, 06 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 07 Feb 2026 01:22:50 GMT"
+  },
+  {
+    "id": "008931cf7057a2ea17dfcf7918bac0661abf8bbc",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "-#ITEM\n-title: Codex CLI Release: 0.80.0\n-link: https://developers.openai.com/changelog/#github-release-275597320\n-id: https://developers.openai.com/changelog/#github-release-275597320\n-date: Fri, 09 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.81.0\n-link: https://developers.openai.com/changelog/#github-release-276819252\n-id: https://developers.openai.com/changelog/#github-release-276819252\n-date: Wed, 14 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.84.0\n-link: https://developers.openai.com/changelog/#github-release-276912334\n-id: https://developers.openai.com/changelog/#github-release-276912334\n-date: Thu, 15 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.85.0\n-link: https://developers.openai.com/changelog/#github-release-277157618\n-id: https://developers.openai.com/changelog/#github-release-277157618\n-date: Thu, 15 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.86.0\n-link: https://developers.openai.com/changelog/#github-release-277242575\n-id: https://developers.openai.com/changelog/#github-release-277242575\n-date: Fri, 16 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.87.0\n-link: https://developers.openai.com/changelog/#github-release-277440557\n-id: https://developers.openai.com/changelog/#github-release-277440557\n-date: Fri, 16 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.88.0\n-link: https://developers.openai.com/changelog/#github-release-278754265\n-id: https://developers.openai.com/changelog/#github-release-278754265",
+    "snippet_full": "",
+    "diff": {
+      "added": 0,
+      "removed": 102,
+      "churn": 102
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 07 Feb 2026 01:22:30 GMT"
+  },
+  {
     "id": "1d77a6b581c662309086b9e809ce75e64fd36adb",
     "impact": "High",
     "name": "OpenAI News (RSS)",
