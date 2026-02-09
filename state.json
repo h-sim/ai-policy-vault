@@ -1,5 +1,22 @@
 [
   {
+    "id": "eac3cad01e67a625ceeec449591f3e3386143f88",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+      description: >\n+        You can call this endpoint with either:\n+\n+\n+        - `multipart/form-data`: use binary uploads via `image` (and optional\n+        `mask`).\n+\n+        - `application/json`: use `images` (and optional `mask`) as references\n+        with either `image_url` or `file_id`.\n+\n+\n+        Note that JSON requests use `images` (array) instead of the multipart\n+        `image` field.\n+            examples:\n+              multipart_edit:\n+                summary: Multipart form upload (binary image + prompt)\n+                value:\n+                  model: gpt-image-1\n+                  prompt: Add a watercolor effect to this image\n+                  image: <binary image file>\n+                  size: 1024x1024\n+                  quality: high\n+          application/json:\n+            schema:\n+              $ref: \"#/components/schemas/EditImageBodyJsonParam\"\n+            examples:\n+              json_with_url:\n+                summary: JSON request with image URL\n+                value:\n+                  model: gpt-image-1\n+                  prompt: Add a watercolor effect to this image\n+                  images:\n+                    - image_url: https://example.com/source-image.png\n+                  size: 1024x1024\n+                  quality: high\n+              json_with_file_id:\n+                summary: JSON request with uploaded file id\n+                value:\n+                  model: gpt-image-1.5\n+                  prompt: Replace the background with a snowy mountain scene",
+    "snippet_full": "",
+    "diff": {
+      "added": 247,
+      "removed": 2,
+      "churn": 249
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 09 Feb 2026 01:28:55 GMT"
+  },
+  {
     "id": "36be807b725be14257191ab8791c4f5bcff4e3f3",
     "impact": "High",
     "name": "OpenAI News (RSS)",
