@@ -743,6 +743,12 @@ id: https://openai.com/index/booking-com
 date: Thu, 20 Mar 2025 23:00:00 GMT
 body:
 #ITEM
+title: Bringing ChatGPT to GenAI.mil
+link: https://openai.com/index/bringing-chatgpt-to-genaimil
+id: https://openai.com/index/bringing-chatgpt-to-genaimil
+date: Mon, 09 Feb 2026 11:00:00 GMT
+body:
+#ITEM
 title: BrowseComp: a benchmark for browsing agents
 link: https://openai.com/index/browsecomp
 id: https://openai.com/index/browsecomp
@@ -4601,6 +4607,12 @@ id: https://openai.com/index/ten-years
 date: Thu, 11 Dec 2025 00:00:00 GMT
 body:
 #ITEM
+title: Testing ads in ChatGPT
+link: https://openai.com/index/testing-ads-in-chatgpt
+id: https://openai.com/index/testing-ads-in-chatgpt
+date: Mon, 09 Feb 2026 11:00:00 GMT
+body:
+#ITEM
 title: Testing robustness against unforeseen adversaries
 link: https://openai.com/index/testing-robustness
 id: https://openai.com/index/testing-robustness
@@ -5013,12 +5025,6 @@ title: OpenAI o1 Contributions
 link: https://openai.com/openai-o1-contributions
 id: https://openai.com/openai-o1-contributions
 date: Thu, 12 Sep 2024 10:00:00 GMT
-body:
-#ITEM
-title: Korea privacy policy
-link: https://openai.com/policies/kr-privacy-policy
-id: https://openai.com/policies/kr-privacy-policy
-date: Fri, 06 Feb 2026 10:00:00 GMT
 body:
 #ITEM
 title: Outbound coordinated vulnerability disclosure policy

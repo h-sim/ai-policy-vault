@@ -1,5 +1,41 @@
 [
   {
+    "id": "ed507595508506afd1e97043ed48d64bea5b0c1e",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Bringing ChatGPT to GenAI.mil\n+link: https://openai.com/index/bringing-chatgpt-to-genaimil\n+id: https://openai.com/index/bringing-chatgpt-to-genaimil\n+date: Mon, 09 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Testing ads in ChatGPT\n+link: https://openai.com/index/testing-ads-in-chatgpt\n+id: https://openai.com/index/testing-ads-in-chatgpt\n+date: Mon, 09 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM\n-title: Korea privacy policy\n-link: https://openai.com/policies/kr-privacy-policy\n-id: https://openai.com/policies/kr-privacy-policy\n-date: Fri, 06 Feb 2026 10:00:00 GMT\n-body:\n-#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 6,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 10 Feb 2026 01:52:18 GMT"
+  },
+  {
+    "id": "ae707bf83c8c81ae5bb4265e28d4778612d9ea70",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+title: GPT-5.3-Codex in Cursor and VS Code\n+link: https://developers.openai.com/changelog/#codex-2026-02-09-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-09-mdx\n+date: Mon, 09 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.81.0\n+link: https://developers.openai.com/changelog/#github-release-276819252\n+id: https://developers.openai.com/changelog/#github-release-276819252\n+date: Wed, 14 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.84.0\n+link: https://developers.openai.com/changelog/#github-release-276912334\n+id: https://developers.openai.com/changelog/#github-release-276912334\n+date: Thu, 15 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.85.0\n+link: https://developers.openai.com/changelog/#github-release-277157618\n+id: https://developers.openai.com/changelog/#github-release-277157618\n+date: Thu, 15 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.86.0\n+link: https://developers.openai.com/changelog/#github-release-277242575\n+id: https://developers.openai.com/changelog/#github-release-277242575\n+date: Fri, 16 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.87.0\n+link: https://developers.openai.com/changelog/#github-release-277440557\n+id: https://developers.openai.com/changelog/#github-release-277440557\n+date: Fri, 16 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.88.0\n+link: https://developers.openai.com/changelog/#github-release-278754265\n+id: https://developers.openai.com/changelog/#github-release-278754265",
+    "snippet_full": "",
+    "diff": {
+      "added": 102,
+      "removed": 0,
+      "churn": 102
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 10 Feb 2026 01:52:00 GMT"
+  },
+  {
     "id": "eac3cad01e67a625ceeec449591f3e3386143f88",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
