@@ -1,5 +1,39 @@
 [
   {
+    "id": "83c2c5c0c2910364f0c93ea37acd91d899b72352",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-                  description: The endpoint to be used for all requests in the batch. Currently `/v1/responses`, `/v1/chat/completions`, `/v1/embeddings`, `/v1/completions`, and `/v1/moderations` are\n+                    - /v1/images/generations\n+                    - /v1/images/edits\n+                  description: The endpoint to be used for all requests in the batch. Currently `/v1/responses`, `/v1/chat/completions`, `/v1/embeddings`, `/v1/completions`, `/v1/moderations`, `/v1/i\n-      summary: Creates an edited or extended image given one or more source images and a prompt. This endpoint supports GPT Image models (`gpt-image-1.5`, `gpt-image-1`, and `gpt-image-1-mini`) and `\n+      summary: Creates an edited or extended image given one or more source images and a prompt. This endpoint supports GPT Image models (`gpt-image-1.5`, `gpt-image-1`, `gpt-image-1-mini`, and `chat\n-                  model: gpt-image-1\n+                  model: gpt-image-1.5\n-                  model: gpt-image-1\n+                  model: gpt-image-1.5\n+  /skills:\n+    post:\n+      tags:\n+        - Skills\n+      summary: Create Skill\n+      description: Create a new skill.\n+      operationId: CreateSkill\n+      parameters: []\n+      requestBody:\n+        content:\n+          multipart/form-data:\n+            schema:\n+              $ref: \"#/components/schemas/CreateSkillBody\"\n+          application/json:\n+            schema:\n+              $ref: \"#/components/schemas/CreateSkillBody\"\n+      responses:\n+        \"200\":\n+          description: Success\n+          content:\n+            application/json:\n+              schema:\n+                $ref: \"#/components/schemas/SkillResource\"\n+      x-oaiMeta:\n+        examples:\n+          response: \"\"\n+          request:\n+            node.js: |-\n+              import OpenAI from 'openai';\n+",
+    "snippet_full": "",
+    "diff": {
+      "added": 1696,
+      "removed": 22,
+      "churn": 1718
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 11 Feb 2026 01:48:43 GMT"
+  },
+  {
+    "id": "4d4bc178cba1a17c43c51e9f46539168c1d426ec",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "-title: Codex CLI Release: 0.81.0\n-link: https://developers.openai.com/changelog/#github-release-276819252\n-id: https://developers.openai.com/changelog/#github-release-276819252\n-date: Wed, 14 Jan 2026 00:00:00 GMT\n+title: Expanded llms coverage for API docs and reference\n+link: https://developers.openai.com/changelog/#developers-2026-02-10-mdx\n+id: https://developers.openai.com/changelog/#developers-2026-02-10-mdx\n+date: Tue, 10 Feb 2026 00:00:00 GMT",
+    "snippet_full": "",
+    "diff": {
+      "added": 4,
+      "removed": 4,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 11 Feb 2026 01:48:34 GMT"
+  },
+  {
     "id": "ed507595508506afd1e97043ed48d64bea5b0c1e",
     "impact": "High",
     "name": "OpenAI News (RSS)",

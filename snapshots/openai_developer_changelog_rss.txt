@@ -197,10 +197,10 @@ id: https://developers.openai.com/changelog/#developers-2026-02-03-mdx
 date: Tue, 03 Feb 2026 00:00:00 GMT
 body:
 #ITEM
-title: Codex CLI Release: 0.81.0
-link: https://developers.openai.com/changelog/#github-release-276819252
-id: https://developers.openai.com/changelog/#github-release-276819252
-date: Wed, 14 Jan 2026 00:00:00 GMT
+title: Expanded llms coverage for API docs and reference
+link: https://developers.openai.com/changelog/#developers-2026-02-10-mdx
+id: https://developers.openai.com/changelog/#developers-2026-02-10-mdx
+date: Tue, 10 Feb 2026 00:00:00 GMT
 body:
 #ITEM
 title: Codex CLI Release: 0.84.0
