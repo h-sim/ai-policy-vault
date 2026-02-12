@@ -1,5 +1,56 @@
 [
   {
+    "id": "f0522d2d4f1ab541e33a73410076622fbfbba70c",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+            javascript: |-\n+              import OpenAI from \"openai\";\n+\n+              const openai = new OpenAI();\n+\n+              async function main() {\n+                const myAssistants = await openai.beta.assistants.list({\n+                  order: \"desc\",\n+                  limit: \"20\",\n+                });\n+\n+                console.log(myAssistants.data);\n+              }\n+\n+              main();\n+              javascript: >-\n+                import OpenAI from \"openai\";\n+\n+\n+                const openai = new OpenAI();\n+\n+\n+                async function main() {\n+                  const myAssistant = await openai.beta.assistants.create({\n+                    instructions:\n+                      \"You are a personal math tutor. When asked a question, write and run Python code to answer the question.\",\n+                    name: \"Math Tutor\",\n+                    tools: [{ type: \"code_interpreter\" }],\n+                    model: \"gpt-4o\",\n+                  });\n+\n+                  console.log(myAssistant);\n+                }\n+\n+\n+                main();\n+              javascript: >-\n+                import OpenAI from \"openai\";\n+\n+",
+    "snippet_full": "",
+    "diff": {
+      "added": 3865,
+      "removed": 2217,
+      "churn": 6082
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 12 Feb 2026 01:29:25 GMT"
+  },
+  {
+    "id": "bb44326ff0dee1b451905671a9eb9ff49f98232f",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Harness engineering: leveraging Codex in an agent-first world\n+link: https://openai.com/index/harness-engineering\n+id: https://openai.com/index/harness-engineering\n+date: Wed, 11 Feb 2026 09:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 12 Feb 2026 01:29:17 GMT"
+  },
+  {
+    "id": "f2133146cd9aa5a2ed614979278b38df7c345781",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "-title: Codex CLI Release: 0.84.0\n-link: https://developers.openai.com/changelog/#github-release-276912334\n-id: https://developers.openai.com/changelog/#github-release-276912334\n-date: Thu, 15 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.85.0\n-link: https://developers.openai.com/changelog/#github-release-277157618\n-id: https://developers.openai.com/changelog/#github-release-277157618\n-date: Thu, 15 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.86.0\n-link: https://developers.openai.com/changelog/#github-release-277242575\n-id: https://developers.openai.com/changelog/#github-release-277242575\n-date: Fri, 16 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.99.0\n+link: https://developers.openai.com/changelog/#github-release-285424682\n+id: https://developers.openai.com/changelog/#github-release-285424682\n+date: Wed, 11 Feb 2026 00:00:00 GMT\n+body:",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 18,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 12 Feb 2026 01:29:16 GMT"
+  },
+  {
     "id": "83c2c5c0c2910364f0c93ea37acd91d899b72352",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",

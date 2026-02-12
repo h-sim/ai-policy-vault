@@ -2003,6 +2003,12 @@ id: https://openai.com/index/hardening-atlas-against-prompt-injection
 date: Mon, 22 Dec 2025 00:00:00 GMT
 body:
 #ITEM
+title: Harness engineering: leveraging Codex in an agent-first world
+link: https://openai.com/index/harness-engineering
+id: https://openai.com/index/harness-engineering
+date: Wed, 11 Feb 2026 09:00:00 GMT
+body:
+#ITEM
 title: Customizing models for legal professionals
 link: https://openai.com/index/harvey
 id: https://openai.com/index/harvey
