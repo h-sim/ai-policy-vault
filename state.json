@@ -1,5 +1,56 @@
 [
   {
+    "id": "7f8b827653c20454a70c5bc77cc5fefe0310e086",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-  description: The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.\n+  description: >-\n+    The OpenAI REST API. Please see\n+    https://platform.openai.com/docs/api-reference for more details.\n-    description: Given a list of messages comprising a conversation, the model will return a response.\n+    description: >-\n+      Given a list of messages comprising a conversation, the model will return\n+      a response.\n-    description: Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position.\n+    description: >-\n+      Given a prompt, the model will return one or more predicted completions,\n+      and can also return the probabilities of alternative tokens at each\n+      position.\n-    description: Get a vector representation of a given input that can be easily consumed by machine learning models and algorithms.\n+    description: >-\n+      Get a vector representation of a given input that can be easily consumed\n+      by machine learning models and algorithms.\n-    description: Files are used to upload documents that can be used with features like Assistants and Fine-tuning.\n+    description: >-\n+      Files are used to upload documents that can be used with features like\n+      Assistants and Fine-tuning.\n-    description: Given text and/or image inputs, classifies if those inputs are potentially harmful.\n+    description: >-\n+      Given text and/or image inputs, classifies if those inputs are potentially\n+      harmful.\n-        \"200\":\n+        '200':\n-                $ref: \"#/components/schemas/ListAssistantsResponse\"\n+                $ref: '#/components/schemas/ListAssistantsResponse'\n-            go: |\n-              package main\n-\n-              import (\n-              \t\"context\"\n-              \t\"fmt\"\n-\n-              \t\"github.com/openai/openai-go\"\n-              \t\"github.com/openai/openai-go/option\"\n-              )\n-",
+    "snippet_full": "",
+    "diff": {
+      "added": 8578,
+      "removed": 8603,
+      "churn": 17181
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 13 Feb 2026 01:44:27 GMT"
+  },
+  {
+    "id": "bb2ec6b9af205defae04762572fd830f0596e70d",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing GPT-5.3-Codex-Spark\n+link: https://openai.com/index/introducing-gpt-5-3-codex-spark\n+id: https://openai.com/index/introducing-gpt-5-3-codex-spark\n+date: Thu, 12 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 13 Feb 2026 01:44:01 GMT"
+  },
+  {
+    "id": "53ab0736cd8a313e34000a2fa9403f62f32c6779",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+title: Introducing GPT-5.3-Codex-Spark\n+link: https://developers.openai.com/changelog/#codex-2026-02-12-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-12-mdx\n+date: Thu, 12 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Codex CLI Release: 0.87.0\n-link: https://developers.openai.com/changelog/#github-release-277440557\n-id: https://developers.openai.com/changelog/#github-release-277440557\n-date: Fri, 16 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.100.0\n+link: https://developers.openai.com/changelog/#github-release-285810603\n+id: https://developers.openai.com/changelog/#github-release-285810603\n+date: Thu, 12 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.101.0\n+link: https://developers.openai.com/changelog/#github-release-285845002\n+id: https://developers.openai.com/changelog/#github-release-285845002\n+date: Thu, 12 Feb 2026 00:00:00 GMT\n+body:",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 6,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 13 Feb 2026 01:44:01 GMT"
+  },
+  {
     "id": "f0522d2d4f1ab541e33a73410076622fbfbba70c",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",

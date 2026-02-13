@@ -179,6 +179,12 @@ id: https://developers.openai.com/changelog/#codex-2026-02-09-mdx
 date: Mon, 09 Feb 2026 00:00:00 GMT
 body:
 #ITEM
+title: Introducing GPT-5.3-Codex-Spark
+link: https://developers.openai.com/changelog/#codex-2026-02-12-mdx
+id: https://developers.openai.com/changelog/#codex-2026-02-12-mdx
+date: Thu, 12 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Resources updates
 link: https://developers.openai.com/changelog/#developers-2025-11-4-mdx
 id: https://developers.openai.com/changelog/#developers-2025-11-4-mdx
@@ -201,12 +207,6 @@ title: Expanded llms coverage for API docs and reference
 link: https://developers.openai.com/changelog/#developers-2026-02-10-mdx
 id: https://developers.openai.com/changelog/#developers-2026-02-10-mdx
 date: Tue, 10 Feb 2026 00:00:00 GMT
-body:
-#ITEM
-title: Codex CLI Release: 0.87.0
-link: https://developers.openai.com/changelog/#github-release-277440557
-id: https://developers.openai.com/changelog/#github-release-277440557
-date: Fri, 16 Jan 2026 00:00:00 GMT
 body:
 #ITEM
 title: Codex CLI Release: 0.88.0
@@ -279,4 +279,16 @@ title: Codex CLI Release: 0.99.0
 link: https://developers.openai.com/changelog/#github-release-285424682
 id: https://developers.openai.com/changelog/#github-release-285424682
 date: Wed, 11 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Codex CLI Release: 0.100.0
+link: https://developers.openai.com/changelog/#github-release-285810603
+id: https://developers.openai.com/changelog/#github-release-285810603
+date: Thu, 12 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Codex CLI Release: 0.101.0
+link: https://developers.openai.com/changelog/#github-release-285845002
+id: https://developers.openai.com/changelog/#github-release-285845002
+date: Thu, 12 Feb 2026 00:00:00 GMT
 body:

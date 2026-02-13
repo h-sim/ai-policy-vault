@@ -2423,6 +2423,12 @@ id: https://openai.com/index/introducing-gpt-5-3-codex
 date: Thu, 05 Feb 2026 00:00:00 GMT
 body:
 #ITEM
+title: Introducing GPT-5.3-Codex-Spark
+link: https://openai.com/index/introducing-gpt-5-3-codex-spark
+id: https://openai.com/index/introducing-gpt-5-3-codex-spark
+date: Thu, 12 Feb 2026 10:00:00 GMT
+body:
+#ITEM
 title: Introducing GPT-5 for developers
 link: https://openai.com/index/introducing-gpt-5-for-developers
 id: https://openai.com/index/introducing-gpt-5-for-developers
