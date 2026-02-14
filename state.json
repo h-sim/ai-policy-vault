@@ -1,5 +1,58 @@
 [
   {
+    "id": "fc0e7a90aa741b348a38f23f3653ad9e5838389b",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-                        \"content\": \"Mind of circuits hum,  \\nLearning patterns in silenceâ€”  \\nFuture's quiet spark.\",\n+                        \"content\": \"Mind of circuits hum,  \\nLearning patterns in silence—  \\nFuture's quiet spark.\",\n-                    \"content\": \"Mind of circuits hum,  \\nLearning patterns in silenceâ€”  \\nFuture's quiet spark.\",\n+                    \"content\": \"Mind of circuits hum,  \\nLearning patterns in silence—  \\nFuture's quiet spark.\",\n-                    \"content\": \"Mind of circuits hum,  \\nLearning patterns in silenceâ€”  \\nFuture's quiet spark.\",\n+                    \"content\": \"Mind of circuits hum,  \\nLearning patterns in silence—  \\nFuture's quiet spark.\",\n+        - name: name\n+          in: query\n+          description: Filter results by container name.\n+          required: false\n+          schema:\n+            type: string\n-                      \"memory_limit\": \"4g\"\n+                      \"memory_limit\": \"4g\",\n+                      \"skills\": [\n+                        {\n+                          \"type\": \"skill_reference\",\n+                          \"skill_id\": \"skill_4db6f1a2c9e73508b41f9da06e2c7b5f\"\n+                        },\n+                        {\n+                          \"type\": \"skill_reference\",\n+                          \"skill_id\": \"openai-spreadsheets\",\n+                          \"version\": \"latest\"\n+                        }\n+                      ],\n+                      \"network_policy\": {\n+                        \"type\": \"allowlist\",\n+                        \"allowed_domains\": [\"api.buildkite.com\"]\n+                      }\n+                \"network_policy\": {\n+                    \"type\": \"allowlist\",\n+                    \"allowed_domains\": [\"api.buildkite.com\"]\n+                },\n+          application/json:\n+            schema:\n+              $ref: '#/components/schemas/CreateContainerFileBody'\n-                      \"text\": \"Silent circuits hum,  \\nThoughts emerge in data streamsâ€”  \\nDigital dawn breaks.\",\n+                      \"text\": \"Silent circuits hum,  \\nThoughts emerge in data streams—  \\nDigital dawn breaks.\",\n-                      \"text\": \"Silent circuits hum,  \\nThoughts emerge in data streamsâ€”  \\nDigital dawn breaks.\",\n+                      \"text\": \"Silent circuits hum,  \\nThoughts emerge in data streams—  \\nDigital dawn breaks.\",",
+    "snippet_full": "",
+    "diff": {
+      "added": 218,
+      "removed": 157,
+      "churn": 375
+    },
+    "score": 0,
+    "reasons": [
+      "OpenAPI: tags増減（軽微）"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 14 Feb 2026 01:23:39 GMT"
+  },
+  {
+    "id": "19ea48686058ed6625a1f5656f27f8e8781abf5e",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Beyond rate limits: scaling access to Codex and Sora\n+link: https://openai.com/index/beyond-rate-limits\n+id: https://openai.com/index/beyond-rate-limits\n+date: Fri, 13 Feb 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Lockdown Mode and Elevated Risk labels in ChatGPT\n+link: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt\n+id: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt\n+date: Fri, 13 Feb 2026 10:00:00 GMT\n+title: GPT-5.2 derives a new result in theoretical physics\n+link: https://openai.com/index/new-result-theoretical-physics",
+    "snippet_full": "+title: Beyond rate limits: scaling access to Codex and Sora\n+link: https://openai.com/index/beyond-rate-limits\n+id: https://openai.com/index/beyond-rate-limits\n+date: Fri, 13 Feb 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Lockdown Mode and Elevated Risk labels in ChatGPT\n+link: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt\n+id: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt\n+date: Fri, 13 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5.2 derives a new result in theoretical physics\n+link: https://openai.com/index/new-result-theoretical-physics\n+id: https://openai.com/index/new-result-theoretical-physics\n+date: Fri, 13 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Scaling social science research\n+link: https://openai.com/index/scaling-social-science-research\n+id: https://openai.com/index/scaling-social-science-research\n+date: Fri, 13 Feb 2026 09:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 14 Feb 2026 01:23:29 GMT"
+  },
+  {
+    "id": "453eac1929ac5733355bc9b11279b3f9bbd5b73f",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-12-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-12-app-mdx\n+date: Thu, 12 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 14 Feb 2026 01:23:29 GMT"
+  },
+  {
     "id": "7f8b827653c20454a70c5bc77cc5fefe0310e086",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",

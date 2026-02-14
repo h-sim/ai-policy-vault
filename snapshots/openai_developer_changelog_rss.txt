@@ -179,6 +179,12 @@ id: https://developers.openai.com/changelog/#codex-2026-02-09-mdx
 date: Mon, 09 Feb 2026 00:00:00 GMT
 body:
 #ITEM
+title: Codex app
+link: https://developers.openai.com/changelog/#codex-2026-02-12-app-mdx
+id: https://developers.openai.com/changelog/#codex-2026-02-12-app-mdx
+date: Thu, 12 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Introducing GPT-5.3-Codex-Spark
 link: https://developers.openai.com/changelog/#codex-2026-02-12-mdx
 id: https://developers.openai.com/changelog/#codex-2026-02-12-mdx

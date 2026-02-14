@@ -719,6 +719,12 @@ id: https://openai.com/index/better-language-models
 date: Thu, 14 Feb 2019 08:00:00 GMT
 body:
 #ITEM
+title: Beyond rate limits: scaling access to Codex and Sora
+link: https://openai.com/index/beyond-rate-limits
+id: https://openai.com/index/beyond-rate-limits
+date: Fri, 13 Feb 2026 09:00:00 GMT
+body:
+#ITEM
 title: Block-sparse GPU kernels
 link: https://openai.com/index/block-sparse-gpu-kernels
 id: https://openai.com/index/block-sparse-gpu-kernels
@@ -2471,6 +2477,12 @@ id: https://openai.com/index/introducing-indqa
 date: Mon, 03 Nov 2025 22:30:00 GMT
 body:
 #ITEM
+title: Introducing Lockdown Mode and Elevated Risk labels in ChatGPT
+link: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt
+id: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt
+date: Fri, 13 Feb 2026 10:00:00 GMT
+body:
+#ITEM
 title: Introducing NextGenAI
 link: https://openai.com/index/introducing-nextgenai
 id: https://openai.com/index/introducing-nextgenai
@@ -3147,6 +3159,12 @@ title: New models and developer products announced at DevDay
 link: https://openai.com/index/new-models-and-developer-products-announced-at-devday
 id: https://openai.com/index/new-models-and-developer-products-announced-at-devday
 date: Mon, 06 Nov 2023 08:00:00 GMT
+body:
+#ITEM
+title: GPT-5.2 derives a new result in theoretical physics
+link: https://openai.com/index/new-result-theoretical-physics
+id: https://openai.com/index/new-result-theoretical-physics
+date: Fri, 13 Feb 2026 11:00:00 GMT
 body:
 #ITEM
 title: New tools and features in the Responses API
@@ -4203,6 +4221,12 @@ title: Scaling PostgreSQL to power 800 million ChatGPT users
 link: https://openai.com/index/scaling-postgresql
 id: https://openai.com/index/scaling-postgresql
 date: Thu, 22 Jan 2026 12:00:00 GMT
+body:
+#ITEM
+title: Scaling social science research
+link: https://openai.com/index/scaling-social-science-research
+id: https://openai.com/index/scaling-social-science-research
+date: Fri, 13 Feb 2026 09:00:00 GMT
 body:
 #ITEM
 title: How Scania is accelerating work with AI across its global workforce
