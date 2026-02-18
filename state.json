@@ -1,5 +1,22 @@
 [
   {
+    "id": "fde97eac0a10b6157e1b117af34769bf9df95876",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "-title: Codex CLI Release: 0.88.0\n-link: https://developers.openai.com/changelog/#github-release-278754265\n-id: https://developers.openai.com/changelog/#github-release-278754265\n-date: Wed, 21 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.102.0\n+link: https://developers.openai.com/changelog/#github-release-287401154\n+id: https://developers.openai.com/changelog/#github-release-287401154\n+date: Tue, 17 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.103.0\n+link: https://developers.openai.com/changelog/#github-release-287457049\n+id: https://developers.openai.com/changelog/#github-release-287457049\n+date: Tue, 17 Feb 2026 00:00:00 GMT\n+body:",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 6,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 18 Feb 2026 01:29:20 GMT"
+  },
+  {
     "id": "fc0e7a90aa741b348a38f23f3653ad9e5838389b",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
