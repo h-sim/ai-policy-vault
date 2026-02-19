@@ -1,5 +1,39 @@
 [
   {
+    "id": "6fc6297852ad098736e65ed7fe7ce09a1fc75499",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-        returns: A list of [assistant](/docs/api-reference/assistants/object) objects.\n-        returns: An [assistant](/docs/api-reference/assistants/object) object.\n-        returns: >-\n-          The [assistant](/docs/api-reference/assistants/object) object matching\n-          the specified ID.\n-        returns: >-\n-          The modified [assistant](/docs/api-reference/assistants/object)\n-          object.\n-        returns: Deletion status\n-      summary: Generates audio from the input text.\n+      summary: |\n+        Generates audio from the input text.\n+\n+        Returns the audio file content, or a stream of audio events.\n-        returns: >-\n-          The audio file content or a [stream of audio\n-          events](/docs/api-reference/audio/speech-audio-delta-event).\n-      summary: Transcribes audio into the input language.\n+      summary: >\n+        Transcribes audio into the input language.\n+\n+\n+        Returns a transcription object in `json`, `diarized_json`, or\n+        `verbose_json`\n+\n+        format, or a stream of transcript events.\n-        returns: >-\n-          The [transcription object](/docs/api-reference/audio/json-object), a\n-          [diarized transcription\n-          object](/docs/api-reference/audio/diarized-json-object), a [verbose\n-          transcription object](/docs/api-reference/audio/verbose-json-object),\n-          or a [stream of transcript\n-          events](/docs/api-reference/audio/transcript-text-delta-event).\n-        returns: The translated text.\n-        returns: The created voice consent recording metadata.\n-        returns: A paginated list of voice consent recordings.\n-        returns: The voice consent recording metadata.\n-        returns: The updated voice consent recording metadata.\n-        returns: A deletion confirmation.\n-        returns: The created voice.",
+    "snippet_full": "",
+    "diff": {
+      "added": 142,
+      "removed": 2392,
+      "churn": 2534
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 19 Feb 2026 01:29:01 GMT"
+  },
+  {
+    "id": "e23c59ed3cd5aead3561482e4736673e3769d4f5",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "-title: Codex CLI Release: 0.89.0\n-link: https://developers.openai.com/changelog/#github-release-279171728\n-id: https://developers.openai.com/changelog/#github-release-279171728\n-date: Thu, 22 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.104.0\n+link: https://developers.openai.com/changelog/#github-release-287549221\n+id: https://developers.openai.com/changelog/#github-release-287549221\n+date: Wed, 18 Feb 2026 00:00:00 GMT\n+body:",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 6,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 19 Feb 2026 01:28:50 GMT"
+  },
+  {
     "id": "fde97eac0a10b6157e1b117af34769bf9df95876",
     "impact": "Medium",
     "name": "OpenAI Developer Changelog (RSS)",
