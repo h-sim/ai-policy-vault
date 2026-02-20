@@ -23,6 +23,12 @@ id: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-
 date: Thu, 22 Jan 2026 00:00:00 GMT
 body:
 #ITEM
+title: The state of enterprise AI
+link: https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report
+id: https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report
+date: Wed, 17 Dec 2025 00:00:00 GMT
+body:
+#ITEM
 title: New in ChatGPT for Business: April 2025
 link: https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025
 id: https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025
@@ -477,6 +483,12 @@ title: Adebayo Ogunlesi joins OpenAI’s Board of Directors
 link: https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors
 id: https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors
 date: Tue, 14 Jan 2025 09:00:00 GMT
+body:
+#ITEM
+title: Advancing independent research on AI alignment
+link: https://openai.com/index/advancing-independent-research-ai-alignment
+id: https://openai.com/index/advancing-independent-research-ai-alignment
+date: Thu, 19 Feb 2026 10:00:00 GMT
 body:
 #ITEM
 title: Advancing red teaming with people and AI
@@ -3579,6 +3591,12 @@ title: OpenAI for Healthcare
 link: https://openai.com/index/openai-for-healthcare
 id: https://openai.com/index/openai-for-healthcare
 date: Thu, 08 Jan 2026 12:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI for India
+link: https://openai.com/index/openai-for-india
+id: https://openai.com/index/openai-for-india
+date: Wed, 18 Feb 2026 21:00:00 GMT
 body:
 #ITEM
 title: Introducing OpenAI for Ireland

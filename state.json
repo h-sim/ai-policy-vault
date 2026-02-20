@@ -1,5 +1,39 @@
 [
   {
+    "id": "4a9a0ecbbb3c5b1b07032416cc700bfb02ae1d1f",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+          maxLength: 64\n-            The IDs should be a string that uniquely identifies each user. We\n-            recommend hashing their username or email address, in order to avoid\n-            sending us any identifying information. [Learn\n+            The IDs should be a string that uniquely identifies each user, with\n+            a maximum length of 64 characters. We recommend hashing their\n+            username or email address, in order to avoid sending us any\n+            identifying information. [Learn",
+    "snippet_full": "",
+    "diff": {
+      "added": 5,
+      "removed": 3,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 20 Feb 2026 01:24:24 GMT"
+  },
+  {
+    "id": "8f48eac8fa5ce45c2d4cf13152d3d5ad5da3b9a0",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: The state of enterprise AI\n+link: https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report\n+id: https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report\n+date: Wed, 17 Dec 2025 00:00:00 GMT\n+body:\n+#ITEM\n+title: Advancing independent research on AI alignment\n+link: https://openai.com/index/advancing-independent-research-ai-alignment\n+id: https://openai.com/index/advancing-independent-research-ai-alignment\n+date: Thu, 19 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing OpenAI for India\n+link: https://openai.com/index/openai-for-india\n+id: https://openai.com/index/openai-for-india\n+date: Wed, 18 Feb 2026 21:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 20 Feb 2026 01:24:17 GMT"
+  },
+  {
     "id": "6fc6297852ad098736e65ed7fe7ce09a1fc75499",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
