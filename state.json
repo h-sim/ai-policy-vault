@@ -1,5 +1,56 @@
 [
   {
+    "id": "13821680a57781fd21f95f7dd9c104dbb71426c3",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+      description: The maximum number of files in a single batch request is 2000.\n-            they will be  applied to all files in the batch. Mutually exclusive\n-            with `files`.\n+            they will be  applied to all files in the batch. The maximum batch\n+            size is 2000 files. Mutually exclusive with `files`.\n-          maxItems: 500\n+          maxItems: 2000\n-            file. Mutually exclusive with `file_ids`.\n+            file. The maximum batch size is 2000 files. Mutually exclusive with\n+            `file_ids`.\n-          maxItems: 500\n+          maxItems: 2000",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 5,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 21 Feb 2026 01:21:57 GMT"
+  },
+  {
+    "id": "6f07711ced13540da0153902be7dafe55b0a8681",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Our First Proof submissions\n+link: https://openai.com/index/first-proof-submissions\n+id: https://openai.com/index/first-proof-submissions\n+date: Fri, 20 Feb 2026 14:30:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 21 Feb 2026 01:21:49 GMT"
+  },
+  {
+    "id": "697a665ed757a411c9f128912bb0c0800e12ec63",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+link: https://developers.openai.com/changelog/#codex-2026-02-03-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-03-app-mdx\n+date: Tue, 03 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex app\n+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-06-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-06-app-mdx\n+date: Fri, 06 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-08-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-08-app-mdx\n+date: Sun, 08 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+link: https://developers.openai.com/changelog/#codex-2026-02-10-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-10-app-mdx\n+date: Tue, 10 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex app\n+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-17-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-17-app-mdx\n+date: Tue, 17 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Codex CLI Release: 0.91.0\n-link: https://developers.openai.com/changelog/#github-release-279755271\n-id: https://developers.openai.com/changelog/#github-release-279755271\n-date: Sun, 25 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 30,
+      "removed": 6,
+      "churn": 36
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 21 Feb 2026 01:21:49 GMT"
+  },
+  {
     "id": "4a9a0ecbbb3c5b1b07032416cc700bfb02ae1d1f",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
