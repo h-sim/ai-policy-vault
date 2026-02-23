@@ -1,5 +1,22 @@
 [
   {
+    "id": "9d629ad0e8f62a5ac3133c8b3dc71a27be3cee7a",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing EVMbench\n+link: https://openai.com/index/introducing-evmbench\n+id: https://openai.com/index/introducing-evmbench\n+date: Wed, 18 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 23 Feb 2026 01:27:11 GMT"
+  },
+  {
     "id": "13821680a57781fd21f95f7dd9c104dbb71426c3",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",

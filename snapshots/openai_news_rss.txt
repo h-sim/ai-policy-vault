@@ -2417,6 +2417,12 @@ id: https://openai.com/index/introducing-deep-research
 date: Sun, 02 Feb 2025 16:00:00 GMT
 body:
 #ITEM
+title: Introducing EVMbench
+link: https://openai.com/index/introducing-evmbench
+id: https://openai.com/index/introducing-evmbench
+date: Wed, 18 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Introducing GPT-4.5
 link: https://openai.com/index/introducing-gpt-4-5
 id: https://openai.com/index/introducing-gpt-4-5
