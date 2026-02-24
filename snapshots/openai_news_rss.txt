@@ -1625,6 +1625,12 @@ id: https://openai.com/index/frontier-ai-regulation
 date: Thu, 06 Jul 2023 07:00:00 GMT
 body:
 #ITEM
+title: OpenAI announces Frontier Alliance Partners
+link: https://openai.com/index/frontier-alliance-partners
+id: https://openai.com/index/frontier-alliance-partners
+date: Mon, 23 Feb 2026 05:30:00 GMT
+body:
+#ITEM
 title: Frontier Model Forum
 link: https://openai.com/index/frontier-model-forum
 id: https://openai.com/index/frontier-model-forum
@@ -5031,6 +5037,12 @@ title: Why OpenAI’s structure must evolve to advance our mission
 link: https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission
 id: https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission
 date: Fri, 27 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: Why we no longer evaluate SWE-bench Verified
+link: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified
+id: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified
+date: Mon, 23 Feb 2026 11:00:00 GMT
 body:
 #ITEM
 title: Will Hurd joins OpenAI’s board of directors

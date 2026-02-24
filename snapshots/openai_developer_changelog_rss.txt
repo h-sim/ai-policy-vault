@@ -11,6 +11,12 @@ id: https://developers.openai.com/changelog/#apps-sdk-2026-01-21-mdx
 date: Wed, 21 Jan 2026 00:00:00 GMT
 body:
 #ITEM
+title: Apps SDK updates for redirects, widget descriptions, and follow-up scrolling
+link: https://developers.openai.com/changelog/#apps-sdk-2026-02-02-mdx
+id: https://developers.openai.com/changelog/#apps-sdk-2026-02-02-mdx
+date: Mon, 02 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Codex in the ChatGPT iOS app
 link: https://developers.openai.com/changelog/#codex-2025-05-19-mdx
 id: https://developers.openai.com/changelog/#codex-2025-05-19-mdx

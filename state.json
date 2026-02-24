@@ -1,5 +1,56 @@
 [
   {
+    "id": "7c0952dc65e0d4675a67fb09ba62681e1ffdbfd8",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+                - gpt-realtime-1.5\n+                - gpt-audio-1.5\n+                - gpt-realtime-1.5\n+                - gpt-audio-1.5\n+                - gpt-realtime-1.5\n+                - gpt-audio-1.5\n+    ResponsesClientEvent:\n+      discriminator:\n+        propertyName: type\n+      description: |\n+        Client events accepted by the Responses WebSocket server.\n+      anyOf:\n+        - $ref: '#/components/schemas/ResponsesClientEventResponseCreate'\n+    ResponsesClientEventResponseCreate:\n+      allOf:\n+        - type: object\n+          properties:\n+            type:\n+              type: string\n+              enum:\n+                - response.create\n+              description: |\n+                The type of the client event. Always `response.create`.\n+              x-stainless-const: true\n+          required:\n+            - type\n+        - $ref: '#/components/schemas/CreateResponse'\n+      description: >\n+        Client event for creating a response over a persistent WebSocket\n+        connection.\n+\n+        This payload uses the same top-level fields as `POST /v1/responses`.\n+\n+\n+        Notes:\n+\n+        - `stream` is implicit over WebSocket and should not be sent.\n+\n+        - `background` is not supported over WebSocket.\n+    ResponsesServerEvent:",
+    "snippet_full": "",
+    "diff": {
+      "added": 46,
+      "removed": 0,
+      "churn": 46
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 24 Feb 2026 01:25:57 GMT"
+  },
+  {
+    "id": "18c47b212c7f9358b0328f39cae1be4c48e02ab5",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI announces Frontier Alliance Partners\n+link: https://openai.com/index/frontier-alliance-partners\n+id: https://openai.com/index/frontier-alliance-partners\n+date: Mon, 23 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Why we no longer evaluate SWE-bench Verified\n+link: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified\n+id: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified\n+date: Mon, 23 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 24 Feb 2026 01:25:51 GMT"
+  },
+  {
+    "id": "43bd64a87323e7e38ee11650e0dfd0607d22c92d",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+title: Apps SDK updates for redirects, widget descriptions, and follow-up scrolling\n+link: https://developers.openai.com/changelog/#apps-sdk-2026-02-02-mdx\n+id: https://developers.openai.com/changelog/#apps-sdk-2026-02-02-mdx\n+date: Mon, 02 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 24 Feb 2026 01:25:51 GMT"
+  },
+  {
     "id": "9d629ad0e8f62a5ac3133c8b3dc71a27be3cee7a",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
