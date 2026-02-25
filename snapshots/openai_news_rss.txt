@@ -641,6 +641,12 @@ id: https://openai.com/index/arco-education
 date: Tue, 17 Sep 2024 05:00:00 GMT
 body:
 #ITEM
+title: Arvind KC appointed Chief People Officer
+link: https://openai.com/index/arvind-kc-chief-people-officer
+id: https://openai.com/index/arvind-kc-chief-people-officer
+date: Tue, 24 Feb 2026 13:40:00 GMT
+body:
+#ITEM
 title: Personalizing education with ChatGPT
 link: https://openai.com/index/asu
 id: https://openai.com/index/asu

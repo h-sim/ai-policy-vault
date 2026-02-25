@@ -1,5 +1,39 @@
 [
   {
+    "id": "81a813e7ee1c3a2614b24aecd92667181456a7da",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+        phase:\n+          anyOf:\n+            - $ref: '#/components/schemas/MessagePhase'\n+            - type: 'null'\n+    MessagePhase:\n+      type: string\n+      description: >\n+        Labels an `assistant` message as intermediate commentary (`commentary`)\n+        or the final answer (`final_answer`). For models like `gpt-5.3-codex`\n+        and beyond, when sending follow-up requests, preserve and resend phase\n+        on all assistant messages — dropping it can degrade performance. Not\n+        used for user messages.\n+\n+\n+        Use `commentary` for an intermediate assistant message and\n+        `final_answer` for\n+\n+        the final assistant message. For follow-up requests with models like\n+\n+        `gpt-5.3-codex` and later, preserve and resend phase on all assistant\n+\n+        messages. Omitting it can degrade performance. Not used for user\n+        messages.\n+      enum:\n+        - commentary\n+        - final_answer\n+        phase:\n+          anyOf:\n+            - $ref: '#/components/schemas/MessagePhase'\n+            - type: 'null'\n+        prompt_cache_key:\n+          anyOf:\n+            - type: string\n+              maxLength: 64\n+              description: A key to use when reading from or writing to the prompt cache.\n+            - type: 'null'",
+    "snippet_full": "",
+    "diff": {
+      "added": 36,
+      "removed": 0,
+      "churn": 36
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 25 Feb 2026 01:28:17 GMT"
+  },
+  {
+    "id": "8c81e38af90d15761479a0bab145f3acaeb0a9ff",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Arvind KC appointed Chief People Officer\n+link: https://openai.com/index/arvind-kc-chief-people-officer\n+id: https://openai.com/index/arvind-kc-chief-people-officer\n+date: Tue, 24 Feb 2026 13:40:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 25 Feb 2026 01:28:10 GMT"
+  },
+  {
     "id": "7c0952dc65e0d4675a67fb09ba62681e1ffdbfd8",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -832,39 +866,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 27 Jan 2026 14:00:19 GMT"
-  },
-  {
-    "id": "7baeb71d4c5bb627dbfafd102697cd402daf31dc",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How Indeed uses AI to help evolve the job search\n+link: https://openai.com/index/indeed-maggie-hulce\n+id: https://openai.com/index/indeed-maggie-hulce\n+date: Mon, 26 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 27 Jan 2026 01:17:42 GMT"
-  },
-  {
-    "id": "4b6c5be32b6b8b74e199133100d20dbf5115bf0a",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "-title: Codex CLI Release: 0.72.0\n-link: https://developers.openai.com/changelog/#github-release-270052666\n-id: https://developers.openai.com/changelog/#github-release-270052666\n-date: Sat, 13 Dec 2025 00:00:00 GMT\n-body:\n-#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 0,
-      "removed": 6,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 26 Jan 2026 22:40:28 GMT"
   }
 ]
