@@ -1,5 +1,22 @@
 [
   {
+    "id": "3f7f297d98f2d2bc8fec048c3e227fc0edd223e0",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Disrupting malicious uses of AI | February 2026\n+link: https://openai.com/index/disrupting-malicious-ai-uses\n+id: https://openai.com/index/disrupting-malicious-ai-uses\n+date: Wed, 25 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 26 Feb 2026 01:24:55 GMT"
+  },
+  {
     "id": "81a813e7ee1c3a2614b24aecd92667181456a7da",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -849,22 +866,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 27 Jan 2026 14:00:20 GMT"
-  },
-  {
-    "id": "f40cac455f62096dcbaa85290ab1ac2871f2e729",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "+#ITEM\n+title: Codex CLI Release: 0.92.0\n+link: https://developers.openai.com/changelog/#github-release-280265755\n+id: https://developers.openai.com/changelog/#github-release-280265755\n+date: Tue, 27 Jan 2026 00:00:00 GMT\n+body:",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 27 Jan 2026 14:00:19 GMT"
   }
 ]

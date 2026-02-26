@@ -1271,6 +1271,12 @@ id: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence
 date: Thu, 30 May 2024 10:00:00 GMT
 body:
 #ITEM
+title: Disrupting malicious uses of AI | February 2026
+link: https://openai.com/index/disrupting-malicious-ai-uses
+id: https://openai.com/index/disrupting-malicious-ai-uses
+date: Wed, 25 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Disrupting malicious uses of AI by state-affiliated threat actors
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors
