@@ -1,5 +1,22 @@
 [
   {
+    "id": "443d96ea9a0d0c4848f772d4bd1aa41f00b55b4d",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI Codex and Figma launch seamless code-to-design experience\n+link: https://openai.com/index/figma-partnership\n+id: https://openai.com/index/figma-partnership\n+date: Thu, 26 Feb 2026 06:00:00 GMT\n+body:\n+#ITEM\n+title: Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting\n+link: https://openai.com/index/pacific-northwest-national-laboratory\n+id: https://openai.com/index/pacific-northwest-national-laboratory\n+date: Thu, 26 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 27 Feb 2026 01:22:35 GMT"
+  },
+  {
     "id": "3f7f297d98f2d2bc8fec048c3e227fc0edd223e0",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -849,22 +866,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Wed, 28 Jan 2026 01:13:10 GMT"
-  },
-  {
-    "id": "f53261ee309aa57337b1b6c1065763e21cae046d",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: PVH reimagines the future of fashion with OpenAI\n+link: https://openai.com/index/pvh-future-of-fashion\n+id: https://openai.com/index/pvh-future-of-fashion\n+date: Tue, 27 Jan 2026 06:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 27 Jan 2026 14:00:20 GMT"
   }
 ]

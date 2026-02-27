@@ -1589,6 +1589,12 @@ id: https://openai.com/index/figma-david-kossnick
 date: Fri, 01 Aug 2025 00:00:00 GMT
 body:
 #ITEM
+title: OpenAI Codex and Figma launch seamless code-to-design experience
+link: https://openai.com/index/figma-partnership
+id: https://openai.com/index/figma-partnership
+date: Thu, 26 Feb 2026 06:00:00 GMT
+body:
+#ITEM
 title: Finding GPT-4’s mistakes with GPT-4
 link: https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4
 id: https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4
@@ -3903,6 +3909,12 @@ title: Resolving digital threats 100x faster with OpenAI
 link: https://openai.com/index/outtake
 id: https://openai.com/index/outtake
 date: Thu, 24 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting
+link: https://openai.com/index/pacific-northwest-national-laboratory
+id: https://openai.com/index/pacific-northwest-national-laboratory
+date: Thu, 26 Feb 2026 10:00:00 GMT
 body:
 #ITEM
 title: Surging developer productivity with custom GPTs
