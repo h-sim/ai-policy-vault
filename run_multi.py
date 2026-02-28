@@ -26,6 +26,7 @@ NORMALIZERS = {
 
 
 SNAPSHOT_DIR = "snapshots"
+REPORTS_DIR = "reports"
 STATE_FILE = "state.json"
 MAX_ITEMS = 50  # RSSに残す履歴数（多すぎると読まれない）
 
@@ -841,8 +842,130 @@ def fetch(url: str) -> str:
     return r.text
 
 
+def _extract_entries_from_snippet(snippet: str) -> list[tuple[str, str]]:
+    """diff snippet の +title: / +link: 行から検知エントリ（title, link）を抽出する。"""
+    entries: list[tuple[str, str]] = []
+    title = ""
+    link = ""
+    for line in (snippet or "").splitlines():
+        if line.startswith("+title:"):
+            if title:
+                entries.append((title, link))
+                link = ""
+            title = line[7:].strip()
+        elif line.startswith("+link:") and title:
+            link = line[6:].strip()
+    if title:
+        entries.append((title, link))
+    return entries
+
+
+def generate_markdown_report(new_items: list, run_at: str) -> None:
+    """今回の実行で採用された変更を reports/latest.md に書き出す。
+
+    - 念のため、通知抑制扱い（impact=Low または reasons に「通知抑制」含む）は除外
+    - 同一ソース（name/url）ごとにセクションをまとめる
+    - 断定禁止：「変化なし」「安全」は使わない（方針4）
+    """
+    ensure_dir(REPORTS_DIR)
+
+    IMPACT_ORDER = {"Breaking": 0, "High": 1, "Medium": 2, "Low": 3}
+    items = [
+        it for it in new_items
+        if it.get("impact") != "Low"
+        and not any("通知抑制" in r for r in (it.get("reasons") or []))
+    ]
+    if not items:
+        return
+
+    # 同一ソース（name, url）でまとめる（出現順を保持）
+    groups: dict[tuple[str, str], list] = {}
+    for item in items:
+        key = (item.get("name", ""), item.get("url", ""))
+        groups.setdefault(key, []).append(item)
+
+    lines: list[str] = []
+    lines.append("# AI Policy Vault — 監視レポート")
+    lines.append("")
+    lines.append(f"レポート生成日時（UTC）: {run_at}  ")
+    lines.append(f"今回の採用変更: {len(items)} 件（通知抑制・Low 除く）、{len(groups)} ソース")
+    lines.append("")
+    lines.append("> **注意**: 本レポートは変化の検知記録です。「変化なし」「安全」は断定しません。")
+    lines.append("> 必ず一次情報（公式発表・原文）で目視確認してください（未検出を含む可能性があります）。")
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+
+    for (name, url), group_items in groups.items():
+        group_items = sorted(group_items, key=lambda it: IMPACT_ORDER.get(it.get("impact", "Low"), 9))
+
+        lines.append(f"## {name}")
+        lines.append("")
+        lines.append(f"- **URL**: {url}")
+
+        # スナップショット hash（SHA-256, new）— 証跡用
+        snap_file = os.path.join(SNAPSHOT_DIR, f"{slugify(name)}.txt")
+        if os.path.exists(snap_file):
+            with open(snap_file, "rb") as fh:
+                snap_hash = hashlib.sha256(fh.read()).hexdigest()
+            lines.append(f"- **スナップショット hash（SHA-256, new）**: `{snap_hash}`")
+        lines.append("")
+
+        for i, item in enumerate(group_items, 1):
+            impact = item.get("impact", "")
+            score = item.get("score", 0)
+            pub_date = item.get("pubDate", "")
+            diff = item.get("diff") or {}
+            reasons = item.get("reasons") or []
+            snippet = item.get("snippet", "")
+            summary_ja = item.get("summary_ja", "")
+
+            lines.append(f"### 変更 {i} — [{impact}] (score={score})")
+            lines.append("")
+            lines.append(f"- **検知日時（UTC）**: {pub_date}")
+            lines.append(f"- **diff**: +{diff.get('added', 0)} / -{diff.get('removed', 0)}（churn={diff.get('churn', 0)}）")
+            lines.append(f"- **判定理由**: {' / '.join(reasons) if reasons else '（なし）'}")
+
+            entries = _extract_entries_from_snippet(snippet)
+            seen_entries: set[tuple[str, str]] = set()
+            linked = [
+                (t, lk) for t, lk in entries
+                if lk and (t, lk) not in seen_entries and not seen_entries.add((t, lk))  # type: ignore[func-returns-value]
+            ]
+            if linked:
+                lines.append("- **検知エントリ**:")
+                for title, link in linked:
+                    lines.append(f"  - {title} — {link}")
+            lines.append("")
+
+            if summary_ja:
+                lines.append("#### 日本語3行サマリ")
+                lines.append("")
+                for ln in summary_ja.splitlines():
+                    lines.append(ln)
+                lines.append("")
+
+            if snippet:
+                lines.append("#### 差分（抜粋）")
+                lines.append("")
+                lines.append("```diff")
+                lines.append(snippet)
+                lines.append("```")
+                lines.append("")
+
+        lines.append("---")
+        lines.append("")
+
+    report_path = os.path.join(REPORTS_DIR, "latest.md")
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"[REPORT] Written: {report_path} ({len(items)} items, {len(groups)} sources)")
+
+
 def main(log_diff_stats: bool = False):
     ensure_dir(SNAPSHOT_DIR)
+    run_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    new_items: list = []
 
     state = load_state()
     existing_ids = {it.get("id") for it in state if "id" in it}
@@ -1005,6 +1128,7 @@ def main(log_diff_stats: bool = False):
                 },
             )
             existing_ids.add(item_id)
+            new_items.append(state[0])
             added_total += 1
             if impact2 in added_by_impact:
                 added_by_impact[impact2] += 1
@@ -1019,6 +1143,10 @@ def main(log_diff_stats: bool = False):
     # 履歴は上限で刈る
     state = state[:MAX_ITEMS]
     save_state(state)
+
+    # 今回採用された変更が1件以上ある場合のみ reports/latest.md を生成
+    if new_items:
+        generate_markdown_report(new_items, run_at)
 
     # 追加件数のサマリ（「変更なし」でも 0 件と明示する）
     if added_total == 0:
