@@ -12,6 +12,9 @@ concurrency:
   group: ai-policy-vault
   cancel-in-progress: true
 
+env:
+  SITE_URL: https://h-sim.github.io/ai-policy-vault/
+
 jobs:
   run-watcher:
     runs-on: ubuntu-latest
@@ -36,12 +39,9 @@ jobs:
       - name: Run watcher
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SITE_URL: https://h-sim.github.io/ai-policy-vault/
         run: |
           set -e
           python3 run_multi.py --log-diff-stats | tee run_multi.log
-          python3 generate_rss.py
-          python3 generate_changes_html.py
 
           python3 - <<'PY'
           import os, re
@@ -54,13 +54,9 @@ jobs:
           target_lines = [ln for ln in lines if re.match(r'^\[(Breaking|High|Medium|Low)\]\s+.+?:\s+.+$', ln)]
           suppress_lines = [ln for ln in lines if ln.startswith('[SUPPRESS]')]
 
-          site_url = (os.getenv('SITE_URL', '') or '').rstrip('/')
           md = []
           md.append('## AI Policy Vault')
           md.append('')
-          if site_url:
-              md.append(f'- Feeds: {site_url}/feed.xml (Important), {site_url}/feed_all.xml (All)')
-              md.append(f'- Browse: {site_url}/changes.html (List)')
           if summary_lines:
               md.extend([f'- {ln}' for ln in summary_lines])
           else:
@@ -103,6 +99,15 @@ jobs:
               print('\n'.join(md))
           PY
 
+      # RSS生成は凍結（legacy）。
+      # 定期実行（schedule）では生成しない。
+      # 手動実行（workflow_dispatch）または環境変数 GENERATE_RSS=true 指定時のみ生成する。
+      - name: Generate RSS and HTML (legacy — manual or GENERATE_RSS=true only)
+        if: github.event_name == 'workflow_dispatch' || env.GENERATE_RSS == 'true'
+        run: |
+          python3 generate_rss.py
+          python3 generate_changes_html.py
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
@@ -112,5 +117,5 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "Update RSS feed"
+          git commit -m "Update: monitoring snapshot"
           git push

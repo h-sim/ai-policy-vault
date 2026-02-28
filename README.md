@@ -1,27 +1,17 @@
 # AI Policy Vault
 
-AIプラットフォーム（OpenAI など）の変更を監視し、**読む価値のある変更だけ**を優先して RSS で配信します。
+AIプラットフォーム（OpenAI など）の変更を監視し、**社内報告・監査対応向けの Markdown レポート**（開発中）を生成します。ノイズを最小化し、情シス/DX担当の報告・監査対応工数を削減します。
 
 - 最優先：**ノイズ最小**（MVP方針：方針2）
-- 目的：仕様変更の追跡コストを下げ、意思決定を速くする
+- 目的：社内提出物（Markdown）と証跡（snapshot/hash）のエビデンスを生成する
+- 主出力：Markdown レポート（開発中）
 
-## フィード（購読URL）
+## 主機能：監査向け Markdown レポート（MVP 主役）
 
-- **Important（推奨）**: https://h-sim.github.io/ai-policy-vault/feed.xml
-- **All（参考）**: https://h-sim.github.io/ai-policy-vault/feed_all.xml
+GitHub Actions が定期実行し、変化を検知するたびに `state.json` を更新します。
+変化記録にはタイムスタンプとハッシュを付与し、社内提出物・証跡として利用できます。
 
-### Important と All の違い
-
-- **Important**：Breaking / High を中心に「読んで行動につながる」変更だけを出します（ノイズ抑制優先）。
-- **All**：検知した変更を広めに出します（ノイズが混ざる可能性あり）。
-
-> 補足：RSS のウィンドウ更新で「古い項目が落ちるだけ」など、価値が低い変化は抑制します。
-
-## 使い方（購読手順）
-
-1. Feedly / Inoreader / NetNewsWire などの RSS リーダーを用意
-2. 上の URL を追加
-3. まずは **Important** だけ購読するのがおすすめ
+> 「変化なし」「安全」とは断定しません。必ず「未検出（要目視確認）」として扱ってください（方針4）。
 
 ## 監視対象（MVP）
 
@@ -31,28 +21,28 @@ AIプラットフォーム（OpenAI など）の変更を監視し、**読む価
 
 ## 免責
 
-- 本フィードは「変更の検知・要約」を提供するもので、正確性を保証しません。
+- 本ツールは「変更の検知・記録」を提供するもので、正確性を保証しません。
 - 重要な判断は必ず一次情報（公式発表・原文）を確認してください。
 
 ## フィードバック / 問い合わせ
 
 - 要望・不具合：GitHub Issues
-- 「この変更はノイズ / 重要」などの調整要望も歓迎（Important の品質を最優先で改善します）
 
-## Pro（予定）— 収益化の方向性
+---
 
-まずは **読者（見込み客）** を集めるため、Pro 機能の要望を募集中です。
+## RSS 配信（legacy / optional）
 
-- 例：メール通知 / Slack・Discord・Webhook / 日本語の短い影響サマリ / 週次まとめ / 過去検索
+凍結中（手動実行時のみ生成）。定期更新はされません。
 
-**Pro に興味がある場合**：GitHub Issues で `pro-interest` を含めて投稿してください（内容は1行でOK）。
+- **Important**: https://h-sim.github.io/ai-policy-vault/feed.xml
+- **All**: https://h-sim.github.io/ai-policy-vault/feed_all.xml
 
 ---
 
 ## 開発メモ
 
-- `run_multi.py`：取得 / 正規化 / 差分検知 / `state.json` 更新
-- `generate_rss.py`：`state.json` → `feed.xml`（Important）/ `feed_all.xml`（All）生成
+- `run_multi.py`：取得 / 正規化 / 差分検知 / `state.json` 更新（メイン処理）
+- `generate_rss.py`：`state.json` → `feed.xml` / `feed_all.xml` 生成（legacy）
 - `targets.py`：監視対象URL（TARGETS）
 
 ### ローカル実行（推奨：venv）
@@ -65,10 +55,12 @@ pip install -r requirements.txt
 
 python run_multi.py --selftest --verbose
 python run_multi.py --log-diff-stats
+# RSS生成（任意・legacy）:
 python generate_rss.py
 ```
 
 ### 運用
 
-- GitHub Actions で定期実行し、GitHub Pages に配信
+- GitHub Actions で定期実行し、`state.json` / スナップショットをコミット
+- RSS 生成は手動実行（`workflow_dispatch`）時のみ（凍結）
 - Actions Summary に Added / Suppressed / Targets を表示（運用状況が一目で分かる）

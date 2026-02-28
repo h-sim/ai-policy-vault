@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AI Policy Vault</title>
-  <meta name="description" content="AIプラットフォーム（OpenAIなど）の変更を監視し、読む価値のある変更をRSSで配信します。" />
+  <meta name="description" content="AIプラットフォーム（OpenAIなど）の変更を監視し、社内報告・監査対応向けの Markdown レポートを生成します。" />
 
   <link rel="alternate" type="application/rss+xml" title="AI Policy Vault (Important)" href="feed.xml" />
   <link rel="alternate" type="application/rss+xml" title="AI Policy Vault (All)" href="feed_all.xml" />
@@ -33,30 +33,30 @@
   <div class="wrap">
     <header>
       <span class="badge">ノイズ最小（MVP）</span>
-      <span class="badge">RSS配信</span>
+      <span class="badge">Markdown レポート</span>
       <span class="badge">日本語3行サマリ</span>
       <h1>AI Policy Vault</h1>
-      <p class="sub">AIプラットフォーム（OpenAI など）の変更を監視し、<strong>読む価値のある変更だけ</strong>を優先して RSS で配信します。主要な変更は <strong>日本語3行サマリ</strong> でひと目で把握できます。</p>
+      <p class="sub">AIプラットフォーム（OpenAI など）の変更を監視し、<strong>社内報告・監査対応向けの Markdown レポート</strong>（開発中）を生成します。主要な変更は <strong>日本語3行サマリ</strong> 付きで記録されます。</p>
 
       <div class="btns">
         <a class="btn cta" href="https://docs.google.com/forms/d/e/1FAIpQLSeqA4EdesSnHGp7NvjXdyDuVuhuSEV5kQPUpT-h4H6-P5edZQ/viewform" target="_blank" rel="noopener">待機リスト（無料）</a>
-        <a class="btn primary" href="feed.xml">Important を購読（推奨）</a>
-        <a class="btn" href="feed_all.xml">All を購読（参考）</a>
+        <a class="btn" href="feed.xml">RSS: Important（legacy）</a>
+        <a class="btn" href="feed_all.xml">RSS: All（legacy）</a>
         <a class="btn" href="changes.html">一覧を見る（Changes）</a>
         <a class="btn" href="https://github.com/h-sim/ai-policy-vault">GitHub</a>
       </div>
 
-      <p class="small">Important は Breaking/High 中心、All は広め（ノイズ混在の可能性あり）。</p>
+      <p class="small">RSS フィードは凍結（legacy）です。定期更新はされません。</p>
     </header>
 
     <div class="grid">
       <section class="card">
-        <h2>Important / All の違い</h2>
+        <h2>RSS フィード（legacy / optional）</h2>
+        <p class="small">RSS 配信は凍結（legacy）です。手動実行時のみ生成されます。定期更新はされません。</p>
         <ul>
-          <li><strong>Important</strong>：行動につながる変更を優先（ノイズ抑制）。</li>
-          <li><strong>All</strong>：検知した変更を広めに掲載（ノイズが混ざる場合あり）。</li>
+          <li><strong>Important</strong>（feed.xml）：Breaking/High 中心（ノイズ抑制）。</li>
+          <li><strong>All</strong>（feed_all.xml）：検知した変更を広めに掲載（ノイズが混ざる場合あり）。</li>
         </ul>
-        <p class="small">RSS のウィンドウ更新で「古い項目が落ちるだけ」など、価値が低い変化は抑制します。</p>
       </section>
 
       <section class="card">
@@ -69,12 +69,12 @@
       </section>
 
       <section class="card">
-        <h2>使い方（購読）</h2>
-        <ol>
-          <li>Feedly / Inoreader / NetNewsWire などの RSS リーダーを用意</li>
-          <li><code>feed.xml</code>（Important）を追加</li>
-          <li>必要なら <code>feed_all.xml</code>（All）も追加</li>
-        </ol>
+        <h2>利用方法</h2>
+        <ul>
+          <li>GitHub Actions が毎日実行し、<code>state.json</code> に変化を記録・蓄積します。</li>
+          <li>変化記録はタイムスタンプ・ハッシュ付きで証跡として利用できます。</li>
+          <li>RSS 購読は任意です（legacy）—上記リンクから追加できます。</li>
+        </ul>
       </section>
 
       <section class="card">
