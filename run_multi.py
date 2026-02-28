@@ -2,6 +2,7 @@ import os
 import re
 import json
 import hashlib
+import uuid
 import argparse
 import sys
 from datetime import datetime, timezone
@@ -589,6 +590,31 @@ def run_selftests(verbose: bool = False) -> bool:
             "expect_diff_snippet_empty": False,
             "expect_diff_stats": {"added": 1, "removed": 1, "churn": 2},
         },
+        {
+            "id": "evidence_item_id_sha1_format",
+            "name": "Evidence Store: make_item_id は40文字 hex SHA-1",
+            "url": "https://example.com",
+            "default": "Medium",
+            "snippet": "test content",
+            "expect_item_id_sha1_format": True,
+        },
+        {
+            "id": "evidence_item_id_url_sensitivity",
+            "name": "Evidence Store: 異なるURL→異なるID（URLがhashに含まれる）",
+            "url": "https://example.com/feed-a",
+            "url2": "https://example.com/feed-b",
+            "default": "Medium",
+            "snippet": "same snippet content",
+            "expect_item_id_url_sensitivity": True,
+        },
+        {
+            "id": "evidence_run_metadata_format",
+            "name": "Evidence Store: run_at は ISO-8601 UTC、run_id は 32桁 hex",
+            "url": "https://example.com",
+            "default": "Medium",
+            "snippet": "test",
+            "expect_run_metadata_format": True,
+        },
     ]
 
     ok = True
@@ -686,6 +712,55 @@ def run_selftests(verbose: bool = False) -> bool:
             else:
                 if verbose:
                     print(f"[PASS] {t['id']}: item_id differs as expected")
+                else:
+                    print(f"[PASS] {t['id']}")
+            continue
+
+        # Evidence Store: item ID は 40 文字 SHA-1 hex（仕様の回帰防止）
+        if t.get("expect_item_id_sha1_format"):
+            result = make_item_id(t.get("url") or "", t.get("snippet") or "")
+            if not re.match(r"^[0-9a-f]{40}$", result):
+                ok = False
+                print(f"[FAIL] {t['id']}: make_item_id='{result}' (expected 40-char hex SHA-1)")
+            else:
+                if verbose:
+                    print(f"[PASS] {t['id']}: make_item_id='{result}'")
+                else:
+                    print(f"[PASS] {t['id']}")
+            continue
+
+        # Evidence Store: 異なる URL → 異なる ID（URL が hash 入力に含まれることの確認）
+        if t.get("expect_item_id_url_sensitivity"):
+            url1 = t.get("url") or ""
+            url2 = t.get("url2") or ""
+            sn = t.get("snippet") or ""
+            id1 = make_item_id(url1, sn)
+            id2 = make_item_id(url2, sn)
+            if id1 == id2:
+                ok = False
+                print(f"[FAIL] {t['id']}: 異なるURLで同一ID: '{id1}'")
+            else:
+                if verbose:
+                    print(f"[PASS] {t['id']}: id1!=id2（期待通り）")
+                else:
+                    print(f"[PASS] {t['id']}")
+            continue
+
+        # Evidence Store: run_at（ISO-8601 UTC）と run_id（32桁 hex）の形式検証
+        if t.get("expect_run_metadata_format"):
+            test_run_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            test_run_id = uuid.uuid4().hex
+            fail_reasons = []
+            if not re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$", test_run_at):
+                fail_reasons.append(f"run_at format invalid: '{test_run_at}'")
+            if not re.match(r"^[0-9a-f]{32}$", test_run_id):
+                fail_reasons.append(f"run_id format invalid: '{test_run_id}'")
+            if fail_reasons:
+                ok = False
+                print(f"[FAIL] {t['id']}: " + "; ".join(fail_reasons))
+            else:
+                if verbose:
+                    print(f"[PASS] {t['id']}: run_at='{test_run_at}' run_id='{test_run_id}'")
                 else:
                     print(f"[PASS] {t['id']}")
             continue
@@ -965,6 +1040,7 @@ def generate_markdown_report(new_items: list, run_at: str) -> None:
 def main(log_diff_stats: bool = False):
     ensure_dir(SNAPSHOT_DIR)
     run_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    run_id = uuid.uuid4().hex  # 32桁 hex、1実行で1つ生成
     new_items: list = []
 
     state = load_state()
@@ -1125,6 +1201,8 @@ def main(log_diff_stats: bool = False):
                     "reasons": reasons,
                     "summary_ja": summary_ja,
                     "pubDate": utc_now_rfc822(),
+                    "run_at": run_at,
+                    "run_id": run_id,
                 },
             )
             existing_ids.add(item_id)
