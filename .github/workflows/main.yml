@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ai-change-watcher
+  group: ai-policy-vault
   cancel-in-progress: true
 
 jobs:
@@ -36,7 +36,7 @@ jobs:
       - name: Run watcher
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SITE_URL: https://h-sim.github.io/ai-change-watcher/
+          SITE_URL: https://h-sim.github.io/ai-policy-vault/
         run: |
           set -e
           python3 run_multi.py --log-diff-stats | tee run_multi.log

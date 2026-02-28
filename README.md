@@ -7,8 +7,8 @@ AIプラットフォーム（OpenAI など）の変更を監視し、**読む価
 
 ## フィード（購読URL）
 
-- **Important（推奨）**: https://h-sim.github.io/ai-change-watcher/feed.xml
-- **All（参考）**: https://h-sim.github.io/ai-change-watcher/feed_all.xml
+- **Important（推奨）**: https://h-sim.github.io/ai-policy-vault/feed.xml
+- **All（参考）**: https://h-sim.github.io/ai-policy-vault/feed_all.xml
 
 ### Important と All の違い
 
