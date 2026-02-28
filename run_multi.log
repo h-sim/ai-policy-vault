@@ -1,5 +1,5 @@
 [High] OpenAI Developer Changelog (RSS) : 取得失敗（今回はスキップ） -> 404 Client Error: Not Found for url: https://developers.openai.com/changelog/rss.xml
-[Low] OpenAI News (RSS) : 変更あり (score=0, +30/-0, churn=30)
+[Medium] OpenAI News (RSS) : 変更なし (+0/-0, churn=0)
 [Breaking] OpenAI OpenAPI Spec (YAML) : 変更なし (+0/-0, churn=0)
-[SUMMARY] Added 1 new items (Low=1)
+[SUMMARY] Added 0 new items
 [SUMMARY] Suppressed 0 changes
