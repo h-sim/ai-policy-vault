@@ -163,6 +163,19 @@ def parse_latest_md(report_path: Path, max_items: int) -> list[dict]:
 # Rendering
 # ---------------------------------------------------------------------------
 
+def _sanitize_cell(text: str) -> str:
+    """Ensure a Markdown table cell value stays on one line.
+
+    - Replaces newlines and tabs with a single space
+    - Collapses consecutive spaces into one
+    - Escapes pipe characters (| -> \\|) to avoid breaking table structure
+    """
+    text = re.sub(r"[\r\n\t]+", " ", text)
+    text = re.sub(r" {2,}", " ", text)
+    text = text.replace("|", r"\|")
+    return text.strip()
+
+
 def build_markdown(
     added_total: int,
     breakdown: dict[str, int],
@@ -202,18 +215,20 @@ def build_markdown(
             for i, item in enumerate(items, 1):
                 entries = item["entries"]
                 if entries:
-                    title = entries[0]["title"]
+                    title = _sanitize_cell(entries[0]["title"])
                     if len(title) > 50:
                         title = title[:47] + "..."
-                    entry_cell = f"[{title}]({entries[0]['url']})"
+                    url = _sanitize_cell(entries[0]["url"])
+                    entry_cell = f"[{title}]({url})"
                     if len(entries) > 1:
                         entry_cell += f" ほか{len(entries) - 1}件"
                 else:
                     entry_cell = "（エントリ情報なし）"
 
+                source_cell = _sanitize_cell(item["source_name"])
                 diff_cell = f"+{item['diff_added']} / -{item['diff_removed']}"
                 md.append(
-                    f"| {i} | {item['impact']} | {item['source_name']}"
+                    f"| {i} | {item['impact']} | {source_cell}"
                     f" | {entry_cell} | {diff_cell} |"
                 )
         else:

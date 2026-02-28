@@ -11,5 +11,8 @@ feed_all.xml
 # Generated reports (runtime output — not committed)
 reports/latest.md
 
+# Runtime log (regenerated on every run — not committed)
+run_multi.log
+
 # Editor/OS
 .DS_Store
