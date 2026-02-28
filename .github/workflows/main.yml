@@ -1,4 +1,4 @@
-name: AI Change Watcher
+name: AI Policy Vault
 
 on:
   schedule:
@@ -56,7 +56,7 @@ jobs:
 
           site_url = (os.getenv('SITE_URL', '') or '').rstrip('/')
           md = []
-          md.append('## AI Change Watcher')
+          md.append('## AI Policy Vault')
           md.append('')
           if site_url:
               md.append(f'- Feeds: {site_url}/feed.xml (Important), {site_url}/feed_all.xml (All)')

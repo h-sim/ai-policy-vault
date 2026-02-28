@@ -1049,7 +1049,7 @@ def main(log_diff_stats: bool = False):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="AI Change Watcher runner")
+    parser = argparse.ArgumentParser(description="AI Policy Vault runner")
     parser.add_argument("--selftest", action="store_true", help="Run rule self-tests without touching snapshots/state.json")
     parser.add_argument("--verbose", action="store_true", help="Verbose output for selftest")
     parser.add_argument("--log-diff-stats", action="store_true", help="Print diff stats (+/-/churn) for debugging")

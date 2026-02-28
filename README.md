@@ -1,4 +1,4 @@
-# AI Change Watcher
+# AI Policy Vault
 
 AIプラットフォーム（OpenAI など）の変更を監視し、**読む価値のある変更だけ**を優先して RSS で配信します。
 

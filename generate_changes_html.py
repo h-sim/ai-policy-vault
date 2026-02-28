@@ -299,10 +299,10 @@ def main() -> None:
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI Change Watcher - Changes</title>
+  <title>AI Policy Vault - Changes</title>
   <meta name="description" content="AIプラットフォーム変更の一覧（検索・フィルタ）" />
-  <link rel="alternate" type="application/rss+xml" title="AI Change Watcher (Important)" href="feed.xml" />
-  <link rel="alternate" type="application/rss+xml" title="AI Change Watcher (All)" href="feed_all.xml" />
+  <link rel="alternate" type="application/rss+xml" title="AI Policy Vault (Important)" href="feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="AI Policy Vault (All)" href="feed_all.xml" />
   <style>
     :root { color-scheme: light dark; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Hiragino Sans", "Noto Sans JP", sans-serif; margin: 0; line-height: 1.55; }
@@ -336,7 +336,7 @@ def main() -> None:
   <div class="wrap">
     <header>
       <h1>Changes</h1>
-      <p class="sub">AI Change Watcher の変更一覧（検索・フィルタ）</p>
+      <p class="sub">AI Policy Vault の変更一覧（検索・フィルタ）</p>
       <p class="sub"><a href="./">Home</a> · <a href="feed.xml">Important RSS</a> · <a href="feed_all.xml">All RSS</a></p>
     </header>
 

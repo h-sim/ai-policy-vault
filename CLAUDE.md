@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**AI Change Watcher** is a Python-only change detection system that monitors AI platform updates (currently OpenAI sources) and publishes curated, low-noise RSS feeds and an HTML changes page. A Markdown report output for internal reporting is planned/being added. The pipeline runs via GitHub Actions (see `.github/workflows/main.yml` for the schedule), with outputs hosted on GitHub Pages.
+**AI Policy Vault** is a Python-only change detection system that monitors AI platform updates (currently OpenAI sources) and publishes curated, low-noise RSS feeds and an HTML changes page. A Markdown report output for internal reporting is planned/being added. The pipeline runs via GitHub Actions (see `.github/workflows/main.yml` for the schedule), with outputs hosted on GitHub Pages.
 
 ## Repository Policies
 

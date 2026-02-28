@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-<title>AI Change Watcher (All)</title>
+<title>AI Policy Vault (All)</title>
 <link>https://h-sim.github.io/ai-change-watcher/</link>
 <description>All detected text changes (may include noise). Verify on official sources.</description>
 
