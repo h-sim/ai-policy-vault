@@ -1,5 +1,22 @@
 [
   {
+    "id": "5055380d914e514597f5f4de8190effb103f36d3",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI and Amazon announce strategic partnership\n+link: https://openai.com/index/amazon-partnership\n+id: https://openai.com/index/amazon-partnership\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Joint Statement from OpenAI and Microsoft\n+link: https://openai.com/index/continuing-microsoft-partnership\n+id: https://openai.com/index/continuing-microsoft-partnership\n+title: Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock\n+link: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock\n+id: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+    "snippet_full": "+title: OpenAI and Amazon announce strategic partnership\n+link: https://openai.com/index/amazon-partnership\n+id: https://openai.com/index/amazon-partnership\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Joint Statement from OpenAI and Microsoft\n+link: https://openai.com/index/continuing-microsoft-partnership\n+id: https://openai.com/index/continuing-microsoft-partnership\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock\n+link: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock\n+id: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Scaling AI for everyone\n+link: https://openai.com/index/scaling-ai-for-everyone\n+id: https://openai.com/index/scaling-ai-for-everyone\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: An update on our mental health-related work\n+link: https://openai.com/index/update-on-mental-health-related-work\n+id: https://openai.com/index/update-on-mental-health-related-work\n+date: Fri, 27 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 30,
+      "removed": 0,
+      "churn": 30
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 28 Feb 2026 01:17:15 GMT"
+  },
+  {
     "id": "443d96ea9a0d0c4848f772d4bd1aa41f00b55b4d",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -849,22 +866,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Wed, 28 Jan 2026 01:13:16 GMT"
-  },
-  {
-    "id": "7dd29bd3fcc4ae12aadc19a6562ddf80cbef5e45",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing Prism\n+link: https://openai.com/index/introducing-prism\n+id: https://openai.com/index/introducing-prism\n+date: Tue, 27 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 28 Jan 2026 01:13:10 GMT"
   }
 ]
