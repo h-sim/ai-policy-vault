@@ -615,6 +615,14 @@ def run_selftests(verbose: bool = False) -> bool:
             "snippet": "test",
             "expect_run_metadata_format": True,
         },
+        {
+            "id": "health_log_format",
+            "name": "Health log: [HEALTH] 行フォーマット回帰テスト",
+            "url": "https://example.com",
+            "default": "Medium",
+            "snippet": "test",
+            "expect_health_log_format": True,
+        },
     ]
 
     ok = True
@@ -712,6 +720,26 @@ def run_selftests(verbose: bool = False) -> bool:
             else:
                 if verbose:
                     print(f"[PASS] {t['id']}: item_id differs as expected")
+                else:
+                    print(f"[PASS] {t['id']}")
+            continue
+
+        # [HEALTH] 行フォーマット回帰テスト
+        if t.get("expect_health_log_format"):
+            pat = re.compile(r'^\[HEALTH\] (OK|FAIL|SKIP) name="[^"]+" stage=\w+')
+            samples = [
+                '[HEALTH] OK name="OpenAI Developer Changelog (RSS)" stage=fetch',
+                '[HEALTH] FAIL name="OpenAI News (RSS)" stage=fetch error="HTTP 404"',
+                '[HEALTH] FAIL name="X" stage=summarize error="OpenAI API error"',
+                '[HEALTH] SKIP name="X" stage=summarize reason="empty"',
+            ]
+            fails = [s for s in samples if not pat.match(s)]
+            if fails:
+                ok = False
+                print(f"[FAIL] {t['id']}: format mismatch: {fails}")
+            else:
+                if verbose:
+                    print(f"[PASS] {t['id']}: all {len(samples)} samples match")
                 else:
                     print(f"[PASS] {t['id']}")
             continue
@@ -814,6 +842,7 @@ def summarize_ja_3lines(name: str, url: str, snippet: str, impact: str) -> str:
     """
     api_key = os.getenv("OPENAI_API_KEY", "").strip()
     if not api_key:
+        print(f'[HEALTH] SKIP name="{name}" stage=summarize reason="empty"')
         return ""
 
     try:
@@ -869,7 +898,9 @@ def summarize_ja_3lines(name: str, url: str, snippet: str, impact: str) -> str:
             lines.append("差分のみ要確認のように見える")
         return "\n".join(lines)
 
-    except Exception:
+    except Exception as e:
+        err_str = str(e).splitlines()[0][:60].replace('"', "'")
+        print(f'[HEALTH] FAIL name="{name}" stage=summarize error="{err_str}"')
         return ""
 
 
@@ -1103,9 +1134,12 @@ def main(log_diff_stats: bool = False):
             new_text = "\n".join(line.rstrip() for line in new_text.replace("\r\n", "\n").splitlines())
 
         except Exception as e:
+            err_str = str(e).splitlines()[0][:60].replace('"', "'")
+            print(f'[HEALTH] FAIL name="{name}" stage=fetch error="{err_str}"')
             print(f"[{impact}] {name} : 取得失敗（今回はスキップ） -> {e}")
             continue
 
+        print(f'[HEALTH] OK name="{name}" stage=fetch')
         if not old_text:
             # 初回は比較対象が無いので、スナップショットだけ保存して終了
             with open(snap_file, "w", encoding="utf-8") as f:

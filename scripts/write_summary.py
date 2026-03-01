@@ -69,6 +69,46 @@ def parse_log(log_path: Path) -> tuple[int, dict[str, int], int]:
     return added_total, breakdown, suppress_count
 
 
+def parse_health_lines(log_path: Path) -> tuple[int, int, int, list[str]]:
+    """Return (ok, fail, skip, fail_details[max 5]).
+
+    fail_details: list of short descriptions like '`fetch` TargetName: HTTP 404'.
+    """
+    ok_count = fail_count = skip_count = 0
+    fail_details: list[str] = []
+
+    if not log_path.exists():
+        return ok_count, fail_count, skip_count, fail_details
+
+    try:
+        lines = log_path.read_text(encoding="utf-8", errors="replace").splitlines()
+    except Exception:
+        return ok_count, fail_count, skip_count, fail_details
+
+    pat = re.compile(
+        r'^\[HEALTH\] (OK|FAIL|SKIP) name="([^"]+)" stage=(\w+)'
+        r'(?:\s+(?:error|reason)="([^"]*)")?'
+    )
+    for ln in lines:
+        m = pat.match(ln)
+        if not m:
+            continue
+        status, name, stage, detail = m.group(1), m.group(2), m.group(3), m.group(4) or ""
+        if status == "OK":
+            ok_count += 1
+        elif status == "FAIL":
+            fail_count += 1
+            if len(fail_details) < 5:
+                desc = f"`{stage}` {name}"
+                if detail:
+                    desc += f": {detail}"
+                fail_details.append(desc)
+        elif status == "SKIP":
+            skip_count += 1
+
+    return ok_count, fail_count, skip_count, fail_details
+
+
 def parse_latest_md(report_path: Path, max_items: int) -> list[dict]:
     """Parse reports/latest.md, returning up to max_items change records.
 
@@ -181,6 +221,10 @@ def build_markdown(
     breakdown: dict[str, int],
     suppress_count: int,
     items: list[dict],
+    health_ok: int = 0,
+    health_fail: int = 0,
+    health_skip: int = 0,
+    health_fail_details: list[str] | None = None,
 ) -> str:
     md: list[str] = []
     md.append("## AI Policy Vault — 実行サマリ")
@@ -246,6 +290,25 @@ def build_markdown(
         md.append("")
         md.append("</details>")
 
+    if health_ok or health_fail or health_skip:
+        md.append("")
+        md.append("### 健全性（ターゲット別）")
+        md.append("")
+        parts = [f"✅ OK: {health_ok} 件"]
+        if health_fail:
+            parts.append(f"❌ FAIL: {health_fail} 件")
+        if health_skip:
+            parts.append(f"⏭ SKIP: {health_skip} 件")
+        md.append(" / ".join(parts))
+        if health_fail_details:
+            md.append("")
+            md.append(f"<details><summary>FAIL 詳細（{health_fail} 件）</summary>")
+            md.append("")
+            for d in health_fail_details:
+                md.append(f"- {d}")
+            md.append("")
+            md.append("</details>")
+
     return "\n".join(md) + "\n"
 
 
@@ -255,13 +318,18 @@ def build_markdown(
 
 def main() -> None:
     added_total, breakdown, suppress_count = parse_log(LOG_PATH)
+    h_ok, h_fail, h_skip, h_details = parse_health_lines(LOG_PATH)
 
     # Only parse latest.md when there are adopted changes (avoids reading stale file)
     items: list[dict] = []
     if added_total > 0:
         items = parse_latest_md(REPORT_PATH, MAX_ITEMS)
 
-    md = build_markdown(added_total, breakdown, suppress_count, items)
+    md = build_markdown(
+        added_total, breakdown, suppress_count, items,
+        health_ok=h_ok, health_fail=h_fail,
+        health_skip=h_skip, health_fail_details=h_details,
+    )
 
     summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary_path:
