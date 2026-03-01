@@ -64,3 +64,7 @@ python generate_rss.py
 - GitHub Actions で定期実行し、`state.json` / スナップショットをコミット
 - RSS 生成は手動実行（`workflow_dispatch`）時のみ（凍結）
 - Actions Summary に Added / Suppressed / Targets を表示（運用状況が一目で分かる）
+
+## Requests (No meeting)
+
+- If you want us to monitor a specific source, file a request here: **[docs/REQUESTS.md](docs/REQUESTS.md)**
