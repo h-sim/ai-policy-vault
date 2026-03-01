@@ -61,7 +61,23 @@
 ---
 
 ## 6. 次に強化する候補（MVP外・今は未チェックでOK）
+
 - [ ] HTML監視用 normalizer の追加（ノイズ抑制）
+  - **発動条件**: HTML ターゲット（例: OpenAI API Changelog）で低シグナル SUPPRESS が3日以上連続（OPERATIONS.md Section 4 判定ルール参照）
+  - **最小実装範囲**: `normalizers.py` に専用 normalizer を追加 → `targets.py` に `normalize` 指定 → selftest にフィクスチャ（NORMALIZER_PLAN.md Section 4 参照）
+  - **Done条件**: selftest PASS + 翌日以降の run で SUPPRESS 件数が減少傾向にある
+
 - [ ] リトライ/429対応
+  - **発動条件**: 同一ターゲットの `[HEALTH] FAIL stage=fetch` が3日以上連続し、HTTP 429 / rate limit が原因と特定された場合
+  - **最小実装範囲**: `run_multi.py` の fetch 処理に exponential backoff リトライ（最大2回）を追加。429 専用分岐を設ける
+  - **Done条件**: selftest PASS + ローカルで mock 429 応答でリトライ動作を確認
+
 - [ ] Slack/Teams 通知
+  - **発動条件**: 利用者から通知希望の REQUESTS が届いた、または Job Summary だけでは対応が遅れるという運用課題が生じた場合
+  - **最小実装範囲**: `scripts/notify_slack.py` を追加し、Actions ワークフローに `SLACK_WEBHOOK_URL` シークレットを使うステップを追加。送信内容は採用変更件数 + HEALTH サマリ
+  - **Done条件**: ローカルで webhook への curl 疎通確認 + Actions での送信成功を確認
+
 - [ ] 要約の品質向上（LLMはPro機能として後付け）
+  - **発動条件**: Breaking/High 変化の要約が空欄または不十分と判断される運用上の課題が生じた場合、または有償化の判断をした場合
+  - **最小実装範囲**: `run_multi.py` の summarize 呼び出しモデルを環境変数 `SUMMARIZE_MODEL` で切り替え可能にする。既存のフォールバック（空文字で継続）は維持
+  - **Done条件**: `SUMMARIZE_MODEL=gpt-4o` でローカル run が PASS し、要約品質が主観的に改善されることを確認
