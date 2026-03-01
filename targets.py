@@ -6,4 +6,9 @@ TARGETS = [
   # classify_impact の changelog ブランチ（"changelog" in name）で処理。
   # 初回はスナップショットのみ保存。
   {"impact": "High", "name": "Claude Platform Changelog", "url": "https://platform.claude.com/docs/en/release-notes/overview"},
+  # Google: Vertex AI 公式リリースノート（Atom feed）。
+  # cloud.google.com → docs.cloud.google.com へ 301 リダイレクト（requests が自動追従）。
+  # classify_impact は else → default_impact（High）。
+  # "deprecat"/"sunset"/"removed" キーワードがあれば Breaking に escalate される。
+  {"impact": "High", "name": "Google Vertex AI Release Notes (RSS)", "url": "https://cloud.google.com/feeds/vertex-ai-release-notes.xml", "normalize": "rss_min"},
 ]
