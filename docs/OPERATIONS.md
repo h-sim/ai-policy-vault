@@ -124,6 +124,42 @@ RSS と異なりページ構造の軽微な変化でもノイズ差分が出る�
 
 ---
 
+### 【OpenAI API Changelog (HTML) — 3日間の初期観測と判断基準】
+
+`OpenAI API Changelog (HTML)` は旧 RSS（`developers.openai.com/changelog/rss.xml`、2026-02-26 から HTTP 404）の代替として HTML 監視に切り替えたターゲットです（`normalize` 未設定 / `extract_text()` フォールバック）。
+初回スナップショット取得後は最初の3日間ログを観察し、以下の基準で判断してください。
+
+#### 日次で見るべきログ項目
+
+| 項目 | 正常な状態 |
+|---|---|
+| `[HEALTH] OK/FAIL` | `[HEALTH] OK name="OpenAI API Changelog (HTML)" stage=fetch` |
+| `[SUPPRESS]` の reasons | `bulk_update` / `window_drop` のみ |
+| 採用変更（Added）件数 | Job Summary の「採用変更: N 件」。0件も正常（未検出） |
+
+```bash
+# 直近 run のログから該当ターゲット行を抽出
+LATEST=$(gh run list --repo h-sim/ai-policy-vault --limit 1 --json databaseId --jq '.[0].databaseId')
+gh run view "$LATEST" --log --repo h-sim/ai-policy-vault | grep "OpenAI API Changelog"
+
+# Low 扱いで抑制されたエントリの reasons を確認（直近5件）
+jq '[.[] | select(.name=="OpenAI API Changelog (HTML)")] | .[:5] | .[] | {run_at,impact,reasons}' state.json
+```
+
+#### 判断基準（3日観測後）
+
+| 観測結果 | 判断 | 対応 |
+|---|---|---|
+| `[HEALTH] OK` が続き、採用変更 0 件 | 正常（未検出） | 経過観察を継続 |
+| `[SUPPRESS]` の reasons が `bulk_update` / `window_drop` のみ | 正常なノイズ抑制 | 変化の中身を目視確認し、問題なければ継続 |
+| `[SUPPRESS]` の reasons に `breaking` / `deprecat` / `pricing` / `removed` 等がある | 実質的な変化の可能性がある | state.json の該当エントリを目視確認 |
+| 低シグナル SUPPRESS が **3日以上** 連続する | HTML 構造のノイズが疑われる | `normalizers.py` に専用 normalizer の追加を別タスクとして起票（ARCHITECTURE.md Section 5.2 参照） |
+| `[HEALTH] FAIL` が続く | fetch が失敗 | 下記「健全性（ターゲット別）の読み方と対処」を参照 |
+
+> 「低シグナル SUPPRESS」とは reasons に `breaking` / `deprecat` / `removed` / `sunset` / `pricing` / `security` が含まれていないケースです。HTML のナビゲーション構造やメタデータの変化が原因の可能性があります。
+
+---
+
 ### 【健全性（ターゲット別）の読み方と対処】
 
 Job Summary の末尾に「健全性（ターゲット別）」セクションが表示されます。
