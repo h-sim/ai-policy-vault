@@ -139,6 +139,18 @@ OpenAI プラットフォームの更新（OpenAPI spec、Developer Changelog、
 | **責務** | `targets.py`：監視対象（url/name/default_impact/normalizer）を宣言する唯一のファイル。<br>`main.yml`：スケジュール（UTC 0:00 日次）・secrets・ステップ順序を定義する |
 | **境界** | 監視対象の追加・変更は `targets.py` のみ行う。拡張手順は Section 5.1 参照 |
 
+**現在の監視対象（`targets.py`）:**
+
+| name | URL | impact | normalizer |
+|------|-----|--------|------------|
+| OpenAI Developer Changelog (RSS) | https://developers.openai.com/changelog/rss.xml | High | `rss_min` |
+| OpenAI News (RSS) | https://openai.com/news/rss.xml | Medium | `rss_min` |
+| OpenAI OpenAPI Spec (YAML) | https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml | Breaking | `openapi_c14n_v1` |
+| Claude Platform Changelog | https://platform.claude.com/docs/en/release-notes/overview | High | なし（HTML → `extract_text()` フォールバック） |
+
+> `Claude Platform Changelog` は Anthropic の公式 Platform Changelog（API 変更・モデル更新・Deprecation 等）。
+> RSS が存在しないため HTML を直接取得し、`extract_text()` でテキスト変換する（`normalize` キー省略）。
+
 ### 3.10 Selftest
 
 | 項目 | 内容 |

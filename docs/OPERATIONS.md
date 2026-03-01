@@ -109,6 +109,21 @@ python3 run_multi.py --selftest --verbose
 
 ---
 
+### 【HTML ソース監視（normalizer 未設定）の注意】
+
+`Claude Platform Changelog` など `normalize` キーを省略したターゲットは HTML を直接取得します。
+RSS と異なりページ構造の軽微な変化でもノイズ差分が出ることがあります。
+
+| 事象 | 判断基準 | 対応 |
+|---|---|---|
+| 採用変更0件のまま | 正常。HTML が変化していないか Low 扱いで抑制されている | 数日様子見で OK |
+| SUPPRESS が連続する | reasons に `bulk_update` / `window_drop` が入っていれば正常な抑制 | 変化の中身を目視確認 |
+| ノイズ差分が3日以上続く | HTML 構造のノイズが疑われる | `normalizers.py` に専用 normalizer を追加（ARCHITECTURE.md Section 5.2）。実装は別タスクとして起票 |
+
+> 最初の数日はログを観察するだけで十分です。ノイズが明らかに続く場合のみ normalizer 追加を検討してください。
+
+---
+
 ### 【健全性（ターゲット別）の読み方と対処】
 
 Job Summary の末尾に「健全性（ターゲット別）」セクションが表示されます。
