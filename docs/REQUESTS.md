@@ -62,6 +62,16 @@
 
 ## 4. 送付方法（GitHub Issue）
 
+### 受付窓口（面談なし）
+
+- 受付は **GitHub Issues** で行います（無料・履歴が残るため）。
+- 依頼はこのリポジトリの Issues に起票してください：
+  - https://github.com/h-sim/ai-policy-vault/issues
+
+> メールやフォームは使いません。やり取りは Issue 上で完結します。
+
+### 手順
+
 1. リポジトリの「Issues」を開く
 2. 「New issue」を押す
 3. 上のテンプレを貼って送信
