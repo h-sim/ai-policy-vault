@@ -63,11 +63,11 @@
 
 | item ID（例） | Impact | ソース（例） |
 |---|---|---|
-| `3a7f2c1d8e4b9f0a6c5d2e1b7a4f3c8d9e2a1b0` | Breaking | OpenAI OpenAPI Spec |
-| `b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2` | High | OpenAI Developer Changelog (RSS) |
-| `c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9` | Medium | OpenAI News (RSS) |
+| `3a7f2c1d8e4b9f0a6c5d2e1b7a4f3c8d9e2a1b04` | Breaking | OpenAI OpenAPI Spec |
+| `b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2cd` | High | OpenAI Developer Changelog (RSS) |
+| `c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0` | Medium | OpenAI News (RSS) |
 
-> item ID = SHA-1（url + "\n" + diff snippet、UTF-8 エンコード）。同一内容の重複挿入は自動排除（冪等）。
+> item ID = SHA-1（url + "\n" + 圧縮前のフル diff snippet、UTF-8 エンコード）。同一内容の重複挿入は自動排除（冪等）。
 
 ### スナップショット hash（SHA-256）（例）
 
