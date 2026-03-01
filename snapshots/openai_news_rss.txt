@@ -3893,6 +3893,12 @@ id: https://openai.com/index/oscar
 date: Mon, 01 Apr 2024 00:00:00 GMT
 body:
 #ITEM
+title: Our agreement with the Department of War
+link: https://openai.com/index/our-agreement-with-the-department-of-war
+id: https://openai.com/index/our-agreement-with-the-department-of-war
+date: Sat, 28 Feb 2026 12:30:00 GMT
+body:
+#ITEM
 title: Our approach to advertising and expanding access to ChatGPT
 link: https://openai.com/index/our-approach-to-advertising-and-expanding-access
 id: https://openai.com/index/our-approach-to-advertising-and-expanding-access

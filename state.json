@@ -1,5 +1,24 @@
 [
   {
+    "id": "27f62fa71fe3eec658e4aba24013176fa2a9a2ea",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Our agreement with the Department of War\n+link: https://openai.com/index/our-agreement-with-the-department-of-war\n+id: https://openai.com/index/our-agreement-with-the-department-of-war\n+date: Sat, 28 Feb 2026 12:30:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 01 Mar 2026 01:45:11 GMT",
+    "run_at": "2026-03-01T01:45:11Z",
+    "run_id": "2081cb8d02c44aa08519e747872e6f29"
+  },
+  {
     "id": "5055380d914e514597f5f4de8190effb103f36d3",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -849,22 +868,5 @@
     ],
     "summary_ja": "",
     "pubDate": "Wed, 28 Jan 2026 14:31:44 GMT"
-  },
-  {
-    "id": "3a98ce3711a8926394579769fc7a44b903290c92",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-            \"$ref\": \"#/components/schemas/Drag\"\n+            \"$ref\": \"#/components/schemas/DragParam\"\n-            \"$ref\": \"#/components/schemas/Move\"\n-          },\n-          {\n-            \"$ref\": \"#/components/schemas/Screenshot\"\n-          },\n-          {\n-            \"$ref\": \"#/components/schemas/Scroll\"\n-          },\n-          {\n-            \"$ref\": \"#/components/schemas/Type\"\n-          },\n-          {\n-            \"$ref\": \"#/components/schemas/Wait\"\n+            \"$ref\": \"#/components/schemas/MoveParam\"\n+          },\n+          {\n+            \"$ref\": \"#/components/schemas/ScreenshotParam\"\n+          },\n+          {\n+            \"$ref\": \"#/components/schemas/ScrollParam\"\n+          },\n+          {\n+            \"$ref\": \"#/components/schemas/TypeParam\"\n+          },\n+          {\n+            \"$ref\": \"#/components/schemas/WaitParam\"\n+        \"type\": \"object\"\n+      },\n+      \"CoordParam\": {\n+        \"description\": \"An x/y coordinate pair, e.g. `{ x: 100, y: 200 }`.\",\n+        \"properties\": {\n+          \"x\": {\n+            \"description\": \"The x-coordinate.\",\n+            \"type\": \"integer\"\n+          },\n+          \"y\": {\n+            \"description\": \"The y-coordinate.\",\n+            \"type\": \"integer\"",
-    "snippet_full": "",
-    "diff": {
-      "added": 73,
-      "removed": 50,
-      "churn": 123
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 28 Jan 2026 01:13:16 GMT"
   }
 ]
