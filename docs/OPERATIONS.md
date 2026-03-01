@@ -109,6 +109,82 @@ python3 run_multi.py --selftest --verbose
 
 ---
 
+### 【健全性（ターゲット別）の読み方と対処】
+
+Job Summary の末尾に「健全性（ターゲット別）」セクションが表示されます。
+
+```
+### 健全性（ターゲット別）
+
+✅ OK: 4件 / ❌ FAIL: 1件 / ⏭ SKIP: 1件
+
+FAIL 詳細（1件）
+- `fetch` OpenAI News (RSS): HTTP 404
+```
+
+#### ステータスの意味
+
+| ステータス | 意味 | 変化記録への影響 |
+|---|---|---|
+| ✅ OK | fetch + normalize が成功した | 正常。diff 判定に進む |
+| ❌ FAIL | fetch または summarize で例外が発生 | fetch FAIL → 当該ターゲットをスキップ。summarize FAIL → 要約のみ空欄、変化記録は保全 |
+| ⏭ SKIP | summarize をスキップ（OPENAI_API_KEY 未設定または応答が空） | エラーではない。変化記録は保全済み |
+
+#### FAIL が出たときの最短手順
+
+**① FAIL 詳細の `stage=` を確認する**（Job Summary の details を開く）
+
+- `fetch` FAIL → ネットワーク / URL の問題
+- `summarize` FAIL → OpenAI API の問題
+
+**② Actions ログで該当ターゲットを特定する**
+
+```bash
+LATEST=$(gh run list --repo h-sim/ai-policy-vault --limit 1 --json databaseId --jq '.[0].databaseId')
+gh run view "$LATEST" --log --repo h-sim/ai-policy-vault | grep "\[HEALTH\] FAIL"
+```
+
+**③-a `stage=fetch` の場合**
+
+```bash
+# 手動再実行（一時的なネットワーク障害なら解消することが多い）
+gh workflow run "AI Policy Vault" --repo h-sim/ai-policy-vault
+```
+
+複数日続く場合は対象 URL の生死をブラウザで確認する。
+
+**③-b `stage=summarize` の場合**
+
+```bash
+# OPENAI_API_KEY シークレットの存在を確認
+gh secret list --repo h-sim/ai-policy-vault
+```
+
+キーが存在しても FAIL が続く場合は API クォータ・有効期限を確認する。
+変化記録（state.json）は FAIL があっても保全されている（要約列のみ空欄）。
+
+#### SKIP の扱い
+
+`⏭ SKIP` はエラーではありません。Breaking / High ターゲットで要約生成をスキップした状態です。
+変化の検知・記録・state.json への証跡保全には影響しません。
+OPENAI_API_KEY が設定されている場合に SKIP が続くなら、API のレスポンスが空であった可能性があります（一時的なケースが多い）。
+
+#### 連続 FAIL が続く場合の運用判断
+
+同一ターゲットが **3日以上 FAIL し続ける** 場合は以下を検討してください。
+これらは「運用判断」であり、実装変更（リトライ追加など）は別タスクとして起票すること。
+
+| 状況 | 検討内容 |
+|---|---|
+| fetch FAIL が続く | `targets.py` 内の該当ターゲットをコメントアウトして一時停止を検討 |
+| summarize FAIL が続く | OPENAI_API_KEY の再発行・再登録。急がなければ空欄のまま運用継続も可 |
+| 複数ターゲットが同時に FAIL | GitHub Actions のネットワーク障害の可能性。GitHub Status を確認 |
+
+> fetch FAIL はスキップして他ターゲットの処理を継続する設計です（ARCHITECTURE.md Section 3.1 参照）。
+> 1つのターゲットが FAIL しても、他ターゲットの変化検知・証跡は保全されます。
+
+---
+
 ## 5. MVP 保証範囲と非保証
 
 ### 保証（CI 構造または外形的に観測可能な事実）
