@@ -5,6 +5,38 @@
 
 ---
 
+## 0. 毎朝1分チェック（コピペで終わる）
+
+> まずここを確認してください。詳細は各セクションを参照。
+
+```bash
+# ① 最新 Run の conclusion / headSha / URL を確認
+LATEST=$(gh run list --repo h-sim/ai-policy-vault --limit 1 --json databaseId --jq '.[0].databaseId')
+gh run view "$LATEST" --repo h-sim/ai-policy-vault --json status,conclusion,event,headSha,startedAt,url --jq '.'
+
+# ② Job Summary を確認（採用変更件数 / 健全性セクション）
+gh run view "$LATEST" --repo h-sim/ai-policy-vault
+
+# ③ [HEALTH] OK/FAIL/SKIP を一覧表示（FAIL があれば stage= を確認）
+gh run view "$LATEST" --log --repo h-sim/ai-policy-vault \
+  | grep '\[HEALTH\]' | sed 's/.*\[HEALTH\]/[HEALTH]/'
+```
+
+### 読み方
+
+| 確認項目 | 正常な状態 | 対応が必要な状態 |
+|---|---|---|
+| `conclusion` | `success` | `failure` / `cancelled` → Section 4 参照 |
+| `[HEALTH] OK` | 全ターゲット分が表示される | — |
+| `[HEALTH] FAIL stage=fetch` | 出ない | URL の死活確認 → Section 4「FAIL が出たときの最短手順」|
+| `[HEALTH] FAIL stage=summarize` | 出ない | `OPENAI_API_KEY` を確認 → Section 4 参照 |
+| `[HEALTH] SKIP stage=summarize` | 出ても正常（エラーではない） | キーが有効でも続くなら一時的な API 無応答の可能性 |
+| 採用変更 N 件 | N=0 も正常 | — |
+
+> 採用変更 0 件は「**未検出（要目視確認）**」。「変化なし」と断定しないこと。
+
+---
+
 ## 1. 目的
 
 毎日 UTC 0:00（JST 9:00）に GitHub Actions が自動実行され、監視対象の変化を検知・記録します。
