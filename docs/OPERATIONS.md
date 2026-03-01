@@ -5,9 +5,37 @@
 
 ---
 
-## 0. 毎朝1分チェック（コピペで終わる）
+## 0. 毎朝チェック（コピペで終わる）
 
 > まずここを確認してください。詳細は各セクションを参照。
+
+### ワンブロック版（30秒）
+
+下のブロックを丸ごとコピーしてターミナルに貼るだけで完結します（`gh` CLI 必要）。
+
+```bash
+REPO="h-sim/ai-policy-vault"
+LATEST=$(gh run list --repo "$REPO" --limit 1 --json databaseId --jq '.[0].databaseId')
+LOG="/tmp/ai_vault_run_${LATEST}.log"
+gh run view "$LATEST" --repo "$REPO" --log > "$LOG" 2>&1
+
+echo "=== conclusion ==="
+gh run view "$LATEST" --repo "$REPO" --json conclusion,startedAt \
+  --jq '"result=\(.conclusion)  started=\(.startedAt)"'
+
+echo "=== [SUMMARY] ==="
+grep '\[SUMMARY\]' "$LOG" | sed 's/.*\[SUMMARY\]/[SUMMARY]/' || echo "(no [SUMMARY] lines)"
+
+echo "=== [HEALTH] ==="
+grep '\[HEALTH\]' "$LOG" | sed 's/.*\[HEALTH\]/[HEALTH]/' || echo "(no [HEALTH] lines)"
+
+echo "=== FAIL details ==="
+grep '\[HEALTH\] FAIL' "$LOG" | sed 's/.*\[HEALTH\]/[HEALTH]/' || echo "(no FAIL)"
+```
+
+> FAIL があれば `stage=fetch` → URL 確認、`stage=summarize` → `OPENAI_API_KEY` 確認（Section 4 参照）。
+
+### ステップ別（詳細確認用）
 
 ```bash
 # ① 最新 Run の conclusion / headSha / URL を確認
