@@ -1,5 +1,24 @@
 [
   {
+    "id": "c077c86ac160243df322e682f4fb2f1f325fe01a",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Testing Agent Skills Systematically with Evals\n+Run long horizon tasks with Codex\n+Run long horizon tasks with Codex\n-Supercharging Codex with JetBrains MCP at Skyscanner",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 03 Mar 2026 01:27:41 GMT",
+    "run_at": "2026-03-03T01:27:41Z",
+    "run_id": "07c6c1aa064a44ada80fce41d899ff00"
+  },
+  {
     "id": "27f62fa71fe3eec658e4aba24013176fa2a9a2ea",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -849,24 +868,5 @@
     ],
     "summary_ja": "",
     "pubDate": "Thu, 29 Jan 2026 01:23:04 GMT"
-  },
-  {
-    "id": "4e0aa476691348e415bcebc04bf5065d7e2e3f3f",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: EMEA Youth & Wellbeing Grant\n+link: https://openai.com/index/emea-youth-and-wellbeing-grant\n+id: https://openai.com/index/emea-youth-and-wellbeing-grant\n+date: Wed, 28 Jan 2026 01:00:00 GMT\n+body:\n+#ITEM\n+title: The next chapter for AI in the EU\n+link: https://openai.com/index/the-next-chapter-for-ai-in-the-eu\n+id: https://openai.com/index/the-next-chapter-for-ai-in-the-eu\n+date: Wed, 28 Jan 2026 01:00:00 GMT\n+body:\n+#ITEM\n+title: Powering tax donations with AI powered personalized recommendations\n+link: https://openai.com/index/trustbank\n+id: https://openai.com/index/trustbank\n+date: Tue, 27 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 28 Jan 2026 14:31:44 GMT"
   }
 ]
