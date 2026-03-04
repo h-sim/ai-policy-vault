@@ -1925,6 +1925,18 @@ id: https://openai.com/index/gpt-5-3-codex-system-card
 date: Thu, 05 Feb 2026 00:00:00 GMT
 body:
 #ITEM
+title: GPT-5.3 Instant: Smoother, more useful everyday conversations
+link: https://openai.com/index/gpt-5-3-instant
+id: https://openai.com/index/gpt-5-3-instant
+date: Tue, 03 Mar 2026 10:00:00 GMT
+body:
+#ITEM
+title: GPT-5.3 Instant System Card
+link: https://openai.com/index/gpt-5-3-instant-system-card
+id: https://openai.com/index/gpt-5-3-instant-system-card
+date: Tue, 03 Mar 2026 10:00:00 GMT
+body:
+#ITEM
 title: How Amgen uses GPT-5
 link: https://openai.com/index/gpt-5-amgen
 id: https://openai.com/index/gpt-5-amgen

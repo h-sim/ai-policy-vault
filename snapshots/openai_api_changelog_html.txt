@@ -489,6 +489,17 @@ Production
 Data retrieval
 Sending files
 Changelog
+March, 2026
+Mar 3
+Feature
+gpt-5.3-chat-latest
+v1/chat/completions
+v1/responses
+Released
+gpt-5.3-chat-latest
+to the Chat Completions and Responses API. This model points to the GPT-5.3 Instant snapshot currently used in ChatGPT. Read more
+here
+.
 February, 2026
 Feb 24
 Feature
