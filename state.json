@@ -1,5 +1,43 @@
 [
   {
+    "id": "2dee71cf5a5ed269cdf570aed71ffc0a6d91ac3c",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Axios uses AI to help deliver high-impact local journalism\n+link: https://openai.com/index/axios-allison-murphy\n+id: https://openai.com/index/axios-allison-murphy\n+date: Wed, 04 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Extending single-minus amplitudes to gravitons\n+link: https://openai.com/index/extending-single-minus-amplitudes-to-gravitons\n+id: https://openai.com/index/extending-single-minus-amplitudes-to-gravitons\n+date: Wed, 04 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Understanding AI and learning outcomes\n+link: https://openai.com/index/understanding-ai-and-learning-outcomes\n+id: https://openai.com/index/understanding-ai-and-learning-outcomes\n+date: Wed, 04 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 05 Mar 2026 01:25:17 GMT",
+    "run_at": "2026-03-05T01:25:16Z",
+    "run_id": "4992f375ad1c4f849bf389256f0cf337"
+  },
+  {
+    "id": "f31f418a49a908116c88eadfdb3c40ab56f59e70",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Windows\n-Long horizon tasks with Codex\n+Modernizing your Codebase with Codex",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 1,
+      "churn": 3
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 05 Mar 2026 01:25:17 GMT",
+    "run_at": "2026-03-05T01:25:16Z",
+    "run_id": "4992f375ad1c4f849bf389256f0cf337"
+  },
+  {
     "id": "dd6670e81270143d1f4eb8d9f70442a0ec97dbb1",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -836,39 +874,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Fri, 30 Jan 2026 01:22:58 GMT"
-  },
-  {
-    "id": "41e64cdc88817d163de1e2944a3c736e20417bcc",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Inside OpenAI’s in-house data agent\n+link: https://openai.com/index/inside-our-in-house-data-agent\n+id: https://openai.com/index/inside-our-in-house-data-agent\n+date: Thu, 29 Jan 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT\n+link: https://openai.com/index/retiring-gpt-4o-and-older-models\n+id: https://openai.com/index/retiring-gpt-4o-and-older-models\n+date: Thu, 29 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Taisei Corporation shapes the next generation of talent with ChatGPT\n+link: https://openai.com/index/taisei\n+id: https://openai.com/index/taisei\n+date: Thu, 29 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 30 Jan 2026 01:22:53 GMT"
-  },
-  {
-    "id": "960b204a40ab5a0e1b64e4d25af6c86cd5d77355",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "+title: Web search is now enabled by default\n+link: https://developers.openai.com/changelog/#codex-2026-01-28-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-01-28-mdx\n+date: Wed, 28 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 30 Jan 2026 01:22:53 GMT"
   }
 ]

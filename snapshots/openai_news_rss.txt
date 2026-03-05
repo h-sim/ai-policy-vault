@@ -683,6 +683,12 @@ id: https://openai.com/index/axel-springer-partnership
 date: Wed, 13 Dec 2023 08:00:00 GMT
 body:
 #ITEM
+title: How Axios uses AI to help deliver high-impact local journalism
+link: https://openai.com/index/axios-allison-murphy
+id: https://openai.com/index/axios-allison-murphy
+date: Wed, 04 Mar 2026 00:00:00 GMT
+body:
+#ITEM
 title: Scaling accounting capacity with OpenAI
 link: https://openai.com/index/basis
 id: https://openai.com/index/basis
@@ -1545,6 +1551,12 @@ title: #Exploration: A study of count-based exploration for deep reinforcement l
 link: https://openai.com/index/exploration
 id: https://openai.com/index/exploration
 date: Tue, 15 Nov 2016 08:00:00 GMT
+body:
+#ITEM
+title: Extending single-minus amplitudes to gravitons
+link: https://openai.com/index/extending-single-minus-amplitudes-to-gravitons
+id: https://openai.com/index/extending-single-minus-amplitudes-to-gravitons
+date: Wed, 04 Mar 2026 10:00:00 GMT
 body:
 #ITEM
 title: Extensions and limitations of the neural GPU
@@ -4893,6 +4905,12 @@ title: UCB exploration via Q-ensembles
 link: https://openai.com/index/ucb-exploration-via-q-ensembles
 id: https://openai.com/index/ucb-exploration-via-q-ensembles
 date: Mon, 05 Jun 2017 07:00:00 GMT
+body:
+#ITEM
+title: Understanding AI and learning outcomes
+link: https://openai.com/index/understanding-ai-and-learning-outcomes
+id: https://openai.com/index/understanding-ai-and-learning-outcomes
+date: Wed, 04 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: Understanding neural networks through sparse circuits

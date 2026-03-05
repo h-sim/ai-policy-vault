@@ -188,6 +188,7 @@ Automations
 Worktrees
 Local Environments
 Commands
+Windows
 Troubleshooting
 IDE Extension
 Overview
@@ -241,7 +242,7 @@ Run long horizon tasks with Codex
 View all
 Cookbooks
 Codex Prompting Guide
-Long horizon tasks with Codex
+Modernizing your Codebase with Codex
 View all
 Building AI Teams
 Community
