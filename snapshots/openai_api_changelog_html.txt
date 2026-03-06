@@ -12,12 +12,14 @@ Build apps to extend ChatGPT
 Commerce
 Build commerce flows in ChatGPT
 Learn
-Resources
-Assets for developers building with OpenAI
+Showcase
+Demo apps to get inspired
 Cookbook
 Notebook examples for building with OpenAI models
 Blog
 Learnings and experiences from developers
+Resources
+Assets for developers building with OpenAI
 API Dashboard
 Search the API docs
 Close
@@ -33,7 +35,8 @@ Quickstart
 Models
 Pricing
 Libraries
-Latest: GPT-5.2
+Latest: GPT-5.4
+Prompt guidance
 Core concepts
 Text generation
 Code generation
@@ -61,19 +64,20 @@ Trace grading
 Voice agents
 Tools
 Using tools
-Connectors and MCP
+Web search
+MCP and Connectors
 Skills
 Shell
-Web search
-Code interpreter
+Computer use
 File search and retrieval
 File search
 Retrieval
+Tool search
 More tools
+Apply Patch
+Local shell
 Image generation
-Computer use
-Local shell tool
-Apply patch
+Code interpreter
 Run and scale
 Conversation state
 Background mode
@@ -215,6 +219,7 @@ Config Basics
 Advanced Config
 Config Reference
 Sample Config
+Speed
 Rules
 AGENTS.md
 MCP
@@ -298,28 +303,11 @@ Overview
 Onboarding
 Feed spec
 Best practices
-Resources
+Showcase
 Cookbook
 Blog
+Resources
 Home
-Docs MCP
-Categories
-Code
-Cookbooks
-Guides
-Videos
-Topics
-Agents
-Audio & Voice
-Computer use
-Codex
-Evals
-gpt-oss
-Fine-tuning
-Image generation
-Scaling
-Tools
-Video generation
 Home
 Topics
 Agents
@@ -346,6 +334,25 @@ API
 Apps SDK
 Audio
 Codex
+Home
+Docs MCP
+Categories
+Code
+Cookbooks
+Guides
+Videos
+Topics
+Agents
+Audio & Voice
+Computer use
+Codex
+Evals
+gpt-oss
+Fine-tuning
+Image generation
+Scaling
+Tools
+Video generation
 API Dashboard
 Search
 ⌘
@@ -356,7 +363,8 @@ Quickstart
 Models
 Pricing
 Libraries
-Latest: GPT-5.2
+Latest: GPT-5.4
+Prompt guidance
 Core concepts
 Text generation
 Code generation
@@ -384,19 +392,20 @@ Trace grading
 Voice agents
 Tools
 Using tools
-Connectors and MCP
+Web search
+MCP and Connectors
 Skills
 Shell
-Web search
-Code interpreter
+Computer use
 File search and retrieval
 File search
 Retrieval
+Tool search
 More tools
+Apply Patch
+Local shell
 Image generation
-Computer use
-Local shell tool
-Apply patch
+Code interpreter
 Run and scale
 Conversation state
 Background mode
@@ -491,6 +500,28 @@ Data retrieval
 Sending files
 Changelog
 March, 2026
+Mar 5
+Feature
+gpt-5.4
+gpt-5.4-pro
+v1/responses
+v1/chat/completions
+Released
+GPT-5.4
+, our newest frontier model for professional work, to the Chat Completions and Responses API, and released
+GPT-5.4 pro
+to the Responses API for tougher problems that benefit from more compute.
+Also released:
+Tool search
+in the Responses API, which lets models defer large tool surfaces until runtime to reduce token usage, preserve cache performance, and improve latency.
+Built-in
+Computer use
+support in GPT-5.4 through the Responses API
+computer
+tool for screenshot-based UI interaction.
+A 1M token context window and native
+Compaction
+support for longer-running agent workflows.
 Mar 3
 Feature
 gpt-5.3-chat-latest

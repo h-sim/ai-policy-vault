@@ -1,5 +1,84 @@
 [
   {
+    "id": "dee2771473393074fb99cfd14abcbe98d901630e",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-claude-3-haiku-20240307\n-Claude Haiku 4.5\n-model deprecations\n-.\n-February 17, 2026\n-We've launched\n-Claude Sonnet 4.6\n-, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports\n-extended thinking\n-and a\n-1M token context window\n-(beta). See\n-Models & Pricing\n-for details.\n-API\n-code execution\n-is now\n-free when used with web search or web fetch\n-. Sandboxed code execution improves model capability and token efficiency. See the\n-pricing details\n-for standalone usage.\n-The\n-web search tool\n-and\n-programmatic tool calling\n-are now generally available (no beta header required). Web search and web fetch now support\n-dynamic filtering\n-, which uses code execution to filter results before they reach the context window for better performance and reduced token cost.\n-The\n-code execution tool\n-,\n-web fetch tool\n-,\n-tool search tool\n-,\n-tool use examples\n-, and\n-memory tool\n-are now generally available (no beta header required).\n-February 7, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 685,
+      "removed": 685,
+      "churn": 1370
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Mar 2026 01:28:01 GMT",
+    "run_at": "2026-03-06T01:27:32Z",
+    "run_id": "3dae3e69911f4512b71e80266c68c096"
+  },
+  {
+    "id": "c9036c75461f2007f34124eca48c75c1423b1ee0",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                  \"model\": \"gpt-4.1-2025-04-14\",\n+                  \"model\": \"gpt-5.4\",\n-                chat_completion = client.chat.completions.create(\n+                for completion in client.chat.completions.create(",
+    "snippet_full": "",
+    "diff": {
+      "added": 1733,
+      "removed": 1352,
+      "churn": 3085
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Mar 2026 01:27:42 GMT",
+    "run_at": "2026-03-06T01:27:32Z",
+    "run_id": "3dae3e69911f4512b71e80266c68c096"
+  },
+  {
+    "id": "8be4f383c4b755c54a905ce73c2d5b0e4cf00343",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Ensuring AI use in education leads to opportunity\n+link: https://openai.com/index/ai-education-opportunity\n+id: https://openai.com/index/ai-education-opportunity\n+date: Thu, 05 Mar 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Excel and new financial data integrations\n+link: https://openai.com/index/chatgpt-for-excel\n+id: https://openai.com/index/chatgpt-for-excel\n+date: Thu, 05 Mar 2026 00:00:00 GMT\n+title: GPT-5.4 Thinking System Card\n+link: https://openai.com/index/gpt-5-4-thinking-system-card",
+    "snippet_full": "+title: Ensuring AI use in education leads to opportunity\n+link: https://openai.com/index/ai-education-opportunity\n+id: https://openai.com/index/ai-education-opportunity\n+date: Thu, 05 Mar 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Excel and new financial data integrations\n+link: https://openai.com/index/chatgpt-for-excel\n+id: https://openai.com/index/chatgpt-for-excel\n+date: Thu, 05 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5.4 Thinking System Card\n+link: https://openai.com/index/gpt-5-4-thinking-system-card\n+id: https://openai.com/index/gpt-5-4-thinking-system-card\n+date: Thu, 05 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-5.4\n+link: https://openai.com/index/introducing-gpt-5-4\n+id: https://openai.com/index/introducing-gpt-5-4\n+date: Thu, 05 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Adoption news channel\n+link: https://openai.com/index/introducing-the-adoption-news-channel\n+id: https://openai.com/index/introducing-the-adoption-news-channel\n+date: Thu, 05 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Reasoning models struggle to control their chains of thought, and that’s good\n+link: https://openai.com/index/reasoning-models-chain-of-thought-controllability\n+id: https://openai.com/index/reasoning-models-chain-of-thought-controllability\n+date: Thu, 05 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: The five AI value models driving business reinvention\n+link: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention\n+id: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention\n+date: Thu, 05 Mar 2026 00:00:00 GMT",
+    "diff": {
+      "added": 42,
+      "removed": 0,
+      "churn": 42
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Mar 2026 01:27:33 GMT",
+    "run_at": "2026-03-06T01:27:32Z",
+    "run_id": "3dae3e69911f4512b71e80266c68c096"
+  },
+  {
+    "id": "d144bca7e8e31fadae1336c8d98e0e59ca9bbec7",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Resources\n-Assets for developers building with OpenAI\n+Showcase\n+Demo apps to get inspired\n+Resources\n+Assets for developers building with OpenAI\n-Latest: GPT-5.2\n+Latest: GPT-5.4\n+Prompt guidance\n-Connectors and MCP\n+Web search\n+MCP and Connectors\n-Web search\n-Code interpreter\n+Computer use\n+Tool search\n+Apply Patch\n+Local shell\n-Computer use\n-Local shell tool\n-Apply patch\n+Code interpreter\n+Speed\n-Resources\n+Showcase\n+Resources\n-Docs MCP\n-Categories\n-Code\n-Cookbooks\n-Guides\n-Videos\n-Topics\n-Agents\n-Audio & Voice\n-Computer use\n-Codex\n-Evals\n-gpt-oss\n-Fine-tuning",
+    "snippet_full": "",
+    "diff": {
+      "added": 66,
+      "removed": 35,
+      "churn": 101
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Mar 2026 01:27:32 GMT",
+    "run_at": "2026-03-06T01:27:32Z",
+    "run_id": "3dae3e69911f4512b71e80266c68c096"
+  },
+  {
     "id": "2dee71cf5a5ed269cdf570aed71ffc0a6d91ac3c",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -800,79 +879,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 03 Feb 2026 01:27:26 GMT"
-  },
-  {
-    "id": "2e6096b1ce89278a6222b4422c8d2435eb81b488",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "-title: Codex CLI Release: 0.74.0\n-link: https://developers.openai.com/changelog/#github-release-271533952\n-id: https://developers.openai.com/changelog/#github-release-271533952\n-date: Thu, 18 Dec 2025 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.93.0\n+link: https://developers.openai.com/changelog/#github-release-281755443\n+id: https://developers.openai.com/changelog/#github-release-281755443\n+date: Sat, 31 Jan 2026 00:00:00 GMT\n+body:",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 6,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 01 Feb 2026 01:46:33 GMT"
-  },
-  {
-    "id": "cb01f5d4a3fffaf51c6ebe0abfc2174101841a92",
-    "impact": "Breaking",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-{\n-  \"components\": {\n-    \"schemas\": {\n-      \"ActiveStatus\": {\n-        \"description\": \"Indicates that a thread is active.\",\n-        \"properties\": {\n-          \"type\": {\n-            \"default\": \"active\",\n-            \"description\": \"Status discriminator that is always `active`.\",\n-            \"enum\": [\n-              \"active\"\n+openapi: 3.1.0\n+info:\n+  title: OpenAI API\n+  description: The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.\n+  version: 2.3.0\n+  termsOfService: https://openai.com/policies/terms-of-use\n+  contact:\n+    name: OpenAI Support\n+    url: https://help.openai.com/\n+  license:\n+    name: MIT\n+    url: https://github.com/openai/openai-openapi/blob/master/LICENSE\n+servers:\n+  - url: https://api.openai.com/v1\n+security:\n+  - ApiKeyAuth: []\n+tags:\n+  - name: Assistants\n+    description: Build Assistants that can call models and use tools.\n+  - name: Audio\n+    description: Turn audio into text or text into audio.\n+  - name: Chat\n+    description: Given a list of messages comprising a conversation, the model will return a response.\n+  - name: Conversations\n+    description: Manage conversations and conversation items.\n+  - name: Completions\n+    description: Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position.\n+  - name: Embeddings\n+    description: Get a vector representation of a given input that can be easily consumed by machine learning models and algorithms.",
-    "snippet_full": "",
-    "diff": {
-      "added": 71012,
-      "removed": 58198,
-      "churn": 129210
-    },
-    "score": 190,
-    "reasons": [
-      "OpenAPI: version変更",
-      "OpenAPI: termsOfService変更",
-      "OpenAPI: servers.url変更",
-      "OpenAPI: security変更",
-      "OpenAPI: tags増減（軽微）"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 31 Jan 2026 01:20:35 GMT"
-  },
-  {
-    "id": "82a2d892e6b9a64193d5e8ca701333881094c106",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-link: https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations\n-id: https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations\n+link: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations\n+id: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 2,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 31 Jan 2026 01:20:07 GMT"
-  },
-  {
-    "id": "c8c3e0cadf60f9d89ff4edca11e85cacd418b1a6",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+        \"parameters\": [\n+          {\n+            \"description\": \"Unique ID of the certificate to delete.\",\n+            \"in\": \"path\",\n+            \"name\": \"certificate_id\",\n+            \"required\": true,\n+            \"schema\": {\n+              \"type\": \"string\"\n+            }\n+          }\n+        ],\n+        \"parameters\": [\n+          {\n+            \"description\": \"Unique ID of the certificate to modify.\",\n+            \"in\": \"path\",\n+            \"name\": \"certificate_id\",\n+            \"required\": true,\n+            \"schema\": {\n+              \"type\": \"string\"\n+            }\n+          }\n+        ],",
-    "snippet_full": "",
-    "diff": {
-      "added": 22,
-      "removed": 0,
-      "churn": 22
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 30 Jan 2026 01:22:58 GMT"
   }
 ]

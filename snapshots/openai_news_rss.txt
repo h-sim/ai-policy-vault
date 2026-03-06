@@ -551,6 +551,12 @@ id: https://openai.com/index/ai-clinical-copilot-penda-health
 date: Tue, 22 Jul 2025 10:00:00 GMT
 body:
 #ITEM
+title: Ensuring AI use in education leads to opportunity
+link: https://openai.com/index/ai-education-opportunity
+id: https://openai.com/index/ai-education-opportunity
+date: Thu, 05 Mar 2026 09:00:00 GMT
+body:
+#ITEM
 title: AI for self empowerment
 link: https://openai.com/index/ai-for-self-empowerment
 id: https://openai.com/index/ai-for-self-empowerment
@@ -879,6 +885,12 @@ title: ChatGPT can now see, hear, and speak
 link: https://openai.com/index/chatgpt-can-now-see-hear-and-speak
 id: https://openai.com/index/chatgpt-can-now-see-hear-and-speak
 date: Mon, 25 Sep 2023 07:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT for Excel and new financial data integrations
+link: https://openai.com/index/chatgpt-for-excel
+id: https://openai.com/index/chatgpt-for-excel
+date: Thu, 05 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: A free version of ChatGPT built for teachers
@@ -1949,6 +1961,12 @@ id: https://openai.com/index/gpt-5-3-instant-system-card
 date: Tue, 03 Mar 2026 10:00:00 GMT
 body:
 #ITEM
+title: GPT-5.4 Thinking System Card
+link: https://openai.com/index/gpt-5-4-thinking-system-card
+id: https://openai.com/index/gpt-5-4-thinking-system-card
+date: Thu, 05 Mar 2026 10:00:00 GMT
+body:
+#ITEM
 title: How Amgen uses GPT-5
 link: https://openai.com/index/gpt-5-amgen
 id: https://openai.com/index/gpt-5-amgen
@@ -2519,6 +2537,12 @@ id: https://openai.com/index/introducing-gpt-5-3-codex-spark
 date: Thu, 12 Feb 2026 10:00:00 GMT
 body:
 #ITEM
+title: Introducing GPT-5.4
+link: https://openai.com/index/introducing-gpt-5-4
+id: https://openai.com/index/introducing-gpt-5-4
+date: Thu, 05 Mar 2026 10:00:00 GMT
+body:
+#ITEM
 title: Introducing GPT-5 for developers
 link: https://openai.com/index/introducing-gpt-5-for-developers
 id: https://openai.com/index/introducing-gpt-5-for-developers
@@ -2685,6 +2709,12 @@ title: Introducing text and code embeddings
 link: https://openai.com/index/introducing-text-and-code-embeddings
 id: https://openai.com/index/introducing-text-and-code-embeddings
 date: Tue, 25 Jan 2022 08:00:00 GMT
+body:
+#ITEM
+title: Introducing the Adoption news channel
+link: https://openai.com/index/introducing-the-adoption-news-channel
+id: https://openai.com/index/introducing-the-adoption-news-channel
+date: Thu, 05 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing the ChatGPT app for iOS
@@ -4139,6 +4169,12 @@ id: https://openai.com/index/rakuten
 date: Wed, 07 Aug 2024 16:00:00 GMT
 body:
 #ITEM
+title: Reasoning models struggle to control their chains of thought, and that’s good
+link: https://openai.com/index/reasoning-models-chain-of-thought-controllability
+id: https://openai.com/index/reasoning-models-chain-of-thought-controllability
+date: Thu, 05 Mar 2026 10:00:00 GMT
+body:
+#ITEM
 title: OpenAI Red Teaming Network
 link: https://openai.com/index/red-teaming-network
 id: https://openai.com/index/red-teaming-network
@@ -4773,6 +4809,12 @@ title: Text and code embeddings by contrastive pre-training
 link: https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training
 id: https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training
 date: Mon, 24 Jan 2022 08:00:00 GMT
+body:
+#ITEM
+title: The five AI value models driving business reinvention
+link: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention
+id: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention
+date: Thu, 05 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
