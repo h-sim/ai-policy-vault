@@ -213,6 +213,11 @@ Integrations
 GitHub
 Slack
 Linear
+Codex Security
+Overview
+Setup
+Improving the threat model
+FAQ
 Configuration
 Config File
 Config Basics
@@ -227,7 +232,7 @@ Skills
 Multi-agents
 Administration
 Authentication
-Security
+Agent approvals & security
 Enterprise
 Admin Setup
 Governance
@@ -252,6 +257,7 @@ View all
 Building AI Teams
 Community
 Ambassadors
+Open Source Program
 Meetups
 Releases
 Changelog
@@ -669,6 +675,14 @@ Released
 gpt-5.2-codex
 to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more
 here
+.
+Jan 13
+Feature
+v1/realtime
+Added dedicated SIP IP ranges for Realtime API.
+sip.api.openai.com
+does GeoIP routing, and will direct SIP traffic to the closest region.
+Learn more
 .
 Jan 13
 Update

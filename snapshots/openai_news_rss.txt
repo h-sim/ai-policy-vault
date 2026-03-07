@@ -695,6 +695,12 @@ id: https://openai.com/index/axios-allison-murphy
 date: Wed, 04 Mar 2026 00:00:00 GMT
 body:
 #ITEM
+title: How Balyasny Asset Management built an AI research engine for investing
+link: https://openai.com/index/balyasny-asset-management
+id: https://openai.com/index/balyasny-asset-management
+date: Fri, 06 Mar 2026 07:00:00 GMT
+body:
+#ITEM
 title: Scaling accounting capacity with OpenAI
 link: https://openai.com/index/basis
 id: https://openai.com/index/basis
@@ -989,6 +995,12 @@ id: https://openai.com/index/codex-now-generally-available
 date: Mon, 06 Oct 2025 10:50:00 GMT
 body:
 #ITEM
+title: Codex Security: now in research preview
+link: https://openai.com/index/codex-security-now-in-research-preview
+id: https://openai.com/index/codex-security-now-in-research-preview
+date: Fri, 06 Mar 2026 10:00:00 GMT
+body:
+#ITEM
 title: Collaborating with Carlyle to Chart the Future of Private Equity
 link: https://openai.com/index/collaborating-with-carlyle-to-chart-the-future-of-private-equity
 id: https://openai.com/index/collaborating-with-carlyle-to-chart-the-future-of-private-equity
@@ -1245,6 +1257,12 @@ title: Democratic inputs to AI grant program: lessons learned and implementation
 link: https://openai.com/index/democratic-inputs-to-ai-grant-program-update
 id: https://openai.com/index/democratic-inputs-to-ai-grant-program-update
 date: Tue, 16 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: How Descript enables multilingual video dubbing at scale
+link: https://openai.com/index/descript
+id: https://openai.com/index/descript
+date: Fri, 06 Mar 2026 10:00:00 GMT
 body:
 #ITEM
 title: Detecting and reducing scheming in AI models

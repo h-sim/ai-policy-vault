@@ -1,5 +1,69 @@
 [
   {
+    "id": "b2933ed5ffa14ec6900ea2bcbce9645246ae98cc",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+claude-3-haiku-20240307\n+Claude Haiku 4.5\n+model deprecations\n+.\n+February 17, 2026\n+We've launched\n+Claude Sonnet 4.6\n+, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports\n+extended thinking\n+and a\n+1M token context window\n+(beta). See\n+Models & Pricing\n+for details.\n+API\n+code execution\n+is now\n+free when used with web search or web fetch\n+. Sandboxed code execution improves model capability and token efficiency. See the\n+pricing details\n+for standalone usage.\n+The\n+web search tool\n+and\n+programmatic tool calling\n+are now generally available (no beta header required). Web search and web fetch now support\n+dynamic filtering\n+, which uses code execution to filter results before they reach the context window for better performance and reduced token cost.\n+The\n+code execution tool\n+,\n+web fetch tool\n+,\n+tool search tool\n+,\n+tool use examples\n+, and\n+memory tool\n+are now generally available (no beta header required).\n+February 7, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 685,
+      "removed": 685,
+      "churn": 1370
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 07 Mar 2026 01:20:45 GMT",
+    "run_at": "2026-03-07T01:20:03Z",
+    "run_id": "3e5977a2d3f145fc948fe2e75918b1df"
+  },
+  {
+    "id": "1d1c6757b9401fdb85bad53c3c9bf8615b4cd020",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Balyasny Asset Management built an AI research engine for investing\n+link: https://openai.com/index/balyasny-asset-management\n+id: https://openai.com/index/balyasny-asset-management\n+date: Fri, 06 Mar 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Codex Security: now in research preview\n+link: https://openai.com/index/codex-security-now-in-research-preview\n+id: https://openai.com/index/codex-security-now-in-research-preview\n+date: Fri, 06 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How Descript enables multilingual video dubbing at scale\n+link: https://openai.com/index/descript\n+id: https://openai.com/index/descript\n+date: Fri, 06 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 07 Mar 2026 01:20:20 GMT",
+    "run_at": "2026-03-07T01:20:03Z",
+    "run_id": "3e5977a2d3f145fc948fe2e75918b1df"
+  },
+  {
+    "id": "df417439be812f9e82ca97e0da7535dffa18342a",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Codex Security\n+Overview\n+Setup\n+Improving the threat model\n+FAQ\n-Security\n+Agent approvals & security\n+Open Source Program\n+Feature\n+v1/realtime\n+Added dedicated SIP IP ranges for Realtime API.\n+sip.api.openai.com\n+does GeoIP routing, and will direct SIP traffic to the closest region.\n+Learn more\n+.\n+Jan 13",
+    "snippet_full": "",
+    "diff": {
+      "added": 15,
+      "removed": 1,
+      "churn": 16
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 07 Mar 2026 01:20:03 GMT",
+    "run_at": "2026-03-07T01:20:03Z",
+    "run_id": "3e5977a2d3f145fc948fe2e75918b1df"
+  },
+  {
     "id": "dee2771473393074fb99cfd14abcbe98d901630e",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -828,56 +892,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Thu, 05 Feb 2026 01:23:20 GMT"
-  },
-  {
-    "id": "6eaba78b1ae8bdec7542521a3ce67144f5d066b5",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-date: Tue, 30 Sep 2025 10:00:00 GMT\n+date: Tue, 03 Feb 2026 00:00:00 GMT",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 04 Feb 2026 01:23:00 GMT"
-  },
-  {
-    "id": "17d2e77f9e9e6c05e8f8e02d49aaaf9a8a0410de",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing the Codex app\n+link: https://openai.com/index/introducing-the-codex-app\n+id: https://openai.com/index/introducing-the-codex-app\n+date: Mon, 02 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Snowflake and OpenAI partner to bring frontier intelligence to enterprise data\n+link: https://openai.com/index/snowflake-partnership\n+id: https://openai.com/index/snowflake-partnership\n+date: Mon, 02 Feb 2026 06:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 03 Feb 2026 01:27:26 GMT"
-  },
-  {
-    "id": "bbc7c4729d383c40274248c9f32a9f7939533410",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "+title: Introducing the Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-02-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-02-mdx\n+date: Mon, 02 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Codex CLI Release: 0.75.0\n-link: https://developers.openai.com/changelog/#github-release-271555285\n-id: https://developers.openai.com/changelog/#github-release-271555285\n-date: Thu, 18 Dec 2025 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.76.0\n-link: https://developers.openai.com/changelog/#github-release-271840565\n-id: https://developers.openai.com/changelog/#github-release-271840565\n-date: Fri, 19 Dec 2025 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.94.0\n+link: https://developers.openai.com/changelog/#github-release-282298678\n+id: https://developers.openai.com/changelog/#github-release-282298678\n+date: Mon, 02 Feb 2026 00:00:00 GMT\n+body:",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 12,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 03 Feb 2026 01:27:26 GMT"
   }
 ]
