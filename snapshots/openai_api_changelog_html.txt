@@ -248,8 +248,8 @@ GitHub Action
 Learn
 Videos
 Blog
+Using skills to accelerate OSS maintenance
 Building frontend UIs with Codex and Figma
-Run long horizon tasks with Codex
 View all
 Cookbooks
 Codex Prompting Guide
@@ -330,11 +330,11 @@ Contribute
 Cookbook on GitHub
 All posts
 Recent
+Using skills to accelerate OSS maintenance
 Building frontend UIs with Codex and Figma
 Run long horizon tasks with Codex
 Shell + Skills + Compaction: Tips for long-running agents that do real work
 15 lessons learned building ChatGPT Apps
-Testing Agent Skills Systematically with Evals
 Topics
 General
 API

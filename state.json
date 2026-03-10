@@ -1,5 +1,62 @@
 [
   {
+    "id": "58b013e2edd081a44eaaf4b328ec6a63fa8dd395",
+    "impact": "Medium",
+    "name": "Google Vertex AI Release Notes (RSS)",
+    "url": "https://cloud.google.com/feeds/vertex-ai-release-notes.xml",
+    "snippet": "+title: March 05, 2026\n+link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_05_2026\n+id: tag:google.com,2016:vertex-ai-release-notes#March_05_2026\n+date: 2026-03-05T00:00:00-08:00\n+body:\n+#ITEM\n-title: September 16, 2024\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_16_2024\n-id: tag:google.com,2016:vertex-ai-release-notes#September_16_2024\n-date: 2024-09-16T00:00:00-07:00\n-body:\n-#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 6,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 10 Mar 2026 01:21:06 GMT",
+    "run_at": "2026-03-10T01:20:59Z",
+    "run_id": "b3d2b083263f4fe5a0958ad1ad725567"
+  },
+  {
+    "id": "eb7958c230ec6f2eab91dca4f68f6a4f7f9a73ed",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI to acquire Promptfoo\n+link: https://openai.com/index/openai-to-acquire-promptfoo\n+id: https://openai.com/index/openai-to-acquire-promptfoo\n+date: Mon, 09 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 10 Mar 2026 01:20:59 GMT",
+    "run_at": "2026-03-10T01:20:59Z",
+    "run_id": "b3d2b083263f4fe5a0958ad1ad725567"
+  },
+  {
+    "id": "010b39cc512cd36d9ebe76fcc9a7b3d6a97bcbae",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Using skills to accelerate OSS maintenance\n-Run long horizon tasks with Codex\n+Using skills to accelerate OSS maintenance\n-Testing Agent Skills Systematically with Evals",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 10 Mar 2026 01:20:59 GMT",
+    "run_at": "2026-03-10T01:20:59Z",
+    "run_id": "b3d2b083263f4fe5a0958ad1ad725567"
+  },
+  {
     "id": "5da09cafde3a9b58e79ec638ec8334dd363570c9",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -843,58 +900,5 @@
     ],
     "summary_ja": "",
     "pubDate": "Sat, 07 Feb 2026 01:22:50 GMT"
-  },
-  {
-    "id": "008931cf7057a2ea17dfcf7918bac0661abf8bbc",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "-#ITEM\n-title: Codex CLI Release: 0.80.0\n-link: https://developers.openai.com/changelog/#github-release-275597320\n-id: https://developers.openai.com/changelog/#github-release-275597320\n-date: Fri, 09 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.81.0\n-link: https://developers.openai.com/changelog/#github-release-276819252\n-id: https://developers.openai.com/changelog/#github-release-276819252\n-date: Wed, 14 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.84.0\n-link: https://developers.openai.com/changelog/#github-release-276912334\n-id: https://developers.openai.com/changelog/#github-release-276912334\n-date: Thu, 15 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.85.0\n-link: https://developers.openai.com/changelog/#github-release-277157618\n-id: https://developers.openai.com/changelog/#github-release-277157618\n-date: Thu, 15 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.86.0\n-link: https://developers.openai.com/changelog/#github-release-277242575\n-id: https://developers.openai.com/changelog/#github-release-277242575\n-date: Fri, 16 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.87.0\n-link: https://developers.openai.com/changelog/#github-release-277440557\n-id: https://developers.openai.com/changelog/#github-release-277440557\n-date: Fri, 16 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.88.0\n-link: https://developers.openai.com/changelog/#github-release-278754265\n-id: https://developers.openai.com/changelog/#github-release-278754265",
-    "snippet_full": "",
-    "diff": {
-      "added": 0,
-      "removed": 102,
-      "churn": 102
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 07 Feb 2026 01:22:30 GMT"
-  },
-  {
-    "id": "1d77a6b581c662309086b9e809ce75e64fd36adb",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing Trusted Access for Cyber\n+link: https://openai.com/index/trusted-access-for-cyber\n+id: https://openai.com/index/trusted-access-for-cyber\n+title: GPT-5.3-Codex System Card\n+link: https://openai.com/index/gpt-5-3-codex-system-card\n+id: https://openai.com/index/gpt-5-3-codex-system-card\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5 lowers the cost of cell-free protein synthesis\n+link: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost\n+id: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-    "snippet_full": "+title: GPT-5.3-Codex System Card\n+link: https://openai.com/index/gpt-5-3-codex-system-card\n+id: https://openai.com/index/gpt-5-3-codex-system-card\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5 lowers the cost of cell-free protein synthesis\n+link: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost\n+id: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost\n+date: Thu, 05 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-5.3-Codex\n+link: https://openai.com/index/introducing-gpt-5-3-codex\n+id: https://openai.com/index/introducing-gpt-5-3-codex\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing OpenAI Frontier\n+link: https://openai.com/index/introducing-openai-frontier\n+id: https://openai.com/index/introducing-openai-frontier\n+date: Thu, 05 Feb 2026 06:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Trusted Access for Cyber\n+link: https://openai.com/index/trusted-access-for-cyber\n+id: https://openai.com/index/trusted-access-for-cyber\n+date: Thu, 05 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 30,
-      "removed": 0,
-      "churn": 30
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 06 Feb 2026 01:24:08 GMT"
-  },
-  {
-    "id": "dac7de9ac5df03861594adc6e33370442b0e7c36",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-04-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-04-app-mdx\n+date: Wed, 04 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-05-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-05-app-mdx\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-5.3-Codex\n+link: https://developers.openai.com/changelog/#codex-2026-02-05-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-05-mdx\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Codex CLI Release: 0.78.0\n-link: https://developers.openai.com/changelog/#github-release-274610568\n-id: https://developers.openai.com/changelog/#github-release-274610568\n-date: Tue, 06 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.79.0\n-link: https://developers.openai.com/changelog/#github-release-274682036\n-id: https://developers.openai.com/changelog/#github-release-274682036\n-date: Wed, 07 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.97.0\n+link: https://developers.openai.com/changelog/#github-release-283219180\n+id: https://developers.openai.com/changelog/#github-release-283219180\n+date: Thu, 05 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.98.0\n+link: https://developers.openai.com/changelog/#github-release-283440153\n+id: https://developers.openai.com/changelog/#github-release-283440153",
-    "snippet_full": "",
-    "diff": {
-      "added": 30,
-      "removed": 12,
-      "churn": 42
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 06 Feb 2026 01:23:52 GMT"
   }
 ]

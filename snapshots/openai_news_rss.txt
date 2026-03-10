@@ -3935,6 +3935,12 @@ id: https://openai.com/index/openai-to-acquire-neptune
 date: Wed, 03 Dec 2025 10:00:00 GMT
 body:
 #ITEM
+title: OpenAI to acquire Promptfoo
+link: https://openai.com/index/openai-to-acquire-promptfoo
+id: https://openai.com/index/openai-to-acquire-promptfoo
+date: Mon, 09 Mar 2026 10:00:00 GMT
+body:
+#ITEM
 title: OpenAI welcomes Sarah Friar (CFO) and Kevin Weil (CPO)
 link: https://openai.com/index/openai-welcomes-cfo-cpo
 id: https://openai.com/index/openai-welcomes-cfo-cpo
