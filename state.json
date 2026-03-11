@@ -1,5 +1,62 @@
 [
   {
+    "id": "564df7edd213990e8a920dfcf9ae1c9a79177526",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-    FileInputDetail:\n-      type: string\n-      enum:\n-        - low\n-        - high\n-        detail:\n-          $ref: '#/components/schemas/FileInputDetail'\n-          description: >-\n-            The detail level of the file to be sent to the model. One of `high`\n-            or `low`. Defaults to `high`.\n-    FileDetailEnum:\n-      type: string\n-      enum:\n-        - high\n-        - low\n-        detail:\n-          $ref: '#/components/schemas/FileDetailEnum'\n-          description: >-\n-            The detail level of the file to be sent to the model. One of `high`\n-            or `low`. Defaults to `high`.",
+    "snippet_full": "",
+    "diff": {
+      "added": 0,
+      "removed": 20,
+      "churn": 20
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 11 Mar 2026 01:21:19 GMT",
+    "run_at": "2026-03-11T01:21:12Z",
+    "run_id": "de2cf3782cdd43a3b595621d38d7c9c0"
+  },
+  {
+    "id": "680f5da5a9f8190419236c32ab55650e1792e851",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Improving instruction hierarchy in frontier LLMs\n+link: https://openai.com/index/instruction-hierarchy-challenge\n+id: https://openai.com/index/instruction-hierarchy-challenge\n+date: Tue, 10 Mar 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: New ways to learn math and science in ChatGPT\n+link: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt\n+id: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt\n+date: Tue, 10 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 11 Mar 2026 01:21:13 GMT",
+    "run_at": "2026-03-11T01:21:12Z",
+    "run_id": "de2cf3782cdd43a3b595621d38d7c9c0"
+  },
+  {
+    "id": "277483f0bc8372e42b302c9939c7d5892573258a",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Best practices",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 11 Mar 2026 01:21:13 GMT",
+    "run_at": "2026-03-11T01:21:12Z",
+    "run_id": "de2cf3782cdd43a3b595621d38d7c9c0"
+  },
+  {
     "id": "58b013e2edd081a44eaaf4b328ec6a63fa8dd395",
     "impact": "Medium",
     "name": "Google Vertex AI Release Notes (RSS)",
@@ -847,58 +904,5 @@
     ],
     "summary_ja": "",
     "pubDate": "Tue, 10 Feb 2026 01:52:18 GMT"
-  },
-  {
-    "id": "ae707bf83c8c81ae5bb4265e28d4778612d9ea70",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "+title: GPT-5.3-Codex in Cursor and VS Code\n+link: https://developers.openai.com/changelog/#codex-2026-02-09-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-09-mdx\n+date: Mon, 09 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.81.0\n+link: https://developers.openai.com/changelog/#github-release-276819252\n+id: https://developers.openai.com/changelog/#github-release-276819252\n+date: Wed, 14 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.84.0\n+link: https://developers.openai.com/changelog/#github-release-276912334\n+id: https://developers.openai.com/changelog/#github-release-276912334\n+date: Thu, 15 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.85.0\n+link: https://developers.openai.com/changelog/#github-release-277157618\n+id: https://developers.openai.com/changelog/#github-release-277157618\n+date: Thu, 15 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.86.0\n+link: https://developers.openai.com/changelog/#github-release-277242575\n+id: https://developers.openai.com/changelog/#github-release-277242575\n+date: Fri, 16 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.87.0\n+link: https://developers.openai.com/changelog/#github-release-277440557\n+id: https://developers.openai.com/changelog/#github-release-277440557\n+date: Fri, 16 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.88.0\n+link: https://developers.openai.com/changelog/#github-release-278754265\n+id: https://developers.openai.com/changelog/#github-release-278754265",
-    "snippet_full": "",
-    "diff": {
-      "added": 102,
-      "removed": 0,
-      "churn": 102
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 10 Feb 2026 01:52:00 GMT"
-  },
-  {
-    "id": "eac3cad01e67a625ceeec449591f3e3386143f88",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+      description: >\n+        You can call this endpoint with either:\n+\n+\n+        - `multipart/form-data`: use binary uploads via `image` (and optional\n+        `mask`).\n+\n+        - `application/json`: use `images` (and optional `mask`) as references\n+        with either `image_url` or `file_id`.\n+\n+\n+        Note that JSON requests use `images` (array) instead of the multipart\n+        `image` field.\n+            examples:\n+              multipart_edit:\n+                summary: Multipart form upload (binary image + prompt)\n+                value:\n+                  model: gpt-image-1\n+                  prompt: Add a watercolor effect to this image\n+                  image: <binary image file>\n+                  size: 1024x1024\n+                  quality: high\n+          application/json:\n+            schema:\n+              $ref: \"#/components/schemas/EditImageBodyJsonParam\"\n+            examples:\n+              json_with_url:\n+                summary: JSON request with image URL\n+                value:\n+                  model: gpt-image-1\n+                  prompt: Add a watercolor effect to this image\n+                  images:\n+                    - image_url: https://example.com/source-image.png\n+                  size: 1024x1024\n+                  quality: high\n+              json_with_file_id:\n+                summary: JSON request with uploaded file id\n+                value:\n+                  model: gpt-image-1.5\n+                  prompt: Replace the background with a snowy mountain scene",
-    "snippet_full": "",
-    "diff": {
-      "added": 247,
-      "removed": 2,
-      "churn": 249
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 09 Feb 2026 01:28:55 GMT"
-  },
-  {
-    "id": "36be807b725be14257191ab8791c4f5bcff4e3f3",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Making AI work for everyone, everywhere: our approach to localization\n+link: https://openai.com/index/our-approach-to-localization\n+id: https://openai.com/index/our-approach-to-localization\n+date: Fri, 06 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Korea privacy policy\n+link: https://openai.com/policies/kr-privacy-policy\n+id: https://openai.com/policies/kr-privacy-policy\n+date: Fri, 06 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 07 Feb 2026 01:22:50 GMT"
   }
 ]

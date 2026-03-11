@@ -2363,6 +2363,12 @@ id: https://openai.com/index/instruction-following
 date: Thu, 27 Jan 2022 08:00:00 GMT
 body:
 #ITEM
+title: Improving instruction hierarchy in frontier LLMs
+link: https://openai.com/index/instruction-hierarchy-challenge
+id: https://openai.com/index/instruction-hierarchy-challenge
+date: Tue, 10 Mar 2026 11:00:00 GMT
+body:
+#ITEM
 title: Three lessons for creating a sustainable AI advantage
 link: https://openai.com/index/intercom
 id: https://openai.com/index/intercom
@@ -3321,6 +3327,12 @@ title: New compliance and administrative tools for ChatGPT Enterprise
 link: https://openai.com/index/new-tools-for-chatgpt-enterprise
 id: https://openai.com/index/new-tools-for-chatgpt-enterprise
 date: Thu, 18 Jul 2024 00:00:00 GMT
+body:
+#ITEM
+title: New ways to learn math and science in ChatGPT
+link: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt
+id: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt
+date: Tue, 10 Mar 2026 10:00:00 GMT
 body:
 #ITEM
 title: New ways to manage your data in ChatGPT

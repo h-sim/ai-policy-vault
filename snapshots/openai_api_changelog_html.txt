@@ -246,6 +246,7 @@ App Server
 MCP Server
 GitHub Action
 Learn
+Best practices
 Videos
 Blog
 Using skills to accelerate OSS maintenance
