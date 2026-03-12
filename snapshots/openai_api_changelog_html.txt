@@ -331,11 +331,11 @@ Contribute
 Cookbook on GitHub
 All posts
 Recent
+From prompts to products: One year of Responses
 Using skills to accelerate OSS maintenance
 Building frontend UIs with Codex and Figma
 Run long horizon tasks with Codex
 Shell + Skills + Compaction: Tips for long-running agents that do real work
-15 lessons learned building ChatGPT Apps
 Topics
 General
 API

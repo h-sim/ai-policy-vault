@@ -1265,6 +1265,12 @@ id: https://openai.com/index/descript
 date: Fri, 06 Mar 2026 10:00:00 GMT
 body:
 #ITEM
+title: Designing AI agents to resist prompt injection
+link: https://openai.com/index/designing-agents-to-resist-prompt-injection
+id: https://openai.com/index/designing-agents-to-resist-prompt-injection
+date: Wed, 11 Mar 2026 11:30:00 GMT
+body:
+#ITEM
 title: Detecting and reducing scheming in AI models
 link: https://openai.com/index/detecting-and-reducing-scheming-in-ai-models
 id: https://openai.com/index/detecting-and-reducing-scheming-in-ai-models
@@ -1461,6 +1467,12 @@ title: Enhancing news in ChatGPT with The Atlantic
 link: https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic
 id: https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic
 date: Wed, 29 May 2024 07:30:00 GMT
+body:
+#ITEM
+title: From model to agent: Equipping the Responses API with a computer environment
+link: https://openai.com/index/equip-responses-api-computer-environment
+id: https://openai.com/index/equip-responses-api-computer-environment
+date: Wed, 11 Mar 2026 11:00:00 GMT
 body:
 #ITEM
 title: Equivalence between policy gradients and soft Q-learning
@@ -4199,9 +4211,15 @@ id: https://openai.com/index/quantifying-generalization-in-reinforcement-learnin
 date: Thu, 06 Dec 2018 08:00:00 GMT
 body:
 #ITEM
-title: Pairing data with APIs to unlock customer value
+title: Rakuten fixes issues twice as fast with Codex
 link: https://openai.com/index/rakuten
 id: https://openai.com/index/rakuten
+date: Wed, 11 Mar 2026 13:00:00 GMT
+body:
+#ITEM
+title: Pairing data with APIs to unlock customer value
+link: https://openai.com/index/rakuten-2024
+id: https://openai.com/index/rakuten-2024
 date: Wed, 07 Aug 2024 16:00:00 GMT
 body:
 #ITEM
@@ -5145,6 +5163,12 @@ title: Learning to play Minecraft with Video PreTraining
 link: https://openai.com/index/vpt
 id: https://openai.com/index/vpt
 date: Thu, 23 Jun 2022 07:00:00 GMT
+body:
+#ITEM
+title: Wayfair boosts catalog accuracy and support speed with OpenAI
+link: https://openai.com/index/wayfair
+id: https://openai.com/index/wayfair
+date: Wed, 11 Mar 2026 11:00:00 GMT
 body:
 #ITEM
 title: Wayfair is shaping the future of retail with AI

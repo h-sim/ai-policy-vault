@@ -1,5 +1,66 @@
 [
   {
+    "id": "ae371563cf1133c46d98095639199dd3a62faa38",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n-prompt caching documentation\n+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n+Prompt caching\n-our documentation\n+Model deprecations\n-, our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change\n-Models & Pricing documentation\n+, our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change\n+Models overview\n-Search result content blocks are now generally available on Amazon Bedrock. Learn more in our\n-search results documentation\n+Search result content blocks are now generally available on Amazon Bedrock. Learn more in\n+Search results\n-, bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, F\n-Microsoft Foundry documentation\n+, bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, F\n+Claude in Microsoft Foundry\n-our documentation\n+Model deprecations\n-), enabling automatic management of thinking blocks. Learn more in our\n-context editing documentation\n+), enabling automatic management of thinking blocks. Learn more in\n+Context editing\n-Learn more in our\n-Agent Skills documentation\n+Learn more in\n+Agent Skills\n-, our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Lea\n-Models & Pricing documentation\n+, our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Lea\n+Models overview\n-that allows you to request the maximum possible tokens without calculating input size. Learn more in our\n-handling stop reasons documentation\n-.\n-We've launched the memory tool in beta, enabling Claude to store and consult information across conversations. Learn more in our\n-memory tool documentation\n-.\n-We've launched context editing in beta, providing strategies to automatically manage conversation context. The initial release supports clearing older tool results and calls when approaching token li\n-context editing documentation",
+    "snippet_full": "",
+    "diff": {
+      "added": 85,
+      "removed": 82,
+      "churn": 167
+    },
+    "score": 140,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 12 Mar 2026 01:21:27 GMT",
+    "run_at": "2026-03-12T01:21:01Z",
+    "run_id": "f2a299f2fe8b48a49c385b70baca314c"
+  },
+  {
+    "id": "9cf041da50809f61da9598eb61bd030a9b442088",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Designing AI agents to resist prompt injection\n+link: https://openai.com/index/designing-agents-to-resist-prompt-injection\n+id: https://openai.com/index/designing-agents-to-resist-prompt-injection\n+date: Wed, 11 Mar 2026 11:30:00 GMT\n+body:\n+#ITEM\n+title: From model to agent: Equipping the Responses API with a computer environment\n+link: https://openai.com/index/equip-responses-api-computer-environment\n+id: https://openai.com/index/equip-responses-api-computer-environment\n+date: Wed, 11 Mar 2026 11:00:00 GMT\n-title: Pairing data with APIs to unlock customer value\n+title: Rakuten fixes issues twice as fast with Codex",
+    "snippet_full": "+title: Designing AI agents to resist prompt injection\n+link: https://openai.com/index/designing-agents-to-resist-prompt-injection\n+id: https://openai.com/index/designing-agents-to-resist-prompt-injection\n+date: Wed, 11 Mar 2026 11:30:00 GMT\n+body:\n+#ITEM\n+title: From model to agent: Equipping the Responses API with a computer environment\n+link: https://openai.com/index/equip-responses-api-computer-environment\n+id: https://openai.com/index/equip-responses-api-computer-environment\n+date: Wed, 11 Mar 2026 11:00:00 GMT\n+body:\n+#ITEM\n-title: Pairing data with APIs to unlock customer value\n+title: Rakuten fixes issues twice as fast with Codex\n+date: Wed, 11 Mar 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: Pairing data with APIs to unlock customer value\n+link: https://openai.com/index/rakuten-2024\n+id: https://openai.com/index/rakuten-2024\n+title: Wayfair boosts catalog accuracy and support speed with OpenAI\n+link: https://openai.com/index/wayfair\n+id: https://openai.com/index/wayfair\n+date: Wed, 11 Mar 2026 11:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 25,
+      "removed": 1,
+      "churn": 26
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 12 Mar 2026 01:21:02 GMT",
+    "run_at": "2026-03-12T01:21:01Z",
+    "run_id": "f2a299f2fe8b48a49c385b70baca314c"
+  },
+  {
+    "id": "2b525983fe1a0905e2e74d9457b0c4ca8819130c",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+From prompts to products: One year of Responses\n-15 lessons learned building ChatGPT Apps",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 12 Mar 2026 01:21:01 GMT",
+    "run_at": "2026-03-12T01:21:01Z",
+    "run_id": "f2a299f2fe8b48a49c385b70baca314c"
+  },
+  {
     "id": "564df7edd213990e8a920dfcf9ae1c9a79177526",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -851,58 +912,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Thu, 12 Feb 2026 01:29:16 GMT"
-  },
-  {
-    "id": "83c2c5c0c2910364f0c93ea37acd91d899b72352",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                  description: The endpoint to be used for all requests in the batch. Currently `/v1/responses`, `/v1/chat/completions`, `/v1/embeddings`, `/v1/completions`, and `/v1/moderations` are\n+                    - /v1/images/generations\n+                    - /v1/images/edits\n+                  description: The endpoint to be used for all requests in the batch. Currently `/v1/responses`, `/v1/chat/completions`, `/v1/embeddings`, `/v1/completions`, `/v1/moderations`, `/v1/i\n-      summary: Creates an edited or extended image given one or more source images and a prompt. This endpoint supports GPT Image models (`gpt-image-1.5`, `gpt-image-1`, and `gpt-image-1-mini`) and `\n+      summary: Creates an edited or extended image given one or more source images and a prompt. This endpoint supports GPT Image models (`gpt-image-1.5`, `gpt-image-1`, `gpt-image-1-mini`, and `chat\n-                  model: gpt-image-1\n+                  model: gpt-image-1.5\n-                  model: gpt-image-1\n+                  model: gpt-image-1.5\n+  /skills:\n+    post:\n+      tags:\n+        - Skills\n+      summary: Create Skill\n+      description: Create a new skill.\n+      operationId: CreateSkill\n+      parameters: []\n+      requestBody:\n+        content:\n+          multipart/form-data:\n+            schema:\n+              $ref: \"#/components/schemas/CreateSkillBody\"\n+          application/json:\n+            schema:\n+              $ref: \"#/components/schemas/CreateSkillBody\"\n+      responses:\n+        \"200\":\n+          description: Success\n+          content:\n+            application/json:\n+              schema:\n+                $ref: \"#/components/schemas/SkillResource\"\n+      x-oaiMeta:\n+        examples:\n+          response: \"\"\n+          request:\n+            node.js: |-\n+              import OpenAI from 'openai';\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 1696,
-      "removed": 22,
-      "churn": 1718
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 11 Feb 2026 01:48:43 GMT"
-  },
-  {
-    "id": "4d4bc178cba1a17c43c51e9f46539168c1d426ec",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "-title: Codex CLI Release: 0.81.0\n-link: https://developers.openai.com/changelog/#github-release-276819252\n-id: https://developers.openai.com/changelog/#github-release-276819252\n-date: Wed, 14 Jan 2026 00:00:00 GMT\n+title: Expanded llms coverage for API docs and reference\n+link: https://developers.openai.com/changelog/#developers-2026-02-10-mdx\n+id: https://developers.openai.com/changelog/#developers-2026-02-10-mdx\n+date: Tue, 10 Feb 2026 00:00:00 GMT",
-    "snippet_full": "",
-    "diff": {
-      "added": 4,
-      "removed": 4,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 11 Feb 2026 01:48:34 GMT"
-  },
-  {
-    "id": "ed507595508506afd1e97043ed48d64bea5b0c1e",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Bringing ChatGPT to GenAI.mil\n+link: https://openai.com/index/bringing-chatgpt-to-genaimil\n+id: https://openai.com/index/bringing-chatgpt-to-genaimil\n+date: Mon, 09 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Testing ads in ChatGPT\n+link: https://openai.com/index/testing-ads-in-chatgpt\n+id: https://openai.com/index/testing-ads-in-chatgpt\n+date: Mon, 09 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM\n-title: Korea privacy policy\n-link: https://openai.com/policies/kr-privacy-policy\n-id: https://openai.com/policies/kr-privacy-policy\n-date: Fri, 06 Feb 2026 10:00:00 GMT\n-body:\n-#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 6,
-      "churn": 18
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 10 Feb 2026 01:52:18 GMT"
   }
 ]

@@ -105,8 +105,8 @@ We've launched
 automatic caching
 for the Messages API. Add a single
 cache_control
-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in our
-prompt caching documentation
+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in
+Prompt caching
 .
 We've retired the Claude Sonnet 3.7 model (
 claude-3-7-sonnet-20250219
@@ -233,7 +233,7 @@ External Researcher Access Program
 .
 December 19, 2025
 We announced the deprecation of the Claude Haiku 3.5 model. Read more in
-our documentation
+Model deprecations
 .
 December 4, 2025
 Structured outputs
@@ -241,8 +241,8 @@ now supports Claude Haiku 4.5.
 November 24, 2025
 We've launched
 Claude Opus 4.5
-, our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change improvements in vision, coding, and computer use at a more accessible price point than previous Opus models. Learn more in our
-Models & Pricing documentation
+, our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change improvements in vision, coding, and computer use at a more accessible price point than previous Opus models. Learn more in
+Models overview
 .
 We've launched
 programmatic tool calling
@@ -259,8 +259,8 @@ to our Python and TypeScript SDKs, automatically managing conversation context t
 tool_runner
 .
 November 21, 2025
-Search result content blocks are now generally available on Amazon Bedrock. Learn more in our
-search results documentation
+Search result content blocks are now generally available on Amazon Bedrock. Learn more in
+Search results
 .
 November 19, 2025
 We've launched a
@@ -271,8 +271,8 @@ platform.claude.com/docs
 November 18, 2025
 We've launched
 Claude in Microsoft Foundry
-, bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, Files API, Agent Skills, and tool use. Learn more in our
-Microsoft Foundry documentation
+, bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, Files API, Agent Skills, and tool use. Learn more in
+Claude in Microsoft Foundry
 .
 November 14, 2025
 We've launched
@@ -282,13 +282,13 @@ structured-outputs-2025-11-13
 .
 October 28, 2025
 We announced the deprecation of the Claude Sonnet 3.7 model. Read more in
-our documentation
+Model deprecations
 .
 We've retired the Claude Sonnet 3.5 models. All requests to these models will now return an error.
 We've expanded context editing with thinking block clearing (
 clear_thinking_20251015
-), enabling automatic management of thinking blocks. Learn more in our
-context editing documentation
+), enabling automatic management of thinking blocks. Learn more in
+Context editing
 .
 October 16, 2025
 We've launched
@@ -305,15 +305,15 @@ endpoints) to package domain expertise and organizational workflows
 Skills require the
 code execution tool
 to be enabled
-Learn more in our
-Agent Skills documentation
+Learn more in
+Agent Skills
 and
 API reference
 October 15, 2025
 We've launched
 Claude Haiku 4.5
-, our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Learn more in our
-Models & Pricing documentation
+, our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Learn more in
+Models overview
 .
 September 29, 2025
 We've launched
@@ -326,14 +326,14 @@ global endpoint pricing
 for AWS Bedrock and Google Vertex AI. The Claude API (1P) pricing is unaffected.
 We've introduced a new stop reason
 model_context_window_exceeded
-that allows you to request the maximum possible tokens without calculating input size. Learn more in our
-handling stop reasons documentation
+that allows you to request the maximum possible tokens without calculating input size. Learn more in
+Handling stop reasons
 .
-We've launched the memory tool in beta, enabling Claude to store and consult information across conversations. Learn more in our
-memory tool documentation
+We've launched the memory tool in beta, enabling Claude to store and consult information across conversations. Learn more in
+Memory tool
 .
-We've launched context editing in beta, providing strategies to automatically manage conversation context. The initial release supports clearing older tool results and calls when approaching token limits. Learn more in our
-context editing documentation
+We've launched context editing in beta, providing strategies to automatically manage conversation context. The initial release supports clearing older tool results and calls when approaching token limits. Learn more in
+Context editing
 .
 September 17, 2025
 We've launched tool helpers in beta for the Python and TypeScript SDKs, simplifying tool creation and execution with type-safe input validation and a tool runner for automated tool handling in conversations. For details, see the documentation for
@@ -366,8 +366,8 @@ support.claude.com
 )
 API endpoints, headers, environment variables, and SDKs remain the same. Your existing integrations will continue working without any changes.
 September 10, 2025
-We've launched the web fetch tool in beta, allowing Claude to retrieve full content from specified web pages and PDF documents. Learn more in our
-web fetch tool documentation
+We've launched the web fetch tool in beta, allowing Claude to retrieve full content from specified web pages and PDF documents. Learn more in
+Web fetch tool
 .
 We've launched the
 Claude Code Analytics API
@@ -383,8 +383,8 @@ in the Console
 Usage
 page, allowing you to monitor your API rate limit usage and caching rates over time.
 September 3, 2025
-We've launched support for citable documents in client-side tool results. Learn more in our
-tool use documentation
+We've launched support for citable documents in client-side tool results. Learn more in
+How to implement tool use
 .
 September 2, 2025
 We've launched v2 of the
@@ -406,8 +406,8 @@ Claude on Vertex AI
 August 19, 2025
 Request IDs are now included directly in error response bodies alongside the existing
 request-id
-header. Learn more in our
-error documentation
+header. Learn more in
+Errors
 .
 August 18, 2025
 We've released the
@@ -423,11 +423,11 @@ and
 claude-3-5-sonnet-20241022
 ). These models will be retired on October 28, 2025. We recommend migrating to Claude Sonnet 4.5 (
 claude-sonnet-4-5-20250929
-) for improved performance and capabilities. Read more in the
-Model deprecations documentation
+) for improved performance and capabilities. Read more in
+Model deprecations
 .
-The 1-hour cache duration for prompt caching is now generally available. You can now use the extended cache TTL without a beta header. Learn more in our
-prompt caching documentation
+The 1-hour cache duration for prompt caching is now generally available. You can now use the extended cache TTL without a beta header. Learn more in
+Prompt caching
 .
 August 12, 2025
 We've launched beta support for a
@@ -444,16 +444,16 @@ overloaded_error
 August 8, 2025
 Search result content blocks are now generally available on the Claude API and Google Cloud's Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta header
 search-results-2025-06-09
-is no longer required. Learn more in our
-search results documentation
+is no longer required. Learn more in
+Search results
 .
 August 5, 2025
 We've launched
 Claude Opus 4.1
 , an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements.
 *
-Learn more in our
-Models & Pricing documentation
+Learn more in
+Models overview
 .
 * - Opus 4.1 does not allow both
 temperature
@@ -474,7 +474,7 @@ usage tier 1-4 rate limits
 , these changes apply immediately to your account - no action needed.
 July 21, 2025
 We've retired the Claude 2.0, Claude 2.1, and Claude Sonnet 3 models. All requests to these models will now return an error. Read more in
-our documentation
+Model deprecations
 .
 July 17, 2025
 We've increased
@@ -483,14 +483,14 @@ for Claude Sonnet 4 on the Claude API to give you more capacity to build and sca
 usage tier 1-4 rate limits
 , these changes apply immediately to your account - no action needed.
 July 3, 2025
-We've launched search result content blocks in beta, enabling natural citations for RAG applications. Tools can now return search results with proper source attribution, and Claude will automatically cite these sources in its responses - matching the citation quality of web search. This eliminates the need for document workarounds in custom knowledge base applications. Learn more in our
-search results documentation
+We've launched search result content blocks in beta, enabling natural citations for RAG applications. Tools can now return search results with proper source attribution, and Claude will automatically cite these sources in its responses - matching the citation quality of web search. This eliminates the need for document workarounds in custom knowledge base applications. Learn more in
+Search results
 . To enable this feature, use the beta header
 search-results-2025-06-09
 .
 June 30, 2025
 We announced the deprecation of the Claude Opus 3 model. Read more in
-our documentation
+Model deprecations
 .
 June 23, 2025
 Console users with the Developer role can now access the
@@ -508,8 +508,8 @@ fine-grained-tool-streaming-2025-05-14
 May 22, 2025
 We've launched
 Claude Opus 4 and Claude Sonnet 4
-, our latest models with extended thinking capabilities. Learn more in our
-Models & Pricing documentation
+, our latest models with extended thinking capabilities. Learn more in
+Models overview
 .
 The default behavior of
 extended thinking
@@ -553,8 +553,8 @@ We've moved our
 Ruby SDK
 from beta to GA.
 May 7, 2025
-We've launched a web search tool in the API, allowing Claude to access up-to-date information from the web. Learn more in our
-web search tool documentation
+We've launched a web search tool in the API, allowing Claude to access up-to-date information from the web. Learn more in
+Web search tool
 .
 May 1, 2025
 Cache control must now be specified directly in the parent
@@ -575,6 +575,7 @@ will result in a validation error.
 April 9th, 2025
 We launched a beta version of the
 Ruby SDK
+.
 March 31st, 2025
 We've moved our
 Java SDK
@@ -583,10 +584,10 @@ We've moved our
 Go SDK
 from alpha to beta.
 February 27th, 2025
-We've added URL source blocks for images and PDFs in the Messages API. You can now reference images and PDFs directly via URL instead of having to base64-encode them. Learn more in our
-vision documentation
+We've added URL source blocks for images and PDFs in the Messages API. You can now reference images and PDFs directly via URL instead of having to base64-encode them. Learn more in
+Vision
 and
-PDF support documentation
+PDF support
 .
 We've added support for a
 none
@@ -599,18 +600,18 @@ tool_use
 and
 tool_result
 blocks.
-We've launched an OpenAI-compatible API endpoint, allowing you to test Claude models by changing just your API key, base URL, and model name in existing OpenAI integrations. This compatibility layer supports core chat completions functionality. Learn more in our
-OpenAI SDK compatibility documentation
+We've launched an OpenAI-compatible API endpoint, allowing you to test Claude models by changing just your API key, base URL, and model name in existing OpenAI integrations. This compatibility layer supports core chat completions functionality. Learn more in
+OpenAI SDK compatibility
 .
 February 24th, 2025
 We've launched
 Claude Sonnet 3.7
-, our most intelligent model yet. Claude Sonnet 3.7 can produce near-instant responses or show its extended thinking step-by-step. One model, two ways to think. Learn more about all Claude models in our
-Models & Pricing documentation
+, our most intelligent model yet. Claude Sonnet 3.7 can produce near-instant responses or show its extended thinking step-by-step. One model, two ways to think. Learn more about all Claude models in
+Models overview
 .
 We've added vision support to Claude Haiku 3.5, enabling the model to analyze and understand images.
-We've released a token-efficient tool use implementation, improving overall performance when using tools with Claude. Learn more in our
-tool use documentation
+We've released a token-efficient tool use implementation, improving overall performance when using tools with Claude. Learn more in
+Tool use with Claude
 .
 We've changed the default temperature in the
 Console
@@ -622,8 +623,8 @@ text_editor_20250124
 : Same functionality as previous version but is independent from computer use. Does not require a beta header.
 computer_20250124
 : Updated computer use tool with new command options including "hold_key", "left_mouse_down", "left_mouse_up", "scroll", "triple_click", and "wait". This tool requires the "computer-use-2025-01-24" anthropic-beta header.
-Learn more in our
-tool use documentation
+Learn more in
+Tool use with Claude
 .
 February 10th, 2025
 We've added the
@@ -634,13 +635,13 @@ We've moved our
 Java SDK
 from alpha to beta.
 January 23rd, 2025
-We've launched citations capability in the API, allowing Claude to provide source attribution for information. Learn more in our
-citations documentation
+We've launched citations capability in the API, allowing Claude to provide source attribution for information. Learn more in
+Citations
 .
 We've added support for plain text documents and custom content documents in the Messages API.
 January 21st, 2025
 We announced the deprecation of the Claude 2, Claude 2.1, and Claude Sonnet 3 models. Read more in
-our documentation
+Model deprecations
 .
 January 15th, 2025
 We've updated
@@ -654,7 +655,7 @@ to improve cache hit rate.
 December 19th, 2024
 We've added support for a
 delete endpoint
-in the Message Batches API
+in the Message Batches API.
 December 17th, 2024
 The following features are now generally available in the Claude API:
 Models API
@@ -675,27 +676,29 @@ Java SDK
 Go SDK
 (alpha)
 December 4th, 2024
-We've added the ability to group by API key to the
+We've added the ability to group by API key on the
 Usage
 and
 Cost
 pages of the
 Developer Console
+.
 We've added two new
 Last used at
 and
 Cost
-columns and the ability to sort by any column in the
+columns and the ability to sort by any column on the
 API keys
 page of the
 Developer Console
+.
 November 21st, 2024
 We've released the
 Admin API
 , allowing users to programmatically manage their organization's resources.
 November 20th, 2024
-We've updated our rate limits for the Messages API. We've replaced the tokens per minute rate limit with new input and output tokens per minute rate limits. Read more in our
-documentation
+We've updated our rate limits for the Messages API. We've replaced the tokens per minute rate limit with new input and output tokens per minute rate limits. Read more in
+Rate limits
 .
 We've added support for
 tool use
@@ -703,33 +706,33 @@ in the
 Workbench
 .
 November 13th, 2024
-We've added PDF support for all Claude Sonnet 3.5 models. Read more in our
-documentation
+We've added PDF support for all Claude Sonnet 3.5 models. Read more in
+PDF support
 .
 November 6th, 2024
 We've retired the Claude 1 and Instant models. Read more in
-our documentation
+Model deprecations
 .
 November 4th, 2024
 Claude Haiku 3.5
 is now available on the Claude API as a text-only model.
 November 1st, 2024
-We've added PDF support for use with the new Claude Sonnet 3.5. Read more in our
-documentation
+We've added PDF support for use with the new Claude Sonnet 3.5. Read more in
+PDF support
 .
-We've also added token counting, which allows you to determine the total number of tokens in a Message, prior to sending it to Claude. Read more in our
-documentation
+We've also added token counting, which allows you to determine the total number of tokens in a Message prior to sending it to Claude. Read more in
+Token counting
 .
 October 22nd, 2024
-We've added Anthropic-defined computer use tools to our API for use with the new Claude Sonnet 3.5. Read more in our
-documentation
+We've added Anthropic-defined computer use tools to our API for use with the new Claude Sonnet 3.5. Read more in
+Computer use tool
 .
 Claude Sonnet 3.5, our most intelligent model yet, just got an upgrade and is now available on the Claude API. Read more in the
 Claude Sonnet documentation
 .
 October 8th, 2024
-The Message Batches API is now available in beta. Process large batches of queries asynchronously in the Claude API for 50% less cost. Read more in our
-documentation
+The Message Batches API is now available in beta. Process large batches of queries asynchronously in the Claude API for 50% less cost. Read more in
+Batch processing
 .
 We've loosened restrictions on the ordering of
 user
@@ -750,8 +753,8 @@ We've added the ability to disable parallel tool use in the API. Set
 disable_parallel_tool_use: true
 in the
 tool_choice
-field to ensure that Claude uses at most one tool. Read more in our
-documentation
+field to ensure that Claude uses at most one tool. Read more in
+How to implement tool use
 .
 September 10th, 2024
 We've added Workspaces to the
@@ -761,7 +764,7 @@ blog post
 .
 September 4th, 2024
 We announced the deprecation of the Claude 1 models. Read more in
-our documentation
+Model deprecations
 .
 August 22nd, 2024
 We've added support for usage of the SDK in browsers by returning CORS headers in the API responses. Set
