@@ -1,5 +1,45 @@
 [
   {
+    "id": "fafaaa25fb5a60b2788dbc7600598a6f9c6f856d",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-              $ref: '#/components/schemas/CreateVideoBody'\n+              $ref: '#/components/schemas/CreateVideoMultipartBody'\n-              $ref: '#/components/schemas/CreateVideoBody'\n+              $ref: '#/components/schemas/CreateVideoJsonBody'\n+  /videos/characters:\n+    post:\n+      tags:\n+        - Videos\n+      summary: Create a character from an uploaded video.\n+      operationId: CreateVideoCharacter\n+      parameters: []\n+      requestBody:\n+        content:\n+          multipart/form-data:\n+            schema:\n+              $ref: '#/components/schemas/CreateVideoCharacterBody'\n+      responses:\n+        '200':\n+          description: Success\n+          content:\n+            application/json:\n+              schema:\n+                $ref: '#/components/schemas/VideoCharacterResource'\n+      x-oaiMeta:\n+        examples:\n+          response: ''\n+          request:\n+            node.js: |-\n+              import OpenAI from 'openai';\n+\n+              const client = new OpenAI({\n+                apiKey: process.env['OPENAI_API_KEY'], // This is the default and can be omitted\n+              });\n+\n+              const character = await client.videos.character.create({\n+                name: 'x',\n+                video: fs.createReadStream('path/to/file'),\n+              });\n+\n+              console.log(character.id);",
+    "snippet_full": "",
+    "diff": {
+      "added": 511,
+      "removed": 13,
+      "churn": 524
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 13 Mar 2026 01:25:09 GMT",
+    "run_at": "2026-03-13T01:24:39Z",
+    "run_id": "8ef0daf80fde4db39816b3ae8706b448"
+  },
+  {
+    "id": "793b43d3ea82cabd43647d62e2c505da9a9b5d51",
+    "impact": "Breaking",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+MCP servers\n+MCP servers\n+Mar 12\n+Feature\n+sora-2\n+sora-2-pro\n+v1/videos\n+v1/videos/characters\n+v1/videos/extensions\n+v1/batch\n+Expanded the Sora API with reusable character references, longer generations up to\n+20\n+seconds,\n+1080p\n+output for\n+sora-2-pro\n+, video extensions, and Batch API support for\n+POST /v1/videos\n+.\n+1080p\n+generations on\n+sora-2-pro\n+are billed at\n+$0.70\n+per second. Learn more\n+here\n+.\n+Mar 12\n+Update\n+sora-2\n+sora-2-pro\n+v1/videos/edits\n+v1/videos/{video_id}/remix\n+Added\n+POST /v1/videos/edits\n+for editing existing videos. This will replace\n+POST /v1/videos/{video_id}/remix\n+, which will be deprecated in\n+6\n+months. Learn more",
+    "snippet_full": "",
+    "diff": {
+      "added": 42,
+      "removed": 0,
+      "churn": 42
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 13 Mar 2026 01:25:02 GMT",
+    "run_at": "2026-03-13T01:24:39Z",
+    "run_id": "8ef0daf80fde4db39816b3ae8706b448"
+  },
+  {
     "id": "ae371563cf1133c46d98095639199dd3a62faa38",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -878,39 +918,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Thu, 12 Feb 2026 01:29:25 GMT"
-  },
-  {
-    "id": "bb44326ff0dee1b451905671a9eb9ff49f98232f",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Harness engineering: leveraging Codex in an agent-first world\n+link: https://openai.com/index/harness-engineering\n+id: https://openai.com/index/harness-engineering\n+date: Wed, 11 Feb 2026 09:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 12 Feb 2026 01:29:17 GMT"
-  },
-  {
-    "id": "f2133146cd9aa5a2ed614979278b38df7c345781",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "-title: Codex CLI Release: 0.84.0\n-link: https://developers.openai.com/changelog/#github-release-276912334\n-id: https://developers.openai.com/changelog/#github-release-276912334\n-date: Thu, 15 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.85.0\n-link: https://developers.openai.com/changelog/#github-release-277157618\n-id: https://developers.openai.com/changelog/#github-release-277157618\n-date: Thu, 15 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: Codex CLI Release: 0.86.0\n-link: https://developers.openai.com/changelog/#github-release-277242575\n-id: https://developers.openai.com/changelog/#github-release-277242575\n-date: Fri, 16 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.99.0\n+link: https://developers.openai.com/changelog/#github-release-285424682\n+id: https://developers.openai.com/changelog/#github-release-285424682\n+date: Wed, 11 Feb 2026 00:00:00 GMT\n+body:",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 18,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 12 Feb 2026 01:29:16 GMT"
   }
 ]

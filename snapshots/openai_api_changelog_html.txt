@@ -110,6 +110,7 @@ SIP
 Usage
 Using realtime models
 Managing conversations
+MCP servers
 Webhooks and server-side controls
 Managing costs
 Realtime transcription
@@ -446,6 +447,7 @@ SIP
 Usage
 Using realtime models
 Managing conversations
+MCP servers
 Webhooks and server-side controls
 Managing costs
 Realtime transcription
@@ -508,6 +510,46 @@ Data retrieval
 Sending files
 Changelog
 March, 2026
+Mar 12
+Feature
+sora-2
+sora-2-pro
+v1/videos
+v1/videos/characters
+v1/videos/extensions
+v1/batch
+Expanded the Sora API with reusable character references, longer generations up to
+20
+seconds,
+1080p
+output for
+sora-2-pro
+, video extensions, and Batch API support for
+POST /v1/videos
+.
+1080p
+generations on
+sora-2-pro
+are billed at
+$0.70
+per second. Learn more
+here
+.
+Mar 12
+Update
+sora-2
+sora-2-pro
+v1/videos/edits
+v1/videos/{video_id}/remix
+Added
+POST /v1/videos/edits
+for editing existing videos. This will replace
+POST /v1/videos/{video_id}/remix
+, which will be deprecated in
+6
+months. Learn more
+here
+.
 Mar 5
 Feature
 gpt-5.4
