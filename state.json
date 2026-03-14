@@ -1,5 +1,65 @@
 [
   {
+    "id": "40776dbad18c7e301066c38fc0ec7a8f49e79e75",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+March 13, 2026\n+The\n+1M token context window\n+is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context win\n+We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.\n+We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.\n-Long context pricing\n-applies to requests exceeding 200K input tokens.\n-Fine-grained tool streaming\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to\n-output_config.format\n-.\n+applies to requests exceeding 200k input tokens.\n-for Claude Sonnet 4 on the Claude API. For more information, see\n-Long context rate limits\n-.\n-The 1m token context window is now available on Google Cloud's Vertex AI. For more information, see\n+for Claude Sonnet 4 on the Claude API.\n+The 1M token context window is now available on Google Cloud's Vertex AI. For more information, see\n-To increase answer quality and decrease tool errors, we've changed the default value for the\n-top_p\n-nucleus sampling\n-parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set\n-top_p\n-to 0.999.\n-Additionally, when extended thinking is enabled, you can now set\n-top_p\n-to values between 0.95 and 1.\n-We've moved our\n-Go SDK\n-from beta to GA.\n-We've included minute and hour level granularity to the\n-Usage\n-page of Console alongside 429 error rates on the Usage page.\n-computer_20250124\n-: Updated computer use tool with new command options including \"hold_key\", \"left_mouse_down\", \"left_mouse_up\", \"scroll\", \"triple_click\", and \"wait\". This tool requires the \"computer-use-2025-01-24\" a",
+    "snippet_full": "",
+    "diff": {
+      "added": 39,
+      "removed": 34,
+      "churn": 73
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 14 Mar 2026 01:23:15 GMT",
+    "run_at": "2026-03-14T01:22:44Z",
+    "run_id": "2d0885ceb3e3428c85569bbf5f8f9702"
+  },
+  {
+    "id": "a0bc4b6f8dc0c2618c7c25e50612665c5a008c79",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-                    voice=\"ash\",\n+                    voice=\"string\",\n-                  voice: 'ash',\n+                  voice: 'string',\n-              go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\n+              go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\n-                            .voice(SpeechCreateParams.Voice.ASH)\n+                            .voice(\"string\")\n-                :\"tts-1\", voice: :ash)\n+                :\"tts-1\", voice: \"string\")\n-                  voice: 'ash',\n+                  voice: 'string',\n-                    voice=\"ash\",\n+                    voice=\"string\",\n-              go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\n+              go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\n-                            .voice(SpeechCreateParams.Voice.ASH)\n+                            .voice(\"string\")\n-                :\"tts-1\", voice: :ash)\n+                :\"tts-1\", voice: \"string\")\n+                    - /v1/videos\n-                    `/v1/images/generations`, and `/v1/images/edits` are\n-                    supported. Note that `/v1/embeddings` batches are also\n-                    restricted to a maximum of 50,000 embedding inputs across\n-                    all requests in the batch.\n+                    `/v1/images/generations`, `/v1/images/edits`, and\n+                    `/v1/videos` are supported. Note that `/v1/embeddings`\n+                    batches are also restricted to a maximum of 50,000 embedding\n+                    inputs across all requests in the batch.\n-              const character = await client.videos.character.create({\n+              const response = await client.videos.createCharacter({\n-              console.log(character.id);\n+              console.log(response.id);\n-              character = client.videos.character.create(\n+              response = client.videos.create_character(\n-              print(character.id)\n-            go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient\n+              print(response.id)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient\n-              import com.openai.models.videos.character.CharacterCreateParams;",
+    "snippet_full": "",
+    "diff": {
+      "added": 46,
+      "removed": 49,
+      "churn": 95
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 14 Mar 2026 01:22:53 GMT",
+    "run_at": "2026-03-14T01:22:44Z",
+    "run_id": "2d0885ceb3e3428c85569bbf5f8f9702"
+  },
+  {
+    "id": "9f1e8da8db30343dfe1fc1bbcf7893aab49f24fa",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Mar 13\n+Fix\n+gpt-5.4\n+v1/responses\n+v1/chat/completions\n+Updated our image encoder to fix a small bug with\n+input_image\n+inputs in GPT-5.4. Some image understanding use cases may now see improved quality. No action is required.",
+    "snippet_full": "",
+    "diff": {
+      "added": 8,
+      "removed": 0,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 14 Mar 2026 01:22:45 GMT",
+    "run_at": "2026-03-14T01:22:44Z",
+    "run_id": "2d0885ceb3e3428c85569bbf5f8f9702"
+  },
+  {
     "id": "fafaaa25fb5a60b2788dbc7600598a6f9c6f856d",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -867,56 +927,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Fri, 13 Feb 2026 01:44:27 GMT"
-  },
-  {
-    "id": "bb2ec6b9af205defae04762572fd830f0596e70d",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing GPT-5.3-Codex-Spark\n+link: https://openai.com/index/introducing-gpt-5-3-codex-spark\n+id: https://openai.com/index/introducing-gpt-5-3-codex-spark\n+date: Thu, 12 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 13 Feb 2026 01:44:01 GMT"
-  },
-  {
-    "id": "53ab0736cd8a313e34000a2fa9403f62f32c6779",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "+title: Introducing GPT-5.3-Codex-Spark\n+link: https://developers.openai.com/changelog/#codex-2026-02-12-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-12-mdx\n+date: Thu, 12 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Codex CLI Release: 0.87.0\n-link: https://developers.openai.com/changelog/#github-release-277440557\n-id: https://developers.openai.com/changelog/#github-release-277440557\n-date: Fri, 16 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.100.0\n+link: https://developers.openai.com/changelog/#github-release-285810603\n+id: https://developers.openai.com/changelog/#github-release-285810603\n+date: Thu, 12 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.101.0\n+link: https://developers.openai.com/changelog/#github-release-285845002\n+id: https://developers.openai.com/changelog/#github-release-285845002\n+date: Thu, 12 Feb 2026 00:00:00 GMT\n+body:",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 6,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 13 Feb 2026 01:44:01 GMT"
-  },
-  {
-    "id": "f0522d2d4f1ab541e33a73410076622fbfbba70c",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+            javascript: |-\n+              import OpenAI from \"openai\";\n+\n+              const openai = new OpenAI();\n+\n+              async function main() {\n+                const myAssistants = await openai.beta.assistants.list({\n+                  order: \"desc\",\n+                  limit: \"20\",\n+                });\n+\n+                console.log(myAssistants.data);\n+              }\n+\n+              main();\n+              javascript: >-\n+                import OpenAI from \"openai\";\n+\n+\n+                const openai = new OpenAI();\n+\n+\n+                async function main() {\n+                  const myAssistant = await openai.beta.assistants.create({\n+                    instructions:\n+                      \"You are a personal math tutor. When asked a question, write and run Python code to answer the question.\",\n+                    name: \"Math Tutor\",\n+                    tools: [{ type: \"code_interpreter\" }],\n+                    model: \"gpt-4o\",\n+                  });\n+\n+                  console.log(myAssistant);\n+                }\n+\n+\n+                main();\n+              javascript: >-\n+                import OpenAI from \"openai\";\n+\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 3865,
-      "removed": 2217,
-      "churn": 6082
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 12 Feb 2026 01:29:25 GMT"
   }
 ]

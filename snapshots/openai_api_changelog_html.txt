@@ -510,6 +510,14 @@ Data retrieval
 Sending files
 Changelog
 March, 2026
+Mar 13
+Fix
+gpt-5.4
+v1/responses
+v1/chat/completions
+Updated our image encoder to fix a small bug with
+input_image
+inputs in GPT-5.4. Some image understanding use cases may now see improved quality. No action is required.
 Mar 12
 Feature
 sora-2
