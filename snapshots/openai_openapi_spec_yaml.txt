@@ -69272,6 +69272,11 @@ components:
             - function
           default: function
           x-stainless-const: true
+        defer_loading:
+          type: boolean
+          description: >-
+            Whether this function should be deferred and discovered via tool
+            search.
       type: object
       required:
         - name
