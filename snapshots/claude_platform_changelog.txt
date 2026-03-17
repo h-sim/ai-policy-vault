@@ -100,6 +100,18 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+March 16, 2026
+We've launched the
+display
+field for extended thinking, letting you omit thinking content from responses for faster streaming. Set
+thinking.display: "omitted"
+to receive thinking blocks with an empty
+thinking
+field and the
+signature
+preserved for multi-turn continuity. Billing is unchanged. Learn more in
+Controlling thinking display
+.
 March 13, 2026
 The
 1M token context window
@@ -816,6 +828,7 @@ Developer Console
 blog post
 .
 Was this page helpful?
+March 16, 2026
 March 13, 2026
 February 19, 2026
 February 17, 2026

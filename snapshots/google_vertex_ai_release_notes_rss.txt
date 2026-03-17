@@ -113,6 +113,12 @@ id: tag:google.com,2016:vertex-ai-release-notes#March_05_2026
 date: 2026-03-05T00:00:00-08:00
 body:
 #ITEM
+title: March 16, 2026
+link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_16_2026
+id: tag:google.com,2016:vertex-ai-release-notes#March_16_2026
+date: 2026-03-16T00:00:00-07:00
+body:
+#ITEM
 title: March 26, 2025
 link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_26_2025
 id: tag:google.com,2016:vertex-ai-release-notes#March_26_2025
@@ -159,12 +165,6 @@ title: September 15, 2025
 link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_15_2025
 id: tag:google.com,2016:vertex-ai-release-notes#September_15_2025
 date: 2025-09-15T00:00:00-07:00
-body:
-#ITEM
-title: September 17, 2024
-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_17_2024
-id: tag:google.com,2016:vertex-ai-release-notes#September_17_2024
-date: 2024-09-17T00:00:00-07:00
 body:
 #ITEM
 title: September 22, 2025

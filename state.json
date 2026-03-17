@@ -1,5 +1,104 @@
 [
   {
+    "id": "8e116cfe66f5b2eebd18feeec9b314af8077f405",
+    "impact": "Medium",
+    "name": "Google Vertex AI Release Notes (RSS)",
+    "url": "https://cloud.google.com/feeds/vertex-ai-release-notes.xml",
+    "snippet": "+title: March 16, 2026\n+link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_16_2026\n+id: tag:google.com,2016:vertex-ai-release-notes#March_16_2026\n+date: 2026-03-16T00:00:00-07:00\n+body:\n+#ITEM\n-title: September 17, 2024\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_17_2024\n-id: tag:google.com,2016:vertex-ai-release-notes#September_17_2024\n-date: 2024-09-17T00:00:00-07:00\n-body:\n-#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 6,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 17 Mar 2026 01:27:15 GMT",
+    "run_at": "2026-03-17T01:26:45Z",
+    "run_id": "cb75f9fd26344815a71503e63e7d998b"
+  },
+  {
+    "id": "dc4f027e9f1c585a65bb33632e0687536d19bede",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+March 16, 2026\n+We've launched the\n+display\n+field for extended thinking, letting you omit thinking content from responses for faster streaming. Set\n+thinking.display: \"omitted\"\n+to receive thinking blocks with an empty\n+thinking\n+field and the\n+signature\n+preserved for multi-turn continuity. Billing is unchanged. Learn more in\n+Controlling thinking display\n+.\n+March 16, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 13,
+      "removed": 0,
+      "churn": 13
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 17 Mar 2026 01:27:14 GMT",
+    "run_at": "2026-03-17T01:26:45Z",
+    "run_id": "cb75f9fd26344815a71503e63e7d998b"
+  },
+  {
+    "id": "4958c532f83c9bd187662036b88dad284f743552",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+            - in\n+            - nin",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 17 Mar 2026 01:27:13 GMT",
+    "run_at": "2026-03-17T01:26:45Z",
+    "run_id": "cb75f9fd26344815a71503e63e7d998b"
+  },
+  {
+    "id": "f16f266f14ce5ed40b0473dc0cec16eda9d6a132",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Why Codex Security Doesn’t Include a SAST Report\n+link: https://openai.com/index/why-codex-security-doesnt-include-sast\n+id: https://openai.com/index/why-codex-security-doesnt-include-sast\n+date: Mon, 16 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 17 Mar 2026 01:27:06 GMT",
+    "run_at": "2026-03-17T01:26:45Z",
+    "run_id": "cb75f9fd26344815a71503e63e7d998b"
+  },
+  {
+    "id": "c956d7feb1bc73617d96f213579438f9b104828d",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Multi-agents\n+Subagents\n-Multi-agents\n+Subagents\n+Mar 16\n+Update\n+gpt-5.3-chat-latest\n+Updated the\n+gpt-5.3-chat-latest\n+slug to point to the latest model currently used in ChatGPT.",
+    "snippet_full": "",
+    "diff": {
+      "added": 8,
+      "removed": 2,
+      "churn": 10
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 17 Mar 2026 01:26:46 GMT",
+    "run_at": "2026-03-17T01:26:45Z",
+    "run_id": "cb75f9fd26344815a71503e63e7d998b"
+  },
+  {
     "id": "a4a46280f59f3bc16485446447451e76b1240671",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -846,92 +945,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Fri, 20 Feb 2026 01:24:17 GMT"
-  },
-  {
-    "id": "6fc6297852ad098736e65ed7fe7ce09a1fc75499",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-        returns: A list of [assistant](/docs/api-reference/assistants/object) objects.\n-        returns: An [assistant](/docs/api-reference/assistants/object) object.\n-        returns: >-\n-          The [assistant](/docs/api-reference/assistants/object) object matching\n-          the specified ID.\n-        returns: >-\n-          The modified [assistant](/docs/api-reference/assistants/object)\n-          object.\n-        returns: Deletion status\n-      summary: Generates audio from the input text.\n+      summary: |\n+        Generates audio from the input text.\n+\n+        Returns the audio file content, or a stream of audio events.\n-        returns: >-\n-          The audio file content or a [stream of audio\n-          events](/docs/api-reference/audio/speech-audio-delta-event).\n-      summary: Transcribes audio into the input language.\n+      summary: >\n+        Transcribes audio into the input language.\n+\n+\n+        Returns a transcription object in `json`, `diarized_json`, or\n+        `verbose_json`\n+\n+        format, or a stream of transcript events.\n-        returns: >-\n-          The [transcription object](/docs/api-reference/audio/json-object), a\n-          [diarized transcription\n-          object](/docs/api-reference/audio/diarized-json-object), a [verbose\n-          transcription object](/docs/api-reference/audio/verbose-json-object),\n-          or a [stream of transcript\n-          events](/docs/api-reference/audio/transcript-text-delta-event).\n-        returns: The translated text.\n-        returns: The created voice consent recording metadata.\n-        returns: A paginated list of voice consent recordings.\n-        returns: The voice consent recording metadata.\n-        returns: The updated voice consent recording metadata.\n-        returns: A deletion confirmation.\n-        returns: The created voice.",
-    "snippet_full": "",
-    "diff": {
-      "added": 142,
-      "removed": 2392,
-      "churn": 2534
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 19 Feb 2026 01:29:01 GMT"
-  },
-  {
-    "id": "e23c59ed3cd5aead3561482e4736673e3769d4f5",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "-title: Codex CLI Release: 0.89.0\n-link: https://developers.openai.com/changelog/#github-release-279171728\n-id: https://developers.openai.com/changelog/#github-release-279171728\n-date: Thu, 22 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.104.0\n+link: https://developers.openai.com/changelog/#github-release-287549221\n+id: https://developers.openai.com/changelog/#github-release-287549221\n+date: Wed, 18 Feb 2026 00:00:00 GMT\n+body:",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 6,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 19 Feb 2026 01:28:50 GMT"
-  },
-  {
-    "id": "fde97eac0a10b6157e1b117af34769bf9df95876",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "-title: Codex CLI Release: 0.88.0\n-link: https://developers.openai.com/changelog/#github-release-278754265\n-id: https://developers.openai.com/changelog/#github-release-278754265\n-date: Wed, 21 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM\n+#ITEM\n+title: Codex CLI Release: 0.102.0\n+link: https://developers.openai.com/changelog/#github-release-287401154\n+id: https://developers.openai.com/changelog/#github-release-287401154\n+date: Tue, 17 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex CLI Release: 0.103.0\n+link: https://developers.openai.com/changelog/#github-release-287457049\n+id: https://developers.openai.com/changelog/#github-release-287457049\n+date: Tue, 17 Feb 2026 00:00:00 GMT\n+body:",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 6,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 18 Feb 2026 01:29:20 GMT"
-  },
-  {
-    "id": "fc0e7a90aa741b348a38f23f3653ad9e5838389b",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                        \"content\": \"Mind of circuits hum,  \\nLearning patterns in silenceâ€”  \\nFuture's quiet spark.\",\n+                        \"content\": \"Mind of circuits hum,  \\nLearning patterns in silence—  \\nFuture's quiet spark.\",\n-                    \"content\": \"Mind of circuits hum,  \\nLearning patterns in silenceâ€”  \\nFuture's quiet spark.\",\n+                    \"content\": \"Mind of circuits hum,  \\nLearning patterns in silence—  \\nFuture's quiet spark.\",\n-                    \"content\": \"Mind of circuits hum,  \\nLearning patterns in silenceâ€”  \\nFuture's quiet spark.\",\n+                    \"content\": \"Mind of circuits hum,  \\nLearning patterns in silence—  \\nFuture's quiet spark.\",\n+        - name: name\n+          in: query\n+          description: Filter results by container name.\n+          required: false\n+          schema:\n+            type: string\n-                      \"memory_limit\": \"4g\"\n+                      \"memory_limit\": \"4g\",\n+                      \"skills\": [\n+                        {\n+                          \"type\": \"skill_reference\",\n+                          \"skill_id\": \"skill_4db6f1a2c9e73508b41f9da06e2c7b5f\"\n+                        },\n+                        {\n+                          \"type\": \"skill_reference\",\n+                          \"skill_id\": \"openai-spreadsheets\",\n+                          \"version\": \"latest\"\n+                        }\n+                      ],\n+                      \"network_policy\": {\n+                        \"type\": \"allowlist\",\n+                        \"allowed_domains\": [\"api.buildkite.com\"]\n+                      }\n+                \"network_policy\": {\n+                    \"type\": \"allowlist\",\n+                    \"allowed_domains\": [\"api.buildkite.com\"]\n+                },\n+          application/json:\n+            schema:\n+              $ref: '#/components/schemas/CreateContainerFileBody'\n-                      \"text\": \"Silent circuits hum,  \\nThoughts emerge in data streamsâ€”  \\nDigital dawn breaks.\",\n+                      \"text\": \"Silent circuits hum,  \\nThoughts emerge in data streams—  \\nDigital dawn breaks.\",\n-                      \"text\": \"Silent circuits hum,  \\nThoughts emerge in data streamsâ€”  \\nDigital dawn breaks.\",\n+                      \"text\": \"Silent circuits hum,  \\nThoughts emerge in data streams—  \\nDigital dawn breaks.\",",
-    "snippet_full": "",
-    "diff": {
-      "added": 218,
-      "removed": 157,
-      "churn": 375
-    },
-    "score": 0,
-    "reasons": [
-      "OpenAPI: tags増減（軽微）"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 14 Feb 2026 01:23:39 GMT"
-  },
-  {
-    "id": "19ea48686058ed6625a1f5656f27f8e8781abf5e",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Beyond rate limits: scaling access to Codex and Sora\n+link: https://openai.com/index/beyond-rate-limits\n+id: https://openai.com/index/beyond-rate-limits\n+date: Fri, 13 Feb 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Lockdown Mode and Elevated Risk labels in ChatGPT\n+link: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt\n+id: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt\n+date: Fri, 13 Feb 2026 10:00:00 GMT\n+title: GPT-5.2 derives a new result in theoretical physics\n+link: https://openai.com/index/new-result-theoretical-physics",
-    "snippet_full": "+title: Beyond rate limits: scaling access to Codex and Sora\n+link: https://openai.com/index/beyond-rate-limits\n+id: https://openai.com/index/beyond-rate-limits\n+date: Fri, 13 Feb 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Lockdown Mode and Elevated Risk labels in ChatGPT\n+link: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt\n+id: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt\n+date: Fri, 13 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5.2 derives a new result in theoretical physics\n+link: https://openai.com/index/new-result-theoretical-physics\n+id: https://openai.com/index/new-result-theoretical-physics\n+date: Fri, 13 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Scaling social science research\n+link: https://openai.com/index/scaling-social-science-research\n+id: https://openai.com/index/scaling-social-science-research\n+date: Fri, 13 Feb 2026 09:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 14 Feb 2026 01:23:29 GMT"
   }
 ]

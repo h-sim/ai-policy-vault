@@ -180,7 +180,7 @@ Concepts
 Prompting
 Customization
 Sandboxing
-Multi-agents
+Subagents
 Workflows
 Models
 Cyber Safety
@@ -231,7 +231,7 @@ Rules
 AGENTS.md
 MCP
 Skills
-Multi-agents
+Subagents
 Administration
 Authentication
 Agent approvals & security
@@ -510,6 +510,12 @@ Data retrieval
 Sending files
 Changelog
 March, 2026
+Mar 16
+Update
+gpt-5.3-chat-latest
+Updated the
+gpt-5.3-chat-latest
+slug to point to the latest model currently used in ChatGPT.
 Mar 13
 Fix
 gpt-5.4
