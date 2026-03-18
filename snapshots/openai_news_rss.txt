@@ -1475,6 +1475,12 @@ id: https://openai.com/index/equip-responses-api-computer-environment
 date: Wed, 11 Mar 2026 11:00:00 GMT
 body:
 #ITEM
+title: Equipping workers with insights about compensation
+link: https://openai.com/index/equipping-workers-with-insights-about-compensation
+id: https://openai.com/index/equipping-workers-with-insights-about-compensation
+date: Tue, 17 Mar 2026 00:00:00 GMT
+body:
+#ITEM
 title: Equivalence between policy gradients and soft Q-learning
 link: https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning
 id: https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning
@@ -2577,6 +2583,12 @@ title: Introducing GPT-5.4
 link: https://openai.com/index/introducing-gpt-5-4
 id: https://openai.com/index/introducing-gpt-5-4
 date: Thu, 05 Mar 2026 10:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-5.4 mini and nano
+link: https://openai.com/index/introducing-gpt-5-4-mini-and-nano
+id: https://openai.com/index/introducing-gpt-5-4-mini-and-nano
+date: Tue, 17 Mar 2026 10:00:00 GMT
 body:
 #ITEM
 title: Introducing GPT-5 for developers

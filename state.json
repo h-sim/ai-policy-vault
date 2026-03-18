@@ -1,5 +1,81 @@
 [
   {
+    "id": "e06d30e499fa4464c18f700168dc978fb5113ad3",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Claude Developer Platform - Claude API Docs\n+Claude Platform - Claude API Docs\n-Claude Developer Platform\n+Claude Platform\n-Claude Developer Platform\n+Claude Platform\n-Claude Developer Platform\n+Claude Platform\n-Updates to the Claude Developer Platform, including the Claude API, client SDKs, and the Claude Console.\n+Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.",
+    "snippet_full": "",
+    "diff": {
+      "added": 5,
+      "removed": 5,
+      "churn": 10
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 18 Mar 2026 01:42:57 GMT",
+    "run_at": "2026-03-18T01:42:48Z",
+    "run_id": "9e3f8f2edf5840818ef3b5e3650efe25"
+  },
+  {
+    "id": "5d77494a67a2b7892e4f163883758a88dbe39832",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+            - gpt-5.4-mini\n+            - gpt-5.4-nano\n+            - gpt-5.4-mini-2026-03-17\n+            - gpt-5.4-nano-2026-03-17",
+    "snippet_full": "",
+    "diff": {
+      "added": 4,
+      "removed": 0,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 18 Mar 2026 01:42:56 GMT",
+    "run_at": "2026-03-18T01:42:48Z",
+    "run_id": "9e3f8f2edf5840818ef3b5e3650efe25"
+  },
+  {
+    "id": "d454e92ec5a6471c3a07c81ea2dbb434a5ab1043",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Equipping workers with insights about compensation\n+link: https://openai.com/index/equipping-workers-with-insights-about-compensation\n+id: https://openai.com/index/equipping-workers-with-insights-about-compensation\n+date: Tue, 17 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-5.4 mini and nano\n+link: https://openai.com/index/introducing-gpt-5-4-mini-and-nano\n+id: https://openai.com/index/introducing-gpt-5-4-mini-and-nano\n+date: Tue, 17 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 18 Mar 2026 01:42:49 GMT",
+    "run_at": "2026-03-18T01:42:48Z",
+    "run_id": "9e3f8f2edf5840818ef3b5e3650efe25"
+  },
+  {
+    "id": "6a8ec650d82a0ff4c1860c34f3ce5d3ad211c8d9",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Learn\n+Resources\n-Cookbook\n-Notebook examples for building with OpenAI models\n-Resources\n-Assets for developers building with OpenAI\n+Learn\n+Docs, videos, and demo apps for building with OpenAI\n+Community\n+Programs, meetups, and support for builders\n-Learn\n+Resources\n+Community\n-Community\n-Ambassadors\n-Open Source Program\n-Meetups\n-Cookbook\n-Resources\n+Learn\n+Community\n-Home\n-Topics\n-Agents\n-Evals\n-Multimodal\n-Text\n-Guardrails\n-Optimization\n-ChatGPT\n-Codex\n-gpt-oss\n-Contribute\n-Cookbook on GitHub\n-Code\n-Cookbooks\n-Guides\n+Demo apps\n+Community\n+Programs",
+    "snippet_full": "",
+    "diff": {
+      "added": 37,
+      "removed": 28,
+      "churn": 65
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 18 Mar 2026 01:42:48 GMT",
+    "run_at": "2026-03-18T01:42:48Z",
+    "run_id": "9e3f8f2edf5840818ef3b5e3650efe25"
+  },
+  {
     "id": "8e116cfe66f5b2eebd18feeec9b314af8077f405",
     "impact": "Medium",
     "name": "Google Vertex AI Release Notes (RSS)",
@@ -877,73 +953,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Sat, 21 Feb 2026 01:21:57 GMT"
-  },
-  {
-    "id": "6f07711ced13540da0153902be7dafe55b0a8681",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Our First Proof submissions\n+link: https://openai.com/index/first-proof-submissions\n+id: https://openai.com/index/first-proof-submissions\n+date: Fri, 20 Feb 2026 14:30:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 21 Feb 2026 01:21:49 GMT"
-  },
-  {
-    "id": "697a665ed757a411c9f128912bb0c0800e12ec63",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "+link: https://developers.openai.com/changelog/#codex-2026-02-03-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-03-app-mdx\n+date: Tue, 03 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex app\n+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-06-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-06-app-mdx\n+date: Fri, 06 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-08-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-08-app-mdx\n+date: Sun, 08 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+link: https://developers.openai.com/changelog/#codex-2026-02-10-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-10-app-mdx\n+date: Tue, 10 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex app\n+title: Codex app\n+link: https://developers.openai.com/changelog/#codex-2026-02-17-app-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-02-17-app-mdx\n+date: Tue, 17 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Codex CLI Release: 0.91.0\n-link: https://developers.openai.com/changelog/#github-release-279755271\n-id: https://developers.openai.com/changelog/#github-release-279755271\n-date: Sun, 25 Jan 2026 00:00:00 GMT\n-body:\n-#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 30,
-      "removed": 6,
-      "churn": 36
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 21 Feb 2026 01:21:49 GMT"
-  },
-  {
-    "id": "4a9a0ecbbb3c5b1b07032416cc700bfb02ae1d1f",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+          maxLength: 64\n-            The IDs should be a string that uniquely identifies each user. We\n-            recommend hashing their username or email address, in order to avoid\n-            sending us any identifying information. [Learn\n+            The IDs should be a string that uniquely identifies each user, with\n+            a maximum length of 64 characters. We recommend hashing their\n+            username or email address, in order to avoid sending us any\n+            identifying information. [Learn",
-    "snippet_full": "",
-    "diff": {
-      "added": 5,
-      "removed": 3,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 20 Feb 2026 01:24:24 GMT"
-  },
-  {
-    "id": "8f48eac8fa5ce45c2d4cf13152d3d5ad5da3b9a0",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: The state of enterprise AI\n+link: https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report\n+id: https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report\n+date: Wed, 17 Dec 2025 00:00:00 GMT\n+body:\n+#ITEM\n+title: Advancing independent research on AI alignment\n+link: https://openai.com/index/advancing-independent-research-ai-alignment\n+id: https://openai.com/index/advancing-independent-research-ai-alignment\n+date: Thu, 19 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing OpenAI for India\n+link: https://openai.com/index/openai-for-india\n+id: https://openai.com/index/openai-for-india\n+date: Wed, 18 Feb 2026 21:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 20 Feb 2026 01:24:17 GMT"
   }
 ]

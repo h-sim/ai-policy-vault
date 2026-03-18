@@ -1,4 +1,4 @@
-Claude Developer Platform - Claude API Docs
+Claude Platform - Claude API Docs
 Loading...
 Developer Guide
 API Reference
@@ -10,11 +10,11 @@ Log in
 Search...
 ⌘K
 Overview
-Claude Developer Platform
+Claude Platform
 Console
 Log in
 Overview
-Claude Developer Platform
+Claude Platform
 Loading...
 Loading...
 Loading...
@@ -88,9 +88,9 @@ Terms of service: Commercial
 Terms of service: Consumer
 Usage policy
 Overview
-Claude Developer Platform
+Claude Platform
 Copy page
-Updates to the Claude Developer Platform, including the Claude API, client SDKs, and the Claude Console.
+Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.
 Copy page
 For release notes on Claude Apps, see the
 Release notes for Claude Apps in the Claude Help Center

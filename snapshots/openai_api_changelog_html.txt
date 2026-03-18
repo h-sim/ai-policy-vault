@@ -11,15 +11,15 @@ Apps SDK
 Build apps to extend ChatGPT
 Commerce
 Build commerce flows in ChatGPT
-Learn
+Resources
 Showcase
 Demo apps to get inspired
-Cookbook
-Notebook examples for building with OpenAI models
 Blog
 Learnings and experiences from developers
-Resources
-Assets for developers building with OpenAI
+Learn
+Docs, videos, and demo apps for building with OpenAI
+Community
+Programs, meetups, and support for builders
 API Dashboard
 Search the API docs
 Close
@@ -28,7 +28,7 @@ API
 API Reference
 Codex
 ChatGPT
-Learn
+Resources
 Get started
 Overview
 Quickstart
@@ -176,6 +176,7 @@ Overview
 Quickstart
 Explore
 Pricing
+Community
 Concepts
 Prompting
 Customization
@@ -258,10 +259,6 @@ Codex Prompting Guide
 Modernizing your Codebase with Codex
 View all
 Building AI Teams
-Community
-Ambassadors
-Open Source Program
-Meetups
 Releases
 Changelog
 Feature Maturity
@@ -313,23 +310,10 @@ Onboarding
 Feed spec
 Best practices
 Showcase
-Cookbook
 Blog
-Resources
+Learn
+Community
 Home
-Home
-Topics
-Agents
-Evals
-Multimodal
-Text
-Guardrails
-Optimization
-ChatGPT
-Codex
-gpt-oss
-Contribute
-Cookbook on GitHub
 All posts
 Recent
 From prompts to products: One year of Responses
@@ -346,9 +330,7 @@ Codex
 Home
 Docs MCP
 Categories
-Code
-Cookbooks
-Guides
+Demo apps
 Videos
 Topics
 Agents
@@ -362,6 +344,15 @@ Image generation
 Scaling
 Tools
 Video generation
+Community
+Programs
+Codex Ambassadors
+Codex for Open Source
+Events
+Meetups
+Hackathon Support
+Forum
+Discord
 API Dashboard
 Search
 ⌘
@@ -510,6 +501,24 @@ Data retrieval
 Sending files
 Changelog
 March, 2026
+Mar 17
+Feature
+gpt-5.4-mini
+gpt-5.4-nano
+v1/responses
+v1/chat/completions
+Released
+GPT-5.4 mini
+and
+GPT-5.4 nano
+to the Chat Completions and Responses API. GPT-5.4 mini brings GPT-5.4-class capabilities to a faster, more efficient model for high-volume workloads, while GPT-5.4 nano is optimized for simple high-volume tasks where speed and cost matter most.
+GPT-5.4 mini supports
+tool search
+, built-in
+computer use
+, and
+compaction
+. GPT-5.4 nano supports compaction, but does not support tool search or computer use.
 Mar 16
 Update
 gpt-5.3-chat-latest
