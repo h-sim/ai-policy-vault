@@ -100,6 +100,20 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+March 18, 2026
+We've added model capability fields to the
+Models API
+.
+GET /v1/models
+and
+GET /v1/models/{model_id}
+now return
+max_input_tokens
+,
+max_tokens
+, and a
+capabilities
+object. Query the API to discover what each model supports.
 March 16, 2026
 We've launched the
 display
@@ -828,6 +842,7 @@ Developer Console
 blog post
 .
 Was this page helpful?
+March 18, 2026
 March 16, 2026
 March 13, 2026
 February 19, 2026

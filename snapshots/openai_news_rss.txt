@@ -2861,6 +2861,12 @@ id: https://openai.com/index/japan-economic-blueprint
 date: Wed, 22 Oct 2025 00:00:00 GMT
 body:
 #ITEM
+title: OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first
+link: https://openai.com/index/japan-teen-safety-blueprint
+id: https://openai.com/index/japan-teen-safety-blueprint
+date: Tue, 17 Mar 2026 10:00:00 GMT
+body:
+#ITEM
 title: Embedding AI into developer software
 link: https://openai.com/index/jetbrains
 id: https://openai.com/index/jetbrains

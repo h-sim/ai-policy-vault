@@ -1,5 +1,45 @@
 [
   {
+    "id": "0e27e2ea8036a263045b961cda9aec8898c2fb58",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+March 18, 2026\n+We've added model capability fields to the\n+Models API\n+.\n+GET /v1/models\n+and\n+GET /v1/models/{model_id}\n+now return\n+max_input_tokens\n+,\n+max_tokens\n+, and a\n+capabilities\n+object. Query the API to discover what each model supports.\n+March 18, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 15,
+      "removed": 0,
+      "churn": 15
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 19 Mar 2026 01:44:24 GMT",
+    "run_at": "2026-03-19T01:43:57Z",
+    "run_id": "5ad01de966bc43cd83dac36f65ba6f06"
+  },
+  {
+    "id": "3bd7eb0b83e78dbf1243a91dcfdb444db13cba40",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first\n+link: https://openai.com/index/japan-teen-safety-blueprint\n+id: https://openai.com/index/japan-teen-safety-blueprint\n+date: Tue, 17 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 19 Mar 2026 01:44:18 GMT",
+    "run_at": "2026-03-19T01:43:57Z",
+    "run_id": "5ad01de966bc43cd83dac36f65ba6f06"
+  },
+  {
     "id": "e06d30e499fa4464c18f700168dc978fb5113ad3",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -919,39 +959,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 24 Feb 2026 01:25:51 GMT"
-  },
-  {
-    "id": "9d629ad0e8f62a5ac3133c8b3dc71a27be3cee7a",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing EVMbench\n+link: https://openai.com/index/introducing-evmbench\n+id: https://openai.com/index/introducing-evmbench\n+date: Wed, 18 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 23 Feb 2026 01:27:11 GMT"
-  },
-  {
-    "id": "13821680a57781fd21f95f7dd9c104dbb71426c3",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+      description: The maximum number of files in a single batch request is 2000.\n-            they will be  applied to all files in the batch. Mutually exclusive\n-            with `files`.\n+            they will be  applied to all files in the batch. The maximum batch\n+            size is 2000 files. Mutually exclusive with `files`.\n-          maxItems: 500\n+          maxItems: 2000\n-            file. Mutually exclusive with `file_ids`.\n+            file. The maximum batch size is 2000 files. Mutually exclusive with\n+            `file_ids`.\n-          maxItems: 500\n+          maxItems: 2000",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 5,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 21 Feb 2026 01:21:57 GMT"
   }
 ]
