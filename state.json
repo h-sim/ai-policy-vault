@@ -1,5 +1,43 @@
 [
   {
+    "id": "b2b34ccdf77221dd9b27b519ee4863d0ab4feb42",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How we monitor internal coding agents for misalignment\n+link: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment\n+id: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment\n+date: Thu, 19 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI to acquire Astral\n+link: https://openai.com/index/openai-to-acquire-astral\n+id: https://openai.com/index/openai-to-acquire-astral\n+date: Thu, 19 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 20 Mar 2026 01:25:43 GMT",
+    "run_at": "2026-03-20T01:25:42Z",
+    "run_id": "b415b969255042d688eb64395be3be9d"
+  },
+  {
+    "id": "8a7e2abf1a3cf7a0f649093cc4cf685c9d7ce10c",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Citation formatting\n+Citation formatting",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 20 Mar 2026 01:25:43 GMT",
+    "run_at": "2026-03-20T01:25:42Z",
+    "run_id": "b415b969255042d688eb64395be3be9d"
+  },
+  {
     "id": "0e27e2ea8036a263045b961cda9aec8898c2fb58",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -925,39 +963,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 24 Feb 2026 01:25:57 GMT"
-  },
-  {
-    "id": "18c47b212c7f9358b0328f39cae1be4c48e02ab5",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI announces Frontier Alliance Partners\n+link: https://openai.com/index/frontier-alliance-partners\n+id: https://openai.com/index/frontier-alliance-partners\n+date: Mon, 23 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Why we no longer evaluate SWE-bench Verified\n+link: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified\n+id: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified\n+date: Mon, 23 Feb 2026 11:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 24 Feb 2026 01:25:51 GMT"
-  },
-  {
-    "id": "43bd64a87323e7e38ee11650e0dfd0607d22c92d",
-    "impact": "Medium",
-    "name": "OpenAI Developer Changelog (RSS)",
-    "url": "https://developers.openai.com/changelog/rss.xml",
-    "snippet": "+title: Apps SDK updates for redirects, widget descriptions, and follow-up scrolling\n+link: https://developers.openai.com/changelog/#apps-sdk-2026-02-02-mdx\n+id: https://developers.openai.com/changelog/#apps-sdk-2026-02-02-mdx\n+date: Mon, 02 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 24 Feb 2026 01:25:51 GMT"
   }
 ]

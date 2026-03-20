@@ -2273,6 +2273,12 @@ id: https://openai.com/index/how-the-voices-for-chatgpt-were-chosen
 date: Sun, 19 May 2024 23:30:00 GMT
 body:
 #ITEM
+title: How we monitor internal coding agents for misalignment
+link: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
+id: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
+date: Thu, 19 Mar 2026 10:00:00 GMT
+body:
+#ITEM
 title: HYGH powers next-gen digital ads with ChatGPT Business
 link: https://openai.com/index/hygh
 id: https://openai.com/index/hygh
@@ -3969,6 +3975,12 @@ title: OpenAI technical goals
 link: https://openai.com/index/openai-technical-goals
 id: https://openai.com/index/openai-technical-goals
 date: Mon, 20 Jun 2016 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI to acquire Astral
+link: https://openai.com/index/openai-to-acquire-astral
+id: https://openai.com/index/openai-to-acquire-astral
+date: Thu, 19 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: OpenAI to acquire Neptune

@@ -92,6 +92,7 @@ Prompt caching
 Prompting
 Overview
 Prompt engineering
+Citation formatting
 Reasoning
 Reasoning models
 Reasoning best practices
@@ -420,6 +421,7 @@ Prompt caching
 Prompting
 Overview
 Prompt engineering
+Citation formatting
 Reasoning
 Reasoning models
 Reasoning best practices
