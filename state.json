@@ -1,5 +1,24 @@
 [
   {
+    "id": "4d292a740100ea9987ce8d7278efe15e254deab9",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Cookbook\n+Notebook examples for building with OpenAI models\n+Cookbook\n+Designing delightful frontends with GPT-5.4\n-Shell + Skills + Compaction: Tips for long-running agents that do real work\n+Home\n+Topics\n+Agents\n+Evals\n+Multimodal\n+Text\n+Guardrails\n+Optimization\n+ChatGPT\n+Codex\n+gpt-oss\n+Contribute\n+Cookbook on GitHub",
+    "snippet_full": "",
+    "diff": {
+      "added": 17,
+      "removed": 1,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 21 Mar 2026 01:21:09 GMT",
+    "run_at": "2026-03-21T01:21:08Z",
+    "run_id": "279fc01ed4164a3b9e72bbccd5a70603"
+  },
+  {
     "id": "b2b34ccdf77221dd9b27b519ee4863d0ab4feb42",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -946,22 +965,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Wed, 25 Feb 2026 01:28:10 GMT"
-  },
-  {
-    "id": "7c0952dc65e0d4675a67fb09ba62681e1ffdbfd8",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+                - gpt-realtime-1.5\n+                - gpt-audio-1.5\n+                - gpt-realtime-1.5\n+                - gpt-audio-1.5\n+                - gpt-realtime-1.5\n+                - gpt-audio-1.5\n+    ResponsesClientEvent:\n+      discriminator:\n+        propertyName: type\n+      description: |\n+        Client events accepted by the Responses WebSocket server.\n+      anyOf:\n+        - $ref: '#/components/schemas/ResponsesClientEventResponseCreate'\n+    ResponsesClientEventResponseCreate:\n+      allOf:\n+        - type: object\n+          properties:\n+            type:\n+              type: string\n+              enum:\n+                - response.create\n+              description: |\n+                The type of the client event. Always `response.create`.\n+              x-stainless-const: true\n+          required:\n+            - type\n+        - $ref: '#/components/schemas/CreateResponse'\n+      description: >\n+        Client event for creating a response over a persistent WebSocket\n+        connection.\n+\n+        This payload uses the same top-level fields as `POST /v1/responses`.\n+\n+\n+        Notes:\n+\n+        - `stream` is implicit over WebSocket and should not be sent.\n+\n+        - `background` is not supported over WebSocket.\n+    ResponsesServerEvent:",
-    "snippet_full": "",
-    "diff": {
-      "added": 46,
-      "removed": 0,
-      "churn": 46
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 24 Feb 2026 01:25:57 GMT"
   }
 ]

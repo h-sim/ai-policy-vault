@@ -16,6 +16,8 @@ Showcase
 Demo apps to get inspired
 Blog
 Learnings and experiences from developers
+Cookbook
+Notebook examples for building with OpenAI models
 Learn
 Docs, videos, and demo apps for building with OpenAI
 Community
@@ -312,22 +314,36 @@ Feed spec
 Best practices
 Showcase
 Blog
+Cookbook
 Learn
 Community
 Home
 All posts
 Recent
+Designing delightful frontends with GPT-5.4
 From prompts to products: One year of Responses
 Using skills to accelerate OSS maintenance
 Building frontend UIs with Codex and Figma
 Run long horizon tasks with Codex
-Shell + Skills + Compaction: Tips for long-running agents that do real work
 Topics
 General
 API
 Apps SDK
 Audio
 Codex
+Home
+Topics
+Agents
+Evals
+Multimodal
+Text
+Guardrails
+Optimization
+ChatGPT
+Codex
+gpt-oss
+Contribute
+Cookbook on GitHub
 Home
 Docs MCP
 Categories
