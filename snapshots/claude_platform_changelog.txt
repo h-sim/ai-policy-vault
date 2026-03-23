@@ -231,16 +231,7 @@ parameter. US-only inference is available at 1.1x pricing for models released af
 The
 1M token context window
 is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4.
-Long context pricing
 applies to requests exceeding 200k input tokens.
-Fine-grained tool streaming
-is now generally available on all models and platforms (no beta header required). The
-output_format
-parameter for
-structured outputs
-has been moved to
-output_config.format
-.
 January 29, 2026
 Structured outputs
 are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The
@@ -563,21 +554,6 @@ in public beta, a tool that enables Claude to execute Python code in a secure, s
 We've launched the
 MCP connector
 in public beta, a feature that allows you to connect to remote MCP servers directly from the Messages API.
-To increase answer quality and decrease tool errors, we've changed the default value for the
-top_p
-nucleus sampling
-parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set
-top_p
-to 0.999.
-Additionally, when extended thinking is enabled, you can now set
-top_p
-to values between 0.95 and 1.
-We've moved our
-Go SDK
-from beta to GA.
-We've included minute and hour level granularity to the
-Usage
-page of Console alongside 429 error rates on the Usage page.
 May 21, 2025
 We've moved our
 Ruby SDK
@@ -651,11 +627,6 @@ bash_20250124
 : Same functionality as previous version but is independent from computer use. Does not require a beta header.
 text_editor_20250124
 : Same functionality as previous version but is independent from computer use. Does not require a beta header.
-computer_20250124
-: Updated computer use tool with new command options including "hold_key", "left_mouse_down", "left_mouse_up", "scroll", "triple_click", and "wait". This tool requires the "computer-use-2025-01-24" anthropic-beta header.
-Learn more in
-Tool use with Claude
-.
 February 10th, 2025
 We've added the
 anthropic-organization-id
@@ -924,3 +895,32 @@ June 27th, 2024
 June 20th, 2024
 May 30th, 2024
 May 10th, 2024
+Long context pricing
+Fine-grained tool streaming
+is now generally available on all models and platforms (no beta header required). The
+output_format
+parameter for
+structured outputs
+has been moved to
+output_config.format
+.
+To increase answer quality and decrease tool errors, we've changed the default value for the
+top_p
+nucleus sampling
+parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set
+top_p
+to 0.999.
+Additionally, when extended thinking is enabled, you can now set
+top_p
+to values between 0.95 and 1.
+We've moved our
+Go SDK
+from beta to GA.
+We've included minute and hour level granularity to the
+Usage
+page of Console alongside 429 error rates on the Usage page.
+computer_20250124
+: Updated computer use tool with new command options including "hold_key", "left_mouse_down", "left_mouse_up", "scroll", "triple_click", and "wait". This tool requires the "computer-use-2025-01-24" anthropic-beta header.
+Learn more in
+Tool use with Claude
+.
