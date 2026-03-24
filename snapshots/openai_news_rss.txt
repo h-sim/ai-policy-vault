@@ -1103,6 +1103,12 @@ id: https://openai.com/index/court-rejects-elon
 date: Fri, 14 Mar 2025 09:00:00 GMT
 body:
 #ITEM
+title: Creating with Sora Safely
+link: https://openai.com/index/creating-with-sora-safely
+id: https://openai.com/index/creating-with-sora-safely
+date: Mon, 23 Mar 2026 00:00:00 GMT
+body:
+#ITEM
 title: How CRED is tapping AI to deliver premium customer experiences
 link: https://openai.com/index/cred-swamy-seetharaman
 id: https://openai.com/index/cred-swamy-seetharaman

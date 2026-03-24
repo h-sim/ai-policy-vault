@@ -22,15 +22,27 @@ Learn
 Docs, videos, and demo apps for building with OpenAI
 Community
 Programs, meetups, and support for builders
+Start searching
 API Dashboard
 Search the API docs
-Close
+Search docs
+Suggested
+responses create
+reasoning_effort
+realtime
+prompt caching
 Primary navigation
 API
 API Reference
 Codex
 ChatGPT
 Resources
+Search docs
+Suggested
+responses create
+reasoning_effort
+realtime
+prompt caching
 Get started
 Overview
 Quickstart
@@ -364,6 +376,7 @@ Video generation
 Community
 Programs
 Codex Ambassadors
+Student Offer
 Codex for Open Source
 Events
 Meetups
@@ -371,9 +384,6 @@ Hackathon Support
 Forum
 Discord
 API Dashboard
-Search
-⌘
-K
 Get started
 Overview
 Quickstart

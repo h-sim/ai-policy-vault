@@ -1,5 +1,62 @@
 [
   {
+    "id": "01218628138b2fb25f6a7a85f97350759d874b88",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+            - type",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 24 Mar 2026 01:24:35 GMT",
+    "run_at": "2026-03-24T01:24:27Z",
+    "run_id": "ede9a3c5c2a046599a329d43dad249db"
+  },
+  {
+    "id": "789a828c611427964f89a4380198114cdf0ec764",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Creating with Sora Safely\n+link: https://openai.com/index/creating-with-sora-safely\n+id: https://openai.com/index/creating-with-sora-safely\n+date: Mon, 23 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 24 Mar 2026 01:24:28 GMT",
+    "run_at": "2026-03-24T01:24:27Z",
+    "run_id": "ede9a3c5c2a046599a329d43dad249db"
+  },
+  {
+    "id": "9435c8a003b069baae4e0d502a8852a0ed338ab7",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Start searching\n-Close\n+Search docs\n+Suggested\n+responses create\n+reasoning_effort\n+realtime\n+prompt caching\n+Search docs\n+Suggested\n+responses create\n+reasoning_effort\n+realtime\n+prompt caching\n+Student Offer\n-Search\n-⌘\n-K",
+    "snippet_full": "",
+    "diff": {
+      "added": 14,
+      "removed": 4,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 24 Mar 2026 01:24:28 GMT",
+    "run_at": "2026-03-24T01:24:27Z",
+    "run_id": "ede9a3c5c2a046599a329d43dad249db"
+  },
+  {
     "id": "cfc8bad9327d000bc792a913a8a82c3628731305",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -918,56 +975,5 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Sat, 28 Feb 2026 01:17:15 GMT"
-  },
-  {
-    "id": "443d96ea9a0d0c4848f772d4bd1aa41f00b55b4d",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI Codex and Figma launch seamless code-to-design experience\n+link: https://openai.com/index/figma-partnership\n+id: https://openai.com/index/figma-partnership\n+date: Thu, 26 Feb 2026 06:00:00 GMT\n+body:\n+#ITEM\n+title: Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting\n+link: https://openai.com/index/pacific-northwest-national-laboratory\n+id: https://openai.com/index/pacific-northwest-national-laboratory\n+date: Thu, 26 Feb 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 27 Feb 2026 01:22:35 GMT"
-  },
-  {
-    "id": "3f7f297d98f2d2bc8fec048c3e227fc0edd223e0",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Disrupting malicious uses of AI | February 2026\n+link: https://openai.com/index/disrupting-malicious-ai-uses\n+id: https://openai.com/index/disrupting-malicious-ai-uses\n+date: Wed, 25 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 26 Feb 2026 01:24:55 GMT"
-  },
-  {
-    "id": "81a813e7ee1c3a2614b24aecd92667181456a7da",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+        phase:\n+          anyOf:\n+            - $ref: '#/components/schemas/MessagePhase'\n+            - type: 'null'\n+    MessagePhase:\n+      type: string\n+      description: >\n+        Labels an `assistant` message as intermediate commentary (`commentary`)\n+        or the final answer (`final_answer`). For models like `gpt-5.3-codex`\n+        and beyond, when sending follow-up requests, preserve and resend phase\n+        on all assistant messages — dropping it can degrade performance. Not\n+        used for user messages.\n+\n+\n+        Use `commentary` for an intermediate assistant message and\n+        `final_answer` for\n+\n+        the final assistant message. For follow-up requests with models like\n+\n+        `gpt-5.3-codex` and later, preserve and resend phase on all assistant\n+\n+        messages. Omitting it can degrade performance. Not used for user\n+        messages.\n+      enum:\n+        - commentary\n+        - final_answer\n+        phase:\n+          anyOf:\n+            - $ref: '#/components/schemas/MessagePhase'\n+            - type: 'null'\n+        prompt_cache_key:\n+          anyOf:\n+            - type: string\n+              maxLength: 64\n+              description: A key to use when reading from or writing to the prompt cache.\n+            - type: 'null'",
-    "snippet_full": "",
-    "diff": {
-      "added": 36,
-      "removed": 0,
-      "churn": 36
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 25 Feb 2026 01:28:17 GMT"
   }
 ]
