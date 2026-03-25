@@ -4163,6 +4163,12 @@ id: https://openai.com/index/point-e
 date: Fri, 16 Dec 2022 08:00:00 GMT
 body:
 #ITEM
+title: Powering product discovery in ChatGPT
+link: https://openai.com/index/powering-product-discovery-in-chatgpt
+id: https://openai.com/index/powering-product-discovery-in-chatgpt
+date: Tue, 24 Mar 2026 09:00:00 GMT
+body:
+#ITEM
 title: Practices for Governing Agentic AI Systems
 link: https://openai.com/index/practices-for-governing-agentic-ai-systems
 id: https://openai.com/index/practices-for-governing-agentic-ai-systems
@@ -4871,6 +4877,12 @@ id: https://openai.com/index/teen-safety-freedom-and-privacy
 date: Tue, 16 Sep 2025 06:00:00 GMT
 body:
 #ITEM
+title: Helping developers build safer AI experiences for teens
+link: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard
+id: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard
+date: Tue, 24 Mar 2026 11:00:00 GMT
+body:
+#ITEM
 title: Creating nail art with ChatGPT
 link: https://openai.com/index/ten-tiny-canvases
 id: https://openai.com/index/ten-tiny-canvases
@@ -5103,6 +5115,12 @@ title: An update on our safety & security practices
 link: https://openai.com/index/update-on-safety-and-security-practices
 id: https://openai.com/index/update-on-safety-and-security-practices
 date: Mon, 16 Sep 2024 13:00:00 GMT
+body:
+#ITEM
+title: Update on the OpenAI Foundation
+link: https://openai.com/index/update-on-the-openai-foundation
+id: https://openai.com/index/update-on-the-openai-foundation
+date: Tue, 24 Mar 2026 09:00:00 GMT
 body:
 #ITEM
 title: Updating our Model Spec with teen protections

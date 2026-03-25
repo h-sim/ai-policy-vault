@@ -1,5 +1,67 @@
 [
   {
+    "id": "325d0369b18370eea663e75a053265db4e8b5879",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Controlling thinking display\n-.\n-March 13, 2026\n-The\n-1M token context window\n-is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context win\n-We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.\n-We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.\n-February 19, 2026\n-We've launched\n-automatic caching\n-for the Messages API. Add a single\n-cache_control\n-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n-Prompt caching\n-.\n-We've retired the Claude Sonnet 3.7 model (\n-claude-3-7-sonnet-20250219\n-) and the Claude Haiku 3.5 model (\n-claude-3-5-haiku-20241022\n-). All requests to these models will now return an error. We recommend upgrading to\n-Claude Sonnet 4.6\n-and\n-Claude Haiku 4.5\n-respectively. Researchers can request ongoing access through the\n-External Researcher Access Program\n-.\n-We announced the deprecation of the Claude Haiku 3 model (\n-claude-3-haiku-20240307\n-), with retirement scheduled for April 19, 2026. We recommend migrating to\n-Claude Haiku 4.5\n-. Read more in\n-model deprecations\n-.\n-February 17, 2026\n-We've launched\n-Claude Sonnet 4.6\n-, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports\n-extended thinking\n-and a",
+    "snippet_full": "",
+    "diff": {
+      "added": 687,
+      "removed": 687,
+      "churn": 1374
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 25 Mar 2026 01:29:26 GMT",
+    "run_at": "2026-03-25T01:28:43Z",
+    "run_id": "c19b412770214d6a80200c7d1638ca5f"
+  },
+  {
+    "id": "635c39ec2ea29ff2639defbdb4389de18c31de94",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Powering product discovery in ChatGPT\n+link: https://openai.com/index/powering-product-discovery-in-chatgpt\n+id: https://openai.com/index/powering-product-discovery-in-chatgpt\n+date: Tue, 24 Mar 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Helping developers build safer AI experiences for teens\n+link: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard\n+id: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard\n+date: Tue, 24 Mar 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Update on the OpenAI Foundation\n+link: https://openai.com/index/update-on-the-openai-foundation\n+id: https://openai.com/index/update-on-the-openai-foundation\n+date: Tue, 24 Mar 2026 09:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 25 Mar 2026 01:29:01 GMT",
+    "run_at": "2026-03-25T01:28:43Z",
+    "run_id": "c19b412770214d6a80200c7d1638ca5f"
+  },
+  {
+    "id": "ff5799ab7613a04d2870c743e0f2d055fb19e360",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Key concepts\n-Production readiness\n-Commerce specs\n-Agentic Checkout\n-Delegated Payment\n-Product feeds\n-Overview\n-Onboarding\n-Feed spec\n+File Upload\n+Overview\n+Products\n+API\n+Overview\n+Feeds\n+Products\n+Promotions\n-Student Offer\n+Codex for Students",
+    "snippet_full": "",
+    "diff": {
+      "added": 9,
+      "removed": 10,
+      "churn": 19
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 25 Mar 2026 01:28:43 GMT",
+    "run_at": "2026-03-25T01:28:43Z",
+    "run_id": "c19b412770214d6a80200c7d1638ca5f"
+  },
+  {
     "id": "01218628138b2fb25f6a7a85f97350759d874b88",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -920,60 +982,5 @@
     "pubDate": "Wed, 04 Mar 2026 01:23:01 GMT",
     "run_at": "2026-03-04T01:23:01Z",
     "run_id": "06c9164f4ab04a69b17424331dacab55"
-  },
-  {
-    "id": "c077c86ac160243df322e682f4fb2f1f325fe01a",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Testing Agent Skills Systematically with Evals\n+Run long horizon tasks with Codex\n+Run long horizon tasks with Codex\n-Supercharging Codex with JetBrains MCP at Skyscanner",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 2,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 03 Mar 2026 01:27:41 GMT",
-    "run_at": "2026-03-03T01:27:41Z",
-    "run_id": "07c6c1aa064a44ada80fce41d899ff00"
-  },
-  {
-    "id": "27f62fa71fe3eec658e4aba24013176fa2a9a2ea",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Our agreement with the Department of War\n+link: https://openai.com/index/our-agreement-with-the-department-of-war\n+id: https://openai.com/index/our-agreement-with-the-department-of-war\n+date: Sat, 28 Feb 2026 12:30:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 01 Mar 2026 01:45:11 GMT",
-    "run_at": "2026-03-01T01:45:11Z",
-    "run_id": "2081cb8d02c44aa08519e747872e6f29"
-  },
-  {
-    "id": "5055380d914e514597f5f4de8190effb103f36d3",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI and Amazon announce strategic partnership\n+link: https://openai.com/index/amazon-partnership\n+id: https://openai.com/index/amazon-partnership\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Joint Statement from OpenAI and Microsoft\n+link: https://openai.com/index/continuing-microsoft-partnership\n+id: https://openai.com/index/continuing-microsoft-partnership\n+title: Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock\n+link: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock\n+id: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
-    "snippet_full": "+title: OpenAI and Amazon announce strategic partnership\n+link: https://openai.com/index/amazon-partnership\n+id: https://openai.com/index/amazon-partnership\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Joint Statement from OpenAI and Microsoft\n+link: https://openai.com/index/continuing-microsoft-partnership\n+id: https://openai.com/index/continuing-microsoft-partnership\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock\n+link: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock\n+id: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: Scaling AI for everyone\n+link: https://openai.com/index/scaling-ai-for-everyone\n+id: https://openai.com/index/scaling-ai-for-everyone\n+date: Fri, 27 Feb 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: An update on our mental health-related work\n+link: https://openai.com/index/update-on-mental-health-related-work\n+id: https://openai.com/index/update-on-mental-health-related-work\n+date: Fri, 27 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 30,
-      "removed": 0,
-      "churn": 30
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 28 Feb 2026 01:17:15 GMT"
   }
 ]

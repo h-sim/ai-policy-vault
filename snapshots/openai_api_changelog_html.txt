@@ -314,16 +314,15 @@ Reference
 Home
 Guides
 Get started
-Key concepts
-Production readiness
-Commerce specs
-Agentic Checkout
-Delegated Payment
-Product feeds
-Overview
-Onboarding
-Feed spec
 Best practices
+File Upload
+Overview
+Products
+API
+Overview
+Feeds
+Products
+Promotions
 Showcase
 Blog
 Cookbook
@@ -376,7 +375,7 @@ Video generation
 Community
 Programs
 Codex Ambassadors
-Student Offer
+Codex for Students
 Codex for Open Source
 Events
 Meetups
