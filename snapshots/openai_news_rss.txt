@@ -4067,6 +4067,12 @@ id: https://openai.com/index/our-approach-to-localization
 date: Fri, 06 Feb 2026 10:00:00 GMT
 body:
 #ITEM
+title: Inside our approach to the Model Spec
+link: https://openai.com/index/our-approach-to-the-model-spec
+id: https://openai.com/index/our-approach-to-the-model-spec
+date: Wed, 25 Mar 2026 10:00:00 GMT
+body:
+#ITEM
 title: Resolving digital threats 100x faster with OpenAI
 link: https://openai.com/index/outtake
 id: https://openai.com/index/outtake
@@ -4383,6 +4389,12 @@ title: Rox goes “all in” on OpenAI
 link: https://openai.com/index/rox
 id: https://openai.com/index/rox
 date: Tue, 19 Nov 2024 07:00:00 GMT
+body:
+#ITEM
+title: Introducing the OpenAI Safety Bug Bounty program
+link: https://openai.com/index/safety-bug-bounty
+id: https://openai.com/index/safety-bug-bounty
+date: Wed, 25 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: Safety Gym
