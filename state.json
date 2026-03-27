@@ -1,5 +1,83 @@
 [
   {
+    "id": "4bb72357380110f0a014708fb3ee07c68930d875",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+Long context pricing\n+Fine-grained tool streaming\n+is now generally available on all models and platforms (no beta header required). The\n+output_format\n+parameter for\n+structured outputs\n+has been moved to\n+output_config.format\n+.\n-How to implement tool use\n+Handle tool calls\n+To increase answer quality and decrease tool errors, we've changed the default value for the\n+top_p\n+nucleus sampling\n+parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set\n+top_p\n+to 0.999.\n+Additionally, when extended thinking is enabled, you can now set\n+top_p\n+to values between 0.95 and 1.\n+We've moved our\n+Go SDK\n+from beta to GA.\n+We've included minute and hour level granularity to the\n+Usage\n+page of Console alongside 429 error rates on the Usage page.\n+computer_20250124\n+: Updated computer use tool with new command options including \"hold_key\", \"left_mouse_down\", \"left_mouse_up\", \"scroll\", \"triple_click\", and \"wait\". This tool requires the \"computer-use-2025-01-24\" a\n+Learn more in\n+Tool use with Claude\n+.\n-How to implement tool use\n+Parallel tool use\n-Long context pricing\n-Fine-grained tool streaming\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to",
+    "snippet_full": "",
+    "diff": {
+      "added": 31,
+      "removed": 31,
+      "churn": 62
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 27 Mar 2026 01:48:34 GMT",
+    "run_at": "2026-03-27T01:48:23Z",
+    "run_id": "fe1236cafbef4de28250222c10443449"
+  },
+  {
+    "id": "6389d9e0aa2b962101d026600c51184349b062a3",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                          .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                          .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                          .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                          .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .image(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .image(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .image(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .image(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                          .image(ByteArrayInputStream(\"Example data\".getBytes()))\n+                          .image(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                          .data(ByteArrayInputStream(\"Example data\".getBytes()))\n+                          .data(new ByteArrayInputStream(\"Example data\".getBytes()))\n-      description: The maximum number of files in a single batch request is 2000.\n+      description: >\n+        The maximum number of files in a single batch request is 2000.\n+\n+        Vector store file attach requests are rate limited per vector store (300\n+        requests per minute across both this endpoint and\n+        `/vector_stores/{vector_store_id}/files`).\n+\n+        For ingesting multiple files into the same vector store, this batch\n+        endpoint is recommended.\n+        description: >\n+          Attaches multiple files to a vector store in one request. This is the\n+          recommended approach for multi-file ingestion, especially because\n+          per-vector-store file attach writes are rate-limited (300\n+          requests/minute shared with `/vector_stores/{vector_store_id}/files`).\n+      description: >-",
+    "snippet_full": "",
+    "diff": {
+      "added": 51,
+      "removed": 19,
+      "churn": 70
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 27 Mar 2026 01:48:33 GMT",
+    "run_at": "2026-03-27T01:48:23Z",
+    "run_id": "fe1236cafbef4de28250222c10443449"
+  },
+  {
+    "id": "d30f829507501e5500a0d4caa409af7410148b0a",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: From Pilot to Practice: How BBVA Is Scaling AI Across the Organization\n+title: How BBVA is scaling AI from pilot to practice across the org\n-title: Building AI fluency at scale with ChatGPT Enterprise\n+title: Commonwealth Bank of Australia builds AI fluency at scale\n-title: Knowledge preservation powered by ChatGPT\n+title: Advancing organizational transformation for business innovation\n-title: Transforming the manufacturing industry with ChatGPT\n+title: ENEOS Materials brings ChatGPT Enterprise to manufacturing\n+title: Inside JetBrains—the company reshaping how the world writes code\n+link: https://openai.com/index/jetbrains-2025\n+id: https://openai.com/index/jetbrains-2025\n+date: Tue, 25 Nov 2025 00:00:00 GMT",
+    "snippet_full": "-title: From Pilot to Practice: How BBVA Is Scaling AI Across the Organization\n+title: How BBVA is scaling AI from pilot to practice across the org\n-title: Building AI fluency at scale with ChatGPT Enterprise\n+title: Commonwealth Bank of Australia builds AI fluency at scale\n-title: Knowledge preservation powered by ChatGPT\n+title: Advancing organizational transformation for business innovation\n-title: Transforming the manufacturing industry with ChatGPT\n+title: ENEOS Materials brings ChatGPT Enterprise to manufacturing\n+title: Inside JetBrains—the company reshaping how the world writes code\n+link: https://openai.com/index/jetbrains-2025\n+id: https://openai.com/index/jetbrains-2025\n+date: Tue, 25 Nov 2025 00:00:00 GMT\n+body:\n+#ITEM\n-date: Thu, 08 Jan 2026 13:00:00 GMT\n+date: Thu, 08 Jan 2026 00:00:00 GMT\n+title: Neuro drives national retail wins with ChatGPT Business\n+link: https://openai.com/index/neurogum\n+id: https://openai.com/index/neurogum\n+date: Wed, 12 Nov 2025 11:00:00 GMT\n+body:\n+#ITEM\n+title: How Philips is scaling AI literacy across 70,000 employees\n+link: https://openai.com/index/philips\n+id: https://openai.com/index/philips\n+date: Thu, 13 Nov 2025 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Scania accelerates work with AI across its global workforce\n+link: https://openai.com/index/scania\n+id: https://openai.com/index/scania\n+date: Wed, 19 Nov 2025 00:00:00 GMT\n+body:\n+#ITEM\n+title: SchoolAI builds an AI platform that empowers teachers\n+link: https://openai.com/index/schoolai\n+id: https://openai.com/index/schoolai\n+date: Mon, 22 Sep 2025 10:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 36,
+      "removed": 6,
+      "churn": 42
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 27 Mar 2026 01:48:24 GMT",
+    "run_at": "2026-03-27T01:48:23Z",
+    "run_id": "fe1236cafbef4de28250222c10443449"
+  },
+  {
+    "id": "508ccfe0567237587887c5303dd627a5cad343ee",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Hooks\n+Plugins",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 27 Mar 2026 01:48:24 GMT",
+    "run_at": "2026-03-27T01:48:23Z",
+    "run_id": "fe1236cafbef4de28250222c10443449"
+  },
+  {
     "id": "335d218ac0d91e4505bfc23af7d26436e7913066",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -911,81 +989,5 @@
     "pubDate": "Fri, 06 Mar 2026 01:28:01 GMT",
     "run_at": "2026-03-06T01:27:32Z",
     "run_id": "3dae3e69911f4512b71e80266c68c096"
-  },
-  {
-    "id": "c9036c75461f2007f34124eca48c75c1423b1ee0",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                transcription = client.audio.transcriptions.create(\n+                for transcription in client.audio.transcriptions.create(\n-                )\n-                print(transcription)\n+                ):\n+                  print(transcription)\n-                  \"model\": \"gpt-4.1-2025-04-14\",\n+                  \"model\": \"gpt-5.4\",\n-                chat_completion = client.chat.completions.create(\n+                for completion in client.chat.completions.create(",
-    "snippet_full": "",
-    "diff": {
-      "added": 1733,
-      "removed": 1352,
-      "churn": 3085
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 06 Mar 2026 01:27:42 GMT",
-    "run_at": "2026-03-06T01:27:32Z",
-    "run_id": "3dae3e69911f4512b71e80266c68c096"
-  },
-  {
-    "id": "8be4f383c4b755c54a905ce73c2d5b0e4cf00343",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Ensuring AI use in education leads to opportunity\n+link: https://openai.com/index/ai-education-opportunity\n+id: https://openai.com/index/ai-education-opportunity\n+date: Thu, 05 Mar 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Excel and new financial data integrations\n+link: https://openai.com/index/chatgpt-for-excel\n+id: https://openai.com/index/chatgpt-for-excel\n+date: Thu, 05 Mar 2026 00:00:00 GMT\n+title: GPT-5.4 Thinking System Card\n+link: https://openai.com/index/gpt-5-4-thinking-system-card",
-    "snippet_full": "+title: Ensuring AI use in education leads to opportunity\n+link: https://openai.com/index/ai-education-opportunity\n+id: https://openai.com/index/ai-education-opportunity\n+date: Thu, 05 Mar 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Excel and new financial data integrations\n+link: https://openai.com/index/chatgpt-for-excel\n+id: https://openai.com/index/chatgpt-for-excel\n+date: Thu, 05 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5.4 Thinking System Card\n+link: https://openai.com/index/gpt-5-4-thinking-system-card\n+id: https://openai.com/index/gpt-5-4-thinking-system-card\n+date: Thu, 05 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-5.4\n+link: https://openai.com/index/introducing-gpt-5-4\n+id: https://openai.com/index/introducing-gpt-5-4\n+date: Thu, 05 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Adoption news channel\n+link: https://openai.com/index/introducing-the-adoption-news-channel\n+id: https://openai.com/index/introducing-the-adoption-news-channel\n+date: Thu, 05 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Reasoning models struggle to control their chains of thought, and that’s good\n+link: https://openai.com/index/reasoning-models-chain-of-thought-controllability\n+id: https://openai.com/index/reasoning-models-chain-of-thought-controllability\n+date: Thu, 05 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: The five AI value models driving business reinvention\n+link: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention\n+id: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention\n+date: Thu, 05 Mar 2026 00:00:00 GMT",
-    "diff": {
-      "added": 42,
-      "removed": 0,
-      "churn": 42
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 06 Mar 2026 01:27:33 GMT",
-    "run_at": "2026-03-06T01:27:32Z",
-    "run_id": "3dae3e69911f4512b71e80266c68c096"
-  },
-  {
-    "id": "d144bca7e8e31fadae1336c8d98e0e59ca9bbec7",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Resources\n-Assets for developers building with OpenAI\n+Showcase\n+Demo apps to get inspired\n+Resources\n+Assets for developers building with OpenAI\n-Latest: GPT-5.2\n+Latest: GPT-5.4\n+Prompt guidance\n-Connectors and MCP\n+Web search\n+MCP and Connectors\n-Web search\n-Code interpreter\n+Computer use\n+Tool search\n+Apply Patch\n+Local shell\n-Computer use\n-Local shell tool\n-Apply patch\n+Code interpreter\n+Speed\n-Resources\n+Showcase\n+Resources\n-Docs MCP\n-Categories\n-Code\n-Cookbooks\n-Guides\n-Videos\n-Topics\n-Agents\n-Audio & Voice\n-Computer use\n-Codex\n-Evals\n-gpt-oss\n-Fine-tuning",
-    "snippet_full": "",
-    "diff": {
-      "added": 66,
-      "removed": 35,
-      "churn": 101
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 06 Mar 2026 01:27:32 GMT",
-    "run_at": "2026-03-06T01:27:32Z",
-    "run_id": "3dae3e69911f4512b71e80266c68c096"
-  },
-  {
-    "id": "2dee71cf5a5ed269cdf570aed71ffc0a6d91ac3c",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How Axios uses AI to help deliver high-impact local journalism\n+link: https://openai.com/index/axios-allison-murphy\n+id: https://openai.com/index/axios-allison-murphy\n+date: Wed, 04 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Extending single-minus amplitudes to gravitons\n+link: https://openai.com/index/extending-single-minus-amplitudes-to-gravitons\n+id: https://openai.com/index/extending-single-minus-amplitudes-to-gravitons\n+date: Wed, 04 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Understanding AI and learning outcomes\n+link: https://openai.com/index/understanding-ai-and-learning-outcomes\n+id: https://openai.com/index/understanding-ai-and-learning-outcomes\n+date: Wed, 04 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 05 Mar 2026 01:25:17 GMT",
-    "run_at": "2026-03-05T01:25:16Z",
-    "run_id": "4992f375ad1c4f849bf389256f0cf337"
   }
 ]

@@ -244,8 +244,10 @@ Config Reference
 Sample Config
 Speed
 Rules
+Hooks
 AGENTS.md
 MCP
+Plugins
 Skills
 Subagents
 Administration

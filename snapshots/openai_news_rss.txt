@@ -713,7 +713,7 @@ id: https://openai.com/index/bbva
 date: Thu, 21 Nov 2024 05:00:00 GMT
 body:
 #ITEM
-title: From Pilot to Practice: How BBVA Is Scaling AI Across the Organization
+title: How BBVA is scaling AI from pilot to practice across the org
 link: https://openai.com/index/bbva-2025
 id: https://openai.com/index/bbva-2025
 date: Thu, 06 Nov 2025 09:30:00 GMT
@@ -1025,7 +1025,7 @@ id: https://openai.com/index/combating-online-child-sexual-exploitation-abuse
 date: Mon, 29 Sep 2025 03:00:00 GMT
 body:
 #ITEM
-title: Building AI fluency at scale with ChatGPT Enterprise
+title: Commonwealth Bank of Australia builds AI fluency at scale
 link: https://openai.com/index/commonwealth-bank-of-australia
 id: https://openai.com/index/commonwealth-bank-of-australia
 date: Tue, 09 Dec 2025 00:00:00 GMT
@@ -1133,7 +1133,7 @@ id: https://openai.com/index/customizing-gpt-3
 date: Tue, 14 Dec 2021 08:00:00 GMT
 body:
 #ITEM
-title: Knowledge preservation powered by ChatGPT
+title: Advancing organizational transformation for business innovation
 link: https://openai.com/index/dai-nippon-printing
 id: https://openai.com/index/dai-nippon-printing
 date: Tue, 28 Oct 2025 17:00:00 GMT
@@ -1457,7 +1457,7 @@ id: https://openai.com/index/endex
 date: Thu, 27 Feb 2025 09:30:00 GMT
 body:
 #ITEM
-title: Transforming the manufacturing industry with ChatGPT
+title: ENEOS Materials brings ChatGPT Enterprise to manufacturing
 link: https://openai.com/index/eneos-materials
 id: https://openai.com/index/eneos-materials
 date: Wed, 24 Sep 2025 17:00:00 GMT
@@ -2891,6 +2891,12 @@ id: https://openai.com/index/jetbrains-2025
 date: Tue, 25 Nov 2025 00:00:00 GMT
 body:
 #ITEM
+title: Inside JetBrains—the company reshaping how the world writes code
+link: https://openai.com/index/jetbrains-2025
+id: https://openai.com/index/jetbrains-2025
+date: Tue, 25 Nov 2025 00:00:00 GMT
+body:
+#ITEM
 title: AI helps John Deere transform agriculture
 link: https://openai.com/index/john-deere-justin-rose
 id: https://openai.com/index/john-deere-justin-rose
@@ -3290,13 +3296,19 @@ body:
 title: Netomi’s lessons for scaling agentic systems into the enterprise
 link: https://openai.com/index/netomi
 id: https://openai.com/index/netomi
-date: Thu, 08 Jan 2026 13:00:00 GMT
+date: Thu, 08 Jan 2026 00:00:00 GMT
 body:
 #ITEM
 title: Neural MMO: A massively multiagent game environment
 link: https://openai.com/index/neural-mmo
 id: https://openai.com/index/neural-mmo
 date: Mon, 04 Mar 2019 08:00:00 GMT
+body:
+#ITEM
+title: Neuro drives national retail wins with ChatGPT Business
+link: https://openai.com/index/neurogum
+id: https://openai.com/index/neurogum
+date: Wed, 12 Nov 2025 11:00:00 GMT
 body:
 #ITEM
 title: Neuro drives national retail wins with ChatGPT Business
@@ -4133,6 +4145,12 @@ id: https://openai.com/index/philips
 date: Thu, 13 Nov 2025 00:00:00 GMT
 body:
 #ITEM
+title: How Philips is scaling AI literacy across 70,000 employees
+link: https://openai.com/index/philips
+id: https://openai.com/index/philips
+date: Thu, 13 Nov 2025 00:00:00 GMT
+body:
+#ITEM
 title: PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications
 link: https://openai.com/index/pixelcnn-plus-plus
 id: https://openai.com/index/pixelcnn-plus-plus
@@ -4487,6 +4505,12 @@ id: https://openai.com/index/scaling-social-science-research
 date: Fri, 13 Feb 2026 09:00:00 GMT
 body:
 #ITEM
+title: How Scania accelerates work with AI across its global workforce
+link: https://openai.com/index/scania
+id: https://openai.com/index/scania
+date: Wed, 19 Nov 2025 00:00:00 GMT
+body:
+#ITEM
 title: How Scania is accelerating work with AI across its global workforce
 link: https://openai.com/index/scania
 id: https://openai.com/index/scania
@@ -4494,6 +4518,12 @@ date: Wed, 19 Nov 2025 00:00:00 GMT
 body:
 #ITEM
 title: Creating a safe, observable AI infrastructure for 1 million classrooms
+link: https://openai.com/index/schoolai
+id: https://openai.com/index/schoolai
+date: Mon, 22 Sep 2025 10:00:00 GMT
+body:
+#ITEM
+title: SchoolAI builds an AI platform that empowers teachers
 link: https://openai.com/index/schoolai
 id: https://openai.com/index/schoolai
 date: Mon, 22 Sep 2025 10:00:00 GMT
@@ -5198,7 +5228,7 @@ body:
 title: VfL Wolfsburg turns ChatGPT into a club-wide capability
 link: https://openai.com/index/vfl-wolfsburg
 id: https://openai.com/index/vfl-wolfsburg
-date: Wed, 04 Feb 2026 00:00:00 GMT
+date: Thu, 05 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: Accurately analyzing large scale qualitative data
