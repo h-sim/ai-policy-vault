@@ -6,6 +6,10 @@ Guides and concepts for the OpenAI API
 API reference
 Endpoints, parameters, and responses
 Codex
+Docs
+Guides, concepts, and product docs for Codex
+Use cases
+Example workflows and tasks teams hand to Codex
 ChatGPT
 Apps SDK
 Build apps to extend ChatGPT
@@ -186,6 +190,8 @@ Authentication
 Production
 Data retrieval
 Sending files
+Docs
+Use cases
 Getting Started
 Overview
 Quickstart
@@ -200,6 +206,7 @@ Subagents
 Workflows
 Models
 Cyber Safety
+Use cases
 Using Codex
 App
 Overview
@@ -248,6 +255,8 @@ Hooks
 AGENTS.md
 MCP
 Plugins
+Overview
+Build plugins
 Skills
 Subagents
 Administration
@@ -280,6 +289,7 @@ Releases
 Changelog
 Feature Maturity
 Open Source
+Home
 Apps SDK
 Commerce
 Home
