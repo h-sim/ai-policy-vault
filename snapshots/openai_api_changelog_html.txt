@@ -267,7 +267,7 @@ Admin Setup
 Governance
 Managed configuration
 Windows
-Automation
+Workflow
 Non-interactive Mode
 Codex SDK
 App Server

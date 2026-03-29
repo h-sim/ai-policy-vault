@@ -1,5 +1,24 @@
 [
   {
+    "id": "eaafd03c4fff35836abc1c31a5c2486469d482a9",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Automation\n+Workflow",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 29 Mar 2026 01:50:17 GMT",
+    "run_at": "2026-03-29T01:50:17Z",
+    "run_id": "2dc0dffc71c94018ae73eaf6746540e1"
+  },
+  {
     "id": "bf47c7f67d0f851b3444da181dafb8e9b2a60738",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -962,27 +981,5 @@
     "pubDate": "Sun, 08 Mar 2026 01:26:40 GMT",
     "run_at": "2026-03-08T01:26:40Z",
     "run_id": "b77f013bf190465db3f5b693796e880b"
-  },
-  {
-    "id": "b2933ed5ffa14ec6900ea2bcbce9645246ae98cc",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+claude-3-haiku-20240307\n+Claude Haiku 4.5\n+model deprecations\n+.\n+February 17, 2026\n+We've launched\n+Claude Sonnet 4.6\n+, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports\n+extended thinking\n+and a\n+1M token context window\n+(beta). See\n+Models & Pricing\n+for details.\n+API\n+code execution\n+is now\n+free when used with web search or web fetch\n+. Sandboxed code execution improves model capability and token efficiency. See the\n+pricing details\n+for standalone usage.\n+The\n+web search tool\n+and\n+programmatic tool calling\n+are now generally available (no beta header required). Web search and web fetch now support\n+dynamic filtering\n+, which uses code execution to filter results before they reach the context window for better performance and reduced token cost.\n+The\n+code execution tool\n+,\n+web fetch tool\n+,\n+tool search tool\n+,\n+tool use examples\n+, and\n+memory tool\n+are now generally available (no beta header required).\n+February 7, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 685,
-      "removed": 685,
-      "churn": 1370
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 07 Mar 2026 01:20:45 GMT",
-    "run_at": "2026-03-07T01:20:03Z",
-    "run_id": "3e5977a2d3f145fc948fe2e75918b1df"
   }
 ]
