@@ -1,5 +1,83 @@
 [
   {
+    "id": "5f0f3ec6a79528e83c33871a46805100819d2cc1",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+March 30, 2026\n+We've raised the\n+max_tokens\n+cap to 300k on the\n+Message Batches API\n+for Claude Opus 4.6 and Sonnet 4.6. Include the\n+output-300k-2026-03-24\n+beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks.\n+We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on\n+April 30, 2026\n+. After that date, requests that include the\n+context-1m-2025-08-07\n+beta header on these models will return a 400 error. To continue using 1M context windows, migrate to\n+Claude Sonnet 4.6\n+or\n+Claude Opus 4.6\n+, which support the full 1M token context window at standard pricing with no beta header required.\n+March 30, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 31 Mar 2026 01:49:24 GMT",
+    "run_at": "2026-03-31T01:49:16Z",
+    "run_id": "46db076f4337410cbd0490ef9b620a63"
+  },
+  {
+    "id": "4ea478c3b6e21f111d2b4fdd0a4297e7d5b8fcde",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+    MessagePhase-2:\n+      type: string\n+      enum:\n+        - commentary\n+        - final_answer\n+        phase:\n+          anyOf:\n+            - $ref: '#/components/schemas/MessagePhase-2'\n+              description: >-\n+                Labels an `assistant` message as intermediate commentary\n+                (`commentary`) or the final answer (`final_answer`). For models\n+                like `gpt-5.3-codex` and beyond, when sending follow-up\n+                requests, preserve and resend phase on all assistant messages —\n+                dropping it can degrade performance. Not used for user messages.\n+            - type: 'null'",
+    "snippet_full": "",
+    "diff": {
+      "added": 15,
+      "removed": 0,
+      "churn": 15
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 31 Mar 2026 01:49:23 GMT",
+    "run_at": "2026-03-31T01:49:16Z",
+    "run_id": "46db076f4337410cbd0490ef9b620a63"
+  },
+  {
+    "id": "6e2dfadb69d8906dbcf6e7ad1785204f600ac6e1",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Helping disaster response teams turn AI into action across Asia\n+link: https://openai.com/index/helping-disaster-response-teams-asia\n+id: https://openai.com/index/helping-disaster-response-teams-asia\n+date: Sun, 29 Mar 2026 22:15:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 31 Mar 2026 01:49:17 GMT",
+    "run_at": "2026-03-31T01:49:16Z",
+    "run_id": "46db076f4337410cbd0490ef9b620a63"
+  },
+  {
+    "id": "b68cb4ce5035fd45e8fff14c21acf23f6f894f20",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Workflow\n+Automation\n+How Perplexity Brought Voice Search to Millions Using the Realtime API\n-Run long horizon tasks with Codex",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 31 Mar 2026 01:49:17 GMT",
+    "run_at": "2026-03-31T01:49:16Z",
+    "run_id": "46db076f4337410cbd0490ef9b620a63"
+  },
+  {
     "id": "eaafd03c4fff35836abc1c31a5c2486469d482a9",
     "impact": "Medium",
     "name": "OpenAI API Changelog (HTML)",
@@ -905,81 +983,5 @@
     "pubDate": "Tue, 10 Mar 2026 01:21:06 GMT",
     "run_at": "2026-03-10T01:20:59Z",
     "run_id": "b3d2b083263f4fe5a0958ad1ad725567"
-  },
-  {
-    "id": "eb7958c230ec6f2eab91dca4f68f6a4f7f9a73ed",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI to acquire Promptfoo\n+link: https://openai.com/index/openai-to-acquire-promptfoo\n+id: https://openai.com/index/openai-to-acquire-promptfoo\n+date: Mon, 09 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 10 Mar 2026 01:20:59 GMT",
-    "run_at": "2026-03-10T01:20:59Z",
-    "run_id": "b3d2b083263f4fe5a0958ad1ad725567"
-  },
-  {
-    "id": "010b39cc512cd36d9ebe76fcc9a7b3d6a97bcbae",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Using skills to accelerate OSS maintenance\n-Run long horizon tasks with Codex\n+Using skills to accelerate OSS maintenance\n-Testing Agent Skills Systematically with Evals",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 2,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 10 Mar 2026 01:20:59 GMT",
-    "run_at": "2026-03-10T01:20:59Z",
-    "run_id": "b3d2b083263f4fe5a0958ad1ad725567"
-  },
-  {
-    "id": "5da09cafde3a9b58e79ec638ec8334dd363570c9",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                    file=b\"raw file contents\",\n+                    file=b\"Example data\",\n-              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n+              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n-                            .file(ByteArrayInputStream(\"some content\".getBytes()))\n+                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n-                Pathname(__FILE__), model: :\"gpt-4o-transcribe\")\n+                StringIO.new(\"Example data\"), model: :\"gpt-4o-transcribe\")\n-                    file=b\"raw file contents\",\n+                    file=b\"Example data\",\n-              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n+              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n-                            .file(ByteArrayInputStream(\"some content\".getBytes()))\n+                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n-                Pathname(__FILE__), model: :\"gpt-4o-transcribe\")\n+                StringIO.new(\"Example data\"), model: :\"gpt-4o-transcribe\")\n-                    file=b\"raw file contents\",\n+                    file=b\"Example data\",\n-              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n+              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n-                            .file(ByteArrayInputStream(\"some content\".getBytes()))\n+                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n-                Pathname(__FILE__), model: :\"gpt-4o-transcribe\")\n+                StringIO.new(\"Example data\"), model: :\"gpt-4o-transcribe\")\n-                    file=b\"raw file contents\",\n+                    file=b\"Example data\",\n-              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n+              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n-                            .file(ByteArrayInputStream(\"some content\".getBytes()))\n+                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n-                Pathname(__FILE__), model: :\"gpt-4o-transcribe\")\n+                StringIO.new(\"Example data\"), model: :\"gpt-4o-transcribe\")\n-                    file=b\"raw file contents\",\n+                    file=b\"Example data\",\n-              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n+              go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclie\n-                            .file(ByteArrayInputStream(\"some content\".getBytes()))\n+                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n-                Pathname(__FILE__), model: :\"gpt-4o-transcribe\")\n+                StringIO.new(\"Example data\"), model: :\"gpt-4o-transcribe\")",
-    "snippet_full": "",
-    "diff": {
-      "added": 53,
-      "removed": 51,
-      "churn": 104
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 08 Mar 2026 01:26:47 GMT",
-    "run_at": "2026-03-08T01:26:40Z",
-    "run_id": "b77f013bf190465db3f5b693796e880b"
-  },
-  {
-    "id": "1a88a2a6e63cccc5f9193e48902eb68379f6a2a6",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Sandboxing",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 08 Mar 2026 01:26:40 GMT",
-    "run_at": "2026-03-08T01:26:40Z",
-    "run_id": "b77f013bf190465db3f5b693796e880b"
   }
 ]

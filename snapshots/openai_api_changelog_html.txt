@@ -267,7 +267,7 @@ Admin Setup
 Governance
 Managed configuration
 Windows
-Workflow
+Automation
 Non-interactive Mode
 Codex SDK
 App Server
@@ -343,11 +343,11 @@ Community
 Home
 All posts
 Recent
+How Perplexity Brought Voice Search to Millions Using the Realtime API
 Designing delightful frontends with GPT-5.4
 From prompts to products: One year of Responses
 Using skills to accelerate OSS maintenance
 Building frontend UIs with Codex and Figma
-Run long horizon tasks with Codex
 Topics
 General
 API
