@@ -1,5 +1,45 @@
 [
   {
+    "id": "df206bc805cadae2237f8db0cd3d5bd249b090c8",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-. After that date, requests that include the\n+. After that date, the\n-beta header on these models will return a 400 error. To continue using 1M context windows, migrate to\n+beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To continue using 1M context windows, migrate to\n-Long context pricing\n-Fine-grained tool streaming\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to\n-output_config.format\n-.\n-To increase answer quality and decrease tool errors, we've changed the default value for the\n-top_p\n-nucleus sampling\n-parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set\n-top_p\n-to 0.999.\n-Additionally, when extended thinking is enabled, you can now set\n-top_p\n-to values between 0.95 and 1.\n-We've moved our\n-Go SDK\n-from beta to GA.\n-We've included minute and hour level granularity to the\n-Usage\n-page of Console alongside 429 error rates on the Usage page.\n-computer_20250124\n-: Updated computer use tool with new command options including \"hold_key\", \"left_mouse_down\", \"left_mouse_up\", \"scroll\", \"triple_click\", and \"wait\". This tool requires the \"computer-use-2025-01-24\" a\n-Learn more in\n-Tool use with Claude\n-.\n+Long context pricing\n+Fine-grained tool streaming\n+is now generally available on all models and platforms (no beta header required). The\n+output_format\n+parameter for\n+structured outputs\n+has been moved to",
+    "snippet_full": "",
+    "diff": {
+      "added": 31,
+      "removed": 31,
+      "churn": 62
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 01 Apr 2026 01:56:58 GMT",
+    "run_at": "2026-04-01T01:56:51Z",
+    "run_id": "1c0a260a547047babb0ec9bf908247ac"
+  },
+  {
+    "id": "35c0991cbce479d3568ef94cd15723cf426ff9db",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Accelerating the next phase of AI\n+link: https://openai.com/index/accelerating-the-next-phase-ai\n+id: https://openai.com/index/accelerating-the-next-phase-ai\n+date: Tue, 31 Mar 2026 13:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 01 Apr 2026 01:56:52 GMT",
+    "run_at": "2026-04-01T01:56:51Z",
+    "run_id": "1c0a260a547047babb0ec9bf908247ac"
+  },
+  {
     "id": "5f0f3ec6a79528e83c33871a46805100819d2cc1",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -945,43 +985,5 @@
     "pubDate": "Wed, 11 Mar 2026 01:21:13 GMT",
     "run_at": "2026-03-11T01:21:12Z",
     "run_id": "de2cf3782cdd43a3b595621d38d7c9c0"
-  },
-  {
-    "id": "277483f0bc8372e42b302c9939c7d5892573258a",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Best practices",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 11 Mar 2026 01:21:13 GMT",
-    "run_at": "2026-03-11T01:21:12Z",
-    "run_id": "de2cf3782cdd43a3b595621d38d7c9c0"
-  },
-  {
-    "id": "58b013e2edd081a44eaaf4b328ec6a63fa8dd395",
-    "impact": "Medium",
-    "name": "Google Vertex AI Release Notes (RSS)",
-    "url": "https://cloud.google.com/feeds/vertex-ai-release-notes.xml",
-    "snippet": "+title: March 05, 2026\n+link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_05_2026\n+id: tag:google.com,2016:vertex-ai-release-notes#March_05_2026\n+date: 2026-03-05T00:00:00-08:00\n+body:\n+#ITEM\n-title: September 16, 2024\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_16_2024\n-id: tag:google.com,2016:vertex-ai-release-notes#September_16_2024\n-date: 2024-09-16T00:00:00-07:00\n-body:\n-#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 6,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 10 Mar 2026 01:21:06 GMT",
-    "run_at": "2026-03-10T01:20:59Z",
-    "run_id": "b3d2b083263f4fe5a0958ad1ad725567"
   }
 ]

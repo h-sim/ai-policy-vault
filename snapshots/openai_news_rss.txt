@@ -467,6 +467,12 @@ id: https://openai.com/index/accelerating-science-gpt-5
 date: Thu, 20 Nov 2025 00:00:00 GMT
 body:
 #ITEM
+title: Accelerating the next phase of AI
+link: https://openai.com/index/accelerating-the-next-phase-ai
+id: https://openai.com/index/accelerating-the-next-phase-ai
+date: Tue, 31 Mar 2026 13:00:00 GMT
+body:
+#ITEM
 title: Accenture and OpenAI accelerate enterprise AI success
 link: https://openai.com/index/accenture-partnership
 id: https://openai.com/index/accenture-partnership
