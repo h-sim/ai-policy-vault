@@ -1271,10 +1271,10 @@ id: https://openai.com/index/democratic-inputs-to-ai-grant-program-update
 date: Tue, 16 Jan 2024 08:00:00 GMT
 body:
 #ITEM
-title: How Descript enables multilingual video dubbing at scale
+title: How Descript engineers multilingual video dubbing at scale
 link: https://openai.com/index/descript
 id: https://openai.com/index/descript
-date: Fri, 06 Mar 2026 10:00:00 GMT
+date: Fri, 06 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: Designing AI agents to resist prompt injection
@@ -2127,6 +2127,12 @@ title: Building smarter maps with GPT-4o vision fine-tuning
 link: https://openai.com/index/grab
 id: https://openai.com/index/grab
 date: Wed, 20 Nov 2024 17:00:00 GMT
+body:
+#ITEM
+title: Gradient Labs gives every bank customer an AI account manager
+link: https://openai.com/index/gradient-labs
+id: https://openai.com/index/gradient-labs
+date: Wed, 01 Apr 2026 02:00:00 GMT
 body:
 #ITEM
 title: Introducing group chats in ChatGPT

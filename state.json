@@ -1,5 +1,24 @@
 [
   {
+    "id": "ad54094171425ad656dcddb202a156fa73d97a75",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: How Descript enables multilingual video dubbing at scale\n+title: How Descript engineers multilingual video dubbing at scale\n-date: Fri, 06 Mar 2026 10:00:00 GMT\n+date: Fri, 06 Mar 2026 00:00:00 GMT\n+title: Gradient Labs gives every bank customer an AI account manager\n+link: https://openai.com/index/gradient-labs\n+id: https://openai.com/index/gradient-labs\n+date: Wed, 01 Apr 2026 02:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 8,
+      "removed": 2,
+      "churn": 10
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 02 Apr 2026 01:45:47 GMT",
+    "run_at": "2026-04-02T01:45:46Z",
+    "run_id": "7fe6821b27b6459fb32113ab625f24ec"
+  },
+  {
     "id": "df206bc805cadae2237f8db0cd3d5bd249b090c8",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -964,25 +983,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Wed, 11 Mar 2026 01:21:19 GMT",
-    "run_at": "2026-03-11T01:21:12Z",
-    "run_id": "de2cf3782cdd43a3b595621d38d7c9c0"
-  },
-  {
-    "id": "680f5da5a9f8190419236c32ab55650e1792e851",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Improving instruction hierarchy in frontier LLMs\n+link: https://openai.com/index/instruction-hierarchy-challenge\n+id: https://openai.com/index/instruction-hierarchy-challenge\n+date: Tue, 10 Mar 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: New ways to learn math and science in ChatGPT\n+link: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt\n+id: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt\n+date: Tue, 10 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 11 Mar 2026 01:21:13 GMT",
     "run_at": "2026-03-11T01:21:12Z",
     "run_id": "de2cf3782cdd43a3b595621d38d7c9c0"
   }
