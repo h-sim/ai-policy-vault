@@ -995,6 +995,12 @@ id: https://openai.com/index/codex-apps
 date: Tue, 24 May 2022 07:00:00 GMT
 body:
 #ITEM
+title: Codex now offers more flexible pricing for teams
+link: https://openai.com/index/codex-flexible-pricing-for-teams
+id: https://openai.com/index/codex-flexible-pricing-for-teams
+date: Thu, 02 Apr 2026 10:00:00 GMT
+body:
+#ITEM
 title: Codex is now generally available
 link: https://openai.com/index/codex-now-generally-available
 id: https://openai.com/index/codex-now-generally-available
@@ -3561,6 +3567,12 @@ title: OpenAI acquires Software Applications Incorporated, maker of Sky
 link: https://openai.com/index/openai-acquires-software-applications-incorporated
 id: https://openai.com/index/openai-acquires-software-applications-incorporated
 date: Thu, 23 Oct 2025 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI acquires TBPN
+link: https://openai.com/index/openai-acquires-tbpn
+id: https://openai.com/index/openai-acquires-tbpn
+date: Thu, 02 Apr 2026 10:30:00 GMT
 body:
 #ITEM
 title: AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs

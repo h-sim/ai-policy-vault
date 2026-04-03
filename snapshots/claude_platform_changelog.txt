@@ -119,18 +119,102 @@ Claude Opus 4.6
 , which support the full 1M token context window at standard pricing with no beta header required.
 March 18, 2026
 We've added model capability fields to the
-Models API
 .
-GET /v1/models
 and
-GET /v1/models/{model_id}
 now return
-max_input_tokens
 ,
-max_tokens
 , and a
-capabilities
 object. Query the API to discover what each model supports.
+Was this page helpful?
+March 30, 2026
+March 18, 2026
+March 16, 2026
+March 13, 2026
+February 19, 2026
+February 17, 2026
+February 7, 2026
+February 5, 2026
+January 29, 2026
+January 12, 2026
+January 5, 2026
+December 19, 2025
+December 4, 2025
+November 24, 2025
+November 21, 2025
+November 19, 2025
+November 18, 2025
+November 14, 2025
+October 28, 2025
+October 16, 2025
+October 15, 2025
+September 29, 2025
+September 17, 2025
+September 16, 2025
+September 10, 2025
+September 8, 2025
+September 5, 2025
+September 3, 2025
+September 2, 2025
+August 27, 2025
+August 26, 2025
+August 19, 2025
+August 18, 2025
+August 13, 2025
+August 12, 2025
+August 11, 2025
+August 8, 2025
+August 5, 2025
+July 28, 2025
+July 24, 2025
+July 21, 2025
+July 17, 2025
+July 3, 2025
+June 30, 2025
+June 23, 2025
+June 11, 2025
+May 22, 2025
+May 21, 2025
+May 7, 2025
+May 1, 2025
+April 9th, 2025
+March 31st, 2025
+February 27th, 2025
+February 24th, 2025
+February 10th, 2025
+January 31st, 2025
+January 23rd, 2025
+January 21st, 2025
+January 15th, 2025
+January 10th, 2025
+December 19th, 2024
+December 17th, 2024
+December 4th, 2024
+November 21st, 2024
+November 20th, 2024
+November 13th, 2024
+November 6th, 2024
+November 4th, 2024
+November 1st, 2024
+October 22nd, 2024
+October 8th, 2024
+October 3rd, 2024
+September 10th, 2024
+September 4th, 2024
+August 22nd, 2024
+August 19th, 2024
+August 14th, 2024
+July 15th, 2024
+July 9th, 2024
+June 27th, 2024
+June 20th, 2024
+May 30th, 2024
+May 10th, 2024
+Models API
+GET /v1/models
+GET /v1/models/{model_id}
+max_input_tokens
+max_tokens
+capabilities
 March 16, 2026
 We've launched the
 display
@@ -248,7 +332,16 @@ parameter. US-only inference is available at 1.1x pricing for models released af
 The
 1M token context window
 is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4.
+Long context pricing
 applies to requests exceeding 200k input tokens.
+Fine-grained tool streaming
+is now generally available on all models and platforms (no beta header required). The
+output_format
+parameter for
+structured outputs
+has been moved to
+output_config.format
+.
 January 29, 2026
 Structured outputs
 are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The
@@ -571,6 +664,21 @@ in public beta, a tool that enables Claude to execute Python code in a secure, s
 We've launched the
 MCP connector
 in public beta, a feature that allows you to connect to remote MCP servers directly from the Messages API.
+To increase answer quality and decrease tool errors, we've changed the default value for the
+top_p
+nucleus sampling
+parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set
+top_p
+to 0.999.
+Additionally, when extended thinking is enabled, you can now set
+top_p
+to values between 0.95 and 1.
+We've moved our
+Go SDK
+from beta to GA.
+We've included minute and hour level granularity to the
+Usage
+page of Console alongside 429 error rates on the Usage page.
 May 21, 2025
 We've moved our
 Ruby SDK
@@ -644,6 +752,11 @@ bash_20250124
 : Same functionality as previous version but is independent from computer use. Does not require a beta header.
 text_editor_20250124
 : Same functionality as previous version but is independent from computer use. Does not require a beta header.
+computer_20250124
+: Updated computer use tool with new command options including "hold_key", "left_mouse_down", "left_mouse_up", "scroll", "triple_click", and "wait". This tool requires the "computer-use-2025-01-24" anthropic-beta header.
+Learn more in
+Tool use with Claude
+.
 February 10th, 2025
 We've added the
 anthropic-organization-id
@@ -828,117 +941,4 @@ Our prompt generator tool is now available in the
 Developer Console
 . Prompt Generator makes it easy to guide Claude to generate a high-quality prompts tailored to your specific tasks. Read more in our
 blog post
-.
-Was this page helpful?
-March 30, 2026
-March 18, 2026
-March 16, 2026
-March 13, 2026
-February 19, 2026
-February 17, 2026
-February 7, 2026
-February 5, 2026
-January 29, 2026
-January 12, 2026
-January 5, 2026
-December 19, 2025
-December 4, 2025
-November 24, 2025
-November 21, 2025
-November 19, 2025
-November 18, 2025
-November 14, 2025
-October 28, 2025
-October 16, 2025
-October 15, 2025
-September 29, 2025
-September 17, 2025
-September 16, 2025
-September 10, 2025
-September 8, 2025
-September 5, 2025
-September 3, 2025
-September 2, 2025
-August 27, 2025
-August 26, 2025
-August 19, 2025
-August 18, 2025
-August 13, 2025
-August 12, 2025
-August 11, 2025
-August 8, 2025
-August 5, 2025
-July 28, 2025
-July 24, 2025
-July 21, 2025
-July 17, 2025
-July 3, 2025
-June 30, 2025
-June 23, 2025
-June 11, 2025
-May 22, 2025
-May 21, 2025
-May 7, 2025
-May 1, 2025
-April 9th, 2025
-March 31st, 2025
-February 27th, 2025
-February 24th, 2025
-February 10th, 2025
-January 31st, 2025
-January 23rd, 2025
-January 21st, 2025
-January 15th, 2025
-January 10th, 2025
-December 19th, 2024
-December 17th, 2024
-December 4th, 2024
-November 21st, 2024
-November 20th, 2024
-November 13th, 2024
-November 6th, 2024
-November 4th, 2024
-November 1st, 2024
-October 22nd, 2024
-October 8th, 2024
-October 3rd, 2024
-September 10th, 2024
-September 4th, 2024
-August 22nd, 2024
-August 19th, 2024
-August 14th, 2024
-July 15th, 2024
-July 9th, 2024
-June 27th, 2024
-June 20th, 2024
-May 30th, 2024
-May 10th, 2024
-Long context pricing
-Fine-grained tool streaming
-is now generally available on all models and platforms (no beta header required). The
-output_format
-parameter for
-structured outputs
-has been moved to
-output_config.format
-.
-To increase answer quality and decrease tool errors, we've changed the default value for the
-top_p
-nucleus sampling
-parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set
-top_p
-to 0.999.
-Additionally, when extended thinking is enabled, you can now set
-top_p
-to values between 0.95 and 1.
-We've moved our
-Go SDK
-from beta to GA.
-We've included minute and hour level granularity to the
-Usage
-page of Console alongside 429 error rates on the Usage page.
-computer_20250124
-: Updated computer use tool with new command options including "hold_key", "left_mouse_down", "left_mouse_up", "scroll", "triple_click", and "wait". This tool requires the "computer-use-2025-01-24" anthropic-beta header.
-Learn more in
-Tool use with Claude
 .
