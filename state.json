@@ -1,5 +1,27 @@
 [
   {
+    "id": "07a6627e84a0971482707ca3480bb7d79a3046cc",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-.\n-and\n+Models API\n+.\n+GET /v1/models\n+and\n+GET /v1/models/{model_id}\n+max_input_tokens\n+max_tokens\n+capabilities\n+March 16, 2026\n+We've launched the\n+display\n+field for extended thinking, letting you omit thinking content from responses for faster streaming. Set\n+thinking.display: \"omitted\"\n+to receive thinking blocks with an empty\n+thinking\n+field and the\n+signature\n+preserved for multi-turn continuity. Billing is unchanged. Learn more in\n+Controlling thinking display\n+.\n+March 13, 2026\n+The\n+1M token context window\n+is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context win\n+We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.\n+We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.\n+February 19, 2026\n+We've launched\n+automatic caching\n+for the Messages API. Add a single\n+cache_control\n+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n+Prompt caching\n+.\n+We've retired the Claude Sonnet 3.7 model (\n+claude-3-7-sonnet-20250219\n+) and the Claude Haiku 3.5 model (\n+claude-3-5-haiku-20241022",
+    "snippet_full": "",
+    "diff": {
+      "added": 706,
+      "removed": 706,
+      "churn": 1412
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 04 Apr 2026 01:29:20 GMT",
+    "run_at": "2026-04-04T01:28:55Z",
+    "run_id": "c6735d07afd842988be10efac1771611"
+  },
+  {
     "id": "3bdcd5529482ae4903c6fc5b26ccda6b9f655cc5",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -969,25 +991,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Thu, 12 Mar 2026 01:21:27 GMT",
-    "run_at": "2026-03-12T01:21:01Z",
-    "run_id": "f2a299f2fe8b48a49c385b70baca314c"
-  },
-  {
-    "id": "9cf041da50809f61da9598eb61bd030a9b442088",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Designing AI agents to resist prompt injection\n+link: https://openai.com/index/designing-agents-to-resist-prompt-injection\n+id: https://openai.com/index/designing-agents-to-resist-prompt-injection\n+date: Wed, 11 Mar 2026 11:30:00 GMT\n+body:\n+#ITEM\n+title: From model to agent: Equipping the Responses API with a computer environment\n+link: https://openai.com/index/equip-responses-api-computer-environment\n+id: https://openai.com/index/equip-responses-api-computer-environment\n+date: Wed, 11 Mar 2026 11:00:00 GMT\n-title: Pairing data with APIs to unlock customer value\n+title: Rakuten fixes issues twice as fast with Codex",
-    "snippet_full": "+title: Designing AI agents to resist prompt injection\n+link: https://openai.com/index/designing-agents-to-resist-prompt-injection\n+id: https://openai.com/index/designing-agents-to-resist-prompt-injection\n+date: Wed, 11 Mar 2026 11:30:00 GMT\n+body:\n+#ITEM\n+title: From model to agent: Equipping the Responses API with a computer environment\n+link: https://openai.com/index/equip-responses-api-computer-environment\n+id: https://openai.com/index/equip-responses-api-computer-environment\n+date: Wed, 11 Mar 2026 11:00:00 GMT\n+body:\n+#ITEM\n-title: Pairing data with APIs to unlock customer value\n+title: Rakuten fixes issues twice as fast with Codex\n+date: Wed, 11 Mar 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: Pairing data with APIs to unlock customer value\n+link: https://openai.com/index/rakuten-2024\n+id: https://openai.com/index/rakuten-2024\n+title: Wayfair boosts catalog accuracy and support speed with OpenAI\n+link: https://openai.com/index/wayfair\n+id: https://openai.com/index/wayfair\n+date: Wed, 11 Mar 2026 11:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 25,
-      "removed": 1,
-      "churn": 26
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 12 Mar 2026 01:21:02 GMT",
     "run_at": "2026-03-12T01:21:01Z",
     "run_id": "f2a299f2fe8b48a49c385b70baca314c"
   }
