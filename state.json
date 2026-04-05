@@ -1,5 +1,24 @@
 [
   {
+    "id": "c2558fce7d0529773ceb23ed6192001ecf38773a",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+        - web_search_call.results",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 05 Apr 2026 01:51:51 GMT",
+    "run_at": "2026-04-05T01:51:43Z",
+    "run_id": "50454f899cda49368290b529ade8aa5d"
+  },
+  {
     "id": "07a6627e84a0971482707ca3480bb7d79a3046cc",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -970,28 +989,5 @@
     "pubDate": "Fri, 13 Mar 2026 01:25:02 GMT",
     "run_at": "2026-03-13T01:24:39Z",
     "run_id": "8ef0daf80fde4db39816b3ae8706b448"
-  },
-  {
-    "id": "ae371563cf1133c46d98095639199dd3a62faa38",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n-prompt caching documentation\n+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n+Prompt caching\n-our documentation\n+Model deprecations\n-, our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change\n-Models & Pricing documentation\n+, our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change\n+Models overview\n-Search result content blocks are now generally available on Amazon Bedrock. Learn more in our\n-search results documentation\n+Search result content blocks are now generally available on Amazon Bedrock. Learn more in\n+Search results\n-, bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, F\n-Microsoft Foundry documentation\n+, bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, F\n+Claude in Microsoft Foundry\n-our documentation\n+Model deprecations\n-), enabling automatic management of thinking blocks. Learn more in our\n-context editing documentation\n+), enabling automatic management of thinking blocks. Learn more in\n+Context editing\n-Learn more in our\n-Agent Skills documentation\n+Learn more in\n+Agent Skills\n-, our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Lea\n-Models & Pricing documentation\n+, our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Lea\n+Models overview\n-that allows you to request the maximum possible tokens without calculating input size. Learn more in our\n-handling stop reasons documentation\n-.\n-We've launched the memory tool in beta, enabling Claude to store and consult information across conversations. Learn more in our\n-memory tool documentation\n-.\n-We've launched context editing in beta, providing strategies to automatically manage conversation context. The initial release supports clearing older tool results and calls when approaching token li\n-context editing documentation",
-    "snippet_full": "",
-    "diff": {
-      "added": 85,
-      "removed": 82,
-      "churn": 167
-    },
-    "score": 140,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 12 Mar 2026 01:21:27 GMT",
-    "run_at": "2026-03-12T01:21:01Z",
-    "run_id": "f2a299f2fe8b48a49c385b70baca314c"
   }
 ]
