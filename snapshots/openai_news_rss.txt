@@ -2381,6 +2381,12 @@ id: https://openai.com/index/indeed-maggie-hulce
 date: Mon, 26 Jan 2026 00:00:00 GMT
 body:
 #ITEM
+title: Industrial policy for the Intelligence Age
+link: https://openai.com/index/industrial-policy-for-the-intelligence-age
+id: https://openai.com/index/industrial-policy-for-the-intelligence-age
+date: Mon, 06 Apr 2026 02:30:00 GMT
+body:
+#ITEM
 title: Infrastructure for deep learning
 link: https://openai.com/index/infrastructure-for-deep-learning
 id: https://openai.com/index/infrastructure-for-deep-learning
@@ -2727,6 +2733,12 @@ title: Introducing OpenAI o1
 link: https://openai.com/index/introducing-openai-o1-preview
 id: https://openai.com/index/introducing-openai-o1-preview
 date: Thu, 12 Sep 2024 10:03:00 GMT
+body:
+#ITEM
+title: Announcing the OpenAI Safety Fellowship
+link: https://openai.com/index/introducing-openai-safety-fellowship
+id: https://openai.com/index/introducing-openai-safety-fellowship
+date: Mon, 06 Apr 2026 10:00:00 GMT
 body:
 #ITEM
 title: Introducing Operator

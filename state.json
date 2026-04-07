@@ -1,5 +1,26 @@
 [
   {
+    "id": "69e22108ac312275ea2a276ae54fc26ea2fef6ce",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Industrial policy for the Intelligence Age\n+link: https://openai.com/index/industrial-policy-for-the-intelligence-age\n+id: https://openai.com/index/industrial-policy-for-the-intelligence-age\n+date: Mon, 06 Apr 2026 02:30:00 GMT\n+body:\n+#ITEM\n+title: Announcing the OpenAI Safety Fellowship\n+link: https://openai.com/index/introducing-openai-safety-fellowship\n+id: https://openai.com/index/introducing-openai-safety-fellowship\n+date: Mon, 06 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 07 Apr 2026 01:50:17 GMT",
+    "run_at": "2026-04-07T01:49:58Z",
+    "run_id": "ccbbc77079954e3da3e05fe7fe287056"
+  },
+  {
     "id": "c2558fce7d0529773ceb23ed6192001ecf38773a",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -966,27 +987,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Fri, 13 Mar 2026 01:25:09 GMT",
-    "run_at": "2026-03-13T01:24:39Z",
-    "run_id": "8ef0daf80fde4db39816b3ae8706b448"
-  },
-  {
-    "id": "793b43d3ea82cabd43647d62e2c505da9a9b5d51",
-    "impact": "Breaking",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+MCP servers\n+MCP servers\n+Mar 12\n+Feature\n+sora-2\n+sora-2-pro\n+v1/videos\n+v1/videos/characters\n+v1/videos/extensions\n+v1/batch\n+Expanded the Sora API with reusable character references, longer generations up to\n+20\n+seconds,\n+1080p\n+output for\n+sora-2-pro\n+, video extensions, and Batch API support for\n+POST /v1/videos\n+.\n+1080p\n+generations on\n+sora-2-pro\n+are billed at\n+$0.70\n+per second. Learn more\n+here\n+.\n+Mar 12\n+Update\n+sora-2\n+sora-2-pro\n+v1/videos/edits\n+v1/videos/{video_id}/remix\n+Added\n+POST /v1/videos/edits\n+for editing existing videos. This will replace\n+POST /v1/videos/{video_id}/remix\n+, which will be deprecated in\n+6\n+months. Learn more",
-    "snippet_full": "",
-    "diff": {
-      "added": 42,
-      "removed": 0,
-      "churn": 42
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 13 Mar 2026 01:25:02 GMT",
     "run_at": "2026-03-13T01:24:39Z",
     "run_id": "8ef0daf80fde4db39816b3ae8706b448"
   }
