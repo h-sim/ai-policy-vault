@@ -1,5 +1,45 @@
 [
   {
+    "id": "741feaa3a7f2e5f03390c3c3ee225b550c199f78",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+April 7, 2026\n+We announced\n+Claude Mythos Preview\n+is available as a gated research preview for defensive cybersecurity work as part of\n+Project Glasswing\n+. Access is invitation-only.\n+The\n+Messages API\n+is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at\n+/anthropic/v1/messages\n+uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in\n+us-east-1\n+; contact your Anthropic account executive to request access. Learn more in\n+Claude in Amazon Bedrock\n+.\n+April 7, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 16,
+      "removed": 0,
+      "churn": 16
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 08 Apr 2026 01:50:30 GMT",
+    "run_at": "2026-04-08T01:50:22Z",
+    "run_id": "21586140810e44d2b742117a9da89502"
+  },
+  {
+    "id": "4874c894cc166018c99a2fc6ddd58ccf307fb914",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Agents\n-Overview\n-Build agents\n+Using tools\n+Agents SDK\n+Overview\n+Quickstart\n+Agent definitions\n+Models and providers\n+Running agents\n+Orchestration\n+Guardrails\n+Results and state\n+Integrations and observability\n+Evaluate agent workflows\n+Voice agents\n+Overview\n-Agents SDK\n-Deploy in your product\n-Custom theming\n+Overview\n+Customize\n-Advanced integration\n-Optimize\n-Agent evals\n-Trace grading\n-Voice agents\n+Advanced integrations\n-Using tools\n-Agents\n-Overview\n-Build agents\n+Using tools\n+Agents SDK\n+Overview\n+Quickstart\n+Agent definitions\n+Models and providers\n+Running agents\n+Orchestration",
+    "snippet_full": "",
+    "diff": {
+      "added": 34,
+      "removed": 24,
+      "churn": 58
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 08 Apr 2026 01:50:23 GMT",
+    "run_at": "2026-04-08T01:50:22Z",
+    "run_id": "21586140810e44d2b742117a9da89502"
+  },
+  {
     "id": "69e22108ac312275ea2a276ae54fc26ea2fef6ce",
     "impact": "High",
     "name": "OpenAI News (RSS)",
@@ -951,43 +991,5 @@
     "pubDate": "Sat, 14 Mar 2026 01:22:53 GMT",
     "run_at": "2026-03-14T01:22:44Z",
     "run_id": "2d0885ceb3e3428c85569bbf5f8f9702"
-  },
-  {
-    "id": "9f1e8da8db30343dfe1fc1bbcf7893aab49f24fa",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Mar 13\n+Fix\n+gpt-5.4\n+v1/responses\n+v1/chat/completions\n+Updated our image encoder to fix a small bug with\n+input_image\n+inputs in GPT-5.4. Some image understanding use cases may now see improved quality. No action is required.",
-    "snippet_full": "",
-    "diff": {
-      "added": 8,
-      "removed": 0,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 14 Mar 2026 01:22:45 GMT",
-    "run_at": "2026-03-14T01:22:44Z",
-    "run_id": "2d0885ceb3e3428c85569bbf5f8f9702"
-  },
-  {
-    "id": "fafaaa25fb5a60b2788dbc7600598a6f9c6f856d",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-              $ref: '#/components/schemas/CreateVideoBody'\n+              $ref: '#/components/schemas/CreateVideoMultipartBody'\n-              $ref: '#/components/schemas/CreateVideoBody'\n+              $ref: '#/components/schemas/CreateVideoJsonBody'\n+  /videos/characters:\n+    post:\n+      tags:\n+        - Videos\n+      summary: Create a character from an uploaded video.\n+      operationId: CreateVideoCharacter\n+      parameters: []\n+      requestBody:\n+        content:\n+          multipart/form-data:\n+            schema:\n+              $ref: '#/components/schemas/CreateVideoCharacterBody'\n+      responses:\n+        '200':\n+          description: Success\n+          content:\n+            application/json:\n+              schema:\n+                $ref: '#/components/schemas/VideoCharacterResource'\n+      x-oaiMeta:\n+        examples:\n+          response: ''\n+          request:\n+            node.js: |-\n+              import OpenAI from 'openai';\n+\n+              const client = new OpenAI({\n+                apiKey: process.env['OPENAI_API_KEY'], // This is the default and can be omitted\n+              });\n+\n+              const character = await client.videos.character.create({\n+                name: 'x',\n+                video: fs.createReadStream('path/to/file'),\n+              });\n+\n+              console.log(character.id);",
-    "snippet_full": "",
-    "diff": {
-      "added": 511,
-      "removed": 13,
-      "churn": 524
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 13 Mar 2026 01:25:09 GMT",
-    "run_at": "2026-03-13T01:24:39Z",
-    "run_id": "8ef0daf80fde4db39816b3ae8706b448"
   }
 ]

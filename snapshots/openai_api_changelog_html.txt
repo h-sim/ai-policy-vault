@@ -63,25 +63,30 @@ Audio and speech
 Structured output
 Function calling
 Responses API
-Agents
+Using tools
+Agents SDK
 Overview
-Build agents
+Quickstart
+Agent definitions
+Models and providers
+Running agents
+Orchestration
+Guardrails
+Results and state
+Integrations and observability
+Evaluate agent workflows
+Voice agents
 Agent Builder
+Overview
 Node reference
 Safety in building agents
-Agents SDK
-Deploy in your product
 ChatKit
-Custom theming
+Overview
+Customize
 Widgets
 Actions
-Advanced integration
-Optimize
-Agent evals
-Trace grading
-Voice agents
+Advanced integrations
 Tools
-Using tools
 Web search
 MCP and Connectors
 Skills
@@ -411,25 +416,30 @@ Audio and speech
 Structured output
 Function calling
 Responses API
-Agents
+Using tools
+Agents SDK
 Overview
-Build agents
+Quickstart
+Agent definitions
+Models and providers
+Running agents
+Orchestration
+Guardrails
+Results and state
+Integrations and observability
+Evaluate agent workflows
+Voice agents
 Agent Builder
+Overview
 Node reference
 Safety in building agents
-Agents SDK
-Deploy in your product
 ChatKit
-Custom theming
+Overview
+Customize
 Widgets
 Actions
-Advanced integration
-Optimize
-Agent evals
-Trace grading
-Voice agents
+Advanced integrations
 Tools
-Using tools
 Web search
 MCP and Connectors
 Skills
