@@ -1,19 +1,89 @@
 Claude Platform - Claude API Docs
 Loading...
-Developer Guide
+Messages
+Build
+Admin
+Models & pricing
+Client SDKs
 API Reference
-MCP
-Resources
-Release Notes
 English
 Log in
 Search...
 ⌘K
+First steps
+Intro to Claude
+Quickstart
+Building with Claude
+Features overview
+Using the Messages API
+Handling stop reasons
+Model capabilities
+Extended thinking
+Adaptive thinking
+Effort
+Fast mode (beta: research preview)
+Structured outputs
+Citations
+Streaming Messages
+Batch processing
+Search results
+Streaming refusals
+Multilingual support
+Embeddings
+Tools
 Overview
+How tool use works
+Web search tool
+Web fetch tool
+Code execution tool
+Memory tool
+Bash tool
+Computer use tool
+Text editor tool
+Tool infrastructure
+Tool search
+Programmatic tool calling
+Fine-grained tool streaming
+Context management
+Context windows
+Compaction
+Context editing
+Prompt caching
+Token counting
+Working with files
+Files API
+PDF support
+Images and vision
+Skills
+Overview
+Quickstart
+Best practices
+Skills for enterprise
+Skills in the API
+MCP
+Remote MCP servers
+MCP connector
+Prompt engineering
+Overview
+Prompting best practices
+Console prompting tools
+Test and evaluate
+Define success and build evaluations
+Using the Evaluation Tool in Console
+Reducing latency
+Strengthen guardrails
+Reduce hallucinations
+Increase output consistency
+Mitigate jailbreaks
+Reduce prompt leak
+Resources
+Glossary
+Use cases
+Release notes
 Claude Platform
 Console
 Log in
-Overview
+Release notes
 Claude Platform
 Loading...
 Loading...
@@ -87,7 +157,7 @@ Responsible disclosure policy
 Terms of service: Commercial
 Terms of service: Consumer
 Usage policy
-Overview
+Release notes
 Claude Platform
 Copy page
 Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.
@@ -100,6 +170,20 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+April 8, 2026
+We've launched
+Claude Managed Agents
+in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the
+managed-agents-2026-04-01
+beta header. Learn more in
+Claude Managed Agents overview
+.
+We've launched the
+ant
+CLI
+, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the
+CLI reference
+.
 April 7, 2026
 We announced
 Claude Mythos Preview
@@ -874,6 +958,7 @@ Developer Console
 blog post
 .
 Was this page helpful?
+April 8, 2026
 April 7, 2026
 March 30, 2026
 March 18, 2026

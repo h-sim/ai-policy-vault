@@ -701,10 +701,10 @@ id: https://openai.com/index/axios-allison-murphy
 date: Wed, 04 Mar 2026 00:00:00 GMT
 body:
 #ITEM
-title: How Balyasny Asset Management built an AI research engine for investing
+title: How Balyasny Asset Management built an AI research engine
 link: https://openai.com/index/balyasny-asset-management
 id: https://openai.com/index/balyasny-asset-management
-date: Fri, 06 Mar 2026 07:00:00 GMT
+date: Fri, 06 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: Scaling accounting capacity with OpenAI
@@ -2549,6 +2549,12 @@ id: https://openai.com/index/introducing-chatgpt-team
 date: Wed, 10 Jan 2024 08:00:00 GMT
 body:
 #ITEM
+title: Introducing the Child Safety Blueprint
+link: https://openai.com/index/introducing-child-safety-blueprint
+id: https://openai.com/index/introducing-child-safety-blueprint
+date: Wed, 08 Apr 2026 05:00:00 GMT
+body:
+#ITEM
 title: Introducing Codex
 link: https://openai.com/index/introducing-codex
 id: https://openai.com/index/introducing-codex
@@ -3437,6 +3443,12 @@ id: https://openai.com/index/next-chapter-of-microsoft-openai-partnership
 date: Tue, 28 Oct 2025 06:00:00 GMT
 body:
 #ITEM
+title: The next phase of enterprise AI
+link: https://openai.com/index/next-phase-of-enterprise-ai
+id: https://openai.com/index/next-phase-of-enterprise-ai
+date: Wed, 08 Apr 2026 14:00:00 GMT
+body:
+#ITEM
 title: Nonlinear computation in deep linear networks
 link: https://openai.com/index/nonlinear-computation-in-deep-linear-networks
 id: https://openai.com/index/nonlinear-computation-in-deep-linear-networks
@@ -4304,7 +4316,7 @@ body:
 title: Rakuten fixes issues twice as fast with Codex
 link: https://openai.com/index/rakuten
 id: https://openai.com/index/rakuten
-date: Wed, 11 Mar 2026 13:00:00 GMT
+date: Wed, 11 Mar 2026 00:00:00 GMT
 body:
 #ITEM
 title: Pairing data with APIs to unlock customer value

@@ -1,5 +1,47 @@
 [
   {
+    "id": "aaab98370847dc73950ea24fd2409774363cd35e",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Developer Guide\n+Messages\n+Build\n+Admin\n+Models & pricing\n+Client SDKs\n-MCP\n-Resources\n-Release Notes\n+First steps\n+Intro to Claude\n+Quickstart\n+Building with Claude\n+Features overview\n+Using the Messages API\n+Handling stop reasons\n+Model capabilities\n+Extended thinking\n+Adaptive thinking\n+Effort\n+Fast mode (beta: research preview)\n+Structured outputs\n+Citations\n+Streaming Messages\n+Batch processing\n+Search results\n+Streaming refusals\n+Multilingual support\n+Embeddings\n+Tools\n+How tool use works\n+Web search tool\n+Web fetch tool\n+Code execution tool\n+Memory tool\n+Bash tool\n+Computer use tool\n+Text editor tool\n+Tool infrastructure\n+Tool search",
+    "snippet_full": "",
+    "diff": {
+      "added": 91,
+      "removed": 6,
+      "churn": 97
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 09 Apr 2026 01:30:08 GMT",
+    "run_at": "2026-04-09T01:29:40Z",
+    "run_id": "01f0842abff14036a89d47108cf5755c"
+  },
+  {
+    "id": "b23a958c838f9f9b8b984e51eeaf1a0202b1dace",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: How Balyasny Asset Management built an AI research engine for investing\n+title: How Balyasny Asset Management built an AI research engine\n-date: Fri, 06 Mar 2026 07:00:00 GMT\n+date: Fri, 06 Mar 2026 00:00:00 GMT\n+title: Introducing the Child Safety Blueprint\n+link: https://openai.com/index/introducing-child-safety-blueprint\n+id: https://openai.com/index/introducing-child-safety-blueprint\n+date: Wed, 08 Apr 2026 05:00:00 GMT\n+body:\n+#ITEM\n+title: The next phase of enterprise AI\n+link: https://openai.com/index/next-phase-of-enterprise-ai\n+id: https://openai.com/index/next-phase-of-enterprise-ai\n+date: Wed, 08 Apr 2026 14:00:00 GMT\n+body:\n+#ITEM\n-date: Wed, 11 Mar 2026 13:00:00 GMT\n+date: Wed, 11 Mar 2026 00:00:00 GMT",
+    "snippet_full": "",
+    "diff": {
+      "added": 15,
+      "removed": 3,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 09 Apr 2026 01:30:01 GMT",
+    "run_at": "2026-04-09T01:29:40Z",
+    "run_id": "01f0842abff14036a89d47108cf5755c"
+  },
+  {
     "id": "741feaa3a7f2e5f03390c3c3ee225b550c199f78",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -950,46 +992,5 @@
     "pubDate": "Sun, 15 Mar 2026 01:48:23 GMT",
     "run_at": "2026-03-15T01:48:16Z",
     "run_id": "d778447b713c4208aa98ddddac375c58"
-  },
-  {
-    "id": "40776dbad18c7e301066c38fc0ec7a8f49e79e75",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+March 13, 2026\n+The\n+1M token context window\n+is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context win\n+We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.\n+We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.\n-Long context pricing\n-applies to requests exceeding 200K input tokens.\n-Fine-grained tool streaming\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to\n-output_config.format\n-.\n+applies to requests exceeding 200k input tokens.\n-for Claude Sonnet 4 on the Claude API. For more information, see\n-Long context rate limits\n-.\n-The 1m token context window is now available on Google Cloud's Vertex AI. For more information, see\n+for Claude Sonnet 4 on the Claude API.\n+The 1M token context window is now available on Google Cloud's Vertex AI. For more information, see\n-To increase answer quality and decrease tool errors, we've changed the default value for the\n-top_p\n-nucleus sampling\n-parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set\n-top_p\n-to 0.999.\n-Additionally, when extended thinking is enabled, you can now set\n-top_p\n-to values between 0.95 and 1.\n-We've moved our\n-Go SDK\n-from beta to GA.\n-We've included minute and hour level granularity to the\n-Usage\n-page of Console alongside 429 error rates on the Usage page.\n-computer_20250124\n-: Updated computer use tool with new command options including \"hold_key\", \"left_mouse_down\", \"left_mouse_up\", \"scroll\", \"triple_click\", and \"wait\". This tool requires the \"computer-use-2025-01-24\" a",
-    "snippet_full": "",
-    "diff": {
-      "added": 39,
-      "removed": 34,
-      "churn": 73
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 14 Mar 2026 01:23:15 GMT",
-    "run_at": "2026-03-14T01:22:44Z",
-    "run_id": "2d0885ceb3e3428c85569bbf5f8f9702"
-  },
-  {
-    "id": "a0bc4b6f8dc0c2618c7c25e50612665c5a008c79",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                    voice=\"ash\",\n+                    voice=\"string\",\n-                  voice: 'ash',\n+                  voice: 'string',\n-              go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\n+              go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\n-                            .voice(SpeechCreateParams.Voice.ASH)\n+                            .voice(\"string\")\n-                :\"tts-1\", voice: :ash)\n+                :\"tts-1\", voice: \"string\")\n-                  voice: 'ash',\n+                  voice: 'string',\n-                    voice=\"ash\",\n+                    voice=\"string\",\n-              go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\n+              go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\n-                            .voice(SpeechCreateParams.Voice.ASH)\n+                            .voice(\"string\")\n-                :\"tts-1\", voice: :ash)\n+                :\"tts-1\", voice: \"string\")\n+                    - /v1/videos\n-                    `/v1/images/generations`, and `/v1/images/edits` are\n-                    supported. Note that `/v1/embeddings` batches are also\n-                    restricted to a maximum of 50,000 embedding inputs across\n-                    all requests in the batch.\n+                    `/v1/images/generations`, `/v1/images/edits`, and\n+                    `/v1/videos` are supported. Note that `/v1/embeddings`\n+                    batches are also restricted to a maximum of 50,000 embedding\n+                    inputs across all requests in the batch.\n-              const character = await client.videos.character.create({\n+              const response = await client.videos.createCharacter({\n-              console.log(character.id);\n+              console.log(response.id);\n-              character = client.videos.character.create(\n+              response = client.videos.create_character(\n-              print(character.id)\n-            go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient\n+              print(response.id)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient\n-              import com.openai.models.videos.character.CharacterCreateParams;",
-    "snippet_full": "",
-    "diff": {
-      "added": 46,
-      "removed": 49,
-      "churn": 95
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 14 Mar 2026 01:22:53 GMT",
-    "run_at": "2026-03-14T01:22:44Z",
-    "run_id": "2d0885ceb3e3428c85569bbf5f8f9702"
   }
 ]
