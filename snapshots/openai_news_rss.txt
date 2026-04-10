@@ -1145,6 +1145,12 @@ id: https://openai.com/index/customizing-gpt-3
 date: Tue, 14 Dec 2021 08:00:00 GMT
 body:
 #ITEM
+title: CyberAgent moves faster with ChatGPT Enterprise and Codex
+link: https://openai.com/index/cyberagent
+id: https://openai.com/index/cyberagent
+date: Thu, 09 Apr 2026 00:00:00 GMT
+body:
+#ITEM
 title: Advancing organizational transformation for business innovation
 link: https://openai.com/index/dai-nippon-printing
 id: https://openai.com/index/dai-nippon-printing
@@ -1761,6 +1767,12 @@ title: Evaluating AI’s ability to perform scientific research tasks
 link: https://openai.com/index/frontierscience
 id: https://openai.com/index/frontierscience
 date: Tue, 16 Dec 2025 09:00:00 GMT
+body:
+#ITEM
+title: OpenAI Full Fan Mode Contest: Terms & Conditions
+link: https://openai.com/index/full-fan-mode-contest-terms-conditions
+id: https://openai.com/index/full-fan-mode-contest-terms-conditions
+date: Thu, 09 Apr 2026 00:00:00 GMT
 body:
 #ITEM
 title: Function calling and other API updates

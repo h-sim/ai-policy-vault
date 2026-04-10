@@ -202,7 +202,6 @@ Overview
 Quickstart
 Explore
 Pricing
-Community
 Concepts
 Prompting
 Customization
@@ -211,7 +210,6 @@ Subagents
 Workflows
 Models
 Cyber Safety
-Use cases
 Using Codex
 App
 Overview
@@ -281,6 +279,7 @@ GitHub Action
 Learn
 Best practices
 Videos
+Community
 Blog
 Using skills to accelerate OSS maintenance
 Building frontend UIs with Codex and Figma

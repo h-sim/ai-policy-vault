@@ -1,5 +1,66 @@
 [
   {
+    "id": "929b689e88df6305f4726f6638ffbb84b5c85b19",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+Advisor tool\n+Tool reference\n-Catalog\n-Catalog\n+April 9, 2026\n+We've launched the\n+advisor tool\n+in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo qual\n+advisor-tool-2026-03-01\n+in your requests.\n-Long context pricing\n-Fine-grained tool streaming\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to\n-output_config.format\n-.\n-To increase answer quality and decrease tool errors, we've changed the default value for the\n-top_p\n-nucleus sampling\n-parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set\n-top_p\n-to 0.999.\n-Additionally, when extended thinking is enabled, you can now set\n-top_p\n-to values between 0.95 and 1.\n-We've moved our\n-Go SDK\n-from beta to GA.\n-We've included minute and hour level granularity to the\n-Usage\n-page of Console alongside 429 error rates on the Usage page.\n-computer_20250124\n-: Updated computer use tool with new command options including \"hold_key\", \"left_mouse_down\", \"left_mouse_up\", \"scroll\", \"triple_click\", and \"wait\". This tool requires the \"computer-use-2025-01-24\" a\n-Learn more in\n-Tool use with Claude\n-.\n+April 9, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 38,
+      "removed": 31,
+      "churn": 69
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 10 Apr 2026 01:54:00 GMT",
+    "run_at": "2026-04-10T01:53:34Z",
+    "run_id": "81e1fe7cb75e4ce4bdd60942c3c98c85"
+  },
+  {
+    "id": "9173cf8cd0a015f9abb65c6686b2137396deb463",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: CyberAgent moves faster with ChatGPT Enterprise and Codex\n+link: https://openai.com/index/cyberagent\n+id: https://openai.com/index/cyberagent\n+date: Thu, 09 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI Full Fan Mode Contest: Terms & Conditions\n+link: https://openai.com/index/full-fan-mode-contest-terms-conditions\n+id: https://openai.com/index/full-fan-mode-contest-terms-conditions\n+date: Thu, 09 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 10 Apr 2026 01:53:54 GMT",
+    "run_at": "2026-04-10T01:53:34Z",
+    "run_id": "81e1fe7cb75e4ce4bdd60942c3c98c85"
+  },
+  {
+    "id": "1140136ff72e1321cdc06207c397ba3872dae09f",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Community\n-Use cases\n+Community",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 2,
+      "churn": 3
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 10 Apr 2026 01:53:34 GMT",
+    "run_at": "2026-04-10T01:53:34Z",
+    "run_id": "81e1fe7cb75e4ce4bdd60942c3c98c85"
+  },
+  {
     "id": "aaab98370847dc73950ea24fd2409774363cd35e",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -933,64 +994,5 @@
     "pubDate": "Tue, 17 Mar 2026 01:27:06 GMT",
     "run_at": "2026-03-17T01:26:45Z",
     "run_id": "cb75f9fd26344815a71503e63e7d998b"
-  },
-  {
-    "id": "c956d7feb1bc73617d96f213579438f9b104828d",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Multi-agents\n+Subagents\n-Multi-agents\n+Subagents\n+Mar 16\n+Update\n+gpt-5.3-chat-latest\n+Updated the\n+gpt-5.3-chat-latest\n+slug to point to the latest model currently used in ChatGPT.",
-    "snippet_full": "",
-    "diff": {
-      "added": 8,
-      "removed": 2,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 17 Mar 2026 01:26:46 GMT",
-    "run_at": "2026-03-17T01:26:45Z",
-    "run_id": "cb75f9fd26344815a71503e63e7d998b"
-  },
-  {
-    "id": "a4a46280f59f3bc16485446447451e76b1240671",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+Long context pricing\n+Fine-grained tool streaming\n+is now generally available on all models and platforms (no beta header required). The\n+output_format\n+parameter for\n+structured outputs\n+has been moved to\n+output_config.format\n+.\n+To increase answer quality and decrease tool errors, we've changed the default value for the\n+top_p\n+nucleus sampling\n+parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set\n+top_p\n+to 0.999.\n+Additionally, when extended thinking is enabled, you can now set\n+top_p\n+to values between 0.95 and 1.\n+We've moved our\n+Go SDK\n+from beta to GA.\n+We've included minute and hour level granularity to the\n+Usage\n+page of Console alongside 429 error rates on the Usage page.\n+computer_20250124\n+: Updated computer use tool with new command options including \"hold_key\", \"left_mouse_down\", \"left_mouse_up\", \"scroll\", \"triple_click\", and \"wait\". This tool requires the \"computer-use-2025-01-24\" a\n+Learn more in\n+Tool use with Claude\n+.\n-Long context pricing\n-Fine-grained tool streaming\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to\n-output_config.format\n-.\n-To increase answer quality and decrease tool errors, we've changed the default value for the\n-top_p",
-    "snippet_full": "",
-    "diff": {
-      "added": 29,
-      "removed": 29,
-      "churn": 58
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sun, 15 Mar 2026 01:48:24 GMT",
-    "run_at": "2026-03-15T01:48:16Z",
-    "run_id": "d778447b713c4208aa98ddddac375c58"
-  },
-  {
-    "id": "342b57cc224a8f96289d05fc349808b6a7e6f161",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+        defer_loading:\n+          type: boolean\n+          description: >-\n+            Whether this function should be deferred and discovered via tool\n+            search.",
-    "snippet_full": "",
-    "diff": {
-      "added": 5,
-      "removed": 0,
-      "churn": 5
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 15 Mar 2026 01:48:23 GMT",
-    "run_at": "2026-03-15T01:48:16Z",
-    "run_id": "d778447b713c4208aa98ddddac375c58"
   }
 ]
