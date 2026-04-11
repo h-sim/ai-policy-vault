@@ -1,4 +1,148 @@
 #ITEM
+title: Applications of AI at OpenAI
+link: https://openai.com/academy/applications-of-ai
+id: https://openai.com/academy/applications-of-ai
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Brainstorming with ChatGPT
+link: https://openai.com/academy/brainstorming
+id: https://openai.com/academy/brainstorming
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Using custom GPTs
+link: https://openai.com/academy/custom-gpts
+id: https://openai.com/academy/custom-gpts
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: ChatGPT for customer success teams
+link: https://openai.com/academy/customer-success
+id: https://openai.com/academy/customer-success
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Analyzing data with ChatGPT
+link: https://openai.com/academy/data-analysis
+id: https://openai.com/academy/data-analysis
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: ChatGPT for finance teams
+link: https://openai.com/academy/finance
+id: https://openai.com/academy/finance
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Financial services
+link: https://openai.com/academy/financial-services
+id: https://openai.com/academy/financial-services
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Getting started with ChatGPT
+link: https://openai.com/academy/getting-started
+id: https://openai.com/academy/getting-started
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Healthcare
+link: https://openai.com/academy/healthcare
+id: https://openai.com/academy/healthcare
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Creating images with ChatGPT
+link: https://openai.com/academy/image-generation
+id: https://openai.com/academy/image-generation
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: ChatGPT for managers
+link: https://openai.com/academy/managers
+id: https://openai.com/academy/managers
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: ChatGPT for marketing teams
+link: https://openai.com/academy/marketing
+id: https://openai.com/academy/marketing
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: ChatGPT for operations teams
+link: https://openai.com/academy/operations
+id: https://openai.com/academy/operations
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Personalizing ChatGPT
+link: https://openai.com/academy/personalization
+id: https://openai.com/academy/personalization
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Using projects in ChatGPT
+link: https://openai.com/academy/projects
+id: https://openai.com/academy/projects
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Prompting fundamentals
+link: https://openai.com/academy/prompting
+id: https://openai.com/academy/prompting
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: ChatGPT for research
+link: https://openai.com/academy/research
+id: https://openai.com/academy/research
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Responsible and safe use of AI
+link: https://openai.com/academy/responsible-and-safe-use
+id: https://openai.com/academy/responsible-and-safe-use
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: ChatGPT for sales teams
+link: https://openai.com/academy/sales
+id: https://openai.com/academy/sales
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Research with ChatGPT
+link: https://openai.com/academy/search-and-deep-research
+id: https://openai.com/academy/search-and-deep-research
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Using skills
+link: https://openai.com/academy/skills
+id: https://openai.com/academy/skills
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: AI fundamentals
+link: https://openai.com/academy/what-is-ai
+id: https://openai.com/academy/what-is-ai
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Working with files in ChatGPT
+link: https://openai.com/academy/working-with-files
+id: https://openai.com/academy/working-with-files
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Writing with ChatGPT
+link: https://openai.com/academy/writing
+id: https://openai.com/academy/writing
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
 title: Agent bio bug bounty call
 link: https://openai.com/bio-bug-bounty
 id: https://openai.com/bio-bug-bounty
@@ -699,6 +843,12 @@ title: How Axios uses AI to help deliver high-impact local journalism
 link: https://openai.com/index/axios-allison-murphy
 id: https://openai.com/index/axios-allison-murphy
 date: Wed, 04 Mar 2026 00:00:00 GMT
+body:
+#ITEM
+title: Our response to the Axios developer tool compromise
+link: https://openai.com/index/axios-developer-tool-compromise
+id: https://openai.com/index/axios-developer-tool-compromise
+date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
 title: How Balyasny Asset Management built an AI research engine
