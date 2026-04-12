@@ -1,5 +1,26 @@
 [
   {
+    "id": "9a7bbb4bff3a87483e4f7099b7218ad97281e7a7",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+For release notes on Claude Apps, see the\n+Release notes for Claude Apps in the Claude Help Center\n+.\n+For updates to Claude Code, see the\n+complete CHANGELOG.md\n+in the\n+claude-code\n+repository.\n+April 9, 2026\n+We've launched the\n+advisor tool\n+in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo qual\n+advisor-tool-2026-03-01\n+in your requests.\n+April 8, 2026\n+We've launched\n+Claude Managed Agents\n+in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, a\n+managed-agents-2026-04-01\n+beta header. Learn more in\n+Claude Managed Agents overview\n+.\n+We've launched the\n+ant\n+CLI\n+, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the\n+CLI reference\n+.\n+April 7, 2026\n+We announced\n+Claude Mythos Preview\n+is available as a gated research preview for defensive cybersecurity work as part of\n+Project Glasswing\n+. Access is invitation-only.\n+The\n+Messages API\n+is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at\n+/anthropic/v1/messages\n+uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in\n+us-east-1",
+    "snippet_full": "",
+    "diff": {
+      "added": 772,
+      "removed": 772,
+      "churn": 1544
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sun, 12 Apr 2026 01:56:54 GMT",
+    "run_at": "2026-04-12T01:56:46Z",
+    "run_id": "4c932e9cd2004d32929998a9cbc05171"
+  },
+  {
     "id": "cd318a9266936b162aed5da11d9e7da870c8e4f5",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -973,24 +994,5 @@
     "pubDate": "Wed, 18 Mar 2026 01:42:48 GMT",
     "run_at": "2026-03-18T01:42:48Z",
     "run_id": "9e3f8f2edf5840818ef3b5e3650efe25"
-  },
-  {
-    "id": "8e116cfe66f5b2eebd18feeec9b314af8077f405",
-    "impact": "Medium",
-    "name": "Google Vertex AI Release Notes (RSS)",
-    "url": "https://cloud.google.com/feeds/vertex-ai-release-notes.xml",
-    "snippet": "+title: March 16, 2026\n+link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_16_2026\n+id: tag:google.com,2016:vertex-ai-release-notes#March_16_2026\n+date: 2026-03-16T00:00:00-07:00\n+body:\n+#ITEM\n-title: September 17, 2024\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_17_2024\n-id: tag:google.com,2016:vertex-ai-release-notes#September_17_2024\n-date: 2024-09-17T00:00:00-07:00\n-body:\n-#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 6,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 17 Mar 2026 01:27:15 GMT",
-    "run_at": "2026-03-17T01:26:45Z",
-    "run_id": "cb75f9fd26344815a71503e63e7d998b"
   }
 ]
