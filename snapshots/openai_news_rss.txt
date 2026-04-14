@@ -1127,6 +1127,12 @@ id: https://openai.com/index/clip
 date: Tue, 05 Jan 2021 08:00:00 GMT
 body:
 #ITEM
+title: Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI
+link: https://openai.com/index/cloudflare-openai-agent-cloud
+id: https://openai.com/index/cloudflare-openai-agent-cloud
+date: Mon, 13 Apr 2026 06:00:00 GMT
+body:
+#ITEM
 title: CNA is transforming its newsroom with AI
 link: https://openai.com/index/cna-walter-fernandez
 id: https://openai.com/index/cna-walter-fernandez
