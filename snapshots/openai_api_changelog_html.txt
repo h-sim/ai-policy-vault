@@ -200,7 +200,7 @@ Use cases
 Getting Started
 Overview
 Quickstart
-Explore
+Explore use cases
 Pricing
 Concepts
 Prompting

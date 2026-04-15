@@ -1,5 +1,66 @@
 [
   {
+    "id": "d84530ef016b9ff2538ddfa68b909e4220e4a315",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+April 14, 2026\n+We announced the deprecation of the Claude Sonnet 4 model (\n+claude-sonnet-4-20250514\n+) and the Claude Opus 4 model (\n+claude-opus-4-20250514\n+), with retirement on the Claude API scheduled for June 15, 2026. We recommend migrating to\n+Claude Sonnet 4.6\n+and\n+Claude Opus 4.6\n+respectively. Read more in\n+model deprecations\n+.\n+April 14, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 13,
+      "removed": 0,
+      "churn": 13
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 15 Apr 2026 01:53:19 GMT",
+    "run_at": "2026-04-15T01:52:31Z",
+    "run_id": "4be3635ded57433e9b847de84a38567c"
+  },
+  {
+    "id": "096bdfe21abfe8c96cf1174fcfc938a25408102c",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Trusted access for the next era of cyber defense\n+link: https://openai.com/index/scaling-trusted-access-for-cyber-defense\n+id: https://openai.com/index/scaling-trusted-access-for-cyber-defense\n+date: Tue, 14 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 15 Apr 2026 01:52:53 GMT",
+    "run_at": "2026-04-15T01:52:31Z",
+    "run_id": "4be3635ded57433e9b847de84a38567c"
+  },
+  {
+    "id": "182c78efdeb7d50beed24883c219b2a72f08f49d",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Explore\n+Explore use cases",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 15 Apr 2026 01:52:32 GMT",
+    "run_at": "2026-04-15T01:52:31Z",
+    "run_id": "4be3635ded57433e9b847de84a38567c"
+  },
+  {
     "id": "2c6940243d2ac3c10cac1457ef1361de3e6f32bb",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -935,64 +996,5 @@
     "pubDate": "Thu, 19 Mar 2026 01:44:24 GMT",
     "run_at": "2026-03-19T01:43:57Z",
     "run_id": "5ad01de966bc43cd83dac36f65ba6f06"
-  },
-  {
-    "id": "3bd7eb0b83e78dbf1243a91dcfdb444db13cba40",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first\n+link: https://openai.com/index/japan-teen-safety-blueprint\n+id: https://openai.com/index/japan-teen-safety-blueprint\n+date: Tue, 17 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 19 Mar 2026 01:44:18 GMT",
-    "run_at": "2026-03-19T01:43:57Z",
-    "run_id": "5ad01de966bc43cd83dac36f65ba6f06"
-  },
-  {
-    "id": "e06d30e499fa4464c18f700168dc978fb5113ad3",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Claude Developer Platform - Claude API Docs\n+Claude Platform - Claude API Docs\n-Claude Developer Platform\n+Claude Platform\n-Claude Developer Platform\n+Claude Platform\n-Claude Developer Platform\n+Claude Platform\n-Updates to the Claude Developer Platform, including the Claude API, client SDKs, and the Claude Console.\n+Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.",
-    "snippet_full": "",
-    "diff": {
-      "added": 5,
-      "removed": 5,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 18 Mar 2026 01:42:57 GMT",
-    "run_at": "2026-03-18T01:42:48Z",
-    "run_id": "9e3f8f2edf5840818ef3b5e3650efe25"
-  },
-  {
-    "id": "5d77494a67a2b7892e4f163883758a88dbe39832",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+            - gpt-5.4-mini\n+            - gpt-5.4-nano\n+            - gpt-5.4-mini-2026-03-17\n+            - gpt-5.4-nano-2026-03-17",
-    "snippet_full": "",
-    "diff": {
-      "added": 4,
-      "removed": 0,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 18 Mar 2026 01:42:56 GMT",
-    "run_at": "2026-03-18T01:42:48Z",
-    "run_id": "9e3f8f2edf5840818ef3b5e3650efe25"
   }
 ]

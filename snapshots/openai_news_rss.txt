@@ -4709,6 +4709,12 @@ id: https://openai.com/index/scaling-social-science-research
 date: Fri, 13 Feb 2026 09:00:00 GMT
 body:
 #ITEM
+title: Trusted access for the next era of cyber defense
+link: https://openai.com/index/scaling-trusted-access-for-cyber-defense
+id: https://openai.com/index/scaling-trusted-access-for-cyber-defense
+date: Tue, 14 Apr 2026 00:00:00 GMT
+body:
+#ITEM
 title: How Scania accelerates work with AI across its global workforce
 link: https://openai.com/index/scania
 id: https://openai.com/index/scania
