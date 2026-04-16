@@ -1,5 +1,62 @@
 [
   {
+    "id": "31673647f9754282b2d9280e87d7dcc9bf8b79a0",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+    PromptCacheRetentionEnum:\n+      type: string\n+      enum:\n+        - in_memory\n+        - 24h\n+            - type: 'null'\n+        prompt_cache_retention:\n+          anyOf:\n+            - $ref: '#/components/schemas/PromptCacheRetentionEnum'\n+              description: How long to retain a prompt cache entry created by this request.",
+    "snippet_full": "",
+    "diff": {
+      "added": 10,
+      "removed": 0,
+      "churn": 10
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 16 Apr 2026 02:01:12 GMT",
+    "run_at": "2026-04-16T02:01:05Z",
+    "run_id": "1bc80bbaf5624ef089131c2a19ecdd73"
+  },
+  {
+    "id": "25a43b5e8649c35778758d2518ccd9b11e5abdd1",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: The next evolution of the Agents SDK\n+link: https://openai.com/index/the-next-evolution-of-the-agents-sdk\n+id: https://openai.com/index/the-next-evolution-of-the-agents-sdk\n+date: Wed, 15 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 16 Apr 2026 02:01:06 GMT",
+    "run_at": "2026-04-16T02:01:05Z",
+    "run_id": "1bc80bbaf5624ef089131c2a19ecdd73"
+  },
+  {
+    "id": "c6a7affdd0e201cc5ecbbe1dc3dd512789621f12",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Sandbox agents\n+Sandbox agents\n+April, 2026\n+Apr 15\n+Update\n+Updated the\n+Agents SDK\n+with new capabilities, including:\n+running agents in controlled sandboxes;\n+inspecting and customizing the open-source harness; and\n+controlling when memories are created and where they're stored.",
+    "snippet_full": "",
+    "diff": {
+      "added": 11,
+      "removed": 0,
+      "churn": 11
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 16 Apr 2026 02:01:05 GMT",
+    "run_at": "2026-04-16T02:01:05Z",
+    "run_id": "1bc80bbaf5624ef089131c2a19ecdd73"
+  },
+  {
     "id": "d84530ef016b9ff2538ddfa68b909e4220e4a315",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -939,62 +996,5 @@
     "pubDate": "Sat, 21 Mar 2026 01:21:09 GMT",
     "run_at": "2026-03-21T01:21:08Z",
     "run_id": "279fc01ed4164a3b9e72bbccd5a70603"
-  },
-  {
-    "id": "b2b34ccdf77221dd9b27b519ee4863d0ab4feb42",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How we monitor internal coding agents for misalignment\n+link: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment\n+id: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment\n+date: Thu, 19 Mar 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI to acquire Astral\n+link: https://openai.com/index/openai-to-acquire-astral\n+id: https://openai.com/index/openai-to-acquire-astral\n+date: Thu, 19 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 20 Mar 2026 01:25:43 GMT",
-    "run_at": "2026-03-20T01:25:42Z",
-    "run_id": "b415b969255042d688eb64395be3be9d"
-  },
-  {
-    "id": "8a7e2abf1a3cf7a0f649093cc4cf685c9d7ce10c",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Citation formatting\n+Citation formatting",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 20 Mar 2026 01:25:43 GMT",
-    "run_at": "2026-03-20T01:25:42Z",
-    "run_id": "b415b969255042d688eb64395be3be9d"
-  },
-  {
-    "id": "0e27e2ea8036a263045b961cda9aec8898c2fb58",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+March 18, 2026\n+We've added model capability fields to the\n+Models API\n+.\n+GET /v1/models\n+and\n+GET /v1/models/{model_id}\n+now return\n+max_input_tokens\n+,\n+max_tokens\n+, and a\n+capabilities\n+object. Query the API to discover what each model supports.\n+March 18, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 15,
-      "removed": 0,
-      "churn": 15
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 19 Mar 2026 01:44:24 GMT",
-    "run_at": "2026-03-19T01:43:57Z",
-    "run_id": "5ad01de966bc43cd83dac36f65ba6f06"
   }
 ]

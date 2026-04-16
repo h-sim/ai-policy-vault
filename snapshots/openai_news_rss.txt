@@ -5195,6 +5195,12 @@ id: https://openai.com/index/the-next-chapter-for-uk-sovereign-ai
 date: Wed, 22 Oct 2025 16:00:00 GMT
 body:
 #ITEM
+title: The next evolution of the Agents SDK
+link: https://openai.com/index/the-next-evolution-of-the-agents-sdk
+id: https://openai.com/index/the-next-evolution-of-the-agents-sdk
+date: Wed, 15 Apr 2026 10:00:00 GMT
+body:
+#ITEM
 title: The power of continuous learning
 link: https://openai.com/index/the-power-of-continuous-learning
 id: https://openai.com/index/the-power-of-continuous-learning

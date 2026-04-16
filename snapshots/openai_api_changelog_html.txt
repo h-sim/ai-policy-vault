@@ -70,6 +70,7 @@ Quickstart
 Agent definitions
 Models and providers
 Running agents
+Sandbox agents
 Orchestration
 Guardrails
 Results and state
@@ -422,6 +423,7 @@ Quickstart
 Agent definitions
 Models and providers
 Running agents
+Sandbox agents
 Orchestration
 Guardrails
 Results and state
@@ -548,6 +550,15 @@ Production
 Data retrieval
 Sending files
 Changelog
+April, 2026
+Apr 15
+Update
+Updated the
+Agents SDK
+with new capabilities, including:
+running agents in controlled sandboxes;
+inspecting and customizing the open-source harness; and
+controlling when memories are created and where they're stored.
 March, 2026
 Mar 17
 Feature
