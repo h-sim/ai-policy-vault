@@ -599,6 +599,12 @@ id: https://openai.com/index/accelerating-biological-research-in-the-wet-lab
 date: Tue, 16 Dec 2025 08:00:00 GMT
 body:
 #ITEM
+title: Accelerating the cyber defense ecosystem that protects us all
+link: https://openai.com/index/accelerating-cyber-defense-ecosystem
+id: https://openai.com/index/accelerating-cyber-defense-ecosystem
+date: Thu, 16 Apr 2026 00:00:00 GMT
+body:
+#ITEM
 title: Accelerating life sciences research
 link: https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences
 id: https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences
@@ -1155,6 +1161,12 @@ title: Codex now offers more flexible pricing for teams
 link: https://openai.com/index/codex-flexible-pricing-for-teams
 id: https://openai.com/index/codex-flexible-pricing-for-teams
 date: Thu, 02 Apr 2026 10:00:00 GMT
+body:
+#ITEM
+title: Codex for (almost) everything
+link: https://openai.com/index/codex-for-almost-everything
+id: https://openai.com/index/codex-for-almost-everything
+date: Thu, 16 Apr 2026 10:00:00 GMT
 body:
 #ITEM
 title: Codex is now generally available
@@ -2829,6 +2841,12 @@ title: Introducing gpt-realtime and Realtime API updates
 link: https://openai.com/index/introducing-gpt-realtime
 id: https://openai.com/index/introducing-gpt-realtime
 date: Thu, 28 Aug 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-Rosalind for life sciences research
+link: https://openai.com/index/introducing-gpt-rosalind
+id: https://openai.com/index/introducing-gpt-rosalind
+date: Thu, 16 Apr 2026 01:00:00 GMT
 body:
 #ITEM
 title: Introducing GPTs

@@ -206,6 +206,7 @@ Pricing
 Concepts
 Prompting
 Customization
+Memories
 Sandboxing
 Subagents
 Workflows
@@ -220,6 +221,8 @@ Review
 Automations
 Worktrees
 Local Environments
+In-app browser
+Computer Use
 Commands
 Windows
 Troubleshooting
@@ -266,6 +269,7 @@ Subagents
 Administration
 Authentication
 Agent approvals & security
+Remote connections
 Enterprise
 Admin Setup
 Governance
@@ -380,7 +384,7 @@ Videos
 Topics
 Agents
 Audio & Voice
-Computer use
+Computer Use
 Codex
 Evals
 gpt-oss

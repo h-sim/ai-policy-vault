@@ -1,5 +1,65 @@
 [
   {
+    "id": "a1973af7d7d5dce5a930e525e6e61612bc6e684c",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+Claude API skill\n+Task budgets (beta)\n+April 16, 2026\n+We've launched\n+Claude Opus 4.7\n+, our most capable generally available model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See\n+What's new in Claude Opus 4.7\n+for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see\n+Migrating to Claude Opus 4.7\n+before upgrading.\n-Claude Opus 4.6\n+Claude Opus 4.7\n+April 16, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 1,
+      "churn": 13
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 17 Apr 2026 01:57:18 GMT",
+    "run_at": "2026-04-17T01:56:51Z",
+    "run_id": "a520a613f18a4037a7f2f10e0c632c87"
+  },
+  {
+    "id": "67d6507e91bdf34f3895a061771a2a9c8d71fdf7",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Accelerating the cyber defense ecosystem that protects us all\n+link: https://openai.com/index/accelerating-cyber-defense-ecosystem\n+id: https://openai.com/index/accelerating-cyber-defense-ecosystem\n+date: Thu, 16 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex for (almost) everything\n+link: https://openai.com/index/codex-for-almost-everything\n+id: https://openai.com/index/codex-for-almost-everything\n+date: Thu, 16 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-Rosalind for life sciences research\n+link: https://openai.com/index/introducing-gpt-rosalind\n+id: https://openai.com/index/introducing-gpt-rosalind\n+date: Thu, 16 Apr 2026 01:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 17 Apr 2026 01:56:52 GMT",
+    "run_at": "2026-04-17T01:56:51Z",
+    "run_id": "a520a613f18a4037a7f2f10e0c632c87"
+  },
+  {
+    "id": "7e89150b49eb0fe18d6c8238caa592786c028fb0",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Memories\n+In-app browser\n+Computer Use\n+Remote connections\n-Computer use\n+Computer Use",
+    "snippet_full": "",
+    "diff": {
+      "added": 5,
+      "removed": 1,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 17 Apr 2026 01:56:51 GMT",
+    "run_at": "2026-04-17T01:56:51Z",
+    "run_id": "a520a613f18a4037a7f2f10e0c632c87"
+  },
+  {
     "id": "31673647f9754282b2d9280e87d7dcc9bf8b79a0",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -937,64 +997,5 @@
     "pubDate": "Tue, 24 Mar 2026 01:24:28 GMT",
     "run_at": "2026-03-24T01:24:27Z",
     "run_id": "ede9a3c5c2a046599a329d43dad249db"
-  },
-  {
-    "id": "9435c8a003b069baae4e0d502a8852a0ed338ab7",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Start searching\n-Close\n+Search docs\n+Suggested\n+responses create\n+reasoning_effort\n+realtime\n+prompt caching\n+Search docs\n+Suggested\n+responses create\n+reasoning_effort\n+realtime\n+prompt caching\n+Student Offer\n-Search\n-⌘\n-K",
-    "snippet_full": "",
-    "diff": {
-      "added": 14,
-      "removed": 4,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 24 Mar 2026 01:24:28 GMT",
-    "run_at": "2026-03-24T01:24:27Z",
-    "run_id": "ede9a3c5c2a046599a329d43dad249db"
-  },
-  {
-    "id": "cfc8bad9327d000bc792a913a8a82c3628731305",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Long context pricing\n-Fine-grained tool streaming\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to\n-output_config.format\n-.\n-To increase answer quality and decrease tool errors, we've changed the default value for the\n-top_p\n-nucleus sampling\n-parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set\n-top_p\n-to 0.999.\n-Additionally, when extended thinking is enabled, you can now set\n-top_p\n-to values between 0.95 and 1.\n-We've moved our\n-Go SDK\n-from beta to GA.\n-We've included minute and hour level granularity to the\n-Usage\n-page of Console alongside 429 error rates on the Usage page.\n-computer_20250124\n-: Updated computer use tool with new command options including \"hold_key\", \"left_mouse_down\", \"left_mouse_up\", \"scroll\", \"triple_click\", and \"wait\". This tool requires the \"computer-use-2025-01-24\" a\n-Learn more in\n-Tool use with Claude\n-.\n+Long context pricing\n+Fine-grained tool streaming\n+is now generally available on all models and platforms (no beta header required). The\n+output_format\n+parameter for\n+structured outputs\n+has been moved to\n+output_config.format\n+.\n+To increase answer quality and decrease tool errors, we've changed the default value for the\n+top_p",
-    "snippet_full": "",
-    "diff": {
-      "added": 29,
-      "removed": 29,
-      "churn": 58
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Mon, 23 Mar 2026 01:44:08 GMT",
-    "run_at": "2026-03-23T01:44:01Z",
-    "run_id": "5b09d3ffe9164930b9c7297af36947f9"
-  },
-  {
-    "id": "4d292a740100ea9987ce8d7278efe15e254deab9",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Cookbook\n+Notebook examples for building with OpenAI models\n+Cookbook\n+Designing delightful frontends with GPT-5.4\n-Shell + Skills + Compaction: Tips for long-running agents that do real work\n+Home\n+Topics\n+Agents\n+Evals\n+Multimodal\n+Text\n+Guardrails\n+Optimization\n+ChatGPT\n+Codex\n+gpt-oss\n+Contribute\n+Cookbook on GitHub",
-    "snippet_full": "",
-    "diff": {
-      "added": 17,
-      "removed": 1,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 21 Mar 2026 01:21:09 GMT",
-    "run_at": "2026-03-21T01:21:08Z",
-    "run_id": "279fc01ed4164a3b9e72bbccd5a70603"
   }
 ]

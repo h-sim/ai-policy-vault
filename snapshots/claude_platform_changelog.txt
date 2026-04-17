@@ -16,11 +16,13 @@ Quickstart
 Building with Claude
 Features overview
 Using the Messages API
+Claude API skill
 Handling stop reasons
 Model capabilities
 Extended thinking
 Adaptive thinking
 Effort
+Task budgets (beta)
 Fast mode (beta: research preview)
 Structured outputs
 Citations
@@ -170,6 +172,14 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+April 16, 2026
+We've launched
+Claude Opus 4.7
+, our most capable generally available model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See
+What's new in Claude Opus 4.7
+for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see
+Migrating to Claude Opus 4.7
+before upgrading.
 April 14, 2026
 We announced the deprecation of the Claude Sonnet 4 model (
 claude-sonnet-4-20250514
@@ -178,7 +188,7 @@ claude-opus-4-20250514
 ), with retirement on the Claude API scheduled for June 15, 2026. We recommend migrating to
 Claude Sonnet 4.6
 and
-Claude Opus 4.6
+Claude Opus 4.7
 respectively. Read more in
 model deprecations
 .
@@ -947,6 +957,7 @@ Developer Console
 blog post
 .
 Was this page helpful?
+April 16, 2026
 April 14, 2026
 April 9, 2026
 April 8, 2026
