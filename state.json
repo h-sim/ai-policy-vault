@@ -1,5 +1,24 @@
 [
   {
+    "id": "0a54a17781751641293fc86740632518beb319f1",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Loading...\n+読み込み中...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+Claude in Amazon Bedrock\n+is now open to all Amazon Bedrock customers. Claude Opus 4.7 and Claude Haiku 4.5 are available self-serve from the Bedrock console through the Messages API endpoint at\n+/anthropic/v1/messages\n+, in 27 AWS regions with global and regional endpoints.\n-Claude in Amazon Bedrock (research preview)\n+Claude in Amazon Bedrock",
+    "snippet_full": "",
+    "diff": {
+      "added": 52,
+      "removed": 48,
+      "churn": 100
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 18 Apr 2026 01:48:29 GMT",
+    "run_at": "2026-04-18T01:48:21Z",
+    "run_id": "9e94d5d15ae54c82bade8c608ce453bf"
+  },
+  {
     "id": "a1973af7d7d5dce5a930e525e6e61612bc6e684c",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -976,25 +995,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 24 Mar 2026 01:24:35 GMT",
-    "run_at": "2026-03-24T01:24:27Z",
-    "run_id": "ede9a3c5c2a046599a329d43dad249db"
-  },
-  {
-    "id": "789a828c611427964f89a4380198114cdf0ec764",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Creating with Sora Safely\n+link: https://openai.com/index/creating-with-sora-safely\n+id: https://openai.com/index/creating-with-sora-safely\n+date: Mon, 23 Mar 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 24 Mar 2026 01:24:28 GMT",
     "run_at": "2026-03-24T01:24:27Z",
     "run_id": "ede9a3c5c2a046599a329d43dad249db"
   }
