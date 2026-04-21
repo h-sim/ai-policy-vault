@@ -2489,6 +2489,12 @@ id: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
 date: Thu, 19 Mar 2026 10:00:00 GMT
 body:
 #ITEM
+title: OpenAI helps Hyatt advance AI among colleagues
+link: https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
+id: https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
+date: Mon, 20 Apr 2026 00:00:00 GMT
+body:
+#ITEM
 title: HYGH speeds development and campaigns with ChatGPT Business
 link: https://openai.com/index/hygh
 id: https://openai.com/index/hygh

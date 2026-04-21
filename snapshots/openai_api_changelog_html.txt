@@ -207,6 +207,7 @@ Concepts
 Prompting
 Customization
 Memories
+Chronicle
 Sandboxing
 Subagents
 Workflows
