@@ -556,6 +556,15 @@ Data retrieval
 Sending files
 Changelog
 April, 2026
+Apr 21
+Feature
+gpt-image-2
+v1/images/generations
+v1/images/edits
+v1/batch
+Released
+GPT Image 2
+, a state-of-the-art image generation model for image generation and editing. GPT Image 2 supports flexible image sizes, high-fidelity image inputs, token-based image pricing, and Batch API support with a 50% discount.
 Apr 15
 Update
 Updated the

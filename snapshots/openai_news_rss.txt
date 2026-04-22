@@ -143,24 +143,6 @@ id: https://openai.com/academy/writing
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: Agent bio bug bounty call
-link: https://openai.com/bio-bug-bounty
-id: https://openai.com/bio-bug-bounty
-date: Thu, 17 Jul 2025 00:00:00 GMT
-body:
-#ITEM
-title: Enabling a data-driven workforce
-link: https://openai.com/business/enabling-a-data-driven-workforce-webinar
-id: https://openai.com/business/enabling-a-data-driven-workforce-webinar
-date: Thu, 08 Aug 2024 00:00:00 GMT
-body:
-#ITEM
-title: Fine-tuning GPT-4o webinar
-link: https://openai.com/business/fine-tuning-gpt-4o-webinar
-id: https://openai.com/business/fine-tuning-gpt-4o-webinar
-date: Mon, 26 Aug 2024 00:00:00 GMT
-body:
-#ITEM
 title: Inside GPT-5 for Work: How Businesses Use GPT-5
 link: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
 id: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
@@ -185,30 +167,6 @@ id: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
 date: Tue, 18 Mar 2025 00:00:00 GMT
 body:
 #ITEM
-title: Put AI to work: Automate and scale financial operations
-link: https://openai.com/business/put-ai-to-work-automate-and-scale-financial-operations
-id: https://openai.com/business/put-ai-to-work-automate-and-scale-financial-operations
-date: Mon, 30 Sep 2024 00:00:00 GMT
-body:
-#ITEM
-title: Put AI to work for marketing teams
-link: https://openai.com/business/put-ai-to-work-for-marketing-teams
-id: https://openai.com/business/put-ai-to-work-for-marketing-teams
-date: Thu, 31 Oct 2024 00:00:00 GMT
-body:
-#ITEM
-title: Put AI to work: Lessons from hundreds of successful deployments
-link: https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments
-id: https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments
-date: Tue, 10 Sep 2024 00:00:00 GMT
-body:
-#ITEM
-title: Solving complex problems with OpenAI o1 models
-link: https://openai.com/business/solving-complex-problems-with-openai-o1-models
-id: https://openai.com/business/solving-complex-problems-with-openai-o1-models
-date: Thu, 17 Oct 2024 00:00:00 GMT
-body:
-#ITEM
 title: A Student’s Guide to Writing with ChatGPT
 link: https://openai.com/chatgpt/use-cases/student-writing-guide
 id: https://openai.com/chatgpt/use-cases/student-writing-guide
@@ -225,12 +183,6 @@ title: 1,000 Scientist AI Jam Session
 link: https://openai.com/global-affairs/1000-scientist-ai-jam-session
 id: https://openai.com/global-affairs/1000-scientist-ai-jam-session
 date: Fri, 28 Feb 2025 08:00:00 GMT
-body:
-#ITEM
-title: A Primer on the EU AI Act: What It Means for AI Providers and Deployers
-link: https://openai.com/global-affairs/a-primer-on-the-eu-ai-act
-id: https://openai.com/global-affairs/a-primer-on-the-eu-ai-act
-date: Tue, 30 Jul 2024 00:00:00 GMT
 body:
 #ITEM
 title: Accelerating AI adoption in Europe
@@ -251,40 +203,10 @@ id: https://openai.com/global-affairs/ai-stories-daily-benefits-bigger-opportuni
 date: Tue, 06 May 2025 10:30:00 GMT
 body:
 #ITEM
-title: American-made innovation
-link: https://openai.com/global-affairs/american-made-innovation
-id: https://openai.com/global-affairs/american-made-innovation
-date: Mon, 22 Sep 2025 11:30:00 GMT
-body:
-#ITEM
-title: An update on disrupting deceptive uses of AI
-link: https://openai.com/global-affairs/an-update-on-disrupting-deceptive-uses-of-ai
-id: https://openai.com/global-affairs/an-update-on-disrupting-deceptive-uses-of-ai
-date: Wed, 09 Oct 2024 03:30:00 GMT
-body:
-#ITEM
 title: Argentina’s AI opportunity
 link: https://openai.com/global-affairs/argentinas-ai-opportunity
 id: https://openai.com/global-affairs/argentinas-ai-opportunity
 date: Tue, 14 Oct 2025 06:00:00 GMT
-body:
-#ITEM
-title: Brazil’s AI moment is here
-link: https://openai.com/global-affairs/brazil-ai-moment-is-here
-id: https://openai.com/global-affairs/brazil-ai-moment-is-here
-date: Tue, 04 Nov 2025 15:30:00 GMT
-body:
-#ITEM
-title: College students and ChatGPT adoption in the US
-link: https://openai.com/global-affairs/college-students-and-chatgpt
-id: https://openai.com/global-affairs/college-students-and-chatgpt
-date: Thu, 20 Feb 2025 06:00:00 GMT
-body:
-#ITEM
-title: Comment on NTIA AI Accountability Policy
-link: https://openai.com/global-affairs/comment-on-ntia-ai-accountability-policy
-id: https://openai.com/global-affairs/comment-on-ntia-ai-accountability-policy
-date: Mon, 12 Jun 2023 00:00:00 GMT
 body:
 #ITEM
 title: OpenAI’s comments to the NTIA on data center growth, resilience, and security
@@ -323,12 +245,6 @@ id: https://openai.com/global-affairs/intellectual-freedom-by-design
 date: Tue, 15 Jul 2025 00:00:00 GMT
 body:
 #ITEM
-title: Introducing ChatGPT Gov
-link: https://openai.com/global-affairs/introducing-chatgpt-gov
-id: https://openai.com/global-affairs/introducing-chatgpt-gov
-date: Tue, 28 Jan 2025 06:00:00 GMT
-body:
-#ITEM
 title: Introducing OpenAI for Government
 link: https://openai.com/global-affairs/introducing-openai-for-government
 id: https://openai.com/global-affairs/introducing-openai-for-government
@@ -365,34 +281,10 @@ id: https://openai.com/global-affairs/open-weights-and-ai-for-all
 date: Tue, 05 Aug 2025 00:00:00 GMT
 body:
 #ITEM
-title: Introducing the OpenAI Academy
-link: https://openai.com/global-affairs/openai-academy
-id: https://openai.com/global-affairs/openai-academy
-date: Mon, 23 Sep 2024 03:30:00 GMT
-body:
-#ITEM
 title: OpenAI and UK Government announce strategic partnership to deliver AI-driven growth
 link: https://openai.com/global-affairs/openai-and-uk-government-partnership
 id: https://openai.com/global-affairs/openai-and-uk-government-partnership
 date: Mon, 21 Jul 2025 10:00:00 GMT
-body:
-#ITEM
-title: OpenAI at the Paris AI Action Summit
-link: https://openai.com/global-affairs/openai-at-the-paris-ai-action-summit
-id: https://openai.com/global-affairs/openai-at-the-paris-ai-action-summit
-date: Fri, 07 Feb 2025 17:00:00 GMT
-body:
-#ITEM
-title: OpenAI appoints Scott Schools as Chief Compliance Officer
-link: https://openai.com/global-affairs/openai-chief-compliance-officer-announcement
-id: https://openai.com/global-affairs/openai-chief-compliance-officer-announcement
-date: Tue, 22 Oct 2024 10:30:00 GMT
-body:
-#ITEM
-title: Dr. Ronnie Chatterji named OpenAI’s first Chief Economist
-link: https://openai.com/global-affairs/openai-chief-economist-announcement
-id: https://openai.com/global-affairs/openai-chief-economist-announcement
-date: Tue, 22 Oct 2024 10:05:00 GMT
 body:
 #ITEM
 title: Introducing OpenAI for Australia
@@ -431,34 +323,10 @@ id: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan
 date: Thu, 13 Mar 2025 03:00:00 GMT
 body:
 #ITEM
-title: OpenAI’s comment to the NTIA on open model weights
-link: https://openai.com/global-affairs/openai-s-comment-to-the-ntia-on-open-model-weights
-id: https://openai.com/global-affairs/openai-s-comment-to-the-ntia-on-open-model-weights
-date: Wed, 27 Mar 2024 00:00:00 GMT
-body:
-#ITEM
-title: OpenAI’s technology explained
-link: https://openai.com/global-affairs/openai-technology-explained
-id: https://openai.com/global-affairs/openai-technology-explained
-date: Wed, 11 Oct 2023 07:00:00 GMT
-body:
-#ITEM
-title: OpenAI’s approach to AI and national security
-link: https://openai.com/global-affairs/openais-approach-to-ai-and-national-security
-id: https://openai.com/global-affairs/openais-approach-to-ai-and-national-security
-date: Thu, 24 Oct 2024 14:00:00 GMT
-body:
-#ITEM
 title: AI in Australia—OpenAI’s Economic Blueprint
 link: https://openai.com/global-affairs/openais-australia-economic-blueprint
 id: https://openai.com/global-affairs/openais-australia-economic-blueprint
 date: Mon, 30 Jun 2025 07:00:00 GMT
-body:
-#ITEM
-title: OpenAI’s Economic Blueprint
-link: https://openai.com/global-affairs/openais-economic-blueprint
-id: https://openai.com/global-affairs/openais-economic-blueprint
-date: Mon, 13 Jan 2025 03:00:00 GMT
 body:
 #ITEM
 title: OpenAI’s EU Economic Blueprint
@@ -467,40 +335,16 @@ id: https://openai.com/global-affairs/openais-eu-economic-blueprint
 date: Mon, 07 Apr 2025 00:00:00 GMT
 body:
 #ITEM
-title: OpenAI’s Approach to Frontier Risk
-link: https://openai.com/global-affairs/our-approach-to-frontier-risk
-id: https://openai.com/global-affairs/our-approach-to-frontier-risk
-date: Thu, 26 Oct 2023 07:00:00 GMT
-body:
-#ITEM
 title: OpenAI’s response to the Department of Energy on AI infrastructure
 link: https://openai.com/global-affairs/response-to-department-of-energy
 id: https://openai.com/global-affairs/response-to-department-of-energy
 date: Wed, 07 May 2025 18:30:00 GMT
 body:
 #ITEM
-title: Response to NIST Executive Order on AI
-link: https://openai.com/global-affairs/response-to-nist-executive-order-on-ai
-id: https://openai.com/global-affairs/response-to-nist-executive-order-on-ai
-date: Fri, 02 Feb 2024 00:00:00 GMT
-body:
-#ITEM
 title: Our response to the UK’s copyright consultation
 link: https://openai.com/global-affairs/response-to-uk-copyright-consultation
 id: https://openai.com/global-affairs/response-to-uk-copyright-consultation
 date: Wed, 02 Apr 2025 07:00:00 GMT
-body:
-#ITEM
-title: Questions for the Record
-link: https://openai.com/global-affairs/sam-altman-senate-questions-for-the-record
-id: https://openai.com/global-affairs/sam-altman-senate-questions-for-the-record
-date: Thu, 22 Jun 2023 00:00:00 GMT
-body:
-#ITEM
-title: Scaling the OpenAI Academy
-link: https://openai.com/global-affairs/scaling-the-openai-academy
-id: https://openai.com/global-affairs/scaling-the-openai-academy
-date: Tue, 25 Mar 2025 07:00:00 GMT
 body:
 #ITEM
 title: Seizing the AI opportunity
@@ -515,12 +359,6 @@ id: https://openai.com/global-affairs/strategic-collaboration-with-japan-digital
 date: Thu, 02 Oct 2025 00:00:00 GMT
 body:
 #ITEM
-title: Testimony before the U.S. Senate
-link: https://openai.com/global-affairs/testimony-of-sam-altman-before-the-us-senate
-id: https://openai.com/global-affairs/testimony-of-sam-altman-before-the-us-senate
-date: Thu, 22 Jun 2023 00:00:00 GMT
-body:
-#ITEM
 title: The power of personalized AI
 link: https://openai.com/global-affairs/the-power-of-personalized-ai
 id: https://openai.com/global-affairs/the-power-of-personalized-ai
@@ -531,12 +369,6 @@ title: The Washington Post partners with OpenAI on search content
 link: https://openai.com/global-affairs/the-washington-post-partners-with-openai
 id: https://openai.com/global-affairs/the-washington-post-partners-with-openai
 date: Tue, 22 Apr 2025 06:00:00 GMT
-body:
-#ITEM
-title: GPT-5 bio bug bounty call
-link: https://openai.com/gpt-5-bio-bug-bounty
-id: https://openai.com/gpt-5-bio-bug-bounty
-date: Fri, 05 Sep 2025 08:45:00 GMT
 body:
 #ITEM
 title: 1 million business customers putting AI to work
@@ -713,12 +545,6 @@ id: https://openai.com/index/ai-education-opportunity
 date: Thu, 05 Mar 2026 09:00:00 GMT
 body:
 #ITEM
-title: AI for self empowerment
-link: https://openai.com/index/ai-for-self-empowerment
-id: https://openai.com/index/ai-for-self-empowerment
-date: Sun, 18 Jan 2026 12:00:00 GMT
-body:
-#ITEM
 title: AI literacy resources for teens and parents
 link: https://openai.com/index/ai-literacy-resources-for-teens-and-parents
 id: https://openai.com/index/ai-literacy-resources-for-teens-and-parents
@@ -867,18 +693,6 @@ title: Scaling accounting capacity with OpenAI
 link: https://openai.com/index/basis
 id: https://openai.com/index/basis
 date: Tue, 12 Aug 2025 00:00:00 GMT
-body:
-#ITEM
-title: Empowering a global org with ChatGPT
-link: https://openai.com/index/bbva
-id: https://openai.com/index/bbva
-date: Thu, 21 Nov 2024 05:00:00 GMT
-body:
-#ITEM
-title: How BBVA is scaling AI from pilot to practice across the org
-link: https://openai.com/index/bbva-2025
-id: https://openai.com/index/bbva-2025
-date: Thu, 06 Nov 2025 09:30:00 GMT
 body:
 #ITEM
 title: BBVA and OpenAI collaborate to transform global banking
@@ -1179,12 +993,6 @@ title: Codex Security: now in research preview
 link: https://openai.com/index/codex-security-now-in-research-preview
 id: https://openai.com/index/codex-security-now-in-research-preview
 date: Fri, 06 Mar 2026 10:00:00 GMT
-body:
-#ITEM
-title: Collaborating with Carlyle to Chart the Future of Private Equity
-link: https://openai.com/index/collaborating-with-carlyle-to-chart-the-future-of-private-equity
-id: https://openai.com/index/collaborating-with-carlyle-to-chart-the-future-of-private-equity
-date: Tue, 14 May 2024 08:00:00 GMT
 body:
 #ITEM
 title: Collective alignment: public input on our Model Spec
@@ -2121,12 +1929,6 @@ title: GPT-4o System Card
 link: https://openai.com/index/gpt-4o-system-card
 id: https://openai.com/index/gpt-4o-system-card
 date: Thu, 08 Aug 2024 00:00:00 GMT
-body:
-#ITEM
-title: GPT-4o System Card External Testers Acknowledgements
-link: https://openai.com/index/gpt-4o-system-card/external-testers-acknowledgements
-id: https://openai.com/index/gpt-4o-system-card/external-testers-acknowledgements
-date: Thu, 08 Aug 2024 10:00:00 GMT
 body:
 #ITEM
 title: GPT-4V(ision) system card
@@ -3509,12 +3311,6 @@ id: https://openai.com/index/my-dog-the-math-tutor
 date: Tue, 04 Feb 2025 00:00:00 GMT
 body:
 #ITEM
-title: Navigating health questions with ChatGPT
-link: https://openai.com/index/navigating-health-questions
-id: https://openai.com/index/navigating-health-questions
-date: Thu, 05 Feb 2026 00:00:00 GMT
-body:
-#ITEM
 title: Navigating the challenges and opportunities of synthetic voices
 link: https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices
 id: https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices
@@ -4091,12 +3887,6 @@ id: https://openai.com/index/openai-o1-system-card
 date: Thu, 05 Dec 2024 10:00:00 GMT
 body:
 #ITEM
-title: OpenAI o1 System Card External Testers Acknowledgements
-link: https://openai.com/index/openai-o1-system-card/external-testers-acknowledgements
-id: https://openai.com/index/openai-o1-system-card/external-testers-acknowledgements
-date: Thu, 12 Sep 2024 10:00:00 GMT
-body:
-#ITEM
 title: OpenAI o3-mini
 link: https://openai.com/index/openai-o3-mini
 id: https://openai.com/index/openai-o3-mini
@@ -4125,12 +3915,6 @@ title: OpenAI standardizes on PyTorch
 link: https://openai.com/index/openai-pytorch
 id: https://openai.com/index/openai-pytorch
 date: Thu, 30 Jan 2020 08:00:00 GMT
-body:
-#ITEM
-title: OpenAI’s Raising Concerns Policy
-link: https://openai.com/index/openai-raising-concerns-policy
-id: https://openai.com/index/openai-raising-concerns-policy
-date: Mon, 12 Jan 2026 00:00:00 GMT
 body:
 #ITEM
 title: Empowering teams to unlock insights faster at OpenAI
@@ -4691,6 +4475,12 @@ id: https://openai.com/index/scaling-ai-for-everyone
 date: Fri, 27 Feb 2026 05:30:00 GMT
 body:
 #ITEM
+title: Scaling Codex to enterprises worldwide
+link: https://openai.com/index/scaling-codex-to-enterprises-worldwide
+id: https://openai.com/index/scaling-codex-to-enterprises-worldwide
+date: Tue, 21 Apr 2026 00:00:00 GMT
+body:
+#ITEM
 title: Scaling security with responsible disclosure
 link: https://openai.com/index/scaling-coordinated-vulnerability-disclosure
 id: https://openai.com/index/scaling-coordinated-vulnerability-disclosure
@@ -5237,12 +5027,6 @@ id: https://openai.com/index/the-state-of-enterprise-ai-2025-report
 date: Mon, 08 Dec 2025 04:00:00 GMT
 body:
 #ITEM
-title: The truth left out from Elon Musk’s recent court filing
-link: https://openai.com/index/the-truth-elon-left-out
-id: https://openai.com/index/the-truth-elon-left-out
-date: Fri, 16 Jan 2026 12:00:00 GMT
-body:
-#ITEM
 title: Thinking with images
 link: https://openai.com/index/thinking-with-images
 id: https://openai.com/index/thinking-with-images
@@ -5597,12 +5381,6 @@ id: https://openai.com/index/yabble
 date: Wed, 04 Jan 2023 00:00:00 GMT
 body:
 #ITEM
-title: Boosting the customer retail experience with GPT-4o mini
-link: https://openai.com/index/zalando
-id: https://openai.com/index/zalando
-date: Wed, 11 Dec 2024 06:00:00 GMT
-body:
-#ITEM
 title: Making education data accessible
 link: https://openai.com/index/zelma
 id: https://openai.com/index/zelma
@@ -5637,10 +5415,4 @@ title: Outbound coordinated vulnerability disclosure policy
 link: https://openai.com/policies/outbound-coordinated-disclosure-policy
 id: https://openai.com/policies/outbound-coordinated-disclosure-policy
 date: Mon, 22 Sep 2025 00:00:00 GMT
-body:
-#ITEM
-title: Sam & Jony
-link: https://openai.com/sam-and-jony
-id: https://openai.com/sam-and-jony
-date: Wed, 09 Jul 2025 00:00:00 GMT
 body:
