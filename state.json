@@ -1,5 +1,45 @@
 [
   {
+    "id": "6e0c351719552f1691c089768817f5523b533336",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-                - in-memory\n+                - in_memory",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 23 Apr 2026 02:00:50 GMT",
+    "run_at": "2026-04-23T02:00:25Z",
+    "run_id": "dd2b7097a22f452d97f7282e2d92f0f1"
+  },
+  {
+    "id": "15e1c81646d63b78de7573870b5ce408f420d90f",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing OpenAI Privacy Filter\n+link: https://openai.com/index/introducing-openai-privacy-filter\n+id: https://openai.com/index/introducing-openai-privacy-filter\n+title: Workspace agents\n+link: https://openai.com/academy/workspace-agents\n+id: https://openai.com/academy/workspace-agents\n+date: Wed, 22 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing GPT-5.2-Codex\n-link: https://openai.com/index/gpt-5-2-codex\n-id: https://openai.com/index/gpt-5-2-codex",
+    "snippet_full": "+title: Workspace agents\n+link: https://openai.com/academy/workspace-agents\n+id: https://openai.com/academy/workspace-agents\n+date: Wed, 22 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing GPT-5.2-Codex\n-link: https://openai.com/index/gpt-5-2-codex\n-id: https://openai.com/index/gpt-5-2-codex\n-date: Thu, 18 Dec 2025 00:00:00 GMT\n-body:\n-#ITEM\n+title: Introducing ChatGPT Images 2.0\n+link: https://openai.com/index/introducing-chatgpt-images-2-0\n+id: https://openai.com/index/introducing-chatgpt-images-2-0\n+date: Tue, 21 Apr 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing OpenAI Privacy Filter\n+link: https://openai.com/index/introducing-openai-privacy-filter\n+id: https://openai.com/index/introducing-openai-privacy-filter\n+date: Wed, 22 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing workspace agents in ChatGPT\n+link: https://openai.com/index/introducing-workspace-agents-in-chatgpt\n+id: https://openai.com/index/introducing-workspace-agents-in-chatgpt\n+date: Wed, 22 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Making ChatGPT better for clinicians\n+link: https://openai.com/index/making-chatgpt-better-for-clinicians\n+id: https://openai.com/index/making-chatgpt-better-for-clinicians\n+date: Wed, 22 Apr 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: Speeding up agentic workflows with WebSockets in the Responses API\n+link: https://openai.com/index/speeding-up-agentic-workflows-with-websockets\n+id: https://openai.com/index/speeding-up-agentic-workflows-with-websockets\n+date: Wed, 22 Apr 2026 10:00:00 GMT",
+    "diff": {
+      "added": 36,
+      "removed": 6,
+      "churn": 42
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 23 Apr 2026 02:00:43 GMT",
+    "run_at": "2026-04-23T02:00:25Z",
+    "run_id": "dd2b7097a22f452d97f7282e2d92f0f1"
+  },
+  {
     "id": "0d25dacf4d0fbc89359be3cc58980dc067e87bd8",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -951,46 +991,5 @@
     "pubDate": "Fri, 27 Mar 2026 01:48:24 GMT",
     "run_at": "2026-03-27T01:48:23Z",
     "run_id": "fe1236cafbef4de28250222c10443449"
-  },
-  {
-    "id": "335d218ac0d91e4505bfc23af7d26436e7913066",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+Controlling thinking display\n+.\n+March 13, 2026\n+The\n+1M token context window\n+is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context win\n+We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.\n+We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.\n+February 19, 2026\n+We've launched\n+automatic caching\n+for the Messages API. Add a single\n+cache_control\n+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n+Prompt caching\n+.\n+We've retired the Claude Sonnet 3.7 model (\n+claude-3-7-sonnet-20250219\n+) and the Claude Haiku 3.5 model (\n+claude-3-5-haiku-20241022\n+). All requests to these models will now return an error. We recommend upgrading to\n+Claude Sonnet 4.6\n+and\n+Claude Haiku 4.5\n+respectively. Researchers can request ongoing access through the\n+External Researcher Access Program\n+.\n+We announced the deprecation of the Claude Haiku 3 model (\n+claude-3-haiku-20240307\n+), with retirement scheduled for April 19, 2026. We recommend migrating to\n+Claude Haiku 4.5\n+. Read more in\n+model deprecations\n+.\n+February 17, 2026\n+We've launched\n+Claude Sonnet 4.6\n+, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports\n+extended thinking\n+and a",
-    "snippet_full": "",
-    "diff": {
-      "added": 687,
-      "removed": 687,
-      "churn": 1374
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 26 Mar 2026 01:48:33 GMT",
-    "run_at": "2026-03-26T01:47:44Z",
-    "run_id": "0f5bb8617e2c49f88eec2d4ae7e0fe98"
-  },
-  {
-    "id": "ff3b27ee76369f715d5b3fcc935e8f4f0b7e7b4a",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+            status:\n+              description: >\n+                The status of the message input. One of `in_progress`,\n+                `completed`, or\n+\n+                `incomplete`. Populated when input items are returned via API.\n+              $ref: '#/components/schemas/ComputerCallOutputStatus'\n+            created_by:\n+              type: string\n+              description: |\n+                The identifier of the actor that created the item.\n+            - status\n+        - $ref: '#/components/schemas/CompactionBody'\n+    CustomToolCallOutputResource:\n+      title: ResponseCustomToolCallOutputItem\n+      allOf:\n+        - $ref: '#/components/schemas/CustomToolCallOutput'\n+        - type: object\n+          properties:\n+            id:\n+              type: string\n+              description: |\n+                The unique ID of the custom tool call output item.\n+            status:\n+              description: |\n+                The status of the item. One of `in_progress`, `completed`, or\n+                `incomplete`. Populated when items are returned via API.\n+              $ref: '#/components/schemas/FunctionCallOutputStatusEnum'\n+            created_by:\n+              type: string\n+              description: |\n+                The identifier of the actor that created the item.\n+          required:\n+            - id\n+            - status\n+    CustomToolCallResource:\n+      title: ResponseCustomToolCallItem\n+      allOf:\n+        - $ref: '#/components/schemas/CustomToolCall'\n+        - type: object",
-    "snippet_full": "",
-    "diff": {
-      "added": 168,
-      "removed": 40,
-      "churn": 208
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 26 Mar 2026 01:48:14 GMT",
-    "run_at": "2026-03-26T01:47:44Z",
-    "run_id": "0f5bb8617e2c49f88eec2d4ae7e0fe98"
   }
 ]

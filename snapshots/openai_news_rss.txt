@@ -137,6 +137,12 @@ id: https://openai.com/academy/working-with-files
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Workspace agents
+link: https://openai.com/academy/workspace-agents
+id: https://openai.com/academy/workspace-agents
+date: Wed, 22 Apr 2026 10:00:00 GMT
+body:
+#ITEM
 title: Writing with ChatGPT
 link: https://openai.com/academy/writing
 id: https://openai.com/academy/writing
@@ -1961,12 +1967,6 @@ id: https://openai.com/index/gpt-5-1-for-developers
 date: Thu, 13 Nov 2025 00:00:00 GMT
 body:
 #ITEM
-title: Introducing GPT-5.2-Codex
-link: https://openai.com/index/gpt-5-2-codex
-id: https://openai.com/index/gpt-5-2-codex
-date: Thu, 18 Dec 2025 00:00:00 GMT
-body:
-#ITEM
 title: Addendum to GPT-5.2 System Card: GPT-5.2-Codex
 link: https://openai.com/index/gpt-5-2-codex-system-card
 id: https://openai.com/index/gpt-5-2-codex-system-card
@@ -2513,6 +2513,12 @@ id: https://openai.com/index/introducing-chatgpt-health
 date: Wed, 07 Jan 2026 00:00:00 GMT
 body:
 #ITEM
+title: Introducing ChatGPT Images 2.0
+link: https://openai.com/index/introducing-chatgpt-images-2-0
+id: https://openai.com/index/introducing-chatgpt-images-2-0
+date: Tue, 21 Apr 2026 12:00:00 GMT
+body:
+#ITEM
 title: Introducing ChatGPT Pro
 link: https://openai.com/index/introducing-chatgpt-pro
 id: https://openai.com/index/introducing-chatgpt-pro
@@ -2735,6 +2741,12 @@ id: https://openai.com/index/introducing-openai-o1-preview
 date: Thu, 12 Sep 2024 10:03:00 GMT
 body:
 #ITEM
+title: Introducing OpenAI Privacy Filter
+link: https://openai.com/index/introducing-openai-privacy-filter
+id: https://openai.com/index/introducing-openai-privacy-filter
+date: Wed, 22 Apr 2026 00:00:00 GMT
+body:
+#ITEM
 title: Announcing the OpenAI Safety Fellowship
 link: https://openai.com/index/introducing-openai-safety-fellowship
 id: https://openai.com/index/introducing-openai-safety-fellowship
@@ -2865,6 +2877,12 @@ title: Introducing vision to the fine-tuning API
 link: https://openai.com/index/introducing-vision-to-the-fine-tuning-api
 id: https://openai.com/index/introducing-vision-to-the-fine-tuning-api
 date: Tue, 01 Oct 2024 10:04:00 GMT
+body:
+#ITEM
+title: Introducing workspace agents in ChatGPT
+link: https://openai.com/index/introducing-workspace-agents-in-chatgpt
+id: https://openai.com/index/introducing-workspace-agents-in-chatgpt
+date: Wed, 22 Apr 2026 10:00:00 GMT
 body:
 #ITEM
 title: Intuit and OpenAI join forces on new AI-powered experiences
@@ -3141,6 +3159,12 @@ title: Machine Learning Unconference
 link: https://openai.com/index/machine-learning-unconference
 id: https://openai.com/index/machine-learning-unconference
 date: Thu, 18 Aug 2016 07:00:00 GMT
+body:
+#ITEM
+title: Making ChatGPT better for clinicians
+link: https://openai.com/index/making-chatgpt-better-for-clinicians
+id: https://openai.com/index/making-chatgpt-better-for-clinicians
+date: Wed, 22 Apr 2026 15:00:00 GMT
 body:
 #ITEM
 title: March 20 ChatGPT outage: Here’s what happened
@@ -4707,6 +4731,12 @@ title: Special projects
 link: https://openai.com/index/special-projects
 id: https://openai.com/index/special-projects
 date: Thu, 28 Jul 2016 07:00:00 GMT
+body:
+#ITEM
+title: Speeding up agentic workflows with WebSockets in the Responses API
+link: https://openai.com/index/speeding-up-agentic-workflows-with-websockets
+id: https://openai.com/index/speeding-up-agentic-workflows-with-websockets
+date: Wed, 22 Apr 2026 10:00:00 GMT
 body:
 #ITEM
 title: Spinning Up in Deep RL
