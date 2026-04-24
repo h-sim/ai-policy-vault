@@ -1,5 +1,62 @@
 [
   {
+    "id": "a4c1d32d96524c854fdf7f1f14116c9896301d50",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+April 23, 2026\n+Memory\n+for Claude Managed Agents is now in public beta under the standard\n+managed-agents-2026-04-01\n+header. See\n+Using agent memory\n+for the full integration guide.\n+April 23, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 8,
+      "removed": 0,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 24 Apr 2026 02:00:39 GMT",
+    "run_at": "2026-04-24T02:00:32Z",
+    "run_id": "95fddb13a6034ab1ae1e709ffd3ef877"
+  },
+  {
+    "id": "53776109985cc17b98d06cb3ad61524ffdaeef3f",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Automations\n+link: https://openai.com/academy/codex-automations\n+id: https://openai.com/academy/codex-automations\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How to get started with Codex\n+link: https://openai.com/academy/codex-how-to-start\n+id: https://openai.com/academy/codex-how-to-start\n+title: Plugins and skills\n+link: https://openai.com/academy/codex-plugins-and-skills\n+id: https://openai.com/academy/codex-plugins-and-skills",
+    "snippet_full": "+title: Automations\n+link: https://openai.com/academy/codex-automations\n+id: https://openai.com/academy/codex-automations\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How to get started with Codex\n+link: https://openai.com/academy/codex-how-to-start\n+id: https://openai.com/academy/codex-how-to-start\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Plugins and skills\n+link: https://openai.com/academy/codex-plugins-and-skills\n+id: https://openai.com/academy/codex-plugins-and-skills\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Codex settings\n+link: https://openai.com/academy/codex-settings\n+id: https://openai.com/academy/codex-settings\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Top 10 uses for Codex at work\n+link: https://openai.com/academy/top-10-use-cases-codex-for-work\n+id: https://openai.com/academy/top-10-use-cases-codex-for-work\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: What is Codex?\n+link: https://openai.com/academy/what-is-codex\n+id: https://openai.com/academy/what-is-codex\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Working with Codex\n+link: https://openai.com/academy/working-with-codex\n+id: https://openai.com/academy/working-with-codex\n+date: Thu, 23 Apr 2026 10:00:00 GMT",
+    "diff": {
+      "added": 66,
+      "removed": 6,
+      "churn": 72
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 24 Apr 2026 02:00:33 GMT",
+    "run_at": "2026-04-24T02:00:32Z",
+    "run_id": "95fddb13a6034ab1ae1e709ffd3ef877"
+  },
+  {
+    "id": "71f3a6dde064aa920d46be1066d0ce510a2c1914",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Collections\n+API examples",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 24 Apr 2026 02:00:32 GMT",
+    "run_at": "2026-04-24T02:00:32Z",
+    "run_id": "95fddb13a6034ab1ae1e709ffd3ef877"
+  },
+  {
     "id": "6e0c351719552f1691c089768817f5523b533336",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -932,63 +989,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Fri, 27 Mar 2026 01:48:34 GMT",
-    "run_at": "2026-03-27T01:48:23Z",
-    "run_id": "fe1236cafbef4de28250222c10443449"
-  },
-  {
-    "id": "6389d9e0aa2b962101d026600c51184349b062a3",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                          .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                          .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                          .file(ByteArrayInputStream(\"Example data\".getBytes()))\n+                          .file(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .image(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .image(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                            .image(ByteArrayInputStream(\"Example data\".getBytes()))\n+                            .image(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                          .image(ByteArrayInputStream(\"Example data\".getBytes()))\n+                          .image(new ByteArrayInputStream(\"Example data\".getBytes()))\n-                          .data(ByteArrayInputStream(\"Example data\".getBytes()))\n+                          .data(new ByteArrayInputStream(\"Example data\".getBytes()))\n-      description: The maximum number of files in a single batch request is 2000.\n+      description: >\n+        The maximum number of files in a single batch request is 2000.\n+\n+        Vector store file attach requests are rate limited per vector store (300\n+        requests per minute across both this endpoint and\n+        `/vector_stores/{vector_store_id}/files`).\n+\n+        For ingesting multiple files into the same vector store, this batch\n+        endpoint is recommended.\n+        description: >\n+          Attaches multiple files to a vector store in one request. This is the\n+          recommended approach for multi-file ingestion, especially because\n+          per-vector-store file attach writes are rate-limited (300\n+          requests/minute shared with `/vector_stores/{vector_store_id}/files`).\n+      description: >-",
-    "snippet_full": "",
-    "diff": {
-      "added": 51,
-      "removed": 19,
-      "churn": 70
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 27 Mar 2026 01:48:33 GMT",
-    "run_at": "2026-03-27T01:48:23Z",
-    "run_id": "fe1236cafbef4de28250222c10443449"
-  },
-  {
-    "id": "d30f829507501e5500a0d4caa409af7410148b0a",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: From Pilot to Practice: How BBVA Is Scaling AI Across the Organization\n+title: How BBVA is scaling AI from pilot to practice across the org\n-title: Building AI fluency at scale with ChatGPT Enterprise\n+title: Commonwealth Bank of Australia builds AI fluency at scale\n-title: Knowledge preservation powered by ChatGPT\n+title: Advancing organizational transformation for business innovation\n-title: Transforming the manufacturing industry with ChatGPT\n+title: ENEOS Materials brings ChatGPT Enterprise to manufacturing\n+title: Inside JetBrains—the company reshaping how the world writes code\n+link: https://openai.com/index/jetbrains-2025\n+id: https://openai.com/index/jetbrains-2025\n+date: Tue, 25 Nov 2025 00:00:00 GMT",
-    "snippet_full": "-title: From Pilot to Practice: How BBVA Is Scaling AI Across the Organization\n+title: How BBVA is scaling AI from pilot to practice across the org\n-title: Building AI fluency at scale with ChatGPT Enterprise\n+title: Commonwealth Bank of Australia builds AI fluency at scale\n-title: Knowledge preservation powered by ChatGPT\n+title: Advancing organizational transformation for business innovation\n-title: Transforming the manufacturing industry with ChatGPT\n+title: ENEOS Materials brings ChatGPT Enterprise to manufacturing\n+title: Inside JetBrains—the company reshaping how the world writes code\n+link: https://openai.com/index/jetbrains-2025\n+id: https://openai.com/index/jetbrains-2025\n+date: Tue, 25 Nov 2025 00:00:00 GMT\n+body:\n+#ITEM\n-date: Thu, 08 Jan 2026 13:00:00 GMT\n+date: Thu, 08 Jan 2026 00:00:00 GMT\n+title: Neuro drives national retail wins with ChatGPT Business\n+link: https://openai.com/index/neurogum\n+id: https://openai.com/index/neurogum\n+date: Wed, 12 Nov 2025 11:00:00 GMT\n+body:\n+#ITEM\n+title: How Philips is scaling AI literacy across 70,000 employees\n+link: https://openai.com/index/philips\n+id: https://openai.com/index/philips\n+date: Thu, 13 Nov 2025 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Scania accelerates work with AI across its global workforce\n+link: https://openai.com/index/scania\n+id: https://openai.com/index/scania\n+date: Wed, 19 Nov 2025 00:00:00 GMT\n+body:\n+#ITEM\n+title: SchoolAI builds an AI platform that empowers teachers\n+link: https://openai.com/index/schoolai\n+id: https://openai.com/index/schoolai\n+date: Mon, 22 Sep 2025 10:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 36,
-      "removed": 6,
-      "churn": 42
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 27 Mar 2026 01:48:24 GMT",
-    "run_at": "2026-03-27T01:48:23Z",
-    "run_id": "fe1236cafbef4de28250222c10443449"
-  },
-  {
-    "id": "508ccfe0567237587887c5303dd627a5cad343ee",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Hooks\n+Plugins",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 27 Mar 2026 01:48:24 GMT",
     "run_at": "2026-03-27T01:48:23Z",
     "run_id": "fe1236cafbef4de28250222c10443449"
   }

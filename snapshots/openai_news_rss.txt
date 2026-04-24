@@ -11,6 +11,30 @@ id: https://openai.com/academy/brainstorming
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Automations
+link: https://openai.com/academy/codex-automations
+id: https://openai.com/academy/codex-automations
+date: Thu, 23 Apr 2026 10:00:00 GMT
+body:
+#ITEM
+title: How to get started with Codex
+link: https://openai.com/academy/codex-how-to-start
+id: https://openai.com/academy/codex-how-to-start
+date: Thu, 23 Apr 2026 10:00:00 GMT
+body:
+#ITEM
+title: Plugins and skills
+link: https://openai.com/academy/codex-plugins-and-skills
+id: https://openai.com/academy/codex-plugins-and-skills
+date: Thu, 23 Apr 2026 10:00:00 GMT
+body:
+#ITEM
+title: Codex settings
+link: https://openai.com/academy/codex-settings
+id: https://openai.com/academy/codex-settings
+date: Thu, 23 Apr 2026 10:00:00 GMT
+body:
+#ITEM
 title: Using custom GPTs
 link: https://openai.com/academy/custom-gpts
 id: https://openai.com/academy/custom-gpts
@@ -125,10 +149,28 @@ id: https://openai.com/academy/skills
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Top 10 uses for Codex at work
+link: https://openai.com/academy/top-10-use-cases-codex-for-work
+id: https://openai.com/academy/top-10-use-cases-codex-for-work
+date: Thu, 23 Apr 2026 10:00:00 GMT
+body:
+#ITEM
 title: AI fundamentals
 link: https://openai.com/academy/what-is-ai
 id: https://openai.com/academy/what-is-ai
 date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: What is Codex?
+link: https://openai.com/academy/what-is-codex
+id: https://openai.com/academy/what-is-codex
+date: Thu, 23 Apr 2026 10:00:00 GMT
+body:
+#ITEM
+title: Working with Codex
+link: https://openai.com/academy/working-with-codex
+id: https://openai.com/academy/working-with-codex
+date: Thu, 23 Apr 2026 10:00:00 GMT
 body:
 #ITEM
 title: Working with files in ChatGPT
@@ -153,6 +195,12 @@ title: Inside GPT-5 for Work: How Businesses Use GPT-5
 link: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
 id: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
 date: Thu, 22 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: Staying ahead in the age of AI
+link: https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai
+id: https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai
+date: Tue, 16 Dec 2025 00:00:00 GMT
 body:
 #ITEM
 title: The state of enterprise AI
@@ -2003,6 +2051,18 @@ id: https://openai.com/index/gpt-5-4-thinking-system-card
 date: Thu, 05 Mar 2026 10:00:00 GMT
 body:
 #ITEM
+title: GPT-5.5 Bio Bug Bounty
+link: https://openai.com/index/gpt-5-5-bio-bug-bounty
+id: https://openai.com/index/gpt-5-5-bio-bug-bounty
+date: Thu, 23 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: GPT-5.5 System Card
+link: https://openai.com/index/gpt-5-5-system-card
+id: https://openai.com/index/gpt-5-5-system-card
+date: Thu, 23 Apr 2026 11:00:00 GMT
+body:
+#ITEM
 title: How Amgen uses GPT-5
 link: https://openai.com/index/gpt-5-amgen
 id: https://openai.com/index/gpt-5-amgen
@@ -2585,12 +2645,6 @@ id: https://openai.com/index/introducing-evmbench
 date: Wed, 18 Feb 2026 00:00:00 GMT
 body:
 #ITEM
-title: Introducing GPT-4.5
-link: https://openai.com/index/introducing-gpt-4-5
-id: https://openai.com/index/introducing-gpt-4-5
-date: Thu, 27 Feb 2025 10:00:00 GMT
-body:
-#ITEM
 title: Introducing GPT-5
 link: https://openai.com/index/introducing-gpt-5
 id: https://openai.com/index/introducing-gpt-5
@@ -2631,6 +2685,12 @@ title: Introducing GPT-5.4 mini and nano
 link: https://openai.com/index/introducing-gpt-5-4-mini-and-nano
 id: https://openai.com/index/introducing-gpt-5-4-mini-and-nano
 date: Tue, 17 Mar 2026 10:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-5.5
+link: https://openai.com/index/introducing-gpt-5-5
+id: https://openai.com/index/introducing-gpt-5-5
+date: Thu, 23 Apr 2026 11:00:00 GMT
 body:
 #ITEM
 title: Introducing GPT-5 for developers

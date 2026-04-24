@@ -300,6 +300,7 @@ Changelog
 Feature Maturity
 Open Source
 Home
+Collections
 Apps SDK
 Commerce
 Home
@@ -351,6 +352,7 @@ Cookbook
 Learn
 Community
 Home
+API examples
 All posts
 Recent
 How Perplexity Brought Voice Search to Millions Using the Realtime API
