@@ -1,5 +1,47 @@
 [
   {
+    "id": "a10dbdaf9d268fda532edd7e4cbc2509eceb8988",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+Tutorial: Build a tool-using agent\n+Define tools\n+Handle tool calls\n+Parallel tool use\n+Tool Runner (SDK)\n+Strict tool use\n+Tool use with prompt caching\n+Server tools\n+Troubleshooting\n+Manage tool context\n+Tool combinations\n+April 24, 2026\n+We've released the\n+Rate Limits API\n+, allowing administrators to programmatically query the rate limits configured for their organization and workspaces.\n+April 24, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 16,
+      "removed": 0,
+      "churn": 16
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 25 Apr 2026 01:51:19 GMT",
+    "run_at": "2026-04-25T01:50:51Z",
+    "run_id": "8f9b9be047a6486e85f1ec4d4ecdff05"
+  },
+  {
+    "id": "cf436c9d2a18df4cbe715b8d28cc1391878bf7ef",
+    "impact": "Breaking",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Latest: GPT-5.4\n+Latest: GPT-5.5\n+Deployment checklist\n-Latest: GPT-5.4\n+Latest: GPT-5.5\n+Deployment checklist\n+Upcoming deprecations can be found on the\n+deprecations page\n+.\n+Apr 24\n+Feature\n+gpt-5.5\n+gpt-5.5-pro\n+v1/responses\n+v1/chat/completions\n+v1/batch\n+Released\n+GPT-5.5\n+, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released\n+GPT-5.5 pro\n+for Responses API requests for tougher problems that benefit from more compute.\n+GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and w\n+Reasoning effort now defaults to\n+medium\n+.\n+When\n+image_detail\n+is unset or set to\n+auto\n+, the model now uses\n+original behavior\n+.\n+Caching for GPT-5.5 only works with extended prompt caching. In-memory prompt caching is not supported.\n+Learn more\n+here\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 34,
+      "removed": 2,
+      "churn": 36
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 25 Apr 2026 01:51:12 GMT",
+    "run_at": "2026-04-25T01:50:51Z",
+    "run_id": "8f9b9be047a6486e85f1ec4d4ecdff05"
+  },
+  {
     "id": "a4c1d32d96524c854fdf7f1f14116c9896301d50",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -951,45 +993,5 @@
     "pubDate": "Sat, 28 Mar 2026 01:28:21 GMT",
     "run_at": "2026-03-28T01:27:58Z",
     "run_id": "2fc392fe99c74370b33c968e9c4eb714"
-  },
-  {
-    "id": "f737616f33a65fe785f81d9a53526fbd181da771",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Docs\n+Guides, concepts, and product docs for Codex\n+Use cases\n+Example workflows and tasks teams hand to Codex\n+Docs\n+Use cases\n+Use cases\n+Overview\n+Build plugins\n+Home",
-    "snippet_full": "",
-    "diff": {
-      "added": 10,
-      "removed": 0,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 28 Mar 2026 01:27:58 GMT",
-    "run_at": "2026-03-28T01:27:58Z",
-    "run_id": "2fc392fe99c74370b33c968e9c4eb714"
-  },
-  {
-    "id": "4bb72357380110f0a014708fb3ee07c68930d875",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+Long context pricing\n+Fine-grained tool streaming\n+is now generally available on all models and platforms (no beta header required). The\n+output_format\n+parameter for\n+structured outputs\n+has been moved to\n+output_config.format\n+.\n-How to implement tool use\n+Handle tool calls\n+To increase answer quality and decrease tool errors, we've changed the default value for the\n+top_p\n+nucleus sampling\n+parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set\n+top_p\n+to 0.999.\n+Additionally, when extended thinking is enabled, you can now set\n+top_p\n+to values between 0.95 and 1.\n+We've moved our\n+Go SDK\n+from beta to GA.\n+We've included minute and hour level granularity to the\n+Usage\n+page of Console alongside 429 error rates on the Usage page.\n+computer_20250124\n+: Updated computer use tool with new command options including \"hold_key\", \"left_mouse_down\", \"left_mouse_up\", \"scroll\", \"triple_click\", and \"wait\". This tool requires the \"computer-use-2025-01-24\" a\n+Learn more in\n+Tool use with Claude\n+.\n-How to implement tool use\n+Parallel tool use\n-Long context pricing\n-Fine-grained tool streaming\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to",
-    "snippet_full": "",
-    "diff": {
-      "added": 31,
-      "removed": 31,
-      "churn": 62
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 27 Mar 2026 01:48:34 GMT",
-    "run_at": "2026-03-27T01:48:23Z",
-    "run_id": "fe1236cafbef4de28250222c10443449"
   }
 ]

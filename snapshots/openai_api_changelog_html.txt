@@ -53,7 +53,7 @@ Quickstart
 Models
 Pricing
 Libraries
-Latest: GPT-5.4
+Latest: GPT-5.5
 Prompt guidance
 Core concepts
 Text generation
@@ -160,6 +160,7 @@ Embeddings
 Moderation
 Going live
 Production best practices
+Deployment checklist
 Latency optimization
 Overview
 Predicted Outputs
@@ -413,7 +414,7 @@ Quickstart
 Models
 Pricing
 Libraries
-Latest: GPT-5.4
+Latest: GPT-5.5
 Prompt guidance
 Core concepts
 Text generation
@@ -520,6 +521,7 @@ Embeddings
 Moderation
 Going live
 Production best practices
+Deployment checklist
 Latency optimization
 Overview
 Predicted Outputs
@@ -557,7 +559,37 @@ Production
 Data retrieval
 Sending files
 Changelog
+Upcoming deprecations can be found on the
+deprecations page
+.
 April, 2026
+Apr 24
+Feature
+gpt-5.5
+gpt-5.5-pro
+v1/responses
+v1/chat/completions
+v1/batch
+Released
+GPT-5.5
+, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released
+GPT-5.5 pro
+for Responses API requests for tougher problems that benefit from more compute.
+GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include:
+Reasoning effort now defaults to
+medium
+.
+When
+image_detail
+is unset or set to
+auto
+, the model now uses
+original behavior
+.
+Caching for GPT-5.5 only works with extended prompt caching. In-memory prompt caching is not supported.
+Learn more
+here
+.
 Apr 21
 Feature
 gpt-image-2
