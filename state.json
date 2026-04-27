@@ -1,5 +1,24 @@
 [
   {
+    "id": "4cb1545b56c853693cc8cc47e4363e82db319f2b",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Our principles\n+link: https://openai.com/index/our-principles\n+id: https://openai.com/index/our-principles\n+date: Sun, 26 Apr 2026 16:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 27 Apr 2026 02:06:30 GMT",
+    "run_at": "2026-04-27T02:06:28Z",
+    "run_id": "14f0d374231c473ea6086548ee8de358"
+  },
+  {
     "id": "a10dbdaf9d268fda532edd7e4cbc2509eceb8988",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -970,27 +989,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Sat, 28 Mar 2026 01:28:27 GMT",
-    "run_at": "2026-03-28T01:27:58Z",
-    "run_id": "2fc392fe99c74370b33c968e9c4eb714"
-  },
-  {
-    "id": "7dd6c1edab8405df86e880db2f9381feda15f387",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: SafetyKit scales risk agents with OpenAI’s most capable models\n-title: Growing impact and scale with ChatGPT\n+title: HiBob turns 2,500 GPTs into product and team growth\n-title: HYGH powers next-gen digital ads with ChatGPT Business\n+title: HYGH speeds development and campaigns with ChatGPT Business\n-title: Inside JetBrains—the company reshaping how the world writes code\n-link: https://openai.com/index/jetbrains-2025\n-id: https://openai.com/index/jetbrains-2025\n-date: Tue, 25 Nov 2025 00:00:00 GMT\n-body:\n-#ITEM\n-title: Neuro drives national retail wins with ChatGPT Business",
-    "snippet_full": "-title: Growing impact and scale with ChatGPT\n+title: HiBob turns 2,500 GPTs into product and team growth\n-title: HYGH powers next-gen digital ads with ChatGPT Business\n+title: HYGH speeds development and campaigns with ChatGPT Business\n-title: Inside JetBrains—the company reshaping how the world writes code\n-link: https://openai.com/index/jetbrains-2025\n-id: https://openai.com/index/jetbrains-2025\n-date: Tue, 25 Nov 2025 00:00:00 GMT\n-body:\n-#ITEM\n-title: Neuro drives national retail wins with ChatGPT Business\n-link: https://openai.com/index/neurogum\n-id: https://openai.com/index/neurogum\n-date: Wed, 12 Nov 2025 11:00:00 GMT\n-body:\n-#ITEM\n-title: Notion’s rebuild for agentic AI: How GPT‑5 helped unlock autonomous workflows\n+title: Notion’s GPT‑5 rebuild unlocks autonomous AI workflows\n-title: How Philips is scaling AI literacy across 70,000 employees\n-link: https://openai.com/index/philips\n-id: https://openai.com/index/philips\n-date: Thu, 13 Nov 2025 00:00:00 GMT\n-body:\n-#ITEM\n-title: Plex Coffee delivers fast service and personal connections with ChatGPT Business\n+title: Plex Coffee delivers fast, personal service with ChatGPT\n-title: Increasing revenue 300% by bringing AI to SMBs\n+title: How Podium is arming 10,000+ SMBs with AI agents\n-date: Thu, 22 Jan 2026 05:00:00 GMT\n+date: Thu, 22 Jan 2026 00:00:00 GMT\n-title: Shipping smarter agents with every new model\n+title: SafetyKit scales risk agents with OpenAI’s most capable models\n-title: How Scania is accelerating work with AI across its global workforce\n-link: https://openai.com/index/scania\n-id: https://openai.com/index/scania\n-date: Wed, 19 Nov 2025 00:00:00 GMT\n-body:\n-#ITEM\n-title: Creating a safe, observable AI infrastructure for 1 million classrooms\n-link: https://openai.com/index/schoolai",
-    "diff": {
-      "added": 18,
-      "removed": 42,
-      "churn": 60
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 28 Mar 2026 01:28:21 GMT",
     "run_at": "2026-03-28T01:27:58Z",
     "run_id": "2fc392fe99c74370b33c968e9c4eb714"
   }
