@@ -1,5 +1,43 @@
 [
   {
+    "id": "23a28ee49cc476fb482ec2f79a14622357c396ca",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-        total. There is no organization-wide storage limit.\n+        total. There is no organization-wide storage limit. Uploads to this\n+\n+        endpoint are rate-limited to 1,000 requests per minute per authenticated\n+\n+        user.\n+        - For Retrieval or `file_search` ingestion, upload files here first. If\n+          you need to attach multiple uploaded files to the same vector store, use\n+          [`/vector_stores/{vector_store_id}/file_batches`](/docs/api-reference/vector-stores-file-batches/createBatch)\n+          instead of attaching them one by one. Vector store attachment has separate\n+          limits from file upload, including 2,000 attached files per minute per\n+          organization.\n+        description: >\n+          Uploads a file for later use across OpenAI APIs. Uploads to this\n+          endpoint are rate-limited to 1,000 requests per minute per\n+          authenticated user. For Retrieval or `file_search` ingestion, upload\n+          files here first. If you need to attach multiple uploaded files to the\n+          same vector store, use vector store file batches instead of attaching\n+          them one by one.\n-    LocalShellCallStatus:\n+    FunctionShellCallStatus:\n-          $ref: '#/components/schemas/LocalShellCallStatus'\n+          $ref: '#/components/schemas/FunctionShellCallStatus'\n-    LocalShellCallOutputStatusEnum:\n+    FunctionShellCallOutputStatusEnum:\n-          $ref: '#/components/schemas/LocalShellCallOutputStatusEnum'\n+          $ref: '#/components/schemas/FunctionShellCallOutputStatusEnum'\n+          deprecated: true\n+          deprecated: true",
+    "snippet_full": "",
+    "diff": {
+      "added": 24,
+      "removed": 5,
+      "churn": 29
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 28 Apr 2026 02:12:58 GMT",
+    "run_at": "2026-04-28T02:12:51Z",
+    "run_id": "4647223b9bd54df9bc36037534dfeb17"
+  },
+  {
+    "id": "77f03269ccb19fba3e46a1cda3186390a014a829",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Choco automates food distribution with AI agents\n+link: https://openai.com/index/choco\n+id: https://openai.com/index/choco\n+date: Mon, 27 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: The next phase of the Microsoft OpenAI partnership\n+link: https://openai.com/index/next-phase-of-microsoft-partnership\n+id: https://openai.com/index/next-phase-of-microsoft-partnership\n+date: Mon, 27 Apr 2026 06:00:00 GMT\n+title: An open-source spec for orchestration: Symphony\n+link: https://openai.com/index/open-source-codex-orchestration-symphony",
+    "snippet_full": "+title: Choco automates food distribution with AI agents\n+link: https://openai.com/index/choco\n+id: https://openai.com/index/choco\n+date: Mon, 27 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: The next phase of the Microsoft OpenAI partnership\n+link: https://openai.com/index/next-phase-of-microsoft-partnership\n+id: https://openai.com/index/next-phase-of-microsoft-partnership\n+date: Mon, 27 Apr 2026 06:00:00 GMT\n+body:\n+#ITEM\n+title: An open-source spec for orchestration: Symphony\n+link: https://openai.com/index/open-source-codex-orchestration-symphony\n+id: https://openai.com/index/open-source-codex-orchestration-symphony\n+date: Mon, 27 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI available at FedRAMP Moderate\n+link: https://openai.com/index/openai-available-at-fedramp-moderate\n+id: https://openai.com/index/openai-available-at-fedramp-moderate\n+date: Mon, 27 Apr 2026 14:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 28 Apr 2026 02:12:52 GMT",
+    "run_at": "2026-04-28T02:12:51Z",
+    "run_id": "4647223b9bd54df9bc36037534dfeb17"
+  },
+  {
     "id": "4cb1545b56c853693cc8cc47e4363e82db319f2b",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -953,43 +991,5 @@
     "pubDate": "Tue, 31 Mar 2026 01:49:17 GMT",
     "run_at": "2026-03-31T01:49:16Z",
     "run_id": "46db076f4337410cbd0490ef9b620a63"
-  },
-  {
-    "id": "eaafd03c4fff35836abc1c31a5c2486469d482a9",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Automation\n+Workflow",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 29 Mar 2026 01:50:17 GMT",
-    "run_at": "2026-03-29T01:50:17Z",
-    "run_id": "2dc0dffc71c94018ae73eaf6746540e1"
-  },
-  {
-    "id": "bf47c7f67d0f851b3444da181dafb8e9b2a60738",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-            Dashboard](/logs?api=traces). Set to null to disable tracing. Once\n+            Dashboard](https://platform.openai.com/logs?api=traces). Set to null\n+            to disable tracing. Once\n-                Dashboard](/logs?api=traces). Set to null to disable tracing.\n-                Once\n+                Dashboard](https://platform.openai.com/logs?api=traces). Set to\n+                null to disable tracing. Once\n-        - web_search_call.results",
-    "snippet_full": "",
-    "diff": {
-      "added": 4,
-      "removed": 4,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 28 Mar 2026 01:28:27 GMT",
-    "run_at": "2026-03-28T01:27:58Z",
-    "run_id": "2fc392fe99c74370b33c968e9c4eb714"
   }
 ]

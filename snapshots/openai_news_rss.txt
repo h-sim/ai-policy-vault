@@ -983,6 +983,12 @@ id: https://openai.com/index/chime-vineet-mehra
 date: Wed, 05 Nov 2025 15:00:00 GMT
 body:
 #ITEM
+title: Choco automates food distribution with AI agents
+link: https://openai.com/index/choco
+id: https://openai.com/index/choco
+date: Mon, 27 Apr 2026 00:00:00 GMT
+body:
+#ITEM
 title: Cisco and OpenAI redefine enterprise engineering with AI agents
 link: https://openai.com/index/cisco
 id: https://openai.com/index/cisco
@@ -3521,6 +3527,12 @@ id: https://openai.com/index/next-phase-of-enterprise-ai
 date: Wed, 08 Apr 2026 14:00:00 GMT
 body:
 #ITEM
+title: The next phase of the Microsoft OpenAI partnership
+link: https://openai.com/index/next-phase-of-microsoft-partnership
+id: https://openai.com/index/next-phase-of-microsoft-partnership
+date: Mon, 27 Apr 2026 06:00:00 GMT
+body:
+#ITEM
 title: Nonlinear computation in deep linear networks
 link: https://openai.com/index/nonlinear-computation-in-deep-linear-networks
 id: https://openai.com/index/nonlinear-computation-in-deep-linear-networks
@@ -3639,6 +3651,12 @@ title: One-shot imitation learning
 link: https://openai.com/index/one-shot-imitation-learning
 id: https://openai.com/index/one-shot-imitation-learning
 date: Tue, 21 Mar 2017 07:00:00 GMT
+body:
+#ITEM
+title: An open-source spec for orchestration: Symphony
+link: https://openai.com/index/open-source-codex-orchestration-symphony
+id: https://openai.com/index/open-source-codex-orchestration-symphony
+date: Mon, 27 Apr 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing OpenAI Academy for News Organizations
@@ -3777,6 +3795,12 @@ title: OpenAI appoints Retired U.S. Army General Paul M. Nakasone to Board of Di
 link: https://openai.com/index/openai-appoints-retired-us-army-general
 id: https://openai.com/index/openai-appoints-retired-us-army-general
 date: Thu, 13 Jun 2024 14:00:00 GMT
+body:
+#ITEM
+title: OpenAI available at FedRAMP Moderate
+link: https://openai.com/index/openai-available-at-fedramp-moderate
+id: https://openai.com/index/openai-available-at-fedramp-moderate
+date: Mon, 27 Apr 2026 14:00:00 GMT
 body:
 #ITEM
 title: OpenAI Baselines: ACKTR & A2C
