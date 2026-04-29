@@ -1,5 +1,47 @@
 [
   {
+    "id": "cc668988e164dd33a51642e4fede6c29d9837902",
+    "impact": "Medium",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []\n+      security:\n+        - AdminApiKeyAuth: []",
+    "snippet_full": "",
+    "diff": {
+      "added": 165,
+      "removed": 0,
+      "churn": 165
+    },
+    "score": 40,
+    "reasons": [
+      "OpenAPI: security変更"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 29 Apr 2026 02:14:26 GMT",
+    "run_at": "2026-04-29T02:13:56Z",
+    "run_id": "c2b73b3d025c4ac9b8c95a6e2c16ce5a"
+  },
+  {
+    "id": "6add5763c2f5a965b88a4aac3009fc5d470e7fe5",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI models, Codex, and Managed Agents come to AWS\n+link: https://openai.com/index/openai-on-aws\n+id: https://openai.com/index/openai-on-aws\n+date: Tue, 28 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Our commitment to community safety\n+link: https://openai.com/index/our-commitment-to-community-safety\n+id: https://openai.com/index/our-commitment-to-community-safety\n+date: Tue, 28 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 29 Apr 2026 02:14:19 GMT",
+    "run_at": "2026-04-29T02:13:56Z",
+    "run_id": "c2b73b3d025c4ac9b8c95a6e2c16ce5a"
+  },
+  {
     "id": "23a28ee49cc476fb482ec2f79a14622357c396ca",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -951,44 +993,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 31 Mar 2026 01:49:23 GMT",
-    "run_at": "2026-03-31T01:49:16Z",
-    "run_id": "46db076f4337410cbd0490ef9b620a63"
-  },
-  {
-    "id": "6e2dfadb69d8906dbcf6e7ad1785204f600ac6e1",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Helping disaster response teams turn AI into action across Asia\n+link: https://openai.com/index/helping-disaster-response-teams-asia\n+id: https://openai.com/index/helping-disaster-response-teams-asia\n+date: Sun, 29 Mar 2026 22:15:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 31 Mar 2026 01:49:17 GMT",
-    "run_at": "2026-03-31T01:49:16Z",
-    "run_id": "46db076f4337410cbd0490ef9b620a63"
-  },
-  {
-    "id": "b68cb4ce5035fd45e8fff14c21acf23f6f894f20",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Workflow\n+Automation\n+How Perplexity Brought Voice Search to Millions Using the Realtime API\n-Run long horizon tasks with Codex",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 2,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 31 Mar 2026 01:49:17 GMT",
     "run_at": "2026-03-31T01:49:16Z",
     "run_id": "46db076f4337410cbd0490ef9b620a63"
   }
