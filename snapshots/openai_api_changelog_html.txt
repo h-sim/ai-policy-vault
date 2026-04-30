@@ -327,6 +327,9 @@ Deploy your app
 Connect from ChatGPT
 Test your integration
 Submit your app
+Conversion apps
+Restaurant reservation spec
+Product checkout spec
 Guides
 Optimize Metadata
 Security & Privacy

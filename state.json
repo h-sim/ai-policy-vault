@@ -1,5 +1,64 @@
 [
   {
+    "id": "c9e3e1aae98c82f3dabe12aa92d7547e7fdeeff3",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+            node.js: >-\n+              import OpenAI from 'openai';\n+\n+\n+              const client = new OpenAI({\n+                adminAPIKey: process.env['OPENAI_ADMIN_KEY'], // This is the default and can be omitted\n+              });\n+\n+\n+              // Automatically fetches more pages as needed.\n+\n+              for await (const auditLogListResponse of\n+              client.admin.organization.auditLogs.list()) {\n+                console.log(auditLogListResponse.id);\n+              }\n+            python: |-\n+              import os\n+              from openai import OpenAI\n+\n+              client = OpenAI(\n+                  admin_api_key=os.environ.get(\"OPENAI_ADMIN_KEY\"),  # This is the default and can be omitted\n+              )\n+              page = client.admin.organization.audit_logs.list()\n+              page = page.data[0]\n+              print(page.id)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+            java: >-\n+              package com.openai.example;\n+\n+\n+              import com.openai.client.OpenAIClient;\n+\n+              import com.openai.client.okhttp.OpenAIOkHttpClient;\n+\n+              import\n+              com.openai.models.admin.organization.auditlogs.AuditLogListPage;\n+\n+              import\n+              com.openai.models.admin.organization.auditlogs.AuditLogListParams;\n+",
+    "snippet_full": "",
+    "diff": {
+      "added": 216,
+      "removed": 24,
+      "churn": 240
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 30 Apr 2026 02:14:36 GMT",
+    "run_at": "2026-04-30T02:14:03Z",
+    "run_id": "6fb998964d9b4a2d85a423b9f884e02d"
+  },
+  {
+    "id": "3b9caa361d53f88e42f1f7fe5da3e3d79654fbde",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Building the compute infrastructure for the Intelligence Age\n+link: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age\n+id: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age\n+date: Wed, 29 Apr 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: Cybersecurity in the Intelligence Age\n+link: https://openai.com/index/cybersecurity-in-the-intelligence-age\n+id: https://openai.com/index/cybersecurity-in-the-intelligence-age\n+date: Wed, 29 Apr 2026 04:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 30 Apr 2026 02:14:24 GMT",
+    "run_at": "2026-04-30T02:14:03Z",
+    "run_id": "6fb998964d9b4a2d85a423b9f884e02d"
+  },
+  {
+    "id": "af144d4915f7d4df462ec06f56f290531ea0a516",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Conversion apps\n+Restaurant reservation spec\n+Product checkout spec",
+    "snippet_full": "",
+    "diff": {
+      "added": 3,
+      "removed": 0,
+      "churn": 3
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 30 Apr 2026 02:14:03 GMT",
+    "run_at": "2026-04-30T02:14:03Z",
+    "run_id": "6fb998964d9b4a2d85a423b9f884e02d"
+  },
+  {
     "id": "cc668988e164dd33a51642e4fede6c29d9837902",
     "impact": "Medium",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -936,64 +995,5 @@
     "pubDate": "Wed, 01 Apr 2026 01:56:58 GMT",
     "run_at": "2026-04-01T01:56:51Z",
     "run_id": "1c0a260a547047babb0ec9bf908247ac"
-  },
-  {
-    "id": "35c0991cbce479d3568ef94cd15723cf426ff9db",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Accelerating the next phase of AI\n+link: https://openai.com/index/accelerating-the-next-phase-ai\n+id: https://openai.com/index/accelerating-the-next-phase-ai\n+date: Tue, 31 Mar 2026 13:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 01 Apr 2026 01:56:52 GMT",
-    "run_at": "2026-04-01T01:56:51Z",
-    "run_id": "1c0a260a547047babb0ec9bf908247ac"
-  },
-  {
-    "id": "5f0f3ec6a79528e83c33871a46805100819d2cc1",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+March 30, 2026\n+We've raised the\n+max_tokens\n+cap to 300k on the\n+Message Batches API\n+for Claude Opus 4.6 and Sonnet 4.6. Include the\n+output-300k-2026-03-24\n+beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks.\n+We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on\n+April 30, 2026\n+. After that date, requests that include the\n+context-1m-2025-08-07\n+beta header on these models will return a 400 error. To continue using 1M context windows, migrate to\n+Claude Sonnet 4.6\n+or\n+Claude Opus 4.6\n+, which support the full 1M token context window at standard pricing with no beta header required.\n+March 30, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 31 Mar 2026 01:49:24 GMT",
-    "run_at": "2026-03-31T01:49:16Z",
-    "run_id": "46db076f4337410cbd0490ef9b620a63"
-  },
-  {
-    "id": "4ea478c3b6e21f111d2b4fdd0a4297e7d5b8fcde",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+    MessagePhase-2:\n+      type: string\n+      enum:\n+        - commentary\n+        - final_answer\n+        phase:\n+          anyOf:\n+            - $ref: '#/components/schemas/MessagePhase-2'\n+              description: >-\n+                Labels an `assistant` message as intermediate commentary\n+                (`commentary`) or the final answer (`final_answer`). For models\n+                like `gpt-5.3-codex` and beyond, when sending follow-up\n+                requests, preserve and resend phase on all assistant messages —\n+                dropping it can degrade performance. Not used for user messages.\n+            - type: 'null'",
-    "snippet_full": "",
-    "diff": {
-      "added": 15,
-      "removed": 0,
-      "churn": 15
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 31 Mar 2026 01:49:23 GMT",
-    "run_at": "2026-03-31T01:49:16Z",
-    "run_id": "46db076f4337410cbd0490ef9b620a63"
   }
 ]

@@ -863,6 +863,12 @@ id: https://openai.com/index/building-openai-with-openai
 date: Mon, 29 Sep 2025 13:30:00 GMT
 body:
 #ITEM
+title: Building the compute infrastructure for the Intelligence Age
+link: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
+id: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
+date: Wed, 29 Apr 2026 15:00:00 GMT
+body:
+#ITEM
 title: Building towards age prediction
 link: https://openai.com/index/building-towards-age-prediction
 id: https://openai.com/index/building-towards-age-prediction
@@ -1185,6 +1191,12 @@ title: CyberAgent moves faster with ChatGPT Enterprise and Codex
 link: https://openai.com/index/cyberagent
 id: https://openai.com/index/cyberagent
 date: Thu, 09 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Cybersecurity in the Intelligence Age
+link: https://openai.com/index/cybersecurity-in-the-intelligence-age
+id: https://openai.com/index/cybersecurity-in-the-intelligence-age
+date: Wed, 29 Apr 2026 04:00:00 GMT
 body:
 #ITEM
 title: Advancing organizational transformation for business innovation
