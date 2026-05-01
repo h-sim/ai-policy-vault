@@ -527,6 +527,12 @@ id: https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors
 date: Tue, 14 Jan 2025 09:00:00 GMT
 body:
 #ITEM
+title: Introducing Advanced Account Security
+link: https://openai.com/index/advanced-account-security
+id: https://openai.com/index/advanced-account-security
+date: Thu, 30 Apr 2026 00:00:00 GMT
+body:
+#ITEM
 title: Advancing independent research on AI alignment
 link: https://openai.com/index/advancing-independent-research-ai-alignment
 id: https://openai.com/index/advancing-independent-research-ai-alignment
@@ -5463,6 +5469,12 @@ title: Welcome, Pieter and Shivon!
 link: https://openai.com/index/welcome-pieter-and-shivon
 id: https://openai.com/index/welcome-pieter-and-shivon
 date: Tue, 26 Apr 2016 07:00:00 GMT
+body:
+#ITEM
+title: Where the goblins came from
+link: https://openai.com/index/where-the-goblins-came-from
+id: https://openai.com/index/where-the-goblins-came-from
+date: Wed, 29 Apr 2026 20:00:00 GMT
 body:
 #ITEM
 title: Introducing Whisper

@@ -1,5 +1,66 @@
 [
   {
+    "id": "9c47bab2966b2be9c16c5012be7bdec64733ea8b",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+April 30, 2026\n+We've retired the 1M token context window beta (\n+context-1m-2025-08-07\n+) for Claude Sonnet 4.5 and Claude Sonnet 4. The beta header now has no effect on these models, and requests exceeding the standard 200k-token context window return an error. To use the 1M context wi\n+Claude Sonnet 4.6\n+or\n+Claude Opus 4.6\n+, where it's generally available at standard pricing with no beta header required.\n+April 30, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 9,
+      "removed": 0,
+      "churn": 9
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 01 May 2026 02:28:31 GMT",
+    "run_at": "2026-05-01T02:27:56Z",
+    "run_id": "89b9197133da4603852c14c2f398cd02"
+  },
+  {
+    "id": "2e64302bf36b6723c70595c2a48979ed0004e3e3",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+            node.js: >-\n+              import OpenAI from 'openai';\n+\n+\n+              const client = new OpenAI({\n+                adminAPIKey: process.env['OPENAI_ADMIN_KEY'], // This is the default and can be omitted\n+              });\n+\n+\n+              // Automatically fetches more pages as needed.\n+\n+              for await (const adminAPIKey of\n+              client.admin.organization.adminAPIKeys.list()) {\n+                console.log(adminAPIKey.id);\n+              }\n+            python: |-\n+              import os\n+              from openai import OpenAI\n+\n+              client = OpenAI(\n+                  admin_api_key=os.environ.get(\"OPENAI_ADMIN_KEY\"),  # This is the default and can be omitted\n+              )\n+              page = client.admin.organization.admin_api_keys.list()\n+              page = page.data[0]\n+              print(page.id)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+            java: >-\n+              package com.openai.example;\n+\n+\n+              import com.openai.client.OpenAIClient;\n+\n+              import com.openai.client.okhttp.OpenAIOkHttpClient;\n+\n+              import\n+              com.openai.models.admin.organization.adminapikeys.AdminApiKeyListPage;\n+\n+              import\n+              com.openai.models.admin.organization.adminapikeys.AdminApiKeyListParams;\n+",
+    "snippet_full": "",
+    "diff": {
+      "added": 5261,
+      "removed": 2,
+      "churn": 5263
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 01 May 2026 02:28:30 GMT",
+    "run_at": "2026-05-01T02:27:56Z",
+    "run_id": "89b9197133da4603852c14c2f398cd02"
+  },
+  {
+    "id": "782c6545dda8ab0109ebc95e1cd99710f7fa9364",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing Advanced Account Security\n+link: https://openai.com/index/advanced-account-security\n+id: https://openai.com/index/advanced-account-security\n+date: Thu, 30 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Where the goblins came from\n+link: https://openai.com/index/where-the-goblins-came-from\n+id: https://openai.com/index/where-the-goblins-came-from\n+date: Wed, 29 Apr 2026 20:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 01 May 2026 02:28:22 GMT",
+    "run_at": "2026-05-01T02:27:56Z",
+    "run_id": "89b9197133da4603852c14c2f398cd02"
+  },
+  {
     "id": "c9e3e1aae98c82f3dabe12aa92d7547e7fdeeff3",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -934,66 +995,5 @@
     "pubDate": "Fri, 03 Apr 2026 01:48:19 GMT",
     "run_at": "2026-04-03T01:47:35Z",
     "run_id": "38e97911c26040cab41641e4d82f4c03"
-  },
-  {
-    "id": "239735ab42515f91fa27ab98a704980956c87305",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Codex now offers more flexible pricing for teams\n+link: https://openai.com/index/codex-flexible-pricing-for-teams\n+id: https://openai.com/index/codex-flexible-pricing-for-teams\n+date: Thu, 02 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI acquires TBPN\n+link: https://openai.com/index/openai-acquires-tbpn\n+id: https://openai.com/index/openai-acquires-tbpn\n+date: Thu, 02 Apr 2026 10:30:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 03 Apr 2026 01:47:55 GMT",
-    "run_at": "2026-04-03T01:47:35Z",
-    "run_id": "38e97911c26040cab41641e4d82f4c03"
-  },
-  {
-    "id": "ad54094171425ad656dcddb202a156fa73d97a75",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: How Descript enables multilingual video dubbing at scale\n+title: How Descript engineers multilingual video dubbing at scale\n-date: Fri, 06 Mar 2026 10:00:00 GMT\n+date: Fri, 06 Mar 2026 00:00:00 GMT\n+title: Gradient Labs gives every bank customer an AI account manager\n+link: https://openai.com/index/gradient-labs\n+id: https://openai.com/index/gradient-labs\n+date: Wed, 01 Apr 2026 02:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 8,
-      "removed": 2,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 02 Apr 2026 01:45:47 GMT",
-    "run_at": "2026-04-02T01:45:46Z",
-    "run_id": "7fe6821b27b6459fb32113ab625f24ec"
-  },
-  {
-    "id": "df206bc805cadae2237f8db0cd3d5bd249b090c8",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-. After that date, requests that include the\n+. After that date, the\n-beta header on these models will return a 400 error. To continue using 1M context windows, migrate to\n+beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To continue using 1M context windows, migrate to\n-Long context pricing\n-Fine-grained tool streaming\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to\n-output_config.format\n-.\n-To increase answer quality and decrease tool errors, we've changed the default value for the\n-top_p\n-nucleus sampling\n-parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set\n-top_p\n-to 0.999.\n-Additionally, when extended thinking is enabled, you can now set\n-top_p\n-to values between 0.95 and 1.\n-We've moved our\n-Go SDK\n-from beta to GA.\n-We've included minute and hour level granularity to the\n-Usage\n-page of Console alongside 429 error rates on the Usage page.\n-computer_20250124\n-: Updated computer use tool with new command options including \"hold_key\", \"left_mouse_down\", \"left_mouse_up\", \"scroll\", \"triple_click\", and \"wait\". This tool requires the \"computer-use-2025-01-24\" a\n-Learn more in\n-Tool use with Claude\n-.\n+Long context pricing\n+Fine-grained tool streaming\n+is now generally available on all models and platforms (no beta header required). The\n+output_format\n+parameter for\n+structured outputs\n+has been moved to",
-    "snippet_full": "",
-    "diff": {
-      "added": 31,
-      "removed": 31,
-      "churn": 62
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 01 Apr 2026 01:56:58 GMT",
-    "run_at": "2026-04-01T01:56:51Z",
-    "run_id": "1c0a260a547047babb0ec9bf908247ac"
   }
 ]

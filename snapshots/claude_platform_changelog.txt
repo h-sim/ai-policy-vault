@@ -183,6 +183,14 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+April 30, 2026
+We've retired the 1M token context window beta (
+context-1m-2025-08-07
+) for Claude Sonnet 4.5 and Claude Sonnet 4. The beta header now has no effect on these models, and requests exceeding the standard 200k-token context window return an error. To use the 1M context window, migrate to
+Claude Sonnet 4.6
+or
+Claude Opus 4.6
+, where it's generally available at standard pricing with no beta header required.
 April 24, 2026
 We've released the
 Rate Limits API
@@ -1018,6 +1026,7 @@ Developer Console
 blog post
 .
 このページは役に立ちましたか？
+April 30, 2026
 April 24, 2026
 April 23, 2026
 April 20, 2026
