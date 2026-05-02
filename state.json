@@ -1,5 +1,43 @@
 [
   {
+    "id": "90cc487ec4273d6b081818a67a61498a8f5d3786",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-                $ref: '#/components/schemas/AdminApiKey'\n+                $ref: '#/components/schemas/AdminApiKeyCreateResponse'\n-              console.log(adminAPIKey.id);\n+              console.log(adminAPIKey);\n-              print(admin_api_key.id)\n-            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+              print(admin_api_key)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n-              com.openai.models.admin.organization.adminapikeys.AdminApiKey;\n+              com.openai.models.admin.organization.adminapikeys.AdminApiKeyCreateParams;\n-              com.openai.models.admin.organization.adminapikeys.AdminApiKeyCreateParams;\n+              com.openai.models.admin.organization.adminapikeys.AdminApiKeyCreateResponse;\n-                      AdminApiKey adminApiKey = client.admin().organization().adminApiKeys().create(params);\n+                      AdminApiKeyCreateResponse adminApiKey = client.admin().organization().adminApiKeys().create(params);\n+                    enum:\n+                      - organization.admin_api_key.deleted\n+                    x-stainless-const: true\n+                required:\n+                  - id\n+                  - object\n+                  - deleted\n-              for await (const certificate of\n+              for await (const certificateListResponse of\n-                console.log(certificate.id);\n+                console.log(certificateListResponse.id);\n-              client.admin.organization.certificates.create({ content: 'content'\n+              client.admin.organization.certificates.create({\n+                certificate: 'certificate',\n-                  content=\"content\",\n+                  certificate=\"certificate\",\n-            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n-                          .content(\"content\")\n+                          .certificate(\"certificate\")\n-              openai.admin.organization.certificates.create(content: \"content\")\n+              openai.admin.organization.certificates.create(certificate:\n+              \"certificate\")\n-                $ref: '#/components/schemas/ListCertificatesResponse'\n+                $ref: '#/components/schemas/OrganizationCertificateActivationResponse'\n-                \"data\": [\"cert_abc\", \"cert_def\"]",
+    "snippet_full": "",
+    "diff": {
+      "added": 687,
+      "removed": 240,
+      "churn": 927
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 02 May 2026 02:05:02 GMT",
+    "run_at": "2026-05-02T02:04:49Z",
+    "run_id": "b664fdea47984d808a69b130099c1a00"
+  },
+  {
+    "id": "2407d0548c0961c850517abbb732da8f5be691c0",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Migrate",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 02 May 2026 02:04:49 GMT",
+    "run_at": "2026-05-02T02:04:49Z",
+    "run_id": "b664fdea47984d808a69b130099c1a00"
+  },
+  {
     "id": "9c47bab2966b2be9c16c5012be7bdec64733ea8b",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -951,49 +989,5 @@
     "pubDate": "Sun, 05 Apr 2026 01:51:51 GMT",
     "run_at": "2026-04-05T01:51:43Z",
     "run_id": "50454f899cda49368290b529ade8aa5d"
-  },
-  {
-    "id": "07a6627e84a0971482707ca3480bb7d79a3046cc",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-.\n-and\n+Models API\n+.\n+GET /v1/models\n+and\n+GET /v1/models/{model_id}\n+max_input_tokens\n+max_tokens\n+capabilities\n+March 16, 2026\n+We've launched the\n+display\n+field for extended thinking, letting you omit thinking content from responses for faster streaming. Set\n+thinking.display: \"omitted\"\n+to receive thinking blocks with an empty\n+thinking\n+field and the\n+signature\n+preserved for multi-turn continuity. Billing is unchanged. Learn more in\n+Controlling thinking display\n+.\n+March 13, 2026\n+The\n+1M token context window\n+is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context win\n+We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.\n+We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.\n+February 19, 2026\n+We've launched\n+automatic caching\n+for the Messages API. Add a single\n+cache_control\n+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n+Prompt caching\n+.\n+We've retired the Claude Sonnet 3.7 model (\n+claude-3-7-sonnet-20250219\n+) and the Claude Haiku 3.5 model (\n+claude-3-5-haiku-20241022",
-    "snippet_full": "",
-    "diff": {
-      "added": 706,
-      "removed": 706,
-      "churn": 1412
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 04 Apr 2026 01:29:20 GMT",
-    "run_at": "2026-04-04T01:28:55Z",
-    "run_id": "c6735d07afd842988be10efac1771611"
-  },
-  {
-    "id": "3bdcd5529482ae4903c6fc5b26ccda6b9f655cc5",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Models API\n-.\n-GET /v1/models\n-and\n-GET /v1/models/{model_id}\n+.\n+and\n-max_input_tokens\n-max_tokens\n-capabilities\n-March 16, 2026\n-We've launched the\n-display\n-field for extended thinking, letting you omit thinking content from responses for faster streaming. Set\n-thinking.display: \"omitted\"\n-to receive thinking blocks with an empty\n-thinking\n-field and the\n-signature\n-preserved for multi-turn continuity. Billing is unchanged. Learn more in\n-Controlling thinking display\n-.\n-March 13, 2026\n-The\n-1M token context window\n-is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context win\n-We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.\n-We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.\n-February 19, 2026\n-We've launched\n-automatic caching\n-for the Messages API. Add a single\n-cache_control\n-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n-Prompt caching\n-.\n-We've retired the Claude Sonnet 3.7 model (\n-claude-3-7-sonnet-20250219\n-) and the Claude Haiku 3.5 model (\n-claude-3-5-haiku-20241022",
-    "snippet_full": "",
-    "diff": {
-      "added": 706,
-      "removed": 706,
-      "churn": 1412
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 03 Apr 2026 01:48:19 GMT",
-    "run_at": "2026-04-03T01:47:35Z",
-    "run_id": "38e97911c26040cab41641e4d82f4c03"
   }
 ]

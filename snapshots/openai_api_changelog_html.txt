@@ -203,6 +203,7 @@ Getting Started
 Overview
 Quickstart
 Explore use cases
+Migrate
 Pricing
 Concepts
 Prompting
