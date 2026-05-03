@@ -1,105 +1,23 @@
 Claude Platform - Claude API Docs
 読み込み中...
 Messages
-Build
+Managed Agents
 Admin
-Models & pricing
-Client SDKs
-API Reference
+Resources
+API reference
 English
+Console
 Log in
 Search...
 ⌘K
-First steps
-Intro to Claude
-Quickstart
-Building with Claude
-Features overview
-Using the Messages API
-Claude API skill
-Handling stop reasons
-Model capabilities
-Extended thinking
-Adaptive thinking
-Effort
-Task budgets (beta)
-Fast mode (beta: research preview)
-Structured outputs
-Citations
-Streaming Messages
-Batch processing
-Search results
-Streaming refusals
-Multilingual support
-Embeddings
-Tools
-Overview
-How tool use works
-Tutorial: Build a tool-using agent
-Define tools
-Handle tool calls
-Parallel tool use
-Tool Runner (SDK)
-Strict tool use
-Tool use with prompt caching
-Server tools
-Troubleshooting
-Web search tool
-Web fetch tool
-Code execution tool
-Advisor tool
-Memory tool
-Bash tool
-Computer use tool
-Text editor tool
-Tool infrastructure
-Tool reference
-Manage tool context
-Tool combinations
-Tool search
-Programmatic tool calling
-Fine-grained tool streaming
-Context management
-Context windows
-Compaction
-Context editing
-Prompt caching
-Token counting
-Working with files
-Files API
-PDF support
-Images and vision
-Skills
-Overview
-Quickstart
-Best practices
-Skills for enterprise
-Skills in the API
-MCP
-Remote MCP servers
-MCP connector
-Prompt engineering
-Overview
-Prompting best practices
-Console prompting tools
-Test and evaluate
-Define success and build evaluations
-Using the Evaluation Tool in Console
-Reducing latency
-Strengthen guardrails
-Reduce hallucinations
-Increase output consistency
-Mitigate jailbreaks
-Reduce prompt leak
-Resources
-Glossary
-Use cases
 Release notes
-Claude Platform
-Console
+Overview
+System prompts
+Migration guides
+Migrating to Managed Agents
 Log in
 Release notes
-Claude Platform
+Overview
 読み込み中...
 読み込み中...
 読み込み中...

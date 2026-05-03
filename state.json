@@ -1,5 +1,26 @@
 [
   {
+    "id": "76e2d0e23251e4374c906810ebb2cf8e25126880",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Build\n+Managed Agents\n-Models & pricing\n-Client SDKs\n-API Reference\n+Resources\n+API reference\n+Console\n-First steps\n-Intro to Claude\n-Quickstart\n-Building with Claude\n-Features overview\n-Using the Messages API\n-Claude API skill\n-Handling stop reasons\n-Model capabilities\n-Extended thinking\n-Adaptive thinking\n-Effort\n-Task budgets (beta)\n-Fast mode (beta: research preview)\n-Structured outputs\n-Citations\n-Streaming Messages\n-Batch processing\n-Search results\n-Streaming refusals\n-Multilingual support\n-Embeddings\n-Tools\n+Release notes\n-How tool use works\n-Tutorial: Build a tool-using agent\n-Define tools\n-Handle tool calls\n-Parallel tool use\n-Tool Runner (SDK)\n-Strict tool use\n-Tool use with prompt caching",
+    "snippet_full": "",
+    "diff": {
+      "added": 9,
+      "removed": 91,
+      "churn": 100
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sun, 03 May 2026 02:10:29 GMT",
+    "run_at": "2026-05-03T02:10:21Z",
+    "run_id": "b6e4cf996e634cf0a0d29392a05384bd"
+  },
+  {
     "id": "90cc487ec4273d6b081818a67a61498a8f5d3786",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -970,24 +991,5 @@
     "pubDate": "Tue, 07 Apr 2026 01:50:17 GMT",
     "run_at": "2026-04-07T01:49:58Z",
     "run_id": "ccbbc77079954e3da3e05fe7fe287056"
-  },
-  {
-    "id": "c2558fce7d0529773ceb23ed6192001ecf38773a",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+        - web_search_call.results",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 05 Apr 2026 01:51:51 GMT",
-    "run_at": "2026-04-05T01:51:43Z",
-    "run_id": "50454f899cda49368290b529ade8aa5d"
   }
 ]
