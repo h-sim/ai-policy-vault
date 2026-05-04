@@ -1,5 +1,27 @@
 [
   {
+    "id": "8b85d43f25390e5669f8bb3a2e6a9e5a63640c53",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Using agent memory\n-April 20, 2026\n-We've retired the Claude Haiku 3 model (\n-claude-3-haiku-20240307\n-). All requests to this model will now return an error. We recommend upgrading to\n-Claude Haiku 4.5\n-.\n-April 16, 2026\n-We've launched\n-Claude Opus 4.7\n-, our most capable generally available model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See\n-What's new in Claude Opus 4.7\n-for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see\n-Migrating to Claude Opus 4.7\n-before upgrading.\n-Claude in Amazon Bedrock\n-is now open to all Amazon Bedrock customers. Claude Opus 4.7 and Claude Haiku 4.5 are available self-serve from the Bedrock console through the Messages API endpoint at\n-/anthropic/v1/messages\n-, in 27 AWS regions with global and regional endpoints.\n-April 14, 2026\n-We announced the deprecation of the Claude Sonnet 4 model (\n-claude-sonnet-4-20250514\n-) and the Claude Opus 4 model (\n-claude-opus-4-20250514\n-), with retirement on the Claude API scheduled for June 15, 2026. We recommend migrating to\n-Claude Sonnet 4.6\n-and\n-Claude Opus 4.7\n-respectively. Read more in\n-model deprecations\n-.\n-April 9, 2026\n-We've launched the\n-advisor tool\n-in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo qual\n-advisor-tool-2026-03-01\n-in your requests.\n-April 8, 2026\n-We've launched\n-Claude Managed Agents",
+    "snippet_full": "",
+    "diff": {
+      "added": 824,
+      "removed": 824,
+      "churn": 1648
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Mon, 04 May 2026 02:10:14 GMT",
+    "run_at": "2026-05-04T02:09:46Z",
+    "run_id": "863f86218b1544afbf69dea79b5da033"
+  },
+  {
     "id": "76e2d0e23251e4374c906810ebb2cf8e25126880",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -970,26 +992,5 @@
     "pubDate": "Wed, 08 Apr 2026 01:50:23 GMT",
     "run_at": "2026-04-08T01:50:22Z",
     "run_id": "21586140810e44d2b742117a9da89502"
-  },
-  {
-    "id": "69e22108ac312275ea2a276ae54fc26ea2fef6ce",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Industrial policy for the Intelligence Age\n+link: https://openai.com/index/industrial-policy-for-the-intelligence-age\n+id: https://openai.com/index/industrial-policy-for-the-intelligence-age\n+date: Mon, 06 Apr 2026 02:30:00 GMT\n+body:\n+#ITEM\n+title: Announcing the OpenAI Safety Fellowship\n+link: https://openai.com/index/introducing-openai-safety-fellowship\n+id: https://openai.com/index/introducing-openai-safety-fellowship\n+date: Mon, 06 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 07 Apr 2026 01:50:17 GMT",
-    "run_at": "2026-04-07T01:49:58Z",
-    "run_id": "ccbbc77079954e3da3e05fe7fe287056"
   }
 ]
