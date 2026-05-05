@@ -186,6 +186,7 @@ Changelog
 Your data
 Permissions
 Rate limits
+Admin APIs
 Deprecations
 MCP for deep research
 Developer mode
@@ -551,6 +552,7 @@ Changelog
 Your data
 Permissions
 Rate limits
+Admin APIs
 Deprecations
 MCP for deep research
 Developer mode

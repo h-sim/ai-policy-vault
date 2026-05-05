@@ -1325,6 +1325,12 @@ id: https://openai.com/index/deliberative-alignment
 date: Fri, 20 Dec 2024 10:00:00 GMT
 body:
 #ITEM
+title: How OpenAI delivers low-latency voice AI at scale
+link: https://openai.com/index/delivering-low-latency-voice-ai-at-scale
+id: https://openai.com/index/delivering-low-latency-voice-ai-at-scale
+date: Mon, 04 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Democratic inputs to AI
 link: https://openai.com/index/democratic-inputs-to-ai
 id: https://openai.com/index/democratic-inputs-to-ai
