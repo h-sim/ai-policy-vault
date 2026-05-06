@@ -2087,6 +2087,18 @@ id: https://openai.com/index/gpt-5-5-bio-bug-bounty
 date: Thu, 23 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: GPT-5.5 Instant: smarter, clearer, and more personalized
+link: https://openai.com/index/gpt-5-5-instant
+id: https://openai.com/index/gpt-5-5-instant
+date: Tue, 05 May 2026 10:00:00 GMT
+body:
+#ITEM
+title: GPT-5.5 Instant System Card
+link: https://openai.com/index/gpt-5-5-instant-system-card
+id: https://openai.com/index/gpt-5-5-instant-system-card
+date: Tue, 05 May 2026 10:00:00 GMT
+body:
+#ITEM
 title: GPT-5.5 System Card
 link: https://openai.com/index/gpt-5-5-system-card
 id: https://openai.com/index/gpt-5-5-system-card
@@ -3515,6 +3527,12 @@ id: https://openai.com/index/new-tools-for-chatgpt-enterprise
 date: Thu, 18 Jul 2024 00:00:00 GMT
 body:
 #ITEM
+title: New ways to buy ChatGPT ads
+link: https://openai.com/index/new-ways-to-buy-chatgpt-ads
+id: https://openai.com/index/new-ways-to-buy-chatgpt-ads
+date: Tue, 05 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: New ways to learn math and science in ChatGPT
 link: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt
 id: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt
@@ -4047,6 +4065,12 @@ title: OpenAI Pioneers Program
 link: https://openai.com/index/openai-pioneers-program
 id: https://openai.com/index/openai-pioneers-program
 date: Wed, 09 Apr 2025 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI and PwC collaborate to reimagine the office of the CFO
+link: https://openai.com/index/openai-pwc-finance-collaboration
+id: https://openai.com/index/openai-pwc-finance-collaboration
+date: Mon, 04 May 2026 21:00:00 GMT
 body:
 #ITEM
 title: OpenAI standardizes on PyTorch
