@@ -2567,6 +2567,12 @@ id: https://openai.com/index/introducing-apps-in-chatgpt
 date: Mon, 06 Oct 2025 10:00:00 GMT
 body:
 #ITEM
+title: How frontier enterprises are building an AI advantage
+link: https://openai.com/index/introducing-b2b-signals
+id: https://openai.com/index/introducing-b2b-signals
+date: Wed, 06 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Introducing canvas, a new way to write and code with ChatGPT.
 link: https://openai.com/index/introducing-canvas
 id: https://openai.com/index/introducing-canvas
@@ -2601,6 +2607,12 @@ title: Introducing ChatGPT Enterprise
 link: https://openai.com/index/introducing-chatgpt-enterprise
 id: https://openai.com/index/introducing-chatgpt-enterprise
 date: Mon, 28 Aug 2023 07:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Futures: Class of 2026
+link: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
+id: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
+date: Wed, 06 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing ChatGPT Go, now available worldwide
@@ -3411,6 +3423,12 @@ title: Moving AI governance forward
 link: https://openai.com/index/moving-ai-governance-forward
 id: https://openai.com/index/moving-ai-governance-forward
 date: Fri, 21 Jul 2023 07:00:00 GMT
+body:
+#ITEM
+title: Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)
+link: https://openai.com/index/mrc-supercomputer-networking
+id: https://openai.com/index/mrc-supercomputer-networking
+date: Tue, 05 May 2026 10:00:00 GMT
 body:
 #ITEM
 title: Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research
@@ -4769,6 +4787,12 @@ id: https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time
 date: Wed, 23 Oct 2024 10:00:00 GMT
 body:
 #ITEM
+title: Singular Bank helps bankers move fast with ChatGPT and Codex
+link: https://openai.com/index/singular-bank
+id: https://openai.com/index/singular-bank
+date: Wed, 06 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Helping 1,000 small businesses build with AI
 link: https://openai.com/index/small-business-ai-jam
 id: https://openai.com/index/small-business-ai-jam
@@ -5277,6 +5301,12 @@ title: Evolving online forms into dynamic data
 link: https://openai.com/index/typeform
 id: https://openai.com/index/typeform
 date: Wed, 11 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: Uber uses OpenAI to help people earn smarter and book faster
+link: https://openai.com/index/uber
+id: https://openai.com/index/uber
+date: Wed, 06 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: Uber enables outstanding on-demand experiences with AI
