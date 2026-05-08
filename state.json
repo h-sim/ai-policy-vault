@@ -1,5 +1,64 @@
 [
   {
+    "id": "086ed488e493fea990afdc1fb69429bd7af09803",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+  /realtime/translations/client_secrets:\n+    post:\n+      summary: >\n+        Create a Realtime translation client secret with an associated\n+        translation session configuration.\n+\n+\n+        Client secrets are short-lived tokens that can be passed to a client\n+        app,\n+\n+        such as a web frontend or mobile client, which grants access to the\n+        Realtime\n+\n+        Translation API without leaking your main API key. You can configure a\n+        custom\n+\n+        TTL for each client secret.\n+\n+\n+        Returns the created client secret and the effective translation session\n+        object.\n+\n+        The client secret is a string that looks like `ek_1234`.\n+      operationId: create-realtime-translation-client-secret\n+      tags:\n+        - Realtime\n+      requestBody:\n+        description: >-\n+          Create a client secret with the given translation session\n+          configuration.\n+        required: true\n+        content:\n+          application/json:\n+            schema:\n+              $ref: >-\n+                #/components/schemas/RealtimeTranslationClientSecretCreateRequest\n+      responses:\n+        '200':\n+          description: Translation client secret created successfully.\n+          content:",
+    "snippet_full": "",
+    "diff": {
+      "added": 1101,
+      "removed": 76,
+      "churn": 1177
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 08 May 2026 02:27:53 GMT",
+    "run_at": "2026-05-08T02:27:22Z",
+    "run_id": "f37117d6bda247eebcb8ffe2e4f09d88"
+  },
+  {
+    "id": "e96fa39f7f751dfba766aab601558e3ac5c496d1",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber\n+link: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber\n+id: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber\n+title: Introducing Trusted Contact in ChatGPT\n+link: https://openai.com/index/introducing-trusted-contact-in-chatgpt\n+id: https://openai.com/index/introducing-trusted-contact-in-chatgpt\n+title: Advancing voice intelligence with new models in the API\n+link: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api\n+id: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api\n+date: Thu, 07 May 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "+title: Advancing voice intelligence with new models in the API\n+link: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api\n+id: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api\n+date: Thu, 07 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber\n+link: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber\n+id: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber\n+date: Thu, 07 May 2026 13:00:00 GMT\n+body:\n+#ITEM\n-title: How frontier enterprises are building an AI advantage\n+title: How frontier firms are pulling ahead\n+title: Introducing Trusted Contact in ChatGPT\n+link: https://openai.com/index/introducing-trusted-contact-in-chatgpt\n+id: https://openai.com/index/introducing-trusted-contact-in-chatgpt\n+date: Thu, 07 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Parloa builds service agents customers want to talk to\n+link: https://openai.com/index/parloa\n+id: https://openai.com/index/parloa\n+date: Thu, 07 May 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Simplex rethinks software development with Codex\n+link: https://openai.com/index/simplex\n+id: https://openai.com/index/simplex\n+date: Thu, 07 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n-date: Mon, 09 Feb 2026 11:00:00 GMT\n+date: Thu, 07 May 2026 00:00:00 GMT",
+    "diff": {
+      "added": 32,
+      "removed": 2,
+      "churn": 34
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 08 May 2026 02:27:44 GMT",
+    "run_at": "2026-05-08T02:27:22Z",
+    "run_id": "f37117d6bda247eebcb8ffe2e4f09d88"
+  },
+  {
+    "id": "8ab1db57f8ffee7e9ccde24ceec20093fc4deec5",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Libraries\n+SDKs and CLI\n+OpenAI SDK\n+Agents SDK\n+OpenAI CLI\n-Realtime API\n-Overview\n-Connect\n+Realtime and audio\n+Overview\n+Voice agents\n+Live translation\n+Transcription\n+Realtime transcription\n+Speech to text\n+Speech generation\n+Realtime prompting guide\n+Connection methods\n-Usage\n-Using realtime models\n+Realtime sessions\n-MCP servers\n+Voice activity detection\n+Realtime with tools\n-Realtime transcription\n-Voice agents\n-Text to speech\n-Speech to text\n+Chrome extension\n+OpenAI Developers plugin\n-Libraries\n+SDKs and CLI\n+OpenAI SDK\n+Agents SDK\n+OpenAI CLI\n-Realtime API\n-Overview\n-Connect\n+Realtime and audio\n+Overview",
+    "snippet_full": "",
+    "diff": {
+      "added": 60,
+      "removed": 22,
+      "churn": 82
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 08 May 2026 02:27:22 GMT",
+    "run_at": "2026-05-08T02:27:22Z",
+    "run_id": "f37117d6bda247eebcb8ffe2e4f09d88"
+  },
+  {
     "id": "97f500189484ba9da111363d17dd7a592d491ff0",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -928,62 +987,5 @@
     "pubDate": "Wed, 15 Apr 2026 01:52:53 GMT",
     "run_at": "2026-04-15T01:52:31Z",
     "run_id": "4be3635ded57433e9b847de84a38567c"
-  },
-  {
-    "id": "182c78efdeb7d50beed24883c219b2a72f08f49d",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Explore\n+Explore use cases",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 15 Apr 2026 01:52:32 GMT",
-    "run_at": "2026-04-15T01:52:31Z",
-    "run_id": "4be3635ded57433e9b847de84a38567c"
-  },
-  {
-    "id": "2c6940243d2ac3c10cac1457ef1361de3e6f32bb",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+                import fs from 'fs';\n+                import fs from 'fs';\n+                import fs from 'fs';\n+                import fs from 'fs';\n+                import fs from 'fs';\n+                import fs from 'fs';\n+              import fs from 'fs';\n+              import fs from 'fs';\n+              import fs from 'fs';\n+                import fs from 'fs';\n+                import fs from 'fs';\n+              import fs from 'fs';\n+              import fs from 'fs';\n+\n+              import fs from 'fs';",
-    "snippet_full": "",
-    "diff": {
-      "added": 15,
-      "removed": 0,
-      "churn": 15
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 14 Apr 2026 01:56:20 GMT",
-    "run_at": "2026-04-14T01:56:12Z",
-    "run_id": "4d4c3e5281494bfab4e57e0a8e6fafd5"
-  },
-  {
-    "id": "250f85a248fd3109d4842782b24c5b122cf39216",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI\n+link: https://openai.com/index/cloudflare-openai-agent-cloud\n+id: https://openai.com/index/cloudflare-openai-agent-cloud\n+date: Mon, 13 Apr 2026 06:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 14 Apr 2026 01:56:13 GMT",
-    "run_at": "2026-04-14T01:56:12Z",
-    "run_id": "4d4c3e5281494bfab4e57e0a8e6fafd5"
   }
 ]

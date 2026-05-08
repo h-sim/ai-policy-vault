@@ -545,6 +545,12 @@ id: https://openai.com/index/advancing-red-teaming-with-people-and-ai
 date: Thu, 21 Nov 2024 10:30:00 GMT
 body:
 #ITEM
+title: Advancing voice intelligence with new models in the API
+link: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
+id: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
+date: Thu, 07 May 2026 10:00:00 GMT
+body:
+#ITEM
 title: Adversarial attacks on neural network policies
 link: https://openai.com/index/adversarial-attacks-on-neural-network-policies
 id: https://openai.com/index/adversarial-attacks-on-neural-network-policies
@@ -2105,6 +2111,12 @@ id: https://openai.com/index/gpt-5-5-system-card
 date: Thu, 23 Apr 2026 11:00:00 GMT
 body:
 #ITEM
+title: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
+link: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
+id: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
+date: Thu, 07 May 2026 13:00:00 GMT
+body:
+#ITEM
 title: How Amgen uses GPT-5
 link: https://openai.com/index/gpt-5-amgen
 id: https://openai.com/index/gpt-5-amgen
@@ -2567,7 +2579,7 @@ id: https://openai.com/index/introducing-apps-in-chatgpt
 date: Mon, 06 Oct 2025 10:00:00 GMT
 body:
 #ITEM
-title: How frontier enterprises are building an AI advantage
+title: How frontier firms are pulling ahead
 link: https://openai.com/index/introducing-b2b-signals
 id: https://openai.com/index/introducing-b2b-signals
 date: Wed, 06 May 2026 00:00:00 GMT
@@ -2979,6 +2991,12 @@ title: Introducing the Teen Safety Blueprint
 link: https://openai.com/index/introducing-the-teen-safety-blueprint
 id: https://openai.com/index/introducing-the-teen-safety-blueprint
 date: Thu, 06 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing Trusted Contact in ChatGPT
+link: https://openai.com/index/introducing-trusted-contact-in-chatgpt
+id: https://openai.com/index/introducing-trusted-contact-in-chatgpt
+date: Thu, 07 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing upgrades to Codex
@@ -4325,6 +4343,12 @@ id: https://openai.com/index/paradigm
 date: Wed, 06 Mar 2024 08:00:00 GMT
 body:
 #ITEM
+title: Parloa builds service agents customers want to talk to
+link: https://openai.com/index/parloa
+id: https://openai.com/index/parloa
+date: Thu, 07 May 2026 11:00:00 GMT
+body:
+#ITEM
 title: Partnering with Axios expands OpenAI’s work with the news industry
 link: https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry
 id: https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry
@@ -4781,6 +4805,12 @@ id: https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynami
 date: Wed, 18 Oct 2017 07:00:00 GMT
 body:
 #ITEM
+title: Simplex rethinks software development with Codex
+link: https://openai.com/index/simplex
+id: https://openai.com/index/simplex
+date: Thu, 07 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Simplifying, stabilizing, and scaling continuous-time consistency models
 link: https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models
 id: https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models
@@ -5162,7 +5192,7 @@ body:
 title: Testing ads in ChatGPT
 link: https://openai.com/index/testing-ads-in-chatgpt
 id: https://openai.com/index/testing-ads-in-chatgpt
-date: Mon, 09 Feb 2026 11:00:00 GMT
+date: Thu, 07 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: Testing robustness against unforeseen adversaries

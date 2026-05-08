@@ -54,7 +54,10 @@ Overview
 Quickstart
 Models
 Pricing
-Libraries
+SDKs and CLI
+OpenAI SDK
+Agents SDK
+OpenAI CLI
 Latest: GPT-5.5
 Prompt guidance
 Core concepts
@@ -128,20 +131,25 @@ Working with evals
 Prompt optimizer
 External models
 Best practices
-Realtime API
+Realtime and audio
 Overview
-Connect
+Voice agents
+Live translation
+Transcription
+Realtime transcription
+Speech to text
+Speech generation
+Realtime prompting guide
+Connection methods
 WebRTC
 WebSocket
 SIP
-Usage
-Using realtime models
+Realtime sessions
 Managing conversations
-MCP servers
+Voice activity detection
+Realtime with tools
 Webhooks and server-side controls
 Managing costs
-Realtime transcription
-Voice agents
 Model optimization
 Optimization cycle
 Fine-tuning
@@ -155,8 +163,6 @@ Graders
 Specialized models
 Image generation
 Video generation
-Text to speech
-Speech to text
 Deep research
 Embeddings
 Moderation
@@ -228,6 +234,7 @@ Automations
 Worktrees
 Local Environments
 In-app browser
+Chrome extension
 Computer Use
 Commands
 Windows
@@ -405,6 +412,7 @@ gpt-oss
 Contribute
 Cookbook on GitHub
 Home
+OpenAI Developers plugin
 Docs MCP
 Categories
 Demo apps
@@ -437,7 +445,10 @@ Overview
 Quickstart
 Models
 Pricing
-Libraries
+SDKs and CLI
+OpenAI SDK
+Agents SDK
+OpenAI CLI
 Latest: GPT-5.5
 Prompt guidance
 Core concepts
@@ -511,20 +522,25 @@ Working with evals
 Prompt optimizer
 External models
 Best practices
-Realtime API
+Realtime and audio
 Overview
-Connect
+Voice agents
+Live translation
+Transcription
+Realtime transcription
+Speech to text
+Speech generation
+Realtime prompting guide
+Connection methods
 WebRTC
 WebSocket
 SIP
-Usage
-Using realtime models
+Realtime sessions
 Managing conversations
-MCP servers
+Voice activity detection
+Realtime with tools
 Webhooks and server-side controls
 Managing costs
-Realtime transcription
-Voice agents
 Model optimization
 Optimization cycle
 Fine-tuning
@@ -538,8 +554,6 @@ Graders
 Specialized models
 Image generation
 Video generation
-Text to speech
-Speech to text
 Deep research
 Embeddings
 Moderation
@@ -588,6 +602,30 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 May, 2026
+May 7
+Feature
+gpt-realtime-2
+gpt-realtime-translate
+gpt-realtime-whisper
+v1/realtime
+v1/realtime/translations
+v1/realtime/transcription_sessions
+Released
+Realtime 2
+, a new realtime voice model with configurable reasoning for speech-to-speech agents, along with
+Realtime Translate
+for streaming speech translation and
+Realtime Whisper
+for streaming speech-to-text.
+Updated the
+Realtime and audio guide
+, added a dedicated
+Realtime translation guide
+, refreshed
+Realtime transcription
+for streaming transcripts, and moved realtime prompting guidance into
+Using realtime models
+.
 May 6
 Update
 The updated Agents SDK is now available in TypeScript, with support for sandbox agents and an open-source harness built in. Learn more
