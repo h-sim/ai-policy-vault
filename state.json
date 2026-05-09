@@ -1,5 +1,45 @@
 [
   {
+    "id": "7d62fe6a6ae44f1fd27e680f6a97d7a314adcfe1",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Advancing youth safety and wellbeing in EMEA\n+link: https://openai.com/index/advancing-youth-safety-in-emea\n+id: https://openai.com/index/advancing-youth-safety-in-emea\n+date: Tue, 05 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How ChatGPT learns about the world while protecting privacy\n+link: https://openai.com/index/how-chatgpt-protects-privacy\n+id: https://openai.com/index/how-chatgpt-protects-privacy\n+date: Wed, 06 May 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Running Codex safely at OpenAI\n+link: https://openai.com/index/running-codex-safely\n+id: https://openai.com/index/running-codex-safely\n+date: Fri, 08 May 2026 12:30:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 09 May 2026 02:12:30 GMT",
+    "run_at": "2026-05-09T02:12:08Z",
+    "run_id": "8a5f4498443e47038cffcf81a71ae1f9"
+  },
+  {
+    "id": "40775ee4d973fb4571a8575c0dcb5cc0682af25e",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+May 7\n+Feature\n+Released the\n+OpenAI Developers plugin for Codex\n+. This helps you build AI applications and agents in Codex with OpenAI Platform access and OpenAI API setup guidance.",
+    "snippet_full": "",
+    "diff": {
+      "added": 5,
+      "removed": 0,
+      "churn": 5
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 09 May 2026 02:12:09 GMT",
+    "run_at": "2026-05-09T02:12:08Z",
+    "run_id": "8a5f4498443e47038cffcf81a71ae1f9"
+  },
+  {
     "id": "086ed488e493fea990afdc1fb69429bd7af09803",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -945,47 +985,5 @@
     "pubDate": "Thu, 16 Apr 2026 02:01:05 GMT",
     "run_at": "2026-04-16T02:01:05Z",
     "run_id": "1bc80bbaf5624ef089131c2a19ecdd73"
-  },
-  {
-    "id": "d84530ef016b9ff2538ddfa68b909e4220e4a315",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+April 14, 2026\n+We announced the deprecation of the Claude Sonnet 4 model (\n+claude-sonnet-4-20250514\n+) and the Claude Opus 4 model (\n+claude-opus-4-20250514\n+), with retirement on the Claude API scheduled for June 15, 2026. We recommend migrating to\n+Claude Sonnet 4.6\n+and\n+Claude Opus 4.6\n+respectively. Read more in\n+model deprecations\n+.\n+April 14, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 13,
-      "removed": 0,
-      "churn": 13
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 15 Apr 2026 01:53:19 GMT",
-    "run_at": "2026-04-15T01:52:31Z",
-    "run_id": "4be3635ded57433e9b847de84a38567c"
-  },
-  {
-    "id": "096bdfe21abfe8c96cf1174fcfc938a25408102c",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Trusted access for the next era of cyber defense\n+link: https://openai.com/index/scaling-trusted-access-for-cyber-defense\n+id: https://openai.com/index/scaling-trusted-access-for-cyber-defense\n+date: Tue, 14 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 15 Apr 2026 01:52:53 GMT",
-    "run_at": "2026-04-15T01:52:31Z",
-    "run_id": "4be3635ded57433e9b847de84a38567c"
   }
 ]

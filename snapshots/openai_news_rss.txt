@@ -551,6 +551,12 @@ id: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the
 date: Thu, 07 May 2026 10:00:00 GMT
 body:
 #ITEM
+title: Advancing youth safety and wellbeing in EMEA
+link: https://openai.com/index/advancing-youth-safety-in-emea
+id: https://openai.com/index/advancing-youth-safety-in-emea
+date: Tue, 05 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Adversarial attacks on neural network policies
 link: https://openai.com/index/adversarial-attacks-on-neural-network-policies
 id: https://openai.com/index/adversarial-attacks-on-neural-network-policies
@@ -2361,6 +2367,12 @@ title: How AI training scales
 link: https://openai.com/index/how-ai-training-scales
 id: https://openai.com/index/how-ai-training-scales
 date: Fri, 14 Dec 2018 08:00:00 GMT
+body:
+#ITEM
+title: How ChatGPT learns about the world while protecting privacy
+link: https://openai.com/index/how-chatgpt-protects-privacy
+id: https://openai.com/index/how-chatgpt-protects-privacy
+date: Wed, 06 May 2026 08:00:00 GMT
 body:
 #ITEM
 title: How confessions can keep language models honest
@@ -4635,6 +4647,12 @@ title: Rox goes “all in” on OpenAI
 link: https://openai.com/index/rox
 id: https://openai.com/index/rox
 date: Tue, 19 Nov 2024 07:00:00 GMT
+body:
+#ITEM
+title: Running Codex safely at OpenAI
+link: https://openai.com/index/running-codex-safely
+id: https://openai.com/index/running-codex-safely
+date: Fri, 08 May 2026 12:30:00 GMT
 body:
 #ITEM
 title: Introducing the OpenAI Safety Bug Bounty program

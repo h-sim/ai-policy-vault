@@ -626,6 +626,11 @@ Realtime transcription
 for streaming transcripts, and moved realtime prompting guidance into
 Using realtime models
 .
+May 7
+Feature
+Released the
+OpenAI Developers plugin for Codex
+. This helps you build AI applications and agents in Codex with OpenAI Platform access and OpenAI API setup guidance.
 May 6
 Update
 The updated Agents SDK is now available in TypeScript, with support for sandbox agents and an open-source harness built in. Learn more
