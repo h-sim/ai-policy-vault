@@ -197,6 +197,12 @@ id: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-
 date: Thu, 22 Jan 2026 00:00:00 GMT
 body:
 #ITEM
+title: How enterprises are scaling AI
+link: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
+id: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
+date: Mon, 11 May 2026 10:00:00 GMT
+body:
+#ITEM
 title: Staying ahead in the age of AI
 link: https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai
 id: https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai
@@ -3917,6 +3923,12 @@ id: https://openai.com/index/openai-board-forms-safety-and-security-committee
 date: Tue, 28 May 2024 03:00:00 GMT
 body:
 #ITEM
+title: OpenAI Campus Network: Student club interest form
+link: https://openai.com/index/openai-campus-network-student-club-interest-form
+id: https://openai.com/index/openai-campus-network-student-club-interest-form
+date: Mon, 11 May 2026 10:00:00 GMT
+body:
+#ITEM
 title: Launching our first OpenAI Certifications courses
 link: https://openai.com/index/openai-certificate-courses
 id: https://openai.com/index/openai-certificate-courses
@@ -4053,6 +4065,12 @@ title: Converting inbound leads into customers at OpenAI
 link: https://openai.com/index/openai-inbound-sales-assistant
 id: https://openai.com/index/openai-inbound-sales-assistant
 date: Mon, 29 Sep 2025 13:30:00 GMT
+body:
+#ITEM
+title: OpenAI launches DeployCo to help businesses build around intelligence
+link: https://openai.com/index/openai-launches-the-deployment-company
+id: https://openai.com/index/openai-launches-the-deployment-company
+date: Mon, 11 May 2026 06:00:00 GMT
 body:
 #ITEM
 title: OpenAI licenses GPT-3 technology to Microsoft
@@ -5679,4 +5697,10 @@ title: Outbound coordinated vulnerability disclosure policy
 link: https://openai.com/policies/outbound-coordinated-disclosure-policy
 id: https://openai.com/policies/outbound-coordinated-disclosure-policy
 date: Mon, 22 Sep 2025 00:00:00 GMT
+body:
+#ITEM
+title: How ChatGPT adoption broadened in early 2026
+link: https://openai.com/signals/research/2026q1-update
+id: https://openai.com/signals/research/2026q1-update
+date: Mon, 11 May 2026 15:00:00 GMT
 body:

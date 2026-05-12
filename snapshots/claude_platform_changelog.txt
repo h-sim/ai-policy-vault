@@ -101,6 +101,12 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+May 11, 2026
+We've launched
+Claude Platform on AWS
+, bringing the Claude API to Anthropic-managed infrastructure accessible through AWS, with AWS billing and IAM authentication. Access the full Messages API, Files API, Message Batches API, Claude Managed Agents, Agent Skills, code execution, and tool use through native AWS endpoints. Learn more in
+Claude Platform on AWS
+.
 May 6, 2026
 Multiagent sessions
 and
@@ -254,7 +260,7 @@ We've launched
 automatic caching
 for the Messages API. Add a single
 cache_control
-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in
+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Microsoft Foundry (preview). Learn more in
 Prompt caching
 .
 We've retired the Claude Sonnet 3.7 model (
@@ -270,10 +276,10 @@ External Researcher Access Program
 .
 We announced the deprecation of the Claude Haiku 3 model (
 claude-3-haiku-20240307
-), with retirement scheduled for April 19, 2026. We recommend migrating to
+), with retirement scheduled for April 20, 2026. We recommend migrating to
 Claude Haiku 4.5
 . Read more in
-model deprecations
+Model deprecations
 .
 February 17, 2026
 We've launched
@@ -351,13 +357,7 @@ is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonn
 Long context pricing
 applies to requests exceeding 200k input tokens.
 Fine-grained tool streaming
-is now generally available on all models and platforms (no beta header required). The
-output_format
-parameter for
-structured outputs
-has been moved to
-output_config.format
-.
+is now generally available on all models and platforms (no beta header required).
 January 29, 2026
 Structured outputs
 are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The
@@ -472,7 +472,7 @@ models overview
 .
 We've introduced
 global endpoint pricing
-for AWS Bedrock and Google Vertex AI. The Claude API (1P) pricing is unaffected.
+for Amazon Bedrock and Vertex AI. The Claude API (1P) pricing is unaffected.
 We've introduced a new stop reason
 model_context_window_exceeded
 that allows you to request the maximum possible tokens without calculating input size. Learn more in
@@ -504,12 +504,12 @@ will automatically redirect to
 platform.claude.com
 .
 Anthropic Docs (
-docs.claude.com
+docs.anthropic.com
 ) → Claude Docs (
 docs.claude.com
 )
 Anthropic Help Center (
-support.claude.com
+support.anthropic.com
 ) → Claude Help Center (
 support.claude.com
 )
@@ -547,7 +547,7 @@ August 26, 2025
 We've increased rate limits on the
 1M token context window
 for Claude Sonnet 4 on the Claude API.
-The 1M token context window is now available on Google Cloud's Vertex AI. For more information, see
+The 1M token context window is now available on Vertex AI. For more information, see
 Claude on Vertex AI
 .
 August 19, 2025
@@ -589,7 +589,7 @@ following a sharp increase in API usage due to acceleration limits on the API. P
 overloaded_error
 ) errors would occur in similar scenarios.
 August 8, 2025
-Search result content blocks are now generally available on the Claude API and Google Cloud's Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta header
+Search result content blocks are now generally available on the Claude API and Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta header
 search-results-2025-06-09
 is no longer required. Learn more in
 Search results
@@ -948,10 +948,10 @@ Developer Console
 .
 June 20th, 2024
 Claude Sonnet 3.5
-, our most intelligent model yet, is now generally available across the Claude API, Amazon Bedrock, and Google Vertex AI.
+, our most intelligent model yet, is now generally available across the Claude API, Amazon Bedrock, and Vertex AI.
 May 30th, 2024
 Tool use
-is now generally available across the Claude API, Amazon Bedrock, and Google Vertex AI.
+is now generally available across the Claude API, Amazon Bedrock, and Vertex AI.
 May 10th, 2024
 Our prompt generator tool is now available in the
 Developer Console
@@ -959,6 +959,7 @@ Developer Console
 blog post
 .
 このページは役に立ちましたか？
+May 11, 2026
 May 6, 2026
 April 30, 2026
 April 24, 2026

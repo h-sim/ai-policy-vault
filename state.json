@@ -1,5 +1,85 @@
 [
   {
+    "id": "3fc4f09a155486179e9b4f56acee608450e57f05",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+May 11, 2026\n+We've launched\n+Claude Platform on AWS\n+, bringing the Claude API to Anthropic-managed infrastructure accessible through AWS, with AWS billing and IAM authentication. Access the full Messages API, Files API, Message Batches API, Claude Man\n+Claude Platform on AWS\n+.\n-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n-), with retirement scheduled for April 19, 2026. We recommend migrating to\n+), with retirement scheduled for April 20, 2026. We recommend migrating to\n-model deprecations\n+Model deprecations\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to\n-output_config.format\n-.\n+is now generally available on all models and platforms (no beta header required).\n-for AWS Bedrock and Google Vertex AI. The Claude API (1P) pricing is unaffected.\n+for Amazon Bedrock and Vertex AI. The Claude API (1P) pricing is unaffected.\n-docs.claude.com\n+docs.anthropic.com\n-support.claude.com\n+support.anthropic.com\n-The 1M token context window is now available on Google Cloud's Vertex AI. For more information, see\n+The 1M token context window is now available on Vertex AI. For more information, see\n-Search result content blocks are now generally available on the Claude API and Google Cloud's Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. Th\n+Search result content blocks are now generally available on the Claude API and Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta header\n-, our most intelligent model yet, is now generally available across the Claude API, Amazon Bedrock, and Google Vertex AI.\n+, our most intelligent model yet, is now generally available across the Claude API, Amazon Bedrock, and Vertex AI.\n-is now generally available across the Claude API, Amazon Bedrock, and Google Vertex AI.\n+is now generally available across the Claude API, Amazon Bedrock, and Vertex AI.\n+May 11, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 17,
+      "churn": 35
+    },
+    "score": 140,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 12 May 2026 02:26:01 GMT",
+    "run_at": "2026-05-12T02:25:30Z",
+    "run_id": "1bccc361c64c45ee9222d12f50f6f337"
+  },
+  {
+    "id": "8b3fe61f8b4f38f8f40acec7120845647dfe6107",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-          type: integer\n-          nullable: true\n-          description: >\n-            Timing metadata for stream alignment, derived from the translation\n-            frame\n-\n-            when available. It advances in 200 ms increments, but multiple\n-            transcript\n-\n-            deltas may share the same `elapsed_ms`. Treat it as alignment\n-            metadata,\n-\n-            not a unique transcript-delta identifier.\n+          anyOf:\n+            - type: integer\n+              description: >\n+                Timing metadata for stream alignment, derived from the\n+                translation frame\n+\n+                when available. It advances in 200 ms increments, but multiple\n+                transcript\n+\n+                deltas may share the same `elapsed_ms`. Treat it as alignment\n+                metadata,\n+\n+                not a unique transcript-delta identifier.\n+            - type: 'null'\n-          type: integer\n-          nullable: true\n-          description: >\n-            Timing metadata for stream alignment, derived from the translation\n-            frame\n-\n-            when available. Treat `elapsed_ms` as alignment metadata, not a\n-            unique\n-\n-            event identifier.\n+          anyOf:\n+            - type: integer\n+              description: >",
+    "snippet_full": "",
+    "diff": {
+      "added": 51,
+      "removed": 36,
+      "churn": 87
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 12 May 2026 02:25:38 GMT",
+    "run_at": "2026-05-12T02:25:30Z",
+    "run_id": "1bccc361c64c45ee9222d12f50f6f337"
+  },
+  {
+    "id": "883941d158d0c6182e7ba4bc7df0359520cdc9e3",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How enterprises are scaling AI\n+link: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai\n+id: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai\n+date: Mon, 11 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI Campus Network: Student club interest form\n+link: https://openai.com/index/openai-campus-network-student-club-interest-form\n+id: https://openai.com/index/openai-campus-network-student-club-interest-form\n+title: OpenAI launches DeployCo to help businesses build around intelligence\n+link: https://openai.com/index/openai-launches-the-deployment-company\n+id: https://openai.com/index/openai-launches-the-deployment-company",
+    "snippet_full": "+title: How enterprises are scaling AI\n+link: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai\n+id: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai\n+date: Mon, 11 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI Campus Network: Student club interest form\n+link: https://openai.com/index/openai-campus-network-student-club-interest-form\n+id: https://openai.com/index/openai-campus-network-student-club-interest-form\n+date: Mon, 11 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI launches DeployCo to help businesses build around intelligence\n+link: https://openai.com/index/openai-launches-the-deployment-company\n+id: https://openai.com/index/openai-launches-the-deployment-company\n+date: Mon, 11 May 2026 06:00:00 GMT\n+body:\n+#ITEM\n+#ITEM\n+title: How ChatGPT adoption broadened in early 2026\n+link: https://openai.com/signals/research/2026q1-update\n+id: https://openai.com/signals/research/2026q1-update\n+date: Mon, 11 May 2026 15:00:00 GMT\n+body:",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 12 May 2026 02:25:31 GMT",
+    "run_at": "2026-05-12T02:25:30Z",
+    "run_id": "1bccc361c64c45ee9222d12f50f6f337"
+  },
+  {
+    "id": "d7edd10cab3725849eaf1355ade959d7da29f0b0",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Auto-review\n-Codex Prompting Guide\n-Modernizing your Codebase with Codex\n+Build iterative repair loops with Codex\n+Build an Agent Improvement Loop with Traces, Evals, and Codex\n+May 11\n+Feature\n+v1/responses\n+Added\n+return_token_budget\n+for the Responses API\n+web search tool\n+. Use it to opt in to longer GPT-5+ reasoning web search runs for high-effort research and evaluation workloads.",
+    "snippet_full": "",
+    "diff": {
+      "added": 11,
+      "removed": 2,
+      "churn": 13
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 12 May 2026 02:25:30 GMT",
+    "run_at": "2026-05-12T02:25:30Z",
+    "run_id": "1bccc361c64c45ee9222d12f50f6f337"
+  },
+  {
     "id": "7d62fe6a6ae44f1fd27e680f6a97d7a314adcfe1",
     "impact": "High",
     "name": "OpenAI News (RSS)",
@@ -909,81 +989,5 @@
     "pubDate": "Fri, 17 Apr 2026 01:56:52 GMT",
     "run_at": "2026-04-17T01:56:51Z",
     "run_id": "a520a613f18a4037a7f2f10e0c632c87"
-  },
-  {
-    "id": "7e89150b49eb0fe18d6c8238caa592786c028fb0",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Memories\n+In-app browser\n+Computer Use\n+Remote connections\n-Computer use\n+Computer Use",
-    "snippet_full": "",
-    "diff": {
-      "added": 5,
-      "removed": 1,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 17 Apr 2026 01:56:51 GMT",
-    "run_at": "2026-04-17T01:56:51Z",
-    "run_id": "a520a613f18a4037a7f2f10e0c632c87"
-  },
-  {
-    "id": "31673647f9754282b2d9280e87d7dcc9bf8b79a0",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+    PromptCacheRetentionEnum:\n+      type: string\n+      enum:\n+        - in_memory\n+        - 24h\n+            - type: 'null'\n+        prompt_cache_retention:\n+          anyOf:\n+            - $ref: '#/components/schemas/PromptCacheRetentionEnum'\n+              description: How long to retain a prompt cache entry created by this request.",
-    "snippet_full": "",
-    "diff": {
-      "added": 10,
-      "removed": 0,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 16 Apr 2026 02:01:12 GMT",
-    "run_at": "2026-04-16T02:01:05Z",
-    "run_id": "1bc80bbaf5624ef089131c2a19ecdd73"
-  },
-  {
-    "id": "25a43b5e8649c35778758d2518ccd9b11e5abdd1",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: The next evolution of the Agents SDK\n+link: https://openai.com/index/the-next-evolution-of-the-agents-sdk\n+id: https://openai.com/index/the-next-evolution-of-the-agents-sdk\n+date: Wed, 15 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 16 Apr 2026 02:01:06 GMT",
-    "run_at": "2026-04-16T02:01:05Z",
-    "run_id": "1bc80bbaf5624ef089131c2a19ecdd73"
-  },
-  {
-    "id": "c6a7affdd0e201cc5ecbbe1dc3dd512789621f12",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Sandbox agents\n+Sandbox agents\n+April, 2026\n+Apr 15\n+Update\n+Updated the\n+Agents SDK\n+with new capabilities, including:\n+running agents in controlled sandboxes;\n+inspecting and customizing the open-source harness; and\n+controlling when memories are created and where they're stored.",
-    "snippet_full": "",
-    "diff": {
-      "added": 11,
-      "removed": 0,
-      "churn": 11
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 16 Apr 2026 02:01:05 GMT",
-    "run_at": "2026-04-16T02:01:05Z",
-    "run_id": "1bc80bbaf5624ef089131c2a19ecdd73"
   }
 ]

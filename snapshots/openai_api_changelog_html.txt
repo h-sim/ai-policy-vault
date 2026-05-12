@@ -220,6 +220,7 @@ Customization
 Memories
 Chronicle
 Sandboxing
+Auto-review
 Subagents
 Workflows
 Models
@@ -303,8 +304,8 @@ Using skills to accelerate OSS maintenance
 Building frontend UIs with Codex and Figma
 View all
 Cookbooks
-Codex Prompting Guide
-Modernizing your Codebase with Codex
+Build iterative repair loops with Codex
+Build an Agent Improvement Loop with Traces, Evals, and Codex
 View all
 Building AI Teams
 Releases
@@ -602,6 +603,14 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 May, 2026
+May 11
+Feature
+v1/responses
+Added
+return_token_budget
+for the Responses API
+web search tool
+. Use it to opt in to longer GPT-5+ reasoning web search runs for high-effort research and evaluation workloads.
 May 7
 Feature
 gpt-realtime-2
