@@ -304,8 +304,8 @@ Using skills to accelerate OSS maintenance
 Building frontend UIs with Codex and Figma
 View all
 Cookbooks
-Build iterative repair loops with Codex
 Build an Agent Improvement Loop with Traces, Evals, and Codex
+Build iterative repair loops with Codex
 View all
 Building AI Teams
 Releases

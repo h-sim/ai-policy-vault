@@ -77,6 +77,12 @@ id: https://openai.com/academy/healthcare
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: How finance teams use Codex
+link: https://openai.com/academy/how-finance-teams-use-codex
+id: https://openai.com/academy/how-finance-teams-use-codex
+date: Tue, 12 May 2026 15:00:00 GMT
+body:
+#ITEM
 title: Creating images with ChatGPT
 link: https://openai.com/academy/image-generation
 id: https://openai.com/academy/image-generation
@@ -735,6 +741,12 @@ title: Attacking machine learning with adversarial examples
 link: https://openai.com/index/attacking-machine-learning-with-adversarial-examples
 id: https://openai.com/index/attacking-machine-learning-with-adversarial-examples
 date: Fri, 24 Feb 2017 08:00:00 GMT
+body:
+#ITEM
+title: AutoScout24 scales engineering with AI-powered workflows
+link: https://openai.com/index/autoscout24
+id: https://openai.com/index/autoscout24
+date: Tue, 12 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: AWS and OpenAI announce multi-year strategic partnership
@@ -3671,6 +3683,12 @@ id: https://openai.com/index/nubank
 date: Fri, 07 Mar 2025 08:00:00 GMT
 body:
 #ITEM
+title: How NVIDIA engineers and researchers build with Codex
+link: https://openai.com/index/nvidia
+id: https://openai.com/index/nvidia
+date: Tue, 12 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI o1 and new tools for developers
 link: https://openai.com/index/o1-and-new-tools-for-developers
 id: https://openai.com/index/o1-and-new-tools-for-developers
@@ -5595,6 +5613,12 @@ title: Welcome, Pieter and Shivon!
 link: https://openai.com/index/welcome-pieter-and-shivon
 id: https://openai.com/index/welcome-pieter-and-shivon
 date: Tue, 26 Apr 2016 07:00:00 GMT
+body:
+#ITEM
+title: What Parameter Golf taught us about AI-assisted research
+link: https://openai.com/index/what-parameter-golf-taught-us
+id: https://openai.com/index/what-parameter-golf-taught-us
+date: Tue, 12 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: Where the goblins came from

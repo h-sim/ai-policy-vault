@@ -101,6 +101,17 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+May 12, 2026
+Fast mode
+(research preview) now supports Claude Opus 4.7. Set
+speed: "fast"
+with
+model: "claude-opus-4-7"
+and the
+fast-mode-2026-02-01
+beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the
+waitlist
+.
 May 11, 2026
 We've launched
 Claude Platform on AWS
@@ -959,6 +970,7 @@ Developer Console
 blog post
 .
 このページは役に立ちましたか？
+May 12, 2026
 May 11, 2026
 May 6, 2026
 April 30, 2026

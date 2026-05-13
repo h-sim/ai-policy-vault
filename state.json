@@ -1,5 +1,64 @@
 [
   {
+    "id": "3cbe35971e2a88415b1457c012c09e17eb760a7e",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+May 12, 2026\n+Fast mode\n+(research preview) now supports Claude Opus 4.7. Set\n+speed: \"fast\"\n+with\n+model: \"claude-opus-4-7\"\n+and the\n+fast-mode-2026-02-01\n+beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the\n+waitlist\n+.\n+May 12, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 13 May 2026 02:32:13 GMT",
+    "run_at": "2026-05-13T02:32:05Z",
+    "run_id": "3b35829a36e44a5abc2c750773068685"
+  },
+  {
+    "id": "d93c014e2f05876828165e12211e4a41f250ccc9",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How finance teams use Codex\n+link: https://openai.com/academy/how-finance-teams-use-codex\n+id: https://openai.com/academy/how-finance-teams-use-codex\n+date: Tue, 12 May 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: AutoScout24 scales engineering with AI-powered workflows\n+link: https://openai.com/index/autoscout24\n+id: https://openai.com/index/autoscout24\n+date: Tue, 12 May 2026 00:00:00 GMT\n+title: How NVIDIA engineers and researchers build with Codex\n+link: https://openai.com/index/nvidia",
+    "snippet_full": "+title: How finance teams use Codex\n+link: https://openai.com/academy/how-finance-teams-use-codex\n+id: https://openai.com/academy/how-finance-teams-use-codex\n+date: Tue, 12 May 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: AutoScout24 scales engineering with AI-powered workflows\n+link: https://openai.com/index/autoscout24\n+id: https://openai.com/index/autoscout24\n+date: Tue, 12 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How NVIDIA engineers and researchers build with Codex\n+link: https://openai.com/index/nvidia\n+id: https://openai.com/index/nvidia\n+date: Tue, 12 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: What Parameter Golf taught us about AI-assisted research\n+link: https://openai.com/index/what-parameter-golf-taught-us\n+id: https://openai.com/index/what-parameter-golf-taught-us\n+date: Tue, 12 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 13 May 2026 02:32:06 GMT",
+    "run_at": "2026-05-13T02:32:05Z",
+    "run_id": "3b35829a36e44a5abc2c750773068685"
+  },
+  {
+    "id": "a40916743689ca31e8424afe177ad15343f451e2",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Build an Agent Improvement Loop with Traces, Evals, and Codex\n-Build an Agent Improvement Loop with Traces, Evals, and Codex",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 13 May 2026 02:32:06 GMT",
+    "run_at": "2026-05-13T02:32:05Z",
+    "run_id": "3b35829a36e44a5abc2c750773068685"
+  },
+  {
     "id": "3fc4f09a155486179e9b4f56acee608450e57f05",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -929,65 +988,5 @@
     "pubDate": "Tue, 21 Apr 2026 01:57:37 GMT",
     "run_at": "2026-04-21T01:57:36Z",
     "run_id": "65a4029166344e14a01ffd0b977f9314"
-  },
-  {
-    "id": "0a54a17781751641293fc86740632518beb319f1",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Loading...\n+読み込み中...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n-Loading...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+読み込み中...\n+Claude in Amazon Bedrock\n+is now open to all Amazon Bedrock customers. Claude Opus 4.7 and Claude Haiku 4.5 are available self-serve from the Bedrock console through the Messages API endpoint at\n+/anthropic/v1/messages\n+, in 27 AWS regions with global and regional endpoints.\n-Claude in Amazon Bedrock (research preview)\n+Claude in Amazon Bedrock",
-    "snippet_full": "",
-    "diff": {
-      "added": 52,
-      "removed": 48,
-      "churn": 100
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 18 Apr 2026 01:48:29 GMT",
-    "run_at": "2026-04-18T01:48:21Z",
-    "run_id": "9e94d5d15ae54c82bade8c608ce453bf"
-  },
-  {
-    "id": "a1973af7d7d5dce5a930e525e6e61612bc6e684c",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+Claude API skill\n+Task budgets (beta)\n+April 16, 2026\n+We've launched\n+Claude Opus 4.7\n+, our most capable generally available model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See\n+What's new in Claude Opus 4.7\n+for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see\n+Migrating to Claude Opus 4.7\n+before upgrading.\n-Claude Opus 4.6\n+Claude Opus 4.7\n+April 16, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 1,
-      "churn": 13
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 17 Apr 2026 01:57:18 GMT",
-    "run_at": "2026-04-17T01:56:51Z",
-    "run_id": "a520a613f18a4037a7f2f10e0c632c87"
-  },
-  {
-    "id": "67d6507e91bdf34f3895a061771a2a9c8d71fdf7",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Accelerating the cyber defense ecosystem that protects us all\n+link: https://openai.com/index/accelerating-cyber-defense-ecosystem\n+id: https://openai.com/index/accelerating-cyber-defense-ecosystem\n+date: Thu, 16 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Codex for (almost) everything\n+link: https://openai.com/index/codex-for-almost-everything\n+id: https://openai.com/index/codex-for-almost-everything\n+date: Thu, 16 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-Rosalind for life sciences research\n+link: https://openai.com/index/introducing-gpt-rosalind\n+id: https://openai.com/index/introducing-gpt-rosalind\n+date: Thu, 16 Apr 2026 01:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 17 Apr 2026 01:56:52 GMT",
-    "run_at": "2026-04-17T01:56:51Z",
-    "run_id": "a520a613f18a4037a7f2f10e0c632c87"
   }
 ]
