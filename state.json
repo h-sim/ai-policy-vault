@@ -1,5 +1,24 @@
 [
   {
+    "id": "f2bbda21e4655af66b70a3a4fe38405bb09ce00d",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Building a safe, effective sandbox to enable Codex on Windows\n+link: https://openai.com/index/building-codex-windows-sandbox\n+id: https://openai.com/index/building-codex-windows-sandbox\n+date: Wed, 13 May 2026 11:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 14 May 2026 02:33:23 GMT",
+    "run_at": "2026-05-14T02:33:22Z",
+    "run_id": "eb58426f6c0447a6a21b2b943ddedabf"
+  },
+  {
     "id": "3cbe35971e2a88415b1457c012c09e17eb760a7e",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -967,25 +986,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 21 Apr 2026 01:57:38 GMT",
-    "run_at": "2026-04-21T01:57:36Z",
-    "run_id": "65a4029166344e14a01ffd0b977f9314"
-  },
-  {
-    "id": "87e3b9a2d93e8c9c1589d702922f37b56511f6b6",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Chronicle",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 21 Apr 2026 01:57:37 GMT",
     "run_at": "2026-04-21T01:57:36Z",
     "run_id": "65a4029166344e14a01ffd0b977f9314"
   }

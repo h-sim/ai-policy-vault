@@ -887,6 +887,12 @@ id: https://openai.com/index/building-chatgpt-atlas
 date: Thu, 30 Oct 2025 00:00:00 GMT
 body:
 #ITEM
+title: Building a safe, effective sandbox to enable Codex on Windows
+link: https://openai.com/index/building-codex-windows-sandbox
+id: https://openai.com/index/building-codex-windows-sandbox
+date: Wed, 13 May 2026 11:00:00 GMT
+body:
+#ITEM
 title: Building more helpful ChatGPT experiences for everyone
 link: https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone
 id: https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone
