@@ -1001,6 +1001,12 @@ id: https://openai.com/index/chatgpt-plus
 date: Wed, 01 Feb 2023 08:00:00 GMT
 body:
 #ITEM
+title: Helping ChatGPT better recognize context in sensitive conversations
+link: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations
+id: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations
+date: Thu, 14 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Introducing shopping research in ChatGPT
 link: https://openai.com/index/chatgpt-shopping-research
 id: https://openai.com/index/chatgpt-shopping-research
@@ -4367,6 +4373,12 @@ id: https://openai.com/index/our-principles
 date: Sun, 26 Apr 2026 16:00:00 GMT
 body:
 #ITEM
+title: Our response to the TanStack npm supply chain attack
+link: https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack
+id: https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack
+date: Wed, 13 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Resolving digital threats 100x faster with OpenAI
 link: https://openai.com/index/outtake
 id: https://openai.com/index/outtake
@@ -5679,6 +5691,12 @@ title: Creating websites in minutes with AI Website Builder
 link: https://openai.com/index/wix
 id: https://openai.com/index/wix
 date: Thu, 29 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: Work with Codex from anywhere
+link: https://openai.com/index/work-with-codex-from-anywhere
+id: https://openai.com/index/work-with-codex-from-anywhere
+date: Thu, 14 May 2026 13:00:00 GMT
 body:
 #ITEM
 title: With GPT-5, Wrtn builds lifestyle AI for millions in Korea
