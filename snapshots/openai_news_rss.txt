@@ -1319,6 +1319,12 @@ id: https://openai.com/index/data-partnerships
 date: Thu, 09 Nov 2023 08:00:00 GMT
 body:
 #ITEM
+title: Databricks brings GPT-5.5 to enterprise agent workflows
+link: https://openai.com/index/databricks
+id: https://openai.com/index/databricks
+date: Fri, 15 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Datadog uses Codex for system-level code review
 link: https://openai.com/index/datadog
 id: https://openai.com/index/datadog
@@ -4439,6 +4445,12 @@ id: https://openai.com/index/people-first-ai-fund-grantees
 date: Wed, 03 Dec 2025 08:00:00 GMT
 body:
 #ITEM
+title: A new personal finance experience in ChatGPT
+link: https://openai.com/index/personal-finance-chatgpt
+id: https://openai.com/index/personal-finance-chatgpt
+date: Fri, 15 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: How Philips is scaling AI literacy across 70,000 employees
 link: https://openai.com/index/philips
 id: https://openai.com/index/philips
@@ -4833,6 +4845,12 @@ title: How Scout24 is building the next generation of real-estate search with AI
 link: https://openai.com/index/scout24
 id: https://openai.com/index/scout24
 date: Tue, 09 Dec 2025 16:00:00 GMT
+body:
+#ITEM
+title: Sea's View on the Future of Agentic Software Development with Codex
+link: https://openai.com/index/sea-david-chen
+id: https://openai.com/index/sea-david-chen
+date: Thu, 14 May 2026 20:30:00 GMT
 body:
 #ITEM
 title: SearchGPT is a prototype of new AI search features
