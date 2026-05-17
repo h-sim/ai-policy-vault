@@ -1,5 +1,24 @@
 [
   {
+    "id": "ce05697dcd2201ce244d9bcefcb945ced70b46ce",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How business operations teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How data science teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+title: How sales teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+    "snippet_full": "+title: How business operations teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How data science teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How sales teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI and Malta partner to bring ChatGPT Plus to all citizens\n+link: https://openai.com/index/malta-chatgpt-plus-partnership\n+id: https://openai.com/index/malta-chatgpt-plus-partnership\n+date: Sat, 16 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 17 May 2026 02:30:07 GMT",
+    "run_at": "2026-05-17T02:30:05Z",
+    "run_id": "a97af1c935094d638906d2aa4cfce6d2"
+  },
+  {
     "id": "b9f087a833cd6a31336fa8338fa65d69d24b6095",
     "impact": "Breaking",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -969,27 +988,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Thu, 23 Apr 2026 02:00:50 GMT",
-    "run_at": "2026-04-23T02:00:25Z",
-    "run_id": "dd2b7097a22f452d97f7282e2d92f0f1"
-  },
-  {
-    "id": "15e1c81646d63b78de7573870b5ce408f420d90f",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing OpenAI Privacy Filter\n+link: https://openai.com/index/introducing-openai-privacy-filter\n+id: https://openai.com/index/introducing-openai-privacy-filter\n+title: Workspace agents\n+link: https://openai.com/academy/workspace-agents\n+id: https://openai.com/academy/workspace-agents\n+date: Wed, 22 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing GPT-5.2-Codex\n-link: https://openai.com/index/gpt-5-2-codex\n-id: https://openai.com/index/gpt-5-2-codex",
-    "snippet_full": "+title: Workspace agents\n+link: https://openai.com/academy/workspace-agents\n+id: https://openai.com/academy/workspace-agents\n+date: Wed, 22 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing GPT-5.2-Codex\n-link: https://openai.com/index/gpt-5-2-codex\n-id: https://openai.com/index/gpt-5-2-codex\n-date: Thu, 18 Dec 2025 00:00:00 GMT\n-body:\n-#ITEM\n+title: Introducing ChatGPT Images 2.0\n+link: https://openai.com/index/introducing-chatgpt-images-2-0\n+id: https://openai.com/index/introducing-chatgpt-images-2-0\n+date: Tue, 21 Apr 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing OpenAI Privacy Filter\n+link: https://openai.com/index/introducing-openai-privacy-filter\n+id: https://openai.com/index/introducing-openai-privacy-filter\n+date: Wed, 22 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing workspace agents in ChatGPT\n+link: https://openai.com/index/introducing-workspace-agents-in-chatgpt\n+id: https://openai.com/index/introducing-workspace-agents-in-chatgpt\n+date: Wed, 22 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Making ChatGPT better for clinicians\n+link: https://openai.com/index/making-chatgpt-better-for-clinicians\n+id: https://openai.com/index/making-chatgpt-better-for-clinicians\n+date: Wed, 22 Apr 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: Speeding up agentic workflows with WebSockets in the Responses API\n+link: https://openai.com/index/speeding-up-agentic-workflows-with-websockets\n+id: https://openai.com/index/speeding-up-agentic-workflows-with-websockets\n+date: Wed, 22 Apr 2026 10:00:00 GMT",
-    "diff": {
-      "added": 36,
-      "removed": 6,
-      "churn": 42
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 23 Apr 2026 02:00:43 GMT",
     "run_at": "2026-04-23T02:00:25Z",
     "run_id": "dd2b7097a22f452d97f7282e2d92f0f1"
   }

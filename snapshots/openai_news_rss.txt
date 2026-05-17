@@ -17,6 +17,24 @@ id: https://openai.com/academy/codex-automations
 date: Thu, 23 Apr 2026 10:00:00 GMT
 body:
 #ITEM
+title: How business operations teams use Codex
+link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex
+id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex
+date: Fri, 15 May 2026 00:00:00 GMT
+body:
+#ITEM
+title: How data science teams use Codex
+link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
+id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
+date: Fri, 15 May 2026 00:00:00 GMT
+body:
+#ITEM
+title: How sales teams use Codex
+link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
+id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
+date: Fri, 15 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: How to get started with Codex
 link: https://openai.com/academy/codex-how-to-start
 id: https://openai.com/academy/codex-how-to-start
@@ -3345,6 +3363,12 @@ title: Making ChatGPT better for clinicians
 link: https://openai.com/index/making-chatgpt-better-for-clinicians
 id: https://openai.com/index/making-chatgpt-better-for-clinicians
 date: Wed, 22 Apr 2026 15:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Malta partner to bring ChatGPT Plus to all citizens
+link: https://openai.com/index/malta-chatgpt-plus-partnership
+id: https://openai.com/index/malta-chatgpt-plus-partnership
+date: Sat, 16 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: March 20 ChatGPT outage: Here’s what happened
