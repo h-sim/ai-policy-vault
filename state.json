@@ -1,5 +1,62 @@
 [
   {
+    "id": "6b9c6a54680769e59e6c7c0444276e2242ed07cf",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+May 18, 2026\n+The\n+web search tool\n+now returns richer SEC filing data, making it easier to ground financial research agents, earnings analysis, and due-diligence workflows in primary sources with citations.\n+May 13, 2026\n+We've launched\n+cache diagnostics\n+in public beta. Pass\n+diagnostics.previous_message_id\n+on a Messages request and the API reports a\n+cache_miss_reason\n+explaining where the prompt cache prefix diverged from the previous turn. Include the\n+cache-diagnosis-2026-04-07\n+beta header in your requests.\n+May 18, 2026\n+May 13, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 16,
+      "removed": 0,
+      "churn": 16
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 19 May 2026 02:38:22 GMT",
+    "run_at": "2026-05-19T02:38:12Z",
+    "run_id": "3d494ede5ca242b895759cd9a653e9f1"
+  },
+  {
+    "id": "63dc76ffacfee61d6aa53cbc56361f1804c4a8ad",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+            node.js: |-\n+              import OpenAI from 'openai';\n+\n+              const client = new OpenAI({\n+                adminAPIKey: process.env['OPENAI_ADMIN_KEY'], // This is the default and can be omitted\n+              });\n+\n+              const projectHostedToolPermissions =\n+                await client.admin.organization.projects.hostedToolPermissions.retrieve('project_id');\n+\n+              console.log(projectHostedToolPermissions.code_interpreter);\n+            python: >-\n+              import os\n+\n+              from openai import OpenAI\n+\n+\n+              client = OpenAI(\n+                  admin_api_key=os.environ.get(\"OPENAI_ADMIN_KEY\"),  # This is the default and can be omitted\n+              )\n+\n+              project_hosted_tool_permissions =\n+              client.admin.organization.projects.hosted_tool_permissions.retrieve(\n+                  \"project_id\",\n+              )\n+\n+              print(project_hosted_tool_permissions.code_interpreter)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+            java: >-\n+              package com.openai.example;\n+\n+\n+              import com.openai.client.OpenAIClient;\n+\n+              import com.openai.client.okhttp.OpenAIOkHttpClient;\n+\n+              import\n+              com.openai.models.admin.organization.projects.hostedtoolpermissions.HostedToolPermissionRetrieveParams;\n+\n+              import",
+    "snippet_full": "",
+    "diff": {
+      "added": 473,
+      "removed": 0,
+      "churn": 473
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 19 May 2026 02:38:21 GMT",
+    "run_at": "2026-05-19T02:38:12Z",
+    "run_id": "3d494ede5ca242b895759cd9a653e9f1"
+  },
+  {
+    "id": "516b712721c5e7d0e144adbb53cc3e3017a2b34b",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: A Student’s Guide to Writing with ChatGPT\n-link: https://openai.com/chatgpt/use-cases/student-writing-guide\n-id: https://openai.com/chatgpt/use-cases/student-writing-guide\n-date: Wed, 13 Nov 2024 10:00:00 GMT\n-body:\n-#ITEM\n+title: OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments\n+link: https://openai.com/index/dell-codex-enterprise-partnership\n+id: https://openai.com/index/dell-codex-enterprise-partnership\n+date: Mon, 18 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Estonia and OpenAI to bring ChatGPT to schools nationwide\n-link: https://openai.com/index/estonia-schools-and-chatgpt\n-id: https://openai.com/index/estonia-schools-and-chatgpt\n-date: Tue, 25 Feb 2025 04:15:00 GMT\n-body:\n-#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 12,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 19 May 2026 02:38:13 GMT",
+    "run_at": "2026-05-19T02:38:12Z",
+    "run_id": "3d494ede5ca242b895759cd9a653e9f1"
+  },
+  {
     "id": "ce05697dcd2201ce244d9bcefcb945ced70b46ce",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -933,62 +990,5 @@
     "pubDate": "Fri, 24 Apr 2026 02:00:39 GMT",
     "run_at": "2026-04-24T02:00:32Z",
     "run_id": "95fddb13a6034ab1ae1e709ffd3ef877"
-  },
-  {
-    "id": "53776109985cc17b98d06cb3ad61524ffdaeef3f",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Automations\n+link: https://openai.com/academy/codex-automations\n+id: https://openai.com/academy/codex-automations\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How to get started with Codex\n+link: https://openai.com/academy/codex-how-to-start\n+id: https://openai.com/academy/codex-how-to-start\n+title: Plugins and skills\n+link: https://openai.com/academy/codex-plugins-and-skills\n+id: https://openai.com/academy/codex-plugins-and-skills",
-    "snippet_full": "+title: Automations\n+link: https://openai.com/academy/codex-automations\n+id: https://openai.com/academy/codex-automations\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How to get started with Codex\n+link: https://openai.com/academy/codex-how-to-start\n+id: https://openai.com/academy/codex-how-to-start\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Plugins and skills\n+link: https://openai.com/academy/codex-plugins-and-skills\n+id: https://openai.com/academy/codex-plugins-and-skills\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Codex settings\n+link: https://openai.com/academy/codex-settings\n+id: https://openai.com/academy/codex-settings\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Top 10 uses for Codex at work\n+link: https://openai.com/academy/top-10-use-cases-codex-for-work\n+id: https://openai.com/academy/top-10-use-cases-codex-for-work\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: What is Codex?\n+link: https://openai.com/academy/what-is-codex\n+id: https://openai.com/academy/what-is-codex\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Working with Codex\n+link: https://openai.com/academy/working-with-codex\n+id: https://openai.com/academy/working-with-codex\n+date: Thu, 23 Apr 2026 10:00:00 GMT",
-    "diff": {
-      "added": 66,
-      "removed": 6,
-      "churn": 72
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 24 Apr 2026 02:00:33 GMT",
-    "run_at": "2026-04-24T02:00:32Z",
-    "run_id": "95fddb13a6034ab1ae1e709ffd3ef877"
-  },
-  {
-    "id": "71f3a6dde064aa920d46be1066d0ce510a2c1914",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Collections\n+API examples",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 24 Apr 2026 02:00:32 GMT",
-    "run_at": "2026-04-24T02:00:32Z",
-    "run_id": "95fddb13a6034ab1ae1e709ffd3ef877"
-  },
-  {
-    "id": "6e0c351719552f1691c089768817f5523b533336",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                - in-memory\n+                - in_memory",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 23 Apr 2026 02:00:50 GMT",
-    "run_at": "2026-04-23T02:00:25Z",
-    "run_id": "dd2b7097a22f452d97f7282e2d92f0f1"
   }
 ]

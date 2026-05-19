@@ -251,12 +251,6 @@ id: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
 date: Tue, 18 Mar 2025 00:00:00 GMT
 body:
 #ITEM
-title: A Student’s Guide to Writing with ChatGPT
-link: https://openai.com/chatgpt/use-cases/student-writing-guide
-id: https://openai.com/chatgpt/use-cases/student-writing-guide
-date: Wed, 13 Nov 2024 10:00:00 GMT
-body:
-#ITEM
 title: Stargate Infrastructure
 link: https://openai.com/form/stargate-infrastructure
 id: https://openai.com/form/stargate-infrastructure
@@ -1397,6 +1391,12 @@ id: https://openai.com/index/delivering-low-latency-voice-ai-at-scale
 date: Mon, 04 May 2026 00:00:00 GMT
 body:
 #ITEM
+title: OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments
+link: https://openai.com/index/dell-codex-enterprise-partnership
+id: https://openai.com/index/dell-codex-enterprise-partnership
+date: Mon, 18 May 2026 10:00:00 GMT
+body:
+#ITEM
 title: Democratic inputs to AI
 link: https://openai.com/index/democratic-inputs-to-ai
 id: https://openai.com/index/democratic-inputs-to-ai
@@ -1647,12 +1647,6 @@ title: Estimating worst case frontier risks of open weight LLMs
 link: https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms
 id: https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms
 date: Tue, 05 Aug 2025 00:00:00 GMT
-body:
-#ITEM
-title: Estonia and OpenAI to bring ChatGPT to schools nationwide
-link: https://openai.com/index/estonia-schools-and-chatgpt
-id: https://openai.com/index/estonia-schools-and-chatgpt
-date: Tue, 25 Feb 2025 04:15:00 GMT
 body:
 #ITEM
 title: How evals drive the next chapter in AI for businesses
