@@ -557,6 +557,12 @@ id: https://openai.com/index/advanced-account-security
 date: Thu, 30 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Advancing content provenance for a safer, more transparent AI ecosystem
+link: https://openai.com/index/advancing-content-provenance
+id: https://openai.com/index/advancing-content-provenance
+date: Tue, 19 May 2026 10:45:00 GMT
+body:
+#ITEM
 title: Advancing independent research on AI alignment
 link: https://openai.com/index/advancing-independent-research-ai-alignment
 id: https://openai.com/index/advancing-independent-research-ai-alignment

@@ -270,6 +270,7 @@ Config Basics
 Advanced Config
 Config Reference
 Sample Config
+Permissions
 Speed
 Rules
 Hooks

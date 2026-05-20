@@ -1,5 +1,83 @@
 [
   {
+    "id": "5cad41ee31fc55c8f0e082770f74d3c0354ac777",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+May 19, 2026\n+MCP tunnels\n+is now available as a Research Preview, so you can connect to MCP servers in your private network.\n+Self-hosted sandboxes are now available for Claude Managed Agents, as an alternative to running tool execution in Anthropic's infrastructure. See\n+Self-hosted sandboxes\n+.\n+With Claude Managed Agents, you can now update the agent's MCP server and tool configurations associated with an active session.\n+With Claude Managed Agents, large outputs from\n+agent_toolset\n+and MCP tools exceeding 100K tokens are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there.\n-Vault credential background refresh is now supported for\n+Claude Managed Agents vault credential background refresh is now supported for\n-Additional filtering and sorting options are now supported. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.\n+Additional filtering and sorting options are now supported for Claude Managed Agents. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation ti\n+May 19, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 13,
+      "removed": 2,
+      "churn": 15
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 20 May 2026 02:38:36 GMT",
+    "run_at": "2026-05-20T02:38:27Z",
+    "run_id": "d5563ee5c0b74d4ab493734229e182cd"
+  },
+  {
+    "id": "39dc7e23b41aab6f2f1832ab5c7a36281b0b11d7",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-            The action type.\n+            The action type. Always `open_page`.",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 20 May 2026 02:38:34 GMT",
+    "run_at": "2026-05-20T02:38:27Z",
+    "run_id": "d5563ee5c0b74d4ab493734229e182cd"
+  },
+  {
+    "id": "ea35c8344969c30580b3fb06f9626f0cb5a87093",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Advancing content provenance for a safer, more transparent AI ecosystem\n+link: https://openai.com/index/advancing-content-provenance\n+id: https://openai.com/index/advancing-content-provenance\n+date: Tue, 19 May 2026 10:45:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 20 May 2026 02:38:28 GMT",
+    "run_at": "2026-05-20T02:38:27Z",
+    "run_id": "d5563ee5c0b74d4ab493734229e182cd"
+  },
+  {
+    "id": "7c1bb49e6d6b60109c65f30487e3062ecca34b72",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Permissions",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 20 May 2026 02:38:27 GMT",
+    "run_at": "2026-05-20T02:38:27Z",
+    "run_id": "d5563ee5c0b74d4ab493734229e182cd"
+  },
+  {
     "id": "6b9c6a54680769e59e6c7c0444276e2242ed07cf",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -910,85 +988,5 @@
     "pubDate": "Tue, 28 Apr 2026 02:12:52 GMT",
     "run_at": "2026-04-28T02:12:51Z",
     "run_id": "4647223b9bd54df9bc36037534dfeb17"
-  },
-  {
-    "id": "4cb1545b56c853693cc8cc47e4363e82db319f2b",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Our principles\n+link: https://openai.com/index/our-principles\n+id: https://openai.com/index/our-principles\n+date: Sun, 26 Apr 2026 16:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 27 Apr 2026 02:06:30 GMT",
-    "run_at": "2026-04-27T02:06:28Z",
-    "run_id": "14f0d374231c473ea6086548ee8de358"
-  },
-  {
-    "id": "a10dbdaf9d268fda532edd7e4cbc2509eceb8988",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+Tutorial: Build a tool-using agent\n+Define tools\n+Handle tool calls\n+Parallel tool use\n+Tool Runner (SDK)\n+Strict tool use\n+Tool use with prompt caching\n+Server tools\n+Troubleshooting\n+Manage tool context\n+Tool combinations\n+April 24, 2026\n+We've released the\n+Rate Limits API\n+, allowing administrators to programmatically query the rate limits configured for their organization and workspaces.\n+April 24, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 16,
-      "removed": 0,
-      "churn": 16
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 25 Apr 2026 01:51:19 GMT",
-    "run_at": "2026-04-25T01:50:51Z",
-    "run_id": "8f9b9be047a6486e85f1ec4d4ecdff05"
-  },
-  {
-    "id": "cf436c9d2a18df4cbe715b8d28cc1391878bf7ef",
-    "impact": "Breaking",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Latest: GPT-5.4\n+Latest: GPT-5.5\n+Deployment checklist\n-Latest: GPT-5.4\n+Latest: GPT-5.5\n+Deployment checklist\n+Upcoming deprecations can be found on the\n+deprecations page\n+.\n+Apr 24\n+Feature\n+gpt-5.5\n+gpt-5.5-pro\n+v1/responses\n+v1/chat/completions\n+v1/batch\n+Released\n+GPT-5.5\n+, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released\n+GPT-5.5 pro\n+for Responses API requests for tougher problems that benefit from more compute.\n+GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and w\n+Reasoning effort now defaults to\n+medium\n+.\n+When\n+image_detail\n+is unset or set to\n+auto\n+, the model now uses\n+original behavior\n+.\n+Caching for GPT-5.5 only works with extended prompt caching. In-memory prompt caching is not supported.\n+Learn more\n+here\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 34,
-      "removed": 2,
-      "churn": 36
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 25 Apr 2026 01:51:12 GMT",
-    "run_at": "2026-04-25T01:50:51Z",
-    "run_id": "8f9b9be047a6486e85f1ec4d4ecdff05"
-  },
-  {
-    "id": "a4c1d32d96524c854fdf7f1f14116c9896301d50",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+April 23, 2026\n+Memory\n+for Claude Managed Agents is now in public beta under the standard\n+managed-agents-2026-04-01\n+header. See\n+Using agent memory\n+for the full integration guide.\n+April 23, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 8,
-      "removed": 0,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 24 Apr 2026 02:00:39 GMT",
-    "run_at": "2026-04-24T02:00:32Z",
-    "run_id": "95fddb13a6034ab1ae1e709ffd3ef877"
   }
 ]

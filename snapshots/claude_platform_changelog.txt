@@ -101,6 +101,16 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+May 19, 2026
+MCP tunnels
+is now available as a Research Preview, so you can connect to MCP servers in your private network.
+Self-hosted sandboxes are now available for Claude Managed Agents, as an alternative to running tool execution in Anthropic's infrastructure. See
+Self-hosted sandboxes
+.
+With Claude Managed Agents, you can now update the agent's MCP server and tool configurations associated with an active session.
+With Claude Managed Agents, large outputs from
+agent_toolset
+and MCP tools exceeding 100K tokens are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there.
 May 18, 2026
 The
 web search tool
@@ -139,7 +149,7 @@ Outcomes
 are now in public beta under the standard
 managed-agents-2026-04-01
 beta header.
-Vault credential background refresh is now supported for
+Claude Managed Agents vault credential background refresh is now supported for
 mcp_oauth
 credentials. See
 Authenticate with vaults
@@ -147,7 +157,7 @@ Authenticate with vaults
 Webhooks for Claude Managed Agents are now supported. Webhook event types include session and vault lifecycle events. See
 Subscribe to webhooks
 .
-Additional filtering and sorting options are now supported. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.
+Additional filtering and sorting options are now supported for Claude Managed Agents. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.
 April 30, 2026
 We've retired the 1M token context window beta (
 context-1m-2025-08-07
@@ -984,6 +994,7 @@ Developer Console
 blog post
 .
 このページは役に立ちましたか？
+May 19, 2026
 May 18, 2026
 May 13, 2026
 May 12, 2026
