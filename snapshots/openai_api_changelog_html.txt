@@ -95,6 +95,7 @@ Advanced integrations
 Tools
 Web search
 MCP and Connectors
+Secure MCP Tunnel
 Skills
 Shell
 Computer use
@@ -490,6 +491,7 @@ Advanced integrations
 Tools
 Web search
 MCP and Connectors
+Secure MCP Tunnel
 Skills
 Shell
 Computer use
@@ -606,6 +608,14 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 May, 2026
+May 19
+Feature
+Released
+Secure MCP Tunnel
+for enterprise customers. Secure MCP Tunnel lets supported OpenAI products including ChatGPT web, Codex, Responses API, and AgentKit connect to private or on-prem MCP servers through a customer-hosted
+tunnel-client
+without exposing those servers to the public internet.
+Initial GA is account-led rather than self-serve.
 May 12
 Update
 dall-e-2
