@@ -123,6 +123,7 @@ Prompting
 Overview
 Prompt engineering
 Citation formatting
+Migration guide
 Reasoning
 Reasoning models
 Reasoning best practices
@@ -238,6 +239,7 @@ Local Environments
 In-app browser
 Chrome extension
 Computer Use
+Appshots
 Commands
 Windows
 Troubleshooting
@@ -519,6 +521,7 @@ Prompting
 Overview
 Prompt engineering
 Citation formatting
+Migration guide
 Reasoning
 Reasoning models
 Reasoning best practices
