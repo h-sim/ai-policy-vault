@@ -287,12 +287,6 @@ id: https://openai.com/global-affairs/argentinas-ai-opportunity
 date: Tue, 14 Oct 2025 06:00:00 GMT
 body:
 #ITEM
-title: OpenAI’s comments to the NTIA on data center growth, resilience, and security
-link: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security
-id: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security
-date: Mon, 04 Nov 2024 12:00:00 GMT
-body:
-#ITEM
 title: Disrupting malicious uses of AI
 link: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai
 id: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai
@@ -395,12 +389,6 @@ id: https://openai.com/global-affairs/openai-nonprofit-jam
 date: Thu, 17 Jul 2025 00:00:00 GMT
 body:
 #ITEM
-title: OpenAI’s proposals for the U.S. AI Action Plan
-link: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan
-id: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan
-date: Thu, 13 Mar 2025 03:00:00 GMT
-body:
-#ITEM
 title: AI in Australia—OpenAI’s Economic Blueprint
 link: https://openai.com/global-affairs/openais-australia-economic-blueprint
 id: https://openai.com/global-affairs/openais-australia-economic-blueprint
@@ -435,12 +423,6 @@ title: OpenAI announces strategic collaboration with Japan’s Digital Agency
 link: https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency
 id: https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency
 date: Thu, 02 Oct 2025 00:00:00 GMT
-body:
-#ITEM
-title: The power of personalized AI
-link: https://openai.com/global-affairs/the-power-of-personalized-ai
-id: https://openai.com/global-affairs/the-power-of-personalized-ai
-date: Fri, 17 Jan 2025 13:00:00 GMT
 body:
 #ITEM
 title: The Washington Post partners with OpenAI on search content
@@ -1901,12 +1883,6 @@ id: https://openai.com/index/frontierscience
 date: Tue, 16 Dec 2025 09:00:00 GMT
 body:
 #ITEM
-title: OpenAI Full Fan Mode Contest: Terms & Conditions
-link: https://openai.com/index/full-fan-mode-contest-terms-conditions
-id: https://openai.com/index/full-fan-mode-contest-terms-conditions
-date: Thu, 09 Apr 2026 00:00:00 GMT
-body:
-#ITEM
 title: Function calling and other API updates
 link: https://openai.com/index/function-calling-and-other-api-updates
 id: https://openai.com/index/function-calling-and-other-api-updates
@@ -1923,6 +1899,12 @@ title: OpenAI named Emerging Leader in Generative AI
 link: https://openai.com/index/gartner-2025-emerging-leader
 id: https://openai.com/index/gartner-2025-emerging-leader
 date: Mon, 17 Nov 2025 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI named a Leader in enterprise coding agents by Gartner
+link: https://openai.com/index/gartner-2026-agentic-coding-leader
+id: https://openai.com/index/gartner-2026-agentic-coding-leader
+date: Fri, 22 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: Gathering human feedback
@@ -3423,12 +3405,6 @@ title: Memory and new controls for ChatGPT
 link: https://openai.com/index/memory-and-new-controls-for-chatgpt
 id: https://openai.com/index/memory-and-new-controls-for-chatgpt
 date: Tue, 13 Feb 2024 00:00:00 GMT
-body:
-#ITEM
-title: Our approach to mental health-related litigation
-link: https://openai.com/index/mental-health-litigation-approach
-id: https://openai.com/index/mental-health-litigation-approach
-date: Tue, 25 Nov 2025 12:00:00 GMT
 body:
 #ITEM
 title: Introducing Verdi, an AI dev platform powered by GPT-4o
@@ -5651,6 +5627,12 @@ id: https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acqu
 date: Tue, 02 Sep 2025 11:00:00 GMT
 body:
 #ITEM
+title: How Virgin Atlantic ships faster with Codex
+link: https://openai.com/index/virgin-atlantic
+id: https://openai.com/index/virgin-atlantic
+date: Fri, 22 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: How Virgin Atlantic uses AI to enhance every step of travel
 link: https://openai.com/index/virgin-atlantic-oliver-byers
 id: https://openai.com/index/virgin-atlantic-oliver-byers
@@ -5811,12 +5793,6 @@ title: OpenAI o1 Contributions
 link: https://openai.com/openai-o1-contributions
 id: https://openai.com/openai-o1-contributions
 date: Thu, 12 Sep 2024 10:00:00 GMT
-body:
-#ITEM
-title: Outbound coordinated vulnerability disclosure policy
-link: https://openai.com/policies/outbound-coordinated-disclosure-policy
-id: https://openai.com/policies/outbound-coordinated-disclosure-policy
-date: Mon, 22 Sep 2025 00:00:00 GMT
 body:
 #ITEM
 title: How ChatGPT adoption broadened in early 2026

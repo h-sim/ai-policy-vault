@@ -1,5 +1,26 @@
 [
   {
+    "id": "44cf432cc9e9a6bcc981a23edd13d2f41fd3a7e5",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: OpenAI’s comments to the NTIA on data center growth, resilience, and security\n-link: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security\n-id: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security\n-title: OpenAI Full Fan Mode Contest: Terms & Conditions\n-link: https://openai.com/index/full-fan-mode-contest-terms-conditions\n-id: https://openai.com/index/full-fan-mode-contest-terms-conditions\n-date: Mon, 04 Nov 2024 12:00:00 GMT\n-body:\n-#ITEM\n-title: OpenAI’s proposals for the U.S. AI Action Plan\n-link: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan\n-id: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan",
+    "snippet_full": "-title: OpenAI’s comments to the NTIA on data center growth, resilience, and security\n-link: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security\n-id: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security\n-date: Mon, 04 Nov 2024 12:00:00 GMT\n-body:\n-#ITEM\n-title: OpenAI’s proposals for the U.S. AI Action Plan\n-link: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan\n-id: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan\n-date: Thu, 13 Mar 2025 03:00:00 GMT\n-body:\n-#ITEM\n-title: The power of personalized AI\n-link: https://openai.com/global-affairs/the-power-of-personalized-ai\n-id: https://openai.com/global-affairs/the-power-of-personalized-ai\n-date: Fri, 17 Jan 2025 13:00:00 GMT\n-body:\n-#ITEM\n-title: OpenAI Full Fan Mode Contest: Terms & Conditions\n-link: https://openai.com/index/full-fan-mode-contest-terms-conditions\n-id: https://openai.com/index/full-fan-mode-contest-terms-conditions\n-date: Thu, 09 Apr 2026 00:00:00 GMT\n-body:\n-#ITEM\n+title: OpenAI named a Leader in enterprise coding agents by Gartner\n+link: https://openai.com/index/gartner-2026-agentic-coding-leader\n+id: https://openai.com/index/gartner-2026-agentic-coding-leader\n+date: Fri, 22 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Our approach to mental health-related litigation\n-link: https://openai.com/index/mental-health-litigation-approach\n-id: https://openai.com/index/mental-health-litigation-approach\n-date: Tue, 25 Nov 2025 12:00:00 GMT\n-body:\n-#ITEM\n+title: How Virgin Atlantic ships faster with Codex\n+link: https://openai.com/index/virgin-atlantic\n+id: https://openai.com/index/virgin-atlantic\n+date: Fri, 22 May 2026 00:00:00 GMT",
+    "diff": {
+      "added": 12,
+      "removed": 36,
+      "churn": 48
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 23 May 2026 02:27:41 GMT",
+    "run_at": "2026-05-23T02:27:21Z",
+    "run_id": "52c63f6f64964111abfe94c796ca19cb"
+  },
+  {
     "id": "0fdd20db8dfbd7fd9eae1775eec439134770a2c7",
     "impact": "Breaking",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -966,27 +987,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Thu, 30 Apr 2026 02:14:36 GMT",
-    "run_at": "2026-04-30T02:14:03Z",
-    "run_id": "6fb998964d9b4a2d85a423b9f884e02d"
-  },
-  {
-    "id": "3b9caa361d53f88e42f1f7fe5da3e3d79654fbde",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Building the compute infrastructure for the Intelligence Age\n+link: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age\n+id: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age\n+date: Wed, 29 Apr 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: Cybersecurity in the Intelligence Age\n+link: https://openai.com/index/cybersecurity-in-the-intelligence-age\n+id: https://openai.com/index/cybersecurity-in-the-intelligence-age\n+date: Wed, 29 Apr 2026 04:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 30 Apr 2026 02:14:24 GMT",
     "run_at": "2026-04-30T02:14:03Z",
     "run_id": "6fb998964d9b4a2d85a423b9f884e02d"
   }
