@@ -2291,6 +2291,12 @@ id: https://openai.com/index/group-chats-in-chatgpt
 date: Thu, 13 Nov 2025 00:00:00 GMT
 body:
 #ITEM
+title: OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership
+link: https://openai.com/index/grupo-folha-grupo-uol-partnership
+id: https://openai.com/index/grupo-folha-grupo-uol-partnership
+date: Mon, 25 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Gym Retro
 link: https://openai.com/index/gym-retro
 id: https://openai.com/index/gym-retro
