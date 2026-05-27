@@ -132,6 +132,7 @@ Getting started
 Working with evals
 Prompt optimizer
 External models
+Red teaming
 Best practices
 Realtime and audio
 Overview
@@ -170,6 +171,13 @@ Embeddings
 Moderation
 Going live
 Production best practices
+Workload identity federation
+Overview
+Kubernetes
+AWS
+Microsoft Azure
+Google Cloud
+GitHub Actions
 Deployment checklist
 Latency optimization
 Overview
@@ -530,6 +538,7 @@ Getting started
 Working with evals
 Prompt optimizer
 External models
+Red teaming
 Best practices
 Realtime and audio
 Overview
@@ -568,6 +577,13 @@ Embeddings
 Moderation
 Going live
 Production best practices
+Workload identity federation
+Overview
+Kubernetes
+AWS
+Microsoft Azure
+Google Cloud
+GitHub Actions
 Deployment checklist
 Latency optimization
 Overview
@@ -611,6 +627,11 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 May, 2026
+May 26
+Feature
+Released
+workload identity federation
+. Trusted workloads can exchange externally issued identity tokens for short-lived OpenAI access tokens without storing long-lived API keys.
 May 19
 Feature
 Released

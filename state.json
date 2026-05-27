@@ -1,5 +1,24 @@
 [
   {
+    "id": "bff979af32992765c709b4d9400e10de273b44df",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Red teaming\n+Workload identity federation\n+Overview\n+Kubernetes\n+AWS\n+Microsoft Azure\n+Google Cloud\n+GitHub Actions\n+Red teaming\n+Workload identity federation\n+Overview\n+Kubernetes\n+AWS\n+Microsoft Azure\n+Google Cloud\n+GitHub Actions\n+May 26\n+Feature\n+Released\n+workload identity federation\n+. Trusted workloads can exchange externally issued identity tokens for short-lived OpenAI access tokens without storing long-lived API keys.",
+    "snippet_full": "",
+    "diff": {
+      "added": 21,
+      "removed": 0,
+      "churn": 21
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 27 May 2026 02:44:48 GMT",
+    "run_at": "2026-05-27T02:44:48Z",
+    "run_id": "d68884106cb149a1b0ad75756db202a2"
+  },
+  {
     "id": "07a46bdfdbba0a0fa3b2b7ea33883305f80c9fdc",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -966,27 +985,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Fri, 01 May 2026 02:28:30 GMT",
-    "run_at": "2026-05-01T02:27:56Z",
-    "run_id": "89b9197133da4603852c14c2f398cd02"
-  },
-  {
-    "id": "782c6545dda8ab0109ebc95e1cd99710f7fa9364",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing Advanced Account Security\n+link: https://openai.com/index/advanced-account-security\n+id: https://openai.com/index/advanced-account-security\n+date: Thu, 30 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Where the goblins came from\n+link: https://openai.com/index/where-the-goblins-came-from\n+id: https://openai.com/index/where-the-goblins-came-from\n+date: Wed, 29 Apr 2026 20:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 01 May 2026 02:28:22 GMT",
     "run_at": "2026-05-01T02:27:56Z",
     "run_id": "89b9197133da4603852c14c2f398cd02"
   }
