@@ -101,6 +101,12 @@ id: https://openai.com/academy/how-finance-teams-use-codex
 date: Tue, 12 May 2026 15:00:00 GMT
 body:
 #ITEM
+title: How to use Codex for everyday work
+link: https://openai.com/academy/how-to-use-codex-for-everyday-work
+id: https://openai.com/academy/how-to-use-codex-for-everyday-work
+date: Thu, 23 Apr 2026 10:00:00 GMT
+body:
+#ITEM
 title: Creating images with ChatGPT
 link: https://openai.com/academy/image-generation
 id: https://openai.com/academy/image-generation
@@ -171,12 +177,6 @@ title: Using skills
 link: https://openai.com/academy/skills
 id: https://openai.com/academy/skills
 date: Fri, 10 Apr 2026 00:00:00 GMT
-body:
-#ITEM
-title: Top 10 uses for Codex at work
-link: https://openai.com/academy/top-10-use-cases-codex-for-work
-id: https://openai.com/academy/top-10-use-cases-codex-for-work
-date: Thu, 23 Apr 2026 10:00:00 GMT
 body:
 #ITEM
 title: AI fundamentals
@@ -911,6 +911,12 @@ id: https://openai.com/index/building-openai-with-openai
 date: Mon, 29 Sep 2025 13:30:00 GMT
 body:
 #ITEM
+title: Building self-improving tax agents with Codex
+link: https://openai.com/index/building-self-improving-tax-agents-with-codex
+id: https://openai.com/index/building-self-improving-tax-agents-with-codex
+date: Wed, 27 May 2026 07:00:00 GMT
+body:
+#ITEM
 title: Building the compute infrastructure for the Intelligence Age
 link: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
 id: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
@@ -1049,10 +1055,10 @@ id: https://openai.com/index/choco
 date: Mon, 27 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: Cisco and OpenAI redefine enterprise engineering with AI agents
+title: Cisco and OpenAI redefine enterprise engineering with Codex
 link: https://openai.com/index/cisco
 id: https://openai.com/index/cisco
-date: Tue, 20 Jan 2026 11:00:00 GMT
+date: Wed, 27 May 2026 11:00:00 GMT
 body:
 #ITEM
 title: Achieving 10x growth with agentic sales prospecting
@@ -1545,6 +1551,12 @@ title: Efficient training of language models to fill in the middle
 link: https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle
 id: https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle
 date: Thu, 28 Jul 2022 07:00:00 GMT
+body:
+#ITEM
+title: Election information and safeguards in 2026
+link: https://openai.com/index/election-safeguards-2026
+id: https://openai.com/index/election-safeguards-2026
+date: Wed, 27 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: EliseAI improves housing and healthcare efficiency with AI
@@ -5649,6 +5661,12 @@ title: Learning to play Minecraft with Video PreTraining
 link: https://openai.com/index/vpt
 id: https://openai.com/index/vpt
 date: Thu, 23 Jun 2022 07:00:00 GMT
+body:
+#ITEM
+title: Warp’s big bet on building open source with GPT-5.5
+link: https://openai.com/index/warp
+id: https://openai.com/index/warp
+date: Wed, 27 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: Wayfair boosts catalog accuracy and support speed with OpenAI

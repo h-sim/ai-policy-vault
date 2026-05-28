@@ -1,5 +1,24 @@
 [
   {
+    "id": "399abc828e0db25b5eaa351e24df5f44bc251560",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How to use Codex for everyday work\n+link: https://openai.com/academy/how-to-use-codex-for-everyday-work\n+id: https://openai.com/academy/how-to-use-codex-for-everyday-work\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Top 10 uses for Codex at work\n-link: https://openai.com/academy/top-10-use-cases-codex-for-work\n-id: https://openai.com/academy/top-10-use-cases-codex-for-work\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n-body:\n-#ITEM",
+    "snippet_full": "+title: How to use Codex for everyday work\n+link: https://openai.com/academy/how-to-use-codex-for-everyday-work\n+id: https://openai.com/academy/how-to-use-codex-for-everyday-work\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Top 10 uses for Codex at work\n-link: https://openai.com/academy/top-10-use-cases-codex-for-work\n-id: https://openai.com/academy/top-10-use-cases-codex-for-work\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n-body:\n-#ITEM\n+title: Building self-improving tax agents with Codex\n+link: https://openai.com/index/building-self-improving-tax-agents-with-codex\n+id: https://openai.com/index/building-self-improving-tax-agents-with-codex\n+date: Wed, 27 May 2026 07:00:00 GMT\n+body:\n+#ITEM\n-title: Cisco and OpenAI redefine enterprise engineering with AI agents\n+title: Cisco and OpenAI redefine enterprise engineering with Codex\n-date: Tue, 20 Jan 2026 11:00:00 GMT\n+date: Wed, 27 May 2026 11:00:00 GMT\n+title: Election information and safeguards in 2026\n+link: https://openai.com/index/election-safeguards-2026\n+id: https://openai.com/index/election-safeguards-2026\n+date: Wed, 27 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Warp’s big bet on building open source with GPT-5.5\n+link: https://openai.com/index/warp\n+id: https://openai.com/index/warp\n+date: Wed, 27 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 26,
+      "removed": 8,
+      "churn": 34
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 28 May 2026 02:32:04 GMT",
+    "run_at": "2026-05-28T02:32:03Z",
+    "run_id": "1f1d0b282d884f37bf3674e5c4de7fcf"
+  },
+  {
     "id": "bff979af32992765c709b4d9400e10de273b44df",
     "impact": "Medium",
     "name": "OpenAI API Changelog (HTML)",
@@ -966,25 +985,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Fri, 01 May 2026 02:28:31 GMT",
-    "run_at": "2026-05-01T02:27:56Z",
-    "run_id": "89b9197133da4603852c14c2f398cd02"
-  },
-  {
-    "id": "2e64302bf36b6723c70595c2a48979ed0004e3e3",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+            node.js: >-\n+              import OpenAI from 'openai';\n+\n+\n+              const client = new OpenAI({\n+                adminAPIKey: process.env['OPENAI_ADMIN_KEY'], // This is the default and can be omitted\n+              });\n+\n+\n+              // Automatically fetches more pages as needed.\n+\n+              for await (const adminAPIKey of\n+              client.admin.organization.adminAPIKeys.list()) {\n+                console.log(adminAPIKey.id);\n+              }\n+            python: |-\n+              import os\n+              from openai import OpenAI\n+\n+              client = OpenAI(\n+                  admin_api_key=os.environ.get(\"OPENAI_ADMIN_KEY\"),  # This is the default and can be omitted\n+              )\n+              page = client.admin.organization.admin_api_keys.list()\n+              page = page.data[0]\n+              print(page.id)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+            java: >-\n+              package com.openai.example;\n+\n+\n+              import com.openai.client.OpenAIClient;\n+\n+              import com.openai.client.okhttp.OpenAIOkHttpClient;\n+\n+              import\n+              com.openai.models.admin.organization.adminapikeys.AdminApiKeyListPage;\n+\n+              import\n+              com.openai.models.admin.organization.adminapikeys.AdminApiKeyListParams;\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 5261,
-      "removed": 2,
-      "churn": 5263
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 01 May 2026 02:28:30 GMT",
     "run_at": "2026-05-01T02:27:56Z",
     "run_id": "89b9197133da4603852c14c2f398cd02"
   }
