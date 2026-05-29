@@ -1,5 +1,67 @@
 [
   {
+    "id": "85c4c6a32fa0bb69afd61835ff04a35cda0c91cb",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+May 28, 2026\n+We've launched\n+Claude Opus 4.8\n+(\n+claude-opus-4-8\n+), our most capable generally available model.\n+Claude Opus 4.8\n+supports a\n+1M token context window\n+by default, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n+What's new in\n+Claude Opus 4.8\n+for capability improvements, new features, and migration guidance.\n+We've launched\n+mid-conversation system messages\n+. On\n+Claude Opus 4.8\n+, you can send\n+role: \"system\"\n+messages at non-first positions in the\n+messages\n+array, preserving prompt cache hits when instructions change during a long-running session. No beta header is required.\n+The Messages API now returns refusal categories in\n+stop_details\n+when\n+Claude Opus 4.8\n+declines a request, so your application can route different classes of refusal to the right next step. No beta header is required. See\n+Refusal categories\n+.\n+On\n+Claude Opus 4.8\n+, the\n+effort parameter\n+defaults to\n+high\n+across all surfaces, including Claude Code and the Messages API.\n+On\n+Claude Opus 4.8\n+, the minimum cacheable prompt length for\n+prompt caching",
+    "snippet_full": "",
+    "diff": {
+      "added": 101,
+      "removed": 0,
+      "churn": 101
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 29 May 2026 02:37:04 GMT",
+    "run_at": "2026-05-29T02:36:15Z",
+    "run_id": "7b9986f51f464461a1dc0ecb8f9c475e"
+  },
+  {
+    "id": "6fa0234de9ae6c96ce513bd0379383fa7ff158db",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Endava builds an agentic organization with Codex\n+link: https://openai.com/index/endava\n+id: https://openai.com/index/endava\n+date: Thu, 28 May 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI’s Frontier Governance Framework\n+link: https://openai.com/index/openai-frontier-governance-framework\n+id: https://openai.com/index/openai-frontier-governance-framework\n+date: Thu, 28 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 29 May 2026 02:36:37 GMT",
+    "run_at": "2026-05-29T02:36:15Z",
+    "run_id": "7b9986f51f464461a1dc0ecb8f9c475e"
+  },
+  {
+    "id": "c8b8458f3fdaa0cdadc1cde8a7f48273c0aaccdb",
+    "impact": "High",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Codex Security plugin\n+Codex Security cloud\n+May 28\n+Update\n+chat-latest\n+Released\n+chat-latest\n+snapshot which points to the latest Instant model currently used in ChatGPT. We recommend leveraging\n+GPT-5.5\n+for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more\n+here\n+.\n+May 26\n+Update\n+Added new\n+Admin API\n+capabilities for managing spend alerts, model allowlists, data retention settings, and hosted tool permissions, plus querying granular billing line items.\n+May 19\n+Update\n+You can now manage multiple IP allowlists and apply each one at the project level or across the whole organization. To configure them, go to\n+Settings > Security > IP allowlist\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 22,
+      "removed": 0,
+      "churn": 22
+    },
+    "score": 60,
+    "reasons": [
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 29 May 2026 02:36:37 GMT",
+    "run_at": "2026-05-29T02:36:15Z",
+    "run_id": "7b9986f51f464461a1dc0ecb8f9c475e"
+  },
+  {
     "id": "399abc828e0db25b5eaa351e24df5f44bc251560",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -928,64 +990,5 @@
     "pubDate": "Sun, 03 May 2026 02:10:29 GMT",
     "run_at": "2026-05-03T02:10:21Z",
     "run_id": "b6e4cf996e634cf0a0d29392a05384bd"
-  },
-  {
-    "id": "90cc487ec4273d6b081818a67a61498a8f5d3786",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                $ref: '#/components/schemas/AdminApiKey'\n+                $ref: '#/components/schemas/AdminApiKeyCreateResponse'\n-              console.log(adminAPIKey.id);\n+              console.log(adminAPIKey);\n-              print(admin_api_key.id)\n-            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+              print(admin_api_key)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n-              com.openai.models.admin.organization.adminapikeys.AdminApiKey;\n+              com.openai.models.admin.organization.adminapikeys.AdminApiKeyCreateParams;\n-              com.openai.models.admin.organization.adminapikeys.AdminApiKeyCreateParams;\n+              com.openai.models.admin.organization.adminapikeys.AdminApiKeyCreateResponse;\n-                      AdminApiKey adminApiKey = client.admin().organization().adminApiKeys().create(params);\n+                      AdminApiKeyCreateResponse adminApiKey = client.admin().organization().adminApiKeys().create(params);\n+                    enum:\n+                      - organization.admin_api_key.deleted\n+                    x-stainless-const: true\n+                required:\n+                  - id\n+                  - object\n+                  - deleted\n-              for await (const certificate of\n+              for await (const certificateListResponse of\n-                console.log(certificate.id);\n+                console.log(certificateListResponse.id);\n-              client.admin.organization.certificates.create({ content: 'content'\n+              client.admin.organization.certificates.create({\n+                certificate: 'certificate',\n-                  content=\"content\",\n+                  certificate=\"certificate\",\n-            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n-                          .content(\"content\")\n+                          .certificate(\"certificate\")\n-              openai.admin.organization.certificates.create(content: \"content\")\n+              openai.admin.organization.certificates.create(certificate:\n+              \"certificate\")\n-                $ref: '#/components/schemas/ListCertificatesResponse'\n+                $ref: '#/components/schemas/OrganizationCertificateActivationResponse'\n-                \"data\": [\"cert_abc\", \"cert_def\"]",
-    "snippet_full": "",
-    "diff": {
-      "added": 687,
-      "removed": 240,
-      "churn": 927
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 02 May 2026 02:05:02 GMT",
-    "run_at": "2026-05-02T02:04:49Z",
-    "run_id": "b664fdea47984d808a69b130099c1a00"
-  },
-  {
-    "id": "2407d0548c0961c850517abbb732da8f5be691c0",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Migrate",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 02 May 2026 02:04:49 GMT",
-    "run_at": "2026-05-02T02:04:49Z",
-    "run_id": "b664fdea47984d808a69b130099c1a00"
-  },
-  {
-    "id": "9c47bab2966b2be9c16c5012be7bdec64733ea8b",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+April 30, 2026\n+We've retired the 1M token context window beta (\n+context-1m-2025-08-07\n+) for Claude Sonnet 4.5 and Claude Sonnet 4. The beta header now has no effect on these models, and requests exceeding the standard 200k-token context window return an error. To use the 1M context wi\n+Claude Sonnet 4.6\n+or\n+Claude Opus 4.6\n+, where it's generally available at standard pricing with no beta header required.\n+April 30, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 9,
-      "removed": 0,
-      "churn": 9
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 01 May 2026 02:28:31 GMT",
-    "run_at": "2026-05-01T02:27:56Z",
-    "run_id": "89b9197133da4603852c14c2f398cd02"
   }
 ]

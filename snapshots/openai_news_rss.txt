@@ -1601,6 +1601,12 @@ id: https://openai.com/index/empowering-defenders-through-our-cybersecurity-gran
 date: Thu, 20 Jun 2024 10:00:00 GMT
 body:
 #ITEM
+title: How Endava builds an agentic organization with Codex
+link: https://openai.com/index/endava
+id: https://openai.com/index/endava
+date: Thu, 28 May 2026 12:00:00 GMT
+body:
+#ITEM
 title: Building an autonomous financial analyst with o1 and o3-mini
 link: https://openai.com/index/endex
 id: https://openai.com/index/endex
@@ -4107,6 +4113,12 @@ title: Introducing OpenAI for Ireland
 link: https://openai.com/index/openai-for-ireland
 id: https://openai.com/index/openai-for-ireland
 date: Fri, 14 Nov 2025 04:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s Frontier Governance Framework
+link: https://openai.com/index/openai-frontier-governance-framework
+id: https://openai.com/index/openai-frontier-governance-framework
+date: Thu, 28 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: Announcing OpenAI Grove Cohort 2

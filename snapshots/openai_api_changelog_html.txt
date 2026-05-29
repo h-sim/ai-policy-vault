@@ -272,6 +272,8 @@ Slack
 Linear
 Codex Security
 Overview
+Codex Security plugin
+Codex Security cloud
 Setup
 Improving the threat model
 FAQ
@@ -627,11 +629,26 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 May, 2026
+May 28
+Update
+chat-latest
+Released
+chat-latest
+snapshot which points to the latest Instant model currently used in ChatGPT. We recommend leveraging
+GPT-5.5
+for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more
+here
+.
 May 26
 Feature
 Released
 workload identity federation
 . Trusted workloads can exchange externally issued identity tokens for short-lived OpenAI access tokens without storing long-lived API keys.
+May 26
+Update
+Added new
+Admin API
+capabilities for managing spend alerts, model allowlists, data retention settings, and hosted tool permissions, plus querying granular billing line items.
 May 19
 Feature
 Released
@@ -640,6 +657,11 @@ for enterprise customers. Secure MCP Tunnel lets supported OpenAI products inclu
 tunnel-client
 without exposing those servers to the public internet.
 Initial GA is account-led rather than self-serve.
+May 19
+Update
+You can now manage multiple IP allowlists and apply each one at the project level or across the whole organization. To configure them, go to
+Settings > Security > IP allowlist
+.
 May 12
 Update
 dall-e-2

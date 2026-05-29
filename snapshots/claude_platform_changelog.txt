@@ -101,6 +101,106 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+May 28, 2026
+We've launched
+Claude Opus 4.8
+(
+claude-opus-4-8
+), our most capable generally available model.
+Claude Opus 4.8
+supports a
+1M token context window
+by default, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See
+What's new in
+Claude Opus 4.8
+for capability improvements, new features, and migration guidance.
+We've launched
+mid-conversation system messages
+. On
+Claude Opus 4.8
+, you can send
+role: "system"
+messages at non-first positions in the
+messages
+array, preserving prompt cache hits when instructions change during a long-running session. No beta header is required.
+The Messages API now returns refusal categories in
+stop_details
+when
+Claude Opus 4.8
+declines a request, so your application can route different classes of refusal to the right next step. No beta header is required. See
+Refusal categories
+.
+On
+Claude Opus 4.8
+, the
+effort parameter
+defaults to
+high
+across all surfaces, including Claude Code and the Messages API.
+On
+Claude Opus 4.8
+, the minimum cacheable prompt length for
+prompt caching
+is 1,024 tokens, lower than on Claude Opus 4.7.
+Claude Opus 4.8
+uses
+adaptive thinking
+to trigger reasoning only when a turn needs it, reducing wasted thinking tokens compared to Claude Opus 4.7 at the same effort level.
+Claude Opus 4.8
+supports
+high-resolution image input
+(up to 2576 pixels on the long edge), same as Claude Opus 4.7.
+Task budgets
+now support
+Claude Opus 4.8
+.
+The
+advisor tool
+now supports
+Claude Opus 4.8
+.
+Computer use
+now supports
+Claude Opus 4.8
+.
+Fast mode
+for
+Claude Opus 4.8
+is available as a research preview on the Claude API only.
+Setting the sampling parameters
+temperature
+,
+top_p
+, or
+top_k
+to a non-default value returns a 400 error on
+Claude Opus 4.8
+, same as on Claude Opus 4.7. See the
+migration guide
+for details.
+In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the
+Claude Code documentation
+.
+In Claude Code, Max plan users now default to
+fast mode
+on
+Claude Opus 4.8
+. See the
+Claude Code documentation
+.
+In Claude Code, Workflows are available as a research preview, letting you define and run multi-step agentic plans. See the
+Claude Code documentation
+.
+We've deprecated
+fast mode
+for Claude Opus 4.6, with removal approximately 30 days after launch. Migrate to fast mode for
+Claude Opus 4.8
+or Claude Opus 4.7. Read more in
+Fast mode
+.
+For updates to claude.ai, Cowork, Claude for Microsoft 365, and other Claude apps in this release, see the
+release notes for Claude Apps
+.
 May 19, 2026
 MCP tunnels
 is now available as a Research Preview, so you can connect to MCP servers in your private network.
@@ -994,6 +1094,7 @@ Developer Console
 blog post
 .
 このページは役に立ちましたか？
+May 28, 2026
 May 19, 2026
 May 18, 2026
 May 13, 2026
