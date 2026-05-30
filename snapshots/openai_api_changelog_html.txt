@@ -282,6 +282,7 @@ Config File
 Config Basics
 Advanced Config
 Config Reference
+Environment Variables
 Sample Config
 Permissions
 Speed
@@ -1986,3 +1987,6 @@ Update
 Added
 function calling support
 to the Fine-tuning API
+Ask AI
+Docs agent
+Loading docs agent...

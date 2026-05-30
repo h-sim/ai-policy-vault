@@ -101,6 +101,20 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+May 29, 2026
+Claude Managed Agents
+webhooks
+,
+multiagent orchestration
+, and
+self-hosted sandboxes
+are now available on
+Claude Platform on AWS
+. See
+IAM actions for Claude Platform on AWS
+for the new IAM actions and the
+AnthropicSelfHostedEnvironmentAccess
+managed policy.
 May 28, 2026
 We've launched
 Claude Opus 4.8
@@ -1094,6 +1108,7 @@ Developer Console
 blog post
 .
 このページは役に立ちましたか？
+May 29, 2026
 May 28, 2026
 May 19, 2026
 May 18, 2026

@@ -863,6 +863,18 @@ id: https://openai.com/index/booking-com
 date: Thu, 20 Mar 2025 23:00:00 GMT
 body:
 #ITEM
+title: Boston Children’s uses AI to unlock new diagnoses
+link: https://openai.com/index/boston-childrens-hospital
+id: https://openai.com/index/boston-childrens-hospital
+date: Fri, 29 May 2026 12:00:00 GMT
+body:
+#ITEM
+title: How Braintrust turns customer requests into code with Codex
+link: https://openai.com/index/braintrust
+id: https://openai.com/index/braintrust
+date: Fri, 29 May 2026 12:00:00 GMT
+body:
+#ITEM
 title: Bringing ChatGPT to GenAI.mil
 link: https://openai.com/index/bringing-chatgpt-to-genaimil
 id: https://openai.com/index/bringing-chatgpt-to-genaimil
@@ -3539,6 +3551,12 @@ id: https://openai.com/index/mrc-supercomputer-networking
 date: Tue, 05 May 2026 10:00:00 GMT
 body:
 #ITEM
+title: MUFG aims to become AI-native with OpenAI
+link: https://openai.com/index/mufg
+id: https://openai.com/index/mufg
+date: Thu, 28 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research
 link: https://openai.com/index/multi-goal-reinforcement-learning
 id: https://openai.com/index/multi-goal-reinforcement-learning
@@ -5189,6 +5207,12 @@ id: https://openai.com/index/strengthening-safety-with-external-testing
 date: Wed, 19 Nov 2025 12:00:00 GMT
 body:
 #ITEM
+title: Strengthening societal resilience with Rosalind Biodefense
+link: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense
+id: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense
+date: Fri, 29 May 2026 03:00:00 GMT
+body:
+#ITEM
 title: Strengthening the U.S. AI supply chain through domestic manufacturing
 link: https://openai.com/index/strengthening-the-us-ai-supply-chain
 id: https://openai.com/index/strengthening-the-us-ai-supply-chain
@@ -5469,6 +5493,12 @@ title: Introducing Trusted Access for Cyber
 link: https://openai.com/index/trusted-access-for-cyber
 id: https://openai.com/index/trusted-access-for-cyber
 date: Thu, 05 Feb 2026 10:00:00 GMT
+body:
+#ITEM
+title: A shared playbook for trustworthy third party evaluations
+link: https://openai.com/index/trustworthy-third-party-evaluations-foundations
+id: https://openai.com/index/trustworthy-third-party-evaluations-foundations
+date: Fri, 29 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: TruthfulQA: Measuring how models mimic human falsehoods

@@ -1,5 +1,66 @@
 [
   {
+    "id": "f13605ef9703e32ef26f348ab11eec59d25047eb",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+May 29, 2026\n+Claude Managed Agents\n+webhooks\n+,\n+multiagent orchestration\n+, and\n+self-hosted sandboxes\n+are now available on\n+Claude Platform on AWS\n+. See\n+IAM actions for Claude Platform on AWS\n+for the new IAM actions and the\n+AnthropicSelfHostedEnvironmentAccess\n+managed policy.\n+May 29, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 15,
+      "removed": 0,
+      "churn": 15
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 30 May 2026 02:30:58 GMT",
+    "run_at": "2026-05-30T02:30:30Z",
+    "run_id": "db695e2f3e994517b32b3c596148c5ad"
+  },
+  {
+    "id": "9912aa75cd40af9a3cb9138dc3358822caedbc60",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Braintrust turns customer requests into code with Codex\n+link: https://openai.com/index/braintrust\n+id: https://openai.com/index/braintrust\n+title: A shared playbook for trustworthy third party evaluations\n+link: https://openai.com/index/trustworthy-third-party-evaluations-foundations\n+id: https://openai.com/index/trustworthy-third-party-evaluations-foundations\n+title: Boston Children’s uses AI to unlock new diagnoses\n+link: https://openai.com/index/boston-childrens-hospital\n+id: https://openai.com/index/boston-childrens-hospital\n+date: Fri, 29 May 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "+title: Boston Children’s uses AI to unlock new diagnoses\n+link: https://openai.com/index/boston-childrens-hospital\n+id: https://openai.com/index/boston-childrens-hospital\n+date: Fri, 29 May 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How Braintrust turns customer requests into code with Codex\n+link: https://openai.com/index/braintrust\n+id: https://openai.com/index/braintrust\n+date: Fri, 29 May 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: MUFG aims to become AI-native with OpenAI\n+link: https://openai.com/index/mufg\n+id: https://openai.com/index/mufg\n+date: Thu, 28 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Strengthening societal resilience with Rosalind Biodefense\n+link: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense\n+id: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense\n+date: Fri, 29 May 2026 03:00:00 GMT\n+body:\n+#ITEM\n+title: A shared playbook for trustworthy third party evaluations\n+link: https://openai.com/index/trustworthy-third-party-evaluations-foundations\n+id: https://openai.com/index/trustworthy-third-party-evaluations-foundations\n+date: Fri, 29 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 30,
+      "removed": 0,
+      "churn": 30
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 30 May 2026 02:30:51 GMT",
+    "run_at": "2026-05-30T02:30:30Z",
+    "run_id": "db695e2f3e994517b32b3c596148c5ad"
+  },
+  {
+    "id": "bb0df4dd9491bd01e35b23d5bb73e209b4f2ae3c",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Environment Variables\n+Ask AI\n+Docs agent\n+Loading docs agent...",
+    "snippet_full": "",
+    "diff": {
+      "added": 4,
+      "removed": 0,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 30 May 2026 02:30:31 GMT",
+    "run_at": "2026-05-30T02:30:30Z",
+    "run_id": "db695e2f3e994517b32b3c596148c5ad"
+  },
+  {
     "id": "85c4c6a32fa0bb69afd61835ff04a35cda0c91cb",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -928,67 +989,5 @@
     "pubDate": "Tue, 05 May 2026 02:08:28 GMT",
     "run_at": "2026-05-05T02:08:27Z",
     "run_id": "8e4c19f91da2432fa224b80fb2f24bb3"
-  },
-  {
-    "id": "67bf0b635ed7b14dd57ffec32692f2e75b47a792",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Admin APIs\n+Admin APIs",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 05 May 2026 02:08:27 GMT",
-    "run_at": "2026-05-05T02:08:27Z",
-    "run_id": "8e4c19f91da2432fa224b80fb2f24bb3"
-  },
-  {
-    "id": "8b85d43f25390e5669f8bb3a2e6a9e5a63640c53",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Using agent memory\n-April 20, 2026\n-We've retired the Claude Haiku 3 model (\n-claude-3-haiku-20240307\n-). All requests to this model will now return an error. We recommend upgrading to\n-Claude Haiku 4.5\n-.\n-April 16, 2026\n-We've launched\n-Claude Opus 4.7\n-, our most capable generally available model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See\n-What's new in Claude Opus 4.7\n-for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see\n-Migrating to Claude Opus 4.7\n-before upgrading.\n-Claude in Amazon Bedrock\n-is now open to all Amazon Bedrock customers. Claude Opus 4.7 and Claude Haiku 4.5 are available self-serve from the Bedrock console through the Messages API endpoint at\n-/anthropic/v1/messages\n-, in 27 AWS regions with global and regional endpoints.\n-April 14, 2026\n-We announced the deprecation of the Claude Sonnet 4 model (\n-claude-sonnet-4-20250514\n-) and the Claude Opus 4 model (\n-claude-opus-4-20250514\n-), with retirement on the Claude API scheduled for June 15, 2026. We recommend migrating to\n-Claude Sonnet 4.6\n-and\n-Claude Opus 4.7\n-respectively. Read more in\n-model deprecations\n-.\n-April 9, 2026\n-We've launched the\n-advisor tool\n-in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo qual\n-advisor-tool-2026-03-01\n-in your requests.\n-April 8, 2026\n-We've launched\n-Claude Managed Agents",
-    "snippet_full": "",
-    "diff": {
-      "added": 824,
-      "removed": 824,
-      "churn": 1648
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Mon, 04 May 2026 02:10:14 GMT",
-    "run_at": "2026-05-04T02:09:46Z",
-    "run_id": "863f86218b1544afbf69dea79b5da033"
-  },
-  {
-    "id": "76e2d0e23251e4374c906810ebb2cf8e25126880",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Build\n+Managed Agents\n-Models & pricing\n-Client SDKs\n-API Reference\n+Resources\n+API reference\n+Console\n-First steps\n-Intro to Claude\n-Quickstart\n-Building with Claude\n-Features overview\n-Using the Messages API\n-Claude API skill\n-Handling stop reasons\n-Model capabilities\n-Extended thinking\n-Adaptive thinking\n-Effort\n-Task budgets (beta)\n-Fast mode (beta: research preview)\n-Structured outputs\n-Citations\n-Streaming Messages\n-Batch processing\n-Search results\n-Streaming refusals\n-Multilingual support\n-Embeddings\n-Tools\n+Release notes\n-How tool use works\n-Tutorial: Build a tool-using agent\n-Define tools\n-Handle tool calls\n-Parallel tool use\n-Tool Runner (SDK)\n-Strict tool use\n-Tool use with prompt caching",
-    "snippet_full": "",
-    "diff": {
-      "added": 9,
-      "removed": 91,
-      "churn": 100
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sun, 03 May 2026 02:10:29 GMT",
-    "run_at": "2026-05-03T02:10:21Z",
-    "run_id": "b6e4cf996e634cf0a0d29392a05384bd"
   }
 ]
