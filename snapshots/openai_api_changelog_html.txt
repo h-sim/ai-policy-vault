@@ -630,6 +630,20 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 May, 2026
+May 29
+Update
+v1/responses
+v1/chat/completions
+v1/batch
+For organizations without ZDR enabled,
+prompt_cache_retention
+now defaults to
+24h
+instead of
+in_memory
+, enabling extended prompt caching by default.
+Learn more
+.
 May 28
 Update
 chat-latest

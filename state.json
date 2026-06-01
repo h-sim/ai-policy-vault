@@ -1,5 +1,24 @@
 [
   {
+    "id": "66ae31ae8a2e9b3b5641371b21748a0146a97e28",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+May 29\n+Update\n+v1/responses\n+v1/chat/completions\n+v1/batch\n+For organizations without ZDR enabled,\n+prompt_cache_retention\n+now defaults to\n+24h\n+instead of\n+in_memory\n+, enabling extended prompt caching by default.\n+Learn more\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 14,
+      "removed": 0,
+      "churn": 14
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 01 Jun 2026 02:55:31 GMT",
+    "run_at": "2026-06-01T02:55:31Z",
+    "run_id": "2d65daddd1b440e1b2c510ca39a32e03"
+  },
+  {
     "id": "f13605ef9703e32ef26f348ab11eec59d25047eb",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -968,25 +987,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 05 May 2026 02:08:35 GMT",
-    "run_at": "2026-05-05T02:08:27Z",
-    "run_id": "8e4c19f91da2432fa224b80fb2f24bb3"
-  },
-  {
-    "id": "3711d352ab29532fae3e10b4924e01a2d063454d",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How OpenAI delivers low-latency voice AI at scale\n+link: https://openai.com/index/delivering-low-latency-voice-ai-at-scale\n+id: https://openai.com/index/delivering-low-latency-voice-ai-at-scale\n+date: Mon, 04 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 05 May 2026 02:08:28 GMT",
     "run_at": "2026-05-05T02:08:27Z",
     "run_id": "8e4c19f91da2432fa224b80fb2f24bb3"
   }
