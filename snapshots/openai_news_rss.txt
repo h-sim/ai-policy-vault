@@ -4139,6 +4139,12 @@ id: https://openai.com/index/openai-frontier-governance-framework
 date: Thu, 28 May 2026 00:00:00 GMT
 body:
 #ITEM
+title: OpenAI frontier models and Codex are now available on AWS
+link: https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws
+id: https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws
+date: Mon, 01 Jun 2026 10:00:00 GMT
+body:
+#ITEM
 title: Announcing OpenAI Grove Cohort 2
 link: https://openai.com/index/openai-grove
 id: https://openai.com/index/openai-grove
@@ -4449,6 +4455,12 @@ title: Our response to the TanStack npm supply chain attack
 link: https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack
 id: https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack
 date: Wed, 13 May 2026 00:00:00 GMT
+body:
+#ITEM
+title: Our views on AI policy and political advocacy
+link: https://openai.com/index/our-views-on-ai-policy-and-political-advocacy
+id: https://openai.com/index/our-views-on-ai-policy-and-political-advocacy
+date: Mon, 01 Jun 2026 17:00:00 GMT
 body:
 #ITEM
 title: Resolving digital threats 100x faster with OpenAI
@@ -5139,6 +5151,12 @@ title: Stargate Community
 link: https://openai.com/index/stargate-community
 id: https://openai.com/index/stargate-community
 date: Tue, 20 Jan 2026 19:00:00 GMT
+body:
+#ITEM
+title: Building the infrastructure for the Intelligence Age in Michigan
+link: https://openai.com/index/stargate-michigan-data-center
+id: https://openai.com/index/stargate-michigan-data-center
+date: Mon, 01 Jun 2026 12:00:00 GMT
 body:
 #ITEM
 title: OpenAI and SoftBank Group partner with SB Energy

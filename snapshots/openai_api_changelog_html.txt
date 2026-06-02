@@ -179,6 +179,7 @@ Microsoft Azure
 Google Cloud
 GitHub Actions
 Deployment checklist
+Amazon Bedrock
 Latency optimization
 Overview
 Predicted Outputs
@@ -301,6 +302,8 @@ Overview
 Access tokens
 Agent approvals & security
 Remote connections
+Deployment
+Amazon Bedrock
 Enterprise
 Admin Setup
 Governance
@@ -588,6 +591,7 @@ Microsoft Azure
 Google Cloud
 GitHub Actions
 Deployment checklist
+Amazon Bedrock
 Latency optimization
 Overview
 Predicted Outputs
@@ -628,6 +632,15 @@ Sending files
 Changelog
 Upcoming deprecations can be found on the
 deprecations page
+.
+June, 2026
+Jun 1
+Feature
+gpt-5.4
+gpt-5.5
+v1/responses
+OpenAI models are now available in Amazon Bedrock through an OpenAI-compatible Responses API endpoint. Supported models and features vary by AWS Region.
+Learn more
 .
 May, 2026
 May 29
