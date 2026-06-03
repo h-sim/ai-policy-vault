@@ -1,5 +1,66 @@
 [
   {
+    "id": "0bc06e4873b335efe937e3aa61a863ff7ad152ca",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+June 2, 2026\n+The\n+advisor tool\n+now supports a\n+max_tokens\n+parameter to cap the advisor model's output per call, reducing latency and output token cost for workloads that don't need full-length advisor responses. Set\n+tools[].max_tokens\n+on the advisor tool definition; see\n+Capping advisor output\n+.\n+On the Claude API, you are no longer billed for a request when it returns\n+stop_reason: \"refusal\"\n+without Claude having generated any output. See\n+Streaming refusals\n+for detecting and handling refusals.\n-), our most capable generally available model.\n-Claude Opus 4.8\n-supports a\n+), our most capable generally available model. Claude Opus 4.8 supports a\n-by default, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n-What's new in\n-Claude Opus 4.8\n+by default on the Claude API, Amazon Bedrock, and Vertex AI (200k on Microsoft Foundry), 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n+What's new in Claude Opus 4.8\n-. On\n-Claude Opus 4.8\n-, you can send\n+. On Claude Opus 4.8, you can send\n-messages at non-first positions in the\n+messages after a user turn (subject to\n+placement rules\n+) in the\n-The Messages API now returns refusal categories in\n+The\n-when\n-Claude Opus 4.8\n-declines a request, so your application can route different classes of refusal to the right next step. No beta header is required. See\n-Refusal categories\n-.\n-On",
+    "snippet_full": "",
+    "diff": {
+      "added": 48,
+      "removed": 49,
+      "churn": 97
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 03 Jun 2026 03:28:09 GMT",
+    "run_at": "2026-06-03T03:27:42Z",
+    "run_id": "fa87155919184502a42d1031b8e496c7"
+  },
+  {
+    "id": "7c01316d0c7c7a0732b929bfa792a95a669b0613",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Advancing youth safety and opportunity through global leadership\n+link: https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership\n+id: https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership\n+date: Tue, 02 Jun 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Codex for every role, tool, and workflow\n+link: https://openai.com/index/codex-for-every-role-tool-workflow\n+id: https://openai.com/index/codex-for-every-role-tool-workflow\n+date: Tue, 02 Jun 2026 09:00:00 GMT\n+title: Codex is becoming a productivity tool for everyone\n+link: https://openai.com/index/codex-for-knowledge-work",
+    "snippet_full": "+title: Advancing youth safety and opportunity through global leadership\n+link: https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership\n+id: https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership\n+date: Tue, 02 Jun 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Codex for every role, tool, and workflow\n+link: https://openai.com/index/codex-for-every-role-tool-workflow\n+id: https://openai.com/index/codex-for-every-role-tool-workflow\n+date: Tue, 02 Jun 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Codex is becoming a productivity tool for everyone\n+link: https://openai.com/index/codex-for-knowledge-work\n+id: https://openai.com/index/codex-for-knowledge-work\n+date: Tue, 02 Jun 2026 02:00:00 GMT\n+body:\n+#ITEM\n+title: Travelers deploys AI-powered claims countrywide with OpenAI\n+link: https://openai.com/index/travelers\n+id: https://openai.com/index/travelers\n+date: Tue, 02 Jun 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 03 Jun 2026 03:28:02 GMT",
+    "run_at": "2026-06-03T03:27:42Z",
+    "run_id": "fa87155919184502a42d1031b8e496c7"
+  },
+  {
+    "id": "cad21c6f45cfee1c11d4df6cf283408fb026b0b2",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Sites\n+Sites\n+Jun 2\n+Update\n+Starting June 2, 2026, eligible container sessions will be billed per minute with a 5-minute minimum, instead of being billed at the full 20-minute session rate. The underlying per-minute rate will r\n+This update is intended to make billing more granular for shorter sessions and will lower effective cost for customers.\n+You can find current built-in tool pricing in our\n+API pricing docs\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 9,
+      "removed": 0,
+      "churn": 9
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 03 Jun 2026 03:27:42 GMT",
+    "run_at": "2026-06-03T03:27:42Z",
+    "run_id": "fa87155919184502a42d1031b8e496c7"
+  },
+  {
     "id": "2641bf574b45496ee126f6f0dae87b8d572b44a3",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -929,62 +990,5 @@
     "pubDate": "Thu, 07 May 2026 02:11:23 GMT",
     "run_at": "2026-05-07T02:11:23Z",
     "run_id": "31b6205450554408a824a7592c39179e"
-  },
-  {
-    "id": "1f4b985f786bc55e9639d491cafe894c165b4afc",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+May 6\n+Update\n+The updated Agents SDK is now available in TypeScript, with support for sandbox agents and an open-source harness built in. Learn more\n+here\n+.\n-snapshot which points to the latest Instant model currently used in ChatGPT. We recommend leveraging our latest-model for most API usage, but feel free to use this model to test our latest improvemen\n+snapshot which points to the latest Instant model currently used in ChatGPT. We recommend leveraging\n+GPT-5.5\n+for production API usage, but feel free to use this model to test our latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more",
-    "snippet_full": "",
-    "diff": {
-      "added": 8,
-      "removed": 1,
-      "churn": 9
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 07 May 2026 02:11:23 GMT",
-    "run_at": "2026-05-07T02:11:23Z",
-    "run_id": "31b6205450554408a824a7592c39179e"
-  },
-  {
-    "id": "f7bc04a744229440651c0920d8325dafc93c09fa",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+        - `web_search_call.results`: Include the search results of the web\n+        search tool call.\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 0,
-      "churn": 3
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 06 May 2026 02:09:01 GMT",
-    "run_at": "2026-05-06T02:08:53Z",
-    "run_id": "be29155a327540ae8fb401c74e581f80"
-  },
-  {
-    "id": "290e427bfb9e0f8ba62e8fd02ff7f5ec86934cfe",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: GPT-5.5 Instant: smarter, clearer, and more personalized\n+link: https://openai.com/index/gpt-5-5-instant\n+id: https://openai.com/index/gpt-5-5-instant\n+date: Tue, 05 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5.5 Instant System Card\n+link: https://openai.com/index/gpt-5-5-instant-system-card\n+id: https://openai.com/index/gpt-5-5-instant-system-card\n+title: New ways to buy ChatGPT ads\n+link: https://openai.com/index/new-ways-to-buy-chatgpt-ads\n+id: https://openai.com/index/new-ways-to-buy-chatgpt-ads",
-    "snippet_full": "+title: GPT-5.5 Instant: smarter, clearer, and more personalized\n+link: https://openai.com/index/gpt-5-5-instant\n+id: https://openai.com/index/gpt-5-5-instant\n+date: Tue, 05 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5.5 Instant System Card\n+link: https://openai.com/index/gpt-5-5-instant-system-card\n+id: https://openai.com/index/gpt-5-5-instant-system-card\n+date: Tue, 05 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: New ways to buy ChatGPT ads\n+link: https://openai.com/index/new-ways-to-buy-chatgpt-ads\n+id: https://openai.com/index/new-ways-to-buy-chatgpt-ads\n+date: Tue, 05 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI and PwC collaborate to reimagine the office of the CFO\n+link: https://openai.com/index/openai-pwc-finance-collaboration\n+id: https://openai.com/index/openai-pwc-finance-collaboration\n+date: Mon, 04 May 2026 21:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 06 May 2026 02:08:54 GMT",
-    "run_at": "2026-05-06T02:08:53Z",
-    "run_id": "be29155a327540ae8fb401c74e581f80"
   }
 ]
