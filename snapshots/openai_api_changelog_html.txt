@@ -82,10 +82,6 @@ Results and state
 Integrations and observability
 Evaluate agent workflows
 Voice agents
-Agent Builder
-Overview
-Node reference
-Safety in building agents
 ChatKit
 Overview
 Customize
@@ -128,12 +124,7 @@ Reasoning
 Reasoning models
 Reasoning best practices
 Evaluation
-Getting started
-Working with evals
-Prompt optimizer
-External models
 Red teaming
-Best practices
 Realtime and audio
 Overview
 Voice agents
@@ -153,16 +144,6 @@ Voice activity detection
 Realtime with tools
 Webhooks and server-side controls
 Managing costs
-Model optimization
-Optimization cycle
-Fine-tuning
-Supervised fine-tuning
-Vision fine-tuning
-Direct preference optimization
-Reinforcement fine-tuning
-RFT use cases
-Best practices
-Graders
 Specialized models
 Image generation
 Video generation
@@ -195,6 +176,26 @@ Safety checks
 Cybersecurity checks
 Under 18 API Guidance
 Legacy APIs
+Agent Builder
+Overview
+Migration guide
+Node reference
+Safety in building agents
+Evals
+Getting started
+Working with evals
+Prompt optimizer
+External models
+Best practices
+Graders
+Fine-tuning
+Optimization cycle
+Supervised fine-tuning
+Vision fine-tuning
+Direct preference optimization
+Reinforcement fine-tuning
+RFT use cases
+Best practices
 Assistants API
 Migration guide
 Deep dive
@@ -205,6 +206,7 @@ Changelog
 Your data
 Permissions
 Rate limits
+IP egress ranges
 Admin APIs
 Deprecations
 MCP for deep research
@@ -496,10 +498,6 @@ Results and state
 Integrations and observability
 Evaluate agent workflows
 Voice agents
-Agent Builder
-Overview
-Node reference
-Safety in building agents
 ChatKit
 Overview
 Customize
@@ -542,12 +540,7 @@ Reasoning
 Reasoning models
 Reasoning best practices
 Evaluation
-Getting started
-Working with evals
-Prompt optimizer
-External models
 Red teaming
-Best practices
 Realtime and audio
 Overview
 Voice agents
@@ -567,16 +560,6 @@ Voice activity detection
 Realtime with tools
 Webhooks and server-side controls
 Managing costs
-Model optimization
-Optimization cycle
-Fine-tuning
-Supervised fine-tuning
-Vision fine-tuning
-Direct preference optimization
-Reinforcement fine-tuning
-RFT use cases
-Best practices
-Graders
 Specialized models
 Image generation
 Video generation
@@ -609,6 +592,26 @@ Safety checks
 Cybersecurity checks
 Under 18 API Guidance
 Legacy APIs
+Agent Builder
+Overview
+Migration guide
+Node reference
+Safety in building agents
+Evals
+Getting started
+Working with evals
+Prompt optimizer
+External models
+Best practices
+Graders
+Fine-tuning
+Optimization cycle
+Supervised fine-tuning
+Vision fine-tuning
+Direct preference optimization
+Reinforcement fine-tuning
+RFT use cases
+Best practices
 Assistants API
 Migration guide
 Deep dive
@@ -619,6 +622,7 @@ Changelog
 Your data
 Permissions
 Rate limits
+IP egress ranges
 Admin APIs
 Deprecations
 MCP for deep research
@@ -636,6 +640,11 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 June, 2026
+Jun 3
+Update
+Announced the deprecation of reusable prompt objects, the Evals platform, and Agent Builder. See the
+deprecations page
+for shutdown timelines and migration guidance.
 Jun 2
 Update
 Starting June 2, 2026, eligible container sessions will be billed per minute with a 5-minute minimum, instead of being billed at the full 20-minute session rate. The underlying per-minute rate will remain the same.

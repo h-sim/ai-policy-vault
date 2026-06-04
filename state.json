@@ -1,5 +1,66 @@
 [
   {
+    "id": "e74bbb10d993d77786df806ed486d2401e82e7ca",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+    ChatCompletionModeration:\n+      type: object\n+      description: Moderation results or errors for the request input and generated output.\n+      properties:\n+        input:\n+          oneOf:\n+            - $ref: '#/components/schemas/ChatCompletionModerationResults'\n+            - $ref: '#/components/schemas/ChatCompletionModerationError'\n+          discriminator:\n+            propertyName: type\n+          description: Moderation for the request input.\n+        output:\n+          oneOf:\n+            - $ref: '#/components/schemas/ChatCompletionModerationResults'\n+            - $ref: '#/components/schemas/ChatCompletionModerationError'\n+          discriminator:\n+            propertyName: type\n+          description: Moderation for the generated output.\n+      required:\n+        - input\n+        - output\n+    ChatCompletionModerationError:\n+      type: object\n+      description: An error produced while attempting moderation.\n+      properties:\n+        type:\n+          type: string\n+          enum:\n+            - error\n+          description: The object type, which is always `error`.\n+          x-stainless-const: true\n+        code:\n+          type: string\n+          description: The error code.\n+        message:\n+          type: string\n+          description: The error message.\n+      required:\n+        - type\n+        - code",
+    "snippet_full": "",
+    "diff": {
+      "added": 223,
+      "removed": 0,
+      "churn": 223
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 04 Jun 2026 02:57:45 GMT",
+    "run_at": "2026-06-04T02:56:54Z",
+    "run_id": "4cb0d2bb2bb843388f6c7fe707932646"
+  },
+  {
+    "id": "d9d6e873b2c9272e1f02d0c9ac57ddbf6abfb334",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+link: https://openai.com/index/frontier-safety-blueprint\n+id: https://openai.com/index/frontier-safety-blueprint\n+title: OpenAI public policy agenda\n+link: https://openai.com/index/public-policy-agenda\n+id: https://openai.com/index/public-policy-agenda\n+title: A blueprint for democratic governance of frontier AI\n+date: Wed, 03 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing new capabilities to GPT-Rosalind\n+link: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind\n+id: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+    "snippet_full": "+title: A blueprint for democratic governance of frontier AI\n+link: https://openai.com/index/frontier-safety-blueprint\n+id: https://openai.com/index/frontier-safety-blueprint\n+date: Wed, 03 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing new capabilities to GPT-Rosalind\n+link: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind\n+id: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind\n+date: Wed, 03 Jun 2026 13:15:00 GMT\n+body:\n+#ITEM\n+title: OpenAI public policy agenda\n+link: https://openai.com/index/public-policy-agenda\n+id: https://openai.com/index/public-policy-agenda\n+date: Wed, 03 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How Wasmer used Codex to build a Node.js runtime for the edge\n+link: https://openai.com/index/wasmer\n+id: https://openai.com/index/wasmer\n+date: Wed, 03 Jun 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 04 Jun 2026 02:57:34 GMT",
+    "run_at": "2026-06-04T02:56:54Z",
+    "run_id": "4cb0d2bb2bb843388f6c7fe707932646"
+  },
+  {
+    "id": "6e476dcf09c2710e344bd2e093a14daf3b48612e",
+    "impact": "Breaking",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Agent Builder\n-Overview\n-Node reference\n-Safety in building agents\n-Getting started\n-Working with evals\n-Prompt optimizer\n-External models\n-Best practices\n-Model optimization\n-Optimization cycle\n-Fine-tuning\n-Supervised fine-tuning\n-Vision fine-tuning\n-Direct preference optimization\n-Reinforcement fine-tuning\n-RFT use cases\n-Best practices\n-Graders\n+Agent Builder\n+Overview\n+Migration guide\n+Node reference\n+Safety in building agents\n+Evals\n+Getting started\n+Working with evals\n+Prompt optimizer\n+External models\n+Best practices\n+Graders\n+Fine-tuning\n+Optimization cycle\n+Supervised fine-tuning\n+Vision fine-tuning\n+Direct preference optimization\n+Reinforcement fine-tuning\n+RFT use cases\n+Best practices\n+IP egress ranges",
+    "snippet_full": "",
+    "diff": {
+      "added": 47,
+      "removed": 38,
+      "churn": 85
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 04 Jun 2026 02:57:13 GMT",
+    "run_at": "2026-06-04T02:56:54Z",
+    "run_id": "4cb0d2bb2bb843388f6c7fe707932646"
+  },
+  {
     "id": "0bc06e4873b335efe937e3aa61a863ff7ad152ca",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -931,64 +992,5 @@
     "pubDate": "Fri, 08 May 2026 02:27:22 GMT",
     "run_at": "2026-05-08T02:27:22Z",
     "run_id": "f37117d6bda247eebcb8ffe2e4f09d88"
-  },
-  {
-    "id": "97f500189484ba9da111363d17dd7a592d491ff0",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+May 6, 2026\n+Multiagent sessions\n+and\n+Outcomes\n+are now in public beta under the standard\n+managed-agents-2026-04-01\n+beta header.\n+Vault credential background refresh is now supported for\n+mcp_oauth\n+credentials. See\n+Authenticate with vaults\n+.\n+Webhooks for Claude Managed Agents are now supported. Webhook event types include session and vault lifecycle events. See\n+Subscribe to webhooks\n+.\n+Additional filtering and sorting options are now supported. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.\n-Memory\n-for Claude Managed Agents is now in public beta under the standard\n+Memory for Claude Managed Agents is now in public beta under the standard\n+May 6, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 2,
-      "churn": 20
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 07 May 2026 02:11:34 GMT",
-    "run_at": "2026-05-07T02:11:23Z",
-    "run_id": "31b6205450554408a824a7592c39179e"
-  },
-  {
-    "id": "b0e87888f597eb867be600b79472cc3c54a637eb",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                                \"api_key_id\": null\n+                                \"api_key_id\": null,\n+                                \"quantity\": null\n-            token position. In rare cases, there may be fewer than the number of\n-            requested `top_logprobs` returned.\n+            token position. The number of entries may be fewer than the\n+            requested `top_logprobs`.\n+        quantity:\n+          anyOf:\n+            - type: number\n+              description: >-\n+                When `group_by=line_item`, this field provides the quantity of\n+                the grouped costs result.\n+            - type: 'null'\n-              \"project_id\": \"proj_abc\"\n+              \"project_id\": \"proj_abc\",\n+              \"quantity\": 10000\n-                An integer between 0 and 20 specifying the number of most likely\n-                tokens to\n-\n-                return at each token position, each with an associated log\n-                probability.\n+                An integer between 0 and 20 specifying the maximum number of\n+                most likely\n+\n+                tokens to return at each token position, each with an associated\n+                log\n+\n+                probability. In some cases, the number of returned tokens may be\n+                fewer than\n+\n+                requested.\n-          type: string\n-          enum:\n-            - 256x256\n-            - 512x512\n-            - 1024x1024\n-            - 1536x1024\n-            - 1024x1536\n-            - auto",
-    "snippet_full": "",
-    "diff": {
-      "added": 111,
-      "removed": 56,
-      "churn": 167
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 07 May 2026 02:11:33 GMT",
-    "run_at": "2026-05-07T02:11:23Z",
-    "run_id": "31b6205450554408a824a7592c39179e"
-  },
-  {
-    "id": "da918063ec328602c9a2a301ebe22b7d9237afed",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How frontier enterprises are building an AI advantage\n+link: https://openai.com/index/introducing-b2b-signals\n+id: https://openai.com/index/introducing-b2b-signals\n+date: Wed, 06 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT Futures: Class of 2026\n+link: https://openai.com/index/introducing-chatgpt-futures-class-of-2026\n+id: https://openai.com/index/introducing-chatgpt-futures-class-of-2026\n+title: Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)\n+link: https://openai.com/index/mrc-supercomputer-networking\n+id: https://openai.com/index/mrc-supercomputer-networking",
-    "snippet_full": "+title: How frontier enterprises are building an AI advantage\n+link: https://openai.com/index/introducing-b2b-signals\n+id: https://openai.com/index/introducing-b2b-signals\n+date: Wed, 06 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT Futures: Class of 2026\n+link: https://openai.com/index/introducing-chatgpt-futures-class-of-2026\n+id: https://openai.com/index/introducing-chatgpt-futures-class-of-2026\n+date: Wed, 06 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)\n+link: https://openai.com/index/mrc-supercomputer-networking\n+id: https://openai.com/index/mrc-supercomputer-networking\n+date: Tue, 05 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Singular Bank helps bankers move fast with ChatGPT and Codex\n+link: https://openai.com/index/singular-bank\n+id: https://openai.com/index/singular-bank\n+date: Wed, 06 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Uber uses OpenAI to help people earn smarter and book faster\n+link: https://openai.com/index/uber\n+id: https://openai.com/index/uber\n+date: Wed, 06 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 30,
-      "removed": 0,
-      "churn": 30
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 07 May 2026 02:11:23 GMT",
-    "run_at": "2026-05-07T02:11:23Z",
-    "run_id": "31b6205450554408a824a7592c39179e"
   }
 ]
