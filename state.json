@@ -1,5 +1,62 @@
 [
   {
+    "id": "b3c826df18e15f5a63cc27bd1c10c60c5eaaac41",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+May 27, 2026\n+The Messages API response now includes\n+usage.output_tokens_details.thinking_tokens\n+, reporting how many of the billed output tokens were extended thinking. When streaming, the breakdown appears only on the final\n+message_delta\n+event. No beta header is required.\n+May 27, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 0,
+      "churn": 7
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 05 Jun 2026 02:44:37 GMT",
+    "run_at": "2026-06-05T02:44:29Z",
+    "run_id": "e06ac6e748c946959df85df7937152ef"
+  },
+  {
+    "id": "bf6a3a4052b2622668dc8f78ab58c8352a46a3b4",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Biodefense in the Intelligence Age\n+link: https://openai.com/index/biodefense-in-the-intelligence-age\n+id: https://openai.com/index/biodefense-in-the-intelligence-age\n+date: Thu, 04 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Dreaming: Better memory for a more helpful ChatGPT\n+link: https://openai.com/index/chatgpt-memory-dreaming\n+id: https://openai.com/index/chatgpt-memory-dreaming\n+date: Thu, 04 Jun 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: How Endava is redesigning software delivery around AI agents\n+link: https://openai.com/index/endava-frontiers\n+id: https://openai.com/index/endava-frontiers\n+date: Thu, 04 Jun 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 05 Jun 2026 02:44:29 GMT",
+    "run_at": "2026-06-05T02:44:29Z",
+    "run_id": "e06ac6e748c946959df85df7937152ef"
+  },
+  {
+    "id": "0a3735eee53aaec17f68984d418d9f8c63988e22",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Jun 4\n+Feature\n+omni-moderation-latest\n+v1/responses\n+v1/chat/completions\n+Added moderation scores to the Responses API and Chat Completions API. Pass a\n+moderation\n+object in a generation request to receive moderation results for both the model input and generated output in the same response.\n+Learn more in the\n+Moderation guide\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 11,
+      "removed": 0,
+      "churn": 11
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 05 Jun 2026 02:44:29 GMT",
+    "run_at": "2026-06-05T02:44:29Z",
+    "run_id": "e06ac6e748c946959df85df7937152ef"
+  },
+  {
     "id": "e74bbb10d993d77786df806ed486d2401e82e7ca",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -933,64 +990,5 @@
     "pubDate": "Sat, 09 May 2026 02:12:09 GMT",
     "run_at": "2026-05-09T02:12:08Z",
     "run_id": "8a5f4498443e47038cffcf81a71ae1f9"
-  },
-  {
-    "id": "086ed488e493fea990afdc1fb69429bd7af09803",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+  /realtime/translations/client_secrets:\n+    post:\n+      summary: >\n+        Create a Realtime translation client secret with an associated\n+        translation session configuration.\n+\n+\n+        Client secrets are short-lived tokens that can be passed to a client\n+        app,\n+\n+        such as a web frontend or mobile client, which grants access to the\n+        Realtime\n+\n+        Translation API without leaking your main API key. You can configure a\n+        custom\n+\n+        TTL for each client secret.\n+\n+\n+        Returns the created client secret and the effective translation session\n+        object.\n+\n+        The client secret is a string that looks like `ek_1234`.\n+      operationId: create-realtime-translation-client-secret\n+      tags:\n+        - Realtime\n+      requestBody:\n+        description: >-\n+          Create a client secret with the given translation session\n+          configuration.\n+        required: true\n+        content:\n+          application/json:\n+            schema:\n+              $ref: >-\n+                #/components/schemas/RealtimeTranslationClientSecretCreateRequest\n+      responses:\n+        '200':\n+          description: Translation client secret created successfully.\n+          content:",
-    "snippet_full": "",
-    "diff": {
-      "added": 1101,
-      "removed": 76,
-      "churn": 1177
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 08 May 2026 02:27:53 GMT",
-    "run_at": "2026-05-08T02:27:22Z",
-    "run_id": "f37117d6bda247eebcb8ffe2e4f09d88"
-  },
-  {
-    "id": "e96fa39f7f751dfba766aab601558e3ac5c496d1",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber\n+link: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber\n+id: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber\n+title: Introducing Trusted Contact in ChatGPT\n+link: https://openai.com/index/introducing-trusted-contact-in-chatgpt\n+id: https://openai.com/index/introducing-trusted-contact-in-chatgpt\n+title: Advancing voice intelligence with new models in the API\n+link: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api\n+id: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api\n+date: Thu, 07 May 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "+title: Advancing voice intelligence with new models in the API\n+link: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api\n+id: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api\n+date: Thu, 07 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber\n+link: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber\n+id: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber\n+date: Thu, 07 May 2026 13:00:00 GMT\n+body:\n+#ITEM\n-title: How frontier enterprises are building an AI advantage\n+title: How frontier firms are pulling ahead\n+title: Introducing Trusted Contact in ChatGPT\n+link: https://openai.com/index/introducing-trusted-contact-in-chatgpt\n+id: https://openai.com/index/introducing-trusted-contact-in-chatgpt\n+date: Thu, 07 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Parloa builds service agents customers want to talk to\n+link: https://openai.com/index/parloa\n+id: https://openai.com/index/parloa\n+date: Thu, 07 May 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Simplex rethinks software development with Codex\n+link: https://openai.com/index/simplex\n+id: https://openai.com/index/simplex\n+date: Thu, 07 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n-date: Mon, 09 Feb 2026 11:00:00 GMT\n+date: Thu, 07 May 2026 00:00:00 GMT",
-    "diff": {
-      "added": 32,
-      "removed": 2,
-      "churn": 34
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 08 May 2026 02:27:44 GMT",
-    "run_at": "2026-05-08T02:27:22Z",
-    "run_id": "f37117d6bda247eebcb8ffe2e4f09d88"
-  },
-  {
-    "id": "8ab1db57f8ffee7e9ccde24ceec20093fc4deec5",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Libraries\n+SDKs and CLI\n+OpenAI SDK\n+Agents SDK\n+OpenAI CLI\n-Realtime API\n-Overview\n-Connect\n+Realtime and audio\n+Overview\n+Voice agents\n+Live translation\n+Transcription\n+Realtime transcription\n+Speech to text\n+Speech generation\n+Realtime prompting guide\n+Connection methods\n-Usage\n-Using realtime models\n+Realtime sessions\n-MCP servers\n+Voice activity detection\n+Realtime with tools\n-Realtime transcription\n-Voice agents\n-Text to speech\n-Speech to text\n+Chrome extension\n+OpenAI Developers plugin\n-Libraries\n+SDKs and CLI\n+OpenAI SDK\n+Agents SDK\n+OpenAI CLI\n-Realtime API\n-Overview\n-Connect\n+Realtime and audio\n+Overview",
-    "snippet_full": "",
-    "diff": {
-      "added": 60,
-      "removed": 22,
-      "churn": 82
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 08 May 2026 02:27:22 GMT",
-    "run_at": "2026-05-08T02:27:22Z",
-    "run_id": "f37117d6bda247eebcb8ffe2e4f09d88"
   }
 ]

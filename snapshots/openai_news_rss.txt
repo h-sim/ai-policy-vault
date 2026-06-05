@@ -845,6 +845,12 @@ id: https://openai.com/index/beyond-rate-limits
 date: Fri, 13 Feb 2026 09:00:00 GMT
 body:
 #ITEM
+title: Biodefense in the Intelligence Age
+link: https://openai.com/index/biodefense-in-the-intelligence-age
+id: https://openai.com/index/biodefense-in-the-intelligence-age
+date: Thu, 04 Jun 2026 00:00:00 GMT
+body:
+#ITEM
 title: Block-sparse GPU kernels
 link: https://openai.com/index/block-sparse-gpu-kernels
 id: https://openai.com/index/block-sparse-gpu-kernels
@@ -1017,6 +1023,12 @@ title: Free ChatGPT for transitioning U.S. servicemembers and veterans
 link: https://openai.com/index/chatgpt-for-veterans
 id: https://openai.com/index/chatgpt-for-veterans
 date: Mon, 10 Nov 2025 02:00:00 GMT
+body:
+#ITEM
+title: Dreaming: Better memory for a more helpful ChatGPT
+link: https://openai.com/index/chatgpt-memory-dreaming
+id: https://openai.com/index/chatgpt-memory-dreaming
+date: Thu, 04 Jun 2026 09:00:00 GMT
 body:
 #ITEM
 title: ChatGPT plugins
@@ -1635,6 +1647,12 @@ title: How Endava builds an agentic organization with Codex
 link: https://openai.com/index/endava
 id: https://openai.com/index/endava
 date: Thu, 28 May 2026 12:00:00 GMT
+body:
+#ITEM
+title: How Endava is redesigning software delivery around AI agents
+link: https://openai.com/index/endava-frontiers
+id: https://openai.com/index/endava-frontiers
+date: Thu, 04 Jun 2026 12:00:00 GMT
 body:
 #ITEM
 title: Building an autonomous financial analyst with o1 and o3-mini

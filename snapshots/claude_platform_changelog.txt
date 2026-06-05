@@ -213,6 +213,12 @@ Fast mode
 For updates to claude.ai, Cowork, Claude for Microsoft 365, and other Claude apps in this release, see the
 release notes for Claude Apps
 .
+May 27, 2026
+The Messages API response now includes
+usage.output_tokens_details.thinking_tokens
+, reporting how many of the billed output tokens were extended thinking. When streaming, the breakdown appears only on the final
+message_delta
+event. No beta header is required.
 May 19, 2026
 MCP tunnels
 is now available as a Research Preview, so you can connect to MCP servers in your private network.
@@ -1109,6 +1115,7 @@ blog post
 June 2, 2026
 May 29, 2026
 May 28, 2026
+May 27, 2026
 May 19, 2026
 May 18, 2026
 May 13, 2026

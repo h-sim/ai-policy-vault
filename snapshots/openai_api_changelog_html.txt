@@ -640,6 +640,17 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 June, 2026
+Jun 4
+Feature
+omni-moderation-latest
+v1/responses
+v1/chat/completions
+Added moderation scores to the Responses API and Chat Completions API. Pass a
+moderation
+object in a generation request to receive moderation results for both the model input and generated output in the same response.
+Learn more in the
+Moderation guide
+.
 Jun 3
 Update
 Announced the deprecation of reusable prompt objects, the Evals platform, and Agent Builder. See the
