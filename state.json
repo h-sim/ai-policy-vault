@@ -1,5 +1,45 @@
 [
   {
+    "id": "96ed638fd42c88ce4c6660b4b7ef5f8275bc7960",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+June 5, 2026\n+We announced the deprecation of the Claude Opus 4.1 model (\n+claude-opus-4-1-20250805\n+), with retirement on the Claude API scheduled for August 5, 2026. We recommend migrating to\n+Claude Opus 4.8\n+. Read more in\n+model deprecations\n+.\n+June 5, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 9,
+      "removed": 0,
+      "churn": 9
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 06 Jun 2026 02:32:36 GMT",
+    "run_at": "2026-06-06T02:32:08Z",
+    "run_id": "b313c0f4fa0d4452a2c5b90e15ffc4b1"
+  },
+  {
+    "id": "c1d9b478ff641d967d321e4588156e4f18228609",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Glossary",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 06 Jun 2026 02:32:09 GMT",
+    "run_at": "2026-06-06T02:32:08Z",
+    "run_id": "b313c0f4fa0d4452a2c5b90e15ffc4b1"
+  },
+  {
     "id": "b3c826df18e15f5a63cc27bd1c10c60c5eaaac41",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -950,45 +990,5 @@
     "pubDate": "Tue, 12 May 2026 02:25:30 GMT",
     "run_at": "2026-05-12T02:25:30Z",
     "run_id": "1bccc361c64c45ee9222d12f50f6f337"
-  },
-  {
-    "id": "7d62fe6a6ae44f1fd27e680f6a97d7a314adcfe1",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Advancing youth safety and wellbeing in EMEA\n+link: https://openai.com/index/advancing-youth-safety-in-emea\n+id: https://openai.com/index/advancing-youth-safety-in-emea\n+date: Tue, 05 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How ChatGPT learns about the world while protecting privacy\n+link: https://openai.com/index/how-chatgpt-protects-privacy\n+id: https://openai.com/index/how-chatgpt-protects-privacy\n+date: Wed, 06 May 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Running Codex safely at OpenAI\n+link: https://openai.com/index/running-codex-safely\n+id: https://openai.com/index/running-codex-safely\n+date: Fri, 08 May 2026 12:30:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 09 May 2026 02:12:30 GMT",
-    "run_at": "2026-05-09T02:12:08Z",
-    "run_id": "8a5f4498443e47038cffcf81a71ae1f9"
-  },
-  {
-    "id": "40775ee4d973fb4571a8575c0dcb5cc0682af25e",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+May 7\n+Feature\n+Released the\n+OpenAI Developers plugin for Codex\n+. This helps you build AI applications and agents in Codex with OpenAI Platform access and OpenAI API setup guidance.",
-    "snippet_full": "",
-    "diff": {
-      "added": 5,
-      "removed": 0,
-      "churn": 5
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 09 May 2026 02:12:09 GMT",
-    "run_at": "2026-05-09T02:12:08Z",
-    "run_id": "8a5f4498443e47038cffcf81a71ae1f9"
   }
 ]

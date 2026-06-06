@@ -238,6 +238,7 @@ Subagents
 Workflows
 Models
 Cyber Safety
+Glossary
 Using Codex
 App
 Overview
