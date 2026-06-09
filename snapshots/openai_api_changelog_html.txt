@@ -159,6 +159,7 @@ AWS
 Microsoft Azure
 Google Cloud
 GitHub Actions
+SPIFFE
 Deployment checklist
 Amazon Bedrock
 Latency optimization
@@ -395,6 +396,7 @@ Supported events
 Advertiser API
 Overview
 Quickstart
+Campaign Targeting
 API Reference
 Authentication
 Campaigns
@@ -576,6 +578,7 @@ AWS
 Microsoft Azure
 Google Cloud
 GitHub Actions
+SPIFFE
 Deployment checklist
 Amazon Bedrock
 Latency optimization
@@ -641,6 +644,11 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 June, 2026
+Jun 5
+Update
+Released a redesigned navigation for the OpenAI API platform, visit
+here
+.
 Jun 4
 Feature
 omni-moderation-latest
@@ -758,11 +766,11 @@ v1/realtime
 v1/realtime/translations
 v1/realtime/transcription_sessions
 Released
-Realtime 2
+GPT-Realtime-2
 , a new realtime voice model with configurable reasoning for speech-to-speech agents, along with
-Realtime Translate
+GPT-Realtime-Translate
 for streaming speech translation and
-Realtime Whisper
+GPT-Realtime-Whisper
 for streaming speech-to-text.
 Updated the
 Realtime and audio guide
@@ -809,7 +817,7 @@ v1/batch
 Released
 GPT-5.5
 , a new frontier model for complex professional work, to the Chat Completions and Responses API, and released
-GPT-5.5 pro
+GPT-5.5 Pro
 for Responses API requests for tougher problems that benefit from more compute.
 GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include:
 Reasoning effort now defaults to
@@ -925,7 +933,7 @@ v1/chat/completions
 Released
 GPT-5.4
 , our newest frontier model for professional work, to the Chat Completions and Responses API, and released
-GPT-5.4 pro
+GPT-5.4 Pro
 to the Responses API for tougher problems that benefit from more compute.
 Also released:
 Tool search
@@ -992,10 +1000,8 @@ gpt-audio-1.5
 v1/realtime
 v1/chat/completions
 Released
-gpt-realtime-1.5
-to the Realtime API. Read more
-here
-.
+GPT-Realtime-1.5
+to the Realtime API.
 Released
 gpt-audio-1.5
 to the Chat Completions API. Read more
@@ -1306,12 +1312,12 @@ Released several new features at
 OpenAI DevDay
 :
 Released
-gpt-5-pro
+GPT-5 Pro
 , a version of
 GPT-5
 that uses more compute to think harder and provide consistently better answers.
 Released
-gpt-realtime-mini
+GPT-Realtime mini
 and
 gpt-audio-mini
 for more cost-efficient speech to speech performance.

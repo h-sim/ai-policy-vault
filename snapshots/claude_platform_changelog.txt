@@ -1,5 +1,4 @@
 Claude Platform - Claude API Docs
-読み込み中...
 Messages
 Managed Agents
 Admin
@@ -229,7 +228,7 @@ message_delta
 event. No beta header is required.
 May 19, 2026
 MCP tunnels
-is now available as a Research Preview, so you can connect to MCP servers in your private network.
+is now available as a research preview, so you can connect to MCP servers in your private network.
 Self-hosted sandboxes are now available for Claude Managed Agents, as an alternative to running tool execution in Anthropic's infrastructure. See
 Self-hosted sandboxes
 .
@@ -350,7 +349,7 @@ We've launched the
 ant
 CLI
 , a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the
-CLI reference
+CLI quickstart
 .
 April 7, 2026
 We announced

@@ -959,6 +959,12 @@ id: https://openai.com/index/built-to-benefit-everyone
 date: Tue, 28 Oct 2025 06:00:00 GMT
 body:
 #ITEM
+title: Built to benefit everyone: our plan
+link: https://openai.com/index/built-to-benefit-everyone-our-plan
+id: https://openai.com/index/built-to-benefit-everyone-our-plan
+date: Mon, 08 Jun 2026 01:30:00 GMT
+body:
+#ITEM
 title: Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol
 link: https://openai.com/index/buy-it-in-chatgpt
 id: https://openai.com/index/buy-it-in-chatgpt
@@ -1581,6 +1587,12 @@ title: A research agenda for assessing the economic impacts of code generation m
 link: https://openai.com/index/economic-impacts-research
 id: https://openai.com/index/economic-impacts-research
 date: Thu, 03 Mar 2022 08:00:00 GMT
+body:
+#ITEM
+title: Introducing the OpenAI Economic Research Exchange
+link: https://openai.com/index/economic-research-exchange
+id: https://openai.com/index/economic-research-exchange
+date: Mon, 08 Jun 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing Edu for Countries
@@ -4371,6 +4383,12 @@ title: OpenAI Scholars 2021: Final projects
 link: https://openai.com/index/openai-scholars-2021-final-projects
 id: https://openai.com/index/openai-scholars-2021-final-projects
 date: Mon, 10 May 2021 07:00:00 GMT
+body:
+#ITEM
+title: Confidential submission of draft S-1 to the SEC
+link: https://openai.com/index/openai-submits-confidential-s-1
+id: https://openai.com/index/openai-submits-confidential-s-1
+date: Mon, 08 Jun 2026 14:00:00 GMT
 body:
 #ITEM
 title: OpenAI Fellows Summer 2018: Final projects

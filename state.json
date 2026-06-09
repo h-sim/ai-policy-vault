@@ -1,5 +1,62 @@
 [
   {
+    "id": "c0e327638e9d9a16949538833a66695de89aa4a1",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-読み込み中...\n-is now available as a Research Preview, so you can connect to MCP servers in your private network.\n+is now available as a research preview, so you can connect to MCP servers in your private network.\n-CLI reference\n+CLI quickstart",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 3,
+      "churn": 5
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 09 Jun 2026 02:31:12 GMT",
+    "run_at": "2026-06-09T02:31:04Z",
+    "run_id": "8faa52d16f784939ade78622cacf0625"
+  },
+  {
+    "id": "f10e392b3d0bde84cf0491c081f808f756048480",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Built to benefit everyone: our plan\n+link: https://openai.com/index/built-to-benefit-everyone-our-plan\n+id: https://openai.com/index/built-to-benefit-everyone-our-plan\n+date: Mon, 08 Jun 2026 01:30:00 GMT\n+body:\n+#ITEM\n+title: Introducing the OpenAI Economic Research Exchange\n+link: https://openai.com/index/economic-research-exchange\n+id: https://openai.com/index/economic-research-exchange\n+date: Mon, 08 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Confidential submission of draft S-1 to the SEC\n+link: https://openai.com/index/openai-submits-confidential-s-1\n+id: https://openai.com/index/openai-submits-confidential-s-1\n+date: Mon, 08 Jun 2026 14:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 09 Jun 2026 02:31:05 GMT",
+    "run_at": "2026-06-09T02:31:04Z",
+    "run_id": "8faa52d16f784939ade78622cacf0625"
+  },
+  {
+    "id": "fde950bddf57c8ee647f626d529e1c1a64fa3a48",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+SPIFFE\n+Campaign Targeting\n+SPIFFE\n+Jun 5\n+Update\n+Released a redesigned navigation for the OpenAI API platform, visit\n+here\n+.\n-Realtime 2\n+GPT-Realtime-2\n-Realtime Translate\n+GPT-Realtime-Translate\n-Realtime Whisper\n+GPT-Realtime-Whisper\n-GPT-5.5 pro\n+GPT-5.5 Pro\n-GPT-5.4 pro\n+GPT-5.4 Pro\n-gpt-realtime-1.5\n-to the Realtime API. Read more\n-here\n-.\n+GPT-Realtime-1.5\n+to the Realtime API.\n-gpt-5-pro\n+GPT-5 Pro\n-gpt-realtime-mini\n+GPT-Realtime mini",
+    "snippet_full": "",
+    "diff": {
+      "added": 17,
+      "removed": 11,
+      "churn": 28
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 09 Jun 2026 02:31:04 GMT",
+    "run_at": "2026-06-09T02:31:04Z",
+    "run_id": "8faa52d16f784939ade78622cacf0625"
+  },
+  {
     "id": "96ed638fd42c88ce4c6660b4b7ef5f8275bc7960",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -931,63 +988,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Tue, 12 May 2026 02:26:01 GMT",
-    "run_at": "2026-05-12T02:25:30Z",
-    "run_id": "1bccc361c64c45ee9222d12f50f6f337"
-  },
-  {
-    "id": "8b3fe61f8b4f38f8f40acec7120845647dfe6107",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-          type: integer\n-          nullable: true\n-          description: >\n-            Timing metadata for stream alignment, derived from the translation\n-            frame\n-\n-            when available. It advances in 200 ms increments, but multiple\n-            transcript\n-\n-            deltas may share the same `elapsed_ms`. Treat it as alignment\n-            metadata,\n-\n-            not a unique transcript-delta identifier.\n+          anyOf:\n+            - type: integer\n+              description: >\n+                Timing metadata for stream alignment, derived from the\n+                translation frame\n+\n+                when available. It advances in 200 ms increments, but multiple\n+                transcript\n+\n+                deltas may share the same `elapsed_ms`. Treat it as alignment\n+                metadata,\n+\n+                not a unique transcript-delta identifier.\n+            - type: 'null'\n-          type: integer\n-          nullable: true\n-          description: >\n-            Timing metadata for stream alignment, derived from the translation\n-            frame\n-\n-            when available. Treat `elapsed_ms` as alignment metadata, not a\n-            unique\n-\n-            event identifier.\n+          anyOf:\n+            - type: integer\n+              description: >",
-    "snippet_full": "",
-    "diff": {
-      "added": 51,
-      "removed": 36,
-      "churn": 87
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 12 May 2026 02:25:38 GMT",
-    "run_at": "2026-05-12T02:25:30Z",
-    "run_id": "1bccc361c64c45ee9222d12f50f6f337"
-  },
-  {
-    "id": "883941d158d0c6182e7ba4bc7df0359520cdc9e3",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How enterprises are scaling AI\n+link: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai\n+id: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai\n+date: Mon, 11 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI Campus Network: Student club interest form\n+link: https://openai.com/index/openai-campus-network-student-club-interest-form\n+id: https://openai.com/index/openai-campus-network-student-club-interest-form\n+title: OpenAI launches DeployCo to help businesses build around intelligence\n+link: https://openai.com/index/openai-launches-the-deployment-company\n+id: https://openai.com/index/openai-launches-the-deployment-company",
-    "snippet_full": "+title: How enterprises are scaling AI\n+link: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai\n+id: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai\n+date: Mon, 11 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI Campus Network: Student club interest form\n+link: https://openai.com/index/openai-campus-network-student-club-interest-form\n+id: https://openai.com/index/openai-campus-network-student-club-interest-form\n+date: Mon, 11 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI launches DeployCo to help businesses build around intelligence\n+link: https://openai.com/index/openai-launches-the-deployment-company\n+id: https://openai.com/index/openai-launches-the-deployment-company\n+date: Mon, 11 May 2026 06:00:00 GMT\n+body:\n+#ITEM\n+#ITEM\n+title: How ChatGPT adoption broadened in early 2026\n+link: https://openai.com/signals/research/2026q1-update\n+id: https://openai.com/signals/research/2026q1-update\n+date: Mon, 11 May 2026 15:00:00 GMT\n+body:",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 12 May 2026 02:25:31 GMT",
-    "run_at": "2026-05-12T02:25:30Z",
-    "run_id": "1bccc361c64c45ee9222d12f50f6f337"
-  },
-  {
-    "id": "d7edd10cab3725849eaf1355ade959d7da29f0b0",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Auto-review\n-Codex Prompting Guide\n-Modernizing your Codebase with Codex\n+Build iterative repair loops with Codex\n+Build an Agent Improvement Loop with Traces, Evals, and Codex\n+May 11\n+Feature\n+v1/responses\n+Added\n+return_token_budget\n+for the Responses API\n+web search tool\n+. Use it to opt in to longer GPT-5+ reasoning web search runs for high-effort research and evaluation workloads.",
-    "snippet_full": "",
-    "diff": {
-      "added": 11,
-      "removed": 2,
-      "churn": 13
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 12 May 2026 02:25:30 GMT",
     "run_at": "2026-05-12T02:25:30Z",
     "run_id": "1bccc361c64c45ee9222d12f50f6f337"
   }
