@@ -1,5 +1,62 @@
 [
   {
+    "id": "9bb431c58004ddf06974885d7b4231edd159f253",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+June 9, 2026\n+We've launched\n+Claude Fable 5\n+(\n+claude-fable-5\n+), our most capable widely released model, alongside\n+Claude Mythos 5\n+(\n+claude-mythos-5\n+) for Project Glasswing participants. Both models support a\n+1M token context window\n+by default, 128k max output tokens, and always-on\n+adaptive thinking\n+. See\n+Introducing Claude Fable 5 and Claude Mythos 5\n+for capabilities, API changes, and availability.\n+Claude Fable 5 and Claude Mythos 5 use the tokenizer introduced with Claude Opus 4.7. Compared to models before Claude Opus 4.7, the same text produces roughly 30% more tokens. Use the\n+token counting API\n+with\n+model: \"claude-fable-5\"\n+to measure your prompts under the new tokenizer.\n+Claude Fable 5 runs safety classifiers on requests and during response generation. When a classifier declines a request, the Messages API returns\n+stop_reason: \"refusal\"\n+. You are not billed for a request refused before any output is generated. An opt-in\n+fallbacks\n+parameter (in beta on the Claude API and Claude Platform on AWS; not supported on the Message Batches API) re-runs refused requests on another model, billed at the fallback model's rates. See\n+Handling stop reasons\n+.\n+The\n+stop_details.category\n+field on refusal responses now includes\n+\"reasoning_extraction\"\n+on Claude Fable 5, returned when a request is blocked under Anthropic's Terms of Service restrictions on reverse engineering or duplicating model outputs. The existing\n+\"cyber\"\n+and\n+\"bio\"\n+categories are unchanged. No beta header is required.\n+On Claude Fable 5 and Claude Mythos 5,\n+adaptive thinking\n+is the only thinking mode:",
+    "snippet_full": "",
+    "diff": {
+      "added": 70,
+      "removed": 2,
+      "churn": 72
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 10 Jun 2026 02:44:39 GMT",
+    "run_at": "2026-06-10T02:44:32Z",
+    "run_id": "4f156fcf3230494d8b2beb56e326c660"
+  },
+  {
+    "id": "f69b0c6e4b7e6e9902e7467a1a99010ce3fba4f2",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-date: Mon, 06 Apr 2026 02:30:00 GMT\n+date: Tue, 09 Jun 2026 00:00:00 GMT\n+title: How engineers at Nextdoor use Codex to build without limits\n+link: https://openai.com/index/nextdoor\n+id: https://openai.com/index/nextdoor\n+date: Tue, 09 Jun 2026 12:00:00 GMT\n+body:\n+#ITEM\n-title: Notion’s GPT‑5 rebuild unlocks autonomous AI workflows\n+title: What Codex unlocks for Notion\n-date: Fri, 07 Nov 2025 10:00:00 GMT\n+date: Tue, 09 Jun 2026 10:00:00 GMT",
+    "snippet_full": "",
+    "diff": {
+      "added": 9,
+      "removed": 3,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 10 Jun 2026 02:44:33 GMT",
+    "run_at": "2026-06-10T02:44:32Z",
+    "run_id": "4f156fcf3230494d8b2beb56e326c660"
+  },
+  {
+    "id": "3a7e49a3892bcf6c1acc35f43b488547ba7a4588",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Jun 9\n+Feature\n+v1/responses\n+Web search can now return image results alongside regular text results. Use image search when your application needs current or web-grounded visuals, such as product photos, landmarks, places, events\n+web search guide\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 10 Jun 2026 02:44:33 GMT",
+    "run_at": "2026-06-10T02:44:32Z",
+    "run_id": "4f156fcf3230494d8b2beb56e326c660"
+  },
+  {
     "id": "c0e327638e9d9a16949538833a66695de89aa4a1",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -929,66 +986,5 @@
     "pubDate": "Wed, 13 May 2026 02:32:13 GMT",
     "run_at": "2026-05-13T02:32:05Z",
     "run_id": "3b35829a36e44a5abc2c750773068685"
-  },
-  {
-    "id": "d93c014e2f05876828165e12211e4a41f250ccc9",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How finance teams use Codex\n+link: https://openai.com/academy/how-finance-teams-use-codex\n+id: https://openai.com/academy/how-finance-teams-use-codex\n+date: Tue, 12 May 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: AutoScout24 scales engineering with AI-powered workflows\n+link: https://openai.com/index/autoscout24\n+id: https://openai.com/index/autoscout24\n+date: Tue, 12 May 2026 00:00:00 GMT\n+title: How NVIDIA engineers and researchers build with Codex\n+link: https://openai.com/index/nvidia",
-    "snippet_full": "+title: How finance teams use Codex\n+link: https://openai.com/academy/how-finance-teams-use-codex\n+id: https://openai.com/academy/how-finance-teams-use-codex\n+date: Tue, 12 May 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: AutoScout24 scales engineering with AI-powered workflows\n+link: https://openai.com/index/autoscout24\n+id: https://openai.com/index/autoscout24\n+date: Tue, 12 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How NVIDIA engineers and researchers build with Codex\n+link: https://openai.com/index/nvidia\n+id: https://openai.com/index/nvidia\n+date: Tue, 12 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: What Parameter Golf taught us about AI-assisted research\n+link: https://openai.com/index/what-parameter-golf-taught-us\n+id: https://openai.com/index/what-parameter-golf-taught-us\n+date: Tue, 12 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 13 May 2026 02:32:06 GMT",
-    "run_at": "2026-05-13T02:32:05Z",
-    "run_id": "3b35829a36e44a5abc2c750773068685"
-  },
-  {
-    "id": "a40916743689ca31e8424afe177ad15343f451e2",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Build an Agent Improvement Loop with Traces, Evals, and Codex\n-Build an Agent Improvement Loop with Traces, Evals, and Codex",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 13 May 2026 02:32:06 GMT",
-    "run_at": "2026-05-13T02:32:05Z",
-    "run_id": "3b35829a36e44a5abc2c750773068685"
-  },
-  {
-    "id": "3fc4f09a155486179e9b4f56acee608450e57f05",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+May 11, 2026\n+We've launched\n+Claude Platform on AWS\n+, bringing the Claude API to Anthropic-managed infrastructure accessible through AWS, with AWS billing and IAM authentication. Access the full Messages API, Files API, Message Batches API, Claude Man\n+Claude Platform on AWS\n+.\n-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n-), with retirement scheduled for April 19, 2026. We recommend migrating to\n+), with retirement scheduled for April 20, 2026. We recommend migrating to\n-model deprecations\n+Model deprecations\n-is now generally available on all models and platforms (no beta header required). The\n-output_format\n-parameter for\n-structured outputs\n-has been moved to\n-output_config.format\n-.\n+is now generally available on all models and platforms (no beta header required).\n-for AWS Bedrock and Google Vertex AI. The Claude API (1P) pricing is unaffected.\n+for Amazon Bedrock and Vertex AI. The Claude API (1P) pricing is unaffected.\n-docs.claude.com\n+docs.anthropic.com\n-support.claude.com\n+support.anthropic.com\n-The 1M token context window is now available on Google Cloud's Vertex AI. For more information, see\n+The 1M token context window is now available on Vertex AI. For more information, see\n-Search result content blocks are now generally available on the Claude API and Google Cloud's Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. Th\n+Search result content blocks are now generally available on the Claude API and Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta header\n-, our most intelligent model yet, is now generally available across the Claude API, Amazon Bedrock, and Google Vertex AI.\n+, our most intelligent model yet, is now generally available across the Claude API, Amazon Bedrock, and Vertex AI.\n-is now generally available across the Claude API, Amazon Bedrock, and Google Vertex AI.\n+is now generally available across the Claude API, Amazon Bedrock, and Vertex AI.\n+May 11, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 17,
-      "churn": 35
-    },
-    "score": 140,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 12 May 2026 02:26:01 GMT",
-    "run_at": "2026-05-12T02:25:30Z",
-    "run_id": "1bccc361c64c45ee9222d12f50f6f337"
   }
 ]

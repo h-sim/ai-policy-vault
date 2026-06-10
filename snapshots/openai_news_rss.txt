@@ -2630,7 +2630,7 @@ body:
 title: Industrial policy for the Intelligence Age
 link: https://openai.com/index/industrial-policy-for-the-intelligence-age
 id: https://openai.com/index/industrial-policy-for-the-intelligence-age
-date: Mon, 06 Apr 2026 02:30:00 GMT
+date: Tue, 09 Jun 2026 00:00:00 GMT
 body:
 #ITEM
 title: Infrastructure for deep learning
@@ -3779,6 +3779,12 @@ id: https://openai.com/index/next-phase-of-microsoft-partnership
 date: Mon, 27 Apr 2026 06:00:00 GMT
 body:
 #ITEM
+title: How engineers at Nextdoor use Codex to build without limits
+link: https://openai.com/index/nextdoor
+id: https://openai.com/index/nextdoor
+date: Tue, 09 Jun 2026 12:00:00 GMT
+body:
+#ITEM
 title: Nonlinear computation in deep linear networks
 link: https://openai.com/index/nonlinear-computation-in-deep-linear-networks
 id: https://openai.com/index/nonlinear-computation-in-deep-linear-networks
@@ -3809,10 +3815,10 @@ id: https://openai.com/index/norad-holiday-collaboration
 date: Mon, 01 Dec 2025 06:00:00 GMT
 body:
 #ITEM
-title: Notion’s GPT‑5 rebuild unlocks autonomous AI workflows
+title: What Codex unlocks for Notion
 link: https://openai.com/index/notion
 id: https://openai.com/index/notion
-date: Fri, 07 Nov 2025 10:00:00 GMT
+date: Tue, 09 Jun 2026 10:00:00 GMT
 body:
 #ITEM
 title: Nubank elevates customer experiences with OpenAI

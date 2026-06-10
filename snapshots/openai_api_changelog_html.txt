@@ -644,6 +644,12 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 June, 2026
+Jun 9
+Feature
+v1/responses
+Web search can now return image results alongside regular text results. Use image search when your application needs current or web-grounded visuals, such as product photos, landmarks, places, events, or visual references. Read more in the
+web search guide
+.
 Jun 5
 Update
 Released a redesigned navigation for the OpenAI API platform, visit
