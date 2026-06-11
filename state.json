@@ -1,5 +1,26 @@
 [
   {
+    "id": "69cb97e1df1f2e4464440924df664d51e745e3a2",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: From data to decisions: how LSEG is scaling trusted AI\n+link: https://openai.com/index/lseg\n+id: https://openai.com/index/lseg\n+date: Wed, 10 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Access OpenAI models and Codex through your Oracle cloud commitment\n+link: https://openai.com/index/openai-on-oracle-cloud\n+id: https://openai.com/index/openai-on-oracle-cloud\n+date: Wed, 10 Jun 2026 20:00:00 GMT\n+title: PRC-linked influence operations are targeting AI debates in the US\n+link: https://openai.com/index/prc-linked-influence-operations-ai-debates",
+    "snippet_full": "+title: From data to decisions: how LSEG is scaling trusted AI\n+link: https://openai.com/index/lseg\n+id: https://openai.com/index/lseg\n+date: Wed, 10 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Access OpenAI models and Codex through your Oracle cloud commitment\n+link: https://openai.com/index/openai-on-oracle-cloud\n+id: https://openai.com/index/openai-on-oracle-cloud\n+date: Wed, 10 Jun 2026 20:00:00 GMT\n+body:\n+#ITEM\n+title: PRC-linked influence operations are targeting AI debates in the US\n+link: https://openai.com/index/prc-linked-influence-operations-ai-debates\n+id: https://openai.com/index/prc-linked-influence-operations-ai-debates\n+date: Wed, 10 Jun 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How an astrophysicist uses Codex to help simulate black holes\n+link: https://openai.com/index/using-codex-to-simulate-black-holes\n+id: https://openai.com/index/using-codex-to-simulate-black-holes\n+date: Thu, 11 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 11 Jun 2026 02:54:29 GMT",
+    "run_at": "2026-06-11T02:54:07Z",
+    "run_id": "541e7b7d73144906854a928d233330ea"
+  },
+  {
     "id": "9bb431c58004ddf06974885d7b4231edd159f253",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -965,26 +986,5 @@
     "pubDate": "Thu, 14 May 2026 02:33:23 GMT",
     "run_at": "2026-05-14T02:33:22Z",
     "run_id": "eb58426f6c0447a6a21b2b943ddedabf"
-  },
-  {
-    "id": "3cbe35971e2a88415b1457c012c09e17eb760a7e",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+May 12, 2026\n+Fast mode\n+(research preview) now supports Claude Opus 4.7. Set\n+speed: \"fast\"\n+with\n+model: \"claude-opus-4-7\"\n+and the\n+fast-mode-2026-02-01\n+beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the\n+waitlist\n+.\n+May 12, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 13 May 2026 02:32:13 GMT",
-    "run_at": "2026-05-13T02:32:05Z",
-    "run_id": "3b35829a36e44a5abc2c750773068685"
   }
 ]

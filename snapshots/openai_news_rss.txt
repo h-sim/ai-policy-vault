@@ -3437,6 +3437,12 @@ id: https://openai.com/index/lowes-chandhu-nair
 date: Mon, 05 May 2025 05:00:00 GMT
 body:
 #ITEM
+title: From data to decisions: how LSEG is scaling trusted AI
+link: https://openai.com/index/lseg
+id: https://openai.com/index/lseg
+date: Wed, 10 Jun 2026 00:00:00 GMT
+body:
+#ITEM
 title: Driving growth and ‘WOW’ moments with OpenAI
 link: https://openai.com/index/ly-corporation
 id: https://openai.com/index/ly-corporation
@@ -4289,6 +4295,12 @@ id: https://openai.com/index/openai-on-aws
 date: Tue, 28 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Access OpenAI models and Codex through your Oracle cloud commitment
+link: https://openai.com/index/openai-on-oracle-cloud
+id: https://openai.com/index/openai-on-oracle-cloud
+date: Wed, 10 Jun 2026 20:00:00 GMT
+body:
+#ITEM
 title: OpenAI partners with Scale to provide support for enterprises fine-tuning models
 link: https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models
 id: https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models
@@ -4659,6 +4671,12 @@ title: Inside Praktika's conversational approach to language learning
 link: https://openai.com/index/praktika
 id: https://openai.com/index/praktika
 date: Thu, 22 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: PRC-linked influence operations are targeting AI debates in the US
+link: https://openai.com/index/prc-linked-influence-operations-ai-debates
+id: https://openai.com/index/prc-linked-influence-operations-ai-debates
+date: Wed, 10 Jun 2026 12:00:00 GMT
 body:
 #ITEM
 title: Prediction and control with temporal segment models
@@ -5739,6 +5757,12 @@ title: Deepening our collaboration with the U.S. Department of Energy
 link: https://openai.com/index/us-department-of-energy-collaboration
 id: https://openai.com/index/us-department-of-energy-collaboration
 date: Thu, 18 Dec 2025 11:00:00 GMT
+body:
+#ITEM
+title: How an astrophysicist uses Codex to help simulate black holes
+link: https://openai.com/index/using-codex-to-simulate-black-holes
+id: https://openai.com/index/using-codex-to-simulate-black-holes
+date: Thu, 11 Jun 2026 00:00:00 GMT
 body:
 #ITEM
 title: Using GPT-4 for content moderation
