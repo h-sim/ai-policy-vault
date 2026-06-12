@@ -13,6 +13,8 @@ Example workflows and tasks teams hand to Codex
 ChatGPT
 Apps SDK
 Build apps to extend ChatGPT
+Workspace Agents
+Trigger published ChatGPT workspace agents
 Commerce
 Build commerce flows in ChatGPT
 Ads
@@ -340,6 +342,7 @@ Open Source
 Home
 Collections
 Apps SDK
+Workspace Agents
 Commerce
 Ads
 Home
@@ -376,6 +379,10 @@ Resources
 Changelog
 App submission guidelines
 Reference
+Home
+Get started
+Trigger workspace agent runs
+Authenticate with Workspace Agent access tokens
 Home
 Guides
 Get started

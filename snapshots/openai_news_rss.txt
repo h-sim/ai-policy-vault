@@ -797,6 +797,12 @@ id: https://openai.com/index/basis
 date: Tue, 12 Aug 2025 00:00:00 GMT
 body:
 #ITEM
+title: BBVA puts AI at the core of banking with OpenAI
+link: https://openai.com/index/bbva
+id: https://openai.com/index/bbva
+date: Thu, 11 Jun 2026 00:00:00 GMT
+body:
+#ITEM
 title: BBVA and OpenAI collaborate to transform global banking
 link: https://openai.com/index/bbva-collaboration-expansion
 id: https://openai.com/index/bbva-collaboration-expansion
@@ -4445,6 +4451,12 @@ id: https://openai.com/index/openai-to-acquire-neptune
 date: Wed, 03 Dec 2025 10:00:00 GMT
 body:
 #ITEM
+title: OpenAI to acquire Ona
+link: https://openai.com/index/openai-to-acquire-ona
+id: https://openai.com/index/openai-to-acquire-ona
+date: Thu, 11 Jun 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI to acquire Promptfoo
 link: https://openai.com/index/openai-to-acquire-promptfoo
 id: https://openai.com/index/openai-to-acquire-promptfoo
@@ -5361,6 +5373,12 @@ title: Reimagining the email experience with AI
 link: https://openai.com/index/superhuman
 id: https://openai.com/index/superhuman
 date: Mon, 18 Mar 2024 07:00:00 GMT
+body:
+#ITEM
+title: Supporting Europe’s work in ensuring a trustworthy AI ecosystem
+link: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem
+id: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem
+date: Thu, 11 Jun 2026 00:00:00 GMT
 body:
 #ITEM
 title: Supporting nonprofit and community innovation

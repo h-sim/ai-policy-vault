@@ -1,5 +1,68 @@
 [
   {
+    "id": "64111ff629d0784a4e96e8b9c24b1755453845d3",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+June 10, 2026\n+The\n+GET /v1/environments/{id}/work\n+endpoint, which lists pending work for a\n+self-hosted sandbox\n+, is now available on\n+Claude Platform on AWS\n+. See\n+IAM actions for Claude Platform on AWS\n+for the\n+GetEnvironment\n+action that authorizes it.\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+",
+    "snippet_full": "",
+    "diff": {
+      "added": 131,
+      "removed": 0,
+      "churn": 131
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 12 Jun 2026 02:51:41 GMT",
+    "run_at": "2026-06-12T02:51:11Z",
+    "run_id": "eb38c92a921b41ac8421677a27d454b0"
+  },
+  {
+    "id": "e2774cc54200506d65cfdf4bfc71d45a300c9022",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: BBVA puts AI at the core of banking with OpenAI\n+link: https://openai.com/index/bbva\n+id: https://openai.com/index/bbva\n+date: Thu, 11 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI to acquire Ona\n+link: https://openai.com/index/openai-to-acquire-ona\n+id: https://openai.com/index/openai-to-acquire-ona\n+date: Thu, 11 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Supporting Europe’s work in ensuring a trustworthy AI ecosystem\n+link: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem\n+id: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem\n+date: Thu, 11 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 12 Jun 2026 02:51:33 GMT",
+    "run_at": "2026-06-12T02:51:11Z",
+    "run_id": "eb38c92a921b41ac8421677a27d454b0"
+  },
+  {
+    "id": "5814f3718e6c7b1d7da013eb2db390ca7a045eea",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Workspace Agents\n+Trigger published ChatGPT workspace agents\n+Workspace Agents\n+Home\n+Get started\n+Trigger workspace agent runs\n+Authenticate with Workspace Agent access tokens",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 0,
+      "churn": 7
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 12 Jun 2026 02:51:11 GMT",
+    "run_at": "2026-06-12T02:51:11Z",
+    "run_id": "eb38c92a921b41ac8421677a27d454b0"
+  },
+  {
     "id": "69cb97e1df1f2e4464440924df664d51e745e3a2",
     "impact": "High",
     "name": "OpenAI News (RSS)",
@@ -927,64 +990,5 @@
     "pubDate": "Sat, 16 May 2026 02:14:30 GMT",
     "run_at": "2026-05-16T02:14:29Z",
     "run_id": "df29b07d74104e1e8ae67904f3b05dc0"
-  },
-  {
-    "id": "b272829843eed4270f54010661c01ba4b8be6d01",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Helping ChatGPT better recognize context in sensitive conversations\n+link: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations\n+id: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations\n+date: Thu, 14 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Our response to the TanStack npm supply chain attack\n+link: https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack\n+id: https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack\n+date: Wed, 13 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Work with Codex from anywhere\n+link: https://openai.com/index/work-with-codex-from-anywhere\n+id: https://openai.com/index/work-with-codex-from-anywhere\n+date: Thu, 14 May 2026 13:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 15 May 2026 02:33:14 GMT",
-    "run_at": "2026-05-15T02:32:52Z",
-    "run_id": "1dd3f979ba6e4a0b9f7ee624d7a37bfd"
-  },
-  {
-    "id": "077fc1bc3897486b099fbc2578f51b934cd82c22",
-    "impact": "Breaking",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Overview\n+Access tokens\n+May 12\n+Update\n+dall-e-2\n+dall-e-3\n+v1/realtime\n+Deprecated DALL·E model snapshots and the Realtime API Beta.\n+DALL·E model snapshots\n+dall-e-2\n+and\n+dall-e-3\n+were deprecated and removed from the API on May 12, 2026. We recommend using\n+gpt-image-2\n+,\n+gpt-image-1\n+, or\n+gpt-image-1-mini\n+instead.\n+The Realtime API Beta was deprecated and removed from the API on May 12, 2026. If you are still using the beta interface, migrate to the released Realtime API. See\n+the migration guide\n+and the full\n+deprecations page\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 15 May 2026 02:33:14 GMT",
-    "run_at": "2026-05-15T02:32:52Z",
-    "run_id": "1dd3f979ba6e4a0b9f7ee624d7a37bfd"
-  },
-  {
-    "id": "f2bbda21e4655af66b70a3a4fe38405bb09ce00d",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Building a safe, effective sandbox to enable Codex on Windows\n+link: https://openai.com/index/building-codex-windows-sandbox\n+id: https://openai.com/index/building-codex-windows-sandbox\n+date: Wed, 13 May 2026 11:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 14 May 2026 02:33:23 GMT",
-    "run_at": "2026-05-14T02:33:22Z",
-    "run_id": "eb58426f6c0447a6a21b2b943ddedabf"
   }
 ]
