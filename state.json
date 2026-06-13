@@ -1,5 +1,24 @@
 [
   {
+    "id": "786882f1741b829d151b2d5ab9b901673af99a90",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: New OpenAI Academy courses for the next era of work\n+link: https://openai.com/index/academy-courses-applying-ai-at-work\n+id: https://openai.com/index/academy-courses-applying-ai-at-work\n+date: Fri, 12 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How Preply combines AI and human tutors to personalize learning\n+link: https://openai.com/index/preply\n+id: https://openai.com/index/preply\n+date: Fri, 12 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 13 Jun 2026 02:43:48 GMT",
+    "run_at": "2026-06-13T02:43:47Z",
+    "run_id": "e03f40d870f44573aecd0f871be76bd4"
+  },
+  {
     "id": "64111ff629d0784a4e96e8b9c24b1755453845d3",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -969,25 +988,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Sat, 16 May 2026 02:14:57 GMT",
-    "run_at": "2026-05-16T02:14:29Z",
-    "run_id": "df29b07d74104e1e8ae67904f3b05dc0"
-  },
-  {
-    "id": "6257e83540fba50d1b57ca31adea659bc821fef4",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Databricks brings GPT-5.5 to enterprise agent workflows\n+link: https://openai.com/index/databricks\n+id: https://openai.com/index/databricks\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: A new personal finance experience in ChatGPT\n+link: https://openai.com/index/personal-finance-chatgpt\n+id: https://openai.com/index/personal-finance-chatgpt\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Sea's View on the Future of Agentic Software Development with Codex\n+link: https://openai.com/index/sea-david-chen\n+id: https://openai.com/index/sea-david-chen\n+date: Thu, 14 May 2026 20:30:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 16 May 2026 02:14:30 GMT",
     "run_at": "2026-05-16T02:14:29Z",
     "run_id": "df29b07d74104e1e8ae67904f3b05dc0"
   }

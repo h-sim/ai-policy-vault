@@ -485,6 +485,12 @@ id: https://openai.com/index/aarp-partnership-older-adults-online-safety
 date: Fri, 26 Sep 2025 06:00:00 GMT
 body:
 #ITEM
+title: New OpenAI Academy courses for the next era of work
+link: https://openai.com/index/academy-courses-applying-ai-at-work
+id: https://openai.com/index/academy-courses-applying-ai-at-work
+date: Fri, 12 Jun 2026 10:00:00 GMT
+body:
+#ITEM
 title: Measuring AI’s capability to accelerate biological research
 link: https://openai.com/index/accelerating-biological-research-in-the-wet-lab
 id: https://openai.com/index/accelerating-biological-research-in-the-wet-lab
@@ -4707,6 +4713,12 @@ title: Preparing for malicious uses of AI
 link: https://openai.com/index/preparing-for-malicious-uses-of-ai
 id: https://openai.com/index/preparing-for-malicious-uses-of-ai
 date: Tue, 20 Feb 2018 08:00:00 GMT
+body:
+#ITEM
+title: How Preply combines AI and human tutors to personalize learning
+link: https://openai.com/index/preply
+id: https://openai.com/index/preply
+date: Fri, 12 Jun 2026 00:00:00 GMT
 body:
 #ITEM
 title: Procgen Benchmark
