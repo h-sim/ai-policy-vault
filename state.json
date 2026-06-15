@@ -1,5 +1,64 @@
 [
   {
+    "id": "c5fec1eedeaa7c99a6bf75f555fd6944d501864b",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+On Claude Opus 4.8, the\n+effort parameter\n+defaults to\n+high\n+across all surfaces, including Claude Code and the Messages API.\n+On Claude Opus 4.8, the minimum cacheable prompt length for\n+prompt caching\n+is 1,024 tokens, lower than on Claude Opus 4.7.\n+With\n+adaptive thinking\n+enabled, Claude Opus 4.8 triggers reasoning only when a turn needs it, reducing wasted thinking tokens compared to Claude Opus 4.7 at the same effort level.\n+Claude Opus 4.8 supports\n+high-resolution image input\n+(up to 2576 pixels on the long edge), same as Claude Opus 4.7.\n+Task budgets\n+now support Claude Opus 4.8.\n+The\n+advisor tool\n+now supports Claude Opus 4.8.\n+Computer use\n+now supports Claude Opus 4.8.\n+Fast mode\n+for Claude Opus 4.8 is available as a research preview on the Claude API only.\n+Setting the sampling parameters\n+temperature\n+,\n+top_p\n+, or\n+top_k\n+to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the\n+migration guide\n+for details.\n+In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the\n+Claude Code documentation\n+.\n+In Claude Code, Max plan users now default to\n+fast mode\n+on Claude Opus 4.8. See the\n+Claude Code documentation\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 74,
+      "removed": 74,
+      "churn": 148
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Mon, 15 Jun 2026 03:28:20 GMT",
+    "run_at": "2026-06-15T03:27:52Z",
+    "run_id": "299fed1f782547c7a71b4e5d22adcd7a"
+  },
+  {
+    "id": "8122176e98c7b10322e60f9d90bbe707e3d6665b",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing the OpenAI Partner Network\n+link: https://openai.com/index/introducing-openai-partner-network\n+id: https://openai.com/index/introducing-openai-partner-network\n+date: Sun, 14 Jun 2026 17:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 15 Jun 2026 03:27:52 GMT",
+    "run_at": "2026-06-15T03:27:52Z",
+    "run_id": "299fed1f782547c7a71b4e5d22adcd7a"
+  },
+  {
+    "id": "e9babca77e463311f526cbacfd90200055a715a1",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Migrate\n+Import to Codex",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 15 Jun 2026 03:27:52 GMT",
+    "run_at": "2026-06-15T03:27:52Z",
+    "run_id": "299fed1f782547c7a71b4e5d22adcd7a"
+  },
+  {
     "id": "d644904093a8b71510738f762659d2ee8c0aec25",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -931,62 +990,5 @@
     "pubDate": "Tue, 19 May 2026 02:38:22 GMT",
     "run_at": "2026-05-19T02:38:12Z",
     "run_id": "3d494ede5ca242b895759cd9a653e9f1"
-  },
-  {
-    "id": "63dc76ffacfee61d6aa53cbc56361f1804c4a8ad",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+            node.js: |-\n+              import OpenAI from 'openai';\n+\n+              const client = new OpenAI({\n+                adminAPIKey: process.env['OPENAI_ADMIN_KEY'], // This is the default and can be omitted\n+              });\n+\n+              const projectHostedToolPermissions =\n+                await client.admin.organization.projects.hostedToolPermissions.retrieve('project_id');\n+\n+              console.log(projectHostedToolPermissions.code_interpreter);\n+            python: >-\n+              import os\n+\n+              from openai import OpenAI\n+\n+\n+              client = OpenAI(\n+                  admin_api_key=os.environ.get(\"OPENAI_ADMIN_KEY\"),  # This is the default and can be omitted\n+              )\n+\n+              project_hosted_tool_permissions =\n+              client.admin.organization.projects.hosted_tool_permissions.retrieve(\n+                  \"project_id\",\n+              )\n+\n+              print(project_hosted_tool_permissions.code_interpreter)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+            java: >-\n+              package com.openai.example;\n+\n+\n+              import com.openai.client.OpenAIClient;\n+\n+              import com.openai.client.okhttp.OpenAIOkHttpClient;\n+\n+              import\n+              com.openai.models.admin.organization.projects.hostedtoolpermissions.HostedToolPermissionRetrieveParams;\n+\n+              import",
-    "snippet_full": "",
-    "diff": {
-      "added": 473,
-      "removed": 0,
-      "churn": 473
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 19 May 2026 02:38:21 GMT",
-    "run_at": "2026-05-19T02:38:12Z",
-    "run_id": "3d494ede5ca242b895759cd9a653e9f1"
-  },
-  {
-    "id": "516b712721c5e7d0e144adbb53cc3e3017a2b34b",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: A Student’s Guide to Writing with ChatGPT\n-link: https://openai.com/chatgpt/use-cases/student-writing-guide\n-id: https://openai.com/chatgpt/use-cases/student-writing-guide\n-date: Wed, 13 Nov 2024 10:00:00 GMT\n-body:\n-#ITEM\n+title: OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments\n+link: https://openai.com/index/dell-codex-enterprise-partnership\n+id: https://openai.com/index/dell-codex-enterprise-partnership\n+date: Mon, 18 May 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Estonia and OpenAI to bring ChatGPT to schools nationwide\n-link: https://openai.com/index/estonia-schools-and-chatgpt\n-id: https://openai.com/index/estonia-schools-and-chatgpt\n-date: Tue, 25 Feb 2025 04:15:00 GMT\n-body:\n-#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 12,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 19 May 2026 02:38:13 GMT",
-    "run_at": "2026-05-19T02:38:12Z",
-    "run_id": "3d494ede5ca242b895759cd9a653e9f1"
-  },
-  {
-    "id": "ce05697dcd2201ce244d9bcefcb945ced70b46ce",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How business operations teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How data science teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+title: How sales teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-    "snippet_full": "+title: How business operations teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How data science teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How sales teams use Codex\n+link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+date: Fri, 15 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI and Malta partner to bring ChatGPT Plus to all citizens\n+link: https://openai.com/index/malta-chatgpt-plus-partnership\n+id: https://openai.com/index/malta-chatgpt-plus-partnership\n+date: Sat, 16 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 17 May 2026 02:30:07 GMT",
-    "run_at": "2026-05-17T02:30:05Z",
-    "run_id": "a97af1c935094d638906d2aa4cfce6d2"
   }
 ]

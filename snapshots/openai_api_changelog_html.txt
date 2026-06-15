@@ -228,7 +228,7 @@ Getting Started
 Overview
 Quickstart
 Explore use cases
-Migrate
+Import to Codex
 Pricing
 Concepts
 Prompting
