@@ -1,5 +1,24 @@
 [
   {
+    "id": "3c3cacb49561553f3fb35388d372d2ec7e45f8bc",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+June 15, 2026\n+We've retired the Claude Sonnet 4 model (\n+claude-sonnet-4-20250514\n+) and the Claude Opus 4 model (\n+claude-opus-4-20250514\n+). All requests to these models will now return an error. We recommend upgrading to\n+Claude Sonnet 4.6\n+and\n+Claude Opus 4.8\n+respectively. Researchers can request ongoing access through the\n+External Researcher Access Program\n+.\n+\n-stop_details.category\n-\"reasoning_extraction\"\n-\"cyber\"\n-and\n-\"bio\"\n+and\n-On Claude Fable 5 and Claude Mythos 5,\n-adaptive thinking\n-is the only thinking mode:\n-thinking: {\"type\": \"disabled\"}\n-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n-Migrating from Claude Mythos Preview to Claude Mythos 5\n-.\n-On Claude Fable 5 and Claude Mythos 5,\n-thinking.display\n-defaults to\n-\"omitted\"\n-, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n-display: \"summarized\"\n-to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See\n-Thinking output on Claude Fable 5 and Claude Mythos 5\n-.\n-Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See\n-Model-specific data retention requirements\n-.\n-Claude Managed Agents now supports\n-scheduled deployments",
+    "snippet_full": "",
+    "diff": {
+      "added": 123,
+      "removed": 109,
+      "churn": 232
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 16 Jun 2026 03:25:39 GMT",
+    "run_at": "2026-06-16T03:25:30Z",
+    "run_id": "d3758a6224af4cbdb5b4b83d4e694c82"
+  },
+  {
     "id": "c5fec1eedeaa7c99a6bf75f555fd6944d501864b",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -971,24 +990,5 @@
     "pubDate": "Wed, 20 May 2026 02:38:27 GMT",
     "run_at": "2026-05-20T02:38:27Z",
     "run_id": "d5563ee5c0b74d4ab493734229e182cd"
-  },
-  {
-    "id": "6b9c6a54680769e59e6c7c0444276e2242ed07cf",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+May 18, 2026\n+The\n+web search tool\n+now returns richer SEC filing data, making it easier to ground financial research agents, earnings analysis, and due-diligence workflows in primary sources with citations.\n+May 13, 2026\n+We've launched\n+cache diagnostics\n+in public beta. Pass\n+diagnostics.previous_message_id\n+on a Messages request and the API reports a\n+cache_miss_reason\n+explaining where the prompt cache prefix diverged from the previous turn. Include the\n+cache-diagnosis-2026-04-07\n+beta header in your requests.\n+May 18, 2026\n+May 13, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 16,
-      "removed": 0,
-      "churn": 16
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 19 May 2026 02:38:22 GMT",
-    "run_at": "2026-05-19T02:38:12Z",
-    "run_id": "3d494ede5ca242b895759cd9a653e9f1"
   }
 ]
