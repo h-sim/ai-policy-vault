@@ -1,5 +1,65 @@
 [
   {
+    "id": "71f8ef234fd074b36341b98a8cd5b7fc2a72ff1c",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Amazon Bedrock\n+Claude on AWS\n+\n+",
+    "snippet_full": "",
+    "diff": {
+      "added": 3,
+      "removed": 1,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 17 Jun 2026 02:57:46 GMT",
+    "run_at": "2026-06-17T02:57:30Z",
+    "run_id": "8cf5173ba9ea4557926be1d00a19b0e1"
+  },
+  {
+    "id": "744ede1578d79a9f1e47effed749813a0ae9af57",
+    "impact": "Medium",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+                  \"expires_at\": 1714063533,\n+                expires_in_seconds:\n+                  type: integer\n+                  minimum: 1\n+                  maximum: 31536000\n+                  example: 2592000\n+                  description: >-\n+                    The number of seconds until the API key expires. Omit this\n+                    field for a key that does not expire.\n-                    \"name\": \"New Admin Key\"\n+                    \"name\": \"New Admin Key\",\n+                    \"expires_in_seconds\": 2592000\n+              \"expires_at\": 1714063533,\n-            project ID updated.\n+            project ID updated. For ChatGPT connector role events, use the\n+            workspace connector resource ID shown in `details.id`, such as\n+            `<workspace_id>__<connector_id>`.\n+        - name: tenant_only\n+          in: query\n+          description: >-\n+            Return only tenant-scoped events associated with this organization.\n+            Required for tenant-scoped events such as `role.bound_to_resource`\n+            and `role.unbound_from_resource`. When `true`, all supplied event\n+            types must be tenant-scoped.\n+          required: false\n+          schema:\n+            type: boolean\n+            default: false\n+    get:\n+      security:\n+        - AdminApiKeyAuth: []\n+      summary: Retrieves a project spend alert.\n+      operationId: retrieve-project-spend-alert\n+      tags:\n+        - Spend alerts\n+      parameters:\n+        - name: project_id\n+          in: path\n+          description: The ID of the project.\n+          required: true",
+    "snippet_full": "",
+    "diff": {
+      "added": 430,
+      "removed": 32,
+      "churn": 462
+    },
+    "score": 40,
+    "reasons": [
+      "OpenAPI: security変更",
+      "OpenAPI: tags増減（軽微）"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 17 Jun 2026 02:57:45 GMT",
+    "run_at": "2026-06-17T02:57:30Z",
+    "run_id": "8cf5173ba9ea4557926be1d00a19b0e1"
+  },
+  {
+    "id": "6bec5315be2904f6eb0e58d20f35dcf4899f3b4d",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Predicting model behavior before release by simulating deployment\n+link: https://openai.com/index/deployment-simulation\n+id: https://openai.com/index/deployment-simulation\n+date: Tue, 16 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 17 Jun 2026 02:57:31 GMT",
+    "run_at": "2026-06-17T02:57:30Z",
+    "run_id": "8cf5173ba9ea4557926be1d00a19b0e1"
+  },
+  {
     "id": "3c3cacb49561553f3fb35388d372d2ec7e45f8bc",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -929,65 +989,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Wed, 20 May 2026 02:38:36 GMT",
-    "run_at": "2026-05-20T02:38:27Z",
-    "run_id": "d5563ee5c0b74d4ab493734229e182cd"
-  },
-  {
-    "id": "39dc7e23b41aab6f2f1832ab5c7a36281b0b11d7",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-            The action type.\n+            The action type. Always `open_page`.",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 20 May 2026 02:38:34 GMT",
-    "run_at": "2026-05-20T02:38:27Z",
-    "run_id": "d5563ee5c0b74d4ab493734229e182cd"
-  },
-  {
-    "id": "ea35c8344969c30580b3fb06f9626f0cb5a87093",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Advancing content provenance for a safer, more transparent AI ecosystem\n+link: https://openai.com/index/advancing-content-provenance\n+id: https://openai.com/index/advancing-content-provenance\n+date: Tue, 19 May 2026 10:45:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 20 May 2026 02:38:28 GMT",
-    "run_at": "2026-05-20T02:38:27Z",
-    "run_id": "d5563ee5c0b74d4ab493734229e182cd"
-  },
-  {
-    "id": "7c1bb49e6d6b60109c65f30487e3062ecca34b72",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Permissions",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 20 May 2026 02:38:27 GMT",
     "run_at": "2026-05-20T02:38:27Z",
     "run_id": "d5563ee5c0b74d4ab493734229e182cd"
   }

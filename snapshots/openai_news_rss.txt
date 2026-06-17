@@ -1469,6 +1469,12 @@ id: https://openai.com/index/democratic-inputs-to-ai-grant-program-update
 date: Tue, 16 Jan 2024 08:00:00 GMT
 body:
 #ITEM
+title: Predicting model behavior before release by simulating deployment
+link: https://openai.com/index/deployment-simulation
+id: https://openai.com/index/deployment-simulation
+date: Tue, 16 Jun 2026 00:00:00 GMT
+body:
+#ITEM
 title: How Descript engineers multilingual video dubbing at scale
 link: https://openai.com/index/descript
 id: https://openai.com/index/descript

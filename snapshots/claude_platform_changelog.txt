@@ -53,7 +53,7 @@ Financial services
 Government
 Life sciences
 Partners
-Amazon Bedrock
+Claude on AWS
 Google Cloud's Vertex AI
 Learn
 Blog
@@ -100,8 +100,10 @@ Usage policy
 Release notes
 Claude Platform
 Copy page
+
 Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.
 Copy page
+
 
 For release notes on Claude Apps, see the
 Release notes for Claude Apps in the Claude Help Center
