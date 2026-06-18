@@ -635,6 +635,12 @@ id: https://openai.com/index/ai-as-the-greatest-source-of-empowerment-for-all
 date: Mon, 21 Jul 2025 00:00:00 GMT
 body:
 #ITEM
+title: A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry
+link: https://openai.com/index/ai-chemist-improves-reaction
+id: https://openai.com/index/ai-chemist-improves-reaction
+date: Wed, 17 Jun 2026 10:00:00 GMT
+body:
+#ITEM
 title: Pioneering an AI clinical copilot with Penda Health
 link: https://openai.com/index/ai-clinical-copilot-penda-health
 id: https://openai.com/index/ai-clinical-copilot-penda-health
@@ -2967,6 +2973,12 @@ title: Introducing IndQA
 link: https://openai.com/index/introducing-indqa
 id: https://openai.com/index/introducing-indqa
 date: Mon, 03 Nov 2025 22:30:00 GMT
+body:
+#ITEM
+title: Introducing LifeSciBench
+link: https://openai.com/index/introducing-life-sci-bench
+id: https://openai.com/index/introducing-life-sci-bench
+date: Wed, 17 Jun 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing Lockdown Mode and Elevated Risk labels in ChatGPT

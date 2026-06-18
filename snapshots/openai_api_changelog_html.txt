@@ -403,6 +403,7 @@ Supported events
 Advertiser API
 Overview
 Quickstart
+Product feeds
 Campaign Targeting
 API Reference
 Authentication

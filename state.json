@@ -1,5 +1,83 @@
 [
   {
+    "id": "ea12706f3cf6474136a3371bb5d5bc3c693aa7c0",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+stop_details.category\n+\"reasoning_extraction\"\n-and\n+\"cyber\"\n+and\n+\"bio\"\n+On Claude Fable 5 and Claude Mythos 5,\n+adaptive thinking\n+is the only thinking mode:\n+thinking: {\"type\": \"disabled\"}\n+is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n+Migrating from Claude Mythos Preview to Claude Mythos 5\n+.\n+On Claude Fable 5 and Claude Mythos 5,\n+thinking.display\n+defaults to\n+\"omitted\"\n+, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n+display: \"summarized\"\n+to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See\n+Thinking output on Claude Fable 5 and Claude Mythos 5\n+.\n+Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See\n+Model-specific data retention requirements\n+.\n+Claude Managed Agents now supports\n+scheduled deployments\n+, letting you run sessions on a cron schedule without managing your own scheduler.\n+Claude Managed Agents vaults now support\n+environment variable credentials\n+, so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables.\n+The\n+session.thread_*\n+webhook events now include a\n+session_thread_id\n+field identifying the multi-agent thread that triggered the event.\n+On Claude Opus 4.8, the\n+effort parameter\n+defaults to\n+high",
+    "snippet_full": "",
+    "diff": {
+      "added": 109,
+      "removed": 109,
+      "churn": 218
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 18 Jun 2026 02:52:21 GMT",
+    "run_at": "2026-06-18T02:52:10Z",
+    "run_id": "ceb00154950241b0b0da9f0caba043cc"
+  },
+  {
+    "id": "e321f2fa86c0a39f1d639a0129e95b47fd09e13d",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-          description: >\n-            The URL for the MCP server. One of `server_url` or `connector_id`\n-            must be\n-\n-            provided.\n+          description: |\n+            The URL for the MCP server. One of `server_url`, `connector_id`, or\n+            `tunnel_id` must be provided.\n-            `server_url` or `connector_id` must be provided. Learn more about\n-            service\n-\n-            connectors [here](/docs/guides/tools-remote-mcp#connectors).\n+            `server_url`, `connector_id`, or `tunnel_id` must be provided. Learn\n+            more\n+\n+            about service connectors\n+            [here](/docs/guides/tools-remote-mcp#connectors).\n+        tunnel_id:\n+          type: string\n+          pattern: ^tunnel_[a-z0-9]{32}$\n+          description: >\n+            The Secure MCP Tunnel ID to use instead of a direct server URL. One\n+            of\n+\n+            `server_url`, `connector_id`, or `tunnel_id` must be provided.\n+              description: >-\n+                Optional reference asset upload or reference object that guides\n+                generation. Provide exactly one of `image_url` or `file_id` when\n+                using an object.\n+              description: Reference to the completed video to edit.\n+              description: Reference to the completed video to extend.",
+    "snippet_full": "",
+    "diff": {
+      "added": 22,
+      "removed": 9,
+      "churn": 31
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 18 Jun 2026 02:52:20 GMT",
+    "run_at": "2026-06-18T02:52:10Z",
+    "run_id": "ceb00154950241b0b0da9f0caba043cc"
+  },
+  {
+    "id": "4315c4933ee656ae05cc5a201d0862243a3458e5",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry\n+link: https://openai.com/index/ai-chemist-improves-reaction\n+id: https://openai.com/index/ai-chemist-improves-reaction\n+date: Wed, 17 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing LifeSciBench\n+link: https://openai.com/index/introducing-life-sci-bench\n+id: https://openai.com/index/introducing-life-sci-bench\n+date: Wed, 17 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 18 Jun 2026 02:52:11 GMT",
+    "run_at": "2026-06-18T02:52:10Z",
+    "run_id": "ceb00154950241b0b0da9f0caba043cc"
+  },
+  {
+    "id": "370f7369f27c05debe687f5fcb0d2d7dbba0751f",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Product feeds",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 18 Jun 2026 02:52:11 GMT",
+    "run_at": "2026-06-18T02:52:10Z",
+    "run_id": "ceb00154950241b0b0da9f0caba043cc"
+  },
+  {
     "id": "71f8ef234fd074b36341b98a8cd5b7fc2a72ff1c",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -913,83 +991,5 @@
     "pubDate": "Fri, 22 May 2026 02:42:16 GMT",
     "run_at": "2026-05-22T02:41:56Z",
     "run_id": "0d1922949cd94059bdf8a2cf69f92c5a"
-  },
-  {
-    "id": "30bc4028648418a55b7c59e506205730da2835cf",
-    "impact": "Breaking",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Migration guide\n+Appshots\n+Migration guide",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 0,
-      "churn": 3
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 22 May 2026 02:42:16 GMT",
-    "run_at": "2026-05-22T02:41:56Z",
-    "run_id": "0d1922949cd94059bdf8a2cf69f92c5a"
-  },
-  {
-    "id": "5268bbe38cdc7a230f29a6cf1a1003f85e88fc73",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing OpenAI for Singapore\n+link: https://openai.com/index/introducing-openai-for-singapore\n+id: https://openai.com/index/introducing-openai-for-singapore\n+date: Tue, 19 May 2026 20:30:00 GMT\n+body:\n+#ITEM\n+title: An OpenAI model has disproved a central conjecture in discrete geometry\n+link: https://openai.com/index/model-disproves-discrete-geometry-conjecture\n+id: https://openai.com/index/model-disproves-discrete-geometry-conjecture\n+date: Wed, 20 May 2026 00:00:00 GMT\n+title: How Ramp engineers accelerate code review with Codex\n+link: https://openai.com/index/ramp",
-    "snippet_full": "+title: Introducing OpenAI for Singapore\n+link: https://openai.com/index/introducing-openai-for-singapore\n+id: https://openai.com/index/introducing-openai-for-singapore\n+date: Tue, 19 May 2026 20:30:00 GMT\n+body:\n+#ITEM\n+title: An OpenAI model has disproved a central conjecture in discrete geometry\n+link: https://openai.com/index/model-disproves-discrete-geometry-conjecture\n+id: https://openai.com/index/model-disproves-discrete-geometry-conjecture\n+date: Wed, 20 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Ramp engineers accelerate code review with Codex\n+link: https://openai.com/index/ramp\n+id: https://openai.com/index/ramp\n+date: Wed, 20 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: The next phase of OpenAI’s Education for Countries\n+link: https://openai.com/index/the-next-phase-of-education-for-countries\n+id: https://openai.com/index/the-next-phase-of-education-for-countries\n+date: Wed, 20 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 21 May 2026 02:40:32 GMT",
-    "run_at": "2026-05-21T02:40:31Z",
-    "run_id": "a04bc46081fe4205a3e9b4c2a3e4dcc6"
-  },
-  {
-    "id": "7795e6d933b9a15ad202cc37556321c870ebd894",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Secure MCP Tunnel\n+Secure MCP Tunnel\n+May 19\n+Feature\n+Released\n+Secure MCP Tunnel\n+for enterprise customers. Secure MCP Tunnel lets supported OpenAI products including ChatGPT web, Codex, Responses API, and AgentKit connect to private or on-prem MCP servers through a customer-hoste\n+tunnel-client\n+without exposing those servers to the public internet.\n+Initial GA is account-led rather than self-serve.",
-    "snippet_full": "",
-    "diff": {
-      "added": 10,
-      "removed": 0,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 21 May 2026 02:40:31 GMT",
-    "run_at": "2026-05-21T02:40:31Z",
-    "run_id": "a04bc46081fe4205a3e9b4c2a3e4dcc6"
-  },
-  {
-    "id": "5cad41ee31fc55c8f0e082770f74d3c0354ac777",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+May 19, 2026\n+MCP tunnels\n+is now available as a Research Preview, so you can connect to MCP servers in your private network.\n+Self-hosted sandboxes are now available for Claude Managed Agents, as an alternative to running tool execution in Anthropic's infrastructure. See\n+Self-hosted sandboxes\n+.\n+With Claude Managed Agents, you can now update the agent's MCP server and tool configurations associated with an active session.\n+With Claude Managed Agents, large outputs from\n+agent_toolset\n+and MCP tools exceeding 100K tokens are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there.\n-Vault credential background refresh is now supported for\n+Claude Managed Agents vault credential background refresh is now supported for\n-Additional filtering and sorting options are now supported. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.\n+Additional filtering and sorting options are now supported for Claude Managed Agents. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation ti\n+May 19, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 13,
-      "removed": 2,
-      "churn": 15
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 20 May 2026 02:38:36 GMT",
-    "run_at": "2026-05-20T02:38:27Z",
-    "run_id": "d5563ee5c0b74d4ab493734229e182cd"
   }
 ]
