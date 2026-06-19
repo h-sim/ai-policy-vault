@@ -127,6 +127,24 @@ respectively. Researchers can request ongoing access through the
 External Researcher Access Program
 .
 
+June 11, 2026
+The
+code execution tool
+now supports
+code_execution_20260521
+, which discloses the 90-second per-cell execution time limit in the tool description so Claude can budget long-running cells. No beta header is required.
+The
+web search tool
+and
+web fetch tool
+now support
+web_search_20260318
+and
+web_fetch_20260318
+, adding a
+response_inclusion
+parameter to drop consumed result blocks from the API response for agentic workflows. No beta header is required.
+
 June 10, 2026
 The
 GET /v1/environments/{id}/work
@@ -169,44 +187,10 @@ parameter (in beta on the Claude API and Claude Platform on AWS; not supported o
 Handling stop reasons
 .
 The
-stop_details.category
 field on refusal responses now includes
-"reasoning_extraction"
 on Claude Fable 5, returned when a request is blocked under Anthropic's Terms of Service restrictions on reverse engineering or duplicating model outputs. The existing
-"cyber"
 and
-"bio"
 categories are unchanged. No beta header is required.
-On Claude Fable 5 and Claude Mythos 5,
-adaptive thinking
-is the only thinking mode:
-thinking: {"type": "disabled"}
-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See
-Migrating from Claude Mythos Preview to Claude Mythos 5
-.
-On Claude Fable 5 and Claude Mythos 5,
-thinking.display
-defaults to
-"omitted"
-, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set
-display: "summarized"
-to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See
-Thinking output on Claude Fable 5 and Claude Mythos 5
-.
-Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See
-Model-specific data retention requirements
-.
-Claude Managed Agents now supports
-scheduled deployments
-, letting you run sessions on a cron schedule without managing your own scheduler.
-Claude Managed Agents vaults now support
-environment variable credentials
-, so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables.
-The
-session.thread_*
-webhook events now include a
-session_thread_id
-field identifying the multi-agent thread that triggered the event.
 
 June 5, 2026
 We announced the deprecation of the Claude Opus 4.1 model (
@@ -280,57 +264,6 @@ null
 ) and a human-readable
 explanation
 , so your application can route different classes of refusal to the right next step. No beta header is required.
-On Claude Opus 4.8, the
-effort parameter
-defaults to
-high
-across all surfaces, including Claude Code and the Messages API.
-On Claude Opus 4.8, the minimum cacheable prompt length for
-prompt caching
-is 1,024 tokens, lower than on Claude Opus 4.7.
-With
-adaptive thinking
-enabled, Claude Opus 4.8 triggers reasoning only when a turn needs it, reducing wasted thinking tokens compared to Claude Opus 4.7 at the same effort level.
-Claude Opus 4.8 supports
-high-resolution image input
-(up to 2576 pixels on the long edge), same as Claude Opus 4.7.
-Task budgets
-now support Claude Opus 4.8.
-The
-advisor tool
-now supports Claude Opus 4.8.
-Computer use
-now supports Claude Opus 4.8.
-Fast mode
-for Claude Opus 4.8 is available as a research preview on the Claude API only.
-Setting the sampling parameters
-temperature
-,
-top_p
-, or
-top_k
-to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the
-migration guide
-for details.
-In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the
-Claude Code documentation
-.
-In Claude Code, Max plan users now default to
-fast mode
-on Claude Opus 4.8. See the
-Claude Code documentation
-.
-In Claude Code, Workflows are available as a research preview, letting you define and run multi-step agentic plans. See the
-Claude Code documentation
-.
-We've deprecated
-fast mode
-for Claude Opus 4.6, with removal approximately 30 days after launch. Migrate to fast mode for Claude Opus 4.8 or Claude Opus 4.7. Read more in
-Fast mode
-.
-For updates to claude.ai, Cowork, Claude for Microsoft 365, and other Claude apps in this release, see the
-release notes for Claude Apps
-.
 
 May 27, 2026
 The Messages API response now includes
@@ -649,10 +582,7 @@ parameter. US-only inference is available at 1.1x pricing for models released af
 The
 1M token context window
 is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4.
-Long context pricing
 applies to requests exceeding 200k input tokens.
-Fine-grained tool streaming
-is now generally available on all models and platforms (no beta header required).
 
 January 29, 2026
 Structured outputs
@@ -1014,21 +944,6 @@ in public beta, a tool that enables Claude to execute Python code in a secure, s
 We've launched the
 MCP connector
 in public beta, a feature that allows you to connect to remote MCP servers directly from the Messages API.
-To increase answer quality and decrease tool errors, we've changed the default value for the
-top_p
-nucleus sampling
-parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set
-top_p
-to 0.999.
-Additionally, when extended thinking is enabled, you can now set
-top_p
-to values between 0.95 and 1.
-We've moved our
-Go SDK
-from beta to GA.
-We've included minute and hour level granularity to the
-Usage
-page of Console alongside 429 error rates on the Usage page.
 
 May 21, 2025
 We've moved our
@@ -1109,11 +1024,6 @@ bash_20250124
 : Same functionality as previous version but is independent from computer use. Does not require a beta header.
 text_editor_20250124
 : Same functionality as previous version but is independent from computer use. Does not require a beta header.
-computer_20250124
-: Updated computer use tool with new command options including "hold_key", "left_mouse_down", "left_mouse_up", "scroll", "triple_click", and "wait". This tool requires the "computer-use-2025-01-24" anthropic-beta header.
-Learn more in
-Tool use with Claude
-.
 
 February 10th, 2025
 We've added the
@@ -1332,6 +1242,7 @@ blog post
 
 
 June 15, 2026
+June 11, 2026
 June 10, 2026
 June 9, 2026
 June 5, 2026
@@ -1437,3 +1348,111 @@ June 27th, 2024
 June 20th, 2024
 May 30th, 2024
 May 10th, 2024
+stop_details.category
+"reasoning_extraction"
+"cyber"
+"bio"
+On Claude Fable 5 and Claude Mythos 5,
+adaptive thinking
+is the only thinking mode:
+thinking: {"type": "disabled"}
+is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See
+Migrating from Claude Mythos Preview to Claude Mythos 5
+.
+On Claude Fable 5 and Claude Mythos 5,
+thinking.display
+defaults to
+"omitted"
+, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set
+display: "summarized"
+to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See
+Thinking output on Claude Fable 5 and Claude Mythos 5
+.
+Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See
+Model-specific data retention requirements
+.
+Claude Managed Agents now supports
+scheduled deployments
+, letting you run sessions on a cron schedule without managing your own scheduler.
+Claude Managed Agents vaults now support
+environment variable credentials
+, so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables.
+The
+session.thread_*
+webhook events now include a
+session_thread_id
+field identifying the multi-agent thread that triggered the event.
+On Claude Opus 4.8, the
+effort parameter
+defaults to
+high
+across all surfaces, including Claude Code and the Messages API.
+On Claude Opus 4.8, the minimum cacheable prompt length for
+prompt caching
+is 1,024 tokens, lower than on Claude Opus 4.7.
+With
+adaptive thinking
+enabled, Claude Opus 4.8 triggers reasoning only when a turn needs it, reducing wasted thinking tokens compared to Claude Opus 4.7 at the same effort level.
+Claude Opus 4.8 supports
+high-resolution image input
+(up to 2576 pixels on the long edge), same as Claude Opus 4.7.
+Task budgets
+now support Claude Opus 4.8.
+The
+advisor tool
+now supports Claude Opus 4.8.
+Computer use
+now supports Claude Opus 4.8.
+Fast mode
+for Claude Opus 4.8 is available as a research preview on the Claude API only.
+Setting the sampling parameters
+temperature
+,
+top_p
+, or
+top_k
+to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the
+migration guide
+for details.
+In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the
+Claude Code documentation
+.
+In Claude Code, Max plan users now default to
+fast mode
+on Claude Opus 4.8. See the
+Claude Code documentation
+.
+In Claude Code, Workflows are available as a research preview, letting you define and run multi-step agentic plans. See the
+Claude Code documentation
+.
+We've deprecated
+fast mode
+for Claude Opus 4.6, with removal approximately 30 days after launch. Migrate to fast mode for Claude Opus 4.8 or Claude Opus 4.7. Read more in
+Fast mode
+.
+For updates to claude.ai, Cowork, Claude for Microsoft 365, and other Claude apps in this release, see the
+release notes for Claude Apps
+.
+Long context pricing
+Fine-grained tool streaming
+is now generally available on all models and platforms (no beta header required).
+To increase answer quality and decrease tool errors, we've changed the default value for the
+top_p
+nucleus sampling
+parameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, set
+top_p
+to 0.999.
+Additionally, when extended thinking is enabled, you can now set
+top_p
+to values between 0.95 and 1.
+We've moved our
+Go SDK
+from beta to GA.
+We've included minute and hour level granularity to the
+Usage
+page of Console alongside 429 error rates on the Usage page.
+computer_20250124
+: Updated computer use tool with new command options including "hold_key", "left_mouse_down", "left_mouse_up", "scroll", "triple_click", and "wait". This tool requires the "computer-use-2025-01-24" anthropic-beta header.
+Learn more in
+Tool use with Claude
+.

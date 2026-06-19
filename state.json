@@ -1,5 +1,66 @@
 [
   {
+    "id": "a1d941da60e018cb200b6506b3246e60bb7e82a8",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+June 11, 2026\n+The\n+code execution tool\n+now supports\n+code_execution_20260521\n+, which discloses the 90-second per-cell execution time limit in the tool description so Claude can budget long-running cells. No beta header is required.\n+The\n+web search tool\n+and\n+web fetch tool\n+now support\n+web_search_20260318\n+and\n+web_fetch_20260318\n+, adding a\n+response_inclusion\n+parameter to drop consumed result blocks from the API response for agentic workflows. No beta header is required.\n+\n-stop_details.category\n-\"reasoning_extraction\"\n-\"cyber\"\n-and\n-\"bio\"\n+and\n-On Claude Fable 5 and Claude Mythos 5,\n-adaptive thinking\n-is the only thinking mode:\n-thinking: {\"type\": \"disabled\"}\n-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n-Migrating from Claude Mythos Preview to Claude Mythos 5\n-.\n-On Claude Fable 5 and Claude Mythos 5,\n-thinking.display\n-defaults to\n-\"omitted\"\n-, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n-display: \"summarized\"\n-to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See\n-Thinking output on Claude Fable 5 and Claude Mythos 5\n-.",
+    "snippet_full": "",
+    "diff": {
+      "added": 128,
+      "removed": 109,
+      "churn": 237
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 19 Jun 2026 03:38:40 GMT",
+    "run_at": "2026-06-19T03:38:32Z",
+    "run_id": "8df1a262c7bf43bd87821a413821ff02"
+  },
+  {
+    "id": "c52bba596c7acf1487dc35be2f6760239e35ab64",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: New usage analytics and updated spend controls for enterprises\n+link: https://openai.com/index/chatgpt-enterprise-spend-controls\n+id: https://openai.com/index/chatgpt-enterprise-spend-controls\n+date: Thu, 18 Jun 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Using AI to help physicians diagnose rare genetic diseases affecting children\n+link: https://openai.com/index/diagnose-rare-childhood-diseases\n+id: https://openai.com/index/diagnose-rare-childhood-diseases\n+date: Thu, 18 Jun 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Improving health intelligence in ChatGPT\n+link: https://openai.com/index/improving-health-intelligence-in-chatgpt\n+id: https://openai.com/index/improving-health-intelligence-in-chatgpt\n+date: Thu, 18 Jun 2026 11:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 19 Jun 2026 03:38:33 GMT",
+    "run_at": "2026-06-19T03:38:32Z",
+    "run_id": "8df1a262c7bf43bd87821a413821ff02"
+  },
+  {
+    "id": "a2f5a44ecc398187febef3891ac3a9a893abd566",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Quickstart\n+Run a security scan\n+Run a deep scan\n+Review code changes\n+Triage a backlog\n+Fix findings\n+Export and track findings\n+Changelog\n+Overview\n+Record & Replay",
+    "snippet_full": "",
+    "diff": {
+      "added": 10,
+      "removed": 0,
+      "churn": 10
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 19 Jun 2026 03:38:33 GMT",
+    "run_at": "2026-06-19T03:38:32Z",
+    "run_id": "8df1a262c7bf43bd87821a413821ff02"
+  },
+  {
     "id": "ea12706f3cf6474136a3371bb5d5bc3c693aa7c0",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -929,67 +990,5 @@
     "pubDate": "Tue, 26 May 2026 02:34:57 GMT",
     "run_at": "2026-05-26T02:34:57Z",
     "run_id": "138ff2c9e81d4f4aa2359ffedb230694"
-  },
-  {
-    "id": "44cf432cc9e9a6bcc981a23edd13d2f41fd3a7e5",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: OpenAI’s comments to the NTIA on data center growth, resilience, and security\n-link: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security\n-id: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security\n-title: OpenAI Full Fan Mode Contest: Terms & Conditions\n-link: https://openai.com/index/full-fan-mode-contest-terms-conditions\n-id: https://openai.com/index/full-fan-mode-contest-terms-conditions\n-date: Mon, 04 Nov 2024 12:00:00 GMT\n-body:\n-#ITEM\n-title: OpenAI’s proposals for the U.S. AI Action Plan\n-link: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan\n-id: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan",
-    "snippet_full": "-title: OpenAI’s comments to the NTIA on data center growth, resilience, and security\n-link: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security\n-id: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security\n-date: Mon, 04 Nov 2024 12:00:00 GMT\n-body:\n-#ITEM\n-title: OpenAI’s proposals for the U.S. AI Action Plan\n-link: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan\n-id: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan\n-date: Thu, 13 Mar 2025 03:00:00 GMT\n-body:\n-#ITEM\n-title: The power of personalized AI\n-link: https://openai.com/global-affairs/the-power-of-personalized-ai\n-id: https://openai.com/global-affairs/the-power-of-personalized-ai\n-date: Fri, 17 Jan 2025 13:00:00 GMT\n-body:\n-#ITEM\n-title: OpenAI Full Fan Mode Contest: Terms & Conditions\n-link: https://openai.com/index/full-fan-mode-contest-terms-conditions\n-id: https://openai.com/index/full-fan-mode-contest-terms-conditions\n-date: Thu, 09 Apr 2026 00:00:00 GMT\n-body:\n-#ITEM\n+title: OpenAI named a Leader in enterprise coding agents by Gartner\n+link: https://openai.com/index/gartner-2026-agentic-coding-leader\n+id: https://openai.com/index/gartner-2026-agentic-coding-leader\n+date: Fri, 22 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Our approach to mental health-related litigation\n-link: https://openai.com/index/mental-health-litigation-approach\n-id: https://openai.com/index/mental-health-litigation-approach\n-date: Tue, 25 Nov 2025 12:00:00 GMT\n-body:\n-#ITEM\n+title: How Virgin Atlantic ships faster with Codex\n+link: https://openai.com/index/virgin-atlantic\n+id: https://openai.com/index/virgin-atlantic\n+date: Fri, 22 May 2026 00:00:00 GMT",
-    "diff": {
-      "added": 12,
-      "removed": 36,
-      "churn": 48
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 23 May 2026 02:27:41 GMT",
-    "run_at": "2026-05-23T02:27:21Z",
-    "run_id": "52c63f6f64964111abfe94c796ca19cb"
-  },
-  {
-    "id": "0fdd20db8dfbd7fd9eae1775eec439134770a2c7",
-    "impact": "Breaking",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+  /organization/data_retention:\n+    get:\n+      security:\n+        - AdminApiKeyAuth: []\n+      summary: Retrieves organization data retention controls.\n+      operationId: retrieve-organization-data-retention\n+      tags:\n+        - Data retention\n+      responses:\n+        '200':\n+          description: Organization data retention controls retrieved successfully.\n+          content:\n+            application/json:\n+              schema:\n+                $ref: '#/components/schemas/OrganizationDataRetention'\n+      x-oaiMeta:\n+        name: Retrieve organization data retention\n+        group: administration\n+        examples:\n+          request:\n+            curl: |\n+              curl https://api.openai.com/v1/organization/data_retention \\\n+                -H \"Authorization: Bearer $OPENAI_ADMIN_KEY\" \\\n+                -H \"Content-Type: application/json\"\n+            node.js: >-\n+              import OpenAI from 'openai';\n+\n+\n+              const client = new OpenAI({\n+                adminAPIKey: process.env['OPENAI_ADMIN_KEY'], // This is the default and can be omitted\n+              });\n+\n+\n+              const organizationDataRetention = await\n+              client.admin.organization.dataRetention.retrieve();\n+\n+\n+              console.log(organizationDataRetention.object);\n+            python: >-\n+              import os",
-    "snippet_full": "",
-    "diff": {
-      "added": 3242,
-      "removed": 3,
-      "churn": 3245
-    },
-    "score": 80,
-    "reasons": [
-      "OpenAPI: servers.url変更",
-      "OpenAPI: security変更"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 22 May 2026 02:42:49 GMT",
-    "run_at": "2026-05-22T02:41:56Z",
-    "run_id": "0d1922949cd94059bdf8a2cf69f92c5a"
-  },
-  {
-    "id": "d96aa5fcf5b73995c9f8c3d42df53f7b87f0cbaa",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: AdventHealth advances whole-person care with OpenAI\n+link: https://openai.com/index/adventhealth\n+id: https://openai.com/index/adventhealth\n+date: Thu, 21 May 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 22 May 2026 02:42:16 GMT",
-    "run_at": "2026-05-22T02:41:56Z",
-    "run_id": "0d1922949cd94059bdf8a2cf69f92c5a"
   }
 ]

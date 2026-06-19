@@ -1031,6 +1031,12 @@ id: https://openai.com/index/chatgpt-can-now-see-hear-and-speak
 date: Mon, 25 Sep 2023 07:00:00 GMT
 body:
 #ITEM
+title: New usage analytics and updated spend controls for enterprises
+link: https://openai.com/index/chatgpt-enterprise-spend-controls
+id: https://openai.com/index/chatgpt-enterprise-spend-controls
+date: Thu, 18 Jun 2026 17:00:00 GMT
+body:
+#ITEM
 title: Introducing ChatGPT for Excel and new financial data integrations
 link: https://openai.com/index/chatgpt-for-excel
 id: https://openai.com/index/chatgpt-for-excel
@@ -1509,6 +1515,12 @@ title: Developers can now submit apps to ChatGPT
 link: https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
 id: https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
 date: Wed, 17 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Using AI to help physicians diagnose rare genetic diseases affecting children
+link: https://openai.com/index/diagnose-rare-childhood-diseases
+id: https://openai.com/index/diagnose-rare-childhood-diseases
+date: Thu, 18 Jun 2026 08:00:00 GMT
 body:
 #ITEM
 title: Building agricultural database for farmers
@@ -2613,6 +2625,12 @@ title: Improving GANs using optimal transport
 link: https://openai.com/index/improving-gans-using-optimal-transport
 id: https://openai.com/index/improving-gans-using-optimal-transport
 date: Thu, 15 Mar 2018 07:00:00 GMT
+body:
+#ITEM
+title: Improving health intelligence in ChatGPT
+link: https://openai.com/index/improving-health-intelligence-in-chatgpt
+id: https://openai.com/index/improving-health-intelligence-in-chatgpt
+date: Thu, 18 Jun 2026 11:00:00 GMT
 body:
 #ITEM
 title: Improving language model behavior by training on a curated dataset

@@ -280,6 +280,14 @@ Linear
 Codex Security
 Overview
 Codex Security plugin
+Quickstart
+Run a security scan
+Run a deep scan
+Review code changes
+Triage a backlog
+Fix findings
+Export and track findings
+Changelog
 Codex Security cloud
 Setup
 Improving the threat model
@@ -302,6 +310,8 @@ Overview
 Build plugins
 Sites
 Skills
+Overview
+Record & Replay
 Subagents
 Administration
 Authentication
