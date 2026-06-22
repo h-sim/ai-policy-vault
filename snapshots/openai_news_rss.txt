@@ -5003,6 +5003,12 @@ id: https://openai.com/index/samsung-and-sk-join-stargate
 date: Wed, 01 Oct 2025 03:00:00 GMT
 body:
 #ITEM
+title: Samsung Electronics brings ChatGPT and Codex to employees
+link: https://openai.com/index/samsung-electronics-chatgpt-codex-deployment
+id: https://openai.com/index/samsung-electronics-chatgpt-codex-deployment
+date: Sun, 21 Jun 2026 23:00:00 GMT
+body:
+#ITEM
 title: The San Antonio Spurs use ChatGPT to scale impact on and off the court
 link: https://openai.com/index/san-antonio-spurs
 id: https://openai.com/index/san-antonio-spurs
