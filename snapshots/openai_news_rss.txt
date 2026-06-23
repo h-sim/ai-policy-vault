@@ -1181,6 +1181,12 @@ id: https://openai.com/index/codex-for-knowledge-work
 date: Tue, 02 Jun 2026 02:00:00 GMT
 body:
 #ITEM
+title: Codex-maxxing for long-running work
+link: https://openai.com/index/codex-maxxing-long-running-work
+id: https://openai.com/index/codex-maxxing-long-running-work
+date: Mon, 22 Jun 2026 00:00:00 GMT
+body:
+#ITEM
 title: Codex is now generally available
 link: https://openai.com/index/codex-now-generally-available
 id: https://openai.com/index/codex-now-generally-available
@@ -1413,6 +1419,12 @@ title: Datadog uses Codex for system-level code review
 link: https://openai.com/index/datadog
 id: https://openai.com/index/datadog
 date: Fri, 09 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: Daybreak: Tools for securing every organization in the world
+link: https://openai.com/index/daybreak-securing-the-world
+id: https://openai.com/index/daybreak-securing-the-world
+date: Mon, 22 Jun 2026 10:00:00 GMT
 body:
 #ITEM
 title: AI safety via debate
@@ -4653,6 +4665,12 @@ title: Partnership with American Journalism Project to support local news
 link: https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news
 id: https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news
 date: Tue, 18 Jul 2023 07:00:00 GMT
+body:
+#ITEM
+title: Patch the Planet: a Daybreak initiative to support open source maintainers
+link: https://openai.com/index/patch-the-planet
+id: https://openai.com/index/patch-the-planet
+date: Mon, 22 Jun 2026 10:00:00 GMT
 body:
 #ITEM
 title: A People-First AI Fund: $50M to support nonprofits

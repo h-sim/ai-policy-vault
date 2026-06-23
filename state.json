@@ -1,5 +1,24 @@
 [
   {
+    "id": "1320a5ba6061340b25c23b0001ffc4e2d6c02b23",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Codex-maxxing for long-running work\n+link: https://openai.com/index/codex-maxxing-long-running-work\n+id: https://openai.com/index/codex-maxxing-long-running-work\n+date: Mon, 22 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Daybreak: Tools for securing every organization in the world\n+link: https://openai.com/index/daybreak-securing-the-world\n+id: https://openai.com/index/daybreak-securing-the-world\n+date: Mon, 22 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Patch the Planet: a Daybreak initiative to support open source maintainers\n+link: https://openai.com/index/patch-the-planet\n+id: https://openai.com/index/patch-the-planet\n+date: Mon, 22 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 23 Jun 2026 02:36:27 GMT",
+    "run_at": "2026-06-23T02:36:26Z",
+    "run_id": "b228a0751aac4a98abaaf8ebeaad6473"
+  },
+  {
     "id": "52caaaa2b72f06cc615924023f4883fbe285d3f6",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -973,24 +992,5 @@
     "pubDate": "Fri, 29 May 2026 02:36:37 GMT",
     "run_at": "2026-05-29T02:36:15Z",
     "run_id": "7b9986f51f464461a1dc0ecb8f9c475e"
-  },
-  {
-    "id": "399abc828e0db25b5eaa351e24df5f44bc251560",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How to use Codex for everyday work\n+link: https://openai.com/academy/how-to-use-codex-for-everyday-work\n+id: https://openai.com/academy/how-to-use-codex-for-everyday-work\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Top 10 uses for Codex at work\n-link: https://openai.com/academy/top-10-use-cases-codex-for-work\n-id: https://openai.com/academy/top-10-use-cases-codex-for-work\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n-body:\n-#ITEM",
-    "snippet_full": "+title: How to use Codex for everyday work\n+link: https://openai.com/academy/how-to-use-codex-for-everyday-work\n+id: https://openai.com/academy/how-to-use-codex-for-everyday-work\n+date: Thu, 23 Apr 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: Top 10 uses for Codex at work\n-link: https://openai.com/academy/top-10-use-cases-codex-for-work\n-id: https://openai.com/academy/top-10-use-cases-codex-for-work\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n-body:\n-#ITEM\n+title: Building self-improving tax agents with Codex\n+link: https://openai.com/index/building-self-improving-tax-agents-with-codex\n+id: https://openai.com/index/building-self-improving-tax-agents-with-codex\n+date: Wed, 27 May 2026 07:00:00 GMT\n+body:\n+#ITEM\n-title: Cisco and OpenAI redefine enterprise engineering with AI agents\n+title: Cisco and OpenAI redefine enterprise engineering with Codex\n-date: Tue, 20 Jan 2026 11:00:00 GMT\n+date: Wed, 27 May 2026 11:00:00 GMT\n+title: Election information and safeguards in 2026\n+link: https://openai.com/index/election-safeguards-2026\n+id: https://openai.com/index/election-safeguards-2026\n+date: Wed, 27 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Warp’s big bet on building open source with GPT-5.5\n+link: https://openai.com/index/warp\n+id: https://openai.com/index/warp\n+date: Wed, 27 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 26,
-      "removed": 8,
-      "churn": 34
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 28 May 2026 02:32:04 GMT",
-    "run_at": "2026-05-28T02:32:03Z",
-    "run_id": "1f1d0b282d884f37bf3674e5c4de7fcf"
   }
 ]
