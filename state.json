@@ -1,5 +1,64 @@
 [
   {
+    "id": "ea42e76d685f3943455d60667fedf6785c753ee7",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+We've released a\n+Swift package\n+in beta that adds Claude as a server-side\n+LanguageModel\n+in Apple's Foundation Models framework. Call Claude through the same\n+LanguageModelSession\n+API as Apple's on-device model on iOS 27, macOS 27, visionOS 27, and watchOS 27 (beta).\n+Dreams\n+for Claude Managed Agents are now available as a research preview. A dream reads an existing memory store alongside past session transcripts and produces a reorganized output memory store with duplic\n+dreaming-2026-04-21\n+beta header in addition to the standard\n+managed-agents-2026-04-01\n+header.\n+Request access\n+to try it.\n+\n+May 4, 2026\n+Workload Identity Federation\n+is now generally available. Authenticate workloads to the Claude API with short-lived OIDC tokens from your own identity provider (AWS IAM, Google Cloud, GitHub Actions, Kubernetes, Microsoft Entra I\n+Authentication\n+.\n+\n+April 29, 2026\n+We've released the\n+Claude API skill\n+, an open-source\n+Agent Skill\n+that gives Claude up-to-date reference material for building on the Messages API and Claude Managed Agents across 8 languages. The skill is bundled with Claude Code and available in the\n+Anthropic skills repository\n+.\n+We've launched\n+task budgets\n+in beta on Claude Opus 4.7. Give Claude an advisory token budget for a full agentic loop (thinking, tool calls, tool results, and output) and the model sees a running countdown, using it to prioritiz\n+task-budgets-2026-03-13\n+beta header in your requests.\n+Claude Opus 4.7 supports\n+high-resolution image input\n+, raising the maximum image resolution from 1568 to 2576 pixels on the long edge for improved performance on computer use, screenshot understanding, and document analysis. High-resolution support is \n+We've added the\n+xhigh",
+    "snippet_full": "",
+    "diff": {
+      "added": 50,
+      "removed": 0,
+      "churn": 50
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 24 Jun 2026 02:37:13 GMT",
+    "run_at": "2026-06-24T02:37:05Z",
+    "run_id": "ed5e92f9cc444c9a93a60b510f223035"
+  },
+  {
+    "id": "cff6987317110500ee9ca7beffb5bb753c3a00b6",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery\n+link: https://openai.com/index/gpt-5-immunology-mystery\n+id: https://openai.com/index/gpt-5-immunology-mystery\n+date: Tue, 23 Jun 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Helping build shared standards for advanced AI\n+link: https://openai.com/index/helping-build-shared-standards-for-advanced-ai\n+id: https://openai.com/index/helping-build-shared-standards-for-advanced-ai\n+date: Tue, 23 Jun 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: How Omio is building the future of conversational travel\n+link: https://openai.com/index/omio\n+id: https://openai.com/index/omio\n+date: Tue, 23 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 24 Jun 2026 02:37:06 GMT",
+    "run_at": "2026-06-24T02:37:05Z",
+    "run_id": "ed5e92f9cc444c9a93a60b510f223035"
+  },
+  {
+    "id": "d433b7a38462480c38c5669e7b329b017eb4d1cd",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Mastering Codex Remote for engineering\n-Building frontend UIs with Codex and Figma\n+Mastering Codex Remote for engineering\n-Building frontend UIs with Codex and Figma",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 24 Jun 2026 02:37:05 GMT",
+    "run_at": "2026-06-24T02:37:05Z",
+    "run_id": "ed5e92f9cc444c9a93a60b510f223035"
+  },
+  {
     "id": "1320a5ba6061340b25c23b0001ffc4e2d6c02b23",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -930,67 +989,5 @@
     "pubDate": "Sat, 30 May 2026 02:30:31 GMT",
     "run_at": "2026-05-30T02:30:30Z",
     "run_id": "db695e2f3e994517b32b3c596148c5ad"
-  },
-  {
-    "id": "85c4c6a32fa0bb69afd61835ff04a35cda0c91cb",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+May 28, 2026\n+We've launched\n+Claude Opus 4.8\n+(\n+claude-opus-4-8\n+), our most capable generally available model.\n+Claude Opus 4.8\n+supports a\n+1M token context window\n+by default, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n+What's new in\n+Claude Opus 4.8\n+for capability improvements, new features, and migration guidance.\n+We've launched\n+mid-conversation system messages\n+. On\n+Claude Opus 4.8\n+, you can send\n+role: \"system\"\n+messages at non-first positions in the\n+messages\n+array, preserving prompt cache hits when instructions change during a long-running session. No beta header is required.\n+The Messages API now returns refusal categories in\n+stop_details\n+when\n+Claude Opus 4.8\n+declines a request, so your application can route different classes of refusal to the right next step. No beta header is required. See\n+Refusal categories\n+.\n+On\n+Claude Opus 4.8\n+, the\n+effort parameter\n+defaults to\n+high\n+across all surfaces, including Claude Code and the Messages API.\n+On\n+Claude Opus 4.8\n+, the minimum cacheable prompt length for\n+prompt caching",
-    "snippet_full": "",
-    "diff": {
-      "added": 101,
-      "removed": 0,
-      "churn": 101
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 29 May 2026 02:37:04 GMT",
-    "run_at": "2026-05-29T02:36:15Z",
-    "run_id": "7b9986f51f464461a1dc0ecb8f9c475e"
-  },
-  {
-    "id": "6fa0234de9ae6c96ce513bd0379383fa7ff158db",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How Endava builds an agentic organization with Codex\n+link: https://openai.com/index/endava\n+id: https://openai.com/index/endava\n+date: Thu, 28 May 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI’s Frontier Governance Framework\n+link: https://openai.com/index/openai-frontier-governance-framework\n+id: https://openai.com/index/openai-frontier-governance-framework\n+date: Thu, 28 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 29 May 2026 02:36:37 GMT",
-    "run_at": "2026-05-29T02:36:15Z",
-    "run_id": "7b9986f51f464461a1dc0ecb8f9c475e"
-  },
-  {
-    "id": "c8b8458f3fdaa0cdadc1cde8a7f48273c0aaccdb",
-    "impact": "High",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Codex Security plugin\n+Codex Security cloud\n+May 28\n+Update\n+chat-latest\n+Released\n+chat-latest\n+snapshot which points to the latest Instant model currently used in ChatGPT. We recommend leveraging\n+GPT-5.5\n+for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more\n+here\n+.\n+May 26\n+Update\n+Added new\n+Admin API\n+capabilities for managing spend alerts, model allowlists, data retention settings, and hosted tool permissions, plus querying granular billing line items.\n+May 19\n+Update\n+You can now manage multiple IP allowlists and apply each one at the project level or across the whole organization. To configure them, go to\n+Settings > Security > IP allowlist\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 22,
-      "removed": 0,
-      "churn": 22
-    },
-    "score": 60,
-    "reasons": [
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 29 May 2026 02:36:37 GMT",
-    "run_at": "2026-05-29T02:36:15Z",
-    "run_id": "7b9986f51f464461a1dc0ecb8f9c475e"
   }
 ]

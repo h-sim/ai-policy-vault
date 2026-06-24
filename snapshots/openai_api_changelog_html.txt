@@ -337,8 +337,8 @@ Best practices
 Videos
 Community
 Blog
+Mastering Codex Remote for engineering
 Using skills to accelerate OSS maintenance
-Building frontend UIs with Codex and Figma
 View all
 Cookbooks
 Build an Agent Improvement Loop with Traces, Evals, and Codex
@@ -433,11 +433,11 @@ API examples
 Sites
 All posts
 Recent
+Mastering Codex Remote for engineering
 How Perplexity Brought Voice Search to Millions Using the Realtime API
 Designing delightful frontends with GPT-5.4
 From prompts to products: One year of Responses
 Using skills to accelerate OSS maintenance
-Building frontend UIs with Codex and Figma
 Topics
 General
 API

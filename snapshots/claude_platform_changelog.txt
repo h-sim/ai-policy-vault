@@ -225,6 +225,13 @@ session.thread_*
 webhook events now include a
 session_thread_id
 field identifying the multi-agent thread that triggered the event.
+We've released a
+Swift package
+in beta that adds Claude as a server-side
+LanguageModel
+in Apple's Foundation Models framework. Call Claude through the same
+LanguageModelSession
+API as Apple's on-device model on iOS 27, macOS 27, visionOS 27, and watchOS 27 (beta).
 
 June 5, 2026
 We announced the deprecation of the Claude Opus 4.1 model (
@@ -419,6 +426,20 @@ Webhooks for Claude Managed Agents are now supported. Webhook event types includ
 Subscribe to webhooks
 .
 Additional filtering and sorting options are now supported for Claude Managed Agents. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.
+Dreams
+for Claude Managed Agents are now available as a research preview. A dream reads an existing memory store alongside past session transcripts and produces a reorganized output memory store with duplicates merged, stale entries replaced, and new insights surfaced. Dreams require the
+dreaming-2026-04-21
+beta header in addition to the standard
+managed-agents-2026-04-01
+header.
+Request access
+to try it.
+
+May 4, 2026
+Workload Identity Federation
+is now generally available. Authenticate workloads to the Claude API with short-lived OIDC tokens from your own identity provider (AWS IAM, Google Cloud, GitHub Actions, Kubernetes, Microsoft Entra ID, Okta, SPIFFE, and more) instead of long-lived static API keys. Configure issuers and federation rules in the Claude Console, and the SDK handles token exchange and refresh automatically. See
+Authentication
+.
 
 April 30, 2026
 We've retired the 1M token context window beta (
@@ -428,6 +449,15 @@ Claude Sonnet 4.6
 or
 Claude Opus 4.6
 , where it's generally available at standard pricing with no beta header required.
+
+April 29, 2026
+We've released the
+Claude API skill
+, an open-source
+Agent Skill
+that gives Claude up-to-date reference material for building on the Messages API and Claude Managed Agents across 8 languages. The skill is bundled with Claude Code and available in the
+Anthropic skills repository
+.
 
 April 24, 2026
 We've released the
@@ -460,6 +490,24 @@ Claude in Amazon Bedrock
 is now open to all Amazon Bedrock customers. Claude Opus 4.7 and Claude Haiku 4.5 are available self-serve from the Bedrock console through the Messages API endpoint at
 /anthropic/v1/messages
 , in 27 AWS regions with global and regional endpoints.
+We've launched
+task budgets
+in beta on Claude Opus 4.7. Give Claude an advisory token budget for a full agentic loop (thinking, tool calls, tool results, and output) and the model sees a running countdown, using it to prioritize work and finish gracefully as the budget is consumed. Include the
+task-budgets-2026-03-13
+beta header in your requests.
+Claude Opus 4.7 supports
+high-resolution image input
+, raising the maximum image resolution from 1568 to 2576 pixels on the long edge for improved performance on computer use, screenshot understanding, and document analysis. High-resolution support is automatic and requires no beta header; images may use up to approximately 3x more image tokens than on prior models.
+We've added the
+xhigh
+effort
+level on Claude Opus 4.7.
+xhigh
+sits between
+high
+and
+max
+and is tuned for long-running agentic and coding tasks (over 30 minutes) with token budgets in the millions. No beta header is required.
 
 April 14, 2026
 We announced the deprecation of the Claude Sonnet 4 model (
@@ -1364,7 +1412,9 @@ May 13, 2026
 May 12, 2026
 May 11, 2026
 May 6, 2026
+May 4, 2026
 April 30, 2026
+April 29, 2026
 April 24, 2026
 April 23, 2026
 April 20, 2026

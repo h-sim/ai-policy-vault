@@ -2327,6 +2327,12 @@ id: https://openai.com/index/gpt-5-first-look
 date: Thu, 07 Aug 2025 00:00:00 GMT
 body:
 #ITEM
+title: How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery
+link: https://openai.com/index/gpt-5-immunology-mystery
+id: https://openai.com/index/gpt-5-immunology-mystery
+date: Tue, 23 Jun 2026 17:00:00 GMT
+body:
+#ITEM
 title: GPT-5 lowers the cost of cell-free protein synthesis
 link: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost
 id: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost
@@ -2493,6 +2499,12 @@ title: Hello GPT-4o
 link: https://openai.com/index/hello-gpt-4o
 id: https://openai.com/index/hello-gpt-4o
 date: Mon, 13 May 2024 10:05:00 GMT
+body:
+#ITEM
+title: Helping build shared standards for advanced AI
+link: https://openai.com/index/helping-build-shared-standards-for-advanced-ai
+id: https://openai.com/index/helping-build-shared-standards-for-advanced-ai
+date: Tue, 23 Jun 2026 13:00:00 GMT
 body:
 #ITEM
 title: Helping disaster response teams turn AI into action across Asia
@@ -3957,6 +3969,12 @@ title: Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator
 link: https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3
 id: https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3
 date: Fri, 23 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: How Omio is building the future of conversational travel
+link: https://openai.com/index/omio
+id: https://openai.com/index/omio
+date: Tue, 23 Jun 2026 00:00:00 GMT
 body:
 #ITEM
 title: On first-order meta-learning algorithms
