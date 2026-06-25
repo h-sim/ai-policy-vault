@@ -4175,6 +4175,12 @@ id: https://openai.com/index/openai-board-forms-safety-and-security-committee
 date: Tue, 28 May 2024 03:00:00 GMT
 body:
 #ITEM
+title: OpenAI and Broadcom unveil LLM-optimized inference chip
+link: https://openai.com/index/openai-broadcom-jalapeno-inference-chip
+id: https://openai.com/index/openai-broadcom-jalapeno-inference-chip
+date: Wed, 24 Jun 2026 06:00:00 GMT
+body:
+#ITEM
 title: OpenAI Campus Network: Student club interest form
 link: https://openai.com/index/openai-campus-network-student-club-interest-form
 id: https://openai.com/index/openai-campus-network-student-club-interest-form

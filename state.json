@@ -1,5 +1,64 @@
 [
   {
+    "id": "13846a767129dd7c63707c3ef1df6d1c65643b51",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-stop_details.category\n-\"reasoning_extraction\"\n-\"cyber\"\n-and\n-\"bio\"\n+and\n-On Claude Fable 5 and Claude Mythos 5,\n-adaptive thinking\n-is the only thinking mode:\n-thinking: {\"type\": \"disabled\"}\n-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n-Migrating from Claude Mythos Preview to Claude Mythos 5\n-.\n-On Claude Fable 5 and Claude Mythos 5,\n-thinking.display\n-defaults to\n-\"omitted\"\n-, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n-display: \"summarized\"\n-to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See\n-Thinking output on Claude Fable 5 and Claude Mythos 5\n-.\n-Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See\n-Model-specific data retention requirements\n-.\n-Claude Managed Agents now supports\n-scheduled deployments\n-, letting you run sessions on a cron schedule without managing your own scheduler.\n-Claude Managed Agents vaults now support\n-environment variable credentials\n-, so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables.\n-The\n-session.thread_*\n-webhook events now include a\n-session_thread_id\n-field identifying the multi-agent thread that triggered the event.\n-We've released a\n-Swift package\n-in beta that adds Claude as a server-side\n-LanguageModel",
+    "snippet_full": "",
+    "diff": {
+      "added": 122,
+      "removed": 122,
+      "churn": 244
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 25 Jun 2026 02:38:13 GMT",
+    "run_at": "2026-06-25T02:38:04Z",
+    "run_id": "4c44cbdf138f4ec8bfc966b84b001ab5"
+  },
+  {
+    "id": "dba37b620c94bb975eabe557ca4561128bb684e4",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI and Broadcom unveil LLM-optimized inference chip\n+link: https://openai.com/index/openai-broadcom-jalapeno-inference-chip\n+id: https://openai.com/index/openai-broadcom-jalapeno-inference-chip\n+date: Wed, 24 Jun 2026 06:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 25 Jun 2026 02:38:05 GMT",
+    "run_at": "2026-06-25T02:38:04Z",
+    "run_id": "4c44cbdf138f4ec8bfc966b84b001ab5"
+  },
+  {
+    "id": "695932bc5734d36bc7b2b951fbc1405bad402810",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Image tag\n+Jun 24\n+Update\n+chat-latest\n+Updated the\n+chat-latest\n+snapshot, which points to the latest Instant model currently used in ChatGPT. We recommend leveraging\n+GPT-5.5\n+for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more\n+here\n+.\n+Jun 23\n+Feature\n+Released the Safety Usage Dashboard on the OpenAI API platform. The Safety dashboard shows blocked Responses requests based on\n+safety_identifier\n+values sent on requests to identify end users. Visit the\n+Safety dashboard\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 25 Jun 2026 02:38:04 GMT",
+    "run_at": "2026-06-25T02:38:04Z",
+    "run_id": "4c44cbdf138f4ec8bfc966b84b001ab5"
+  },
+  {
     "id": "ea42e76d685f3943455d60667fedf6785c753ee7",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -928,66 +987,5 @@
     "pubDate": "Mon, 01 Jun 2026 02:55:31 GMT",
     "run_at": "2026-06-01T02:55:31Z",
     "run_id": "2d65daddd1b440e1b2c510ca39a32e03"
-  },
-  {
-    "id": "f13605ef9703e32ef26f348ab11eec59d25047eb",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+May 29, 2026\n+Claude Managed Agents\n+webhooks\n+,\n+multiagent orchestration\n+, and\n+self-hosted sandboxes\n+are now available on\n+Claude Platform on AWS\n+. See\n+IAM actions for Claude Platform on AWS\n+for the new IAM actions and the\n+AnthropicSelfHostedEnvironmentAccess\n+managed policy.\n+May 29, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 15,
-      "removed": 0,
-      "churn": 15
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 30 May 2026 02:30:58 GMT",
-    "run_at": "2026-05-30T02:30:30Z",
-    "run_id": "db695e2f3e994517b32b3c596148c5ad"
-  },
-  {
-    "id": "9912aa75cd40af9a3cb9138dc3358822caedbc60",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How Braintrust turns customer requests into code with Codex\n+link: https://openai.com/index/braintrust\n+id: https://openai.com/index/braintrust\n+title: A shared playbook for trustworthy third party evaluations\n+link: https://openai.com/index/trustworthy-third-party-evaluations-foundations\n+id: https://openai.com/index/trustworthy-third-party-evaluations-foundations\n+title: Boston Children’s uses AI to unlock new diagnoses\n+link: https://openai.com/index/boston-childrens-hospital\n+id: https://openai.com/index/boston-childrens-hospital\n+date: Fri, 29 May 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "+title: Boston Children’s uses AI to unlock new diagnoses\n+link: https://openai.com/index/boston-childrens-hospital\n+id: https://openai.com/index/boston-childrens-hospital\n+date: Fri, 29 May 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How Braintrust turns customer requests into code with Codex\n+link: https://openai.com/index/braintrust\n+id: https://openai.com/index/braintrust\n+date: Fri, 29 May 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: MUFG aims to become AI-native with OpenAI\n+link: https://openai.com/index/mufg\n+id: https://openai.com/index/mufg\n+date: Thu, 28 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Strengthening societal resilience with Rosalind Biodefense\n+link: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense\n+id: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense\n+date: Fri, 29 May 2026 03:00:00 GMT\n+body:\n+#ITEM\n+title: A shared playbook for trustworthy third party evaluations\n+link: https://openai.com/index/trustworthy-third-party-evaluations-foundations\n+id: https://openai.com/index/trustworthy-third-party-evaluations-foundations\n+date: Fri, 29 May 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 30,
-      "removed": 0,
-      "churn": 30
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 30 May 2026 02:30:51 GMT",
-    "run_at": "2026-05-30T02:30:30Z",
-    "run_id": "db695e2f3e994517b32b3c596148c5ad"
-  },
-  {
-    "id": "bb0df4dd9491bd01e35b23d5bb73e209b4f2ae3c",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Environment Variables\n+Ask AI\n+Docs agent\n+Loading docs agent...",
-    "snippet_full": "",
-    "diff": {
-      "added": 4,
-      "removed": 0,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 30 May 2026 02:30:31 GMT",
-    "run_at": "2026-05-30T02:30:30Z",
-    "run_id": "db695e2f3e994517b32b3c596148c5ad"
   }
 ]
