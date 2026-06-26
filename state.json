@@ -1,5 +1,43 @@
 [
   {
+    "id": "72bc5625f1bbedebb66cbc1520c55629a4b2085e",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Claude Platform - Claude API Docs\n+Claude Platform - Claude Platform Docs\n+Claude Platform Docs\n+Claude Platform Docs\n-Google Cloud's Vertex AI\n+Claude on Google Cloud\n+June 18, 2026\n+The Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support for\n+code_execution_20260120\n+, the\n+code execution tool\n+version that adds REPL state persistence and is the minimum version for\n+programmatic tool calling\n+. To adopt it, set the tool's\n+type\n+to\n+code_execution_20260120\n+; no beta header is required. It's available on Claude Fable 5, Claude Mythos 5, Claude Opus 4.5 and newer, and Claude Sonnet 4.5 and newer; see the\n+model compatibility table\n+.\n+\n+stop_details.category\n+\"reasoning_extraction\"\n-and\n+\"cyber\"\n+and\n+\"bio\"\n+On Claude Fable 5 and Claude Mythos 5,\n+adaptive thinking\n+is the only thinking mode:\n+thinking: {\"type\": \"disabled\"}\n+is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n+Migrating from Claude Mythos Preview to Claude Mythos 5\n+.\n+On Claude Fable 5 and Claude Mythos 5,\n+thinking.display\n+defaults to\n+\"omitted\"\n+, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n+display: \"summarized\"",
+    "snippet_full": "",
+    "diff": {
+      "added": 142,
+      "removed": 124,
+      "churn": 266
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 26 Jun 2026 02:41:41 GMT",
+    "run_at": "2026-06-26T02:41:33Z",
+    "run_id": "06aaa91766c24319a87eb53d20f0e8c3"
+  },
+  {
+    "id": "20f84718740ac63a18b09d589d5cf720d4c81ed4",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How agents are transforming work\n+link: https://openai.com/index/how-agents-are-transforming-work\n+id: https://openai.com/index/how-agents-are-transforming-work\n+date: Thu, 25 Jun 2026 02:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 26 Jun 2026 02:41:34 GMT",
+    "run_at": "2026-06-26T02:41:33Z",
+    "run_id": "06aaa91766c24319a87eb53d20f0e8c3"
+  },
+  {
     "id": "13846a767129dd7c63707c3ef1df6d1c65643b51",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -949,43 +987,5 @@
     "pubDate": "Tue, 02 Jun 2026 02:53:00 GMT",
     "run_at": "2026-06-02T02:52:36Z",
     "run_id": "97b7c27c6bc0432ca7110cab2b8b86fb"
-  },
-  {
-    "id": "38864b7d5ce8e6a4df9044d986324076f359fc83",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Amazon Bedrock\n+Deployment\n+Amazon Bedrock\n+Amazon Bedrock\n+June, 2026\n+Jun 1\n+Feature\n+gpt-5.4\n+gpt-5.5\n+v1/responses\n+OpenAI models are now available in Amazon Bedrock through an OpenAI-compatible Responses API endpoint. Supported models and features vary by AWS Region.\n+Learn more\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 13,
-      "removed": 0,
-      "churn": 13
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 02 Jun 2026 02:52:37 GMT",
-    "run_at": "2026-06-02T02:52:36Z",
-    "run_id": "97b7c27c6bc0432ca7110cab2b8b86fb"
-  },
-  {
-    "id": "66ae31ae8a2e9b3b5641371b21748a0146a97e28",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+May 29\n+Update\n+v1/responses\n+v1/chat/completions\n+v1/batch\n+For organizations without ZDR enabled,\n+prompt_cache_retention\n+now defaults to\n+24h\n+instead of\n+in_memory\n+, enabling extended prompt caching by default.\n+Learn more\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 14,
-      "removed": 0,
-      "churn": 14
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 01 Jun 2026 02:55:31 GMT",
-    "run_at": "2026-06-01T02:55:31Z",
-    "run_id": "2d65daddd1b440e1b2c510ca39a32e03"
   }
 ]

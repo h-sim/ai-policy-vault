@@ -2555,6 +2555,12 @@ id: https://openai.com/index/horizon-1000
 date: Tue, 20 Jan 2026 21:00:00 GMT
 body:
 #ITEM
+title: How agents are transforming work
+link: https://openai.com/index/how-agents-are-transforming-work
+id: https://openai.com/index/how-agents-are-transforming-work
+date: Thu, 25 Jun 2026 02:00:00 GMT
+body:
+#ITEM
 title: How AI training scales
 link: https://openai.com/index/how-ai-training-scales
 id: https://openai.com/index/how-ai-training-scales
