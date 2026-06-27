@@ -1,5 +1,65 @@
 [
   {
+    "id": "c0ccb98fc2bf2f8996139b2d5cf528a339d1848a",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+June 26, 2026\n+We've raised\n+rate limits\n+across the Claude API. Claude Sonnet and Claude Haiku rate limits now match Claude Opus at every usage tier, and usage tiers have been consolidated into three: Start, Build, and Scale. Most organizat\n+Claude Console\n+.\n+\n+June 25, 2026\n+We've deprecated\n+fast mode\n+for Claude Opus 4.7, with removal on July 24, 2026. After removal, requests to\n+claude-opus-4-7\n+with\n+speed: \"fast\"\n+will return an error. Migrate to fast mode for Claude Opus 4.8. Read more in\n+Fast mode\n+.\n+\n+June 26, 2026\n+June 25, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 20,
+      "removed": 0,
+      "churn": 20
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 27 Jun 2026 02:34:05 GMT",
+    "run_at": "2026-06-27T02:33:36Z",
+    "run_id": "385c1b03c7454c618689609f74ddc5fb"
+  },
+  {
+    "id": "b523a04607f5bd0c2988feaf719547e15e64cb92",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Previewing GPT-5.6 Sol: a next-generation model\n+link: https://openai.com/index/previewing-gpt-5-6-sol\n+id: https://openai.com/index/previewing-gpt-5-6-sol\n+date: Fri, 26 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 27 Jun 2026 02:33:37 GMT",
+    "run_at": "2026-06-27T02:33:36Z",
+    "run_id": "385c1b03c7454c618689609f74ddc5fb"
+  },
+  {
+    "id": "094fd8c6f6bf9685d3f01873597c920edc12b5b7",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Making private MCP servers reachable without making them public\n-Using skills to accelerate OSS maintenance\n+OpenAI for Startups\n-Hackathon Support\n-Forum\n+Spaces\n+Developer Forum\n+Reddit\n+X",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 3,
+      "churn": 9
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 27 Jun 2026 02:33:37 GMT",
+    "run_at": "2026-06-27T02:33:36Z",
+    "run_id": "385c1b03c7454c618689609f74ddc5fb"
+  },
+  {
     "id": "72bc5625f1bbedebb66cbc1520c55629a4b2085e",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -926,66 +986,5 @@
     "pubDate": "Wed, 03 Jun 2026 03:28:02 GMT",
     "run_at": "2026-06-03T03:27:42Z",
     "run_id": "fa87155919184502a42d1031b8e496c7"
-  },
-  {
-    "id": "cad21c6f45cfee1c11d4df6cf283408fb026b0b2",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Sites\n+Sites\n+Jun 2\n+Update\n+Starting June 2, 2026, eligible container sessions will be billed per minute with a 5-minute minimum, instead of being billed at the full 20-minute session rate. The underlying per-minute rate will r\n+This update is intended to make billing more granular for shorter sessions and will lower effective cost for customers.\n+You can find current built-in tool pricing in our\n+API pricing docs\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 9,
-      "removed": 0,
-      "churn": 9
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 03 Jun 2026 03:27:42 GMT",
-    "run_at": "2026-06-03T03:27:42Z",
-    "run_id": "fa87155919184502a42d1031b8e496c7"
-  },
-  {
-    "id": "2641bf574b45496ee126f6f0dae87b8d572b44a3",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+        workload_identity_provider.created:\n+          type: object\n+          description: The details for events with this `type`.\n+          properties:\n+            id:\n+              type: string\n+              description: The workload identity provider ID.\n+            data:\n+              type: object\n+              description: The payload used to create the workload identity provider.\n+        workload_identity_provider.updated:\n+          type: object\n+          description: The details for events with this `type`.\n+          properties:\n+            id:\n+              type: string\n+              description: The workload identity provider ID.\n+            changes_requested:\n+              type: object\n+              description: The payload used to update the workload identity provider.\n+        workload_identity_provider.deleted:\n+          type: object\n+          description: The details for events with this `type`.\n+          properties:\n+            id:\n+              type: string\n+              description: The workload identity provider ID.\n+            name:\n+              type: string\n+              description: The workload identity provider name.\n+        workload_identity_provider_mapping.created:\n+          type: object\n+          description: The details for events with this `type`.\n+          properties:\n+            id:\n+              type: string\n+              description: The workload identity provider mapping ID.\n+            identity_provider_id:\n+              type: string\n+              description: The workload identity provider ID.",
-    "snippet_full": "",
-    "diff": {
-      "added": 171,
-      "removed": 2,
-      "churn": 173
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 02 Jun 2026 02:53:11 GMT",
-    "run_at": "2026-06-02T02:52:36Z",
-    "run_id": "97b7c27c6bc0432ca7110cab2b8b86fb"
-  },
-  {
-    "id": "5e463707d5970bc917a8171e9968642c5a377737",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI frontier models and Codex are now available on AWS\n+link: https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws\n+id: https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws\n+date: Mon, 01 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Our views on AI policy and political advocacy\n+link: https://openai.com/index/our-views-on-ai-policy-and-political-advocacy\n+id: https://openai.com/index/our-views-on-ai-policy-and-political-advocacy\n+date: Mon, 01 Jun 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Building the infrastructure for the Intelligence Age in Michigan\n+link: https://openai.com/index/stargate-michigan-data-center\n+id: https://openai.com/index/stargate-michigan-data-center\n+date: Mon, 01 Jun 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 02 Jun 2026 02:53:00 GMT",
-    "run_at": "2026-06-02T02:52:36Z",
-    "run_id": "97b7c27c6bc0432ca7110cab2b8b86fb"
   }
 ]

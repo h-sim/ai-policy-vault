@@ -4811,6 +4811,12 @@ id: https://openai.com/index/preply
 date: Fri, 12 Jun 2026 00:00:00 GMT
 body:
 #ITEM
+title: Previewing GPT-5.6 Sol: a next-generation model
+link: https://openai.com/index/previewing-gpt-5-6-sol
+id: https://openai.com/index/previewing-gpt-5-6-sol
+date: Fri, 26 Jun 2026 10:00:00 GMT
+body:
+#ITEM
 title: Procgen Benchmark
 link: https://openai.com/index/procgen-benchmark
 id: https://openai.com/index/procgen-benchmark

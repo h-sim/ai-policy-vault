@@ -116,6 +116,24 @@ in the
 claude-code
 repository.
 
+June 26, 2026
+We've raised
+rate limits
+across the Claude API. Claude Sonnet and Claude Haiku rate limits now match Claude Opus at every usage tier, and usage tiers have been consolidated into three: Start, Build, and Scale. Most organizations move to a higher tier, no organization receives lower limits than before, and no action is required. You can view your tier and current limits in the
+Claude Console
+.
+
+June 25, 2026
+We've deprecated
+fast mode
+for Claude Opus 4.7, with removal on July 24, 2026. After removal, requests to
+claude-opus-4-7
+with
+speed: "fast"
+will return an error. Migrate to fast mode for Claude Opus 4.8. Read more in
+Fast mode
+.
+
 June 18, 2026
 The Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support for
 code_execution_20260120
@@ -1414,6 +1432,8 @@ blog post
 このページは役に立ちましたか？
 
 
+June 26, 2026
+June 25, 2026
 June 18, 2026
 June 15, 2026
 June 11, 2026

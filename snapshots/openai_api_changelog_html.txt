@@ -434,11 +434,11 @@ API examples
 Sites
 All posts
 Recent
+Making private MCP servers reachable without making them public
 Mastering Codex Remote for engineering
 How Perplexity Brought Voice Search to Millions Using the Realtime API
 Designing delightful frontends with GPT-5.4
 From prompts to products: One year of Responses
-Using skills to accelerate OSS maintenance
 Topics
 General
 API
@@ -481,11 +481,14 @@ Programs
 Codex Ambassadors
 Codex for Students
 Codex for Open Source
+OpenAI for Startups
 Events
 Meetups
-Hackathon Support
-Forum
+Spaces
+Developer Forum
 Discord
+Reddit
+X
 API Dashboard
 Get started
 Overview
