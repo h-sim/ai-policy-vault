@@ -3683,7 +3683,7 @@ id: https://openai.com/index/more-ways-to-work-with-your-team
 date: Thu, 25 Sep 2025 11:00:00 GMT
 body:
 #ITEM
-title: Shaping the future of financial services
+title: Morgan Stanley is shaping the future of financial services
 link: https://openai.com/index/morgan-stanley
 id: https://openai.com/index/morgan-stanley
 date: Wed, 04 Dec 2024 10:00:00 GMT
