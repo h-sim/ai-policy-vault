@@ -1,5 +1,24 @@
 [
   {
+    "id": "765cfc6c15316ce1b0cdb00e1e79b569eda84d4b",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: HP Inc. launches Frontier strategic partnership with OpenAI\n+link: https://openai.com/index/hp-frontier-partnership\n+id: https://openai.com/index/hp-frontier-partnership\n+date: Sun, 28 Jun 2026 17:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 29 Jun 2026 02:47:15 GMT",
+    "run_at": "2026-06-29T02:47:14Z",
+    "run_id": "76f5dc0ae5b045ba8541e130e5122f67"
+  },
+  {
     "id": "a08d8c089f6c5e6641b79ee0a2c70be52a0ceb0a",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -965,24 +984,5 @@
     "pubDate": "Thu, 04 Jun 2026 02:57:13 GMT",
     "run_at": "2026-06-04T02:56:54Z",
     "run_id": "4cb0d2bb2bb843388f6c7fe707932646"
-  },
-  {
-    "id": "0bc06e4873b335efe937e3aa61a863ff7ad152ca",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+June 2, 2026\n+The\n+advisor tool\n+now supports a\n+max_tokens\n+parameter to cap the advisor model's output per call, reducing latency and output token cost for workloads that don't need full-length advisor responses. Set\n+tools[].max_tokens\n+on the advisor tool definition; see\n+Capping advisor output\n+.\n+On the Claude API, you are no longer billed for a request when it returns\n+stop_reason: \"refusal\"\n+without Claude having generated any output. See\n+Streaming refusals\n+for detecting and handling refusals.\n-), our most capable generally available model.\n-Claude Opus 4.8\n-supports a\n+), our most capable generally available model. Claude Opus 4.8 supports a\n-by default, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n-What's new in\n-Claude Opus 4.8\n+by default on the Claude API, Amazon Bedrock, and Vertex AI (200k on Microsoft Foundry), 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n+What's new in Claude Opus 4.8\n-. On\n-Claude Opus 4.8\n-, you can send\n+. On Claude Opus 4.8, you can send\n-messages at non-first positions in the\n+messages after a user turn (subject to\n+placement rules\n+) in the\n-The Messages API now returns refusal categories in\n+The\n-when\n-Claude Opus 4.8\n-declines a request, so your application can route different classes of refusal to the right next step. No beta header is required. See\n-Refusal categories\n-.\n-On",
-    "snippet_full": "",
-    "diff": {
-      "added": 48,
-      "removed": 49,
-      "churn": 97
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 03 Jun 2026 03:28:09 GMT",
-    "run_at": "2026-06-03T03:27:42Z",
-    "run_id": "fa87155919184502a42d1031b8e496c7"
   }
 ]
