@@ -1,5 +1,46 @@
 [
   {
+    "id": "9e090103ab157007e7e7ed8acded97045d066785",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+June 29, 2026\n+We've removed\n+fast mode\n+for Claude Opus 4.6. Requests to\n+claude-opus-4-6\n+with\n+speed: \"fast\"\n+no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error. The response's\n+usage.speed\n+field reports the speed used. To continue using fast mode, migrate to\n+Claude Opus 4.8\n+. Read more in\n+Fast mode\n+.\n+\n-by default on the Claude API, Amazon Bedrock, and Vertex AI (200k on Microsoft Foundry), 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n+by default on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n+June 29, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 17,
+      "removed": 1,
+      "churn": 18
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 30 Jun 2026 02:41:59 GMT",
+    "run_at": "2026-06-30T02:41:30Z",
+    "run_id": "ce5867402d5d4fd4b120a28bd75445f7"
+  },
+  {
+    "id": "b91bdc31347c633b4804b00312003ef6b229a876",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Mapping Europe’s AI Workforce Opportunity\n+link: https://openai.com/index/mapping-ai-jobs-transition-eu\n+id: https://openai.com/index/mapping-ai-jobs-transition-eu\n+date: Mon, 29 Jun 2026 07:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 30 Jun 2026 02:41:31 GMT",
+    "run_at": "2026-06-30T02:41:30Z",
+    "run_id": "ce5867402d5d4fd4b120a28bd75445f7"
+  },
+  {
     "id": "765cfc6c15316ce1b0cdb00e1e79b569eda84d4b",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -940,48 +981,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Thu, 04 Jun 2026 02:57:45 GMT",
-    "run_at": "2026-06-04T02:56:54Z",
-    "run_id": "4cb0d2bb2bb843388f6c7fe707932646"
-  },
-  {
-    "id": "d9d6e873b2c9272e1f02d0c9ac57ddbf6abfb334",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+link: https://openai.com/index/frontier-safety-blueprint\n+id: https://openai.com/index/frontier-safety-blueprint\n+title: OpenAI public policy agenda\n+link: https://openai.com/index/public-policy-agenda\n+id: https://openai.com/index/public-policy-agenda\n+title: A blueprint for democratic governance of frontier AI\n+date: Wed, 03 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing new capabilities to GPT-Rosalind\n+link: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind\n+id: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-    "snippet_full": "+title: A blueprint for democratic governance of frontier AI\n+link: https://openai.com/index/frontier-safety-blueprint\n+id: https://openai.com/index/frontier-safety-blueprint\n+date: Wed, 03 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing new capabilities to GPT-Rosalind\n+link: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind\n+id: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind\n+date: Wed, 03 Jun 2026 13:15:00 GMT\n+body:\n+#ITEM\n+title: OpenAI public policy agenda\n+link: https://openai.com/index/public-policy-agenda\n+id: https://openai.com/index/public-policy-agenda\n+date: Wed, 03 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How Wasmer used Codex to build a Node.js runtime for the edge\n+link: https://openai.com/index/wasmer\n+id: https://openai.com/index/wasmer\n+date: Wed, 03 Jun 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 04 Jun 2026 02:57:34 GMT",
-    "run_at": "2026-06-04T02:56:54Z",
-    "run_id": "4cb0d2bb2bb843388f6c7fe707932646"
-  },
-  {
-    "id": "6e476dcf09c2710e344bd2e093a14daf3b48612e",
-    "impact": "Breaking",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Agent Builder\n-Overview\n-Node reference\n-Safety in building agents\n-Getting started\n-Working with evals\n-Prompt optimizer\n-External models\n-Best practices\n-Model optimization\n-Optimization cycle\n-Fine-tuning\n-Supervised fine-tuning\n-Vision fine-tuning\n-Direct preference optimization\n-Reinforcement fine-tuning\n-RFT use cases\n-Best practices\n-Graders\n+Agent Builder\n+Overview\n+Migration guide\n+Node reference\n+Safety in building agents\n+Evals\n+Getting started\n+Working with evals\n+Prompt optimizer\n+External models\n+Best practices\n+Graders\n+Fine-tuning\n+Optimization cycle\n+Supervised fine-tuning\n+Vision fine-tuning\n+Direct preference optimization\n+Reinforcement fine-tuning\n+RFT use cases\n+Best practices\n+IP egress ranges",
-    "snippet_full": "",
-    "diff": {
-      "added": 47,
-      "removed": 38,
-      "churn": 85
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 04 Jun 2026 02:57:13 GMT",
     "run_at": "2026-06-04T02:56:54Z",
     "run_id": "4cb0d2bb2bb843388f6c7fe707932646"
   }

@@ -116,6 +116,21 @@ in the
 claude-code
 repository.
 
+June 29, 2026
+We've removed
+fast mode
+for Claude Opus 4.6. Requests to
+claude-opus-4-6
+with
+speed: "fast"
+no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error. The response's
+usage.speed
+field reports the speed used. To continue using fast mode, migrate to
+Claude Opus 4.8
+. Read more in
+Fast mode
+.
+
 June 26, 2026
 We've raised
 rate limits
@@ -315,7 +330,7 @@ Claude Opus 4.8
 claude-opus-4-8
 ), our most capable generally available model. Claude Opus 4.8 supports a
 1M token context window
-by default on the Claude API, Amazon Bedrock, and Vertex AI (200k on Microsoft Foundry), 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See
+by default on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See
 What's new in Claude Opus 4.8
 for capability improvements, new features, and migration guidance.
 We've launched
@@ -1432,6 +1447,7 @@ blog post
 このページは役に立ちましたか？
 
 
+June 29, 2026
 June 26, 2026
 June 25, 2026
 June 18, 2026
