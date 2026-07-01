@@ -1,5 +1,46 @@
 [
   {
+    "id": "078b0cd1195f5ad7480d033febcfd9df65842b75",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+June 30, 2026\n+We've launched\n+Claude Sonnet 5\n+(\n+claude-sonnet-5\n+), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 per MTok through August 31, 2026 (standard $3 / $15 thereafter). Claude Sonnet 5 supports a\n+1M token context window\n+, 128k max output tokens, and the same set of tools and platform features as Claude Sonnet 4.6, except\n+Priority Tier\n+, which is not available on Claude Sonnet 5. Three behavior changes apply when migrating:\n+adaptive thinking\n+is now on by default; manual extended thinking (\n+thinking: {type: \"enabled\", budget_tokens: N}\n+) is removed and returns a 400 error (it was deprecated on Sonnet 4.6); and setting sampling parameters (\n+temperature\n+,\n+top_p\n+,\n+top_k\n+) to non-default values returns a 400 error. Claude Sonnet 5 also uses a new tokenizer that produces approximately 30% more tokens for the same text. See\n+What's new in Claude Sonnet 5\n+for details and migration guidance.\n+Claude Managed Agents session event streams now support\n+event deltas\n+. Opt in with the\n+event_deltas[]\n+query parameter on\n+GET /v1/sessions/{session_id}/events/stream\n+. The\n+event_start\n+and\n+event_delta\n+events preview an agent message's text as it's generated, before the complete\n+agent.message\n+event arrives.\n+Listing sessions\n+for Claude Managed Agents now supports backward pagination.\n+GET /v1/sessions\n+returns a\n+prev_page",
+    "snippet_full": "",
+    "diff": {
+      "added": 83,
+      "removed": 4,
+      "churn": 87
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 01 Jul 2026 02:48:00 GMT",
+    "run_at": "2026-07-01T02:47:35Z",
+    "run_id": "d48221429e1e48919be8930715c15255"
+  },
+  {
+    "id": "83d2ad00e6f5e393bbde724c24b321ceb18ed5d4",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Core dump epidemiology: fixing an 18-year-old bug\n+link: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug\n+id: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug\n+date: Tue, 30 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Inside Genebench-Pro\n+link: https://openai.com/index/genebench-pro/case-studies\n+id: https://openai.com/index/genebench-pro/case-studies\n+title: How ChatGPT adoption has expanded\n+link: https://openai.com/index/how-chatgpt-adoption-has-expanded\n+id: https://openai.com/index/how-chatgpt-adoption-has-expanded",
+    "snippet_full": "+title: Core dump epidemiology: fixing an 18-year-old bug\n+link: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug\n+id: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug\n+date: Tue, 30 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Inside Genebench-Pro\n+link: https://openai.com/index/genebench-pro/case-studies\n+id: https://openai.com/index/genebench-pro/case-studies\n+date: Tue, 30 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How ChatGPT adoption has expanded\n+link: https://openai.com/index/how-chatgpt-adoption-has-expanded\n+id: https://openai.com/index/how-chatgpt-adoption-has-expanded\n+date: Tue, 30 Jun 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GeneBench-Pro\n+link: https://openai.com/index/introducing-genebench-pro\n+id: https://openai.com/index/introducing-genebench-pro\n+date: Tue, 30 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 01 Jul 2026 02:47:36 GMT",
+    "run_at": "2026-07-01T02:47:35Z",
+    "run_id": "d48221429e1e48919be8930715c15255"
+  },
+  {
     "id": "9e090103ab157007e7e7ed8acded97045d066785",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -945,43 +986,5 @@
     "pubDate": "Fri, 05 Jun 2026 02:44:29 GMT",
     "run_at": "2026-06-05T02:44:29Z",
     "run_id": "e06ac6e748c946959df85df7937152ef"
-  },
-  {
-    "id": "0a3735eee53aaec17f68984d418d9f8c63988e22",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Jun 4\n+Feature\n+omni-moderation-latest\n+v1/responses\n+v1/chat/completions\n+Added moderation scores to the Responses API and Chat Completions API. Pass a\n+moderation\n+object in a generation request to receive moderation results for both the model input and generated output in the same response.\n+Learn more in the\n+Moderation guide\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 11,
-      "removed": 0,
-      "churn": 11
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 05 Jun 2026 02:44:29 GMT",
-    "run_at": "2026-06-05T02:44:29Z",
-    "run_id": "e06ac6e748c946959df85df7937152ef"
-  },
-  {
-    "id": "e74bbb10d993d77786df806ed486d2401e82e7ca",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+    ChatCompletionModeration:\n+      type: object\n+      description: Moderation results or errors for the request input and generated output.\n+      properties:\n+        input:\n+          oneOf:\n+            - $ref: '#/components/schemas/ChatCompletionModerationResults'\n+            - $ref: '#/components/schemas/ChatCompletionModerationError'\n+          discriminator:\n+            propertyName: type\n+          description: Moderation for the request input.\n+        output:\n+          oneOf:\n+            - $ref: '#/components/schemas/ChatCompletionModerationResults'\n+            - $ref: '#/components/schemas/ChatCompletionModerationError'\n+          discriminator:\n+            propertyName: type\n+          description: Moderation for the generated output.\n+      required:\n+        - input\n+        - output\n+    ChatCompletionModerationError:\n+      type: object\n+      description: An error produced while attempting moderation.\n+      properties:\n+        type:\n+          type: string\n+          enum:\n+            - error\n+          description: The object type, which is always `error`.\n+          x-stainless-const: true\n+        code:\n+          type: string\n+          description: The error code.\n+        message:\n+          type: string\n+          description: The error message.\n+      required:\n+        - type\n+        - code",
-    "snippet_full": "",
-    "diff": {
-      "added": 223,
-      "removed": 0,
-      "churn": 223
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 04 Jun 2026 02:57:45 GMT",
-    "run_at": "2026-06-04T02:56:54Z",
-    "run_id": "4cb0d2bb2bb843388f6c7fe707932646"
   }
 ]

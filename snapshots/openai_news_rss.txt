@@ -1289,6 +1289,12 @@ id: https://openai.com/index/cooperation-on-safety
 date: Wed, 10 Jul 2019 07:00:00 GMT
 body:
 #ITEM
+title: Core dump epidemiology: fixing an 18-year-old bug
+link: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug
+id: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug
+date: Tue, 30 Jun 2026 00:00:00 GMT
+body:
+#ITEM
 title: The court rejects Elon’s latest attempt to slow OpenAI down
 link: https://openai.com/index/court-rejects-elon
 id: https://openai.com/index/court-rejects-elon
@@ -2057,6 +2063,12 @@ id: https://openai.com/index/gedi
 date: Thu, 26 Sep 2024 04:30:00 GMT
 body:
 #ITEM
+title: Inside Genebench-Pro
+link: https://openai.com/index/genebench-pro/case-studies
+id: https://openai.com/index/genebench-pro/case-studies
+date: Tue, 30 Jun 2026 00:00:00 GMT
+body:
+#ITEM
 title: Generalizing from simulation
 link: https://openai.com/index/generalizing-from-simulation
 id: https://openai.com/index/generalizing-from-simulation
@@ -2567,6 +2579,12 @@ id: https://openai.com/index/how-ai-training-scales
 date: Fri, 14 Dec 2018 08:00:00 GMT
 body:
 #ITEM
+title: How ChatGPT adoption has expanded
+link: https://openai.com/index/how-chatgpt-adoption-has-expanded
+id: https://openai.com/index/how-chatgpt-adoption-has-expanded
+date: Tue, 30 Jun 2026 09:00:00 GMT
+body:
+#ITEM
 title: How ChatGPT learns about the world while protecting privacy
 link: https://openai.com/index/how-chatgpt-protects-privacy
 id: https://openai.com/index/how-chatgpt-protects-privacy
@@ -2931,6 +2949,12 @@ title: Introducing EVMbench
 link: https://openai.com/index/introducing-evmbench
 id: https://openai.com/index/introducing-evmbench
 date: Wed, 18 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Introducing GeneBench-Pro
+link: https://openai.com/index/introducing-genebench-pro
+id: https://openai.com/index/introducing-genebench-pro
+date: Tue, 30 Jun 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing GPT-5
