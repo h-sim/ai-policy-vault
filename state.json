@@ -1,5 +1,24 @@
 [
   {
+    "id": "678b7102bc5c7e82d5785afe19aba8d9f7374d5d",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+July 1, 2026\n+We've restored access to Claude Fable 5 and Claude Mythos 5. See\n+our statement\n+for more information.\n+\n-Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See\n+Claude Fable 5 requires 30-day data retention and is not available under zero data retention. See\n+July 1, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 1,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 02 Jul 2026 02:37:11 GMT",
+    "run_at": "2026-07-02T02:37:04Z",
+    "run_id": "94875fc24f874033a06dab46cc7a975b"
+  },
+  {
     "id": "078b0cd1195f5ad7480d033febcfd9df65842b75",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -965,25 +984,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Fri, 05 Jun 2026 02:44:37 GMT",
-    "run_at": "2026-06-05T02:44:29Z",
-    "run_id": "e06ac6e748c946959df85df7937152ef"
-  },
-  {
-    "id": "bf6a3a4052b2622668dc8f78ab58c8352a46a3b4",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Biodefense in the Intelligence Age\n+link: https://openai.com/index/biodefense-in-the-intelligence-age\n+id: https://openai.com/index/biodefense-in-the-intelligence-age\n+date: Thu, 04 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Dreaming: Better memory for a more helpful ChatGPT\n+link: https://openai.com/index/chatgpt-memory-dreaming\n+id: https://openai.com/index/chatgpt-memory-dreaming\n+date: Thu, 04 Jun 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: How Endava is redesigning software delivery around AI agents\n+link: https://openai.com/index/endava-frontiers\n+id: https://openai.com/index/endava-frontiers\n+date: Thu, 04 Jun 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 05 Jun 2026 02:44:29 GMT",
     "run_at": "2026-06-05T02:44:29Z",
     "run_id": "e06ac6e748c946959df85df7937152ef"
   }
