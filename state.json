@@ -1,5 +1,24 @@
 [
   {
+    "id": "7e8fe9eda1e680a92e7039d6f977b559ae0b88be",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Supporting independent journalism in Ukraine\n+link: https://openai.com/index/supporting-independent-journalism-in-ukraine\n+id: https://openai.com/index/supporting-independent-journalism-in-ukraine\n+date: Mon, 07 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 08 Sep 2026 02:25:49 GMT",
+    "run_at": "2026-09-08T02:25:48Z",
+    "run_id": "f45de5099f9b46b483d38099a6ad65aa"
+  },
+  {
     "id": "39b745fa67fea2adfc990eb31db6faa8986e5b02",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -971,26 +990,5 @@
     "pubDate": "Thu, 13 Aug 2026 01:18:05 GMT",
     "run_at": "2026-08-13T01:18:05Z",
     "run_id": "692894e78a4c420da1e1c0d2fef4aadc"
-  },
-  {
-    "id": "6bf174dc058c79990d290a167c14c9b536a33c83",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+\n+Claude Platform Docs\n+Solutions\n+AI agents\n+Code modernization\n+Coding\n+Customer support\n+Financial services\n+Government\n+Higher education\n+K-12 teachers\n+Life sciences\n+Partners\n+Claude on AWS\n+Claude on Google Cloud\n+Learn\n+Blog\n+Courses\n+Use cases\n+Connectors\n+Customer stories\n+Engineering at Anthropic\n+Events\n+Powered by Claude\n+Service partners\n+Startups program\n+Company\n+Anthropic\n+Careers\n+Economic Futures\n+Research\n+News\n+Responsible Scaling Policy\n+Security and compliance\n+Transparency\n+Learn\n+Blog\n+Courses\n+Use cases\n+Connectors",
-    "snippet_full": "",
-    "diff": {
-      "added": 96,
-      "removed": 1,
-      "churn": 97
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 12 Aug 2026 01:16:52 GMT",
-    "run_at": "2026-08-12T01:16:43Z",
-    "run_id": "3f55fd4bc76146fea1cc17607b5cf5ce"
   }
 ]

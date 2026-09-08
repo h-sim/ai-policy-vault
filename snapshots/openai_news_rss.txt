@@ -6329,6 +6329,12 @@ id: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem
 date: Thu, 11 Jun 2026 00:00:00 GMT
 body:
 #ITEM
+title: Supporting independent journalism in Ukraine
+link: https://openai.com/index/supporting-independent-journalism-in-ukraine
+id: https://openai.com/index/supporting-independent-journalism-in-ukraine
+date: Mon, 07 Sep 2026 00:00:00 GMT
+body:
+#ITEM
 title: Supporting Thailand’s next generation of AI startups
 link: https://openai.com/index/supporting-next-generation-ai-startups-thailand
 id: https://openai.com/index/supporting-next-generation-ai-startups-thailand
