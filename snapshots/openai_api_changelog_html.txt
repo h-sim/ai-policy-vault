@@ -155,6 +155,8 @@ Images and video
 Images and vision
 Image input cost calculator
 Image generation
+Overview
+Image prompting
 Video generation
 Realtime and audio
 Audio and speech
@@ -236,6 +238,7 @@ Accuracy optimization
 Cost and throughput
 Cost optimization
 Prompt caching
+Prompt cache diagnostics
 Batch
 Flex processing
 Safety and governance
@@ -730,6 +733,32 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 September, 2026
+Sep 8
+Feature
+v1/responses
+Prompt Cache Diagnostics
+is now generally available in the Responses API for GPT-5.6 and later supported models.
+Compare cache reuse against a previous response, identify reasons for cache misses, and follow troubleshooting guidance to improve cache reuse.
+Sep 8
+Feature
+gpt-image-2.5-sunburst
+gpt-image-2.5-flare
+v1/images
+v1/responses
+Released
+GPT Image 2.5 Sunburst
+and
+GPT Image 2.5 Flare
+for image generation and editing through the Image API and the Responses API image generation tool.
+Use Sunburst for workflows where editing precision matters most, or Flare for fast, high-quality everyday image generation. Both models support the new
+xhigh
+and
+max
+quality settings and use GPT Image 2 token rates. See the
+image generation guide
+and
+pricing
+.
 Sep 3
 Feature
 gpt-6-astra

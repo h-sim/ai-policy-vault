@@ -1,5 +1,45 @@
 [
   {
+    "id": "60eb73ac5067e814d4acea26044cadf76089fd97",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: 1Password increases engineering productivity 21% with Codex\n+link: https://openai.com/index/1password\n+id: https://openai.com/index/1password\n+date: Tue, 08 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How GPT-5.6 Sol helps run quantum computing experiments\n+link: https://openai.com/index/codex-quantum-computing-experiments\n+id: https://openai.com/index/codex-quantum-computing-experiments\n+date: Tue, 08 Sep 2026 17:00:00 GMT\n+title: Introducing ChatGPT Images 2.5\n+link: https://openai.com/index/introducing-chatgpt-images-2-5",
+    "snippet_full": "+title: 1Password increases engineering productivity 21% with Codex\n+link: https://openai.com/index/1password\n+id: https://openai.com/index/1password\n+date: Tue, 08 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How GPT-5.6 Sol helps run quantum computing experiments\n+link: https://openai.com/index/codex-quantum-computing-experiments\n+id: https://openai.com/index/codex-quantum-computing-experiments\n+date: Tue, 08 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT Images 2.5\n+link: https://openai.com/index/introducing-chatgpt-images-2-5\n+id: https://openai.com/index/introducing-chatgpt-images-2-5\n+date: Tue, 08 Sep 2026 11:30:00 GMT\n+body:\n+#ITEM\n+title: On the Navier–Stokes Millennium Prize Problem\n+link: https://openai.com/index/navier-stokes-solution\n+id: https://openai.com/index/navier-stokes-solution\n+date: Tue, 08 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI expands initiatives to support journalism from classrooms to newsrooms\n+link: https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms\n+id: https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms\n+date: Tue, 08 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Funding grants for new research into AI and teen development\n+link: https://openai.com/index/teen-development-research-grants\n+id: https://openai.com/index/teen-development-research-grants\n+date: Tue, 08 Sep 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: The Work Now Within Reach\n+link: https://openai.com/index/the-work-now-within-reach\n+id: https://openai.com/index/the-work-now-within-reach\n+date: Tue, 08 Sep 2026 13:00:00 GMT",
+    "diff": {
+      "added": 42,
+      "removed": 0,
+      "churn": 42
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 09 Sep 2026 02:28:05 GMT",
+    "run_at": "2026-09-09T02:28:05Z",
+    "run_id": "2fbfee84c4c345c68bb796d901bd01c7"
+  },
+  {
+    "id": "be83b185ee8db061ab57dff3b87e5ea259b9ba34",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Overview\n+Image prompting\n+Prompt cache diagnostics\n+Sep 8\n+Feature\n+v1/responses\n+Prompt Cache Diagnostics\n+is now generally available in the Responses API for GPT-5.6 and later supported models.\n+Compare cache reuse against a previous response, identify reasons for cache misses, and follow troubleshooting guidance to improve cache reuse.\n+Sep 8\n+Feature\n+gpt-image-2.5-sunburst\n+gpt-image-2.5-flare\n+v1/images\n+v1/responses\n+Released\n+GPT Image 2.5 Sunburst\n+and\n+GPT Image 2.5 Flare\n+for image generation and editing through the Image API and the Responses API image generation tool.\n+Use Sunburst for workflows where editing precision matters most, or Flare for fast, high-quality everyday image generation. Both models support the new\n+xhigh\n+and\n+max\n+quality settings and use GPT Image 2 token rates. See the\n+image generation guide\n+and\n+pricing\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 29,
+      "removed": 0,
+      "churn": 29
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 09 Sep 2026 02:28:05 GMT",
+    "run_at": "2026-09-09T02:28:05Z",
+    "run_id": "2fbfee84c4c345c68bb796d901bd01c7"
+  },
+  {
     "id": "7e8fe9eda1e680a92e7039d6f977b559ae0b88be",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -950,44 +990,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Thu, 13 Aug 2026 01:18:37 GMT",
-    "run_at": "2026-08-13T01:18:05Z",
-    "run_id": "692894e78a4c420da1e1c0d2fef4aadc"
-  },
-  {
-    "id": "24134aa2e26f3e4c8a0a85826cd27d2947bc0e31",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex\n-link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex\n-link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
-    "snippet_full": "-link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex\n-link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex\n-link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex\n+title: From assistance to execution: How enterprises put AI to work\n+link: https://openai.com/index/how-enterprises-put-ai-to-work\n+id: https://openai.com/index/how-enterprises-put-ai-to-work\n+date: Wed, 12 Aug 2026 06:00:00 GMT\n+body:\n+#ITEM\n+title: How RingCentral builds AI-native work from engineering to ops\n+link: https://openai.com/index/ringcentral\n+id: https://openai.com/index/ringcentral\n+date: Wed, 12 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 18,
-      "removed": 6,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 13 Aug 2026 01:18:06 GMT",
-    "run_at": "2026-08-13T01:18:05Z",
-    "run_id": "692894e78a4c420da1e1c0d2fef4aadc"
-  },
-  {
-    "id": "ea342cc80b9618cc2ad328ffc31484fcbc458492",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Submit a Claude Code plugin\n+Linux\n+Desktop app",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 0,
-      "churn": 3
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 13 Aug 2026 01:18:05 GMT",
     "run_at": "2026-08-13T01:18:05Z",
     "run_id": "692894e78a4c420da1e1c0d2fef4aadc"
   }
