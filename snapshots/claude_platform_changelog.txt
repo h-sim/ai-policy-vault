@@ -64,6 +64,12 @@ claude-lock.json
 lockfile it writes so that later runs, on your machine or in CI, update the same resources instead of creating new ones. See
 Manage resources as code with ant apply
 .
+Per-message effort
+changes, in beta, are also available on
+Google Cloud
+for Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5, with the same
+mid-conversation-output-config-2026-07-01
+beta header.
 September 1, 2026
 
 We've launched

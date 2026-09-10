@@ -677,6 +677,12 @@ id: https://openai.com/index/ai-native-company-workflows
 date: Tue, 01 Sep 2026 17:00:00 GMT
 body:
 #ITEM
+title: The AI policy window is open. We need to act.
+link: https://openai.com/index/ai-policy-window
+id: https://openai.com/index/ai-policy-window
+date: Wed, 09 Sep 2026 13:00:00 GMT
+body:
+#ITEM
 title: AI progress and recommendations
 link: https://openai.com/index/ai-progress-and-recommendations
 id: https://openai.com/index/ai-progress-and-recommendations
@@ -2901,6 +2907,12 @@ title: GPT-6 Astra: A new generation of intelligence
 link: https://openai.com/index/gpt-6-astra
 id: https://openai.com/index/gpt-6-astra
 date: Thu, 03 Sep 2026 11:00:00 GMT
+body:
+#ITEM
+title: GPT-6 Astra: The next generation in intelligence for work
+link: https://openai.com/index/gpt-6-astra-next-generation-work
+id: https://openai.com/index/gpt-6-astra-next-generation-work
+date: Wed, 09 Sep 2026 11:00:00 GMT
 body:
 #ITEM
 title: gpt-oss-120b & gpt-oss-20b Model Card
@@ -5457,6 +5469,12 @@ title: Path to Astra: critical capabilities and frontier safeguards
 link: https://openai.com/index/path-to-astra
 id: https://openai.com/index/path-to-astra
 date: Tue, 01 Sep 2026 13:00:00 GMT
+body:
+#ITEM
+title: Paul Christiano joins OpenAI Foundation Board
+link: https://openai.com/index/paul-christiano-joins-openai-foundation-board
+id: https://openai.com/index/paul-christiano-joins-openai-foundation-board
+date: Wed, 09 Sep 2026 17:00:00 GMT
 body:
 #ITEM
 title: A People-First AI Fund: $50M to support nonprofits

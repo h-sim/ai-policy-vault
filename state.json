@@ -1,5 +1,45 @@
 [
   {
+    "id": "4b23b45fb74d15a0f1bd89d8cb6b686479a4b74d",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+Per-message effort\n+changes, in beta, are also available on\n+Google Cloud\n+for Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5, with the same\n+mid-conversation-output-config-2026-07-01\n+beta header.",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 10 Sep 2026 02:28:56 GMT",
+    "run_at": "2026-09-10T02:28:25Z",
+    "run_id": "346ae2f036d7471d803c209bb303e5e8"
+  },
+  {
+    "id": "5700017beeb91b70127ac14ea52418638e89f2fc",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: The AI policy window is open. We need to act.\n+link: https://openai.com/index/ai-policy-window\n+id: https://openai.com/index/ai-policy-window\n+date: Wed, 09 Sep 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-6 Astra: The next generation in intelligence for work\n+link: https://openai.com/index/gpt-6-astra-next-generation-work\n+id: https://openai.com/index/gpt-6-astra-next-generation-work\n+date: Wed, 09 Sep 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Paul Christiano joins OpenAI Foundation Board\n+link: https://openai.com/index/paul-christiano-joins-openai-foundation-board\n+id: https://openai.com/index/paul-christiano-joins-openai-foundation-board\n+date: Wed, 09 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 10 Sep 2026 02:28:48 GMT",
+    "run_at": "2026-09-10T02:28:25Z",
+    "run_id": "346ae2f036d7471d803c209bb303e5e8"
+  },
+  {
     "id": "60eb73ac5067e814d4acea26044cadf76089fd97",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -952,45 +992,5 @@
     "pubDate": "Fri, 14 Aug 2026 01:17:32 GMT",
     "run_at": "2026-08-14T01:17:31Z",
     "run_id": "5d58e5d613c94c50adfbf19c55678461"
-  },
-  {
-    "id": "068ae94d266d7215527fadd17e3c1cea434eadcf",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Chronicle\n+Computer History\n-Access tokens\n+Personal Access Tokens\n+Service accounts",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 2,
-      "churn": 5
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 14 Aug 2026 01:17:31 GMT",
-    "run_at": "2026-08-14T01:17:31Z",
-    "run_id": "5d58e5d613c94c50adfbf19c55678461"
-  },
-  {
-    "id": "9234aaa1fce587c5db76ad5ea3b62f7abf613c5d",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-⌘K\n+Ctrl\n+K\n+\n+\n+We've added the\n+anthropic-workspace-id\n+response header to the Claude API. It carries the\n+wrkspc_\n+-prefixed ID of the workspace that the request's API key or access token resolved to, including your organization's Default Workspace. See\n+Identify the workspace behind an API response\n+.\n-, or override it for a single session. See\n+, or\n+override it for a single session\n+. See\n-). All requests to this model will now return an error. We recommend upgrading to\n+). All requests to this model on the Claude API will now return an error. We recommend upgrading to\n-). All requests to these models will now return an error. We recommend upgrading to\n+). All requests to these models on the Claude API will now return an error. We recommend upgrading to\n-model deprecations\n+Model deprecations\n-model deprecations\n+Model deprecations\n-). All requests to these models will now return an error. We recommend upgrading to\n+). All requests to Claude Sonnet 3.7 will now return an error. Requests to Claude Haiku 3.5 on the Claude API will now return an error; it remains available on Amazon Bedrock and Google Cloud. We rec",
-    "snippet_full": "",
-    "diff": {
-      "added": 19,
-      "removed": 7,
-      "churn": 26
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 13 Aug 2026 01:18:37 GMT",
-    "run_at": "2026-08-13T01:18:05Z",
-    "run_id": "692894e78a4c420da1e1c0d2fef4aadc"
   }
 ]
