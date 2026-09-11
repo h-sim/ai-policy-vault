@@ -43,7 +43,7 @@ Overview
 Models
 Agents
 Tools
-Voice & Audio
+Audio & voice
 Production
 API reference
 Search the API docs
@@ -72,14 +72,14 @@ Overview
 Models
 Agents
 Tools
-Voice & Audio
+Audio & voice
 Production
 API reference
 Overview
 Models
 Agents
 Tools
-Voice & Audio
+Audio & voice
 Production
 API reference
 Docs
@@ -160,14 +160,40 @@ Image prompting
 Video generation
 Realtime and audio
 Audio and speech
-Overview
+Getting started
 Voice agents
 Specialized models
 Deep research
 Embeddings
 Moderation
 Overview
+Agents API
+Overview
+Quickstart
+Architecture
+Configuring Agents
+Sessions
+Run and continue sessions
+Events and items
+Manage sessions
+Webhooks
+Environments and sandboxes
+OpenAI-hosted sandboxes
+Self-hosted sandboxes
+Sandbox lifecycle
+Sandbox security
+Files and artifacts
+Tools and integrations
+Web search
+Functions
+MCP connections
+Plugins
+Vaults
+Multi-agent
+Observability and usage
+Tracing
 Agents SDK
+Overview
 Quickstart
 Agent definitions
 Models and providers
@@ -207,26 +233,34 @@ Code interpreter
 Media
 Image generation
 Overview
-Get started
-Voice agents
-Live translation
-Realtime prompting guide
-Audio
-Audio and speech
-Transcription
-File transcription
-Realtime transcription
-Speech generation
-Connection methods
-WebRTC
-WebSocket
-SIP
-Sessions and operations
+GPT-Live
+Getting started
+Prompting
+Managing sessions
+Delegation and tools
+Migrate to GPT-Live
+Partner integrations
+Realtime API
+Getting started
+Prompting
 Managing conversations
 Voice activity detection
-Realtime with tools
-Webhooks and server-side controls
-Managing costs
+Tools and MCP
+Build with voice
+Voice agents
+Custom voices
+Cost optimization
+Connections
+WebRTC
+WebSockets
+Telephony and SIP
+Server-side controls
+Audio processing
+File transcription
+Live transcription
+Live translation
+Text to speech
+Audio in Chat Completions
 Go live
 Production best practices
 Deployment checklist
@@ -366,8 +400,10 @@ Bulk API
 Product Feeds
 Delta Feeds API
 Campaign Targeting
-Conversion-Optimized Campaigns
+Location Targeting
+Platform Targeting
 Custom Audiences
+Conversion-Optimized Campaigns
 API Reference
 Authentication
 Ad Account
@@ -733,6 +769,36 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 September, 2026
+Sep 10
+Feature
+You can now set expiration dates when creating project API keys. Administrators can also enforce a maximum key lifetime at the organization or project level in Platform settings, requiring newly created keys to expire within the configured limit. See
+production best practices
+for guidance on key expiration and rotation.
+Sep 10
+Feature
+Released the
+Agents API
+in public beta. Build agents with a managed Codex harness while OpenAI handles session orchestration, context compaction, and recovery.
+Use durable sessions to continue work across turns, stream progress, and connect your own tools and MCP servers. Run agents in OpenAI-hosted sandboxes or connect a sandbox from your own infrastructure or a supported provider.
+Start with the
+Agents API quickstart
+.
+Sep 10
+Feature
+gpt-live-1
+v1/live/sessions
+GPT-Live 1
+is now generally available in the API. Build full-duplex voice conversations that can continue while a backend model or agent handles reasoning and tools.
+Use Responses delegation with an OpenAI model, or client delegation to connect your own backend. Voice sessions cost $0.05 per minute, billed per second; backend model and tool usage is charged separately.
+Start with
+GPT-Live
+,
+prompting
+, and
+migration guidance
+. See
+pricing
+for details.
 Sep 8
 Feature
 v1/responses

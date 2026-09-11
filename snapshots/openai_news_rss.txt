@@ -2273,6 +2273,12 @@ id: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
 date: Mon, 31 Aug 2026 04:00:00 GMT
 body:
 #ITEM
+title: Expanding AI access and cyber defense for federal, state, local, and tribal governments
+link: https://openai.com/index/expanding-ai-access-us-government
+id: https://openai.com/index/expanding-ai-access-us-government
+date: Thu, 10 Sep 2026 07:00:00 GMT
+body:
+#ITEM
 title: Expanding data residency access to business customers worldwide
 link: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
 id: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
@@ -3437,6 +3443,12 @@ id: https://openai.com/index/introducing-chatgpt-enterprise
 date: Mon, 28 Aug 2023 07:00:00 GMT
 body:
 #ITEM
+title: Introducing ChatGPT for Financial Services
+link: https://openai.com/index/introducing-chatgpt-financial-services
+id: https://openai.com/index/introducing-chatgpt-financial-services
+date: Thu, 10 Sep 2026 07:00:00 GMT
+body:
+#ITEM
 title: Introducing ChatGPT Futures: Class of 2026
 link: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
 id: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
@@ -3603,6 +3615,12 @@ title: Introducing GPT-Live
 link: https://openai.com/index/introducing-gpt-live
 id: https://openai.com/index/introducing-gpt-live
 date: Wed, 08 Jul 2026 00:00:00 GMT
+body:
+#ITEM
+title: Build more natural voice experiences with GPT‑Live‑1 in the API
+link: https://openai.com/index/introducing-gpt-live-1-in-the-api
+id: https://openai.com/index/introducing-gpt-live-1-in-the-api
+date: Thu, 10 Sep 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing gpt-oss
@@ -3825,6 +3843,12 @@ title: Introducing the Adoption news channel
 link: https://openai.com/index/introducing-the-adoption-news-channel
 id: https://openai.com/index/introducing-the-adoption-news-channel
 date: Thu, 05 Mar 2026 00:00:00 GMT
+body:
+#ITEM
+title: Introducing the Agents API
+link: https://openai.com/index/introducing-the-agents-api
+id: https://openai.com/index/introducing-the-agents-api
+date: Thu, 10 Sep 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing the ChatGPT app for iOS
@@ -5663,6 +5687,12 @@ id: https://openai.com/index/put-ai-to-work-for-your-product-team
 date: Mon, 09 Dec 2024 00:00:00 GMT
 body:
 #ITEM
+title: Now everyone can put data to work
+link: https://openai.com/index/put-data-to-work
+id: https://openai.com/index/put-data-to-work
+date: Thu, 10 Sep 2026 15:00:00 GMT
+body:
+#ITEM
 title: Putting frontier cyber models in more trusted hands
 link: https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands
 id: https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands
@@ -6831,6 +6861,12 @@ title: Deepening our collaboration with the U.S. Department of Energy
 link: https://openai.com/index/us-department-of-energy-collaboration
 id: https://openai.com/index/us-department-of-energy-collaboration
 date: Thu, 18 Dec 2025 11:00:00 GMT
+body:
+#ITEM
+title: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+link: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
+id: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
+date: Thu, 10 Sep 2026 16:00:00 GMT
 body:
 #ITEM
 title: How an astrophysicist uses Codex to help simulate black holes

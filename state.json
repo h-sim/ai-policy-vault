@@ -1,5 +1,66 @@
 [
   {
+    "id": "8569e83331ff8dc99f98584c46f59535558e994b",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+September 10, 2026\n+\n+Claude Managed Agents permission policies now include\n+auto\n+: the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval.\n+agent.tool_use\n+and\n+agent.mcp_tool_use\n+events report how each call was evaluated in an\n+evaluation\n+field alongside\n+evaluated_permission\n+. See\n+Let the server evaluate each call with\n+auto\n+.\n+The\n+ant\n+CLI adds\n+ant beta:sessions connect\n+, which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send messages, and allow or deny tool calls that are waiting for approval. Pass\n+--web\n+to serve the Claude Console's session viewer locally and open the session there instead. See\n+Connect to a Managed Agents session from your terminal\n+.\n+September 10, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 26,
+      "removed": 0,
+      "churn": 26
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 11 Sep 2026 02:23:06 GMT",
+    "run_at": "2026-09-11T02:22:58Z",
+    "run_id": "f694dceb93ca4ab9a42f5da36796272a"
+  },
+  {
+    "id": "da4a8dd264f4c2e80960fd4c03907c414fad7a56",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Expanding AI access and cyber defense for federal, state, local, and tribal governments\n+link: https://openai.com/index/expanding-ai-access-us-government\n+id: https://openai.com/index/expanding-ai-access-us-government\n+date: Thu, 10 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Financial Services\n+link: https://openai.com/index/introducing-chatgpt-financial-services\n+id: https://openai.com/index/introducing-chatgpt-financial-services\n+title: Build more natural voice experiences with GPT‑Live‑1 in the API\n+link: https://openai.com/index/introducing-gpt-live-1-in-the-api\n+id: https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "snippet_full": "+title: Expanding AI access and cyber defense for federal, state, local, and tribal governments\n+link: https://openai.com/index/expanding-ai-access-us-government\n+id: https://openai.com/index/expanding-ai-access-us-government\n+date: Thu, 10 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Financial Services\n+link: https://openai.com/index/introducing-chatgpt-financial-services\n+id: https://openai.com/index/introducing-chatgpt-financial-services\n+date: Thu, 10 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Build more natural voice experiences with GPT‑Live‑1 in the API\n+link: https://openai.com/index/introducing-gpt-live-1-in-the-api\n+id: https://openai.com/index/introducing-gpt-live-1-in-the-api\n+date: Thu, 10 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Agents API\n+link: https://openai.com/index/introducing-the-agents-api\n+id: https://openai.com/index/introducing-the-agents-api\n+date: Thu, 10 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Now everyone can put data to work\n+link: https://openai.com/index/put-data-to-work\n+id: https://openai.com/index/put-data-to-work\n+date: Thu, 10 Sep 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules\n+link: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\n+id: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\n+date: Thu, 10 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 36,
+      "removed": 0,
+      "churn": 36
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 11 Sep 2026 02:22:58 GMT",
+    "run_at": "2026-09-11T02:22:58Z",
+    "run_id": "f694dceb93ca4ab9a42f5da36796272a"
+  },
+  {
+    "id": "1c9abac85fd4e7da4b6d3e4665d9006ece9e9c03",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Voice & Audio\n+Audio & voice\n-Voice & Audio\n+Audio & voice\n-Voice & Audio\n+Audio & voice\n-Overview\n+Getting started\n+Agents API\n+Overview\n+Quickstart\n+Architecture\n+Configuring Agents\n+Sessions\n+Run and continue sessions\n+Events and items\n+Manage sessions\n+Webhooks\n+Environments and sandboxes\n+OpenAI-hosted sandboxes\n+Self-hosted sandboxes\n+Sandbox lifecycle\n+Sandbox security\n+Files and artifacts\n+Tools and integrations\n+Web search\n+Functions\n+MCP connections\n+Plugins\n+Vaults\n+Multi-agent\n+Observability and usage\n+Tracing\n+Overview\n-Get started\n-Voice agents\n-Live translation\n-Realtime prompting guide\n-Audio\n-Audio and speech",
+    "snippet_full": "",
+    "diff": {
+      "added": 89,
+      "removed": 23,
+      "churn": 112
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 11 Sep 2026 02:22:58 GMT",
+    "run_at": "2026-09-11T02:22:58Z",
+    "run_id": "f694dceb93ca4ab9a42f5da36796272a"
+  },
+  {
     "id": "4b23b45fb74d15a0f1bd89d8cb6b686479a4b74d",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -933,64 +994,5 @@
     "pubDate": "Tue, 18 Aug 2026 00:48:37 GMT",
     "run_at": "2026-08-18T00:48:18Z",
     "run_id": "134951d776244d2cac64416d286bf000"
-  },
-  {
-    "id": "bdb82330bfac91ae6870ced308ae6d63a2a21d2a",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+ChatGPT Work Overview\n+GPTs and Sharing\n+Aug 13\n+Announcement\n+Announced Ultrafast mode, a new API service tier for GPT-5.6 Sol that runs up to 14x faster than Standard processing. Available in limited preview to select customers. Sign up to receive updates on U\n+here\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 0,
-      "churn": 7
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 15 Aug 2026 00:49:25 GMT",
-    "run_at": "2026-08-15T00:49:25Z",
-    "run_id": "794db282f1544abe838940962c2ce117"
-  },
-  {
-    "id": "1c5158be96d133a0a734e9c8f47635db20e08dbc",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-\n-\n-Log in\n-\n-Release notes\n-\n-Overview\n+\n+Console\n+\n+\n-Retrieve local sessions\n+Sessions on users' machines\n-Retrieve remote sessions\n+Sessions in the cloud",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 9,
-      "churn": 15
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 14 Aug 2026 01:17:39 GMT",
-    "run_at": "2026-08-14T01:17:31Z",
-    "run_id": "5d58e5d613c94c50adfbf19c55678461"
-  },
-  {
-    "id": "a6586878fb9d43b52fe30916e13f8d57050200fe",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: The builder’s guide to GPT‑5.6\n+link: https://openai.com/index/builders-guide-to-gpt-5-6\n+id: https://openai.com/index/builders-guide-to-gpt-5-6\n+date: Thu, 13 Aug 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI appoints Dali Rajic as Chief Revenue Officer\n+link: https://openai.com/index/dali-rajic-chief-revenue-officer\n+id: https://openai.com/index/dali-rajic-chief-revenue-officer\n+date: Thu, 13 Aug 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed\n+link: https://openai.com/index/previewing-ultrafast\n+id: https://openai.com/index/previewing-ultrafast\n+date: Thu, 13 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 14 Aug 2026 01:17:32 GMT",
-    "run_at": "2026-08-14T01:17:31Z",
-    "run_id": "5d58e5d613c94c50adfbf19c55678461"
   }
 ]
