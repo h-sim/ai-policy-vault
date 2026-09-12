@@ -1,5 +1,47 @@
 [
   {
+    "id": "fccef81cbd7cb9139ae35429d2f4f1c1b077bc24",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Perplexity trusts GPT-6 Astra with end-to-end systems\n+title: Cognition helps Devin test its own work with GPT‑6 Astra\n+link: https://openai.com/index/cognition-devin-testing-with-astra\n+id: https://openai.com/index/cognition-devin-testing-with-astra\n+date: Fri, 11 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM\n-title: The new ChatGPT Images is here\n+title: Introducing ChatGPT Images and GPT‑Image‑1.5\n+link: https://openai.com/index/perplexity-improving-accuracy-with-astra\n+id: https://openai.com/index/perplexity-improving-accuracy-with-astra\n+date: Mon, 14 Sep 2026 00:00:00 GMT",
+    "snippet_full": "+title: Cognition helps Devin test its own work with GPT‑6 Astra\n+link: https://openai.com/index/cognition-devin-testing-with-astra\n+id: https://openai.com/index/cognition-devin-testing-with-astra\n+date: Fri, 11 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM\n-title: The new ChatGPT Images is here\n+title: Introducing ChatGPT Images and GPT‑Image‑1.5\n+title: Perplexity trusts GPT-6 Astra with end-to-end systems\n+link: https://openai.com/index/perplexity-improving-accuracy-with-astra\n+id: https://openai.com/index/perplexity-improving-accuracy-with-astra\n+date: Mon, 14 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Rapidly scaling online storage to serve over 1 billion ChatGPT users\n+link: https://openai.com/index/scaling-storage-one-billion-users-part-one\n+id: https://openai.com/index/scaling-storage-one-billion-users-part-one\n+date: Fri, 11 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 19,
+      "removed": 1,
+      "churn": 20
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 12 Sep 2026 02:30:58 GMT",
+    "run_at": "2026-09-12T02:30:32Z",
+    "run_id": "b5862510b3804e8aac75089c2085bc83"
+  },
+  {
+    "id": "a40b43e47c11b18cbf74856c4067cebaff3627f0",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-API Partner Setup\n-Quickstart\n-Bulk API\n+Campaign Management\n+Bidding & Budgets\n+Targeting\n-Delta Feeds API\n-Campaign Targeting\n-Location Targeting\n-Platform Targeting\n-Custom Audiences\n-Conversion-Optimized Campaigns\n+Conversion Tracking\n+Reporting\n+Troubleshooting\n+Account Management\n-MCP Server\n+Rethinking skills and prompts for GPT-6 Astra\n-Meet the winners of OpenAI Build Week\n+Sep 8\n+Feature\n+gpt-rosalind-research\n+GPT-Rosalind (\n+gpt-rosalind-research\n+) is now generally available through the\n+trusted-access program\n+for approved internal life sciences research.\n+Standard pricing is $5 per 1M input tokens, $0.50 per 1M cached input tokens, and $25 per 1M output tokens. Billing begins on October 5, 2026. See\n+pricing\n+for details.",
+    "snippet_full": "",
+    "diff": {
+      "added": 19,
+      "removed": 11,
+      "churn": 30
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 12 Sep 2026 02:30:33 GMT",
+    "run_at": "2026-09-12T02:30:32Z",
+    "run_id": "b5862510b3804e8aac75089c2085bc83"
+  },
+  {
     "id": "8569e83331ff8dc99f98584c46f59535558e994b",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -952,47 +994,5 @@
     "pubDate": "Wed, 19 Aug 2026 00:49:47 GMT",
     "run_at": "2026-08-19T00:49:18Z",
     "run_id": "354ba5032d82427ebc2d5502b2c471c9"
-  },
-  {
-    "id": "6f10a3f95731603a42bdf1a9ca4c9dcfb7efb127",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Strengthening democratic oversight in national security\n+link: https://openai.com/index/strengthening-democratic-oversight-in-national-security\n+id: https://openai.com/index/strengthening-democratic-oversight-in-national-security\n+title: Asana cleared 5 years of engineering work in 2 weeks with Codex\n+link: https://openai.com/index/asana\n+id: https://openai.com/index/asana\n+date: Tue, 18 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Teens: Built for learning, backed by protections\n+link: https://openai.com/index/chatgpt-for-teens\n+id: https://openai.com/index/chatgpt-for-teens",
-    "snippet_full": "+title: Asana cleared 5 years of engineering work in 2 weeks with Codex\n+link: https://openai.com/index/asana\n+id: https://openai.com/index/asana\n+date: Tue, 18 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Teens: Built for learning, backed by protections\n+link: https://openai.com/index/chatgpt-for-teens\n+id: https://openai.com/index/chatgpt-for-teens\n+date: Tue, 18 Aug 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: How NVIDIA scales expertise with ChatGPT Work\n+link: https://openai.com/index/nvidia/chatgpt-work\n+id: https://openai.com/index/nvidia/chatgpt-work\n+date: Tue, 18 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Pacing model development in an era of cyber-critical capabilities\n+link: https://openai.com/index/pacing-model-development-cyber-capabilities\n+id: https://openai.com/index/pacing-model-development-cyber-capabilities\n+date: Tue, 18 Aug 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Partnering with CodeAI to prepare the first AI generation\n+link: https://openai.com/index/partnering-with-codeai\n+id: https://openai.com/index/partnering-with-codeai\n+date: Tue, 18 Aug 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Strengthening democratic oversight in national security\n+link: https://openai.com/index/strengthening-democratic-oversight-in-national-security\n+id: https://openai.com/index/strengthening-democratic-oversight-in-national-security\n+date: Tue, 18 Aug 2026 19:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 36,
-      "removed": 0,
-      "churn": 36
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 19 Aug 2026 00:49:41 GMT",
-    "run_at": "2026-08-19T00:49:18Z",
-    "run_id": "354ba5032d82427ebc2d5502b2c471c9"
-  },
-  {
-    "id": "7400e99871c170d2981117b7068585460b41903b",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: New policy ideas for the Intelligence Age\n+link: https://openai.com/index/new-policy-ideas-for-the-intelligence-age\n+id: https://openai.com/index/new-policy-ideas-for-the-intelligence-age\n-title: How business operations teams use ChatGPT Work\n+title: Operations workflows with ChatGPT Work\n-title: How data science teams use ChatGPT Work\n+title: Data science workflows with ChatGPT Work\n-title: How sales teams use ChatGPT Work\n+title: Sales workflows with ChatGPT Work\n-title: ChatGPT for finance teams\n+title: Learn ChatGPT workflows for finance teams\n-title: How finance teams use ChatGPT Work",
-    "snippet_full": "-title: How business operations teams use ChatGPT Work\n+title: Operations workflows with ChatGPT Work\n-title: How data science teams use ChatGPT Work\n+title: Data science workflows with ChatGPT Work\n-title: How sales teams use ChatGPT Work\n+title: Sales workflows with ChatGPT Work\n-title: ChatGPT for finance teams\n+title: Learn ChatGPT workflows for finance teams\n-title: How finance teams use ChatGPT Work\n+title: Finance workflows with ChatGPT Work\n-title: How to use ChatGPT Work for everyday tasks\n+title: Everyday work with ChatGPT Work\n-title: ChatGPT for marketing teams\n+title: Learn ChatGPT workflows for marketing teams\n-title: Learn ChatGPT for Sales Teams\n+title: Learn ChatGPT workflows for sales teams\n-title: Scaling domain expertise in complex, regulated domains\n+title: Blue J’s approach for scaling fast in complex, regulated domains\n+title: New policy ideas for the Intelligence Age\n+link: https://openai.com/index/new-policy-ideas-for-the-intelligence-age\n+id: https://openai.com/index/new-policy-ideas-for-the-intelligence-age\n+date: Mon, 17 Aug 2026 03:15:00 GMT\n+body:\n+#ITEM\n+title: OpenAI joins PORTS-Pike project\n+link: https://openai.com/index/openai-joins-ports-pike-project\n+id: https://openai.com/index/openai-joins-ports-pike-project\n+date: Mon, 17 Aug 2026 05:00:00 GMT\n+body:\n+#ITEM\n+title: The Defender’s Window\n+link: https://openai.com/index/the-defenders-window\n+id: https://openai.com/index/the-defenders-window\n+date: Mon, 17 Aug 2026 05:30:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 27,
-      "removed": 9,
-      "churn": 36
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 18 Aug 2026 00:48:37 GMT",
-    "run_at": "2026-08-18T00:48:18Z",
-    "run_id": "134951d776244d2cac64416d286bf000"
   }
 ]

@@ -1343,6 +1343,12 @@ id: https://openai.com/index/codex-security-now-in-research-preview
 date: Fri, 06 Mar 2026 10:00:00 GMT
 body:
 #ITEM
+title: Cognition helps Devin test its own work with GPT‑6 Astra
+link: https://openai.com/index/cognition-devin-testing-with-astra
+id: https://openai.com/index/cognition-devin-testing-with-astra
+date: Fri, 11 Sep 2026 16:00:00 GMT
+body:
+#ITEM
 title: Collective alignment: public input on our Model Spec
 link: https://openai.com/index/collective-alignment-aug-2025-updates
 id: https://openai.com/index/collective-alignment-aug-2025-updates
@@ -4505,7 +4511,7 @@ id: https://openai.com/index/new-and-improved-embedding-model
 date: Thu, 15 Dec 2022 08:00:00 GMT
 body:
 #ITEM
-title: The new ChatGPT Images is here
+title: Introducing ChatGPT Images and GPT‑Image‑1.5
 link: https://openai.com/index/new-chatgpt-images-is-here
 id: https://openai.com/index/new-chatgpt-images-is-here
 date: Tue, 16 Dec 2025 00:00:00 GMT
@@ -5513,6 +5519,12 @@ id: https://openai.com/index/people-first-ai-fund-grantees
 date: Wed, 03 Dec 2025 08:00:00 GMT
 body:
 #ITEM
+title: Perplexity trusts GPT-6 Astra with end-to-end systems
+link: https://openai.com/index/perplexity-improving-accuracy-with-astra
+id: https://openai.com/index/perplexity-improving-accuracy-with-astra
+date: Mon, 14 Sep 2026 00:00:00 GMT
+body:
+#ITEM
 title: A new personal finance experience in ChatGPT
 link: https://openai.com/index/personal-finance-chatgpt
 id: https://openai.com/index/personal-finance-chatgpt
@@ -6003,6 +6015,12 @@ title: Scaling social science research
 link: https://openai.com/index/scaling-social-science-research
 id: https://openai.com/index/scaling-social-science-research
 date: Fri, 13 Feb 2026 09:00:00 GMT
+body:
+#ITEM
+title: Rapidly scaling online storage to serve over 1 billion ChatGPT users
+link: https://openai.com/index/scaling-storage-one-billion-users-part-one
+id: https://openai.com/index/scaling-storage-one-billion-users-part-one
+date: Fri, 11 Sep 2026 10:00:00 GMT
 body:
 #ITEM
 title: Trusted access for the next era of cyber defense
