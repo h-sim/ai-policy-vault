@@ -1,5 +1,26 @@
 [
   {
+    "id": "5b18e334e7626702d1eafdcad782748a5736fb86",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: Learn ChatGPT workflows for marketing teams\n+title: ChatGPT for marketing teams\n+title: How Fyxer built an AI executive assistant people trust\n+link: https://openai.com/index/fyxer\n+id: https://openai.com/index/fyxer\n+date: Mon, 14 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 1,
+      "churn": 8
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 15 Sep 2026 02:48:48 GMT",
+    "run_at": "2026-09-15T02:48:28Z",
+    "run_id": "3c41bf75d5de4298aef679d97e75fe99"
+  },
+  {
     "id": "fccef81cbd7cb9139ae35429d2f4f1c1b077bc24",
     "impact": "High",
     "name": "OpenAI News (RSS)",
@@ -975,24 +996,5 @@
     "pubDate": "Thu, 20 Aug 2026 00:48:46 GMT",
     "run_at": "2026-08-20T00:48:46Z",
     "run_id": "966f2dc758e74b98a8a0737e182dd169"
-  },
-  {
-    "id": "f28c975676143c92d4029b05314ebf2092581d3d",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+August 18, 2026\n+Workbench is now\n+Playground\n+in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and t\n+Claude Help Center\n+or try it at\n+platform.claude.com/playground\n+.\n+\n+August 18, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 10,
-      "removed": 0,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 19 Aug 2026 00:49:47 GMT",
-    "run_at": "2026-08-19T00:49:18Z",
-    "run_id": "354ba5032d82427ebc2d5502b2c471c9"
   }
 ]

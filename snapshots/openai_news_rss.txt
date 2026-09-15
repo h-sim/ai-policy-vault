@@ -101,7 +101,7 @@ id: https://openai.com/academy/managers
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: Learn ChatGPT workflows for marketing teams
+title: ChatGPT for marketing teams
 link: https://openai.com/academy/marketing
 id: https://openai.com/academy/marketing
 date: Fri, 10 Apr 2026 00:00:00 GMT
@@ -2499,6 +2499,12 @@ title: Function calling and other API updates
 link: https://openai.com/index/function-calling-and-other-api-updates
 id: https://openai.com/index/function-calling-and-other-api-updates
 date: Tue, 13 Jun 2023 07:00:00 GMT
+body:
+#ITEM
+title: How Fyxer built an AI executive assistant people trust
+link: https://openai.com/index/fyxer
+id: https://openai.com/index/fyxer
+date: Mon, 14 Sep 2026 12:00:00 GMT
 body:
 #ITEM
 title: GamePad: A learning environment for theorem proving
