@@ -1,5 +1,24 @@
 [
   {
+    "id": "fd961cbcf4e5f4ab1d6f498d8ba8f9c6eb1e60de",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+September 14, 2026\n+\n+The Messages API can now\n+compact a conversation on demand\n+on the Claude API, in beta with the\n+compact-2026-09-04\n+beta header. Send the top-level\n+compaction\n+parameter, and the API returns a signed\n+compaction\n+block that summarizes the messages you sent. On later requests, send that block first, in place of those messages. You choose when to compact, the request can run in the background, and you can keep \n+September 14, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 16 Sep 2026 02:43:46 GMT",
+    "run_at": "2026-09-16T02:43:37Z",
+    "run_id": "3be1bd26410240b1af892a27f5f9831a"
+  },
+  {
     "id": "5b18e334e7626702d1eafdcad782748a5736fb86",
     "impact": "High",
     "name": "OpenAI News (RSS)",
@@ -975,25 +994,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Thu, 20 Aug 2026 00:48:47 GMT",
-    "run_at": "2026-08-20T00:48:46Z",
-    "run_id": "966f2dc758e74b98a8a0737e182dd169"
-  },
-  {
-    "id": "24846b6bd2a44b5ed512eff8c8d81cdde0dd63d4",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+CSAM guidance\n+Codex as a platform: build on the open agent harness\n-Designing delightful frontends with GPT-5.4",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 1,
-      "churn": 3
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 20 Aug 2026 00:48:46 GMT",
     "run_at": "2026-08-20T00:48:46Z",
     "run_id": "966f2dc758e74b98a8a0737e182dd169"
   }
