@@ -1799,7 +1799,7 @@ id: https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment
 date: Tue, 01 Oct 2024 00:00:00 GMT
 body:
 #ITEM
-title: Disrupting a Criminal Scam Operation
+title: Disrupting a Cambodia-based criminal scam operation
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
 date: Fri, 31 Jul 2026 00:00:00 GMT
@@ -3059,6 +3059,12 @@ id: https://openai.com/index/helping-disaster-response-teams-asia
 date: Sun, 29 Mar 2026 22:15:00 GMT
 body:
 #ITEM
+title: Helping older adults use AI in everyday life
+link: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life
+id: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life
+date: Wed, 16 Sep 2026 16:00:00 GMT
+body:
+#ITEM
 title: Helping people when they need it most
 link: https://openai.com/index/helping-people-when-they-need-it-most
 id: https://openai.com/index/helping-people-when-they-need-it-most
@@ -3183,6 +3189,12 @@ title: From asking to doing: How the world is putting ChatGPT to work
 link: https://openai.com/index/how-the-world-is-putting-chatgpt-to-work
 id: https://openai.com/index/how-the-world-is-putting-chatgpt-to-work
 date: Thu, 06 Aug 2026 00:00:00 GMT
+body:
+#ITEM
+title: How to connect AI usage to business value
+link: https://openai.com/index/how-to-connect-ai-usage-to-business-value
+id: https://openai.com/index/how-to-connect-ai-usage-to-business-value
+date: Wed, 16 Sep 2026 12:00:00 GMT
 body:
 #ITEM
 title: How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
@@ -4377,6 +4389,12 @@ title: An OpenAI model has disproved a central conjecture in discrete geometry
 link: https://openai.com/index/model-disproves-discrete-geometry-conjecture
 id: https://openai.com/index/model-disproves-discrete-geometry-conjecture
 date: Wed, 20 May 2026 00:00:00 GMT
+body:
+#ITEM
+title: Our framework for reporting model misalignment
+link: https://openai.com/index/model-misalignment-reporting-framework
+id: https://openai.com/index/model-misalignment-reporting-framework
+date: Wed, 16 Sep 2026 17:00:00 GMT
 body:
 #ITEM
 title: Model ML completes finance work more efficiently with GPT-5.6 Sol
@@ -5765,6 +5783,12 @@ id: https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2
 date: Mon, 18 Jul 2022 07:00:00 GMT
 body:
 #ITEM
+title: Reimagining advertising with AI
+link: https://openai.com/index/reimagining-advertising-with-ai
+id: https://openai.com/index/reimagining-advertising-with-ai
+date: Wed, 16 Sep 2026 13:00:00 GMT
+body:
+#ITEM
 title: Reinforcement learning with prediction-based rewards
 link: https://openai.com/index/reinforcement-learning-with-prediction-based-rewards
 id: https://openai.com/index/reinforcement-learning-with-prediction-based-rewards
@@ -6807,6 +6831,12 @@ title: Universe
 link: https://openai.com/index/universe
 id: https://openai.com/index/universe
 date: Mon, 05 Dec 2016 08:00:00 GMT
+body:
+#ITEM
+title: How workers are unlocking new ways of working
+link: https://openai.com/index/unlocking-new-ways-of-working
+id: https://openai.com/index/unlocking-new-ways-of-working
+date: Wed, 16 Sep 2026 09:00:00 GMT
 body:
 #ITEM
 title: GPT-Red: Unlocking Self-Improvement for Robustness

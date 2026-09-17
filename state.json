@@ -1,5 +1,62 @@
 [
   {
+    "id": "40ad77649b56a8f1132d6d5fc682ff8044f7e2a4",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-The\n+Version 1.32.0 of the",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 17 Sep 2026 02:47:45 GMT",
+    "run_at": "2026-09-17T02:47:44Z",
+    "run_id": "210553b11e9f402dba66b7effbfcf645"
+  },
+  {
+    "id": "ccc2e4fce10a2cc564a06dc4de6e6eb30c37d138",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: Disrupting a Criminal Scam Operation\n+title: Disrupting a Cambodia-based criminal scam operation\n+title: Helping older adults use AI in everyday life\n+link: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life\n+id: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life\n+date: Wed, 16 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM\n+title: How to connect AI usage to business value\n+link: https://openai.com/index/how-to-connect-ai-usage-to-business-value\n+id: https://openai.com/index/how-to-connect-ai-usage-to-business-value\n+date: Wed, 16 Sep 2026 12:00:00 GMT",
+    "snippet_full": "-title: Disrupting a Criminal Scam Operation\n+title: Disrupting a Cambodia-based criminal scam operation\n+title: Helping older adults use AI in everyday life\n+link: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life\n+id: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life\n+date: Wed, 16 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM\n+title: How to connect AI usage to business value\n+link: https://openai.com/index/how-to-connect-ai-usage-to-business-value\n+id: https://openai.com/index/how-to-connect-ai-usage-to-business-value\n+date: Wed, 16 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Our framework for reporting model misalignment\n+link: https://openai.com/index/model-misalignment-reporting-framework\n+id: https://openai.com/index/model-misalignment-reporting-framework\n+date: Wed, 16 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Reimagining advertising with AI\n+link: https://openai.com/index/reimagining-advertising-with-ai\n+id: https://openai.com/index/reimagining-advertising-with-ai\n+date: Wed, 16 Sep 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: How workers are unlocking new ways of working\n+link: https://openai.com/index/unlocking-new-ways-of-working\n+id: https://openai.com/index/unlocking-new-ways-of-working\n+date: Wed, 16 Sep 2026 09:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 31,
+      "removed": 1,
+      "churn": 32
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 17 Sep 2026 02:47:44 GMT",
+    "run_at": "2026-09-17T02:47:44Z",
+    "run_id": "210553b11e9f402dba66b7effbfcf645"
+  },
+  {
+    "id": "5b7ee47f91e48258de13764ac470f22103c47b75",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Usage Insights\n+Sep 15\n+Feature\n+Added API key creation governance controls at the organization and project levels. Administrators can allow only service-account keys, allow only user-owned project keys, or disable all new API key c\n+production best practices\n+for details.",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 17 Sep 2026 02:47:44 GMT",
+    "run_at": "2026-09-17T02:47:44Z",
+    "run_id": "210553b11e9f402dba66b7effbfcf645"
+  },
+  {
     "id": "fd961cbcf4e5f4ab1d6f498d8ba8f9c6eb1e60de",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -937,64 +994,5 @@
     "pubDate": "Fri, 21 Aug 2026 00:53:11 GMT",
     "run_at": "2026-08-21T00:53:10Z",
     "run_id": "8f7e041144b14b248f6720d7762b6762"
-  },
-  {
-    "id": "f6a64b06ed0240c40d9b212779376912072c1714",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Codex setup\n+Federation rules\n+Admin API\n+GitLab (Beta)\n+Workload identity\n+Aug 20\n+Feature\n+Released the\n+Prompt Caching dashboard\n+on the OpenAI API platform. Track your cache hit rate over time, cache reads per write, and the breakdown of cache-read, cache-write, and uncached tokens to understand your caching efficiency and ide\n+Aug 20\n+Update\n+gpt-image-2\n+gpt-image-2-2026-04-21\n+v1/images/generations\n+v1/images/edits\n+v1/responses\n+Transparent backgrounds are now available in preview for\n+gpt-image-2\n+and\n+gpt-image-2-2026-04-21\n+in the Images API and the Responses API image generation tool. Set\n+background\n+to\n+transparent\n+and use\n+png\n+or\n+webp\n+output;\n+jpeg\n+does not support transparent backgrounds. Learn more in the\n+image generation guide\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 34,
-      "removed": 0,
-      "churn": 34
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 21 Aug 2026 00:53:11 GMT",
-    "run_at": "2026-08-21T00:53:10Z",
-    "run_id": "8f7e041144b14b248f6720d7762b6762"
-  },
-  {
-    "id": "c009664228bb01b36d94ebf7451d389a4770a62b",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+August 19, 2026\n+The\n+Admin API\n+user-management endpoints for\n+Claude Enterprise\n+(claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The\n+anthropic-beta: ce-user-management-2026-07-13\n+header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See\n+User management\n+.\n+The\n+Files API\n+is now generally available on the Claude API. Requests to the\n+/v1/files\n+endpoints, and Messages API requests that reference an uploaded file, no longer require the\n+files-api-2025-04-14\n+beta header. Requests sent without the header use the GA response format:\n+file expiration\n+(set\n+expires_in_seconds\n+when you upload a file; file objects report\n+expires_at\n+), and\n+page\n+and\n+next_page\n+pagination\n+plus an\n+ids[]\n+filter when you\n+list files\n+. Storage is 1 TB per organization and the rate limit is 500 requests per minute.\n+/v1/files\n+requests that still send the beta header keep working and return the previous response format.\n+Agent Skills\n+and the Skills API (\n+/v1/skills\n+) are now generally available on the Claude API. Requests no longer require the\n+skills-2025-10-02\n+beta header, including Messages API requests that load Skills through the",
-    "snippet_full": "",
-    "diff": {
-      "added": 94,
-      "removed": 0,
-      "churn": 94
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 20 Aug 2026 00:48:54 GMT",
-    "run_at": "2026-08-20T00:48:46Z",
-    "run_id": "966f2dc758e74b98a8a0737e182dd169"
-  },
-  {
-    "id": "cda7298300dcaf5e02a7c53698e85a15825b892a",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: ChatGPT Ads expands across Europe\n+link: https://openai.com/index/chatgpt-ads-expands-across-europe\n+id: https://openai.com/index/chatgpt-ads-expands-across-europe\n+date: Tue, 18 Aug 2026 22:00:00 GMT\n+body:\n+#ITEM\n+title: Offering Zero Data Retention for frontier models\n+link: https://openai.com/index/offering-zero-data-retention-for-frontier-models\n+id: https://openai.com/index/offering-zero-data-retention-for-frontier-models\n+date: Wed, 19 Aug 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: Replit expands access to software creation with GPT-5.6 Luna\n+link: https://openai.com/index/replit\n+id: https://openai.com/index/replit\n+date: Wed, 19 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 20 Aug 2026 00:48:47 GMT",
-    "run_at": "2026-08-20T00:48:46Z",
-    "run_id": "966f2dc758e74b98a8a0737e182dd169"
   }
 ]
