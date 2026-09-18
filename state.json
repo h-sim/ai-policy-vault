@@ -1,5 +1,64 @@
 [
   {
+    "id": "2de50886922ad78df6f841a08873df9b53e6b7e0",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+September 18, 2026\n+\n+The\n+Compliance API\n+local session endpoints now also return transcripts of Claude in Chrome sessions (\n+product_surface\n+value\n+claude_in_chrome\n+), in beta for Claude Enterprise organizations, with your existing Compliance Access Key and the\n+read:compliance_user_data\n+scope. See\n+Sessions on users' machines\n+.\n+September 18, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 14,
+      "removed": 0,
+      "churn": 14
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 18 Sep 2026 02:34:39 GMT",
+    "run_at": "2026-09-18T02:34:37Z",
+    "run_id": "22a9d63c60af4755840471622610dd7f"
+  },
+  {
+    "id": "2f11ed6de78eb199f93402d9826af0659af41fad",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: Using custom GPTs\n-link: https://openai.com/academy/custom-gpts\n-id: https://openai.com/academy/custom-gpts\n-date: Fri, 10 Apr 2026 00:00:00 GMT\n-body:\n-#ITEM\n+title: Prompting fundamentals\n+link: https://openai.com/academy/prompting\n+id: https://openai.com/academy/prompting\n+date: Fri, 10 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "-title: Using custom GPTs\n-link: https://openai.com/academy/custom-gpts\n-id: https://openai.com/academy/custom-gpts\n-date: Fri, 10 Apr 2026 00:00:00 GMT\n-body:\n-#ITEM\n+title: Prompting fundamentals\n+link: https://openai.com/academy/prompting\n+id: https://openai.com/academy/prompting\n+date: Fri, 10 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Astra for Law\n+link: https://openai.com/index/astra-for-law\n+id: https://openai.com/index/astra-for-law\n+date: Thu, 17 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Cooley is accelerating IPO work with ChatGPT\n+link: https://openai.com/index/cooley-gopublic\n+id: https://openai.com/index/cooley-gopublic\n+date: Thu, 17 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: “Cyber Special Operations”: China-linked influence planning\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations\n+date: Sun, 01 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Operation “Date Bait”: AI-enabled scam targeting loveseekers\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait\n+date: Sun, 01 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Operation “False Witness”: Fake recovery service impersonating authorities\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness\n+date: Sun, 01 Feb 2026 00:00:00 GMT",
+    "diff": {
+      "added": 66,
+      "removed": 6,
+      "churn": 72
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 18 Sep 2026 02:34:38 GMT",
+    "run_at": "2026-09-18T02:34:37Z",
+    "run_id": "22a9d63c60af4755840471622610dd7f"
+  },
+  {
+    "id": "f9341a8ad6cd575de3db0c1d9c92ed394d43fd1f",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-MCP and Connectors\n+MCP servers\n-v1/chat/completions\n-support to accept more document, presentation, spreadsheet, code, and text file types. Learn more\n+support in the Responses API to accept more document, presentation, spreadsheet, code, and text file types. Learn more",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 3,
+      "churn": 5
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 18 Sep 2026 02:34:37 GMT",
+    "run_at": "2026-09-18T02:34:37Z",
+    "run_id": "22a9d63c60af4755840471622610dd7f"
+  },
+  {
     "id": "40ad77649b56a8f1132d6d5fc682ff8044f7e2a4",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -933,66 +992,5 @@
     "pubDate": "Sat, 22 Aug 2026 00:49:20 GMT",
     "run_at": "2026-08-22T00:48:49Z",
     "run_id": "a2150369df604eb58e81ccc664bff42c"
-  },
-  {
-    "id": "b0be85d618c3fd8aabd281fa3b95fbd4690fc4ab",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Custom Audiences\n+Scaling cyber defenders with Daybreak\n-How Perplexity Brought Voice Search to Millions Using the Realtime API\n+Aug 21\n+Feature\n+API customers can now select regional processing for an individual request by using a prefixed domain with an API key from a project having Global geography. Existing eligibility, data retention cont\n+data controls guide\n+.\n+Aug 21\n+Update\n+gpt-5.6-sol\n+GPT-5.6 Sol now costs $4 per million input tokens and $20 per million output tokens, representing 20% lower input pricing and 33% lower output pricing. GPT-5.6 Sol’s promotional pricing is available \n+pricing details\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 13,
-      "removed": 1,
-      "churn": 14
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 22 Aug 2026 00:48:49 GMT",
-    "run_at": "2026-08-22T00:48:49Z",
-    "run_id": "a2150369df604eb58e81ccc664bff42c"
-  },
-  {
-    "id": "2d197fc171885769bcf49409007f7e53135f39ea",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+The Claude Platform release notes list changes to the Claude API, the client SDKs, and the Claude Console, newest first.\n-Admin API\n-user-management endpoints for\n-Claude Enterprise\n-(claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The\n-anthropic-beta: ce-user-management-2026-07-13\n-header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See\n-User management\n-.\n+computer use tool\n+is now generally available on the Claude API as the\n+computer_toolset_20260801\n+toolset: no beta header, batch actions (several actions in one turn),\n+zoom\n+enabled by default, and per-member configuration through\n+configs\n+. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see\n+Migrate from\n+computer_20251124\n+.\n+We've launched the\n+browser use tool\n+(\n+browser_toolset_20260801\n+), a client toolset for driving a browser that your application hosts. It works inside a browser viewport rather than a whole desktop, reading the page itself (its accessibility tree, elements, forms\n+Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API.\n-. Storage is 1 TB per organization and the rate limit is 500 requests per minute.\n+.\n+.\n+The\n+Admin API\n+user-management endpoints for\n+Claude Enterprise\n+(claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The\n+anthropic-beta: ce-user-management-2026-07-13\n+header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See\n+User management",
-    "snippet_full": "",
-    "diff": {
-      "added": 28,
-      "removed": 9,
-      "churn": 37
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 21 Aug 2026 00:53:18 GMT",
-    "run_at": "2026-08-21T00:53:10Z",
-    "run_id": "8f7e041144b14b248f6720d7762b6762"
-  },
-  {
-    "id": "ae171f1a2a615bb813f1ba4d38ba99ead037d800",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing AI Futures\n+link: https://openai.com/index/introducing-ai-futures\n+id: https://openai.com/index/introducing-ai-futures\n+date: Thu, 20 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Stampli cuts launch hours by 68% using ChatGPT Work\n+link: https://openai.com/index/stampli\n+id: https://openai.com/index/stampli\n+date: Thu, 20 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 21 Aug 2026 00:53:11 GMT",
-    "run_at": "2026-08-21T00:53:10Z",
-    "run_id": "8f7e041144b14b248f6720d7762b6762"
   }
 ]

@@ -51,6 +51,19 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+September 18, 2026
+
+The
+Compliance API
+local session endpoints now also return transcripts of Claude in Chrome sessions (
+product_surface
+value
+claude_in_chrome
+), in beta for Claude Enterprise organizations, with your existing Compliance Access Key and the
+read:compliance_user_data
+scope. See
+Sessions on users' machines
+.
 September 14, 2026
 
 The Messages API can now
@@ -2235,6 +2248,7 @@ blog post
 このページは役に立ちましたか？
 
 
+September 18, 2026
 September 14, 2026
 September 10, 2026
 September 3, 2026

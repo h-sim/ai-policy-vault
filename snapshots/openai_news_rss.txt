@@ -35,12 +35,6 @@ id: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex
 date: Tue, 14 Jul 2026 00:00:00 GMT
 body:
 #ITEM
-title: Using custom GPTs
-link: https://openai.com/academy/custom-gpts
-id: https://openai.com/academy/custom-gpts
-date: Fri, 10 Apr 2026 00:00:00 GMT
-body:
-#ITEM
 title: ChatGPT for customer success teams
 link: https://openai.com/academy/customer-success
 id: https://openai.com/academy/customer-success
@@ -122,6 +116,12 @@ body:
 title: Using projects in ChatGPT
 link: https://openai.com/academy/projects
 id: https://openai.com/academy/projects
+date: Fri, 10 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: Prompting fundamentals
+link: https://openai.com/academy/prompting
+id: https://openai.com/academy/prompting
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
@@ -785,6 +785,12 @@ id: https://openai.com/index/asana
 date: Tue, 18 Aug 2026 07:00:00 GMT
 body:
 #ITEM
+title: Introducing Astra for Law
+link: https://openai.com/index/astra-for-law
+id: https://openai.com/index/astra-for-law
+date: Thu, 17 Sep 2026 00:00:00 GMT
+body:
+#ITEM
 title: Personalizing education with ChatGPT
 link: https://openai.com/index/asu
 id: https://openai.com/index/asu
@@ -1439,6 +1445,12 @@ id: https://openai.com/index/continuous-voice-interaction-with-gpt-live
 date: Mon, 03 Aug 2026 07:00:00 GMT
 body:
 #ITEM
+title: How Cooley is accelerating IPO work with ChatGPT
+link: https://openai.com/index/cooley-gopublic
+id: https://openai.com/index/cooley-gopublic
+date: Thu, 17 Sep 2026 12:00:00 GMT
+body:
+#ITEM
 title: Why responsible AI development needs cooperation on safety
 link: https://openai.com/index/cooperation-on-safety
 id: https://openai.com/index/cooperation-on-safety
@@ -1805,6 +1817,12 @@ id: https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-opera
 date: Fri, 31 Jul 2026 00:00:00 GMT
 body:
 #ITEM
+title: “Cyber Special Operations”: China-linked influence planning
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations
+date: Sun, 01 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Cyber threat actors: AI-assisted intrusion research
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors
@@ -1823,6 +1841,12 @@ id: https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwag
 date: Mon, 01 Jun 2026 00:00:00 GMT
 body:
 #ITEM
+title: Operation “Date Bait”: AI-enabled scam targeting loveseekers
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait
+date: Sun, 01 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Deceptive Employment Scheme: AI-assisted hiring deception
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme
@@ -1833,6 +1857,18 @@ title: Operation "Doppelganger": Russian influence activity targeting Ukraine
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger
 date: Wed, 01 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Operation “False Witness”: Fake recovery service impersonating authorities
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness
+date: Sun, 01 Feb 2026 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Fish Food”: Russia-origin content farm activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food
+date: Sun, 01 Feb 2026 00:00:00 GMT
 body:
 #ITEM
 title: Covert influence operation: Ghana election activity
@@ -1895,6 +1931,12 @@ id: https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line
 date: Wed, 01 Oct 2025 00:00:00 GMT
 body:
 #ITEM
+title: Operation “No Bell”: Coordinated criticism of the US and allies
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell
+date: Sun, 01 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Operation “Peer Review”: AI-assisted surveillance planning
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review
@@ -1919,6 +1961,12 @@ id: https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-sca
 date: Sat, 01 Feb 2025 00:00:00 GMT
 body:
 #ITEM
+title: Romance scams: AI-enabled romance scam workflows
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-romance-scam
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-romance-scam
+date: Sun, 01 Feb 2026 00:00:00 GMT
+body:
+#ITEM
 title: Cyber Operation: Russian-speaking malware tooling
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling
@@ -1941,6 +1989,12 @@ title: Operation “ScopeCreep”: Russian-speaking malware development
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep
 date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Silver lining playbook: Likely China-origin activity targeting US persons
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook
+date: Sun, 01 Feb 2026 00:00:00 GMT
 body:
 #ITEM
 title: Operation “Sneer Review”: China-origin influence activity
@@ -2013,6 +2067,12 @@ title: Tort Report: Abusive reporting activity
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report
 date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Trolling Stone”: Russia-linked influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-trolling-stone
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-trolling-stone
+date: Sun, 01 Feb 2026 00:00:00 GMT
 body:
 #ITEM
 title: Operation “Uncle Spam”: US polarization influence activity

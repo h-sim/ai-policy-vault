@@ -217,7 +217,7 @@ Web search
 File search
 Retrieval
 Connect tools and data
-MCP and Connectors
+MCP servers
 Secure MCP Tunnel
 Build tool workflows
 Skills
@@ -1456,10 +1456,9 @@ February, 2026
 Feb 24
 Feature
 v1/responses
-v1/chat/completions
 Expanded
 input_file
-support to accept more document, presentation, spreadsheet, code, and text file types. Learn more
+support in the Responses API to accept more document, presentation, spreadsheet, code, and text file types. Learn more
 here
 .
 Feb 24
