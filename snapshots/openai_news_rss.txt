@@ -3131,6 +3131,12 @@ id: https://openai.com/index/helping-people-when-they-need-it-most
 date: Tue, 26 Aug 2025 04:00:00 GMT
 body:
 #ITEM
+title: Hex turns complex analysis into visual reports with GPT‑6 Astra
+link: https://openai.com/index/hex-gpt-6-astra
+id: https://openai.com/index/hex-gpt-6-astra
+date: Wed, 16 Sep 2026 12:00:00 GMT
+body:
+#ITEM
 title: HiBob turns 2,500 GPTs into product and team growth
 link: https://openai.com/index/hibob
 id: https://openai.com/index/hibob

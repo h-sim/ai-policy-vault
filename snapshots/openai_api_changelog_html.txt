@@ -299,9 +299,7 @@ Private Link
 IP allowlist
 Mutual TLS
 Workload identity federation
-Codex setup
 Federation rules
-Admin API
 X.509 certificates
 Kubernetes
 AWS
@@ -583,7 +581,6 @@ ChatGPT Work admin FAQ
 ChatGPT Work: usage and cost
 Identity and authentication
 Authentication overview
-Workload identity
 Personal Access Tokens
 Service accounts
 Workspace access, policy, and models
