@@ -619,7 +619,7 @@ Community
 Codex Ambassadors
 Codex for Students
 Codex for Open Source
-Meetups
+Events
 Blog
 Company blog
 Developer blog
@@ -634,7 +634,7 @@ Community
 Codex Ambassadors
 Codex for Students
 Codex for Open Source
-Meetups
+Events
 Blog
 Company blog
 Developer blog
@@ -701,9 +701,8 @@ Codex Ambassadors
 Codex for Students
 Codex for Open Source
 OpenAI for Startups
-Events
-Meetups
 Spaces
+Events
 Developer Forum
 Discord
 Reddit

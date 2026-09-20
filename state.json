@@ -1,5 +1,45 @@
 [
   {
+    "id": "fdc82f07d9b3a283d2810a746750ba7e96f70e3d",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing the Australian Youth Safety Blueprint\n+link: https://openai.com/index/australian-youth-safety-blueprint\n+id: https://openai.com/index/australian-youth-safety-blueprint\n+date: Fri, 18 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sun, 20 Sep 2026 02:45:39 GMT",
+    "run_at": "2026-09-20T02:45:16Z",
+    "run_id": "4e51ada26ba947d3b124550bbbc116b3"
+  },
+  {
+    "id": "35c4e343e6fb83799a28982b39794101cfbdc3b5",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Meetups\n+Events\n-Meetups\n+Events\n+Spaces\n-Meetups\n-Spaces",
+    "snippet_full": "",
+    "diff": {
+      "added": 3,
+      "removed": 4,
+      "churn": 7
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 20 Sep 2026 02:45:16 GMT",
+    "run_at": "2026-09-20T02:45:16Z",
+    "run_id": "4e51ada26ba947d3b124550bbbc116b3"
+  },
+  {
     "id": "658d6d818df8e9003a87739e7764a39404699392",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -948,47 +988,5 @@
     "pubDate": "Wed, 26 Aug 2026 00:52:13 GMT",
     "run_at": "2026-08-26T00:52:13Z",
     "run_id": "e1e92ea414654857a5e85c8fed9fbbb4"
-  },
-  {
-    "id": "8816f2f1ad4683a07596b9c46153c1b15242ebc9",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Advancing price-performance for developers with GPT‑5.6 in Kiro\n+link: https://openai.com/index/gpt-5-6-in-kiro\n+id: https://openai.com/index/gpt-5-6-in-kiro\n+date: Mon, 24 Aug 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 25 Aug 2026 00:51:43 GMT",
-    "run_at": "2026-08-25T00:51:21Z",
-    "run_id": "42150c348bea406c95cf5f4ba5970e07"
-  },
-  {
-    "id": "5e90a0373ece1378316ee73cefd07118d173842f",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Mutual TLS\n-X.509 certificates (beta)\n+X.509 certificates\n+ChatGPT Work cloud security",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 1,
-      "churn": 4
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 25 Aug 2026 00:51:21 GMT",
-    "run_at": "2026-08-25T00:51:21Z",
-    "run_id": "42150c348bea406c95cf5f4ba5970e07"
   }
 ]

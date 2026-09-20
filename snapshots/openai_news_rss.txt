@@ -821,6 +821,12 @@ id: https://openai.com/index/australian-payments-plus
 date: Tue, 07 Jul 2026 00:00:00 GMT
 body:
 #ITEM
+title: Introducing the Australian Youth Safety Blueprint
+link: https://openai.com/index/australian-youth-safety-blueprint
+id: https://openai.com/index/australian-youth-safety-blueprint
+date: Fri, 18 Sep 2026 12:00:00 GMT
+body:
+#ITEM
 title: AutoScout24 scales engineering with AI-powered workflows
 link: https://openai.com/index/autoscout24
 id: https://openai.com/index/autoscout24
