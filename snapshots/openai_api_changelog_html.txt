@@ -5,6 +5,9 @@ llms.txt
 .md
 to the page URL.
 ChatGPT
+Start searching
+API Dashboard
+Try ChatGPT
 Home
 API
 Codex
@@ -36,9 +39,6 @@ Learn
 Docs, videos, and demo apps for building with OpenAI
 Community
 Programs, meetups, and support for builders
-Start searching
-API Dashboard
-Try ChatGPT
 Overview
 Models
 Agents

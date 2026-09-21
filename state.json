@@ -1,5 +1,24 @@
 [
   {
+    "id": "9526776113c6e1982f4abbd14754f9d12a34bcc7",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Start searching\n+API Dashboard\n+Try ChatGPT\n-Start searching\n-API Dashboard\n-Try ChatGPT",
+    "snippet_full": "",
+    "diff": {
+      "added": 3,
+      "removed": 3,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 21 Sep 2026 02:42:33 GMT",
+    "run_at": "2026-09-21T02:42:32Z",
+    "run_id": "399bf9c3630f4372af53fd2757d49a00"
+  },
+  {
     "id": "fdc82f07d9b3a283d2810a746750ba7e96f70e3d",
     "impact": "High",
     "name": "OpenAI News (RSS)",
@@ -962,25 +981,6 @@
       "added": 24,
       "removed": 0,
       "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 26 Aug 2026 00:52:13 GMT",
-    "run_at": "2026-08-26T00:52:13Z",
-    "run_id": "e1e92ea414654857a5e85c8fed9fbbb4"
-  },
-  {
-    "id": "0b738d544e4b54691834e85c43f6a6f2c599bab1",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Chrome extension\n+Browser extension\n+Site tools (WebMCP)\n+Automating repetitive work at OpenAI with Codex\n+Meet the winners of OpenAI Build Week\n-Mastering remote engineering work from your phone\n-Making private MCP servers reachable without making them public",
-    "snippet_full": "",
-    "diff": {
-      "added": 4,
-      "removed": 3,
-      "churn": 7
     },
     "score": 0,
     "reasons": [],
