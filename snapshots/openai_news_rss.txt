@@ -599,6 +599,12 @@ id: https://openai.com/index/adversarial-training-methods-for-semi-supervised-te
 date: Wed, 25 May 2016 07:00:00 GMT
 body:
 #ITEM
+title: Advisory Group on Mathematics and Artificial Intelligence
+link: https://openai.com/index/advisory-group-on-mathematics-and-ai
+id: https://openai.com/index/advisory-group-on-mathematics-and-ai
+date: Mon, 21 Sep 2026 12:00:00 GMT
+body:
+#ITEM
 title: Early methods for studying affective use and emotional well-being on ChatGPT
 link: https://openai.com/index/affective-use-study
 id: https://openai.com/index/affective-use-study
@@ -1059,6 +1065,12 @@ title: Building self-improving tax agents with Codex
 link: https://openai.com/index/building-self-improving-tax-agents-with-codex
 id: https://openai.com/index/building-self-improving-tax-agents-with-codex
 date: Wed, 27 May 2026 07:00:00 GMT
+body:
+#ITEM
+title: Building standards for the next phase of AI
+link: https://openai.com/index/building-standards-next-phase-ai
+id: https://openai.com/index/building-standards-next-phase-ai
+date: Mon, 21 Sep 2026 10:00:00 GMT
 body:
 #ITEM
 title: Building the compute infrastructure for the Intelligence Age
@@ -2381,6 +2393,12 @@ id: https://openai.com/index/expanding-on-sycophancy
 date: Fri, 02 May 2025 08:00:00 GMT
 body:
 #ITEM
+title: Expanding OpenAI Academy with new learning paths
+link: https://openai.com/index/expanding-openai-academy-with-new-learning-paths
+id: https://openai.com/index/expanding-openai-academy-with-new-learning-paths
+date: Mon, 21 Sep 2026 07:00:00 GMT
+body:
+#ITEM
 title: Expanding OpenAI’s presence in Brazil
 link: https://openai.com/index/expanding-our-presence-in-brazil
 id: https://openai.com/index/expanding-our-presence-in-brazil
@@ -3159,6 +3177,12 @@ title: How Higgsfield turns simple ideas into cinematic social videos
 link: https://openai.com/index/higgsfield
 id: https://openai.com/index/higgsfield
 date: Wed, 21 Jan 2026 10:00:00 GMT
+body:
+#ITEM
+title: Higgsfield AI ships new video features in a day with GPT-6 Astra
+link: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
+id: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
+date: Mon, 21 Sep 2026 12:00:00 GMT
 body:
 #ITEM
 title: Hindsight Experience Replay
@@ -7005,6 +7029,12 @@ title: Using GPT-4 for content moderation
 link: https://openai.com/index/using-gpt-4-for-content-moderation
 id: https://openai.com/index/using-gpt-4-for-content-moderation
 date: Tue, 15 Aug 2023 07:00:00 GMT
+body:
+#ITEM
+title: How V7 gives AI agents institutional memory
+link: https://openai.com/index/v7
+id: https://openai.com/index/v7
+date: Mon, 21 Sep 2026 00:00:00 GMT
 body:
 #ITEM
 title: Variance reduction for policy gradient with action-dependent factorized baselines

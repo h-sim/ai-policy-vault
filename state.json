@@ -1,5 +1,43 @@
 [
   {
+    "id": "caef402d9cec14c82828420a6f2a0fcc08af2134",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Advisory Group on Mathematics and Artificial Intelligence\n+link: https://openai.com/index/advisory-group-on-mathematics-and-ai\n+id: https://openai.com/index/advisory-group-on-mathematics-and-ai\n+date: Mon, 21 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Building standards for the next phase of AI\n+link: https://openai.com/index/building-standards-next-phase-ai\n+id: https://openai.com/index/building-standards-next-phase-ai\n+date: Mon, 21 Sep 2026 10:00:00 GMT\n+title: Expanding OpenAI Academy with new learning paths\n+link: https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+    "snippet_full": "+title: Advisory Group on Mathematics and Artificial Intelligence\n+link: https://openai.com/index/advisory-group-on-mathematics-and-ai\n+id: https://openai.com/index/advisory-group-on-mathematics-and-ai\n+date: Mon, 21 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Building standards for the next phase of AI\n+link: https://openai.com/index/building-standards-next-phase-ai\n+id: https://openai.com/index/building-standards-next-phase-ai\n+date: Mon, 21 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Expanding OpenAI Academy with new learning paths\n+link: https://openai.com/index/expanding-openai-academy-with-new-learning-paths\n+id: https://openai.com/index/expanding-openai-academy-with-new-learning-paths\n+date: Mon, 21 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Higgsfield AI ships new video features in a day with GPT-6 Astra\n+link: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra\n+id: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra\n+date: Mon, 21 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How V7 gives AI agents institutional memory\n+link: https://openai.com/index/v7\n+id: https://openai.com/index/v7\n+date: Mon, 21 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 30,
+      "removed": 0,
+      "churn": 30
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 22 Sep 2026 02:43:35 GMT",
+    "run_at": "2026-09-22T02:43:35Z",
+    "run_id": "c25b0b4545bd4adbbcf7a04d997efae1"
+  },
+  {
+    "id": "51b95f622ada2cae909d2ee417417dc9e7ff6283",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+WebRTC with WARP",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 22 Sep 2026 02:43:35 GMT",
+    "run_at": "2026-09-22T02:43:35Z",
+    "run_id": "c25b0b4545bd4adbbcf7a04d997efae1"
+  },
+  {
     "id": "9526776113c6e1982f4abbd14754f9d12a34bcc7",
     "impact": "Medium",
     "name": "OpenAI API Changelog (HTML)",
@@ -950,43 +988,5 @@
     "pubDate": "Thu, 27 Aug 2026 06:31:52 GMT",
     "run_at": "2026-08-27T06:31:52Z",
     "run_id": "d4693fd2d08e47628951965f7f861f09"
-  },
-  {
-    "id": "abf1744c8f1e31b08c2ce4acaa31c2b07ac8ffb0",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Image input cost calculator\n+GitLab CI/CD",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 27 Aug 2026 06:31:52 GMT",
-    "run_at": "2026-08-27T06:31:52Z",
-    "run_id": "d4693fd2d08e47628951965f7f861f09"
-  },
-  {
-    "id": "ee1fd0ffda1b8791473864d8f115c9975b44a730",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Disrupting a new covert influence campaign from Russia\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia\n+date: Tue, 25 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Admin plugin for ChatGPT Work and Codex\n+link: https://openai.com/index/introducing-admin-plugin\n+id: https://openai.com/index/introducing-admin-plugin\n+title: Jalapeño’s first results show industry-leading speed and efficiency in AI inference\n+link: https://openai.com/index/jalapeno-first-results\n+id: https://openai.com/index/jalapeno-first-results",
-    "snippet_full": "+title: Disrupting a new covert influence campaign from Russia\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia\n+date: Tue, 25 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Admin plugin for ChatGPT Work and Codex\n+link: https://openai.com/index/introducing-admin-plugin\n+id: https://openai.com/index/introducing-admin-plugin\n+date: Tue, 25 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Jalapeño’s first results show industry-leading speed and efficiency in AI inference\n+link: https://openai.com/index/jalapeno-first-results\n+id: https://openai.com/index/jalapeno-first-results\n+date: Tue, 25 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: The full stack behind abundant intelligence\n+link: https://openai.com/index/the-full-stack-behind-abundant-intelligence\n+id: https://openai.com/index/the-full-stack-behind-abundant-intelligence\n+date: Tue, 25 Aug 2026 07:05:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 26 Aug 2026 00:52:13 GMT",
-    "run_at": "2026-08-26T00:52:13Z",
-    "run_id": "e1e92ea414654857a5e85c8fed9fbbb4"
   }
 ]
