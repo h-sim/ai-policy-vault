@@ -929,6 +929,12 @@ id: https://openai.com/index/better-language-models
 date: Thu, 14 Feb 2019 08:00:00 GMT
 body:
 #ITEM
+title: Better prompt caching for GPT-6
+link: https://openai.com/index/better-prompt-caching-for-gpt-6
+id: https://openai.com/index/better-prompt-caching-for-gpt-6
+date: Tue, 22 Sep 2026 21:00:00 GMT
+body:
+#ITEM
 title: Beyond rate limits: scaling access to Codex and Sora
 link: https://openai.com/index/beyond-rate-limits
 id: https://openai.com/index/beyond-rate-limits
@@ -3731,6 +3737,12 @@ id: https://openai.com/index/introducing-gpt-5-for-developers
 date: Thu, 07 Aug 2025 10:00:00 GMT
 body:
 #ITEM
+title: Introducing GPT-6 Sol and Luna
+link: https://openai.com/index/introducing-gpt-6-sol-and-luna
+id: https://openai.com/index/introducing-gpt-6-sol-and-luna
+date: Tue, 22 Sep 2026 18:00:00 GMT
+body:
+#ITEM
 title: Introducing GPT-Live
 link: https://openai.com/index/introducing-gpt-live
 id: https://openai.com/index/introducing-gpt-live
@@ -5585,6 +5597,12 @@ id: https://openai.com/index/paradigm
 date: Wed, 06 Mar 2024 08:00:00 GMT
 body:
 #ITEM
+title: Parallel cut research time and cost in half with GPT‑6 Astra
+link: https://openai.com/index/parallel-cuts-time-and-cost-with-astra
+id: https://openai.com/index/parallel-cuts-time-and-cost-with-astra
+date: Tue, 22 Sep 2026 12:00:00 GMT
+body:
+#ITEM
 title: Parloa builds service agents customers want to talk to
 link: https://openai.com/index/parloa
 id: https://openai.com/index/parloa
@@ -5769,6 +5787,12 @@ title: Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed
 link: https://openai.com/index/previewing-ultrafast
 id: https://openai.com/index/previewing-ultrafast
 date: Thu, 13 Aug 2026 10:00:00 GMT
+body:
+#ITEM
+title: Priorities and principles for effective third party assessments
+link: https://openai.com/index/priorities-principles-third-party-assessments
+id: https://openai.com/index/priorities-principles-third-party-assessments
+date: Tue, 22 Sep 2026 00:00:00 GMT
 body:
 #ITEM
 title: Procgen Benchmark

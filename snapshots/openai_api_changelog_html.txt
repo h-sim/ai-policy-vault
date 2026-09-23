@@ -87,7 +87,7 @@ Overview
 Home
 Get started
 Quickstart
-Using GPT-6 Astra
+Using GPT-6
 Key concepts
 Core concepts
 Responses API
@@ -279,6 +279,7 @@ Flex processing
 Safety and governance
 Safety best practices
 Red teaming
+Daybreak
 Safety checks
 Safety classifiers
 Cybersecurity checks
@@ -287,6 +288,7 @@ Under-18 guidance
 CSAM guidance
 Content provenance
 Your data
+Private Safety Processing
 Permissions
 Infrastructure and access
 Terraform provider
@@ -393,6 +395,7 @@ Conversions API
 Supported Events
 Advertiser API
 Overview
+API Partner Setup
 Campaign Management
 Bidding & Budgets
 Targeting
@@ -436,6 +439,7 @@ Get started with Work
 Import from another agent
 Foundations
 Prompting
+Model selection
 Personalize ChatGPT
 Skills & Plugins
 Permissions
@@ -713,7 +717,7 @@ Try ChatGPT
 Home
 Get started
 Quickstart
-Using GPT-6 Astra
+Using GPT-6
 Key concepts
 Core concepts
 Responses API
@@ -764,6 +768,30 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 September, 2026
+Sep 22
+Feature
+gpt-6-sol
+gpt-6-luna
+v1/responses
+v1/chat/completions
+Released
+GPT-6 Sol
+(
+gpt-6-sol
+) and
+GPT-6 Luna
+(
+gpt-6-luna
+).
+These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs.
+Standard pricing per 1M tokens for prompts with up to 272K input tokens:
+GPT-6 Sol: $2 input, $0.20 cached input, and $10 output.
+GPT-6 Luna: $0.10 input, $0.01 cached input, and $0.50 output.
+Compare capabilities in the
+model catalog
+, and see
+pricing
+for cache writes, longer prompts, and other processing tiers.
 Sep 15
 Feature
 Added API key creation governance controls at the organization and project levels. Administrators can allow only service-account keys, allow only user-owned project keys, or disable all new API key creation. Organization restrictions take precedence over project settings, and existing API keys are unaffected. See

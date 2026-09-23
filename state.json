@@ -1,5 +1,66 @@
 [
   {
+    "id": "8943e86f79697df197e58e13848a484ef54a8d4f",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+September 22, 2026\n+\n+We've launched\n+Claude Opus 5.5\n+(\n+claude-opus-5-5\n+), a model for long-running agentic coding and knowledge work. It has a\n+1M token context window\n+by default, 128k max output tokens, and always-on\n+adaptive thinking\n+, at $4 / $20 USD per MTok (Claude Opus 5 is $5 / $25). Claude Opus 5.5 is available on the Claude API,\n+Claude in Amazon Bedrock\n+,\n+Claude Platform on AWS\n+,\n+Claude on Google Cloud\n+, and\n+Claude in Microsoft Foundry\n+. See\n+What's new in Claude Opus 5.5\n+for capabilities, API changes, and migration guidance.\n+On Claude Opus 5.5, thinking can't be disabled:\n+thinking: {\"type\": \"disabled\"}\n+and\n+thinking: {\"type\": \"enabled\", ...}\n+return a 400 error. Omit the\n+thinking\n+field and control thinking depth with the\n+effort parameter\n+.\n+tool_choice\n+types\n+any\n+and\n+tool\n+also return a 400 error, as on Claude Fable 5.1; use\n+auto\n+with\n+strict tool use\n+. On the Claude API and Google Cloud,",
+    "snippet_full": "",
+    "diff": {
+      "added": 81,
+      "removed": 0,
+      "churn": 81
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 23 Sep 2026 02:44:24 GMT",
+    "run_at": "2026-09-23T02:44:00Z",
+    "run_id": "42ae08631fba472cafb2c4efaec03204"
+  },
+  {
+    "id": "e2bff876a8e2e2cf3c5747edf2d94f6766aac09d",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Better prompt caching for GPT-6\n+link: https://openai.com/index/better-prompt-caching-for-gpt-6\n+id: https://openai.com/index/better-prompt-caching-for-gpt-6\n+date: Tue, 22 Sep 2026 21:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-6 Sol and Luna\n+link: https://openai.com/index/introducing-gpt-6-sol-and-luna\n+id: https://openai.com/index/introducing-gpt-6-sol-and-luna\n+date: Tue, 22 Sep 2026 18:00:00 GMT\n+title: Parallel cut research time and cost in half with GPT‑6 Astra\n+link: https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+    "snippet_full": "+title: Better prompt caching for GPT-6\n+link: https://openai.com/index/better-prompt-caching-for-gpt-6\n+id: https://openai.com/index/better-prompt-caching-for-gpt-6\n+date: Tue, 22 Sep 2026 21:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-6 Sol and Luna\n+link: https://openai.com/index/introducing-gpt-6-sol-and-luna\n+id: https://openai.com/index/introducing-gpt-6-sol-and-luna\n+date: Tue, 22 Sep 2026 18:00:00 GMT\n+body:\n+#ITEM\n+title: Parallel cut research time and cost in half with GPT‑6 Astra\n+link: https://openai.com/index/parallel-cuts-time-and-cost-with-astra\n+id: https://openai.com/index/parallel-cuts-time-and-cost-with-astra\n+date: Tue, 22 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Priorities and principles for effective third party assessments\n+link: https://openai.com/index/priorities-principles-third-party-assessments\n+id: https://openai.com/index/priorities-principles-third-party-assessments\n+date: Tue, 22 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 23 Sep 2026 02:44:01 GMT",
+    "run_at": "2026-09-23T02:44:00Z",
+    "run_id": "42ae08631fba472cafb2c4efaec03204"
+  },
+  {
+    "id": "2601336a8ff8bed1415d5a08b60580fec4123496",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Using GPT-6 Astra\n+Using GPT-6\n+Daybreak\n+Private Safety Processing\n+API Partner Setup\n+Model selection\n-Using GPT-6 Astra\n+Using GPT-6\n+Sep 22\n+Feature\n+gpt-6-sol\n+gpt-6-luna\n+v1/responses\n+v1/chat/completions\n+Released\n+GPT-6 Sol\n+(\n+gpt-6-sol\n+) and\n+GPT-6 Luna\n+(\n+gpt-6-luna\n+).\n+These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs.\n+Standard pricing per 1M tokens for prompts with up to 272K input tokens:\n+GPT-6 Sol: $2 input, $0.20 cached input, and $10 output.\n+GPT-6 Luna: $0.10 input, $0.01 cached input, and $0.50 output.\n+Compare capabilities in the\n+model catalog\n+, and see\n+pricing\n+for cache writes, longer prompts, and other processing tiers.",
+    "snippet_full": "",
+    "diff": {
+      "added": 30,
+      "removed": 2,
+      "churn": 32
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 23 Sep 2026 02:44:01 GMT",
+    "run_at": "2026-09-23T02:44:00Z",
+    "run_id": "42ae08631fba472cafb2c4efaec03204"
+  },
+  {
     "id": "caef402d9cec14c82828420a6f2a0fcc08af2134",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -928,65 +989,5 @@
     "pubDate": "Fri, 28 Aug 2026 08:22:21 GMT",
     "run_at": "2026-08-28T08:22:20Z",
     "run_id": "f27757b61218460baa987f123dcdc12d"
-  },
-  {
-    "id": "eb0b64bc2ff15cee6190afe372753ec01165d09b",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Deep dive\n-Tools\n-Deep dive\n-Tools\n-daybreak-red-latest\n-daybreak-blue-latest\n+gpt-daybreak-red-latest\n+gpt-daybreak-blue-latest",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 6,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 28 Aug 2026 08:22:21 GMT",
-    "run_at": "2026-08-28T08:22:20Z",
-    "run_id": "f27757b61218460baa987f123dcdc12d"
-  },
-  {
-    "id": "8138411e7abb3e66df5d5ef78ef60982f53965cf",
-    "impact": "High",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+August 26, 2026\n+The\n+Compliance API\n+session endpoints are out of beta for Cowork and Claude Code sessions. See\n+Retrieve session transcripts\n+.\n+The\n+Compliance API\n+local session endpoints now also return transcripts of Claude Science sessions (\n+product_surface\n+value\n+claude_science\n+) and Claude for Microsoft 365 sessions in Excel, PowerPoint, Word, and Outlook (\n+product_surface\n+values beginning with\n+office_agents\n+), in beta for Claude Enterprise organizations, with your existing Compliance Access Key and the\n+read:compliance_user_data\n+scope. See\n+Sessions on users' machines\n+.\n+The\n+Admin API\n+is now available in the\n+ant\n+CLI and the Python, TypeScript, C#, Go, Java, PHP, and Ruby SDKs under\n+client.beta.organization\n+. They cover organization info, members, invites, workspaces and workspace members, API keys, rate limits, service accounts, workload identity federation issuers and rules, and customer-managed encry\n+ANTHROPIC_API_KEY\n+or an\n+org:admin\n+OAuth token from\n+ANTHROPIC_AUTH_TOKEN\n+.\n+\n+The\n+computer use\n+and\n+browser use\n+toolsets (",
-    "snippet_full": "",
-    "diff": {
-      "added": 50,
-      "removed": 1,
-      "churn": 51
-    },
-    "score": 60,
-    "reasons": [
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 27 Aug 2026 06:32:20 GMT",
-    "run_at": "2026-08-27T06:31:52Z",
-    "run_id": "d4693fd2d08e47628951965f7f861f09"
-  },
-  {
-    "id": "d4bddf2671bb8d542705df6921fc99962ecd117f",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Bringing ChatGPT for Teachers to more U.S. school districts\n+link: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts\n+id: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts\n+date: Wed, 26 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: The Hugging Face incident and the road ahead\n+link: https://openai.com/index/hugging-face-incident-and-the-road-ahead\n+id: https://openai.com/index/hugging-face-incident-and-the-road-ahead\n+date: Wed, 26 Aug 2026 00:00:00 GMT\n-title: Introducing AI Futures\n+title: Introducing Intelligence Age",
-    "snippet_full": "+title: Bringing ChatGPT for Teachers to more U.S. school districts\n+link: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts\n+id: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts\n+date: Wed, 26 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: The Hugging Face incident and the road ahead\n+link: https://openai.com/index/hugging-face-incident-and-the-road-ahead\n+id: https://openai.com/index/hugging-face-incident-and-the-road-ahead\n+date: Wed, 26 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing AI Futures\n+title: Introducing Intelligence Age\n+title: Introducing Intelligence Age\n+link: https://openai.com/index/introducing-intelligence-age\n+id: https://openai.com/index/introducing-intelligence-age\n+date: Thu, 20 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Learning never stops: How AI makes learning continuous\n+link: https://openai.com/index/learning-never-stops\n+id: https://openai.com/index/learning-never-stops\n+date: Wed, 26 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How loveholidays is making everyone a builder with Codex\n+link: https://openai.com/index/loveholidays\n+id: https://openai.com/index/loveholidays\n+date: Wed, 26 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 31,
-      "removed": 1,
-      "churn": 32
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 27 Aug 2026 06:31:52 GMT",
-    "run_at": "2026-08-27T06:31:52Z",
-    "run_id": "d4693fd2d08e47628951965f7f861f09"
   }
 ]
