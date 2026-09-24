@@ -657,11 +657,11 @@ Docs
 Select...
 All posts
 Recent
+Bringing my LED display to life with GPT-Live-1 and Codex
 Rethinking skills and prompts for GPT-6 Astra
 Architectural visualization with Astra
 Building games with Astra
 Meet Rosalind Workbench: Empowering every scientist to be their own research team
-Automating repetitive work at OpenAI with Codex
 Topics
 General
 API

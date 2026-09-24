@@ -1,5 +1,62 @@
 [
   {
+    "id": "f1154518dfb1b0e56f0900473f1deabd64fd1acd",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-or invalidating the prompt cache. The same header covers adding and removing tools by reference.\n-With the MCP connector's\n+or invalidating the prompt cache. The same header covers adding and removing tools by reference. With the MCP connector's",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 2,
+      "churn": 3
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 24 Sep 2026 02:33:36 GMT",
+    "run_at": "2026-09-24T02:33:34Z",
+    "run_id": "8552b616ad1846d0a942b3daca5c23d5"
+  },
+  {
+    "id": "94f428104f132bbce21669ee8e6837414fd0ae4d",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Airbnb widens access to GPT-6 Astra and OpenAI frontier models\n+link: https://openai.com/index/airbnb-gpt-6-astra\n+id: https://openai.com/index/airbnb-gpt-6-astra\n+date: Wed, 23 Sep 2026 01:00:00 GMT\n+body:\n+#ITEM\n+title: Grab and OpenAI bring practical AI skills to Southeast Asia\n+link: https://openai.com/index/grab-openai-ai-skills-southeast-asia\n+id: https://openai.com/index/grab-openai-ai-skills-southeast-asia\n+date: Wed, 23 Sep 2026 00:00:00 GMT\n+title: Harvey turns legal context into stronger drafts with GPT-6 Astra\n+link: https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+    "snippet_full": "+title: Airbnb widens access to GPT-6 Astra and OpenAI frontier models\n+link: https://openai.com/index/airbnb-gpt-6-astra\n+id: https://openai.com/index/airbnb-gpt-6-astra\n+date: Wed, 23 Sep 2026 01:00:00 GMT\n+body:\n+#ITEM\n+title: Grab and OpenAI bring practical AI skills to Southeast Asia\n+link: https://openai.com/index/grab-openai-ai-skills-southeast-asia\n+id: https://openai.com/index/grab-openai-ai-skills-southeast-asia\n+date: Wed, 23 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Harvey turns legal context into stronger drafts with GPT-6 Astra\n+link: https://openai.com/index/harvey-from-context-to-confidence-with-astra\n+id: https://openai.com/index/harvey-from-context-to-confidence-with-astra\n+date: Wed, 23 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing MentalHealthBench\n+link: https://openai.com/index/introducing-mentalhealthbench\n+id: https://openai.com/index/introducing-mentalhealthbench\n+date: Wed, 23 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How invideo improves color grading 3x with GPT‑6 Astra\n+link: https://openai.com/index/invideo-builds-with-gpt-6-astra\n+id: https://openai.com/index/invideo-builds-with-gpt-6-astra\n+date: Wed, 23 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI extends cyber access to Ukraine for civilian defense\n+link: https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense\n+id: https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense\n+date: Wed, 23 Sep 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: Ringg’s AI agents resolve up to 65% of customer calls with OpenAI\n+link: https://openai.com/index/ringg\n+id: https://openai.com/index/ringg\n+date: Wed, 23 Sep 2026 12:00:00 GMT",
+    "diff": {
+      "added": 54,
+      "removed": 0,
+      "churn": 54
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 24 Sep 2026 02:33:35 GMT",
+    "run_at": "2026-09-24T02:33:34Z",
+    "run_id": "8552b616ad1846d0a942b3daca5c23d5"
+  },
+  {
+    "id": "86ed3b9506a58eacb0b0c3f624800917690f3c2b",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Bringing my LED display to life with GPT-Live-1 and Codex\n-Automating repetitive work at OpenAI with Codex",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 24 Sep 2026 02:33:35 GMT",
+    "run_at": "2026-09-24T02:33:34Z",
+    "run_id": "8552b616ad1846d0a942b3daca5c23d5"
+  },
+  {
     "id": "8943e86f79697df197e58e13848a484ef54a8d4f",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -929,65 +986,5 @@
     "pubDate": "Sat, 29 Aug 2026 05:03:08 GMT",
     "run_at": "2026-08-29T05:03:07Z",
     "run_id": "2d65f3ad77834bd68e2d58f8c4b243c6"
-  },
-  {
-    "id": "a883c55fcca9e473aeb883bc156a3f88583acbe5",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Meet Rosalind Workbench: Empowering every scientist to be their own research team\n-Custom Code Review rules for Codex\n+Life sciences",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 1,
-      "churn": 3
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 29 Aug 2026 05:03:07 GMT",
-    "run_at": "2026-08-29T05:03:07Z",
-    "run_id": "2d65f3ad77834bd68e2d58f8c4b243c6"
-  },
-  {
-    "id": "869ad47fb2b6d4f822b8ce610e72cbe953de5f1b",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+August 27, 2026\n+In Python SDK 1.2.0, TypeScript SDK 0.122.0, Go SDK 1.68.0, Java SDK 2.59.0, Ruby SDK 1.67.0, and C# SDK 12.44.0,\n+client.beta.files\n+and\n+client.beta.skills\n+no longer send the\n+files-api-2025-04-14\n+and\n+skills-2025-10-02\n+beta headers and return the same shapes as\n+client.files\n+and\n+client.skills\n+. With this change,\n+client.beta.skills.delete()\n+deletes a Skill together with all of its versions, and the beta Messages type\n+BetaSkill\n+(the container Skill reference) is renamed\n+BetaContainerSkill\n+. Requests that still send the beta headers keep receiving the beta shapes. See\n+Migrate from\n+files-api-2025-04-14\n+and\n+Migrate from\n+skills-2025-10-02\n+.\n+You can now create\n+personal keys\n+and\n+service account keys\n+in the Claude Console. They act as you or as a\n+service account\n+, with the same permissions, and stop working when the linked account is removed from an organization. This lets organization admins more easily track usage for each account, and ensure key usage is \n+work on admin endpoints and across any workspace\n+the account has access to. Workspace API keys remain supported as a legacy option. See\n+API keys\n+for more information.\n+\n+To move an existing integration off the header, see\n+Migrate from",
-    "snippet_full": "",
-    "diff": {
-      "added": 47,
-      "removed": 0,
-      "churn": 47
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 28 Aug 2026 08:22:53 GMT",
-    "run_at": "2026-08-28T08:22:20Z",
-    "run_id": "f27757b61218460baa987f123dcdc12d"
-  },
-  {
-    "id": "d4d72381379be71e0247c8fbd5a5a419eafe44b4",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Expanding OpenAI’s presence in Brazil\n+link: https://openai.com/index/expanding-our-presence-in-brazil\n+id: https://openai.com/index/expanding-our-presence-in-brazil\n+date: Thu, 27 Aug 2026 03:00:00 GMT\n+body:\n+#ITEM\n+title: Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training\n+link: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training\n+id: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training\n+date: Thu, 27 Aug 2026 09:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 28 Aug 2026 08:22:21 GMT",
-    "run_at": "2026-08-28T08:22:20Z",
-    "run_id": "f27757b61218460baa987f123dcdc12d"
   }
 ]

@@ -113,8 +113,7 @@ block can carry the tool's full definition (
 tool: {"type": "tool_definition", "definition": {...}}
 ), so you can add a tool, change its schema, or move a server tool to a newer version without editing
 tools
-or invalidating the prompt cache. The same header covers adding and removing tools by reference.
-With the MCP connector's
+or invalidating the prompt cache. The same header covers adding and removing tools by reference. With the MCP connector's
 mcp-client-2026-09-15
 beta header as well, the definition can be an MCP toolset, and a response records each server's fetched tool list in an
 mcp_tool_listing
