@@ -1,5 +1,62 @@
 [
   {
+    "id": "d92d8f5051a089d6f15930f9dceadb7d7a55e443",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+September 24, 2026\n+\n+We're expanding which refusals are billed to include refusals that arrive before any output when\n+stop_details.category\n+is\n+\"bio\"\n+,\n+\"frontier_llm\"\n+, or\n+\"reasoning_extraction\"\n+, the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. The newly billed refusals are charged like any other request, at the rates of the model that\n+How refusals are billed\n+.\n+September 23, 2026\n+\n+Cache diagnostics\n+is out of beta on the Claude API and no longer requires the\n+cache-diagnosis-2026-04-07\n+beta header. Include the\n+diagnostics\n+object on a Messages request to opt in; requests that still send the header work as before. Responses from\n+POST /v1/messages\n+now always include the\n+diagnostics\n+field, which is\n+null\n+when the request did not include the\n+diagnostics\n+object.\n+For\n+cache diagnostics\n+, a response to a request that sends the\n+cache-diagnosis-2026-04-07\n+beta header now always includes the\n+diagnostics\n+field. The field is\n+null\n+when the request did not include the\n+diagnostics\n+object. Previously the field was omitted in that case.",
+    "snippet_full": "",
+    "diff": {
+      "added": 60,
+      "removed": 0,
+      "churn": 60
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 25 Sep 2026 02:50:38 GMT",
+    "run_at": "2026-09-25T02:50:37Z",
+    "run_id": "0d94a2f414c04ea88dbba1116c8b6cf2"
+  },
+  {
+    "id": "c134624c7f4b34f6801553d922f615dbb86f0d3c",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: ChatGPT Ads expands to Southeast Asia and Taiwan\n+link: https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan\n+id: https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan\n+date: Wed, 23 Sep 2026 02:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 25 Sep 2026 02:50:37 GMT",
+    "run_at": "2026-09-25T02:50:37Z",
+    "run_id": "0d94a2f414c04ea88dbba1116c8b6cf2"
+  },
+  {
+    "id": "80a1bd70bfc63c02a255407fbebf1e86d0ce8e2d",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Images and video\n+Images\n-Video generation\n+Other tools\n+Organization blocking\n+Migrate custom GPTs to plugins",
+    "snippet_full": "",
+    "diff": {
+      "added": 4,
+      "removed": 2,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 25 Sep 2026 02:50:37 GMT",
+    "run_at": "2026-09-25T02:50:37Z",
+    "run_id": "0d94a2f414c04ea88dbba1116c8b6cf2"
+  },
+  {
     "id": "f1154518dfb1b0e56f0900473f1deabd64fd1acd",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -927,64 +984,5 @@
     "pubDate": "Mon, 31 Aug 2026 02:46:01 GMT",
     "run_at": "2026-08-31T02:46:00Z",
     "run_id": "b55dd861ef6b487b8a5023094514b5d5"
-  },
-  {
-    "id": "96e973dfa6dcfcf604384f9e83286d925e38359a",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Training\n+Training\n+ChatGPT Work local security\n+ChatGPT Work: usage and cost\n+Plugin management\n+Admin plugin",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sun, 30 Aug 2026 02:52:57 GMT",
-    "run_at": "2026-08-30T02:52:56Z",
-    "run_id": "60495f7e31c345bbbd8aea31219c8559"
-  },
-  {
-    "id": "73fa70f5853a556ebfe1c742d17abf13e0609711",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+Ask Docs\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 29 Aug 2026 05:03:15 GMT",
-    "run_at": "2026-08-29T05:03:07Z",
-    "run_id": "2d65f3ad77834bd68e2d58f8c4b243c6"
-  },
-  {
-    "id": "5dcd5e48a2cab9127381d0561380dcdee78e418b",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Our decision on Cursor following its acquisition by SpaceX\n+link: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex\n+id: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex\n+date: Fri, 28 Aug 2026 06:00:00 GMT\n+body:\n+#ITEM\n+title: Supporting Thailand’s next generation of AI startups\n+link: https://openai.com/index/supporting-next-generation-ai-startups-thailand\n+id: https://openai.com/index/supporting-next-generation-ai-startups-thailand\n+date: Fri, 28 Aug 2026 02:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 29 Aug 2026 05:03:08 GMT",
-    "run_at": "2026-08-29T05:03:07Z",
-    "run_id": "2d65f3ad77834bd68e2d58f8c4b243c6"
   }
 ]

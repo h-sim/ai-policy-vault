@@ -51,6 +51,35 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+September 24, 2026
+
+We're expanding which refusals are billed to include refusals that arrive before any output when
+stop_details.category
+is
+"bio"
+,
+"frontier_llm"
+, or
+"reasoning_extraction"
+, the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. The newly billed refusals are charged like any other request, at the rates of the model that ran it. Refusals before any output in other categories are still not billed, and fallback credit is unchanged. This change applies on all platforms. See
+How refusals are billed
+.
+September 23, 2026
+
+Cache diagnostics
+is out of beta on the Claude API and no longer requires the
+cache-diagnosis-2026-04-07
+beta header. Include the
+diagnostics
+object on a Messages request to opt in; requests that still send the header work as before. Responses from
+POST /v1/messages
+now always include the
+diagnostics
+field, which is
+null
+when the request did not include the
+diagnostics
+object.
 September 22, 2026
 
 We've launched
@@ -120,6 +149,17 @@ mcp_tool_listing
 block, which pins that list when you send it back.
 September 18, 2026
 
+For
+cache diagnostics
+, a response to a request that sends the
+cache-diagnosis-2026-04-07
+beta header now always includes the
+diagnostics
+field. The field is
+null
+when the request did not include the
+diagnostics
+object. Previously the field was omitted in that case.
 The
 Compliance API
 local session endpoints now also return transcripts of Claude in Chrome sessions (
@@ -179,6 +219,23 @@ ant beta:sessions connect
 to serve the Claude Console's session viewer locally and open the session there instead. See
 Connect to a Managed Agents session from your terminal
 .
+September 9, 2026
+
+For
+cache diagnostics
+, the API now stores a request's fingerprint only when the request includes the
+diagnostics
+object. A request that sends only the
+cache-diagnosis-2026-04-07
+beta header is still accepted, but no fingerprint is stored. A later turn that points
+previous_message_id
+at it reports
+previous_message_not_found
+. Include
+diagnostics
+on every turn, with
+"previous_message_id": null
+on the first.
 September 3, 2026
 
 Version 1.30.0 of the
@@ -2327,10 +2384,13 @@ blog post
 このページは役に立ちましたか？
 
 
+September 24, 2026
+September 23, 2026
 September 22, 2026
 September 18, 2026
 September 14, 2026
 September 10, 2026
+September 9, 2026
 September 3, 2026
 September 1, 2026
 August 27, 2026

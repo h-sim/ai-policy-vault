@@ -1157,6 +1157,12 @@ id: https://openai.com/index/chatgpt-ads-expands-across-europe
 date: Tue, 18 Aug 2026 22:00:00 GMT
 body:
 #ITEM
+title: ChatGPT Ads expands to Southeast Asia and Taiwan
+link: https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan
+id: https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan
+date: Wed, 23 Sep 2026 02:00:00 GMT
+body:
+#ITEM
 title: ChatGPT agent System Card
 link: https://openai.com/index/chatgpt-agent-system-card
 id: https://openai.com/index/chatgpt-agent-system-card

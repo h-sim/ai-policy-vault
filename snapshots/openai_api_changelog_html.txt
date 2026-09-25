@@ -151,13 +151,12 @@ Frontend prompting
 Reasoning
 Reasoning models
 Reasoning best practices
-Images and video
+Images
 Images and vision
 Image input cost calculator
 Image generation
 Overview
 Image prompting
-Video generation
 Realtime and audio
 Audio and speech
 Getting started
@@ -192,6 +191,7 @@ Vaults
 Multi-agent
 Observability and usage
 Tracing
+Other tools
 Agents SDK
 Overview
 Quickstart
@@ -300,6 +300,7 @@ Model, tool, and data controls
 Import and reconciliation
 Private Link
 IP allowlist
+Organization blocking
 Mutual TLS
 Workload identity federation
 Federation rules
@@ -593,6 +594,7 @@ Groups and provisioning
 User lifecycle management
 Roles and workspace permissions
 GPTs and Sharing
+Migrate custom GPTs to plugins
 Managed configuration
 Prisma AIRS
 HIPAA configuration
