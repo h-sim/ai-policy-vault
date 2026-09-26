@@ -1,5 +1,65 @@
 [
   {
+    "id": "50c764a635a328f73396b30cd30b5c78f35130ea",
+    "impact": "High",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-We're expanding which refusals are billed to include refusals that arrive before any output when\n+We're resuming billing for refusals that arrive before any output when\n-, the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. The newly billed refusals are charged like any other request, at the rates of the model that\n+, the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. Refusals billed under this change are charged like any other request, at the rates of the mo\n+.\n+The\n+Compliance API\n+local session endpoints are out of beta for Claude for Microsoft 365 sessions in Excel, PowerPoint, Word, and Outlook (\n+product_surface\n+values beginning with\n+office_agents\n+). See\n+Sessions on users' machines\n+.\n+The\n+Compliance API\n+Activity Feed\n+no longer returns file names, project document names, or artifact titles. The\n+filename\n+and\n+title\n+fields on file, project document, and artifact activities are now always empty or omitted, including on activities recorded before this change. To look up a name or title by the ID on the activity, u\n+read:compliance_user_data\n+scope. See\n+Understand the Activity object\n-), our most capable widely released model, alongside\n+), our most capable model open to all customers, alongside\n-), our most capable widely released model. Claude Opus 4.8 supports a\n+), our most capable model. Claude Opus 4.8 supports a\n-, our most capable widely released model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See\n+, our most capable model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See",
+    "snippet_full": "",
+    "diff": {
+      "added": 26,
+      "removed": 5,
+      "churn": 31
+    },
+    "score": 60,
+    "reasons": [
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 26 Sep 2026 02:54:21 GMT",
+    "run_at": "2026-09-26T02:53:58Z",
+    "run_id": "bc2d004c9b7340548dbfcfd2d94e26ff"
+  },
+  {
+    "id": "ac31d19417fdc32c32f26d8289c7afd310f66f24",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: Asana cleared 5 years of engineering work in 2 weeks with Codex\n+title: Asana completed a years-long code migration in 2 weeks with Codex\n+title: Proaction boosts sales 60% and saves 75+ hours with Codex\n+link: https://openai.com/index/proaction\n+id: https://openai.com/index/proaction\n+date: Fri, 25 Sep 2026 19:00:00 GMT\n+body:\n+#ITEM\n-title: How V7 gives AI agents institutional memory\n+title: V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
+    "snippet_full": "",
+    "diff": {
+      "added": 8,
+      "removed": 2,
+      "churn": 10
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 26 Sep 2026 02:53:59 GMT",
+    "run_at": "2026-09-26T02:53:58Z",
+    "run_id": "bc2d004c9b7340548dbfcfd2d94e26ff"
+  },
+  {
+    "id": "19e8aa4f1872c6af2428914a57757090fd5ad1b3",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Other tools\n+Build plugins\n-Build plugins",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 2,
+      "churn": 3
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 26 Sep 2026 02:53:58 GMT",
+    "run_at": "2026-09-26T02:53:58Z",
+    "run_id": "bc2d004c9b7340548dbfcfd2d94e26ff"
+  },
+  {
     "id": "d92d8f5051a089d6f15930f9dceadb7d7a55e443",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -924,65 +984,5 @@
     "pubDate": "Tue, 01 Sep 2026 02:57:48 GMT",
     "run_at": "2026-09-01T02:57:21Z",
     "run_id": "d68c9a6ffb6a4a7abbf4525aaa249e1c"
-  },
-  {
-    "id": "53c28c53a30ae6ebabc61c7f225d3e80384ee78e",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: A milestone in expanding access to AI\n+link: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads\n+id: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads\n+date: Mon, 31 Aug 2026 04:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing Intelligence Age\n-link: https://openai.com/index/introducing-ai-futures\n-id: https://openai.com/index/introducing-ai-futures\n-date: Thu, 20 Aug 2026 07:00:00 GMT\n-body:\n-#ITEM\n+title: Polimill builds Japan's next-generation public AI infrastructure\n+link: https://openai.com/index/polimill\n+id: https://openai.com/index/polimill\n+date: Mon, 31 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 6,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 01 Sep 2026 02:57:42 GMT",
-    "run_at": "2026-09-01T02:57:21Z",
-    "run_id": "d68c9a6ffb6a4a7abbf4525aaa249e1c"
-  },
-  {
-    "id": "9c76bebe8291f18890b800729bc36dbb1b124fd2",
-    "impact": "Breaking",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Aug 29\n+Feature\n+Mutual TLS (mTLS)\n+and\n+X.509 workload identity federation\n+are now generally available for the OpenAI API. Configure certificates and X.509 identity providers directly in the\n+Platform console\n+, with access controlled by your organization's roles and permissions.\n+Aug 26\n+Update\n+whisper-1\n+gpt-4o-transcribe\n+gpt-4o-mini-transcribe\n+gpt-4o-transcribe-diarize\n+v1/audio/transcriptions\n+v1/realtime\n+Announced the deprecation of\n+whisper-1\n+,\n+gpt-4o-transcribe\n+,\n+gpt-4o-mini-transcribe\n+, and\n+gpt-4o-transcribe-diarize\n+. These models will shut down on February 26, 2027. Migrate to\n+gpt-live-transcribe\n+or\n+gpt-transcribe\n+. See the\n+transcription guide\n+and\n+deprecations page\n+.\n+The Assistants API shut down on August 26, 2026. Migrate to the Responses API and Conversations API using the\n+migration guide\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 36,
-      "removed": 0,
-      "churn": 36
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 01 Sep 2026 02:57:42 GMT",
-    "run_at": "2026-09-01T02:57:21Z",
-    "run_id": "d68c9a6ffb6a4a7abbf4525aaa249e1c"
-  },
-  {
-    "id": "fa00ed189dee885009b53897e2472bb91f7410f7",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Docs section\n+Docs\n-Docs section\n+Docs\n-Docs section\n+Docs\n-Docs section\n+Docs\n-Docs section\n+Docs",
-    "snippet_full": "",
-    "diff": {
-      "added": 5,
-      "removed": 5,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 31 Aug 2026 02:46:01 GMT",
-    "run_at": "2026-08-31T02:46:00Z",
-    "run_id": "b55dd861ef6b487b8a5023094514b5d5"
   }
 ]

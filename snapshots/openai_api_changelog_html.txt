@@ -191,7 +191,6 @@ Vaults
 Multi-agent
 Observability and usage
 Tracing
-Other tools
 Agents SDK
 Overview
 Quickstart
@@ -464,6 +463,7 @@ Overview
 Workflows
 Projects and chats
 Sites
+Build plugins
 Visualizations
 Scheduled tasks
 Long-running work
@@ -517,7 +517,6 @@ Code review
 Integrated terminal
 Extend and automate
 Build skills
-Build plugins
 Site tools (WebMCP)
 Hooks
 Environments

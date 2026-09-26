@@ -791,7 +791,7 @@ id: https://openai.com/index/arvind-kc-chief-people-officer
 date: Tue, 24 Feb 2026 13:40:00 GMT
 body:
 #ITEM
-title: Asana cleared 5 years of engineering work in 2 weeks with Codex
+title: Asana completed a years-long code migration in 2 weeks with Codex
 link: https://openai.com/index/asana
 id: https://openai.com/index/asana
 date: Tue, 18 Aug 2026 07:00:00 GMT
@@ -5837,6 +5837,12 @@ id: https://openai.com/index/priorities-principles-third-party-assessments
 date: Tue, 22 Sep 2026 00:00:00 GMT
 body:
 #ITEM
+title: Proaction boosts sales 60% and saves 75+ hours with Codex
+link: https://openai.com/index/proaction
+id: https://openai.com/index/proaction
+date: Fri, 25 Sep 2026 19:00:00 GMT
+body:
+#ITEM
 title: Procgen Benchmark
 link: https://openai.com/index/procgen-benchmark
 id: https://openai.com/index/procgen-benchmark
@@ -7115,7 +7121,7 @@ id: https://openai.com/index/using-gpt-4-for-content-moderation
 date: Tue, 15 Aug 2023 07:00:00 GMT
 body:
 #ITEM
-title: How V7 gives AI agents institutional memory
+title: V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna
 link: https://openai.com/index/v7
 id: https://openai.com/index/v7
 date: Mon, 21 Sep 2026 00:00:00 GMT

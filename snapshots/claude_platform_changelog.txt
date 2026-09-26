@@ -53,7 +53,7 @@ claude-code
 repository.
 September 24, 2026
 
-We're expanding which refusals are billed to include refusals that arrive before any output when
+We're resuming billing for refusals that arrive before any output when
 stop_details.category
 is
 "bio"
@@ -61,8 +61,29 @@ is
 "frontier_llm"
 , or
 "reasoning_extraction"
-, the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. The newly billed refusals are charged like any other request, at the rates of the model that ran it. Refusals before any output in other categories are still not billed, and fallback credit is unchanged. This change applies on all platforms. See
+, the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. Refusals billed under this change are charged like any other request, at the rates of the model that ran it. Refusals before any output in other categories are still not billed, and fallback credit is unchanged. This change applies on all platforms. See
 How refusals are billed
+.
+The
+Compliance API
+local session endpoints are out of beta for Claude for Microsoft 365 sessions in Excel, PowerPoint, Word, and Outlook (
+product_surface
+values beginning with
+office_agents
+). See
+Sessions on users' machines
+.
+The
+Compliance API
+Activity Feed
+no longer returns file names, project document names, or artifact titles. The
+filename
+and
+title
+fields on file, project document, and artifact activities are now always empty or omitted, including on activities recorded before this change. To look up a name or title by the ID on the activity, use a Compliance Access Key with the
+read:compliance_user_data
+scope. See
+Understand the Activity object
 .
 September 23, 2026
 
@@ -1137,7 +1158,7 @@ We've launched
 Claude Fable 5
 (
 claude-fable-5
-), our most capable widely released model, alongside
+), our most capable model open to all customers, alongside
 Claude Mythos 5
 (
 claude-mythos-5
@@ -1264,7 +1285,7 @@ We've launched
 Claude Opus 4.8
 (
 claude-opus-4-8
-), our most capable widely released model. Claude Opus 4.8 supports a
+), our most capable model. Claude Opus 4.8 supports a
 1M token context window
 by default on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See the
 migration guide
@@ -1466,7 +1487,7 @@ April 16, 2026
 
 We've launched
 Claude Opus 4.7
-, our most capable widely released model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See
+, our most capable model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See
 What's new in Claude Opus 4.7
 for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see the
 migration guide
