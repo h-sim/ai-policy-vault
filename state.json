@@ -1,5 +1,24 @@
 [
   {
+    "id": "68d3884604a815e3f92e833e6aa603ee2b97a258",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Sep 25\n+Fix\n+gpt-6-sol\n+gpt-6-luna\n+Fixed a bug in image encoding that degraded image understanding in\n+GPT-6 Sol\n+and\n+GPT-6 Luna\n+. This update improves results on visual tasks in the API and Codex, including computer use.\n+If your use cases involve image inputs, we recommend rerunning your evaluations and retrying workflows affected by the issue.",
+    "snippet_full": "",
+    "diff": {
+      "added": 10,
+      "removed": 0,
+      "churn": 10
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 27 Sep 2026 02:56:23 GMT",
+    "run_at": "2026-09-27T02:56:22Z",
+    "run_id": "38309fae5c26401cadc6e939699860b1"
+  },
+  {
     "id": "50c764a635a328f73396b30cd30b5c78f35130ea",
     "impact": "High",
     "name": "Claude Platform Changelog",
@@ -965,24 +984,5 @@
     "pubDate": "Wed, 02 Sep 2026 02:17:40 GMT",
     "run_at": "2026-09-02T02:17:40Z",
     "run_id": "53b3019508b34c41b3a6219170b947e9"
-  },
-  {
-    "id": "8ca0c36623ef05bf73a1da27158f99a970805b26",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 138,
-      "removed": 138,
-      "churn": 276
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 01 Sep 2026 02:57:48 GMT",
-    "run_at": "2026-09-01T02:57:21Z",
-    "run_id": "d68c9a6ffb6a4a7abbf4525aaa249e1c"
   }
 ]

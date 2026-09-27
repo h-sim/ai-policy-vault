@@ -769,6 +769,16 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 September, 2026
+Sep 25
+Fix
+gpt-6-sol
+gpt-6-luna
+Fixed a bug in image encoding that degraded image understanding in
+GPT-6 Sol
+and
+GPT-6 Luna
+. This update improves results on visual tasks in the API and Codex, including computer use.
+If your use cases involve image inputs, we recommend rerunning your evaluations and retrying workflows affected by the issue.
 Sep 22
 Feature
 gpt-6-sol
