@@ -215,6 +215,12 @@ id: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
 date: Tue, 18 Mar 2025 00:00:00 GMT
 body:
 #ITEM
+title: Are you a Codex Original?
+link: https://openai.com/form/codex-originals
+id: https://openai.com/form/codex-originals
+date: Mon, 28 Sep 2026 00:00:00 GMT
+body:
+#ITEM
 title: Stargate Infrastructure
 link: https://openai.com/form/stargate-infrastructure
 id: https://openai.com/form/stargate-infrastructure
@@ -885,6 +891,12 @@ title: Scaling accounting capacity with OpenAI
 link: https://openai.com/index/basis
 id: https://openai.com/index/basis
 date: Tue, 12 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Basis completes a tax workbook 2x faster with GPT-6 Astra
+link: https://openai.com/index/basis-tax-workbook-with-astra
+id: https://openai.com/index/basis-tax-workbook-with-astra
+date: Mon, 28 Sep 2026 00:00:00 GMT
 body:
 #ITEM
 title: BBVA puts AI at the core of banking with OpenAI
@@ -3335,6 +3347,12 @@ id: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
 date: Thu, 19 Mar 2026 10:00:00 GMT
 body:
 #ITEM
+title: How we will do better for Australia
+link: https://openai.com/index/how-we-will-do-better-for-australia
+id: https://openai.com/index/how-we-will-do-better-for-australia
+date: Mon, 28 Sep 2026 19:00:00 GMT
+body:
+#ITEM
 title: HP Inc. launches Frontier strategic partnership with OpenAI
 link: https://openai.com/index/hp-frontier-partnership
 id: https://openai.com/index/hp-frontier-partnership
@@ -4359,6 +4377,12 @@ title: Legora reviewed 41 documents in minutes with GPT-6 Astra
 link: https://openai.com/index/legora-financial-statement-review-with-astra
 id: https://openai.com/index/legora-financial-statement-review-with-astra
 date: Thu, 03 Sep 2026 12:00:00 GMT
+body:
+#ITEM
+title: The Lenfest Institute grows landmark program with expanded OpenAI support
+link: https://openai.com/index/lenfest-ai-collaborative-expansion
+id: https://openai.com/index/lenfest-ai-collaborative-expansion
+date: Mon, 28 Sep 2026 07:00:00 GMT
 body:
 #ITEM
 title: OpenAI and the Lenfest Institute AI Collaborative and Fellowship program
@@ -6638,7 +6662,7 @@ body:
 title: OpenAI expands initiatives to support journalism from classrooms to newsrooms
 link: https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms
 id: https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms
-date: Tue, 08 Sep 2026 00:00:00 GMT
+date: Tue, 08 Sep 2026 11:00:00 GMT
 body:
 #ITEM
 title: Supporting Thailand’s next generation of AI startups

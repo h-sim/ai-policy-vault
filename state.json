@@ -1,5 +1,46 @@
 [
   {
+    "id": "105d7146b09ffb82ab2779700e206dd1ad21b66e",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-CLI, SDKs, and libraries\n+SDKs, CLI, and libraries\n+September 28, 2026\n+\n+We've launched\n+Claude Sonnet 5.5\n+(\n+claude-sonnet-5-5\n+). It's available on the Claude API,\n+Claude in Amazon Bedrock\n+,\n+Claude Platform on AWS\n+,\n+Claude on Google Cloud\n+, and\n+Claude in Microsoft Foundry\n+. For its context window, output limits, and prices, see the\n+Claude Sonnet 5.5 model page\n+.\n+Code written for Claude Sonnet 5 can break on Claude Sonnet 5.5 in five ways. To turn off up-front thinking, send\n+thinking: {\"type\": \"between_tools\"}\n+instead of\n+\"disabled\"\n+, at\n+high\n+effort or below. Forced tool use (\n+tool_choice\n+types\n+any\n+and\n+tool\n+) returns a 400 error. Thinking blocks are tied to the model and the conversation.\n+On the Claude API and Google Cloud, the\n+earlier\n+computer_20251124\n+computer use tool isn't accepted. The advisor tool rejects Claude Opus 4.8, Claude Opus 4.7, and Claude Sonnet 5 as advisors. See\n+What's new in Claude Sonnet 5.5\n+for each change and the\n+migration guide\n+for before-and-after requests. For model-specific prompting patterns, see",
+    "snippet_full": "",
+    "diff": {
+      "added": 45,
+      "removed": 1,
+      "churn": 46
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 29 Sep 2026 03:36:37 GMT",
+    "run_at": "2026-09-29T03:36:12Z",
+    "run_id": "1527223383f9479db9505c07d63358b7"
+  },
+  {
+    "id": "f2eb2c2998e4d066a8f8c4484809d0bb88e94899",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Are you a Codex Original?\n+link: https://openai.com/form/codex-originals\n+id: https://openai.com/form/codex-originals\n+date: Mon, 28 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Basis completes a tax workbook 2x faster with GPT-6 Astra\n+link: https://openai.com/index/basis-tax-workbook-with-astra\n+id: https://openai.com/index/basis-tax-workbook-with-astra\n+title: How we will do better for Australia\n+link: https://openai.com/index/how-we-will-do-better-for-australia\n+id: https://openai.com/index/how-we-will-do-better-for-australia",
+    "snippet_full": "+title: Are you a Codex Original?\n+link: https://openai.com/form/codex-originals\n+id: https://openai.com/form/codex-originals\n+date: Mon, 28 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Basis completes a tax workbook 2x faster with GPT-6 Astra\n+link: https://openai.com/index/basis-tax-workbook-with-astra\n+id: https://openai.com/index/basis-tax-workbook-with-astra\n+date: Mon, 28 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How we will do better for Australia\n+link: https://openai.com/index/how-we-will-do-better-for-australia\n+id: https://openai.com/index/how-we-will-do-better-for-australia\n+date: Mon, 28 Sep 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: The Lenfest Institute grows landmark program with expanded OpenAI support\n+link: https://openai.com/index/lenfest-ai-collaborative-expansion\n+id: https://openai.com/index/lenfest-ai-collaborative-expansion\n+date: Mon, 28 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n-date: Tue, 08 Sep 2026 00:00:00 GMT\n+date: Tue, 08 Sep 2026 11:00:00 GMT",
+    "diff": {
+      "added": 25,
+      "removed": 1,
+      "churn": 26
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 29 Sep 2026 03:36:13 GMT",
+    "run_at": "2026-09-29T03:36:12Z",
+    "run_id": "1527223383f9479db9505c07d63358b7"
+  },
+  {
     "id": "68d3884604a815e3f92e833e6aa603ee2b97a258",
     "impact": "Medium",
     "name": "OpenAI API Changelog (HTML)",
@@ -942,46 +983,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Wed, 02 Sep 2026 02:18:30 GMT",
-    "run_at": "2026-09-02T02:17:40Z",
-    "run_id": "53b3019508b34c41b3a6219170b947e9"
-  },
-  {
-    "id": "fa019d4d5253b4c157094a91f0223aabc2df66bd",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI supports California’s bill to advance youth AI safety\n+link: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety\n+id: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety\n+title: How AI-native companies turn workflows into operating capability\n+link: https://openai.com/index/ai-native-company-workflows\n+id: https://openai.com/index/ai-native-company-workflows\n+date: Tue, 01 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Healthcare organizations can now connect EHR and additional industry data to ChatGPT\n+link: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\n+id: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-    "snippet_full": "+title: How AI-native companies turn workflows into operating capability\n+link: https://openai.com/index/ai-native-company-workflows\n+id: https://openai.com/index/ai-native-company-workflows\n+date: Tue, 01 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Healthcare organizations can now connect EHR and additional industry data to ChatGPT\n+link: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\n+id: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\n+date: Tue, 01 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How law firm Gilbert + Tobin governs and scales AI with OpenAI\n+link: https://openai.com/index/gilbert-tobin\n+id: https://openai.com/index/gilbert-tobin\n+date: Tue, 01 Sep 2026 01:00:00 GMT\n+body:\n+#ITEM\n+title: Path to Astra: critical capabilities and frontier safeguards\n+link: https://openai.com/index/path-to-astra\n+id: https://openai.com/index/path-to-astra\n+date: Tue, 01 Sep 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI supports California’s bill to advance youth AI safety\n+link: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety\n+id: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety\n+date: Mon, 31 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 30,
-      "removed": 0,
-      "churn": 30
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 02 Sep 2026 02:18:06 GMT",
-    "run_at": "2026-09-02T02:17:40Z",
-    "run_id": "53b3019508b34c41b3a6219170b947e9"
-  },
-  {
-    "id": "323753446105f05ebb5fa652eec30ce227797269",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+ChatGPT Work\n+User lifecycle management",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 02 Sep 2026 02:17:40 GMT",
     "run_at": "2026-09-02T02:17:40Z",
     "run_id": "53b3019508b34c41b3a6219170b947e9"
   }
