@@ -10,16 +10,23 @@ API Dashboard
 Try ChatGPT
 Home
 API
-Codex
-Docs
-Guides, concepts, and product docs for Codex
-Use cases
-Example workflows and tasks teams can take on with ChatGPT or Codex
-Docs
-Use cases
-Training
-Resources
+Overview
+Get started with the OpenAI API
+Models
+Explore models and compare capabilities
+Agents
+Build persistent agents on hosted infrastructure
+Tools
+Connect models to tools and data
+Audio & voice
+Build speech and realtime voice experiences
+Production
+Deploy and scale your API integrations
+API reference
+Explore endpoints, parameters, and responses
 ChatGPT
+Sign in with ChatGPT
+Apps powered by your user's ChatGPT plan
 Plugins
 Extend ChatGPT and Codex
 Workspace Agents
@@ -28,6 +35,14 @@ Commerce
 Build commerce flows in ChatGPT
 Ads
 Publish and measure ads in ChatGPT
+ChatGPT + Codex user docs
+Guides and product docs for ChatGPT and Codex
+Use cases
+Example workflows and tasks teams can take on with ChatGPT or Codex
+Docs
+Use cases
+Training
+Resources
 Resources
 Showcase
 Demo apps to get inspired
@@ -55,7 +70,6 @@ realtime
 prompt caching
 Primary navigation
 API
-Codex
 ChatGPT
 Docs
 Use cases
@@ -169,6 +183,7 @@ Overview
 Agents API
 Overview
 Quickstart
+API reference
 Architecture
 Configuring Agents
 Sessions
@@ -184,6 +199,7 @@ Sandbox security
 Files and artifacts
 Tools and integrations
 Web search
+Computer use
 Functions
 MCP connections
 Plugins
@@ -191,6 +207,8 @@ Vaults
 Multi-agent
 Observability and usage
 Tracing
+Errors and recovery
+Bedrock Managed Agents
 Agents SDK
 Overview
 Quickstart
@@ -265,9 +283,10 @@ Go live
 Production best practices
 Deployment checklist
 Performance and quality
+Fast mode
+Ultrafast mode
 Latency optimization
 Predicted Outputs
-Fast mode
 Accuracy optimization
 Cost and throughput
 Cost optimization
@@ -318,22 +337,41 @@ Rate limits
 Spend limits
 Admin APIs
 Error codes
-Docs
-Use cases
-Docs
-Use cases
-Docs
-Docs
+Overview
+Sign in with ChatGPT
 Plugins
 Workspace Agents
 Commerce
 Ads
+ChatGPT + Codex user docs
+Use cases
+Overview
+Sign in with ChatGPT
 Plugins
 Workspace Agents
 Commerce
 Ads
+ChatGPT + Codex user docs
+Use cases
 Docs
-Select...
+Overview
+Home
+Quickstart
+Request a client ID
+Identity
+On your website
+In your ChatGPT plugin
+ChatGPT plan usage
+Overview
+UI/UX guidelines
+Registration and sign-in
+Accounts and sessions
+Models and inference
+Codex app-server
+Self-hosted VMs
+Token reference
+Errors and recovery
+Preview limitations
 Home
 Quickstart
 Core concepts
@@ -346,6 +384,8 @@ Define tools
 Build
 Build an MCP server
 Add UI to your MCP server (optional)
+Add events to your MCP server (optional)
+Extensions
 Authenticate users
 Build skills
 Package your plugin
@@ -436,6 +476,7 @@ Get started
 Quickstart
 Use ChatGPT
 Get started with Work
+Meet dots
 Import from another agent
 Foundations
 Prompting
@@ -454,7 +495,7 @@ Remote
 ChatGPT on the web
 Codex CLI
 Codex IDE extension
-Codex cloud
+Codex Cloud
 Releases
 Changelog
 Feature Maturity
@@ -475,12 +516,26 @@ Browser
 Computer use
 Voice
 Plugins
+Sign in with ChatGPT
 Web search
 Image generation
 Image inputs
 Appshots
 Browser extension
 Work with files
+dots
+Meet dots
+Getting started
+Messaging
+Tasks and memory
+Computers and apps
+Controls
+ChatGPT Space
+Overview
+Getting started
+Pages
+Work with agents
+Collaboration
 Reference
 Commands
 Slash commands
@@ -518,12 +573,14 @@ Integrated terminal
 Extend and automate
 Build skills
 Site tools (WebMCP)
+Annotations Extensibility
 Hooks
 Environments
 Modes
 Local environments
-Cloud environment
 Git worktrees
+Codex Cloud
+Cloud environments
 Build with Codex
 Codex SDK
 App Server
@@ -544,7 +601,6 @@ Profiles
 Sandboxing
 Auto-review
 Agent approvals & security
-Internet access
 Codex Security
 Overview
 Codex Security plugin
@@ -567,7 +623,7 @@ GitLab CI/CD
 Reference
 FAQ
 TypeScript SDK
-Codex Security cloud
+Codex Security Cloud
 Setup
 Security Review
 Improving the threat model
@@ -578,42 +634,52 @@ Recommended configuration
 Overview
 Getting started
 Admin rollout guide
-ChatGPT Work
-ChatGPT Work Overview
-ChatGPT Work cloud security
-ChatGPT Work local security
-ChatGPT Work admin FAQ
-ChatGPT Work: usage and cost
-Identity and authentication
+Admin plugin
+Feature setup
+Dots
+Space
+Teams and Team Tasks
+ChatGPT in Slack and Teams
+Workspace connections
+Local computer access for Work Cloud and dots
+Sites
+Identity and access
 Authentication overview
-Personal Access Tokens
-Service accounts
-Workspace access, policy, and models
 Groups and provisioning
 User lifecycle management
 Roles and workspace permissions
-GPTs and Sharing
-Migrate custom GPTs to plugins
+Personal access tokens
+Service accounts
+Deployment and configuration
+Windows app deployment
+Manage app updates
 Managed configuration
-Prisma AIRS
-HIPAA configuration
+Remote connections
 Workspace model availability
-Plugin and connector controls
+Amazon Bedrock
+ChatGPT Work
+Overview
+Cloud security
+Local security
+Usage and cost
+Admin FAQ
+Collaboration and sharing
+GPTs and sharing
+Plugins and connections
 Plugin controls
 Plugin management
 Skill controls
-Usage, governance, and compliance
-Governance
-Admin plugin
+Migrate custom GPTs to plugins
+Usage and analytics
 Workspace analytics
 Usage Insights
 Analytics API
+Security and compliance
+Governance
+Agent security
+Prisma AIRS
+HIPAA configuration
 Compliance API and audit events
-Deployment and model providers
-Manage app updates
-Windows app deployment
-Remote connections
-Amazon Bedrock
 Explore use cases
 Collections
 Home
@@ -672,6 +738,7 @@ Codex
 Life sciences
 Home
 Topics
+Sign-in with ChatGPT
 Agents
 Evals
 Multimodal
@@ -769,6 +836,43 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 September, 2026
+Sep 29
+Feature
+Added
+computer use
+to the Agents API. Agents can complete tasks in an OpenAI-hosted browser, with website access approvals and sign-in handled by your application.
+Sep 29
+Feature
+gpt-6.1-sol
+v1/responses
+v1/chat/completions
+Released
+GPT-6.1 Sol
+(
+gpt-6.1-sol
+) for complex coding and professional work at a lower cost than GPT-6 Astra.
+Standard pricing per 1M tokens for prompts with up to 272K input tokens is $2 input, $0.10 cached input, $2.50 cache write, and $10 output.
+GPT-6.1 Sol also supports
+Multi-agent
+in beta. Let the model delegate work to subagents in a Responses API request.
+Use the Responses API for tool calling. See
+GPT-6 model guidance
+for reasoning settings and
+pricing
+for available processing tiers.
+Sep 29
+Feature
+gpt-6-astra
+v1/responses
+Added
+Ultrafast mode
+for GPT-6 Astra in the Responses API. Use
+gpt-6-astra
+with
+service_tier: "ultrafast"
+to reduce the time between generated output tokens. It is available to API customers, subject to rate limits, with global processing and US data residency. EU and other regional inference residency aren't supported. See
+Ultrafast pricing
+.
 Sep 25
 Fix
 gpt-6-sol

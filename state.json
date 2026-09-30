@@ -1,5 +1,45 @@
 [
   {
+    "id": "3cb6546b5cbb3dc1d2aa22007578b1ae30c1d784",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Towards safety cases for frontier AI training\n+link: https://openai.com/index/towards-safety-cases-for-frontier-ai-training\n+id: https://openai.com/index/towards-safety-cases-for-frontier-ai-training\n+title: DevDay 2026 Recap\n+link: https://openai.com/index/devday-2026-recap\n+id: https://openai.com/index/devday-2026-recap\n+date: Tue, 29 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing dots\n+link: https://openai.com/index/introducing-dots\n+id: https://openai.com/index/introducing-dots",
+    "snippet_full": "+title: DevDay 2026 Recap\n+link: https://openai.com/index/devday-2026-recap\n+id: https://openai.com/index/devday-2026-recap\n+date: Tue, 29 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing dots\n+link: https://openai.com/index/introducing-dots\n+id: https://openai.com/index/introducing-dots\n+date: Tue, 29 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-6.1 Sol\n+link: https://openai.com/index/introducing-gpt-6-1-sol\n+id: https://openai.com/index/introducing-gpt-6-1-sol\n+date: Tue, 29 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Towards safety cases for frontier AI training\n+link: https://openai.com/index/towards-safety-cases-for-frontier-ai-training\n+id: https://openai.com/index/towards-safety-cases-for-frontier-ai-training\n+date: Mon, 28 Sep 2026 19:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 30 Sep 2026 03:22:32 GMT",
+    "run_at": "2026-09-30T03:22:10Z",
+    "run_id": "7aa909562a51436492aae20b2f5f11df"
+  },
+  {
+    "id": "59cf3d80a1ba26f124e8d73907d1fe0290abf58d",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Codex\n-Docs\n-Guides, concepts, and product docs for Codex\n-Use cases\n-Example workflows and tasks teams can take on with ChatGPT or Codex\n-Docs\n-Use cases\n-Training\n-Resources\n+Overview\n+Get started with the OpenAI API\n+Models\n+Explore models and compare capabilities\n+Agents\n+Build persistent agents on hosted infrastructure\n+Tools\n+Connect models to tools and data\n+Audio & voice\n+Build speech and realtime voice experiences\n+Production\n+Deploy and scale your API integrations\n+API reference\n+Explore endpoints, parameters, and responses\n+Sign in with ChatGPT\n+Apps powered by your user's ChatGPT plan\n+ChatGPT + Codex user docs\n+Guides and product docs for ChatGPT and Codex\n+Use cases\n+Example workflows and tasks teams can take on with ChatGPT or Codex\n+Docs\n+Use cases\n+Training\n+Resources\n-Codex\n+API reference\n+Computer use\n+Errors and recovery\n+Bedrock Managed Agents\n+Fast mode\n+Ultrafast mode",
+    "snippet_full": "",
+    "diff": {
+      "added": 149,
+      "removed": 45,
+      "churn": 194
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 30 Sep 2026 03:22:11 GMT",
+    "run_at": "2026-09-30T03:22:10Z",
+    "run_id": "7aa909562a51436492aae20b2f5f11df"
+  },
+  {
     "id": "105d7146b09ffb82ab2779700e206dd1ad21b66e",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -942,48 +982,5 @@
     "pubDate": "Thu, 03 Sep 2026 02:24:49 GMT",
     "run_at": "2026-09-03T02:24:48Z",
     "run_id": "5a0931ef8ee5492db3bd00be045d16c8"
-  },
-  {
-    "id": "653de50fd618abf0f51e5768bf386c0ef938090a",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+September, 2026\n+Sep 2\n+Update\n+Updated API errors so applications can distinguish traffic that increases too quickly from temporary model overload.\n+Traffic that increases too quickly can return a\n+429\n+error with the\n+slow_down\n+code. Temporary model overload returns a\n+503\n+error with the\n+server_is_overloaded\n+code. Both responses may include\n+Retry-After\n+. When the header is present, wait at least as long as it specifies before retrying. If it's missing, use exponential backoff. See the\n+error codes guide\n+and\n+rate limits guide\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 19,
-      "removed": 0,
-      "churn": 19
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 03 Sep 2026 02:24:49 GMT",
-    "run_at": "2026-09-03T02:24:48Z",
-    "run_id": "5a0931ef8ee5492db3bd00be045d16c8"
-  },
-  {
-    "id": "d24e707af3bfdc43f6337bb740ee3e2769839bcf",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+September 1, 2026\n+\n+We've launched\n+Claude Fable 5.1\n+(\n+claude-fable-5-1\n+), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside\n+Claude Mythos 5.1\n+(\n+claude-mythos-5-1\n+) for Project Glasswing participants. Both models support a\n+1M token context window\n+by default, 128k max output tokens, and always-on\n+adaptive thinking\n+, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 per MTok. Claude Fable 5.1 is available on the Claude API,\n+Claude in Amazon Bedrock\n+,\n+Claude Platform on AWS\n+,\n+Claude on Google Cloud\n+, and\n+Claude in Microsoft Foundry\n+. See\n+What's new in Claude Fable 5.1\n+for capabilities, API changes, and migration guidance.\n+Prompt cache reads on Claude Fable 5.1 and Claude Mythos 5.1 cost $0.25 USD per million tokens: 0.025x the base input price, compared with 0.1x on other models. Cache writes are unchanged. See\n+Prompt caching pricing\n+.\n+On Claude Fable 5.1 and Claude Mythos 5.1,\n+tool_choice\n+types\n+any\n+and\n+tool\n+aren't supported and return a 400 error.\n+auto\n+and\n+none\n+are unchanged. To guarantee schema-conformant tool inputs, use\n+strict tool use",
-    "snippet_full": "",
-    "diff": {
-      "added": 100,
-      "removed": 0,
-      "churn": 100
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 02 Sep 2026 02:18:30 GMT",
-    "run_at": "2026-09-02T02:17:40Z",
-    "run_id": "53b3019508b34c41b3a6219170b947e9"
   }
 ]

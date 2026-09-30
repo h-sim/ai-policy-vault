@@ -1775,6 +1775,12 @@ id: https://openai.com/index/deutsche-telekom-collaboration
 date: Tue, 09 Dec 2025 00:00:00 GMT
 body:
 #ITEM
+title: DevDay 2026 Recap
+link: https://openai.com/index/devday-2026-recap
+id: https://openai.com/index/devday-2026-recap
+date: Tue, 29 Sep 2026 10:00:00 GMT
+body:
+#ITEM
 title: Developers can now submit apps to ChatGPT
 link: https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
 id: https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
@@ -3713,6 +3719,12 @@ id: https://openai.com/index/introducing-deep-research
 date: Sun, 02 Feb 2025 16:00:00 GMT
 body:
 #ITEM
+title: Introducing dots
+link: https://openai.com/index/introducing-dots
+id: https://openai.com/index/introducing-dots
+date: Tue, 29 Sep 2026 00:00:00 GMT
+body:
+#ITEM
 title: Introducing EVMbench
 link: https://openai.com/index/introducing-evmbench
 id: https://openai.com/index/introducing-evmbench
@@ -3777,6 +3789,12 @@ title: Introducing GPT-5 for developers
 link: https://openai.com/index/introducing-gpt-5-for-developers
 id: https://openai.com/index/introducing-gpt-5-for-developers
 date: Thu, 07 Aug 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-6.1 Sol
+link: https://openai.com/index/introducing-gpt-6-1-sol
+id: https://openai.com/index/introducing-gpt-6-1-sol
+date: Tue, 29 Sep 2026 10:00:00 GMT
 body:
 #ITEM
 title: Introducing GPT-6 Sol and Luna
@@ -6915,6 +6933,12 @@ title: How Tolan builds voice-first AI with GPT-5.1
 link: https://openai.com/index/tolan
 id: https://openai.com/index/tolan
 date: Wed, 07 Jan 2026 10:00:00 GMT
+body:
+#ITEM
+title: Towards safety cases for frontier AI training
+link: https://openai.com/index/towards-safety-cases-for-frontier-ai-training
+id: https://openai.com/index/towards-safety-cases-for-frontier-ai-training
+date: Mon, 28 Sep 2026 19:00:00 GMT
 body:
 #ITEM
 title: Trading inference-time compute for adversarial robustness
