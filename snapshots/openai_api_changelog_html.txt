@@ -183,7 +183,6 @@ Overview
 Agents API
 Overview
 Quickstart
-API reference
 Architecture
 Configuring Agents
 Sessions
@@ -208,6 +207,7 @@ Multi-agent
 Observability and usage
 Tracing
 Errors and recovery
+API reference
 Bedrock Managed Agents
 Agents SDK
 Overview
@@ -447,6 +447,7 @@ Account Management
 API Reference
 Authentication
 Ad Account
+Audit Logs
 Campaigns
 Ad Groups
 Ads
@@ -657,6 +658,10 @@ Managed configuration
 Remote connections
 Workspace model availability
 Amazon Bedrock
+Connect to a gateway
+Deploy Codex through a gateway
+Gateway compatibility
+Bedrock through LiteLLM
 ChatGPT Work
 Overview
 Cloud security

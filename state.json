@@ -1,5 +1,64 @@
 [
   {
+    "id": "7aa2dfa09c3ef1bc93ef58f39866c9ff36a51a5e",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+September 30, 2026\n+\n+We announced the deprecation of the Claude Sonnet 4.5 model (\n+claude-sonnet-4-5-20250929\n+), with retirement on the Claude API scheduled for November 30, 2026. We recommend migrating to\n+Claude Sonnet 5.5\n+. Read more in\n+Model deprecations\n+.\n-) returns a 400 error. Thinking blocks are tied to the model and the conversation.\n-On the Claude API and Google Cloud, the\n-earlier\n+) returns a 400 error. Thinking blocks are tied to the model and the conversation. On the Claude API and Google Cloud, the earlier\n+September 30, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 11,
+      "removed": 3,
+      "churn": 14
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 01 Oct 2026 03:28:38 GMT",
+    "run_at": "2026-10-01T03:28:15Z",
+    "run_id": "431eb75b4d3f420bb0c512c440fa215b"
+  },
+  {
+    "id": "4d2c1f643b3646f684984bc7ce0662e2e0d16e48",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Disrupting a coordinated model-distillation campaign\n+link: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign\n+id: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign\n+date: Wed, 30 Sep 2026 10:30:00 GMT\n+body:\n+#ITEM\n+title: Helping small businesses put AI to work\n+link: https://openai.com/index/helping-small-businesses-put-ai-to-work\n+id: https://openai.com/index/helping-small-businesses-put-ai-to-work\n+date: Wed, 30 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 01 Oct 2026 03:28:16 GMT",
+    "run_at": "2026-10-01T03:28:15Z",
+    "run_id": "431eb75b4d3f420bb0c512c440fa215b"
+  },
+  {
+    "id": "a67cbae24cfbb6875093e251a34c907e144da3ab",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-API reference\n+API reference\n+Audit Logs\n+Connect to a gateway\n+Deploy Codex through a gateway\n+Gateway compatibility\n+Bedrock through LiteLLM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 1,
+      "churn": 7
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 01 Oct 2026 03:28:16 GMT",
+    "run_at": "2026-10-01T03:28:15Z",
+    "run_id": "431eb75b4d3f420bb0c512c440fa215b"
+  },
+  {
     "id": "3cb6546b5cbb3dc1d2aa22007578b1ae30c1d784",
     "impact": "High",
     "name": "OpenAI News (RSS)",
@@ -923,64 +982,5 @@
     "pubDate": "Fri, 04 Sep 2026 02:20:23 GMT",
     "run_at": "2026-09-04T02:19:38Z",
     "run_id": "cefa8f5a072845049ad807949237d0ea"
-  },
-  {
-    "id": "95747dfcb62c72007b44dcfb7490ec781e2f5a4b",
-    "impact": "Breaking",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Using GPT-5.6\n+Using GPT-6 Astra\n+Mid-turn steering\n+Async tool calling\n+Safety classifiers\n-Under 18 API Guidance\n+Misalignment monitoring\n+Under-18 guidance\n-Using GPT-5.6\n+Using GPT-6 Astra\n+Mid-turn steering\n+Sep 3\n+Feature\n+gpt-6-astra\n+v1/responses\n+v1/chat/completions\n+Released\n+GPT-6 Astra\n+, our most capable model, built for the hardest end-to-end work.\n+Use GPT-6 Astra for reasoning, coding, computer use, research, and document creation. It combines these capabilities to carry complex tasks from an initial request to a finished result, using the con\n+Key changes to consider when migrating:\n+GPT-6 Astra does not support the\n+none\n+reasoning effort level.\n+GPT-6 Astra does not support custom\n+temperature\n+or\n+top_p\n+values or log probabilities (\n+logprobs\n+).\n+Tool calling requires the Responses API. If you use tools with Chat Completions, follow the\n+Responses migration guide\n+.\n+Misalignment monitoring\n+asynchronously checks for potential issues during agent work in supported Responses API requests. Checks can trigger safety alerts or stop a conversation for review.\n+Start with\n+Using GPT-6 Astra\n+for capabilities, prompting, and migration guidance. Explore\n+computer use",
-    "snippet_full": "",
-    "diff": {
-      "added": 55,
-      "removed": 3,
-      "churn": 58
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 04 Sep 2026 02:20:03 GMT",
-    "run_at": "2026-09-04T02:19:38Z",
-    "run_id": "cefa8f5a072845049ad807949237d0ea"
-  },
-  {
-    "id": "1495927da62100bef95dbae60eee34731a9a6639",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-読み込み中\n-Claude Platform Docs\n-\n-\n-Solutions\n-AI agents\n-Code modernization\n-Coding\n-Customer support\n-Financial services\n-Government\n-Higher education\n-K-12 teachers\n-Life sciences\n-Partners\n-Claude on AWS\n-Claude on Google Cloud\n-Learn\n-Blog\n-Courses\n-Use cases\n-Connectors\n-Customer stories\n-Engineering at Anthropic\n-Events",
-    "snippet_full": "",
-    "diff": {
-      "added": 75,
-      "removed": 76,
-      "churn": 151
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 03 Sep 2026 02:24:56 GMT",
-    "run_at": "2026-09-03T02:24:48Z",
-    "run_id": "5a0931ef8ee5492db3bd00be045d16c8"
-  },
-  {
-    "id": "2b7f66fa04da2b98ae86a70d87e0ff9e80c0fd5d",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT\n+link: https://openai.com/index/atv-big-air-tour\n+id: https://openai.com/index/atv-big-air-tour\n+date: Wed, 02 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 03 Sep 2026 02:24:49 GMT",
-    "run_at": "2026-09-03T02:24:48Z",
-    "run_id": "5a0931ef8ee5492db3bd00be045d16c8"
   }
 ]

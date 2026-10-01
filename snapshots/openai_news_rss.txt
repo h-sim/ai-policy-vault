@@ -1817,6 +1817,12 @@ id: https://openai.com/index/disney-sora-agreement
 date: Thu, 11 Dec 2025 00:00:00 GMT
 body:
 #ITEM
+title: Disrupting a coordinated model-distillation campaign
+link: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
+id: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
+date: Wed, 30 Sep 2026 10:30:00 GMT
+body:
+#ITEM
 title: Disrupting a covert Iranian influence operation
 link: https://openai.com/index/disrupting-a-covert-iranian-influence-operation
 id: https://openai.com/index/disrupting-a-covert-iranian-influence-operation
@@ -3201,6 +3207,12 @@ title: Helping people when they need it most
 link: https://openai.com/index/helping-people-when-they-need-it-most
 id: https://openai.com/index/helping-people-when-they-need-it-most
 date: Tue, 26 Aug 2025 04:00:00 GMT
+body:
+#ITEM
+title: Helping small businesses put AI to work
+link: https://openai.com/index/helping-small-businesses-put-ai-to-work
+id: https://openai.com/index/helping-small-businesses-put-ai-to-work
+date: Wed, 30 Sep 2026 10:00:00 GMT
 body:
 #ITEM
 title: Hex turns complex analysis into visual reports with GPT‑6 Astra
