@@ -440,6 +440,7 @@ Campaign Management
 Bidding & Budgets
 Targeting
 Product Feeds
+Hotel Feeds (limited beta)
 Conversion Tracking
 Reporting
 Troubleshooting

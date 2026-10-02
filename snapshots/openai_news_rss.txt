@@ -713,6 +713,12 @@ id: https://openai.com/index/airbnb-gpt-6-astra
 date: Wed, 23 Sep 2026 01:00:00 GMT
 body:
 #ITEM
+title: How Albertsons Companies is reimagining retail from the inside out
+link: https://openai.com/index/albertsons-reimagining-retail
+id: https://openai.com/index/albertsons-reimagining-retail
+date: Thu, 01 Oct 2026 16:00:00 GMT
+body:
+#ITEM
 title: Creating agent and human collaboration with GPT 4o
 link: https://openai.com/index/altera
 id: https://openai.com/index/altera
@@ -6843,6 +6849,18 @@ title: The Defender’s Window
 link: https://openai.com/index/the-defenders-window
 id: https://openai.com/index/the-defenders-window
 date: Mon, 17 Aug 2026 05:30:00 GMT
+body:
+#ITEM
+title: The Den frees up 10-15 hours a week to grow with ChatGPT Work
+link: https://openai.com/index/the-den-family-social
+id: https://openai.com/index/the-den-family-social
+date: Thu, 01 Oct 2026 00:00:00 GMT
+body:
+#ITEM
+title: The eternal complement
+link: https://openai.com/index/the-eternal-complement
+id: https://openai.com/index/the-eternal-complement
+date: Thu, 01 Oct 2026 17:00:00 GMT
 body:
 #ITEM
 title: The five AI value models driving business reinvention
