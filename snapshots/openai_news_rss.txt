@@ -1283,6 +1283,12 @@ id: https://openai.com/index/chatgpt-whatsapp-transition
 date: Tue, 21 Oct 2025 17:00:00 GMT
 body:
 #ITEM
+title: Chatham scales its capital markets expertise with OpenAI
+link: https://openai.com/index/chatham-financial
+id: https://openai.com/index/chatham-financial
+date: Fri, 02 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI’s commitment to child safety: adopting safety by design principles
 link: https://openai.com/index/child-safety-adopting-sbd-principles
 id: https://openai.com/index/child-safety-adopting-sbd-principles
@@ -5829,6 +5835,12 @@ title: Powering product discovery in ChatGPT
 link: https://openai.com/index/powering-product-discovery-in-chatgpt
 id: https://openai.com/index/powering-product-discovery-in-chatgpt
 date: Tue, 24 Mar 2026 09:00:00 GMT
+body:
+#ITEM
+title: A model guide for the GPT-6 family
+link: https://openai.com/index/practical-guide-building-gpt-6
+id: https://openai.com/index/practical-guide-building-gpt-6
+date: Fri, 02 Oct 2026 16:15:00 GMT
 body:
 #ITEM
 title: Practices for Governing Agentic AI Systems

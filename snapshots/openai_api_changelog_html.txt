@@ -302,6 +302,7 @@ Safety checks
 Safety classifiers
 Cybersecurity checks
 Misalignment monitoring
+Enforcement notifications
 Under-18 guidance
 CSAM guidance
 Content provenance
@@ -659,6 +660,7 @@ Managed configuration
 Remote connections
 Workspace model availability
 Amazon Bedrock
+Bedrock GovCloud configuration
 Connect to a gateway
 Deploy Codex through a gateway
 Gateway compatibility

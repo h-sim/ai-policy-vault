@@ -680,7 +680,7 @@ memory stores
 . The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its
 mount_path
 and sync the agent's changes back to the store. See
-Use memory stores
+Memory stores in self-hosted sandboxes
 .
 The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See
 Console observability

@@ -1,5 +1,62 @@
 [
   {
+    "id": "f271620756aa2160b0e2f8ad2660c6da15c21e87",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Use memory stores\n+Memory stores in self-hosted sandboxes",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 03 Oct 2026 03:12:45 GMT",
+    "run_at": "2026-10-03T03:12:44Z",
+    "run_id": "42af8cd0b67341e897cc12e10bf3191f"
+  },
+  {
+    "id": "e832698bff050b69d57cb4aab312bb9da0507e2c",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Chatham scales its capital markets expertise with OpenAI\n+link: https://openai.com/index/chatham-financial\n+id: https://openai.com/index/chatham-financial\n+date: Fri, 02 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: A model guide for the GPT-6 family\n+link: https://openai.com/index/practical-guide-building-gpt-6\n+id: https://openai.com/index/practical-guide-building-gpt-6\n+date: Fri, 02 Oct 2026 16:15:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 03 Oct 2026 03:12:44 GMT",
+    "run_at": "2026-10-03T03:12:44Z",
+    "run_id": "42af8cd0b67341e897cc12e10bf3191f"
+  },
+  {
+    "id": "21d7f2176bd16ac92b8623f916b56aabc5f6912a",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Enforcement notifications\n+Bedrock GovCloud configuration",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 03 Oct 2026 03:12:44 GMT",
+    "run_at": "2026-10-03T03:12:44Z",
+    "run_id": "42af8cd0b67341e897cc12e10bf3191f"
+  },
+  {
     "id": "c9618a86a65dfed3f1f7964c6949173b7ee2dc83",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -925,62 +982,5 @@
     "pubDate": "Mon, 07 Sep 2026 02:13:36 GMT",
     "run_at": "2026-09-07T02:13:35Z",
     "run_id": "fd05abe83a37443099cdaae861f0ada5"
-  },
-  {
-    "id": "ee32de5354c3a5ce9c8456dde64487f4b125b390",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: GPT-6 Astra: A new generation of intelligence\n+link: https://openai.com/index/gpt-6-astra\n+id: https://openai.com/index/gpt-6-astra\n+date: Thu, 03 Sep 2026 11:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 06 Sep 2026 02:16:27 GMT",
-    "run_at": "2026-09-06T02:16:25Z",
-    "run_id": "aecb9c58319147a4a8c2c0ab53fecbbd"
-  },
-  {
-    "id": "068d54b953dbb996e9b8d0d307fe1ee223197ed7",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+September 3, 2026\n+\n+Version 1.30.0 of the\n+ant\n+CLI adds\n+ant apply\n+, which creates and updates agents, environments, skills, memory stores, and deployments from files in your repository. Describe each resource in a file, run\n+ant apply\n+, and approve the plan it prints. Commit the\n+claude-lock.json\n+lockfile it writes so that later runs, on your machine or in CI, update the same resources instead of creating new ones. See\n+Manage resources as code with ant apply\n+.\n+September 3, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 14,
-      "removed": 0,
-      "churn": 14
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 05 Sep 2026 02:20:36 GMT",
-    "run_at": "2026-09-05T02:20:28Z",
-    "run_id": "31d4edcaa29649878607bbd786a1c738"
-  },
-  {
-    "id": "1c63c62b124a5fc9976607756e1f766b3038510e",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Architectural visualization with Astra\n+Building games with Astra\n-Scaling cyber defenders with Daybreak\n-Codex as a platform: build on the open agent harness",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 2,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 05 Sep 2026 02:20:28 GMT",
-    "run_at": "2026-09-05T02:20:28Z",
-    "run_id": "31d4edcaa29649878607bbd786a1c738"
   }
 ]
