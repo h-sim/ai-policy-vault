@@ -2357,6 +2357,12 @@ id: https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight
 date: Tue, 05 Aug 2025 00:00:00 GMT
 body:
 #ITEM
+title: Our approach to EU text provenance rules
+link: https://openai.com/index/eu-text-provenance
+id: https://openai.com/index/eu-text-provenance
+date: Mon, 05 Oct 2026 15:00:00 GMT
+body:
+#ITEM
 title: How evals drive the next chapter in AI for businesses
 link: https://openai.com/index/evals-drive-next-chapter-of-ai
 id: https://openai.com/index/evals-drive-next-chapter-of-ai
@@ -4743,6 +4749,12 @@ title: New and improved embedding model
 link: https://openai.com/index/new-and-improved-embedding-model
 id: https://openai.com/index/new-and-improved-embedding-model
 date: Thu, 15 Dec 2022 08:00:00 GMT
+body:
+#ITEM
+title: Building advertising for the way people use AI
+link: https://openai.com/index/new-chatgpt-ads-format-and-measurement
+id: https://openai.com/index/new-chatgpt-ads-format-and-measurement
+date: Mon, 05 Oct 2026 10:00:00 GMT
 body:
 #ITEM
 title: Introducing ChatGPT Images and GPT‑Image‑1.5
@@ -7298,7 +7310,7 @@ body:
 title: Wayfair boosts catalog accuracy and support speed with OpenAI
 link: https://openai.com/index/wayfair
 id: https://openai.com/index/wayfair
-date: Wed, 11 Mar 2026 00:00:00 GMT
+date: Fri, 25 Sep 2026 00:00:00 GMT
 body:
 #ITEM
 title: Wayfair is shaping the future of retail with AI

@@ -51,6 +51,27 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+October 1, 2026
+
+We've added a
+line
+field to the
+Models API
+.
+GET /v1/models
+and
+GET /v1/models/{model_id}
+now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report
+opus
+, for example. Use
+line
+to group models without parsing their IDs.
+line
+is
+null
+for a model that belongs to no line. See
+Using the Models API
+.
 September 30, 2026
 
 We announced the deprecation of the Claude Sonnet 4.5 model (
@@ -2455,6 +2476,7 @@ blog post
 このページは役に立ちましたか？
 
 
+October 1, 2026
 September 30, 2026
 September 28, 2026
 September 24, 2026

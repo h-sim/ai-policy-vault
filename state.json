@@ -1,5 +1,62 @@
 [
   {
+    "id": "461269d2454f6836b94f3db07895be673793e8f4",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+October 1, 2026\n+\n+We've added a\n+line\n+field to the\n+Models API\n+.\n+GET /v1/models\n+and\n+GET /v1/models/{model_id}\n+now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report\n+opus\n+, for example. Use\n+line\n+to group models without parsing their IDs.\n+line\n+is\n+null\n+for a model that belongs to no line. See\n+Using the Models API\n+.\n+October 1, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 22,
+      "removed": 0,
+      "churn": 22
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 06 Oct 2026 04:12:03 GMT",
+    "run_at": "2026-10-06T04:12:02Z",
+    "run_id": "469b4e2c987c4f4d9b8c77818dfbf7b7"
+  },
+  {
+    "id": "07a8320203cf552034cfe79e3c92b3ea70a95563",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Our approach to EU text provenance rules\n+link: https://openai.com/index/eu-text-provenance\n+id: https://openai.com/index/eu-text-provenance\n+date: Mon, 05 Oct 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: Building advertising for the way people use AI\n+link: https://openai.com/index/new-chatgpt-ads-format-and-measurement\n+id: https://openai.com/index/new-chatgpt-ads-format-and-measurement\n+date: Mon, 05 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM\n-date: Wed, 11 Mar 2026 00:00:00 GMT\n+date: Fri, 25 Sep 2026 00:00:00 GMT",
+    "snippet_full": "",
+    "diff": {
+      "added": 13,
+      "removed": 1,
+      "churn": 14
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 06 Oct 2026 04:12:03 GMT",
+    "run_at": "2026-10-06T04:12:02Z",
+    "run_id": "469b4e2c987c4f4d9b8c77818dfbf7b7"
+  },
+  {
+    "id": "21e04d4af8cdd5d3bed7c909343771bd43c6189c",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+October, 2026\n+Oct 5\n+Feature\n+Added an in-product flow for HIPAA compliance support in API\n+Organization settings > General\n+. Admins of eligible organizations can now accept the standard Business Associate Agreement (BAA) and enable HIPAA compliance support for their organization. See the\n+Help Center\n+for eligibility, covered services, and configuration requirements.",
+    "snippet_full": "",
+    "diff": {
+      "added": 8,
+      "removed": 0,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 06 Oct 2026 04:12:03 GMT",
+    "run_at": "2026-10-06T04:12:02Z",
+    "run_id": "469b4e2c987c4f4d9b8c77818dfbf7b7"
+  },
+  {
     "id": "f271620756aa2160b0e2f8ad2660c6da15c21e87",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -923,64 +980,5 @@
     "pubDate": "Wed, 09 Sep 2026 02:28:05 GMT",
     "run_at": "2026-09-09T02:28:05Z",
     "run_id": "2fbfee84c4c345c68bb796d901bd01c7"
-  },
-  {
-    "id": "be83b185ee8db061ab57dff3b87e5ea259b9ba34",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Overview\n+Image prompting\n+Prompt cache diagnostics\n+Sep 8\n+Feature\n+v1/responses\n+Prompt Cache Diagnostics\n+is now generally available in the Responses API for GPT-5.6 and later supported models.\n+Compare cache reuse against a previous response, identify reasons for cache misses, and follow troubleshooting guidance to improve cache reuse.\n+Sep 8\n+Feature\n+gpt-image-2.5-sunburst\n+gpt-image-2.5-flare\n+v1/images\n+v1/responses\n+Released\n+GPT Image 2.5 Sunburst\n+and\n+GPT Image 2.5 Flare\n+for image generation and editing through the Image API and the Responses API image generation tool.\n+Use Sunburst for workflows where editing precision matters most, or Flare for fast, high-quality everyday image generation. Both models support the new\n+xhigh\n+and\n+max\n+quality settings and use GPT Image 2 token rates. See the\n+image generation guide\n+and\n+pricing\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 29,
-      "removed": 0,
-      "churn": 29
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 09 Sep 2026 02:28:05 GMT",
-    "run_at": "2026-09-09T02:28:05Z",
-    "run_id": "2fbfee84c4c345c68bb796d901bd01c7"
-  },
-  {
-    "id": "7e8fe9eda1e680a92e7039d6f977b559ae0b88be",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Supporting independent journalism in Ukraine\n+link: https://openai.com/index/supporting-independent-journalism-in-ukraine\n+id: https://openai.com/index/supporting-independent-journalism-in-ukraine\n+date: Mon, 07 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 08 Sep 2026 02:25:49 GMT",
-    "run_at": "2026-09-08T02:25:48Z",
-    "run_id": "f45de5099f9b46b483d38099a6ad65aa"
-  },
-  {
-    "id": "39b745fa67fea2adfc990eb31db6faa8986e5b02",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: An Alien Mind\n+link: https://openai.com/index/an-alien-mind\n+id: https://openai.com/index/an-alien-mind\n+date: Sun, 06 Sep 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Research acceleration: The view inside OpenAI\n+link: https://openai.com/index/research-acceleration-view-inside-openai\n+id: https://openai.com/index/research-acceleration-view-inside-openai\n+date: Sun, 06 Sep 2026 08:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 07 Sep 2026 02:13:36 GMT",
-    "run_at": "2026-09-07T02:13:35Z",
-    "run_id": "fd05abe83a37443099cdaae861f0ada5"
   }
 ]
