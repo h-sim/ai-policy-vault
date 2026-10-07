@@ -1,5 +1,66 @@
 [
   {
+    "id": "38b934cdc708d094b1495baabd8965c13267d83d",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+October 5, 2026\n+\n+We've added\n+capabilities.thinking.types.disabled\n+to the\n+Models API\n+.\n+GET /v1/models\n+and\n+GET /v1/models/{model_id}\n+now report whether each model accepts\n+thinking: {type: \"disabled\"}\n+, which turns thinking off. See\n+Using the Models API\n+.\n+In Python SDK 1.10.0, TypeScript SDK 0.130.0, C# SDK 12.52.0, Go SDK 1.77.0, Java SDK 2.67.0, PHP SDK 0.53.0, Ruby SDK 1.75.0, and version 1.37.0 of the\n+ant\n+CLI, the\n+Admin API\n+methods for organization info, members, invites, workspaces, API keys, rate limits, service accounts, workload identity federation, customer-managed encryption keys, and compliance settings are out o\n+client.organization\n+and\n+ant organization\n+. These releases also keep\n+client.beta.organization\n+and\n+ant beta:organization\n+.\n-entries become per-tool types. See\n+entries become\n+per-tool types\n+. See\n+October 5, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 32,
+      "removed": 1,
+      "churn": 33
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 07 Oct 2026 03:39:03 GMT",
+    "run_at": "2026-10-07T03:38:57Z",
+    "run_id": "fb8d56618fe7492c88dfdfff3dec15e9"
+  },
+  {
+    "id": "de381913e9acef00fe4a776a775d1e0dde7d94cd",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Advancing computer use with Ironclad\n+link: https://openai.com/index/advancing-computer-use-with-ironclad\n+id: https://openai.com/index/advancing-computer-use-with-ironclad\n+date: Tue, 06 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Atlassian and OpenAI expand partnership to turn enterprise knowledge into action\n+link: https://openai.com/index/atlassian-partnership\n+id: https://openai.com/index/atlassian-partnership\n+date: Tue, 06 Oct 2026 16:00:00 GMT\n+title: How Jump Trading is scaling quant research with ChatGPT\n+link: https://openai.com/index/jump-trading",
+    "snippet_full": "+title: Advancing computer use with Ironclad\n+link: https://openai.com/index/advancing-computer-use-with-ironclad\n+id: https://openai.com/index/advancing-computer-use-with-ironclad\n+date: Tue, 06 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Atlassian and OpenAI expand partnership to turn enterprise knowledge into action\n+link: https://openai.com/index/atlassian-partnership\n+id: https://openai.com/index/atlassian-partnership\n+date: Tue, 06 Oct 2026 16:00:00 GMT\n+body:\n+#ITEM\n+title: How Jump Trading is scaling quant research with ChatGPT\n+link: https://openai.com/index/jump-trading\n+id: https://openai.com/index/jump-trading\n+date: Tue, 06 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Sharing AI progress in mathematics\n+link: https://openai.com/index/sharing-ai-progress-in-mathematics\n+id: https://openai.com/index/sharing-ai-progress-in-mathematics\n+date: Tue, 06 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 07 Oct 2026 03:38:57 GMT",
+    "run_at": "2026-10-07T03:38:57Z",
+    "run_id": "fb8d56618fe7492c88dfdfff3dec15e9"
+  },
+  {
+    "id": "e9b9668eff0a9718873be6ca00c8bf0eebcc8517",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Decisions API\n+Connect voice to Decisions\n-Remote\n+ChatGPT mobile app\n+Decisions API\n+Oct 6\n+Feature\n+gpt-6-luna\n+v1/decisions\n+Released the\n+Decisions API\n+in beta with\n+gpt-6-luna\n+. Turn text and images into typed answers 10x faster than the Responses API.\n+Oct 6\n+Update\n+Simplified API usage tiers from five to three: Build, Launch, and Grow. Organizations automatically upgrade as total credit purchases reach tier minimums. See\n+usage tiers\n+for monthly usage limits and how to view rate limits for each model.",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 1,
+      "churn": 19
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 07 Oct 2026 03:38:57 GMT",
+    "run_at": "2026-10-07T03:38:57Z",
+    "run_id": "fb8d56618fe7492c88dfdfff3dec15e9"
+  },
+  {
     "id": "461269d2454f6836b94f3db07895be673793e8f4",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -921,64 +982,5 @@
     "pubDate": "Fri, 11 Sep 2026 02:22:58 GMT",
     "run_at": "2026-09-11T02:22:58Z",
     "run_id": "f694dceb93ca4ab9a42f5da36796272a"
-  },
-  {
-    "id": "4b23b45fb74d15a0f1bd89d8cb6b686479a4b74d",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+Per-message effort\n+changes, in beta, are also available on\n+Google Cloud\n+for Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5, with the same\n+mid-conversation-output-config-2026-07-01\n+beta header.",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 10 Sep 2026 02:28:56 GMT",
-    "run_at": "2026-09-10T02:28:25Z",
-    "run_id": "346ae2f036d7471d803c209bb303e5e8"
-  },
-  {
-    "id": "5700017beeb91b70127ac14ea52418638e89f2fc",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: The AI policy window is open. We need to act.\n+link: https://openai.com/index/ai-policy-window\n+id: https://openai.com/index/ai-policy-window\n+date: Wed, 09 Sep 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-6 Astra: The next generation in intelligence for work\n+link: https://openai.com/index/gpt-6-astra-next-generation-work\n+id: https://openai.com/index/gpt-6-astra-next-generation-work\n+date: Wed, 09 Sep 2026 11:00:00 GMT\n+body:\n+#ITEM\n+title: Paul Christiano joins OpenAI Foundation Board\n+link: https://openai.com/index/paul-christiano-joins-openai-foundation-board\n+id: https://openai.com/index/paul-christiano-joins-openai-foundation-board\n+date: Wed, 09 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 10 Sep 2026 02:28:48 GMT",
-    "run_at": "2026-09-10T02:28:25Z",
-    "run_id": "346ae2f036d7471d803c209bb303e5e8"
-  },
-  {
-    "id": "60eb73ac5067e814d4acea26044cadf76089fd97",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: 1Password increases engineering productivity 21% with Codex\n+link: https://openai.com/index/1password\n+id: https://openai.com/index/1password\n+date: Tue, 08 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How GPT-5.6 Sol helps run quantum computing experiments\n+link: https://openai.com/index/codex-quantum-computing-experiments\n+id: https://openai.com/index/codex-quantum-computing-experiments\n+date: Tue, 08 Sep 2026 17:00:00 GMT\n+title: Introducing ChatGPT Images 2.5\n+link: https://openai.com/index/introducing-chatgpt-images-2-5",
-    "snippet_full": "+title: 1Password increases engineering productivity 21% with Codex\n+link: https://openai.com/index/1password\n+id: https://openai.com/index/1password\n+date: Tue, 08 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How GPT-5.6 Sol helps run quantum computing experiments\n+link: https://openai.com/index/codex-quantum-computing-experiments\n+id: https://openai.com/index/codex-quantum-computing-experiments\n+date: Tue, 08 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT Images 2.5\n+link: https://openai.com/index/introducing-chatgpt-images-2-5\n+id: https://openai.com/index/introducing-chatgpt-images-2-5\n+date: Tue, 08 Sep 2026 11:30:00 GMT\n+body:\n+#ITEM\n+title: On the Navier–Stokes Millennium Prize Problem\n+link: https://openai.com/index/navier-stokes-solution\n+id: https://openai.com/index/navier-stokes-solution\n+date: Tue, 08 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI expands initiatives to support journalism from classrooms to newsrooms\n+link: https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms\n+id: https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms\n+date: Tue, 08 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Funding grants for new research into AI and teen development\n+link: https://openai.com/index/teen-development-research-grants\n+id: https://openai.com/index/teen-development-research-grants\n+date: Tue, 08 Sep 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: The Work Now Within Reach\n+link: https://openai.com/index/the-work-now-within-reach\n+id: https://openai.com/index/the-work-now-within-reach\n+date: Tue, 08 Sep 2026 13:00:00 GMT",
-    "diff": {
-      "added": 42,
-      "removed": 0,
-      "churn": 42
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 09 Sep 2026 02:28:05 GMT",
-    "run_at": "2026-09-09T02:28:05Z",
-    "run_id": "2fbfee84c4c345c68bb796d901bd01c7"
   }
 ]

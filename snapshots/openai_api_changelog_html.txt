@@ -105,6 +105,7 @@ Using GPT-6
 Key concepts
 Core concepts
 Responses API
+Decisions API
 Conversation state
 Background mode
 Streaming
@@ -265,6 +266,7 @@ Voice activity detection
 Tools and MCP
 Build with voice
 Voice agents
+Connect voice to Decisions
 Custom voices
 Cost optimization
 Connections
@@ -494,7 +496,7 @@ Pricing
 Glossary
 Available on
 ChatGPT desktop app
-Remote
+ChatGPT mobile app
 ChatGPT on the web
 Codex CLI
 Codex IDE extension
@@ -797,6 +799,7 @@ Using GPT-6
 Key concepts
 Core concepts
 Responses API
+Decisions API
 Conversation state
 Background mode
 Streaming
@@ -844,6 +847,20 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 October, 2026
+Oct 6
+Feature
+gpt-6-luna
+v1/decisions
+Released the
+Decisions API
+in beta with
+gpt-6-luna
+. Turn text and images into typed answers 10x faster than the Responses API.
+Oct 6
+Update
+Simplified API usage tiers from five to three: Build, Launch, and Grow. Organizations automatically upgrade as total credit purchases reach tier minimums. See
+usage tiers
+for monthly usage limits and how to view rate limits for each model.
 Oct 5
 Feature
 Added an in-product flow for HIPAA compliance support in API
