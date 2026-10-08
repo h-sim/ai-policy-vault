@@ -3089,6 +3089,12 @@ id: https://openai.com/index/gpt-6-astra-next-generation-work
 date: Wed, 09 Sep 2026 11:00:00 GMT
 body:
 #ITEM
+title: GPT-6 and Intelligent UI for everyone
+link: https://openai.com/index/gpt-6-for-everyone
+id: https://openai.com/index/gpt-6-for-everyone
+date: Wed, 07 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: gpt-oss-120b & gpt-oss-20b Model Card
 link: https://openai.com/index/gpt-oss-model-card
 id: https://openai.com/index/gpt-oss-model-card
@@ -3831,6 +3837,12 @@ title: Introducing GPT-5 for developers
 link: https://openai.com/index/introducing-gpt-5-for-developers
 id: https://openai.com/index/introducing-gpt-5-for-developers
 date: Thu, 07 Aug 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-6.1 Sol
+link: https://openai.com/index/introducing-gpt-6-1-sol
+id: https://openai.com/index/introducing-gpt-6-1-sol
+date: Tue, 29 Sep 2026 17:00:00 GMT
 body:
 #ITEM
 title: Introducing GPT-6.1 Sol
@@ -6017,6 +6029,12 @@ id: https://openai.com/index/quantifying-generalization-in-reinforcement-learnin
 date: Thu, 06 Dec 2018 08:00:00 GMT
 body:
 #ITEM
+title: Radisson Hotel Group brings hotel discovery into ChatGPT
+link: https://openai.com/index/radisson
+id: https://openai.com/index/radisson
+date: Wed, 07 Oct 2026 07:00:00 GMT
+body:
+#ITEM
 title: Rakuten fixes issues twice as fast with Codex
 link: https://openai.com/index/rakuten
 id: https://openai.com/index/rakuten
@@ -6855,6 +6873,12 @@ title: Helping developers build safer AI experiences for teens
 link: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard
 id: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard
 date: Tue, 24 Mar 2026 11:00:00 GMT
+body:
+#ITEM
+title: Helping teens learn, plan, and shape the future of AI
+link: https://openai.com/index/teens-learn-and-plan
+id: https://openai.com/index/teens-learn-and-plan
+date: Wed, 07 Oct 2026 12:00:00 GMT
 body:
 #ITEM
 title: Ten advances in mathematics and theoretical computer science

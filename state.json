@@ -1,5 +1,65 @@
 [
   {
+    "id": "6bc191e4812346301463e56fbb26b18908b6e851",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+October 8, 2026\n+\n+The\n+Compliance API\n+chat endpoints now also return chats from the unified Claude experience, in beta for Claude Enterprise organizations, with your existing Compliance Access Key. See\n+Retrieve and delete chats, files, and projects\n+.\n+October 7, 2026\n+\n+We've lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x. Cache writes and all other prices are un\n+Prompt caching pricing\n+.\n+We've launched\n+Claude Haiku 5.5\n+(\n+claude-haiku-5-5\n+), our most capable model tuned for high-volume and latency-sensitive work. It has a\n+1M token context window\n+, 128k max output tokens, and\n+adaptive thinking\n+with the\n+effort parameter\n+. It's available on the Claude API,\n+Claude in Amazon Bedrock\n+,\n+Claude Platform on AWS\n+,\n+Claude on Google Cloud\n+, and\n+Claude in Microsoft Foundry\n+. See\n+What's new in Claude Haiku 5.5\n+.\n+Code written for Claude Haiku 4.5 can break on Claude Haiku 5.5. Manual extended thinking (\n+budget_tokens\n+) returns a 400 error, and adaptive thinking is on by default, so a response can begin with\n+thinking\n+blocks. The same text also counts as more tokens. See the\n+migration guide\n+. For model-specific prompting patterns, see",
+    "snippet_full": "",
+    "diff": {
+      "added": 145,
+      "removed": 1,
+      "churn": 146
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 08 Oct 2026 03:53:23 GMT",
+    "run_at": "2026-10-08T03:53:04Z",
+    "run_id": "ad1d135ca5b546d59ef1e0c130b01534"
+  },
+  {
+    "id": "d689738c76dc63a1ce1438f80e620ed8de77cc80",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: GPT-6 and Intelligent UI for everyone\n+link: https://openai.com/index/gpt-6-for-everyone\n+id: https://openai.com/index/gpt-6-for-everyone\n+date: Wed, 07 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+date: Tue, 29 Sep 2026 17:00:00 GMT\n+title: Introducing GPT-6.1 Sol\n+link: https://openai.com/index/introducing-gpt-6-1-sol\n+id: https://openai.com/index/introducing-gpt-6-1-sol\n+title: Radisson Hotel Group brings hotel discovery into ChatGPT\n+link: https://openai.com/index/radisson",
+    "snippet_full": "+title: GPT-6 and Intelligent UI for everyone\n+link: https://openai.com/index/gpt-6-for-everyone\n+id: https://openai.com/index/gpt-6-for-everyone\n+date: Wed, 07 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+date: Tue, 29 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-6.1 Sol\n+link: https://openai.com/index/introducing-gpt-6-1-sol\n+id: https://openai.com/index/introducing-gpt-6-1-sol\n+title: Radisson Hotel Group brings hotel discovery into ChatGPT\n+link: https://openai.com/index/radisson\n+id: https://openai.com/index/radisson\n+date: Wed, 07 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Helping teens learn, plan, and shape the future of AI\n+link: https://openai.com/index/teens-learn-and-plan\n+id: https://openai.com/index/teens-learn-and-plan\n+date: Wed, 07 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 08 Oct 2026 03:53:04 GMT",
+    "run_at": "2026-10-08T03:53:04Z",
+    "run_id": "ad1d135ca5b546d59ef1e0c130b01534"
+  },
+  {
+    "id": "a498e9d6e8d727edf247559ed161d90cde0be70b",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Deploy Codex through a gateway\n+Sign in with ChatGPT\n+Use API/provider credentials\n+Roll out a gateway\n+Meet the ambassadors\n+Oct 7\n+Update\n+chat-latest\n+Updated the\n+chat-latest\n+snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users. We recommend leveraging the\n+GPT-6 model family\n+for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more\n+here\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 14,
+      "removed": 1,
+      "churn": 15
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 08 Oct 2026 03:53:04 GMT",
+    "run_at": "2026-10-08T03:53:04Z",
+    "run_id": "ad1d135ca5b546d59ef1e0c130b01534"
+  },
+  {
     "id": "38b934cdc708d094b1495baabd8965c13267d83d",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -921,66 +981,5 @@
     "pubDate": "Sat, 12 Sep 2026 02:30:33 GMT",
     "run_at": "2026-09-12T02:30:32Z",
     "run_id": "b5862510b3804e8aac75089c2085bc83"
-  },
-  {
-    "id": "8569e83331ff8dc99f98584c46f59535558e994b",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+September 10, 2026\n+\n+Claude Managed Agents permission policies now include\n+auto\n+: the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval.\n+agent.tool_use\n+and\n+agent.mcp_tool_use\n+events report how each call was evaluated in an\n+evaluation\n+field alongside\n+evaluated_permission\n+. See\n+Let the server evaluate each call with\n+auto\n+.\n+The\n+ant\n+CLI adds\n+ant beta:sessions connect\n+, which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send messages, and allow or deny tool calls that are waiting for approval. Pass\n+--web\n+to serve the Claude Console's session viewer locally and open the session there instead. See\n+Connect to a Managed Agents session from your terminal\n+.\n+September 10, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 26,
-      "removed": 0,
-      "churn": 26
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 11 Sep 2026 02:23:06 GMT",
-    "run_at": "2026-09-11T02:22:58Z",
-    "run_id": "f694dceb93ca4ab9a42f5da36796272a"
-  },
-  {
-    "id": "da4a8dd264f4c2e80960fd4c03907c414fad7a56",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Expanding AI access and cyber defense for federal, state, local, and tribal governments\n+link: https://openai.com/index/expanding-ai-access-us-government\n+id: https://openai.com/index/expanding-ai-access-us-government\n+date: Thu, 10 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Financial Services\n+link: https://openai.com/index/introducing-chatgpt-financial-services\n+id: https://openai.com/index/introducing-chatgpt-financial-services\n+title: Build more natural voice experiences with GPT‑Live‑1 in the API\n+link: https://openai.com/index/introducing-gpt-live-1-in-the-api\n+id: https://openai.com/index/introducing-gpt-live-1-in-the-api",
-    "snippet_full": "+title: Expanding AI access and cyber defense for federal, state, local, and tribal governments\n+link: https://openai.com/index/expanding-ai-access-us-government\n+id: https://openai.com/index/expanding-ai-access-us-government\n+date: Thu, 10 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Financial Services\n+link: https://openai.com/index/introducing-chatgpt-financial-services\n+id: https://openai.com/index/introducing-chatgpt-financial-services\n+date: Thu, 10 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Build more natural voice experiences with GPT‑Live‑1 in the API\n+link: https://openai.com/index/introducing-gpt-live-1-in-the-api\n+id: https://openai.com/index/introducing-gpt-live-1-in-the-api\n+date: Thu, 10 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Agents API\n+link: https://openai.com/index/introducing-the-agents-api\n+id: https://openai.com/index/introducing-the-agents-api\n+date: Thu, 10 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Now everyone can put data to work\n+link: https://openai.com/index/put-data-to-work\n+id: https://openai.com/index/put-data-to-work\n+date: Thu, 10 Sep 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules\n+link: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\n+id: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\n+date: Thu, 10 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 36,
-      "removed": 0,
-      "churn": 36
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 11 Sep 2026 02:22:58 GMT",
-    "run_at": "2026-09-11T02:22:58Z",
-    "run_id": "f694dceb93ca4ab9a42f5da36796272a"
-  },
-  {
-    "id": "1c9abac85fd4e7da4b6d3e4665d9006ece9e9c03",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Voice & Audio\n+Audio & voice\n-Voice & Audio\n+Audio & voice\n-Voice & Audio\n+Audio & voice\n-Overview\n+Getting started\n+Agents API\n+Overview\n+Quickstart\n+Architecture\n+Configuring Agents\n+Sessions\n+Run and continue sessions\n+Events and items\n+Manage sessions\n+Webhooks\n+Environments and sandboxes\n+OpenAI-hosted sandboxes\n+Self-hosted sandboxes\n+Sandbox lifecycle\n+Sandbox security\n+Files and artifacts\n+Tools and integrations\n+Web search\n+Functions\n+MCP connections\n+Plugins\n+Vaults\n+Multi-agent\n+Observability and usage\n+Tracing\n+Overview\n-Get started\n-Voice agents\n-Live translation\n-Realtime prompting guide\n-Audio\n-Audio and speech",
-    "snippet_full": "",
-    "diff": {
-      "added": 89,
-      "removed": 23,
-      "churn": 112
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 11 Sep 2026 02:22:58 GMT",
-    "run_at": "2026-09-11T02:22:58Z",
-    "run_id": "f694dceb93ca4ab9a42f5da36796272a"
   }
 ]
