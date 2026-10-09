@@ -1,5 +1,45 @@
 [
   {
+    "id": "b8db33522eea930318773c1812d5cfcdf616ff82",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Disrupting AI-enabled “false front” operations\n+link: https://openai.com/index/disrupting-ai-enabled-false-front-operations\n+id: https://openai.com/index/disrupting-ai-enabled-false-front-operations\n+date: Thu, 08 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n-date: Tue, 29 Sep 2026 17:00:00 GMT\n-body:\n-#ITEM\n-title: Introducing GPT-6.1 Sol\n-link: https://openai.com/index/introducing-gpt-6-1-sol\n-id: https://openai.com/index/introducing-gpt-6-1-sol",
+    "snippet_full": "+title: Disrupting AI-enabled “false front” operations\n+link: https://openai.com/index/disrupting-ai-enabled-false-front-operations\n+id: https://openai.com/index/disrupting-ai-enabled-false-front-operations\n+date: Thu, 08 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n-date: Tue, 29 Sep 2026 17:00:00 GMT\n-body:\n-#ITEM\n-title: Introducing GPT-6.1 Sol\n-link: https://openai.com/index/introducing-gpt-6-1-sol\n-id: https://openai.com/index/introducing-gpt-6-1-sol\n+title: LegalOn halves Codex costs while maintaining development speed\n+link: https://openai.com/index/legalon-halves-codex-costs\n+id: https://openai.com/index/legalon-halves-codex-costs\n+date: Thu, 08 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How Oracle turns days of work into minutes with ChatGPT and Codex\n+link: https://openai.com/index/oracle\n+id: https://openai.com/index/oracle\n+date: Thu, 08 Oct 2026 16:00:00 GMT\n+body:\n+#ITEM\n+title: Pollo AI turns creative ideas into campaigns with OpenAI\n+link: https://openai.com/index/pollo-ai\n+id: https://openai.com/index/pollo-ai\n+date: Thu, 08 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 6,
+      "churn": 30
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 09 Oct 2026 03:58:19 GMT",
+    "run_at": "2026-10-09T03:58:18Z",
+    "run_id": "9fc4c6caa9cd4b2b870fd43225389c53"
+  },
+  {
+    "id": "5079f342d8beb45f8bcac73693e9f4c64a9d71ca",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Oct 8\n+Feature\n+gpt-6.1-sol\n+v1/responses\n+Added\n+Ultrafast mode\n+for\n+GPT-6.1 Sol\n+in the Responses API. Use\n+gpt-6.1-sol\n+with\n+service_tier: \"ultrafast\"\n+to reduce the time between generated output tokens. It is available to all API users, subject to rate limits, with global processing and US and EU data residency. See\n+Ultrafast pricing\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 15,
+      "removed": 0,
+      "churn": 15
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 09 Oct 2026 03:58:18 GMT",
+    "run_at": "2026-10-09T03:58:18Z",
+    "run_id": "9fc4c6caa9cd4b2b870fd43225389c53"
+  },
+  {
     "id": "6bc191e4812346301463e56fbb26b18908b6e851",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -939,47 +979,5 @@
     "pubDate": "Tue, 15 Sep 2026 02:48:48 GMT",
     "run_at": "2026-09-15T02:48:28Z",
     "run_id": "3c41bf75d5de4298aef679d97e75fe99"
-  },
-  {
-    "id": "fccef81cbd7cb9139ae35429d2f4f1c1b077bc24",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Perplexity trusts GPT-6 Astra with end-to-end systems\n+title: Cognition helps Devin test its own work with GPT‑6 Astra\n+link: https://openai.com/index/cognition-devin-testing-with-astra\n+id: https://openai.com/index/cognition-devin-testing-with-astra\n+date: Fri, 11 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM\n-title: The new ChatGPT Images is here\n+title: Introducing ChatGPT Images and GPT‑Image‑1.5\n+link: https://openai.com/index/perplexity-improving-accuracy-with-astra\n+id: https://openai.com/index/perplexity-improving-accuracy-with-astra\n+date: Mon, 14 Sep 2026 00:00:00 GMT",
-    "snippet_full": "+title: Cognition helps Devin test its own work with GPT‑6 Astra\n+link: https://openai.com/index/cognition-devin-testing-with-astra\n+id: https://openai.com/index/cognition-devin-testing-with-astra\n+date: Fri, 11 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM\n-title: The new ChatGPT Images is here\n+title: Introducing ChatGPT Images and GPT‑Image‑1.5\n+title: Perplexity trusts GPT-6 Astra with end-to-end systems\n+link: https://openai.com/index/perplexity-improving-accuracy-with-astra\n+id: https://openai.com/index/perplexity-improving-accuracy-with-astra\n+date: Mon, 14 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Rapidly scaling online storage to serve over 1 billion ChatGPT users\n+link: https://openai.com/index/scaling-storage-one-billion-users-part-one\n+id: https://openai.com/index/scaling-storage-one-billion-users-part-one\n+date: Fri, 11 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 19,
-      "removed": 1,
-      "churn": 20
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 12 Sep 2026 02:30:58 GMT",
-    "run_at": "2026-09-12T02:30:32Z",
-    "run_id": "b5862510b3804e8aac75089c2085bc83"
-  },
-  {
-    "id": "a40b43e47c11b18cbf74856c4067cebaff3627f0",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-API Partner Setup\n-Quickstart\n-Bulk API\n+Campaign Management\n+Bidding & Budgets\n+Targeting\n-Delta Feeds API\n-Campaign Targeting\n-Location Targeting\n-Platform Targeting\n-Custom Audiences\n-Conversion-Optimized Campaigns\n+Conversion Tracking\n+Reporting\n+Troubleshooting\n+Account Management\n-MCP Server\n+Rethinking skills and prompts for GPT-6 Astra\n-Meet the winners of OpenAI Build Week\n+Sep 8\n+Feature\n+gpt-rosalind-research\n+GPT-Rosalind (\n+gpt-rosalind-research\n+) is now generally available through the\n+trusted-access program\n+for approved internal life sciences research.\n+Standard pricing is $5 per 1M input tokens, $0.50 per 1M cached input tokens, and $25 per 1M output tokens. Billing begins on October 5, 2026. See\n+pricing\n+for details.",
-    "snippet_full": "",
-    "diff": {
-      "added": 19,
-      "removed": 11,
-      "churn": 30
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 12 Sep 2026 02:30:33 GMT",
-    "run_at": "2026-09-12T02:30:32Z",
-    "run_id": "b5862510b3804e8aac75089c2085bc83"
   }
 ]

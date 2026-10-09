@@ -1853,6 +1853,12 @@ id: https://openai.com/index/disrupting-a-covert-iranian-influence-operation
 date: Fri, 16 Aug 2024 11:00:00 GMT
 body:
 #ITEM
+title: Disrupting AI-enabled “false front” operations
+link: https://openai.com/index/disrupting-ai-enabled-false-front-operations
+id: https://openai.com/index/disrupting-ai-enabled-false-front-operations
+date: Thu, 08 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: Disrupting deceptive uses of AI by covert influence operations
 link: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations
 id: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations
@@ -3842,12 +3848,6 @@ body:
 title: Introducing GPT-6.1 Sol
 link: https://openai.com/index/introducing-gpt-6-1-sol
 id: https://openai.com/index/introducing-gpt-6-1-sol
-date: Tue, 29 Sep 2026 17:00:00 GMT
-body:
-#ITEM
-title: Introducing GPT-6.1 Sol
-link: https://openai.com/index/introducing-gpt-6-1-sol
-id: https://openai.com/index/introducing-gpt-6-1-sol
 date: Tue, 29 Sep 2026 10:00:00 GMT
 body:
 #ITEM
@@ -4449,6 +4449,12 @@ title: Learning with opponent-learning awareness
 link: https://openai.com/index/learning-with-opponent-learning-awareness
 id: https://openai.com/index/learning-with-opponent-learning-awareness
 date: Wed, 13 Sep 2017 07:00:00 GMT
+body:
+#ITEM
+title: LegalOn halves Codex costs while maintaining development speed
+link: https://openai.com/index/legalon-halves-codex-costs
+id: https://openai.com/index/legalon-halves-codex-costs
+date: Thu, 08 Oct 2026 12:00:00 GMT
 body:
 #ITEM
 title: Legora reviewed 41 documents in minutes with GPT-6 Astra
@@ -5627,6 +5633,12 @@ id: https://openai.com/index/optimizing-chatgpt
 date: Mon, 04 Aug 2025 00:00:00 GMT
 body:
 #ITEM
+title: How Oracle turns days of work into minutes with ChatGPT and Codex
+link: https://openai.com/index/oracle
+id: https://openai.com/index/oracle
+date: Thu, 08 Oct 2026 16:00:00 GMT
+body:
+#ITEM
 title: Organizational update from OpenAI
 link: https://openai.com/index/organizational-update
 id: https://openai.com/index/organizational-update
@@ -5871,6 +5883,12 @@ title: Polimill builds Japan's next-generation public AI infrastructure
 link: https://openai.com/index/polimill
 id: https://openai.com/index/polimill
 date: Mon, 31 Aug 2026 07:00:00 GMT
+body:
+#ITEM
+title: Pollo AI turns creative ideas into campaigns with OpenAI
+link: https://openai.com/index/pollo-ai
+id: https://openai.com/index/pollo-ai
+date: Thu, 08 Oct 2026 12:00:00 GMT
 body:
 #ITEM
 title: Powering product discovery in ChatGPT

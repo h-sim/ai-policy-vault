@@ -850,6 +850,21 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 October, 2026
+Oct 8
+Feature
+gpt-6.1-sol
+v1/responses
+Added
+Ultrafast mode
+for
+GPT-6.1 Sol
+in the Responses API. Use
+gpt-6.1-sol
+with
+service_tier: "ultrafast"
+to reduce the time between generated output tokens. It is available to all API users, subject to rate limits, with global processing and US and EU data residency. See
+Ultrafast pricing
+.
 Oct 7
 Update
 chat-latest
