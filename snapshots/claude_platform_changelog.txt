@@ -51,6 +51,23 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+October 9, 2026
+
+You can now let a Claude Managed Agents agent use
+dynamic workflows
+, in beta with the
+managed-agents-2026-04-01
+beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To
+turn dynamic workflows on
+, set the agent's
+multiagent
+field to
+{"type": "multiagent_20261001", "workflows": {"type": "enabled"}}
+. To guide the agent, tell it in its system prompt when to start a run. Follow each run through
+workflow_run.*
+events on the session's event stream. See
+Workflow runs
+.
 October 8, 2026
 
 The
@@ -86,11 +103,31 @@ What's new in Claude Haiku 5.5
 .
 Code written for Claude Haiku 4.5 can break on Claude Haiku 5.5. Manual extended thinking (
 budget_tokens
-) returns a 400 error, and adaptive thinking is on by default, so a response can begin with
+), the sampling parameters
+temperature
+,
+top_p
+, and
+top_k
+, and assistant message prefill can each return a 400 error.
+computer_20250124
+also returns a 400 error: use the
+computer_toolset_20260801
+toolset on the Claude API and Google Cloud, or
+computer_20251124
+on Amazon Bedrock. A request that sends thinking blocks back after a change to
+system
+,
+tools
+, or earlier turns can also return a 400 error. On Amazon Bedrock, structured outputs aren't available for Claude Haiku 5.5. Adaptive thinking is on by default, so a response can begin with
 thinking
-blocks. The same text also counts as more tokens. See the
+blocks, and their text is omitted unless you set
+thinking.display
+to
+"summarized"
+. The same text also counts as more tokens. See the
 migration guide
-. For model-specific prompting patterns, see
+for each change. For model-specific prompting patterns, see
 Prompting Claude Haiku 5.5
 .
 The Python and TypeScript SDKs now include classes, in beta, for the
@@ -2647,6 +2684,7 @@ blog post
 このページは役に立ちましたか？
 
 
+October 9, 2026
 October 8, 2026
 October 7, 2026
 October 6, 2026

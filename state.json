@@ -1,5 +1,64 @@
 [
   {
+    "id": "948029c611bcc5fa2f390f53edc365a1b413eb05",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+October 9, 2026\n+\n+You can now let a Claude Managed Agents agent use\n+dynamic workflows\n+, in beta with the\n+managed-agents-2026-04-01\n+beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. Th\n+turn dynamic workflows on\n+, set the agent's\n+multiagent\n+field to\n+{\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}\n+. To guide the agent, tell it in its system prompt when to start a run. Follow each run through\n+workflow_run.*\n+events on the session's event stream. See\n+Workflow runs\n+.\n-) returns a 400 error, and adaptive thinking is on by default, so a response can begin with\n+), the sampling parameters\n+temperature\n+,\n+top_p\n+, and\n+top_k\n+, and assistant message prefill can each return a 400 error.\n+computer_20250124\n+also returns a 400 error: use the\n+computer_toolset_20260801\n+toolset on the Claude API and Google Cloud, or\n+computer_20251124\n+on Amazon Bedrock. A request that sends thinking blocks back after a change to\n+system\n+,\n+tools\n+, or earlier turns can also return a 400 error. On Amazon Bedrock, structured outputs aren't available for Claude Haiku 5.5. Adaptive thinking is on by default, so a response can begin with\n-blocks. The same text also counts as more tokens. See the\n+blocks, and their text is omitted unless you set\n+thinking.display\n+to\n+\"summarized\"",
+    "snippet_full": "",
+    "diff": {
+      "added": 41,
+      "removed": 3,
+      "churn": 44
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 10 Oct 2026 03:43:19 GMT",
+    "run_at": "2026-10-10T03:43:18Z",
+    "run_id": "595087d74e2744cfaf48cca1bc9e3815"
+  },
+  {
+    "id": "7d060ed70a0061c975ca4468b4782e4db7c862df",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Enabling a data-driven workforce\n+link: https://openai.com/business/enabling-a-data-driven-workforce-webinar\n+id: https://openai.com/business/enabling-a-data-driven-workforce-webinar\n+date: Thu, 08 Aug 2024 00:00:00 GMT\n+body:\n+#ITEM\n+title: Fine-tuning GPT-4o webinar\n+link: https://openai.com/business/fine-tuning-gpt-4o-webinar\n+id: https://openai.com/business/fine-tuning-gpt-4o-webinar\n+date: Mon, 26 Aug 2024 00:00:00 GMT\n+title: A Practical Guide to Building AI Agents\n+link: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
+    "snippet_full": "+title: Enabling a data-driven workforce\n+link: https://openai.com/business/enabling-a-data-driven-workforce-webinar\n+id: https://openai.com/business/enabling-a-data-driven-workforce-webinar\n+date: Thu, 08 Aug 2024 00:00:00 GMT\n+body:\n+#ITEM\n+title: Fine-tuning GPT-4o webinar\n+link: https://openai.com/business/fine-tuning-gpt-4o-webinar\n+id: https://openai.com/business/fine-tuning-gpt-4o-webinar\n+date: Mon, 26 Aug 2024 00:00:00 GMT\n+body:\n+#ITEM\n+title: A Practical Guide to Building AI Agents\n+link: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents\n+id: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents\n+date: Thu, 15 Jan 2026 00:25:16 GMT\n+body:\n+#ITEM\n+title: Building with the GPT-5 Model Series: A Practical Guide\n+link: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai\n+id: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai\n+date: Thu, 15 Jan 2026 00:09:56 GMT\n+body:\n+#ITEM\n+title: Think Bigger: How Small Teams Win with ChatGPT\n+link: https://openai.com/business/guides-and-resources/chatgpt-business-smb-guide\n+id: https://openai.com/business/guides-and-resources/chatgpt-business-smb-guide\n+date: Thu, 22 Jan 2026 21:12:55 GMT\n+body:\n+#ITEM\n+title: How OpenAI Uses Codex to Accelerate Engineering\n+link: https://openai.com/business/guides-and-resources/how-openai-uses-codex\n+id: https://openai.com/business/guides-and-resources/how-openai-uses-codex\n+date: Wed, 14 Jan 2026 21:27:09 GMT\n+body:\n+#ITEM\n+title: Inside GPT-5 for Work\n+link: https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work\n+id: https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work\n+date: Wed, 14 Jan 2026 21:43:17 GMT",
+    "diff": {
+      "added": 176,
+      "removed": 2,
+      "churn": 178
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 10 Oct 2026 03:43:18 GMT",
+    "run_at": "2026-10-10T03:43:18Z",
+    "run_id": "595087d74e2744cfaf48cca1bc9e3815"
+  },
+  {
+    "id": "145c6350be858cb992c9087b8d7548db2c426541",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Overview\n-Models\n-Agents\n-Tools\n-Audio & voice\n-Production\n-API reference\n+Pre-warm sandboxes\n-Overview\n-Sign in with ChatGPT\n-Plugins\n-Workspace Agents\n-Commerce\n-Ads\n-ChatGPT + Codex user docs\n-Use cases\n-Overview\n-Features\n-Configuration\n-Developers\n-Security\n-Administration\n-Use Cases\n-Resources\n+Dynamic groups\n-Showcase\n-Blog\n-Cookbook\n-Learn\n-Community",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 28,
+      "churn": 30
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 10 Oct 2026 03:43:18 GMT",
+    "run_at": "2026-10-10T03:43:18Z",
+    "run_id": "595087d74e2744cfaf48cca1bc9e3815"
+  },
+  {
     "id": "b8db33522eea930318773c1812d5cfcdf616ff82",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -920,64 +979,5 @@
     "pubDate": "Thu, 17 Sep 2026 02:47:44 GMT",
     "run_at": "2026-09-17T02:47:44Z",
     "run_id": "210553b11e9f402dba66b7effbfcf645"
-  },
-  {
-    "id": "5b7ee47f91e48258de13764ac470f22103c47b75",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Usage Insights\n+Sep 15\n+Feature\n+Added API key creation governance controls at the organization and project levels. Administrators can allow only service-account keys, allow only user-owned project keys, or disable all new API key c\n+production best practices\n+for details.",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 17 Sep 2026 02:47:44 GMT",
-    "run_at": "2026-09-17T02:47:44Z",
-    "run_id": "210553b11e9f402dba66b7effbfcf645"
-  },
-  {
-    "id": "fd961cbcf4e5f4ab1d6f498d8ba8f9c6eb1e60de",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+September 14, 2026\n+\n+The Messages API can now\n+compact a conversation on demand\n+on the Claude API, in beta with the\n+compact-2026-09-04\n+beta header. Send the top-level\n+compaction\n+parameter, and the API returns a signed\n+compaction\n+block that summarizes the messages you sent. On later requests, send that block first, in place of those messages. You choose when to compact, the request can run in the background, and you can keep \n+September 14, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 16 Sep 2026 02:43:46 GMT",
-    "run_at": "2026-09-16T02:43:37Z",
-    "run_id": "3be1bd26410240b1af892a27f5f9831a"
-  },
-  {
-    "id": "5b18e334e7626702d1eafdcad782748a5736fb86",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: Learn ChatGPT workflows for marketing teams\n+title: ChatGPT for marketing teams\n+title: How Fyxer built an AI executive assistant people trust\n+link: https://openai.com/index/fyxer\n+id: https://openai.com/index/fyxer\n+date: Mon, 14 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 1,
-      "churn": 8
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 15 Sep 2026 02:48:48 GMT",
-    "run_at": "2026-09-15T02:48:28Z",
-    "run_id": "3c41bf75d5de4298aef679d97e75fe99"
   }
 ]

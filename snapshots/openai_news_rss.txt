@@ -179,6 +179,36 @@ id: https://openai.com/academy/writing
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Enabling a data-driven workforce
+link: https://openai.com/business/enabling-a-data-driven-workforce-webinar
+id: https://openai.com/business/enabling-a-data-driven-workforce-webinar
+date: Thu, 08 Aug 2024 00:00:00 GMT
+body:
+#ITEM
+title: Fine-tuning GPT-4o webinar
+link: https://openai.com/business/fine-tuning-gpt-4o-webinar
+id: https://openai.com/business/fine-tuning-gpt-4o-webinar
+date: Mon, 26 Aug 2024 00:00:00 GMT
+body:
+#ITEM
+title: A Practical Guide to Building AI Agents
+link: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents
+id: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents
+date: Thu, 15 Jan 2026 00:25:16 GMT
+body:
+#ITEM
+title: Building with the GPT-5 Model Series: A Practical Guide
+link: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai
+id: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai
+date: Thu, 15 Jan 2026 00:09:56 GMT
+body:
+#ITEM
+title: Think Bigger: How Small Teams Win with ChatGPT
+link: https://openai.com/business/guides-and-resources/chatgpt-business-smb-guide
+id: https://openai.com/business/guides-and-resources/chatgpt-business-smb-guide
+date: Thu, 22 Jan 2026 21:12:55 GMT
+body:
+#ITEM
 title: Inside GPT-5 for Work: How Businesses Use GPT-5
 link: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
 id: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
@@ -189,6 +219,18 @@ title: How enterprises are scaling AI
 link: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
 id: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
 date: Mon, 11 May 2026 10:00:00 GMT
+body:
+#ITEM
+title: How OpenAI Uses Codex to Accelerate Engineering
+link: https://openai.com/business/guides-and-resources/how-openai-uses-codex
+id: https://openai.com/business/guides-and-resources/how-openai-uses-codex
+date: Wed, 14 Jan 2026 21:27:09 GMT
+body:
+#ITEM
+title: Inside GPT-5 for Work
+link: https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work
+id: https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work
+date: Wed, 14 Jan 2026 21:43:17 GMT
 body:
 #ITEM
 title: Staying ahead in the age of AI
@@ -203,6 +245,102 @@ id: https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-
 date: Wed, 17 Dec 2025 00:00:00 GMT
 body:
 #ITEM
+title: Automate complex workflows with OpenAI o3
+link: https://openai.com/business/learn/automate-complex-workflows-with-openai-o3
+id: https://openai.com/business/learn/automate-complex-workflows-with-openai-o3
+date: Thu, 08 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: Collaborate and write with GPT-4o
+link: https://openai.com/business/learn/collaborate-and-write-with-gpt-4o
+id: https://openai.com/business/learn/collaborate-and-write-with-gpt-4o
+date: Thu, 08 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: Connect internal knowledge from Google Drive
+link: https://openai.com/business/learn/connect-internal-knowledge-from-google-drive
+id: https://openai.com/business/learn/connect-internal-knowledge-from-google-drive
+date: Thu, 08 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: Create on-brand visuals with image generation
+link: https://openai.com/business/learn/create-on-brand-visuals-with-image-generation
+id: https://openai.com/business/learn/create-on-brand-visuals-with-image-generation
+date: Thu, 08 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: Creating a contextual workspace in ChatGPT
+link: https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt
+id: https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt
+date: Sun, 13 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: Delegate work to ChatGPT agent
+link: https://openai.com/business/learn/delegate-work-to-chatgpt-agent
+id: https://openai.com/business/learn/delegate-work-to-chatgpt-agent
+date: Wed, 06 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: GPT-5: Our best model for work
+link: https://openai.com/business/learn/gpt-5-our-best-model-for-work
+id: https://openai.com/business/learn/gpt-5-our-best-model-for-work
+date: Thu, 07 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: How OpenAI uses ChatGPT Atlas at work
+link: https://openai.com/business/learn/how-openai-uses-chatgpt-atlas-at-work
+id: https://openai.com/business/learn/how-openai-uses-chatgpt-atlas-at-work
+date: Tue, 18 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Market research with ChatGPT
+link: https://openai.com/business/learn/market-research-with-chatgpt
+id: https://openai.com/business/learn/market-research-with-chatgpt
+date: Sun, 13 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: Personalize ChatGPT with custom instructions
+link: https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions
+id: https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions
+date: Mon, 12 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: Prototyping with canvas in ChatGPT
+link: https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt
+id: https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt
+date: Sun, 13 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: Shipping code to your IDE with ChatGPT
+link: https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt
+id: https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt
+date: Tue, 08 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: Strategic planning with ChatGPT
+link: https://openai.com/business/learn/strategic-planning-with-chatgpt
+id: https://openai.com/business/learn/strategic-planning-with-chatgpt
+date: Tue, 08 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: Using Codex across the software development lifecycle
+link: https://openai.com/business/learn/using-codex-across-the-software-development-lifecycle
+id: https://openai.com/business/learn/using-codex-across-the-software-development-lifecycle
+date: Thu, 20 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Vision and voice in ChatGPT
+link: https://openai.com/business/learn/vision-and-voice-in-chatgpt
+id: https://openai.com/business/learn/vision-and-voice-in-chatgpt
+date: Tue, 08 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: Writing with canvas in ChatGPT
+link: https://openai.com/business/learn/writing-with-canvas-in-chatgpt
+id: https://openai.com/business/learn/writing-with-canvas-in-chatgpt
+date: Tue, 08 Apr 2025 00:00:00 GMT
+body:
+#ITEM
 title: New in ChatGPT for Business: April 2025
 link: https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025
 id: https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025
@@ -213,6 +351,30 @@ title: New in ChatGPT for Business: March 2025
 link: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
 id: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
 date: Tue, 18 Mar 2025 00:00:00 GMT
+body:
+#ITEM
+title: Put AI to work: Automate and scale financial operations
+link: https://openai.com/business/put-ai-to-work-automate-and-scale-financial-operations
+id: https://openai.com/business/put-ai-to-work-automate-and-scale-financial-operations
+date: Mon, 30 Sep 2024 00:00:00 GMT
+body:
+#ITEM
+title: Put AI to work for marketing teams
+link: https://openai.com/business/put-ai-to-work-for-marketing-teams
+id: https://openai.com/business/put-ai-to-work-for-marketing-teams
+date: Thu, 31 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Put AI to work: Lessons from hundreds of successful deployments
+link: https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments
+id: https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments
+date: Tue, 10 Sep 2024 00:00:00 GMT
+body:
+#ITEM
+title: Solving complex problems with OpenAI o1 models
+link: https://openai.com/business/solving-complex-problems-with-openai-o1-models
+id: https://openai.com/business/solving-complex-problems-with-openai-o1-models
+date: Thu, 17 Oct 2024 00:00:00 GMT
 body:
 #ITEM
 title: Are you a Codex Original?
@@ -813,6 +975,12 @@ title: Asana completed a years-long code migration in 2 weeks with Codex
 link: https://openai.com/index/asana
 id: https://openai.com/index/asana
 date: Tue, 18 Aug 2026 07:00:00 GMT
+body:
+#ITEM
+title: Asana cuts model costs 76x in browser tests with GPT-6.1 Sol
+link: https://openai.com/index/asana-browser-agent
+id: https://openai.com/index/asana-browser-agent
+date: Fri, 09 Oct 2026 07:00:00 GMT
 body:
 #ITEM
 title: Introducing Astra for Law
@@ -4487,10 +4655,10 @@ id: https://openai.com/index/loveholidays
 date: Wed, 26 Aug 2026 00:00:00 GMT
 body:
 #ITEM
-title: Lowe’s puts project expertise into every hand
+title: Lowe’s answers millions of home improvement questions with OpenAI
 link: https://openai.com/index/lowes
 id: https://openai.com/index/lowes
-date: Wed, 07 May 2025 07:00:00 GMT
+date: Fri, 25 Sep 2026 07:00:00 GMT
 body:
 #ITEM
 title: Lowe’s leverages AI to power home improvement retail
@@ -6507,6 +6675,12 @@ title: Some considerations on learning to explore via meta-reinforcement learnin
 link: https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning
 id: https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning
 date: Sat, 03 Mar 2018 08:00:00 GMT
+body:
+#ITEM
+title: Sophos cuts threat investigation time by 96% with OpenAI Daybreak
+link: https://openai.com/index/sophos
+id: https://openai.com/index/sophos
+date: Fri, 09 Oct 2026 07:00:00 GMT
 body:
 #ITEM
 title: Sora 2 is here

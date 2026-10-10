@@ -89,13 +89,6 @@ Tools
 Audio & voice
 Production
 API reference
-Overview
-Models
-Agents
-Tools
-Audio & voice
-Production
-API reference
 Docs
 Overview
 Home
@@ -195,6 +188,7 @@ Environments and sandboxes
 OpenAI-hosted sandboxes
 Self-hosted sandboxes
 Sandbox lifecycle
+Pre-warm sandboxes
 Sandbox security
 Files and artifacts
 Tools and integrations
@@ -348,14 +342,6 @@ Commerce
 Ads
 ChatGPT + Codex user docs
 Use cases
-Overview
-Sign in with ChatGPT
-Plugins
-Workspace Agents
-Commerce
-Ads
-ChatGPT + Codex user docs
-Use cases
 Docs
 Overview
 Home
@@ -458,14 +444,6 @@ Ads
 Insights
 Files
 Conversion Setup
-Overview
-Features
-Configuration
-Developers
-Security
-Administration
-Use Cases
-Resources
 Overview
 Features
 Configuration
@@ -651,6 +629,7 @@ Sites
 Identity and access
 Authentication overview
 Groups and provisioning
+Dynamic groups
 User lifecycle management
 Roles and workspace permissions
 Personal access tokens
@@ -722,11 +701,6 @@ Events
 Blog
 Company blog
 Developer blog
-Showcase
-Blog
-Cookbook
-Learn
-Community
 Showcase
 Blog
 Cookbook
