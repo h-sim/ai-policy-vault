@@ -75,6 +75,9 @@ Compliance API
 chat endpoints now also return chats from the unified Claude experience, in beta for Claude Enterprise organizations, with your existing Compliance Access Key. See
 Retrieve and delete chats, files, and projects
 .
+The Compliance API can now download Claude Docs documents as Word files, in beta. See
+Retrieve files and artifacts
+.
 October 7, 2026
 
 We've lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x. Cache writes and all other prices are unchanged. See
@@ -1446,8 +1449,8 @@ claude-mythos-5
 by default, 128k max output tokens, and always-on
 adaptive thinking
 . See
-Introducing Claude Fable 5 and Claude Mythos 5
-for capabilities, API changes, and availability.
+Claude Fable 5
+for specifications, pricing, and availability.
 Claude Fable 5 and Claude Mythos 5 use the tokenizer introduced with Claude Opus 4.7. Compared to models before Claude Opus 4.7, the same text produces roughly 30% more tokens. The exact increase depends on the content and workload shape. Use the
 token counting API
 with
@@ -1473,9 +1476,7 @@ On Claude Fable 5 and Claude Mythos 5,
 adaptive thinking
 is the only thinking mode:
 thinking: {"type": "disabled"}
-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See
-Migrating from Claude Mythos Preview to Claude Mythos 5
-.
+is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error).
 On Claude Fable 5 and Claude Mythos 5,
 thinking.display
 defaults to

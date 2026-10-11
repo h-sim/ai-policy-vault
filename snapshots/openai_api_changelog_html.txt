@@ -25,16 +25,16 @@ Deploy and scale your API integrations
 API reference
 Explore endpoints, parameters, and responses
 ChatGPT
-Sign in with ChatGPT
-Apps powered by your user's ChatGPT plan
 Plugins
 Extend ChatGPT and Codex
-Workspace Agents
-Trigger published ChatGPT workspace agents
+Sign in with ChatGPT
+Apps powered by your user's ChatGPT plan
 Commerce
 Build commerce flows in ChatGPT
 Ads
 Publish and measure ads in ChatGPT
+Workspace Agents
+Trigger published ChatGPT workspace agents
 ChatGPT + Codex user docs
 Guides and product docs for ChatGPT and Codex
 Use cases
@@ -335,32 +335,15 @@ Spend limits
 Admin APIs
 Error codes
 Overview
-Sign in with ChatGPT
 Plugins
-Workspace Agents
+Sign in with ChatGPT
 Commerce
 Ads
+Workspace Agents
 ChatGPT + Codex user docs
 Use cases
 Docs
 Overview
-Home
-Quickstart
-Request a client ID
-Identity
-On your website
-In your ChatGPT plugin
-ChatGPT plan usage
-Overview
-UI/UX guidelines
-Registration and sign-in
-Accounts and sessions
-Models and inference
-Codex app-server
-Self-hosted VMs
-Token reference
-Errors and recovery
-Preview limitations
 Home
 Quickstart
 Core concepts
@@ -400,9 +383,22 @@ MCP server review requirements
 Plugin UI reference
 Checkout API reference
 Home
-Get started
-Trigger workspace agent runs
-Authenticate with Workspace Agent access tokens
+Quickstart
+Request a client ID
+Identity
+On your website
+In your ChatGPT plugin
+ChatGPT plan usage
+Overview
+UI/UX guidelines
+Registration and sign-in
+Accounts and sessions
+Models and inference
+Codex app-server
+Self-hosted VMs
+Token reference
+Errors and recovery
+Preview limitations
 Home
 Guides
 Get started
@@ -444,6 +440,10 @@ Ads
 Insights
 Files
 Conversion Setup
+Home
+Get started
+Trigger workspace agent runs
+Authenticate with Workspace Agent access tokens
 Overview
 Features
 Configuration

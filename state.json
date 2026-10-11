@@ -1,5 +1,48 @@
 [
   {
+    "id": "18b699242d878da534bf3775e07cd9e65c2eab5c",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+The Compliance API can now download Claude Docs documents as Word files, in beta. See\n+Retrieve files and artifacts\n+.\n-Introducing Claude Fable 5 and Claude Mythos 5\n-for capabilities, API changes, and availability.\n+Claude Fable 5\n+for specifications, pricing, and availability.\n-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n-Migrating from Claude Mythos Preview to Claude Mythos 5\n-.\n+is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error).",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 5,
+      "churn": 11
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sun, 11 Oct 2026 03:16:42 GMT",
+    "run_at": "2026-10-11T03:16:17Z",
+    "run_id": "0a3a8c926fd7441c99cdadab445d9765"
+  },
+  {
+    "id": "0f1939acd3c41de17648a0104522366c01e8477e",
+    "impact": "High",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Plugins\n+Extend ChatGPT and Codex\n-Plugins\n-Extend ChatGPT and Codex\n-Workspace Agents\n-Trigger published ChatGPT workspace agents\n+Workspace Agents\n+Trigger published ChatGPT workspace agents\n+Plugins\n-Plugins\n-Workspace Agents\n+Workspace Agents\n-Home\n-Quickstart\n-Request a client ID\n-Identity\n-On your website\n-In your ChatGPT plugin\n-ChatGPT plan usage\n-Overview\n-UI/UX guidelines\n-Registration and sign-in\n-Accounts and sessions\n-Models and inference\n-Codex app-server\n-Self-hosted VMs\n-Token reference\n-Errors and recovery\n-Preview limitations\n-Get started\n-Trigger workspace agent runs\n-Authenticate with Workspace Agent access tokens\n+Quickstart\n+Request a client ID\n+Identity\n+On your website\n+In your ChatGPT plugin\n+ChatGPT plan usage\n+Overview\n+UI/UX guidelines",
+    "snippet_full": "",
+    "diff": {
+      "added": 26,
+      "removed": 26,
+      "churn": 52
+    },
+    "score": 60,
+    "reasons": [
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sun, 11 Oct 2026 03:16:41 GMT",
+    "run_at": "2026-10-11T03:16:17Z",
+    "run_id": "0a3a8c926fd7441c99cdadab445d9765"
+  },
+  {
     "id": "948029c611bcc5fa2f390f53edc365a1b413eb05",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -941,43 +984,5 @@
     "pubDate": "Fri, 18 Sep 2026 02:34:37 GMT",
     "run_at": "2026-09-18T02:34:37Z",
     "run_id": "22a9d63c60af4755840471622610dd7f"
-  },
-  {
-    "id": "40ad77649b56a8f1132d6d5fc682ff8044f7e2a4",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-The\n+Version 1.32.0 of the",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 17 Sep 2026 02:47:45 GMT",
-    "run_at": "2026-09-17T02:47:44Z",
-    "run_id": "210553b11e9f402dba66b7effbfcf645"
-  },
-  {
-    "id": "ccc2e4fce10a2cc564a06dc4de6e6eb30c37d138",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: Disrupting a Criminal Scam Operation\n+title: Disrupting a Cambodia-based criminal scam operation\n+title: Helping older adults use AI in everyday life\n+link: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life\n+id: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life\n+date: Wed, 16 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM\n+title: How to connect AI usage to business value\n+link: https://openai.com/index/how-to-connect-ai-usage-to-business-value\n+id: https://openai.com/index/how-to-connect-ai-usage-to-business-value\n+date: Wed, 16 Sep 2026 12:00:00 GMT",
-    "snippet_full": "-title: Disrupting a Criminal Scam Operation\n+title: Disrupting a Cambodia-based criminal scam operation\n+title: Helping older adults use AI in everyday life\n+link: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life\n+id: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life\n+date: Wed, 16 Sep 2026 16:00:00 GMT\n+body:\n+#ITEM\n+title: How to connect AI usage to business value\n+link: https://openai.com/index/how-to-connect-ai-usage-to-business-value\n+id: https://openai.com/index/how-to-connect-ai-usage-to-business-value\n+date: Wed, 16 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Our framework for reporting model misalignment\n+link: https://openai.com/index/model-misalignment-reporting-framework\n+id: https://openai.com/index/model-misalignment-reporting-framework\n+date: Wed, 16 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Reimagining advertising with AI\n+link: https://openai.com/index/reimagining-advertising-with-ai\n+id: https://openai.com/index/reimagining-advertising-with-ai\n+date: Wed, 16 Sep 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: How workers are unlocking new ways of working\n+link: https://openai.com/index/unlocking-new-ways-of-working\n+id: https://openai.com/index/unlocking-new-ways-of-working\n+date: Wed, 16 Sep 2026 09:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 31,
-      "removed": 1,
-      "churn": 32
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 17 Sep 2026 02:47:44 GMT",
-    "run_at": "2026-09-17T02:47:44Z",
-    "run_id": "210553b11e9f402dba66b7effbfcf645"
   }
 ]
