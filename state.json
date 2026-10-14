@@ -1,5 +1,43 @@
 [
   {
+    "id": "db7a3d1d5b39f24a82c60054fac1bd24f8ef52e7",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Higgsfield takes AI video from 1 minute to over 10\n+link: https://openai.com/index/higgsfield-longer-videos-voice\n+id: https://openai.com/index/higgsfield-longer-videos-voice\n+date: Tue, 13 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 14 Oct 2026 02:59:32 GMT",
+    "run_at": "2026-10-14T02:59:32Z",
+    "run_id": "769ae7c8640345b7ab6655d6129fe1cb"
+  },
+  {
+    "id": "502337b226786265e0a5ef9a72764e231d5e62b5",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Best practices\n+Evaluation\n+Evaluation best practices\n+Promptfoo\n+Submit desktop-only plugins\n-Best practices",
+    "snippet_full": "",
+    "diff": {
+      "added": 4,
+      "removed": 2,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 14 Oct 2026 02:59:32 GMT",
+    "run_at": "2026-10-14T02:59:32Z",
+    "run_id": "769ae7c8640345b7ab6655d6129fe1cb"
+  },
+  {
     "id": "18b699242d878da534bf3775e07cd9e65c2eab5c",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -944,44 +982,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Fri, 18 Sep 2026 02:34:39 GMT",
-    "run_at": "2026-09-18T02:34:37Z",
-    "run_id": "22a9d63c60af4755840471622610dd7f"
-  },
-  {
-    "id": "2f11ed6de78eb199f93402d9826af0659af41fad",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: Using custom GPTs\n-link: https://openai.com/academy/custom-gpts\n-id: https://openai.com/academy/custom-gpts\n-date: Fri, 10 Apr 2026 00:00:00 GMT\n-body:\n-#ITEM\n+title: Prompting fundamentals\n+link: https://openai.com/academy/prompting\n+id: https://openai.com/academy/prompting\n+date: Fri, 10 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "-title: Using custom GPTs\n-link: https://openai.com/academy/custom-gpts\n-id: https://openai.com/academy/custom-gpts\n-date: Fri, 10 Apr 2026 00:00:00 GMT\n-body:\n-#ITEM\n+title: Prompting fundamentals\n+link: https://openai.com/academy/prompting\n+id: https://openai.com/academy/prompting\n+date: Fri, 10 Apr 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Astra for Law\n+link: https://openai.com/index/astra-for-law\n+id: https://openai.com/index/astra-for-law\n+date: Thu, 17 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Cooley is accelerating IPO work with ChatGPT\n+link: https://openai.com/index/cooley-gopublic\n+id: https://openai.com/index/cooley-gopublic\n+date: Thu, 17 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: “Cyber Special Operations”: China-linked influence planning\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations\n+date: Sun, 01 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Operation “Date Bait”: AI-enabled scam targeting loveseekers\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait\n+date: Sun, 01 Feb 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Operation “False Witness”: Fake recovery service impersonating authorities\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness\n+date: Sun, 01 Feb 2026 00:00:00 GMT",
-    "diff": {
-      "added": 66,
-      "removed": 6,
-      "churn": 72
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 18 Sep 2026 02:34:38 GMT",
-    "run_at": "2026-09-18T02:34:37Z",
-    "run_id": "22a9d63c60af4755840471622610dd7f"
-  },
-  {
-    "id": "f9341a8ad6cd575de3db0c1d9c92ed394d43fd1f",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-MCP and Connectors\n+MCP servers\n-v1/chat/completions\n-support to accept more document, presentation, spreadsheet, code, and text file types. Learn more\n+support in the Responses API to accept more document, presentation, spreadsheet, code, and text file types. Learn more",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 3,
-      "churn": 5
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 18 Sep 2026 02:34:37 GMT",
     "run_at": "2026-09-18T02:34:37Z",
     "run_id": "22a9d63c60af4755840471622610dd7f"
   }

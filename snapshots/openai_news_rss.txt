@@ -3455,6 +3455,12 @@ id: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
 date: Mon, 21 Sep 2026 12:00:00 GMT
 body:
 #ITEM
+title: Higgsfield takes AI video from 1 minute to over 10
+link: https://openai.com/index/higgsfield-longer-videos-voice
+id: https://openai.com/index/higgsfield-longer-videos-voice
+date: Tue, 13 Oct 2026 12:00:00 GMT
+body:
+#ITEM
 title: Hindsight Experience Replay
 link: https://openai.com/index/hindsight-experience-replay
 id: https://openai.com/index/hindsight-experience-replay
