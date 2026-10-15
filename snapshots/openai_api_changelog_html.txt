@@ -501,6 +501,7 @@ Capabilities
 Browser
 Computer use
 Voice
+Composer Predictions
 Plugins
 Sign in with ChatGPT
 Web search
@@ -713,11 +714,11 @@ Docs
 Select...
 All posts
 Recent
+Maintaining software with the GPT-6 family
 Bringing my LED display to life with GPT-Live-1 and Codex
 Rethinking skills and prompts for GPT-6 Astra
 Architectural visualization with Astra
 Building games with Astra
-Meet Rosalind Workbench: Empowering every scientist to be their own research team
 Topics
 General
 API

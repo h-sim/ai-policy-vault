@@ -1,5 +1,64 @@
 [
   {
+    "id": "877695d132b8f22e783eb0d089fa309f6c60f0e9",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+October 14, 2026\n+\n+We've launched\n+OpenTelemetry export\n+in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get\n+add an OpenTelemetry destination\n+in the Claude Console.\n+Claude Managed Agents\n+scheduled deployments\n+are now available on\n+Claude Platform on AWS\n+.\n+October 14, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 13,
+      "removed": 0,
+      "churn": 13
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 15 Oct 2026 02:39:35 GMT",
+    "run_at": "2026-10-15T02:39:13Z",
+    "run_id": "950a5ed5fc5746b7893a397f58cba84b"
+  },
+  {
+    "id": "a078c125ca714497dbdbd57dd758f80626fa5342",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Block is building AI-powered security with OpenAI technology\n+link: https://openai.com/index/block-ai-powered-security\n+id: https://openai.com/index/block-ai-powered-security\n+title: Amp puts AI agents to work beyond code with OpenAI models\n+link: https://openai.com/index/amp-beyond-coding\n+id: https://openai.com/index/amp-beyond-coding\n+date: Wed, 14 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM\n+date: Wed, 14 Oct 2026 07:00:00 GMT\n+title: SentinelOne cuts malware analysis from weeks to hours\n+link: https://openai.com/index/sentinelone",
+    "snippet_full": "+title: Amp puts AI agents to work beyond code with OpenAI models\n+link: https://openai.com/index/amp-beyond-coding\n+id: https://openai.com/index/amp-beyond-coding\n+date: Wed, 14 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How Block is building AI-powered security with OpenAI technology\n+link: https://openai.com/index/block-ai-powered-security\n+id: https://openai.com/index/block-ai-powered-security\n+date: Wed, 14 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: SentinelOne cuts malware analysis from weeks to hours\n+link: https://openai.com/index/sentinelone\n+id: https://openai.com/index/sentinelone\n+date: Wed, 14 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: The EU’s next chapter in AI is agentic\n+link: https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic\n+id: https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic\n+date: Wed, 14 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Third Moment Research runs 10,000 agents for 36+ hours\n+link: https://openai.com/index/third-moment-research\n+id: https://openai.com/index/third-moment-research\n+date: Wed, 14 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 30,
+      "removed": 0,
+      "churn": 30
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 15 Oct 2026 02:39:34 GMT",
+    "run_at": "2026-10-15T02:39:13Z",
+    "run_id": "950a5ed5fc5746b7893a397f58cba84b"
+  },
+  {
+    "id": "4da51eceee4711d39cf9594c20bba2cc3f8ec4c5",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Composer Predictions\n+Maintaining software with the GPT-6 family\n-Meet Rosalind Workbench: Empowering every scientist to be their own research team",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 1,
+      "churn": 3
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 15 Oct 2026 02:39:14 GMT",
+    "run_at": "2026-10-15T02:39:13Z",
+    "run_id": "950a5ed5fc5746b7893a397f58cba84b"
+  },
+  {
     "id": "db7a3d1d5b39f24a82c60054fac1bd24f8ef52e7",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -925,64 +984,5 @@
     "pubDate": "Sun, 20 Sep 2026 02:45:39 GMT",
     "run_at": "2026-09-20T02:45:16Z",
     "run_id": "4e51ada26ba947d3b124550bbbc116b3"
-  },
-  {
-    "id": "35c4e343e6fb83799a28982b39794101cfbdc3b5",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Meetups\n+Events\n-Meetups\n+Events\n+Spaces\n-Meetups\n-Spaces",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 4,
-      "churn": 7
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 20 Sep 2026 02:45:16 GMT",
-    "run_at": "2026-09-20T02:45:16Z",
-    "run_id": "4e51ada26ba947d3b124550bbbc116b3"
-  },
-  {
-    "id": "658d6d818df8e9003a87739e7764a39404699392",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Hex turns complex analysis into visual reports with GPT‑6 Astra\n+link: https://openai.com/index/hex-gpt-6-astra\n+id: https://openai.com/index/hex-gpt-6-astra\n+date: Wed, 16 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 19 Sep 2026 02:33:37 GMT",
-    "run_at": "2026-09-19T02:33:37Z",
-    "run_id": "5ddfa06ee98b40ebba918d28bd4c1a50"
-  },
-  {
-    "id": "2de50886922ad78df6f841a08873df9b53e6b7e0",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+September 18, 2026\n+\n+The\n+Compliance API\n+local session endpoints now also return transcripts of Claude in Chrome sessions (\n+product_surface\n+value\n+claude_in_chrome\n+), in beta for Claude Enterprise organizations, with your existing Compliance Access Key and the\n+read:compliance_user_data\n+scope. See\n+Sessions on users' machines\n+.\n+September 18, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 14,
-      "removed": 0,
-      "churn": 14
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 18 Sep 2026 02:34:39 GMT",
-    "run_at": "2026-09-18T02:34:37Z",
-    "run_id": "22a9d63c60af4755840471622610dd7f"
   }
 ]
