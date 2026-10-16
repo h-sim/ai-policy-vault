@@ -329,6 +329,7 @@ Google Cloud
 Oracle Cloud Infrastructure
 GitHub Actions
 SPIFFE
+Idira
 IP egress ranges
 Amazon Bedrock
 Operations
@@ -489,7 +490,6 @@ Open Source
 Overview
 Workflows
 Projects and chats
-Sites
 Build plugins
 Visualizations
 Scheduled tasks
@@ -510,6 +510,12 @@ Image inputs
 Appshots
 Browser extension
 Work with files
+Sites
+Overview
+Create a site
+Data and connections
+Publish and share
+Manage a site
 dots
 Meet dots
 Getting started
@@ -622,14 +628,14 @@ Overview
 Getting started
 Admin rollout guide
 Admin plugin
-Feature setup
+Feature Configuration
 Dots
 Space
+Sites
 Teams and Team Tasks
 ChatGPT in Slack and Teams
 Workspace connections
 Local computer access for Work Cloud and dots
-Sites
 Identity and access
 Authentication overview
 Groups and provisioning
@@ -711,7 +717,7 @@ Cookbook
 Learn
 Community
 Docs
-Select...
+Showcase
 All posts
 Recent
 Maintaining software with the GPT-6 family
@@ -827,6 +833,14 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 October, 2026
+Oct 15
+Feature
+gpt-live-1
+gpt-6-luna
+v1/live/sessions
+Added native
+Decisions integration in GPT-Live
+. Your app can act while your user is speaking or react to what Live says. Let Live call Decisions directly through native delegation, or trigger decisions as input or output transcript deltas arrive.
 Oct 8
 Feature
 gpt-6.1-sol

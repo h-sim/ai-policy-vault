@@ -4325,6 +4325,12 @@ id: https://openai.com/index/introducing-the-realtime-api
 date: Tue, 01 Oct 2024 10:05:00 GMT
 body:
 #ITEM
+title: Bringing GPT-Rosalind to academic research labs
+link: https://openai.com/index/introducing-the-rosalind-academic-plan
+id: https://openai.com/index/introducing-the-rosalind-academic-plan
+date: Thu, 15 Oct 2026 19:00:00 GMT
+body:
+#ITEM
 title: Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock
 link: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock
 id: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock
@@ -6935,6 +6941,12 @@ id: https://openai.com/index/stripe
 date: Tue, 14 Mar 2023 07:00:00 GMT
 body:
 #ITEM
+title: Sullivan & Cromwell brings legal expertise into agreement review
+link: https://openai.com/index/sullivan-cromwell
+id: https://openai.com/index/sullivan-cromwell
+date: Thu, 15 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: Summarizing books with human feedback
 link: https://openai.com/index/summarizing-books
 id: https://openai.com/index/summarizing-books
@@ -7035,6 +7047,12 @@ title: Teaching models to express their uncertainty in words
 link: https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words
 id: https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words
 date: Sat, 28 May 2022 07:00:00 GMT
+body:
+#ITEM
+title: Teaching students to think and learn through questions
+link: https://openai.com/index/teaching-students-to-think-and-learn-through-questions
+id: https://openai.com/index/teaching-students-to-think-and-learn-through-questions
+date: Thu, 15 Oct 2026 13:00:00 GMT
 body:
 #ITEM
 title: Teaching with AI

@@ -1,5 +1,65 @@
 [
   {
+    "id": "f47408be6f6eb9a0af780a5751b3f4bc75bccd4e",
+    "impact": "High",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+October 15, 2026\n+\n+The\n+Compliance API\n+now returns the text each organization member saved as\n+Instructions for Claude\n+in claude.ai and as\n+Global instructions\n+in Cowork, in beta for Claude Enterprise organizations. Call\n+GET /v1/compliance/organizations/{org_uuid}/user_preferences\n+with your existing Compliance Access Key and the\n+read:compliance_user_data\n+scope. See\n+List user preferences\n+.\n+Fast mode\n+is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the\n+fast-mode-2026-02-01\n+beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in the Start, Build, and Scale usage tiers. Fast mode for Claude Opus 5 and Claude Op\n+Fast mode\n+for Claude Opus 5.5 is now available on\n+Claude in Microsoft Foundry\n+for deployments hosted on Azure.\n+October 15, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 60,
+    "reasons": [
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 16 Oct 2026 02:35:13 GMT",
+    "run_at": "2026-10-16T02:34:50Z",
+    "run_id": "01690ca8d27043e3b1954a98a0aaa31a"
+  },
+  {
+    "id": "092290b016a020f10087ac5d0b531b8f18ea02ad",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Bringing GPT-Rosalind to academic research labs\n+link: https://openai.com/index/introducing-the-rosalind-academic-plan\n+id: https://openai.com/index/introducing-the-rosalind-academic-plan\n+date: Thu, 15 Oct 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: Sullivan & Cromwell brings legal expertise into agreement review\n+link: https://openai.com/index/sullivan-cromwell\n+id: https://openai.com/index/sullivan-cromwell\n+date: Thu, 15 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Teaching students to think and learn through questions\n+link: https://openai.com/index/teaching-students-to-think-and-learn-through-questions\n+id: https://openai.com/index/teaching-students-to-think-and-learn-through-questions\n+date: Thu, 15 Oct 2026 13:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 16 Oct 2026 02:34:51 GMT",
+    "run_at": "2026-10-16T02:34:50Z",
+    "run_id": "01690ca8d27043e3b1954a98a0aaa31a"
+  },
+  {
+    "id": "4007186f91444b215ef11381c1cd830ec2778db8",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Idira\n-Sites\n+Sites\n+Overview\n+Create a site\n+Data and connections\n+Publish and share\n+Manage a site\n-Feature setup\n+Feature Configuration\n+Sites\n-Sites\n-Select...\n+Showcase\n+Oct 15\n+Feature\n+gpt-live-1\n+gpt-6-luna\n+v1/live/sessions\n+Added native\n+Decisions integration in GPT-Live\n+. Your app can act while your user is speaking or react to what Live says. Let Live call Decisions directly through native delegation, or trigger decisions as input or output transcript deltas arrive",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 4,
+      "churn": 22
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 16 Oct 2026 02:34:51 GMT",
+    "run_at": "2026-10-16T02:34:50Z",
+    "run_id": "01690ca8d27043e3b1954a98a0aaa31a"
+  },
+  {
     "id": "877695d132b8f22e783eb0d089fa309f6c60f0e9",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -925,64 +985,5 @@
     "pubDate": "Tue, 22 Sep 2026 02:43:35 GMT",
     "run_at": "2026-09-22T02:43:35Z",
     "run_id": "c25b0b4545bd4adbbcf7a04d997efae1"
-  },
-  {
-    "id": "51b95f622ada2cae909d2ee417417dc9e7ff6283",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+WebRTC with WARP",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 22 Sep 2026 02:43:35 GMT",
-    "run_at": "2026-09-22T02:43:35Z",
-    "run_id": "c25b0b4545bd4adbbcf7a04d997efae1"
-  },
-  {
-    "id": "9526776113c6e1982f4abbd14754f9d12a34bcc7",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Start searching\n+API Dashboard\n+Try ChatGPT\n-Start searching\n-API Dashboard\n-Try ChatGPT",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 3,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 21 Sep 2026 02:42:33 GMT",
-    "run_at": "2026-09-21T02:42:32Z",
-    "run_id": "399bf9c3630f4372af53fd2757d49a00"
-  },
-  {
-    "id": "fdc82f07d9b3a283d2810a746750ba7e96f70e3d",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing the Australian Youth Safety Blueprint\n+link: https://openai.com/index/australian-youth-safety-blueprint\n+id: https://openai.com/index/australian-youth-safety-blueprint\n+date: Fri, 18 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sun, 20 Sep 2026 02:45:39 GMT",
-    "run_at": "2026-09-20T02:45:16Z",
-    "run_id": "4e51ada26ba947d3b124550bbbc116b3"
   }
 ]
