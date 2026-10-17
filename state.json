@@ -1,5 +1,45 @@
 [
   {
+    "id": "ce8ae7f7b27443cee89791e21fecd47e04c080bf",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Itaú is building generative AI for its entire customer base\n+link: https://openai.com/index/itau-generative-ai\n+id: https://openai.com/index/itau-generative-ai\n+date: Fri, 16 Oct 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: Stack Overflow for Agents triples signups with ChatGPT plugin\n+link: https://openai.com/index/stack-overflow-chatgpt-plugin\n+id: https://openai.com/index/stack-overflow-chatgpt-plugin\n+date: Fri, 16 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 17 Oct 2026 02:27:34 GMT",
+    "run_at": "2026-10-17T02:27:33Z",
+    "run_id": "626f0ffb9a5f4c149333f2ae44858662"
+  },
+  {
+    "id": "76dd6de1da9ac98b664d4f8d8e74949db9313df9",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Integration recipes\n+Driver reference\n+Codex Security Cloud\n+Setup\n+Security Review\n+Improving the threat model\n+FAQ\n-TypeScript SDK\n-Codex Security Cloud\n-Setup\n-Security Review\n-Improving the threat model\n-FAQ\n+Codex Security SDK\n-Windows app deployment\n+Windows app and CLI deployment\n+Codex security cookbook\n+Designing failover across OpenAI model providers\n-Building games with Astra\n+Oct 16\n+Feature\n+gpt-live-1\n+v1/audio/voices\n+v1/live/sessions\n+Released\n+prompt-to-voice\n+for all API customers. Create a custom voice from a text description through the API or voice Playground, then reuse it in GPT-Live sessions. Creating a prompt-generated voice is free; speech generat\n+Added nine\n+natural voices for GPT-Live\n+: Nuri, Juni, and Flitz (German); Brise and Sillage (French); Nira (Hindi); Harema and Shida (Japanese); and Noeul (Korean).",
+    "snippet_full": "",
+    "diff": {
+      "added": 22,
+      "removed": 8,
+      "churn": 30
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 17 Oct 2026 02:27:34 GMT",
+    "run_at": "2026-10-17T02:27:33Z",
+    "run_id": "626f0ffb9a5f4c149333f2ae44858662"
+  },
+  {
     "id": "f47408be6f6eb9a0af780a5751b3f4bc75bccd4e",
     "impact": "High",
     "name": "Claude Platform Changelog",
@@ -945,45 +985,5 @@
     "pubDate": "Wed, 23 Sep 2026 02:44:01 GMT",
     "run_at": "2026-09-23T02:44:00Z",
     "run_id": "42ae08631fba472cafb2c4efaec03204"
-  },
-  {
-    "id": "2601336a8ff8bed1415d5a08b60580fec4123496",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Using GPT-6 Astra\n+Using GPT-6\n+Daybreak\n+Private Safety Processing\n+API Partner Setup\n+Model selection\n-Using GPT-6 Astra\n+Using GPT-6\n+Sep 22\n+Feature\n+gpt-6-sol\n+gpt-6-luna\n+v1/responses\n+v1/chat/completions\n+Released\n+GPT-6 Sol\n+(\n+gpt-6-sol\n+) and\n+GPT-6 Luna\n+(\n+gpt-6-luna\n+).\n+These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs.\n+Standard pricing per 1M tokens for prompts with up to 272K input tokens:\n+GPT-6 Sol: $2 input, $0.20 cached input, and $10 output.\n+GPT-6 Luna: $0.10 input, $0.01 cached input, and $0.50 output.\n+Compare capabilities in the\n+model catalog\n+, and see\n+pricing\n+for cache writes, longer prompts, and other processing tiers.",
-    "snippet_full": "",
-    "diff": {
-      "added": 30,
-      "removed": 2,
-      "churn": 32
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 23 Sep 2026 02:44:01 GMT",
-    "run_at": "2026-09-23T02:44:00Z",
-    "run_id": "42ae08631fba472cafb2c4efaec03204"
-  },
-  {
-    "id": "caef402d9cec14c82828420a6f2a0fcc08af2134",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Advisory Group on Mathematics and Artificial Intelligence\n+link: https://openai.com/index/advisory-group-on-mathematics-and-ai\n+id: https://openai.com/index/advisory-group-on-mathematics-and-ai\n+date: Mon, 21 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Building standards for the next phase of AI\n+link: https://openai.com/index/building-standards-next-phase-ai\n+id: https://openai.com/index/building-standards-next-phase-ai\n+date: Mon, 21 Sep 2026 10:00:00 GMT\n+title: Expanding OpenAI Academy with new learning paths\n+link: https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-    "snippet_full": "+title: Advisory Group on Mathematics and Artificial Intelligence\n+link: https://openai.com/index/advisory-group-on-mathematics-and-ai\n+id: https://openai.com/index/advisory-group-on-mathematics-and-ai\n+date: Mon, 21 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Building standards for the next phase of AI\n+link: https://openai.com/index/building-standards-next-phase-ai\n+id: https://openai.com/index/building-standards-next-phase-ai\n+date: Mon, 21 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Expanding OpenAI Academy with new learning paths\n+link: https://openai.com/index/expanding-openai-academy-with-new-learning-paths\n+id: https://openai.com/index/expanding-openai-academy-with-new-learning-paths\n+date: Mon, 21 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Higgsfield AI ships new video features in a day with GPT-6 Astra\n+link: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra\n+id: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra\n+date: Mon, 21 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How V7 gives AI agents institutional memory\n+link: https://openai.com/index/v7\n+id: https://openai.com/index/v7\n+date: Mon, 21 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 30,
-      "removed": 0,
-      "churn": 30
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 22 Sep 2026 02:43:35 GMT",
-    "run_at": "2026-09-22T02:43:35Z",
-    "run_id": "c25b0b4545bd4adbbcf7a04d997efae1"
   }
 ]

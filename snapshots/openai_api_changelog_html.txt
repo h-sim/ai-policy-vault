@@ -238,6 +238,8 @@ Async tool calling
 Computer and code
 Shell
 Computer use
+Integration recipes
+Driver reference
 Apply Patch
 Local shell
 Code interpreter
@@ -596,6 +598,11 @@ Auto-review
 Agent approvals & security
 Codex Security
 Overview
+Codex Security Cloud
+Setup
+Security Review
+Improving the threat model
+FAQ
 Codex Security plugin
 Quickstart
 Run a security scan
@@ -615,12 +622,7 @@ Run scans in CI
 GitLab CI/CD
 Reference
 FAQ
-TypeScript SDK
-Codex Security Cloud
-Setup
-Security Review
-Improving the threat model
-FAQ
+Codex Security SDK
 Cyber safety
 Models & Trusted Access
 Recommended configuration
@@ -645,9 +647,10 @@ Roles and workspace permissions
 Personal access tokens
 Service accounts
 Deployment and configuration
-Windows app deployment
+Windows app and CLI deployment
 Manage app updates
 Managed configuration
+Codex security cookbook
 Remote connections
 Workspace model availability
 Amazon Bedrock
@@ -720,11 +723,11 @@ Docs
 Showcase
 All posts
 Recent
+Designing failover across OpenAI model providers
 Maintaining software with the GPT-6 family
 Bringing my LED display to life with GPT-Live-1 and Codex
 Rethinking skills and prompts for GPT-6 Astra
 Architectural visualization with Astra
-Building games with Astra
 Topics
 General
 API
@@ -833,6 +836,17 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 October, 2026
+Oct 16
+Feature
+gpt-live-1
+v1/audio/voices
+v1/live/sessions
+Released
+prompt-to-voice
+for all API customers. Create a custom voice from a text description through the API or voice Playground, then reuse it in GPT-Live sessions. Creating a prompt-generated voice is free; speech generation uses regular GPT-Live session billing.
+Added nine
+natural voices for GPT-Live
+: Nuri, Juni, and Flitz (German); Brise and Sillage (French); Nira (Hindi); Harema and Shida (Japanese); and Noeul (Korean).
 Oct 15
 Feature
 gpt-live-1

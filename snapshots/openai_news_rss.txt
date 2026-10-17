@@ -4403,6 +4403,12 @@ id: https://openai.com/index/ironclad
 date: Wed, 11 Oct 2023 07:00:00 GMT
 body:
 #ITEM
+title: How Itaú is building generative AI for its entire customer base
+link: https://openai.com/index/itau-generative-ai
+id: https://openai.com/index/itau-generative-ai
+date: Fri, 16 Oct 2026 19:00:00 GMT
+body:
+#ITEM
 title: Ilya Sutskever to leave OpenAI, Jakub Pachocki announced as Chief Scientist
 link: https://openai.com/index/jakub-pachocki-announced-as-chief-scientist
 id: https://openai.com/index/jakub-pachocki-announced-as-chief-scientist
@@ -6819,6 +6825,12 @@ title: Spring Update
 link: https://openai.com/index/spring-update
 id: https://openai.com/index/spring-update
 date: Mon, 13 May 2024 10:00:00 GMT
+body:
+#ITEM
+title: Stack Overflow for Agents triples signups with ChatGPT plugin
+link: https://openai.com/index/stack-overflow-chatgpt-plugin
+id: https://openai.com/index/stack-overflow-chatgpt-plugin
+date: Fri, 16 Oct 2026 00:00:00 GMT
 body:
 #ITEM
 title: STADLER reshapes knowledge work at a 230-year-old company
