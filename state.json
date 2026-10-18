@@ -1,5 +1,24 @@
 [
   {
+    "id": "60f4f4a2144fafb2907151b23c109a2c7beb3304",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Benefit Street Partners answers questions faster with Codex\n+link: https://openai.com/index/benefit-street-partners\n+id: https://openai.com/index/benefit-street-partners\n+date: Fri, 16 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 18 Oct 2026 02:27:39 GMT",
+    "run_at": "2026-10-18T02:27:39Z",
+    "run_id": "16a84c3d60f84fb5a166ef8ea8b1f1fe"
+  },
+  {
     "id": "ce8ae7f7b27443cee89791e21fecd47e04c080bf",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -964,25 +983,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Wed, 23 Sep 2026 02:44:24 GMT",
-    "run_at": "2026-09-23T02:44:00Z",
-    "run_id": "42ae08631fba472cafb2c4efaec03204"
-  },
-  {
-    "id": "e2bff876a8e2e2cf3c5747edf2d94f6766aac09d",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Better prompt caching for GPT-6\n+link: https://openai.com/index/better-prompt-caching-for-gpt-6\n+id: https://openai.com/index/better-prompt-caching-for-gpt-6\n+date: Tue, 22 Sep 2026 21:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-6 Sol and Luna\n+link: https://openai.com/index/introducing-gpt-6-sol-and-luna\n+id: https://openai.com/index/introducing-gpt-6-sol-and-luna\n+date: Tue, 22 Sep 2026 18:00:00 GMT\n+title: Parallel cut research time and cost in half with GPT‑6 Astra\n+link: https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-    "snippet_full": "+title: Better prompt caching for GPT-6\n+link: https://openai.com/index/better-prompt-caching-for-gpt-6\n+id: https://openai.com/index/better-prompt-caching-for-gpt-6\n+date: Tue, 22 Sep 2026 21:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-6 Sol and Luna\n+link: https://openai.com/index/introducing-gpt-6-sol-and-luna\n+id: https://openai.com/index/introducing-gpt-6-sol-and-luna\n+date: Tue, 22 Sep 2026 18:00:00 GMT\n+body:\n+#ITEM\n+title: Parallel cut research time and cost in half with GPT‑6 Astra\n+link: https://openai.com/index/parallel-cuts-time-and-cost-with-astra\n+id: https://openai.com/index/parallel-cuts-time-and-cost-with-astra\n+date: Tue, 22 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Priorities and principles for effective third party assessments\n+link: https://openai.com/index/priorities-principles-third-party-assessments\n+id: https://openai.com/index/priorities-principles-third-party-assessments\n+date: Tue, 22 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 23 Sep 2026 02:44:01 GMT",
     "run_at": "2026-09-23T02:44:00Z",
     "run_id": "42ae08631fba472cafb2c4efaec03204"
   }

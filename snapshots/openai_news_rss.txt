@@ -1115,6 +1115,12 @@ id: https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement
 date: Thu, 21 Nov 2019 08:00:00 GMT
 body:
 #ITEM
+title: Benefit Street Partners answers questions faster with Codex
+link: https://openai.com/index/benefit-street-partners
+id: https://openai.com/index/benefit-street-partners
+date: Fri, 16 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: Bertelsmann powers creativity and productivity with OpenAI
 link: https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai
 id: https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai
