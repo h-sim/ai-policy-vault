@@ -618,7 +618,9 @@ Changelog
 Codex Security CLI
 Quickstart
 Run bulk scans
-Run scans in CI
+CI/CD
+Overview
+GitHub Actions
 GitLab CI/CD
 Reference
 FAQ

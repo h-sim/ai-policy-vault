@@ -53,6 +53,19 @@ claude-code
 repository.
 October 15, 2026
 
+We've added
+capabilities.thinking.types.between_tools
+to the
+Models API
+.
+GET /v1/models
+and
+GET /v1/models/{model_id}
+now report whether each model accepts
+thinking: {type: "between_tools"}
+, which turns off up-front thinking. See
+Using the Models API
+.
 The
 Compliance API
 now returns the text each organization member saved as
@@ -157,7 +170,7 @@ on Amazon Bedrock. A request that sends thinking blocks back after a change to
 system
 ,
 tools
-, or earlier turns can also return a 400 error. On Amazon Bedrock, structured outputs aren't available for Claude Haiku 5.5. Adaptive thinking is on by default, so a response can begin with
+, or earlier turns can also return a 400 error. Adaptive thinking is on by default, so a response can begin with
 thinking
 blocks, and their text is omitted unless you set
 thinking.display
@@ -1184,7 +1197,7 @@ Workbench
 platform.claude.com/workbench
 ) in the Claude Console is being sunset with access ending on August 17, 2026. Saved prompts, variables, and evals are not supported in the updated
 Workbench
-. You can export any data you want to keep from the banner and under your
+in the Console. You can export any data you want to keep from the banner and under your
 Organizational Settings
 . For more, see
 How do I use the Workbench?
@@ -2359,7 +2372,7 @@ Model deprecations
 .
 June 23, 2025
 
-Console users with the Developer role can now access the
+In the Console, users with the Developer role can now access the
 Cost
 page. Previously, the Developer role allowed access to the
 Usage
@@ -2588,7 +2601,7 @@ Rate limits
 .
 We've added support for
 tool use
-in the
+in the Console
 Workbench
 .
 November 13th, 2024
