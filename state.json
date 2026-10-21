@@ -1,5 +1,64 @@
 [
   {
+    "id": "7e29b0f44ff0f36092baef342d5678f5e2db39aa",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+October 20, 2026\n+\n+Inference hooks\n+are out of beta for Claude Enterprise organizations.\n+We've launched\n+user profiles\n+, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end cust\n+ant\n+CLI support the new\n+/v1/user_profiles\n+endpoints\n+.\n+We've added\n+organization webhooks\n+to the\n+Admin API\n+, in beta with the\n+webhooks-2026-10-07\n+beta header. Its\n+/v1/organizations/webhooks\n+endpoints\n+register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, con\n+October 20, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 23,
+      "removed": 0,
+      "churn": 23
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 21 Oct 2026 02:47:27 GMT",
+    "run_at": "2026-10-21T02:47:25Z",
+    "run_id": "cac4270f91ee43409a49bc92d2a4a36e"
+  },
+  {
+    "id": "5bc5edecb1b68ee1dd5315cbfa7b13cc9ac5ce72",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI acquires Orchestra Bio\n+link: https://openai.com/index/openai-to-acquire-orchestra-bio\n+id: https://openai.com/index/openai-to-acquire-orchestra-bio\n+date: Tue, 20 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Franchisee reconciles cash in 94% less time with ChatGPT Work\n+link: https://openai.com/index/ted-taylor-restaurant\n+id: https://openai.com/index/ted-taylor-restaurant\n+date: Tue, 20 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Terminal X matches senior investor judgment 88.6% with GPT-6.1\n+link: https://openai.com/index/terminal-x\n+id: https://openai.com/index/terminal-x\n+date: Tue, 20 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 21 Oct 2026 02:47:25 GMT",
+    "run_at": "2026-10-21T02:47:25Z",
+    "run_id": "cac4270f91ee43409a49bc92d2a4a36e"
+  },
+  {
+    "id": "9c3e450409ea84c929503e5e9ac76b57159dd112",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Oct 20\n+Feature\n+v1/responses\n+You can now choose 12-hour prompt caching in the API. 12-hour prompt caching keeps shared instructions, tools, and context cached longer to benefit from lower cached-input pricing, even when requests\n+here\n+.\n+Oct 16\n+Feature\n+v1/agents\n+OpenAI-hosted sandboxes\n+in the Agents API now include the Artifact SDK and skills for creating and editing spreadsheets, presentations, and Word documents.\n+Added\n+Ultrafast mode\n+to the Agents API. Set\n+agent.service_tier\n+to\n+ultrafast\n+with a supported model to reduce the time between generated tokens.\n+Oct 9\n+Feature\n+v1/agents\n+You can now\n+pre-warm an OpenAI-hosted sandbox\n+before attaching it to an Agents API session. Prewarming improves latency by creating and configuring the sandbox before a user finishes sending their message. This means the user doesn't have to wai\n+OpenAI-hosted sandbox compute is now billed during active turns. You no longer pay for idle time between turns.",
+    "snippet_full": "",
+    "diff": {
+      "added": 25,
+      "removed": 0,
+      "churn": 25
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 21 Oct 2026 02:47:25 GMT",
+    "run_at": "2026-10-21T02:47:25Z",
+    "run_id": "cac4270f91ee43409a49bc92d2a4a36e"
+  },
+  {
     "id": "dcd9672d480bf5a9ca9e3ad8a64fa60900eb4497",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -926,62 +985,5 @@
     "pubDate": "Fri, 25 Sep 2026 02:50:38 GMT",
     "run_at": "2026-09-25T02:50:37Z",
     "run_id": "0d94a2f414c04ea88dbba1116c8b6cf2"
-  },
-  {
-    "id": "c134624c7f4b34f6801553d922f615dbb86f0d3c",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: ChatGPT Ads expands to Southeast Asia and Taiwan\n+link: https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan\n+id: https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan\n+date: Wed, 23 Sep 2026 02:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 25 Sep 2026 02:50:37 GMT",
-    "run_at": "2026-09-25T02:50:37Z",
-    "run_id": "0d94a2f414c04ea88dbba1116c8b6cf2"
-  },
-  {
-    "id": "80a1bd70bfc63c02a255407fbebf1e86d0ce8e2d",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Images and video\n+Images\n-Video generation\n+Other tools\n+Organization blocking\n+Migrate custom GPTs to plugins",
-    "snippet_full": "",
-    "diff": {
-      "added": 4,
-      "removed": 2,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 25 Sep 2026 02:50:37 GMT",
-    "run_at": "2026-09-25T02:50:37Z",
-    "run_id": "0d94a2f414c04ea88dbba1116c8b6cf2"
-  },
-  {
-    "id": "f1154518dfb1b0e56f0900473f1deabd64fd1acd",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-or invalidating the prompt cache. The same header covers adding and removing tools by reference.\n-With the MCP connector's\n+or invalidating the prompt cache. The same header covers adding and removing tools by reference. With the MCP connector's",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 2,
-      "churn": 3
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 24 Sep 2026 02:33:36 GMT",
-    "run_at": "2026-09-24T02:33:34Z",
-    "run_id": "8552b616ad1846d0a942b3daca5c23d5"
   }
 ]

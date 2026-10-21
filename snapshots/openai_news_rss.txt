@@ -5819,6 +5819,12 @@ id: https://openai.com/index/openai-to-acquire-ona
 date: Thu, 11 Jun 2026 00:00:00 GMT
 body:
 #ITEM
+title: OpenAI acquires Orchestra Bio
+link: https://openai.com/index/openai-to-acquire-orchestra-bio
+id: https://openai.com/index/openai-to-acquire-orchestra-bio
+date: Tue, 20 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI to acquire Promptfoo
 link: https://openai.com/index/openai-to-acquire-promptfoo
 id: https://openai.com/index/openai-to-acquire-promptfoo
@@ -7115,6 +7121,12 @@ id: https://openai.com/index/techniques-for-training-large-neural-networks
 date: Thu, 09 Jun 2022 07:00:00 GMT
 body:
 #ITEM
+title: Franchisee reconciles cash in 94% less time with ChatGPT Work
+link: https://openai.com/index/ted-taylor-restaurant
+id: https://openai.com/index/ted-taylor-restaurant
+date: Tue, 20 Oct 2026 10:00:00 GMT
+body:
+#ITEM
 title: Funding grants for new research into AI and teen development
 link: https://openai.com/index/teen-development-research-grants
 id: https://openai.com/index/teen-development-research-grants
@@ -7155,6 +7167,12 @@ title: Ten years
 link: https://openai.com/index/ten-years
 id: https://openai.com/index/ten-years
 date: Thu, 11 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Terminal X matches senior investor judgment 88.6% with GPT-6.1
+link: https://openai.com/index/terminal-x
+id: https://openai.com/index/terminal-x
+date: Tue, 20 Oct 2026 07:00:00 GMT
 body:
 #ITEM
 title: Testing ads in ChatGPT
