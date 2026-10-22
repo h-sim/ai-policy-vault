@@ -28,6 +28,7 @@ Release notes
 Overview
 Migration guides
 Migrating to Managed Agents
+Migrating to API version 2026-10-21
 
 Console
 Release notes
@@ -51,6 +52,41 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+October 21, 2026
+
+We've released API version
+2026-10-21
+.
+Migrating to API version 2026-10-21
+shows how to upgrade.
+We've released new versions of the
+client SDKs
+and the
+ant
+CLI
+that send API version
+2026-10-21
+by default: Python SDK 2.0.0, TypeScript SDK 1.0.0, C# SDK 13.0.0, Go SDK 2.0.0, Java SDK 3.0.0, PHP SDK 1.0.0, Ruby SDK 2.0.0, and
+ant
+CLI 2.0.0. See
+Switch to 2026-10-21
+.
+The new SDK and CLI versions also have breaking changes that don't depend on the API version, and they are licensed under Apache 2.0 instead of the MIT License. See
+SDK and CLI changes
+.
+We've added the
+enforcement_status
+and
+enforcement_actions
+fields to
+user profiles
+, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban,
+list your profiles
+with the new
+enforcement_status[]
+filter. See
+Check whether Anthropic has restricted or banned a profile
+.
 October 20, 2026
 
 Inference hooks
@@ -73,6 +109,43 @@ beta header. Its
 /v1/organizations/webhooks
 endpoints
 register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, contact your Anthropic account team.
+Organization admins can now turn off web fetch for their organization on the
+Capabilities
+page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session,
+web_fetch
+calls return an error result to the agent instead. With web fetch on, admins can also set allowed or blocked domains for web fetch on the same page. See
+Web fetch tool
+and
+Domain filtering
+.
+In Claude Managed Agents, the
+web_fetch
+tool
+now follows your organization's web fetch domain restrictions set on the
+Capabilities
+page of the Claude Console. A URL, including one reached by a redirect, must pass both the organization's list and the
+allowed_domains
+or
+blocked_domains
+list on the agent's
+web_fetch
+tool. See
+Restrict web search and web fetch domains
+.
+In Claude Managed Agents, sessions follow your organization's web search settings on the
+Capabilities
+page of the Claude Console: the
+Allow web search
+setting since October 6, and its web search domain restrictions since October 14. The agent receives only the search results that both the organization's domain restrictions and the
+allowed_domains
+or
+blocked_domains
+list on the agent's
+web_search
+tool
+allow. See
+Restrict web search and web fetch domains
+.
 October 15, 2026
 
 We've added
@@ -113,7 +186,7 @@ October 14, 2026
 
 We've launched
 OpenTelemetry export
-in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API,
+in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability platform. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API,
 add an OpenTelemetry destination
 in the Claude Console.
 Claude Managed Agents
@@ -2755,6 +2828,7 @@ blog post
 このページは役に立ちましたか？
 
 
+October 21, 2026
 October 20, 2026
 October 15, 2026
 October 14, 2026

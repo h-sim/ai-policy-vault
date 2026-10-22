@@ -1,5 +1,66 @@
 [
   {
+    "id": "434dd975c59c337bac786d2fd2e0c84a83c99ad2",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+Migrating to API version 2026-10-21\n+October 21, 2026\n+\n+We've released API version\n+2026-10-21\n+.\n+Migrating to API version 2026-10-21\n+shows how to upgrade.\n+We've released new versions of the\n+client SDKs\n+and the\n+ant\n+CLI\n+that send API version\n+2026-10-21\n+by default: Python SDK 2.0.0, TypeScript SDK 1.0.0, C# SDK 13.0.0, Go SDK 2.0.0, Java SDK 3.0.0, PHP SDK 1.0.0, Ruby SDK 2.0.0, and\n+ant\n+CLI 2.0.0. See\n+Switch to 2026-10-21\n+.\n+The new SDK and CLI versions also have breaking changes that don't depend on the API version, and they are licensed under Apache 2.0 instead of the MIT License. See\n+SDK and CLI changes\n+.\n+We've added the\n+enforcement_status\n+and\n+enforcement_actions\n+fields to\n+user profiles\n+, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban,\n+list your profiles\n+with the new\n+enforcement_status[]\n+filter. See\n+Check whether Anthropic has restricted or banned a profile\n+.\n+Organization admins can now turn off web fetch for their organization on the\n+Capabilities\n+page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session,\n+web_fetch",
+    "snippet_full": "",
+    "diff": {
+      "added": 75,
+      "removed": 1,
+      "churn": 76
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 22 Oct 2026 02:46:53 GMT",
+    "run_at": "2026-10-22T02:46:10Z",
+    "run_id": "e8dc5be479c34d28801ac5375a925735"
+  },
+  {
+    "id": "75765aaf82f40dbff2a480775a8bb1e68bfe080d",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How we built ChatGPT’s novel ad stack for user trust and relevance\n+title: How AT&T is rethinking in-house legal work with OpenAI\n+link: https://openai.com/index/att-legal\n+id: https://openai.com/index/att-legal\n+date: Wed, 21 Oct 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Broad access through consistent standards\n+link: https://openai.com/index/broad-access-through-consistent-standards\n+id: https://openai.com/index/broad-access-through-consistent-standards\n+date: Wed, 21 Oct 2026 21:00:00 GMT\n+link: https://openai.com/index/building-chatgpt-ad-stack",
+    "snippet_full": "+title: How AT&T is rethinking in-house legal work with OpenAI\n+link: https://openai.com/index/att-legal\n+id: https://openai.com/index/att-legal\n+date: Wed, 21 Oct 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Broad access through consistent standards\n+link: https://openai.com/index/broad-access-through-consistent-standards\n+id: https://openai.com/index/broad-access-through-consistent-standards\n+date: Wed, 21 Oct 2026 21:00:00 GMT\n+body:\n+#ITEM\n+title: How we built ChatGPT’s novel ad stack for user trust and relevance\n+link: https://openai.com/index/building-chatgpt-ad-stack\n+id: https://openai.com/index/building-chatgpt-ad-stack\n+date: Wed, 21 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform\n+link: https://openai.com/index/chatgpt-ads-expands-26-new-countries\n+id: https://openai.com/index/chatgpt-ads-expands-26-new-countries\n+date: Wed, 21 Oct 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: Cloudflare links vulnerability discovery to defense with OpenAI\n+link: https://openai.com/index/cloudflare-cyber\n+id: https://openai.com/index/cloudflare-cyber\n+date: Wed, 21 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Patch the Planet: global response coordination as agents uncover critical vulnerabilities\n+link: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\n+id: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\n+date: Wed, 21 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Democratic governance of frontier AI, part II: Empowering cyber defenders\n+link: https://openai.com/index/empowering-cyber-defenders\n+id: https://openai.com/index/empowering-cyber-defenders\n+date: Wed, 21 Oct 2026 00:00:00 GMT",
+    "diff": {
+      "added": 54,
+      "removed": 0,
+      "churn": 54
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 22 Oct 2026 02:46:33 GMT",
+    "run_at": "2026-10-22T02:46:10Z",
+    "run_id": "e8dc5be479c34d28801ac5375a925735"
+  },
+  {
+    "id": "7716e62361b7106cc11b53e14ba994ec428db3d9",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Oct 21\n+Feature\n+You can now choose which service tiers projects can use in Platform settings. Organization settings can restrict service tiers for all projects. See\n+service tier errors\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 5,
+      "removed": 0,
+      "churn": 5
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 22 Oct 2026 02:46:11 GMT",
+    "run_at": "2026-10-22T02:46:10Z",
+    "run_id": "e8dc5be479c34d28801ac5375a925735"
+  },
+  {
     "id": "7e29b0f44ff0f36092baef342d5678f5e2db39aa",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -928,62 +989,5 @@
     "pubDate": "Sat, 26 Sep 2026 02:54:21 GMT",
     "run_at": "2026-09-26T02:53:58Z",
     "run_id": "bc2d004c9b7340548dbfcfd2d94e26ff"
-  },
-  {
-    "id": "ac31d19417fdc32c32f26d8289c7afd310f66f24",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: Asana cleared 5 years of engineering work in 2 weeks with Codex\n+title: Asana completed a years-long code migration in 2 weeks with Codex\n+title: Proaction boosts sales 60% and saves 75+ hours with Codex\n+link: https://openai.com/index/proaction\n+id: https://openai.com/index/proaction\n+date: Fri, 25 Sep 2026 19:00:00 GMT\n+body:\n+#ITEM\n-title: How V7 gives AI agents institutional memory\n+title: V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
-    "snippet_full": "",
-    "diff": {
-      "added": 8,
-      "removed": 2,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 26 Sep 2026 02:53:59 GMT",
-    "run_at": "2026-09-26T02:53:58Z",
-    "run_id": "bc2d004c9b7340548dbfcfd2d94e26ff"
-  },
-  {
-    "id": "19e8aa4f1872c6af2428914a57757090fd5ad1b3",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Other tools\n+Build plugins\n-Build plugins",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 2,
-      "churn": 3
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 26 Sep 2026 02:53:58 GMT",
-    "run_at": "2026-09-26T02:53:58Z",
-    "run_id": "bc2d004c9b7340548dbfcfd2d94e26ff"
-  },
-  {
-    "id": "d92d8f5051a089d6f15930f9dceadb7d7a55e443",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+September 24, 2026\n+\n+We're expanding which refusals are billed to include refusals that arrive before any output when\n+stop_details.category\n+is\n+\"bio\"\n+,\n+\"frontier_llm\"\n+, or\n+\"reasoning_extraction\"\n+, the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. The newly billed refusals are charged like any other request, at the rates of the model that\n+How refusals are billed\n+.\n+September 23, 2026\n+\n+Cache diagnostics\n+is out of beta on the Claude API and no longer requires the\n+cache-diagnosis-2026-04-07\n+beta header. Include the\n+diagnostics\n+object on a Messages request to opt in; requests that still send the header work as before. Responses from\n+POST /v1/messages\n+now always include the\n+diagnostics\n+field, which is\n+null\n+when the request did not include the\n+diagnostics\n+object.\n+For\n+cache diagnostics\n+, a response to a request that sends the\n+cache-diagnosis-2026-04-07\n+beta header now always includes the\n+diagnostics\n+field. The field is\n+null\n+when the request did not include the\n+diagnostics\n+object. Previously the field was omitted in that case.",
-    "snippet_full": "",
-    "diff": {
-      "added": 60,
-      "removed": 0,
-      "churn": 60
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 25 Sep 2026 02:50:38 GMT",
-    "run_at": "2026-09-25T02:50:37Z",
-    "run_id": "0d94a2f414c04ea88dbba1116c8b6cf2"
   }
 ]

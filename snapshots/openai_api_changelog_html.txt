@@ -838,6 +838,11 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 October, 2026
+Oct 21
+Feature
+You can now choose which service tiers projects can use in Platform settings. Organization settings can restrict service tiers for all projects. See
+service tier errors
+.
 Oct 20
 Feature
 v1/responses

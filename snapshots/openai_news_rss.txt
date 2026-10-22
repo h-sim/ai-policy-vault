@@ -1013,6 +1013,12 @@ id: https://openai.com/index/atlassian-partnership
 date: Tue, 06 Oct 2026 16:00:00 GMT
 body:
 #ITEM
+title: How AT&T is rethinking in-house legal work with OpenAI
+link: https://openai.com/index/att-legal
+id: https://openai.com/index/att-legal
+date: Wed, 21 Oct 2026 17:00:00 GMT
+body:
+#ITEM
 title: Attacking machine learning with adversarial examples
 link: https://openai.com/index/attacking-machine-learning-with-adversarial-examples
 id: https://openai.com/index/attacking-machine-learning-with-adversarial-examples
@@ -1223,6 +1229,12 @@ id: https://openai.com/index/bringing-chatgpt-to-genaimil
 date: Mon, 09 Feb 2026 11:00:00 GMT
 body:
 #ITEM
+title: Broad access through consistent standards
+link: https://openai.com/index/broad-access-through-consistent-standards
+id: https://openai.com/index/broad-access-through-consistent-standards
+date: Wed, 21 Oct 2026 21:00:00 GMT
+body:
+#ITEM
 title: BrowseComp: a benchmark for browsing agents
 link: https://openai.com/index/browsecomp
 id: https://openai.com/index/browsecomp
@@ -1263,6 +1275,12 @@ title: Building an early warning system for LLM-aided biological threat creation
 link: https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation
 id: https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation
 date: Wed, 31 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: How we built ChatGPT’s novel ad stack for user trust and relevance
+link: https://openai.com/index/building-chatgpt-ad-stack
+id: https://openai.com/index/building-chatgpt-ad-stack
+date: Wed, 21 Oct 2026 07:00:00 GMT
 body:
 #ITEM
 title: How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas
@@ -1365,6 +1383,12 @@ title: Introducing ChatGPT
 link: https://openai.com/index/chatgpt
 id: https://openai.com/index/chatgpt
 date: Wed, 30 Nov 2022 08:00:00 GMT
+body:
+#ITEM
+title: ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform
+link: https://openai.com/index/chatgpt-ads-expands-26-new-countries
+id: https://openai.com/index/chatgpt-ads-expands-26-new-countries
+date: Wed, 21 Oct 2026 13:00:00 GMT
 body:
 #ITEM
 title: ChatGPT Ads expands across Europe
@@ -1527,6 +1551,12 @@ title: CLIP: Connecting text and images
 link: https://openai.com/index/clip
 id: https://openai.com/index/clip
 date: Tue, 05 Jan 2021 08:00:00 GMT
+body:
+#ITEM
+title: Cloudflare links vulnerability discovery to defense with OpenAI
+link: https://openai.com/index/cloudflare-cyber
+id: https://openai.com/index/cloudflare-cyber
+date: Wed, 21 Oct 2026 00:00:00 GMT
 body:
 #ITEM
 title: Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI
@@ -1713,6 +1743,12 @@ title: Why responsible AI development needs cooperation on safety
 link: https://openai.com/index/cooperation-on-safety
 id: https://openai.com/index/cooperation-on-safety
 date: Wed, 10 Jul 2019 07:00:00 GMT
+body:
+#ITEM
+title: Patch the Planet: global response coordination as agents uncover critical vulnerabilities
+link: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
+id: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
+date: Wed, 21 Oct 2026 07:00:00 GMT
 body:
 #ITEM
 title: Core dump epidemiology: fixing an 18-year-old bug
@@ -2487,6 +2523,12 @@ title: Emergent tool use from multi-agent interaction
 link: https://openai.com/index/emergent-tool-use
 id: https://openai.com/index/emergent-tool-use
 date: Tue, 17 Sep 2019 07:00:00 GMT
+body:
+#ITEM
+title: Democratic governance of frontier AI, part II: Empowering cyber defenders
+link: https://openai.com/index/empowering-cyber-defenders
+id: https://openai.com/index/empowering-cyber-defenders
+date: Wed, 21 Oct 2026 00:00:00 GMT
 body:
 #ITEM
 title: Empowering defenders through our Cybersecurity Grant Program
@@ -5633,6 +5675,12 @@ id: https://openai.com/index/openai-lp
 date: Mon, 11 Mar 2019 07:00:00 GMT
 body:
 #ITEM
+title: OpenAI models are coming to Google Cloud
+link: https://openai.com/index/openai-models-google-cloud
+id: https://openai.com/index/openai-models-google-cloud
+date: Wed, 21 Oct 2026 12:00:00 GMT
+body:
+#ITEM
 title: OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems
 link: https://openai.com/index/openai-nvidia-systems-partnership
 id: https://openai.com/index/openai-nvidia-systems-partnership
@@ -6531,6 +6579,12 @@ title: Scaling AI for everyone
 link: https://openai.com/index/scaling-ai-for-everyone
 id: https://openai.com/index/scaling-ai-for-everyone
 date: Fri, 27 Feb 2026 05:30:00 GMT
+body:
+#ITEM
+title: Using thousands of AI agents to uncover new leads in biological data
+link: https://openai.com/index/scaling-ai-research-for-complex-biological-data
+id: https://openai.com/index/scaling-ai-research-for-complex-biological-data
+date: Wed, 21 Oct 2026 04:50:00 GMT
 body:
 #ITEM
 title: Scaling Codex to enterprises worldwide
