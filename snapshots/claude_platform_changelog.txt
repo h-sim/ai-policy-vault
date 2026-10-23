@@ -52,6 +52,13 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+October 22, 2026
+
+We've launched
+Claude Models on Google Cloud (Anthropic managed)
+, the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access. Google Cloud Marketplace handles billing.
+Fast mode
+is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic managed).
 October 21, 2026
 
 We've released API version
@@ -2828,6 +2835,7 @@ blog post
 このページは役に立ちましたか？
 
 
+October 22, 2026
 October 21, 2026
 October 20, 2026
 October 15, 2026

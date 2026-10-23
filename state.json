@@ -1,5 +1,64 @@
 [
   {
+    "id": "ef1d6dfdf5009c2477451cdf74cbc93a26384702",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+October 22, 2026\n+\n+We've launched\n+Claude Models on Google Cloud (Anthropic managed)\n+, the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access. Google Cloud Marketplace handles billing.\n+Fast mode\n+is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic managed).\n+October 22, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 8,
+      "removed": 0,
+      "churn": 8
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 23 Oct 2026 02:50:04 GMT",
+    "run_at": "2026-10-23T02:50:01Z",
+    "run_id": "b3db7f5aac8a4ef9b892addec319559c"
+  },
+  {
+    "id": "c08e774c5d861bc931b9bb0800704849cb3b4bfb",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Build more responsive apps with the Decisions API\n+link: https://openai.com/index/decisions-api\n+id: https://openai.com/index/decisions-api\n+date: Thu, 22 Oct 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: What FDE means at OpenAI\n+link: https://openai.com/index/forward-deployed-engineering-means\n+id: https://openai.com/index/forward-deployed-engineering-means\n+date: Thu, 22 Oct 2026 06:00:00 GMT\n-date: Tue, 29 Sep 2026 10:00:00 GMT\n+date: Tue, 29 Sep 2026 17:00:00 GMT",
+    "snippet_full": "+title: Build more responsive apps with the Decisions API\n+link: https://openai.com/index/decisions-api\n+id: https://openai.com/index/decisions-api\n+date: Thu, 22 Oct 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: What FDE means at OpenAI\n+link: https://openai.com/index/forward-deployed-engineering-means\n+id: https://openai.com/index/forward-deployed-engineering-means\n+date: Thu, 22 Oct 2026 06:00:00 GMT\n+body:\n+#ITEM\n-date: Tue, 29 Sep 2026 10:00:00 GMT\n+date: Tue, 29 Sep 2026 17:00:00 GMT\n+title: Uber brings ChatGPT Work to all employees with OpenAI\n+link: https://openai.com/index/uber-chatgpt-work-rollout\n+id: https://openai.com/index/uber-chatgpt-work-rollout\n+date: Thu, 22 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 19,
+      "removed": 1,
+      "churn": 20
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 23 Oct 2026 02:50:02 GMT",
+    "run_at": "2026-10-23T02:50:01Z",
+    "run_id": "b3db7f5aac8a4ef9b892addec319559c"
+  },
+  {
+    "id": "09bcad91338ffdd32e8e6e1ed0e26377b2b0a94c",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+ChatGPT EDU\n+Education plans\n+Higher education setup\n+Oct 22\n+Update\n+gpt-6-luna\n+v1/decisions\n+The\n+Decisions API\n+is now generally available with\n+gpt-6-luna\n+. Cache shared input across requests for prompt-cache discounts, include images in individual question instructions, and pass structured data directly with\n+input_json\n+. Each request now supports up to 400 questions, increased from 200 in public beta. Review the\n+changes since public beta\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 16,
+      "removed": 0,
+      "churn": 16
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 23 Oct 2026 02:50:01 GMT",
+    "run_at": "2026-10-23T02:50:01Z",
+    "run_id": "b3db7f5aac8a4ef9b892addec319559c"
+  },
+  {
     "id": "434dd975c59c337bac786d2fd2e0c84a83c99ad2",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -929,65 +988,5 @@
     "pubDate": "Tue, 29 Sep 2026 03:36:37 GMT",
     "run_at": "2026-09-29T03:36:12Z",
     "run_id": "1527223383f9479db9505c07d63358b7"
-  },
-  {
-    "id": "f2eb2c2998e4d066a8f8c4484809d0bb88e94899",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Are you a Codex Original?\n+link: https://openai.com/form/codex-originals\n+id: https://openai.com/form/codex-originals\n+date: Mon, 28 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Basis completes a tax workbook 2x faster with GPT-6 Astra\n+link: https://openai.com/index/basis-tax-workbook-with-astra\n+id: https://openai.com/index/basis-tax-workbook-with-astra\n+title: How we will do better for Australia\n+link: https://openai.com/index/how-we-will-do-better-for-australia\n+id: https://openai.com/index/how-we-will-do-better-for-australia",
-    "snippet_full": "+title: Are you a Codex Original?\n+link: https://openai.com/form/codex-originals\n+id: https://openai.com/form/codex-originals\n+date: Mon, 28 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Basis completes a tax workbook 2x faster with GPT-6 Astra\n+link: https://openai.com/index/basis-tax-workbook-with-astra\n+id: https://openai.com/index/basis-tax-workbook-with-astra\n+date: Mon, 28 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How we will do better for Australia\n+link: https://openai.com/index/how-we-will-do-better-for-australia\n+id: https://openai.com/index/how-we-will-do-better-for-australia\n+date: Mon, 28 Sep 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: The Lenfest Institute grows landmark program with expanded OpenAI support\n+link: https://openai.com/index/lenfest-ai-collaborative-expansion\n+id: https://openai.com/index/lenfest-ai-collaborative-expansion\n+date: Mon, 28 Sep 2026 07:00:00 GMT\n+body:\n+#ITEM\n-date: Tue, 08 Sep 2026 00:00:00 GMT\n+date: Tue, 08 Sep 2026 11:00:00 GMT",
-    "diff": {
-      "added": 25,
-      "removed": 1,
-      "churn": 26
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 29 Sep 2026 03:36:13 GMT",
-    "run_at": "2026-09-29T03:36:12Z",
-    "run_id": "1527223383f9479db9505c07d63358b7"
-  },
-  {
-    "id": "68d3884604a815e3f92e833e6aa603ee2b97a258",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Sep 25\n+Fix\n+gpt-6-sol\n+gpt-6-luna\n+Fixed a bug in image encoding that degraded image understanding in\n+GPT-6 Sol\n+and\n+GPT-6 Luna\n+. This update improves results on visual tasks in the API and Codex, including computer use.\n+If your use cases involve image inputs, we recommend rerunning your evaluations and retrying workflows affected by the issue.",
-    "snippet_full": "",
-    "diff": {
-      "added": 10,
-      "removed": 0,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 27 Sep 2026 02:56:23 GMT",
-    "run_at": "2026-09-27T02:56:22Z",
-    "run_id": "38309fae5c26401cadc6e939699860b1"
-  },
-  {
-    "id": "50c764a635a328f73396b30cd30b5c78f35130ea",
-    "impact": "High",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-We're expanding which refusals are billed to include refusals that arrive before any output when\n+We're resuming billing for refusals that arrive before any output when\n-, the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. The newly billed refusals are charged like any other request, at the rates of the model that\n+, the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. Refusals billed under this change are charged like any other request, at the rates of the mo\n+.\n+The\n+Compliance API\n+local session endpoints are out of beta for Claude for Microsoft 365 sessions in Excel, PowerPoint, Word, and Outlook (\n+product_surface\n+values beginning with\n+office_agents\n+). See\n+Sessions on users' machines\n+.\n+The\n+Compliance API\n+Activity Feed\n+no longer returns file names, project document names, or artifact titles. The\n+filename\n+and\n+title\n+fields on file, project document, and artifact activities are now always empty or omitted, including on activities recorded before this change. To look up a name or title by the ID on the activity, u\n+read:compliance_user_data\n+scope. See\n+Understand the Activity object\n-), our most capable widely released model, alongside\n+), our most capable model open to all customers, alongside\n-), our most capable widely released model. Claude Opus 4.8 supports a\n+), our most capable model. Claude Opus 4.8 supports a\n-, our most capable widely released model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See\n+, our most capable model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See",
-    "snippet_full": "",
-    "diff": {
-      "added": 26,
-      "removed": 5,
-      "churn": 31
-    },
-    "score": 60,
-    "reasons": [
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 26 Sep 2026 02:54:21 GMT",
-    "run_at": "2026-09-26T02:53:58Z",
-    "run_id": "bc2d004c9b7340548dbfcfd2d94e26ff"
   }
 ]

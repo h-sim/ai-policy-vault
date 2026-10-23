@@ -1931,6 +1931,12 @@ id: https://openai.com/index/decagon
 date: Tue, 29 Oct 2024 10:00:00 GMT
 body:
 #ITEM
+title: Build more responsive apps with the Decisions API
+link: https://openai.com/index/decisions-api
+id: https://openai.com/index/decisions-api
+date: Thu, 22 Oct 2026 19:00:00 GMT
+body:
+#ITEM
 title: Deep double descent
 link: https://openai.com/index/deep-double-descent
 id: https://openai.com/index/deep-double-descent
@@ -2841,6 +2847,12 @@ title: Solving (some) formal math olympiad problems
 link: https://openai.com/index/formal-math
 id: https://openai.com/index/formal-math
 date: Wed, 02 Feb 2022 08:00:00 GMT
+body:
+#ITEM
+title: What FDE means at OpenAI
+link: https://openai.com/index/forward-deployed-engineering-means
+id: https://openai.com/index/forward-deployed-engineering-means
+date: Thu, 22 Oct 2026 06:00:00 GMT
 body:
 #ITEM
 title: Frontier AI regulation: Managing emerging risks to public safety
@@ -4082,7 +4094,7 @@ body:
 title: Introducing GPT-6.1 Sol
 link: https://openai.com/index/introducing-gpt-6-1-sol
 id: https://openai.com/index/introducing-gpt-6-1-sol
-date: Tue, 29 Sep 2026 10:00:00 GMT
+date: Tue, 29 Sep 2026 17:00:00 GMT
 body:
 #ITEM
 title: Introducing GPT-6 Sol and Luna
@@ -7455,6 +7467,12 @@ title: Uber uses OpenAI to help people earn smarter and book faster
 link: https://openai.com/index/uber
 id: https://openai.com/index/uber
 date: Wed, 06 May 2026 00:00:00 GMT
+body:
+#ITEM
+title: Uber brings ChatGPT Work to all employees with OpenAI
+link: https://openai.com/index/uber-chatgpt-work-rollout
+id: https://openai.com/index/uber-chatgpt-work-rollout
+date: Thu, 22 Oct 2026 00:00:00 GMT
 body:
 #ITEM
 title: Uber enables outstanding on-demand experiences with AI

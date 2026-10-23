@@ -663,6 +663,9 @@ Use API/provider credentials
 Roll out a gateway
 Gateway compatibility
 Bedrock through LiteLLM
+ChatGPT EDU
+Education plans
+Higher education setup
 ChatGPT Work
 Overview
 Cloud security
@@ -838,6 +841,19 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 October, 2026
+Oct 22
+Update
+gpt-6-luna
+v1/decisions
+The
+Decisions API
+is now generally available with
+gpt-6-luna
+. Cache shared input across requests for prompt-cache discounts, include images in individual question instructions, and pass structured data directly with
+input_json
+. Each request now supports up to 400 questions, increased from 200 in public beta. Review the
+changes since public beta
+.
 Oct 21
 Feature
 You can now choose which service tiers projects can use in Platform settings. Organization settings can restrict service tiers for all projects. See
