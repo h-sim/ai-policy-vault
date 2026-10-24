@@ -1,5 +1,68 @@
 [
   {
+    "id": "83186d4f90355d85d79e85fa052550292f9e3bf7",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+The\n+Claude Tag API\n+is available in beta for Claude Enterprise organizations with the\n+experimental-claude-tag-2026-10-21\n+beta header. Its\n+/v1/organizations/claude_tag/\n+endpoints read and change\n+Claude Tag\n+settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner cre\n+read:claude_tag\n+or\n+write:claude_tag\n+scope. It is not available to Claude Platform (Claude Console) organizations.\n+October 20, 2026\n+\n-Web fetch tool\n+How to use web fetch\n-migration guide\n+Claude Sonnet 5.5 migration guide\n-, at $4 / $20 USD per MTok (Claude Opus 5 is $5 / $25). Claude Opus 5.5 is available on the Claude API,\n+, at $4 / $20 USD per MTok (Claude Opus 5 is $5 / $25 USD). Claude Opus 5.5 is available on the Claude API,\n-migration guide\n+Claude Opus 5.5 migration guide\n-, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 per MTok. Claude Fable 5.1 is available on the Claude API,\n+, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API,\n-API keys\n+API keys in Authentication\n-($2 / $10 per MTok) is now the standard price: the previously scheduled increase to $3 / $15 per MTok on September 1, 2026 will not occur. See\n+($2 / $10 USD per MTok) is now the standard price: the previously scheduled increase to $3 / $15 USD per MTok on September 1, 2026, will not occur. See\n-Fast mode\n+Fast mode model availability\n-Subscribe to webhooks\n+Supported event types\n-Authentication\n+Key expiration in Authentication\n-), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 per MTok (made the standard price on August 10, 2026). Claude Sonnet 5 supports a\n+), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 USD per MTok (made the standard price on August 10, 2026). Claude Sonnet 5 supports a\n-Subscribe to webhooks\n+Supported event types\n-Fast mode",
+    "snippet_full": "",
+    "diff": {
+      "added": 70,
+      "removed": 54,
+      "churn": 124
+    },
+    "score": 140,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 24 Oct 2026 02:47:34 GMT",
+    "run_at": "2026-10-24T02:46:55Z",
+    "run_id": "a9853110ff6b49438f8d0ea43b5151eb"
+  },
+  {
+    "id": "8dc1de8e7cbed412ed31374df5e010de05f70d14",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI and Poland’s NASK partner to advance AI safety and security\n+link: https://openai.com/index/openai-nask-ai-safety-security-partnership\n+id: https://openai.com/index/openai-nask-ai-safety-security-partnership\n+date: Fri, 23 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)\n+link: https://openai.com/index/scaling-storage-one-billion-users-part-two\n+id: https://openai.com/index/scaling-storage-one-billion-users-part-two\n+date: Fri, 23 Oct 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Securing our frontier model training environment\n+link: https://openai.com/index/securing-our-frontier-model-training-environment\n+id: https://openai.com/index/securing-our-frontier-model-training-environment\n+date: Fri, 23 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 24 Oct 2026 02:47:16 GMT",
+    "run_at": "2026-10-24T02:46:55Z",
+    "run_id": "a9853110ff6b49438f8d0ea43b5151eb"
+  },
+  {
+    "id": "40ad0c8d3b88c4a0854aeb513d5fff86dcf548ab",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Scheduled automations\n+Model catalogs",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 24 Oct 2026 02:46:55 GMT",
+    "run_at": "2026-10-24T02:46:55Z",
+    "run_id": "a9853110ff6b49438f8d0ea43b5151eb"
+  },
+  {
     "id": "ef1d6dfdf5009c2477451cdf74cbc93a26384702",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -926,67 +989,5 @@
     "pubDate": "Thu, 01 Oct 2026 03:28:16 GMT",
     "run_at": "2026-10-01T03:28:15Z",
     "run_id": "431eb75b4d3f420bb0c512c440fa215b"
-  },
-  {
-    "id": "3cb6546b5cbb3dc1d2aa22007578b1ae30c1d784",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Towards safety cases for frontier AI training\n+link: https://openai.com/index/towards-safety-cases-for-frontier-ai-training\n+id: https://openai.com/index/towards-safety-cases-for-frontier-ai-training\n+title: DevDay 2026 Recap\n+link: https://openai.com/index/devday-2026-recap\n+id: https://openai.com/index/devday-2026-recap\n+date: Tue, 29 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing dots\n+link: https://openai.com/index/introducing-dots\n+id: https://openai.com/index/introducing-dots",
-    "snippet_full": "+title: DevDay 2026 Recap\n+link: https://openai.com/index/devday-2026-recap\n+id: https://openai.com/index/devday-2026-recap\n+date: Tue, 29 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing dots\n+link: https://openai.com/index/introducing-dots\n+id: https://openai.com/index/introducing-dots\n+date: Tue, 29 Sep 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-6.1 Sol\n+link: https://openai.com/index/introducing-gpt-6-1-sol\n+id: https://openai.com/index/introducing-gpt-6-1-sol\n+date: Tue, 29 Sep 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Towards safety cases for frontier AI training\n+link: https://openai.com/index/towards-safety-cases-for-frontier-ai-training\n+id: https://openai.com/index/towards-safety-cases-for-frontier-ai-training\n+date: Mon, 28 Sep 2026 19:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 30 Sep 2026 03:22:32 GMT",
-    "run_at": "2026-09-30T03:22:10Z",
-    "run_id": "7aa909562a51436492aae20b2f5f11df"
-  },
-  {
-    "id": "59cf3d80a1ba26f124e8d73907d1fe0290abf58d",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Codex\n-Docs\n-Guides, concepts, and product docs for Codex\n-Use cases\n-Example workflows and tasks teams can take on with ChatGPT or Codex\n-Docs\n-Use cases\n-Training\n-Resources\n+Overview\n+Get started with the OpenAI API\n+Models\n+Explore models and compare capabilities\n+Agents\n+Build persistent agents on hosted infrastructure\n+Tools\n+Connect models to tools and data\n+Audio & voice\n+Build speech and realtime voice experiences\n+Production\n+Deploy and scale your API integrations\n+API reference\n+Explore endpoints, parameters, and responses\n+Sign in with ChatGPT\n+Apps powered by your user's ChatGPT plan\n+ChatGPT + Codex user docs\n+Guides and product docs for ChatGPT and Codex\n+Use cases\n+Example workflows and tasks teams can take on with ChatGPT or Codex\n+Docs\n+Use cases\n+Training\n+Resources\n-Codex\n+API reference\n+Computer use\n+Errors and recovery\n+Bedrock Managed Agents\n+Fast mode\n+Ultrafast mode",
-    "snippet_full": "",
-    "diff": {
-      "added": 149,
-      "removed": 45,
-      "churn": 194
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 30 Sep 2026 03:22:11 GMT",
-    "run_at": "2026-09-30T03:22:10Z",
-    "run_id": "7aa909562a51436492aae20b2f5f11df"
-  },
-  {
-    "id": "105d7146b09ffb82ab2779700e206dd1ad21b66e",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-CLI, SDKs, and libraries\n+SDKs, CLI, and libraries\n+September 28, 2026\n+\n+We've launched\n+Claude Sonnet 5.5\n+(\n+claude-sonnet-5-5\n+). It's available on the Claude API,\n+Claude in Amazon Bedrock\n+,\n+Claude Platform on AWS\n+,\n+Claude on Google Cloud\n+, and\n+Claude in Microsoft Foundry\n+. For its context window, output limits, and prices, see the\n+Claude Sonnet 5.5 model page\n+.\n+Code written for Claude Sonnet 5 can break on Claude Sonnet 5.5 in five ways. To turn off up-front thinking, send\n+thinking: {\"type\": \"between_tools\"}\n+instead of\n+\"disabled\"\n+, at\n+high\n+effort or below. Forced tool use (\n+tool_choice\n+types\n+any\n+and\n+tool\n+) returns a 400 error. Thinking blocks are tied to the model and the conversation.\n+On the Claude API and Google Cloud, the\n+earlier\n+computer_20251124\n+computer use tool isn't accepted. The advisor tool rejects Claude Opus 4.8, Claude Opus 4.7, and Claude Sonnet 5 as advisors. See\n+What's new in Claude Sonnet 5.5\n+for each change and the\n+migration guide\n+for before-and-after requests. For model-specific prompting patterns, see",
-    "snippet_full": "",
-    "diff": {
-      "added": 45,
-      "removed": 1,
-      "churn": 46
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 29 Sep 2026 03:36:37 GMT",
-    "run_at": "2026-09-29T03:36:12Z",
-    "run_id": "1527223383f9479db9505c07d63358b7"
   }
 ]

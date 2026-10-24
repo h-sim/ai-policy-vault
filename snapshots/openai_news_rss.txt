@@ -5693,6 +5693,12 @@ id: https://openai.com/index/openai-models-google-cloud
 date: Wed, 21 Oct 2026 12:00:00 GMT
 body:
 #ITEM
+title: OpenAI and Poland’s NASK partner to advance AI safety and security
+link: https://openai.com/index/openai-nask-ai-safety-security-partnership
+id: https://openai.com/index/openai-nask-ai-safety-security-partnership
+date: Fri, 23 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems
 link: https://openai.com/index/openai-nvidia-systems-partnership
 id: https://openai.com/index/openai-nvidia-systems-partnership
@@ -6653,6 +6659,12 @@ id: https://openai.com/index/scaling-storage-one-billion-users-part-one
 date: Fri, 11 Sep 2026 10:00:00 GMT
 body:
 #ITEM
+title: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)
+link: https://openai.com/index/scaling-storage-one-billion-users-part-two
+id: https://openai.com/index/scaling-storage-one-billion-users-part-two
+date: Fri, 23 Oct 2026 17:00:00 GMT
+body:
+#ITEM
 title: Trusted access for the next era of cyber defense
 link: https://openai.com/index/scaling-trusted-access-for-cyber-defense
 id: https://openai.com/index/scaling-trusted-access-for-cyber-defense
@@ -6693,6 +6705,12 @@ title: SearchGPT is a prototype of new AI search features
 link: https://openai.com/index/searchgpt-prototype
 id: https://openai.com/index/searchgpt-prototype
 date: Thu, 25 Jul 2024 00:00:00 GMT
+body:
+#ITEM
+title: Securing our frontier model training environment
+link: https://openai.com/index/securing-our-frontier-model-training-environment
+id: https://openai.com/index/securing-our-frontier-model-training-environment
+date: Fri, 23 Oct 2026 10:00:00 GMT
 body:
 #ITEM
 title: Security on the path to AGI
