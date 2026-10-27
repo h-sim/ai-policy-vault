@@ -843,6 +843,17 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 October, 2026
+Oct 26
+Feature
+gpt-6.1-terra
+v1/responses
+v1/chat/completions
+Released
+GPT-6.1 Terra
+, a fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.
+See the
+GPT-6 guide
+for prompting and migration guidance.
 Oct 22
 Update
 gpt-6-luna

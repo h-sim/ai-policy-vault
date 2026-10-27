@@ -1307,6 +1307,12 @@ id: https://openai.com/index/building-openai-with-openai
 date: Mon, 29 Sep 2025 13:30:00 GMT
 body:
 #ITEM
+title: Working with academic communities to build scientific understanding
+link: https://openai.com/index/building-scientific-understanding-with-academic-communities
+id: https://openai.com/index/building-scientific-understanding-with-academic-communities
+date: Mon, 26 Oct 2026 14:30:00 GMT
+body:
+#ITEM
 title: Building self-improving tax agents with Codex
 link: https://openai.com/index/building-self-improving-tax-agents-with-codex
 id: https://openai.com/index/building-self-improving-tax-agents-with-codex
@@ -1425,6 +1431,12 @@ title: New usage analytics and updated spend controls for enterprises
 link: https://openai.com/index/chatgpt-enterprise-spend-controls
 id: https://openai.com/index/chatgpt-enterprise-spend-controls
 date: Thu, 18 Jun 2026 17:00:00 GMT
+body:
+#ITEM
+title: ChatGPT’s expanding world of work
+link: https://openai.com/index/chatgpt-expanding-world-of-work
+id: https://openai.com/index/chatgpt-expanding-world-of-work
+date: Mon, 26 Oct 2026 10:00:00 GMT
 body:
 #ITEM
 title: Accelerating scientific discovery with ChatGPT for Academic Researchers
@@ -2771,6 +2783,12 @@ id: https://openai.com/index/fanatics-betting-gaming-andrea-ellis
 date: Thu, 13 Feb 2025 10:01:00 GMT
 body:
 #ITEM
+title: How Fanatics and OpenAI streamline the fan experience
+link: https://openai.com/index/fanatics-streamline-fan-experience
+id: https://openai.com/index/fanatics-streamline-fan-experience
+date: Mon, 26 Oct 2026 07:00:00 GMT
+body:
+#ITEM
 title: Faster physics in Python
 link: https://openai.com/index/faster-physics-in-python
 id: https://openai.com/index/faster-physics-in-python
@@ -3323,6 +3341,12 @@ id: https://openai.com/index/gpt-5-system-card-update-gpt-5-2
 date: Thu, 11 Dec 2025 00:00:00 GMT
 body:
 #ITEM
+title: GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases
+link: https://openai.com/index/gpt-6-1-sol-coderabbit-code-security
+id: https://openai.com/index/gpt-6-1-sol-coderabbit-code-security
+date: Mon, 26 Oct 2026 13:45:00 GMT
+body:
+#ITEM
 title: GPT-6 Astra: A new generation of intelligence
 link: https://openai.com/index/gpt-6-astra
 id: https://openai.com/index/gpt-6-astra
@@ -3375,6 +3399,12 @@ title: Gradient Labs gives every bank customer an AI account manager
 link: https://openai.com/index/gradient-labs
 id: https://openai.com/index/gradient-labs
 date: Wed, 01 Apr 2026 02:00:00 GMT
+body:
+#ITEM
+title: Greptile takes bug detection beyond code review with GPT-6 Astra
+link: https://openai.com/index/greptile-code-review-codex-astra
+id: https://openai.com/index/greptile-code-review-codex-astra
+date: Mon, 26 Oct 2026 22:00:00 GMT
 body:
 #ITEM
 title: Introducing group chats in ChatGPT
@@ -4095,6 +4125,12 @@ title: Introducing GPT-6.1 Sol
 link: https://openai.com/index/introducing-gpt-6-1-sol
 id: https://openai.com/index/introducing-gpt-6-1-sol
 date: Tue, 29 Sep 2026 17:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-6.1 Terra
+link: https://openai.com/index/introducing-gpt-6-1-terra
+id: https://openai.com/index/introducing-gpt-6-1-terra
+date: Mon, 26 Oct 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing GPT-6 Sol and Luna
@@ -5523,6 +5559,12 @@ title: Turning contracts into searchable data at OpenAI
 link: https://openai.com/index/openai-contract-data-agent
 id: https://openai.com/index/openai-contract-data-agent
 date: Mon, 29 Sep 2025 13:30:00 GMT
+body:
+#ITEM
+title: How Ultrafast cut incident investigation from hours to minutes at OpenAI
+link: https://openai.com/index/openai-cut-incident-investigation
+id: https://openai.com/index/openai-cut-incident-investigation
+date: Mon, 26 Oct 2026 07:00:00 GMT
 body:
 #ITEM
 title: OpenAI Cybersecurity Grant Program
