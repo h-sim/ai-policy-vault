@@ -1,5 +1,67 @@
 [
   {
+    "id": "769867d90305032383d8d2d2bcf9fb7b90bc0017",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-We've launched\n+We’ve launched\n-We've released API version\n+We’ve released API version\n-We've released new versions of the\n+We’ve released new versions of the\n-The new SDK and CLI versions also have breaking changes that don't depend on the API version, and they are licensed under Apache 2.0 instead of the MIT License. See\n+The new SDK and CLI versions also have breaking changes that don’t depend on the API version, and they are licensed under Apache 2.0 instead of the MIT License. See\n-We've added the\n+We’ve added the\n-We've launched\n+We’ve launched\n-We've added\n+We’ve added\n-register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, con\n+register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization’s user profiles, and one for when the restriction or ban ends. To request access, con\n-now follows your organization's web fetch domain restrictions set on the\n+now follows your organization’s web fetch domain restrictions set on the\n-page of the Claude Console. A URL, including one reached by a redirect, must pass both the organization's list and the\n+page of the Claude Console. A URL, including one reached by a redirect, must pass both the organization’s list and the\n-list on the agent's\n+list on the agent’s\n-In Claude Managed Agents, sessions follow your organization's web search settings on the\n+In Claude Managed Agents, sessions follow your organization’s web search settings on the\n-setting since October 6, and its web search domain restrictions since October 14. The agent receives only the search results that both the organization's domain restrictions and the\n+setting since October 6, and its web search domain restrictions since October 14. The agent receives only the search results that both the organization’s domain restrictions and the\n-list on the agent's\n+list on the agent’s\n-We've added\n+We’ve added\n-We've launched\n+We’ve launched\n-, set the agent's\n+, set the agent’s\n-events on the session's event stream. See\n+events on the session’s event stream. See\n-We've lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x. Cache writes and all other prices are un\n+We’ve lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x. Cache writes and all other prices are un\n-We've launched\n+We’ve launched",
+    "snippet_full": "",
+    "diff": {
+      "added": 240,
+      "removed": 225,
+      "churn": 465
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 28 Oct 2026 03:25:58 GMT",
+    "run_at": "2026-10-28T03:25:18Z",
+    "run_id": "cf7f285424e640ad8b7ca8118949763b"
+  },
+  {
+    "id": "664b96af817b14e8b0183f3fa9cec8380f383ef8",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live\n+link: https://openai.com/index/anima\n+id: https://openai.com/index/anima\n+date: Fri, 23 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Check Point accelerates vulnerability research with Daybreak\n+link: https://openai.com/index/check-point-daybreak\n+id: https://openai.com/index/check-point-daybreak\n+date: Tue, 27 Oct 2026 00:00:00 GMT\n+title: How Grupo Boticário uses AI to strengthen human connections\n+link: https://openai.com/index/grupo-boticario",
+    "snippet_full": "+title: Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live\n+link: https://openai.com/index/anima\n+id: https://openai.com/index/anima\n+date: Fri, 23 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Check Point accelerates vulnerability research with Daybreak\n+link: https://openai.com/index/check-point-daybreak\n+id: https://openai.com/index/check-point-daybreak\n+date: Tue, 27 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Grupo Boticário uses AI to strengthen human connections\n+link: https://openai.com/index/grupo-boticario\n+id: https://openai.com/index/grupo-boticario\n+date: Fri, 16 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Localiza reorganized work around generative AI\n+link: https://openai.com/index/localiza-generative-ai\n+id: https://openai.com/index/localiza-generative-ai\n+date: Fri, 16 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI expands partnership with Oracle to bring its apps to ChatGPT\n+link: https://openai.com/index/oracle-apps-in-chatgpt\n+id: https://openai.com/index/oracle-apps-in-chatgpt\n+date: Tue, 27 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Retell uses OpenAI models to help power 100M monthly calls\n+link: https://openai.com/index/retell-ai\n+id: https://openai.com/index/retell-ai\n+date: Tue, 27 Oct 2026 15:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 36,
+      "removed": 0,
+      "churn": 36
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 28 Oct 2026 03:25:18 GMT",
+    "run_at": "2026-10-28T03:25:18Z",
+    "run_id": "cf7f285424e640ad8b7ca8118949763b"
+  },
+  {
+    "id": "2481b27e9d07f35abc793e3d19e592e61943fd2d",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Account security notification\n-Sign in with ChatGPT\n-Use API/provider credentials",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 2,
+      "churn": 3
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 28 Oct 2026 03:25:18 GMT",
+    "run_at": "2026-10-28T03:25:18Z",
+    "run_id": "cf7f285424e640ad8b7ca8118949763b"
+  },
+  {
     "id": "484fd6dff87147d89b1c7407f51672304a7ac86f",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -934,64 +996,5 @@
     "pubDate": "Sat, 03 Oct 2026 03:12:44 GMT",
     "run_at": "2026-10-03T03:12:44Z",
     "run_id": "42af8cd0b67341e897cc12e10bf3191f"
-  },
-  {
-    "id": "21d7f2176bd16ac92b8623f916b56aabc5f6912a",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Enforcement notifications\n+Bedrock GovCloud configuration",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 03 Oct 2026 03:12:44 GMT",
-    "run_at": "2026-10-03T03:12:44Z",
-    "run_id": "42af8cd0b67341e897cc12e10bf3191f"
-  },
-  {
-    "id": "c9618a86a65dfed3f1f7964c6949173b7ee2dc83",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How Albertsons Companies is reimagining retail from the inside out\n+link: https://openai.com/index/albertsons-reimagining-retail\n+id: https://openai.com/index/albertsons-reimagining-retail\n+date: Thu, 01 Oct 2026 16:00:00 GMT\n+body:\n+#ITEM\n+title: The Den frees up 10-15 hours a week to grow with ChatGPT Work\n+link: https://openai.com/index/the-den-family-social\n+id: https://openai.com/index/the-den-family-social\n+date: Thu, 01 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: The eternal complement\n+link: https://openai.com/index/the-eternal-complement\n+id: https://openai.com/index/the-eternal-complement\n+date: Thu, 01 Oct 2026 17:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 02 Oct 2026 03:28:30 GMT",
-    "run_at": "2026-10-02T03:28:30Z",
-    "run_id": "d9889666eba444a4aaf85b661436dbc9"
-  },
-  {
-    "id": "a4fe7449d3f85ce01ac84ff470a60ada52c1acba",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Hotel Feeds (limited beta)",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 02 Oct 2026 03:28:30 GMT",
-    "run_at": "2026-10-02T03:28:30Z",
-    "run_id": "d9889666eba444a4aaf85b661436dbc9"
   }
 ]

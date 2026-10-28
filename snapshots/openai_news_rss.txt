@@ -911,6 +911,12 @@ id: https://openai.com/index/an-alien-mind
 date: Sun, 06 Sep 2026 09:00:00 GMT
 body:
 #ITEM
+title: Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live
+link: https://openai.com/index/anima
+id: https://openai.com/index/anima
+date: Fri, 23 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: Announcing OpenAI DevDay 2025
 link: https://openai.com/index/announcing-devday-2025
 id: https://openai.com/index/announcing-devday-2025
@@ -1521,6 +1527,12 @@ title: Chatham scales its capital markets expertise with OpenAI
 link: https://openai.com/index/chatham-financial
 id: https://openai.com/index/chatham-financial
 date: Fri, 02 Oct 2026 00:00:00 GMT
+body:
+#ITEM
+title: How Check Point accelerates vulnerability research with Daybreak
+link: https://openai.com/index/check-point-daybreak
+id: https://openai.com/index/check-point-daybreak
+date: Tue, 27 Oct 2026 00:00:00 GMT
 body:
 #ITEM
 title: OpenAI’s commitment to child safety: adopting safety by design principles
@@ -3413,6 +3425,12 @@ id: https://openai.com/index/group-chats-in-chatgpt
 date: Thu, 13 Nov 2025 00:00:00 GMT
 body:
 #ITEM
+title: How Grupo Boticário uses AI to strengthen human connections
+link: https://openai.com/index/grupo-boticario
+id: https://openai.com/index/grupo-boticario
+date: Fri, 16 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership
 link: https://openai.com/index/grupo-folha-grupo-uol-partnership
 id: https://openai.com/index/grupo-folha-grupo-uol-partnership
@@ -4775,6 +4793,12 @@ id: https://openai.com/index/lifespan
 date: Wed, 06 Mar 2024 08:00:00 GMT
 body:
 #ITEM
+title: How Localiza reorganized work around generative AI
+link: https://openai.com/index/localiza-generative-ai
+id: https://openai.com/index/localiza-generative-ai
+date: Fri, 16 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: How loveholidays is making everyone a builder with Codex
 link: https://openai.com/index/loveholidays
 id: https://openai.com/index/loveholidays
@@ -5963,6 +5987,12 @@ id: https://openai.com/index/oracle
 date: Thu, 08 Oct 2026 16:00:00 GMT
 body:
 #ITEM
+title: OpenAI expands partnership with Oracle to bring its apps to ChatGPT
+link: https://openai.com/index/oracle-apps-in-chatgpt
+id: https://openai.com/index/oracle-apps-in-chatgpt
+date: Tue, 27 Oct 2026 07:00:00 GMT
+body:
+#ITEM
 title: Organizational update from OpenAI
 link: https://openai.com/index/organizational-update
 id: https://openai.com/index/organizational-update
@@ -6477,6 +6507,12 @@ title: Customizable, no-code voice agent automation with GPT-4o
 link: https://openai.com/index/retell-ai
 id: https://openai.com/index/retell-ai
 date: Thu, 26 Jun 2025 10:00:00 GMT
+body:
+#ITEM
+title: Retell uses OpenAI models to help power 100M monthly calls
+link: https://openai.com/index/retell-ai
+id: https://openai.com/index/retell-ai
+date: Tue, 27 Oct 2026 15:00:00 GMT
 body:
 #ITEM
 title: Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT
