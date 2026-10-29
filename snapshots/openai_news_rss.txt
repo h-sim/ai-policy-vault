@@ -4769,6 +4769,12 @@ id: https://openai.com/index/legalon-halves-codex-costs
 date: Thu, 08 Oct 2026 12:00:00 GMT
 body:
 #ITEM
+title: Legora is building the agentic operating system for legal work
+link: https://openai.com/index/legora
+id: https://openai.com/index/legora
+date: Wed, 28 Oct 2026 09:30:00 GMT
+body:
+#ITEM
 title: Legora reviewed 41 documents in minutes with GPT-6 Astra
 link: https://openai.com/index/legora-financial-statement-review-with-astra
 id: https://openai.com/index/legora-financial-statement-review-with-astra
@@ -5901,6 +5907,12 @@ title: OpenAI Scholars 2021: Final projects
 link: https://openai.com/index/openai-scholars-2021-final-projects
 id: https://openai.com/index/openai-scholars-2021-final-projects
 date: Mon, 10 May 2021 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI and ServiceNow expand partnership across enterprise workflows
+link: https://openai.com/index/openai-servicenow-partnership-expansion
+id: https://openai.com/index/openai-servicenow-partnership-expansion
+date: Wed, 28 Oct 2026 13:15:00 GMT
 body:
 #ITEM
 title: Confidential submission of draft S-1 to the SEC
@@ -7389,6 +7401,12 @@ title: The full stack behind abundant intelligence
 link: https://openai.com/index/the-full-stack-behind-abundant-intelligence
 id: https://openai.com/index/the-full-stack-behind-abundant-intelligence
 date: Tue, 25 Aug 2026 07:05:00 GMT
+body:
+#ITEM
+title: The future of the firm
+link: https://openai.com/index/the-future-of-the-firm
+id: https://openai.com/index/the-future-of-the-firm
+date: Wed, 28 Oct 2026 10:00:00 GMT
 body:
 #ITEM
 title: The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions

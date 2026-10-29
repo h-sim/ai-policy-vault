@@ -1,5 +1,62 @@
 [
   {
+    "id": "8e2f449d5efab3fcf3ab316e3b34a45258345180",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Compatibility\n+API support",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 29 Oct 2026 03:48:00 GMT",
+    "run_at": "2026-10-29T03:47:39Z",
+    "run_id": "956fbc39a7f341da947a79d28afdb382"
+  },
+  {
+    "id": "6052c97c631f0862762a38937e0c2607feb6e8aa",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Legora is building the agentic operating system for legal work\n+link: https://openai.com/index/legora\n+id: https://openai.com/index/legora\n+date: Wed, 28 Oct 2026 09:30:00 GMT\n+body:\n+#ITEM\n+title: OpenAI and ServiceNow expand partnership across enterprise workflows\n+link: https://openai.com/index/openai-servicenow-partnership-expansion\n+id: https://openai.com/index/openai-servicenow-partnership-expansion\n+date: Wed, 28 Oct 2026 13:15:00 GMT\n+body:\n+#ITEM\n+title: The future of the firm\n+link: https://openai.com/index/the-future-of-the-firm\n+id: https://openai.com/index/the-future-of-the-firm\n+date: Wed, 28 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 29 Oct 2026 03:47:40 GMT",
+    "run_at": "2026-10-29T03:47:39Z",
+    "run_id": "956fbc39a7f341da947a79d28afdb382"
+  },
+  {
+    "id": "f2bc9835adcf34e196d4093e442b163e9e1a85be",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+API credits for ChatGPT subscribers\n+API credits for ChatGPT subscribers\n+Oct 28\n+Feature\n+Eligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit. Activate the benefit from ChatGPT or API Platform by linking an API org\n+API credits for ChatGPT subscribers\n+for credit amounts, eligibility, and how to claim.",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 0,
+      "churn": 7
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 29 Oct 2026 03:47:39 GMT",
+    "run_at": "2026-10-29T03:47:39Z",
+    "run_id": "956fbc39a7f341da947a79d28afdb382"
+  },
+  {
     "id": "769867d90305032383d8d2d2bcf9fb7b90bc0017",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -939,62 +996,5 @@
     "pubDate": "Tue, 06 Oct 2026 04:12:03 GMT",
     "run_at": "2026-10-06T04:12:02Z",
     "run_id": "469b4e2c987c4f4d9b8c77818dfbf7b7"
-  },
-  {
-    "id": "21e04d4af8cdd5d3bed7c909343771bd43c6189c",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+October, 2026\n+Oct 5\n+Feature\n+Added an in-product flow for HIPAA compliance support in API\n+Organization settings > General\n+. Admins of eligible organizations can now accept the standard Business Associate Agreement (BAA) and enable HIPAA compliance support for their organization. See the\n+Help Center\n+for eligibility, covered services, and configuration requirements.",
-    "snippet_full": "",
-    "diff": {
-      "added": 8,
-      "removed": 0,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 06 Oct 2026 04:12:03 GMT",
-    "run_at": "2026-10-06T04:12:02Z",
-    "run_id": "469b4e2c987c4f4d9b8c77818dfbf7b7"
-  },
-  {
-    "id": "f271620756aa2160b0e2f8ad2660c6da15c21e87",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Use memory stores\n+Memory stores in self-hosted sandboxes",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 03 Oct 2026 03:12:45 GMT",
-    "run_at": "2026-10-03T03:12:44Z",
-    "run_id": "42af8cd0b67341e897cc12e10bf3191f"
-  },
-  {
-    "id": "e832698bff050b69d57cb4aab312bb9da0507e2c",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Chatham scales its capital markets expertise with OpenAI\n+link: https://openai.com/index/chatham-financial\n+id: https://openai.com/index/chatham-financial\n+date: Fri, 02 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: A model guide for the GPT-6 family\n+link: https://openai.com/index/practical-guide-building-gpt-6\n+id: https://openai.com/index/practical-guide-building-gpt-6\n+date: Fri, 02 Oct 2026 16:15:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 03 Oct 2026 03:12:44 GMT",
-    "run_at": "2026-10-03T03:12:44Z",
-    "run_id": "42af8cd0b67341e897cc12e10bf3191f"
   }
 ]

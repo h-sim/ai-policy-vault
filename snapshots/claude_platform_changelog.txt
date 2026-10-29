@@ -1553,7 +1553,7 @@ type
 to
 code_execution_20260120
 ; no beta header is required. It’s available on Claude Fable 5, Claude Mythos 5, Claude Opus 4.5 and newer, and Claude Sonnet 4.5 and newer; see the code execution tool’s
-Compatibility
+API support
 section.
 June 15, 2026
 
