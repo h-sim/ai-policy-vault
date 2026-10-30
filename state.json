@@ -1,5 +1,62 @@
 [
   {
+    "id": "5c081e4d9db8702eac470d20108f6243f4ed63af",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+October 29, 2026\n+\n+We’ve launched the\n+Usage and Cost Analytics API\n+in beta with the\n+analytics-usage-cost-2026-08-24\n+beta header. Its\n+/v1/organizations/analytics/usage\n+and\n+/v1/organizations/analytics/cost\n+endpoints report token usage and cost for Claude Console and Claude Enterprise organizations. You can filter and group results by dimensions such as model, workspace, API key, and the user or service\n+The\n+Usage and Cost API\n+is now a legacy API, and so are the\n+usage_report\n+,\n+cost_report\n+,\n+user_usage_report\n+, and\n+user_cost_report\n+endpoints of the\n+Claude Enterprise Analytics API\n+. All of them remain supported. To move an existing integration, see\n+Migrate from the Usage and Cost API\n+or\n+Migrate from the Claude Enterprise usage and cost reports\n+.\n+October 28, 2026\n+\n+We’ve raised the\n+maximum request size\n+for the Messages API and the Token Counting API from 32 MB to 128 MB on the first-party Claude API.\n+October 29, 2026\n+October 28, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 35,
+      "removed": 0,
+      "churn": 35
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 30 Oct 2026 03:51:19 GMT",
+    "run_at": "2026-10-30T03:50:58Z",
+    "run_id": "ff19af6a4d424d4499a795b0088cbc40"
+  },
+  {
+    "id": "4ccb0a0a3df70729c66b45543436f5d7712c300a",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How we detect frontier model misalignment\n+link: https://openai.com/index/how-we-detect-frontier-model-misalignment\n+id: https://openai.com/index/how-we-detect-frontier-model-misalignment\n+date: Thu, 29 Oct 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: How Ropes & Gray is developing AI for transactional diligence\n+link: https://openai.com/index/ropes-gray-ai-diligence\n+id: https://openai.com/index/ropes-gray-ai-diligence\n+date: Thu, 29 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: An updated Model Spec for more capable and beneficial AI\n+link: https://openai.com/index/updated-model-spec\n+id: https://openai.com/index/updated-model-spec\n+date: Thu, 29 Oct 2026 17:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 30 Oct 2026 03:50:58 GMT",
+    "run_at": "2026-10-30T03:50:58Z",
+    "run_id": "ff19af6a4d424d4499a795b0088cbc40"
+  },
+  {
+    "id": "ad6cd9160737265f0e110f42449bc65a0606aba5",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Plugin management\n+Import and sync plugins from GitHub",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 30 Oct 2026 03:50:58 GMT",
+    "run_at": "2026-10-30T03:50:58Z",
+    "run_id": "ff19af6a4d424d4499a795b0088cbc40"
+  },
+  {
     "id": "8e2f449d5efab3fcf3ab316e3b34a45258345180",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -937,64 +994,5 @@
     "pubDate": "Wed, 07 Oct 2026 03:38:57 GMT",
     "run_at": "2026-10-07T03:38:57Z",
     "run_id": "fb8d56618fe7492c88dfdfff3dec15e9"
-  },
-  {
-    "id": "e9b9668eff0a9718873be6ca00c8bf0eebcc8517",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Decisions API\n+Connect voice to Decisions\n-Remote\n+ChatGPT mobile app\n+Decisions API\n+Oct 6\n+Feature\n+gpt-6-luna\n+v1/decisions\n+Released the\n+Decisions API\n+in beta with\n+gpt-6-luna\n+. Turn text and images into typed answers 10x faster than the Responses API.\n+Oct 6\n+Update\n+Simplified API usage tiers from five to three: Build, Launch, and Grow. Organizations automatically upgrade as total credit purchases reach tier minimums. See\n+usage tiers\n+for monthly usage limits and how to view rate limits for each model.",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 1,
-      "churn": 19
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 07 Oct 2026 03:38:57 GMT",
-    "run_at": "2026-10-07T03:38:57Z",
-    "run_id": "fb8d56618fe7492c88dfdfff3dec15e9"
-  },
-  {
-    "id": "461269d2454f6836b94f3db07895be673793e8f4",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+October 1, 2026\n+\n+We've added a\n+line\n+field to the\n+Models API\n+.\n+GET /v1/models\n+and\n+GET /v1/models/{model_id}\n+now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report\n+opus\n+, for example. Use\n+line\n+to group models without parsing their IDs.\n+line\n+is\n+null\n+for a model that belongs to no line. See\n+Using the Models API\n+.\n+October 1, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 22,
-      "removed": 0,
-      "churn": 22
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 06 Oct 2026 04:12:03 GMT",
-    "run_at": "2026-10-06T04:12:02Z",
-    "run_id": "469b4e2c987c4f4d9b8c77818dfbf7b7"
-  },
-  {
-    "id": "07a8320203cf552034cfe79e3c92b3ea70a95563",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Our approach to EU text provenance rules\n+link: https://openai.com/index/eu-text-provenance\n+id: https://openai.com/index/eu-text-provenance\n+date: Mon, 05 Oct 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: Building advertising for the way people use AI\n+link: https://openai.com/index/new-chatgpt-ads-format-and-measurement\n+id: https://openai.com/index/new-chatgpt-ads-format-and-measurement\n+date: Mon, 05 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM\n-date: Wed, 11 Mar 2026 00:00:00 GMT\n+date: Fri, 25 Sep 2026 00:00:00 GMT",
-    "snippet_full": "",
-    "diff": {
-      "added": 13,
-      "removed": 1,
-      "churn": 14
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 06 Oct 2026 04:12:03 GMT",
-    "run_at": "2026-10-06T04:12:02Z",
-    "run_id": "469b4e2c987c4f4d9b8c77818dfbf7b7"
   }
 ]

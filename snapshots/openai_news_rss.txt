@@ -3695,6 +3695,12 @@ id: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
 date: Wed, 29 Jul 2026 15:00:00 GMT
 body:
 #ITEM
+title: How we detect frontier model misalignment
+link: https://openai.com/index/how-we-detect-frontier-model-misalignment
+id: https://openai.com/index/how-we-detect-frontier-model-misalignment
+date: Thu, 29 Oct 2026 09:00:00 GMT
+body:
+#ITEM
 title: How we monitor internal coding agents for misalignment
 link: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
 id: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
@@ -6599,6 +6605,12 @@ id: https://openai.com/index/rogo
 date: Thu, 13 Feb 2025 07:00:00 GMT
 body:
 #ITEM
+title: How Ropes & Gray is developing AI for transactional diligence
+link: https://openai.com/index/ropes-gray-ai-diligence
+id: https://openai.com/index/ropes-gray-ai-diligence
+date: Thu, 29 Oct 2026 07:00:00 GMT
+body:
+#ITEM
 title: Rox goes “all in” on OpenAI
 link: https://openai.com/index/rox
 id: https://openai.com/index/rox
@@ -7689,6 +7701,12 @@ title: Update on the OpenAI Foundation
 link: https://openai.com/index/update-on-the-openai-foundation
 id: https://openai.com/index/update-on-the-openai-foundation
 date: Tue, 24 Mar 2026 09:00:00 GMT
+body:
+#ITEM
+title: An updated Model Spec for more capable and beneficial AI
+link: https://openai.com/index/updated-model-spec
+id: https://openai.com/index/updated-model-spec
+date: Thu, 29 Oct 2026 17:00:00 GMT
 body:
 #ITEM
 title: Updating our Model Spec with teen protections
