@@ -1691,6 +1691,12 @@ id: https://openai.com/index/commonwealth-bank-of-australia
 date: Tue, 09 Dec 2025 00:00:00 GMT
 body:
 #ITEM
+title: Community safety report and new protections for teens
+link: https://openai.com/index/community-safety-report-and-new-protections-for-teens
+id: https://openai.com/index/community-safety-report-and-new-protections-for-teens
+date: Fri, 30 Oct 2026 09:00:00 GMT
+body:
+#ITEM
 title: Competitive self-play
 link: https://openai.com/index/competitive-self-play
 id: https://openai.com/index/competitive-self-play
@@ -1797,6 +1803,12 @@ title: How CRED is tapping AI to deliver premium customer experiences
 link: https://openai.com/index/cred-swamy-seetharaman
 id: https://openai.com/index/cred-swamy-seetharaman
 date: Wed, 05 Nov 2025 21:30:00 GMT
+body:
+#ITEM
+title: Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot
+link: https://openai.com/index/credit-saison
+id: https://openai.com/index/credit-saison
+date: Thu, 29 Oct 2026 00:00:00 GMT
 body:
 #ITEM
 title: AI-written critiques help humans notice flaws
@@ -2789,6 +2801,12 @@ id: https://openai.com/index/factory
 date: Thu, 06 Mar 2025 09:00:00 GMT
 body:
 #ITEM
+title: Fair use benefits everyone
+link: https://openai.com/index/fair-use-benefits-everyone
+id: https://openai.com/index/fair-use-benefits-everyone
+date: Fri, 30 Oct 2026 00:00:00 GMT
+body:
+#ITEM
 title: Fanatics Betting and Gaming uses AI to focus on the big picture
 link: https://openai.com/index/fanatics-betting-gaming-andrea-ellis
 id: https://openai.com/index/fanatics-betting-gaming-andrea-ellis
@@ -3543,6 +3561,12 @@ title: Helping small businesses put AI to work
 link: https://openai.com/index/helping-small-businesses-put-ai-to-work
 id: https://openai.com/index/helping-small-businesses-put-ai-to-work
 date: Wed, 30 Sep 2026 10:00:00 GMT
+body:
+#ITEM
+title: Making it easier for websites to express AI training preferences
+link: https://openai.com/index/helping-websites-express-ai-training-preferences
+id: https://openai.com/index/helping-websites-express-ai-training-preferences
+date: Fri, 30 Oct 2026 09:30:00 GMT
 body:
 #ITEM
 title: Hex turns complex analysis into visual reports with GPT‑6 Astra

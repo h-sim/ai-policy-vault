@@ -656,6 +656,7 @@ Deployment and configuration
 Windows app and CLI deployment
 Manage app updates
 Managed configuration
+Self-host configuration
 Codex security cookbook
 Remote connections
 Workspace model availability
@@ -844,6 +845,14 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 October, 2026
+Oct 30
+Feature
+gpt-6-rosalind
+Released
+GPT-6 Rosalind
+, bringing specialized biological reasoning with scientific tool use to complex life sciences research. Access is available to organizations approved for Rosalind Research through the
+trusted-access program
+for internal research by authorized users.
 Oct 28
 Feature
 Eligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit. Activate the benefit from ChatGPT or API Platform by linking an API organization you own. See

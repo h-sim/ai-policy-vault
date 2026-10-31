@@ -52,6 +52,19 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+October 30, 2026
+
+We’ve deprecated
+fast mode
+for Claude Opus 4.8, with removal on November 30, 2026. After removal, requests to
+claude-opus-4-8
+with
+speed: "fast"
+will return an error. To continue using fast mode, migrate to
+Claude Opus 5.5
+. Read more in
+Fast mode
+.
 October 29, 2026
 
 We’ve launched the
@@ -338,8 +351,8 @@ computer use tool
 . You subclass one and write one method per tool against your own browser or desktop automation. The SDK runs the tool loop, the URL and file policies you set for the browser, and your approval callback. See
 Browser and computer use with the SDK toolsets
 .
-Claude Max and Team plans now include monthly API credits. To learn how to claim them, see
-API credits for Max and Team plans
+Claude Max, Ultra, and Team plans now include monthly API credits. To learn how to claim them, see
+API credits for Max, Ultra, and Team plans
 .
 In Claude Managed Agents, a cloud environment with
 limited
@@ -2897,6 +2910,7 @@ blog post
 このページは役に立ちましたか？
 
 
+October 30, 2026
 October 29, 2026
 October 28, 2026
 October 23, 2026
