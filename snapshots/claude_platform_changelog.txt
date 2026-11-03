@@ -52,6 +52,17 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+November 2, 2026
+
+Long conversations and agent loops on the Messages API can now send smaller requests and get a lower time to first token with
+message threads
+, in beta with the
+message-threads-2026-08-12
+beta header. The API keeps the conversation on the server, so each later request sends only the new messages. A thread expires 5 minutes after its last request and is deleted no more than 1 hour after its last use. Message threads are available on the Claude API,
+Claude Platform on AWS
+, Claude Models on Google Cloud (Anthropic managed), and
+Claude in Microsoft Foundry
+.
 October 30, 2026
 
 We’ve deprecated
@@ -2910,6 +2921,7 @@ blog post
 このページは役に立ちましたか？
 
 
+November 2, 2026
 October 30, 2026
 October 29, 2026
 October 28, 2026

@@ -1,5 +1,64 @@
 [
   {
+    "id": "4f0bd65a1406b1a2ffbb26a59b6eaab3e1749ce7",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+November 2, 2026\n+\n+Long conversations and agent loops on the Messages API can now send smaller requests and get a lower time to first token with\n+message threads\n+, in beta with the\n+message-threads-2026-08-12\n+beta header. The API keeps the conversation on the server, so each later request sends only the new messages. A thread expires 5 minutes after its last request and is deleted no more than 1 hour afte\n+Claude Platform on AWS\n+, Claude Models on Google Cloud (Anthropic managed), and\n+Claude in Microsoft Foundry\n+.\n+November 2, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 03 Nov 2026 04:50:56 GMT",
+    "run_at": "2026-11-03T04:50:14Z",
+    "run_id": "e341a0afc5c344ee9cdec700fd4b44d4"
+  },
+  {
+    "id": "34657526247b2c720d799b37a650ab52960b1f48",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization\n+title: Preparing our next security sprint to harden OpenAI\n+link: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai\n+id: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai\n+link: https://openai.com/index/dan-driscoll-joins-openai\n+id: https://openai.com/index/dan-driscoll-joins-openai\n+date: Mon, 02 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Grid Protectors Program\n+link: https://openai.com/index/grid-protectors-program\n+id: https://openai.com/index/grid-protectors-program",
+    "snippet_full": "+title: OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization\n+link: https://openai.com/index/dan-driscoll-joins-openai\n+id: https://openai.com/index/dan-driscoll-joins-openai\n+date: Mon, 02 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Grid Protectors Program\n+link: https://openai.com/index/grid-protectors-program\n+id: https://openai.com/index/grid-protectors-program\n+date: Mon, 02 Nov 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: LifeVal\n+link: https://openai.com/index/lifeval\n+id: https://openai.com/index/lifeval\n+date: Mon, 02 Nov 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Preparing our next security sprint to harden OpenAI\n+link: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai\n+id: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai\n+date: Mon, 02 Nov 2026 18:00:00 GMT\n+body:\n+#ITEM\n+title: Qodo builds context into AI code review with Codex\n+link: https://openai.com/index/qodo-codex-plugin\n+id: https://openai.com/index/qodo-codex-plugin\n+date: Mon, 02 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Rewarding defenders with bigger bug bounties\n+link: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties\n+id: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties\n+date: Mon, 02 Nov 2026 18:00:00 GMT\n+body:\n+#ITEM\n+title: Scaling Git at OpenAI\n+link: https://openai.com/index/scaling-git-at-openai\n+id: https://openai.com/index/scaling-git-at-openai\n+date: Mon, 02 Nov 2026 15:30:00 GMT",
+    "diff": {
+      "added": 42,
+      "removed": 0,
+      "churn": 42
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 03 Nov 2026 04:50:36 GMT",
+    "run_at": "2026-11-03T04:50:14Z",
+    "run_id": "e341a0afc5c344ee9cdec700fd4b44d4"
+  },
+  {
+    "id": "b5d273624e32238fb228882e66f758e0b0b6361d",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Automatic review\n+NFS home directories",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 03 Nov 2026 04:50:14 GMT",
+    "run_at": "2026-11-03T04:50:14Z",
+    "run_id": "e341a0afc5c344ee9cdec700fd4b44d4"
+  },
+  {
     "id": "91729b59cd31531dff6f49468033f5c2d83f359f",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -936,67 +995,5 @@
     "pubDate": "Fri, 09 Oct 2026 03:58:19 GMT",
     "run_at": "2026-10-09T03:58:18Z",
     "run_id": "9fc4c6caa9cd4b2b870fd43225389c53"
-  },
-  {
-    "id": "5079f342d8beb45f8bcac73693e9f4c64a9d71ca",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Oct 8\n+Feature\n+gpt-6.1-sol\n+v1/responses\n+Added\n+Ultrafast mode\n+for\n+GPT-6.1 Sol\n+in the Responses API. Use\n+gpt-6.1-sol\n+with\n+service_tier: \"ultrafast\"\n+to reduce the time between generated output tokens. It is available to all API users, subject to rate limits, with global processing and US and EU data residency. See\n+Ultrafast pricing\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 15,
-      "removed": 0,
-      "churn": 15
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 09 Oct 2026 03:58:18 GMT",
-    "run_at": "2026-10-09T03:58:18Z",
-    "run_id": "9fc4c6caa9cd4b2b870fd43225389c53"
-  },
-  {
-    "id": "6bc191e4812346301463e56fbb26b18908b6e851",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+October 8, 2026\n+\n+The\n+Compliance API\n+chat endpoints now also return chats from the unified Claude experience, in beta for Claude Enterprise organizations, with your existing Compliance Access Key. See\n+Retrieve and delete chats, files, and projects\n+.\n+October 7, 2026\n+\n+We've lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x. Cache writes and all other prices are un\n+Prompt caching pricing\n+.\n+We've launched\n+Claude Haiku 5.5\n+(\n+claude-haiku-5-5\n+), our most capable model tuned for high-volume and latency-sensitive work. It has a\n+1M token context window\n+, 128k max output tokens, and\n+adaptive thinking\n+with the\n+effort parameter\n+. It's available on the Claude API,\n+Claude in Amazon Bedrock\n+,\n+Claude Platform on AWS\n+,\n+Claude on Google Cloud\n+, and\n+Claude in Microsoft Foundry\n+. See\n+What's new in Claude Haiku 5.5\n+.\n+Code written for Claude Haiku 4.5 can break on Claude Haiku 5.5. Manual extended thinking (\n+budget_tokens\n+) returns a 400 error, and adaptive thinking is on by default, so a response can begin with\n+thinking\n+blocks. The same text also counts as more tokens. See the\n+migration guide\n+. For model-specific prompting patterns, see",
-    "snippet_full": "",
-    "diff": {
-      "added": 145,
-      "removed": 1,
-      "churn": 146
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 08 Oct 2026 03:53:23 GMT",
-    "run_at": "2026-10-08T03:53:04Z",
-    "run_id": "ad1d135ca5b546d59ef1e0c130b01534"
-  },
-  {
-    "id": "d689738c76dc63a1ce1438f80e620ed8de77cc80",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: GPT-6 and Intelligent UI for everyone\n+link: https://openai.com/index/gpt-6-for-everyone\n+id: https://openai.com/index/gpt-6-for-everyone\n+date: Wed, 07 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+date: Tue, 29 Sep 2026 17:00:00 GMT\n+title: Introducing GPT-6.1 Sol\n+link: https://openai.com/index/introducing-gpt-6-1-sol\n+id: https://openai.com/index/introducing-gpt-6-1-sol\n+title: Radisson Hotel Group brings hotel discovery into ChatGPT\n+link: https://openai.com/index/radisson",
-    "snippet_full": "+title: GPT-6 and Intelligent UI for everyone\n+link: https://openai.com/index/gpt-6-for-everyone\n+id: https://openai.com/index/gpt-6-for-everyone\n+date: Wed, 07 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+date: Tue, 29 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-6.1 Sol\n+link: https://openai.com/index/introducing-gpt-6-1-sol\n+id: https://openai.com/index/introducing-gpt-6-1-sol\n+title: Radisson Hotel Group brings hotel discovery into ChatGPT\n+link: https://openai.com/index/radisson\n+id: https://openai.com/index/radisson\n+date: Wed, 07 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Helping teens learn, plan, and shape the future of AI\n+link: https://openai.com/index/teens-learn-and-plan\n+id: https://openai.com/index/teens-learn-and-plan\n+date: Wed, 07 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 08 Oct 2026 03:53:04 GMT",
-    "run_at": "2026-10-08T03:53:04Z",
-    "run_id": "ad1d135ca5b546d59ef1e0c130b01534"
   }
 ]

@@ -1913,6 +1913,12 @@ id: https://openai.com/index/dall-e-now-available-without-waitlist
 date: Wed, 28 Sep 2022 07:00:00 GMT
 body:
 #ITEM
+title: OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization
+link: https://openai.com/index/dan-driscoll-joins-openai
+id: https://openai.com/index/dan-driscoll-joins-openai
+date: Mon, 02 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI Data Partnerships
 link: https://openai.com/index/data-partnerships
 id: https://openai.com/index/data-partnerships
@@ -3437,6 +3443,12 @@ id: https://openai.com/index/greptile-code-review-codex-astra
 date: Mon, 26 Oct 2026 22:00:00 GMT
 body:
 #ITEM
+title: Introducing the Grid Protectors Program
+link: https://openai.com/index/grid-protectors-program
+id: https://openai.com/index/grid-protectors-program
+date: Mon, 02 Nov 2026 15:00:00 GMT
+body:
+#ITEM
 title: Introducing group chats in ChatGPT
 link: https://openai.com/index/group-chats-in-chatgpt
 id: https://openai.com/index/group-chats-in-chatgpt
@@ -4827,6 +4839,12 @@ title: Improving health literacy and patient well-being
 link: https://openai.com/index/lifespan
 id: https://openai.com/index/lifespan
 date: Wed, 06 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: LifeVal
+link: https://openai.com/index/lifeval
+id: https://openai.com/index/lifeval
+date: Mon, 02 Nov 2026 09:00:00 GMT
 body:
 #ITEM
 title: How Localiza reorganized work around generative AI
@@ -6341,6 +6359,12 @@ id: https://openai.com/index/preparing-for-malicious-uses-of-ai
 date: Tue, 20 Feb 2018 08:00:00 GMT
 body:
 #ITEM
+title: Preparing our next security sprint to harden OpenAI
+link: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai
+id: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai
+date: Mon, 02 Nov 2026 18:00:00 GMT
+body:
+#ITEM
 title: How Preply combines AI and human tutors to personalize learning
 link: https://openai.com/index/preply
 id: https://openai.com/index/preply
@@ -6435,6 +6459,12 @@ title: PVH reimagines the future of fashion with OpenAI
 link: https://openai.com/index/pvh-future-of-fashion
 id: https://openai.com/index/pvh-future-of-fashion
 date: Tue, 27 Jan 2026 06:00:00 GMT
+body:
+#ITEM
+title: Qodo builds context into AI code review with Codex
+link: https://openai.com/index/qodo-codex-plugin
+id: https://openai.com/index/qodo-codex-plugin
+date: Mon, 02 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: Quantifying generalization in reinforcement learning
@@ -6585,6 +6615,12 @@ title: Review completed & Altman, Brockman to continue to lead OpenAI
 link: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai
 id: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai
 date: Fri, 08 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: Rewarding defenders with bigger bug bounties
+link: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties
+id: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties
+date: Mon, 02 Nov 2026 18:00:00 GMT
 body:
 #ITEM
 title: How RingCentral builds AI-native work from engineering to ops
@@ -6741,6 +6777,12 @@ title: Scaling security with responsible disclosure
 link: https://openai.com/index/scaling-coordinated-vulnerability-disclosure
 id: https://openai.com/index/scaling-coordinated-vulnerability-disclosure
 date: Mon, 09 Jun 2025 10:00:00 GMT
+body:
+#ITEM
+title: Scaling Git at OpenAI
+link: https://openai.com/index/scaling-git-at-openai
+id: https://openai.com/index/scaling-git-at-openai
+date: Mon, 02 Nov 2026 15:30:00 GMT
 body:
 #ITEM
 title: Scaling Kubernetes to 2,500 nodes

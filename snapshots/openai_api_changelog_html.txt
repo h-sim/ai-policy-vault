@@ -184,6 +184,7 @@ Run and continue sessions
 Events and items
 Manage sessions
 Scheduled automations
+Automatic review
 Webhooks
 Environments and sandboxes
 OpenAI-hosted sandboxes
@@ -654,6 +655,7 @@ Personal access tokens
 Service accounts
 Deployment and configuration
 Windows app and CLI deployment
+NFS home directories
 Manage app updates
 Managed configuration
 Self-host configuration
