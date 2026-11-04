@@ -8,6 +8,10 @@ ChatGPT
 Start searching
 API Dashboard
 Try ChatGPT
+Theme
+Light
+Dark
+System
 Home
 API
 Overview
@@ -76,6 +80,10 @@ Use cases
 Training
 Resources
 Resources
+Theme
+Light
+Dark
+System
 Search docs
 Suggested
 responses create
@@ -244,7 +252,6 @@ Computer use
 Integration recipes
 Driver reference
 Apply Patch
-Local shell
 Code interpreter
 Media
 Image generation
@@ -281,6 +288,7 @@ Text to speech
 Audio in Chat Completions
 Go live
 Production best practices
+API keys and service accounts
 Deployment checklist
 Performance and quality
 Fast mode

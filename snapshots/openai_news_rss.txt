@@ -179,6 +179,12 @@ id: https://openai.com/academy/writing
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Evernote turns AI-driven discovery into paid subscriptions
+link: https://openai.com/ads/customers/evernote
+id: https://openai.com/ads/customers/evernote
+date: Wed, 28 Oct 2026 19:40:49 GMT
+body:
+#ITEM
 title: Enabling a data-driven workforce
 link: https://openai.com/business/enabling-a-data-driven-workforce-webinar
 id: https://openai.com/business/enabling-a-data-driven-workforce-webinar
@@ -647,6 +653,12 @@ id: https://openai.com/index/accelerating-cyber-defense-ecosystem
 date: Thu, 16 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Accelerating engineering for the physical world
+link: https://openai.com/index/accelerating-engineering-for-the-physical-world
+id: https://openai.com/index/accelerating-engineering-for-the-physical-world
+date: Tue, 03 Nov 2026 12:00:00 GMT
+body:
+#ITEM
 title: Accelerating life sciences research
 link: https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences
 id: https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences
@@ -705,6 +717,12 @@ title: Advancing content provenance for a safer, more transparent AI ecosystem
 link: https://openai.com/index/advancing-content-provenance
 id: https://openai.com/index/advancing-content-provenance
 date: Tue, 19 May 2026 10:45:00 GMT
+body:
+#ITEM
+title: Advancing independent research on AI alignment
+link: https://openai.com/index/advancing-independent-research-ai-alignment
+id: https://openai.com/index/advancing-independent-research-ai-alignment
+date: Thu, 19 Feb 2026 18:00:00 GMT
 body:
 #ITEM
 title: Advancing independent research on AI alignment
@@ -1563,6 +1581,12 @@ title: Cisco and OpenAI redefine enterprise engineering with Codex
 link: https://openai.com/index/cisco
 id: https://openai.com/index/cisco
 date: Wed, 27 May 2026 11:00:00 GMT
+body:
+#ITEM
+title: How Cisco defends at machine speed with OpenAI
+link: https://openai.com/index/cisco-cyber
+id: https://openai.com/index/cisco-cyber
+date: Tue, 03 Nov 2026 08:00:00 GMT
 body:
 #ITEM
 title: Achieving 10x growth with agentic sales prospecting
@@ -3533,6 +3557,12 @@ id: https://openai.com/index/hebbia
 date: Tue, 25 Mar 2025 10:00:00 GMT
 body:
 #ITEM
+title: Heimstaden is changing residential real estate management with AI
+link: https://openai.com/index/heimstaden
+id: https://openai.com/index/heimstaden
+date: Tue, 03 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: Helen Toner joins OpenAI’s board of directors
 link: https://openai.com/index/helen-toner-joins
 id: https://openai.com/index/helen-toner-joins
@@ -4190,7 +4220,7 @@ body:
 title: Introducing GPT-6.1 Terra
 link: https://openai.com/index/introducing-gpt-6-1-terra
 id: https://openai.com/index/introducing-gpt-6-1-terra
-date: Mon, 26 Oct 2026 00:00:00 GMT
+date: Mon, 26 Oct 2026 18:00:00 GMT
 body:
 #ITEM
 title: Introducing GPT-6 Sol and Luna
@@ -4599,6 +4629,12 @@ title: Inside JetBrains—the company reshaping how the world writes code
 link: https://openai.com/index/jetbrains-2025
 id: https://openai.com/index/jetbrains-2025
 date: Tue, 25 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer
+link: https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer
+id: https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer
+date: Tue, 03 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: AI helps John Deere transform agriculture
