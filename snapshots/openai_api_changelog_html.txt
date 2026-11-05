@@ -178,7 +178,6 @@ Audio and speech
 Getting started
 Voice agents
 Specialized models
-Deep research
 Embeddings
 Moderation
 Overview
@@ -481,6 +480,7 @@ Meet dots
 Import from another agent
 Foundations
 Prompting
+Working with agents
 Model selection
 Personalize ChatGPT
 Skills & Plugins
@@ -699,6 +699,7 @@ Analytics API
 Security and compliance
 Governance
 Agent security
+Safety and security in dots
 Prisma AIRS
 HIPAA configuration
 Compliance API and audit events
@@ -853,6 +854,21 @@ Migration guide
 Changelog
 Upcoming deprecations can be found on the
 deprecations page
+.
+November, 2026
+Nov 4
+Feature
+gpt-image-2.6-sunburst
+gpt-image-2.6-flare
+v1/images/generations
+v1/images/edits
+Released
+GPT-Image-2.6 Sunburst
+and
+GPT-Image-2.6 Flare
+for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.
+See the
+image generation guide
 .
 October, 2026
 Oct 30
@@ -1621,6 +1637,20 @@ original behavior
 Caching for GPT-5.5 only works with extended prompt caching. In-memory prompt caching is not supported.
 Learn more
 here
+.
+Apr 22
+Update
+o3-deep-research
+o3-deep-research-2025-06-26
+o4-mini-deep-research
+o4-mini-deep-research-2025-06-26
+v1/responses
+Deprecated
+o3-deep-research
+and
+o4-mini-deep-research
+, including their June 26, 2025 snapshots. These models are scheduled to shut down on July 23, 2026. See the
+deprecation notice
 .
 Apr 21
 Feature

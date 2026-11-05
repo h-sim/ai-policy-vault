@@ -629,6 +629,12 @@ id: https://openai.com/index/a-scorecard-for-the-ai-age
 date: Fri, 17 Jul 2026 10:00:00 GMT
 body:
 #ITEM
+title: A thousand fewer paths to root
+link: https://openai.com/index/a-thousand-fewer-paths-to-root
+id: https://openai.com/index/a-thousand-fewer-paths-to-root
+date: Wed, 04 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: Partnering with AARP to help keep older adults safe online
 link: https://openai.com/index/aarp-partnership-older-adults-online-safety
 id: https://openai.com/index/aarp-partnership-older-adults-online-safety
@@ -1979,6 +1985,12 @@ id: https://openai.com/index/daybreak-models-are-now-available-on-aws
 date: Tue, 11 Aug 2026 10:00:00 GMT
 body:
 #ITEM
+title: Daybreak Red is now available in AWS GovCloud (US-East)
+link: https://openai.com/index/daybreak-red-aws-govcloud
+id: https://openai.com/index/daybreak-red-aws-govcloud
+date: Wed, 04 Nov 2026 07:00:00 GMT
+body:
+#ITEM
 title: Daybreak: Tools for securing every organization in the world
 link: https://openai.com/index/daybreak-securing-the-world
 id: https://openai.com/index/daybreak-securing-the-world
@@ -2103,6 +2115,12 @@ title: Developers can now submit apps to ChatGPT
 link: https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
 id: https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
 date: Wed, 17 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: DevRev delivers autonomous self-service with GPT-6.1 Sol
+link: https://openai.com/index/devrev-enterprise-self-service
+id: https://openai.com/index/devrev-enterprise-self-service
+date: Wed, 04 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: Using AI to help physicians diagnose rare genetic diseases affecting children
@@ -4271,6 +4289,12 @@ id: https://openai.com/index/introducing-gpts
 date: Mon, 06 Nov 2023 08:00:00 GMT
 body:
 #ITEM
+title: Introducing Images 2.6
+link: https://openai.com/index/introducing-images-2-6
+id: https://openai.com/index/introducing-images-2-6
+date: Wed, 04 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: Introducing improvements to the fine-tuning API and expanding our custom models program
 link: https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program
 id: https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program
@@ -6051,6 +6075,12 @@ title: OpenAI acquires Orchestra Bio
 link: https://openai.com/index/openai-to-acquire-orchestra-bio
 id: https://openai.com/index/openai-to-acquire-orchestra-bio
 date: Tue, 20 Oct 2026 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI to acquire Pierre Computer Company, Inc.
+link: https://openai.com/index/openai-to-acquire-pierre
+id: https://openai.com/index/openai-to-acquire-pierre
+date: Wed, 04 Nov 2026 14:30:00 GMT
 body:
 #ITEM
 title: OpenAI to acquire Promptfoo

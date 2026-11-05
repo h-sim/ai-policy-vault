@@ -1,5 +1,65 @@
 [
   {
+    "id": "9895f9f709c89c00f672e0de6304f9a0a20b3a4c",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-このページは役に立ちましたか？\n+Was this page helpful?",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 05 Nov 2026 04:35:35 GMT",
+    "run_at": "2026-11-05T04:34:54Z",
+    "run_id": "ceea4e6e57a54f6b820d990f801f7d46"
+  },
+  {
+    "id": "dc8f99487d2e8f0385c02067a98f055b1f988463",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: A thousand fewer paths to root\n+link: https://openai.com/index/a-thousand-fewer-paths-to-root\n+id: https://openai.com/index/a-thousand-fewer-paths-to-root\n+date: Wed, 04 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Daybreak Red is now available in AWS GovCloud (US-East)\n+link: https://openai.com/index/daybreak-red-aws-govcloud\n+id: https://openai.com/index/daybreak-red-aws-govcloud\n+date: Wed, 04 Nov 2026 07:00:00 GMT\n+title: DevRev delivers autonomous self-service with GPT-6.1 Sol\n+link: https://openai.com/index/devrev-enterprise-self-service",
+    "snippet_full": "+title: A thousand fewer paths to root\n+link: https://openai.com/index/a-thousand-fewer-paths-to-root\n+id: https://openai.com/index/a-thousand-fewer-paths-to-root\n+date: Wed, 04 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Daybreak Red is now available in AWS GovCloud (US-East)\n+link: https://openai.com/index/daybreak-red-aws-govcloud\n+id: https://openai.com/index/daybreak-red-aws-govcloud\n+date: Wed, 04 Nov 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: DevRev delivers autonomous self-service with GPT-6.1 Sol\n+link: https://openai.com/index/devrev-enterprise-self-service\n+id: https://openai.com/index/devrev-enterprise-self-service\n+date: Wed, 04 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Images 2.6\n+link: https://openai.com/index/introducing-images-2-6\n+id: https://openai.com/index/introducing-images-2-6\n+date: Wed, 04 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI to acquire Pierre Computer Company, Inc.\n+link: https://openai.com/index/openai-to-acquire-pierre\n+id: https://openai.com/index/openai-to-acquire-pierre\n+date: Wed, 04 Nov 2026 14:30:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 30,
+      "removed": 0,
+      "churn": 30
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 05 Nov 2026 04:35:15 GMT",
+    "run_at": "2026-11-05T04:34:54Z",
+    "run_id": "ceea4e6e57a54f6b820d990f801f7d46"
+  },
+  {
+    "id": "65bd00edb94b14897a59608ee285a0b240a14cff",
+    "impact": "Breaking",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Deep research\n+Working with agents\n+Safety and security in dots\n+November, 2026\n+Nov 4\n+Feature\n+gpt-image-2.6-sunburst\n+gpt-image-2.6-flare\n+v1/images/generations\n+v1/images/edits\n+Released\n+GPT-Image-2.6 Sunburst\n+and\n+GPT-Image-2.6 Flare\n+for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.\n+See the\n+image generation guide\n+.\n+Apr 22\n+Update\n+o3-deep-research\n+o3-deep-research-2025-06-26\n+o4-mini-deep-research\n+o4-mini-deep-research-2025-06-26\n+v1/responses\n+Deprecated\n+o3-deep-research\n+and\n+o4-mini-deep-research\n+, including their June 26, 2025 snapshots. These models are scheduled to shut down on July 23, 2026. See the\n+deprecation notice\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 31,
+      "removed": 1,
+      "churn": 32
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 05 Nov 2026 04:35:15 GMT",
+    "run_at": "2026-11-05T04:34:54Z",
+    "run_id": "ceea4e6e57a54f6b820d990f801f7d46"
+  },
+  {
     "id": "891f85345f09ccfe1056a4f8317d14d3467123ce",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -931,67 +991,5 @@
     "pubDate": "Wed, 14 Oct 2026 02:59:32 GMT",
     "run_at": "2026-10-14T02:59:32Z",
     "run_id": "769ae7c8640345b7ab6655d6129fe1cb"
-  },
-  {
-    "id": "18b699242d878da534bf3775e07cd9e65c2eab5c",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+The Compliance API can now download Claude Docs documents as Word files, in beta. See\n+Retrieve files and artifacts\n+.\n-Introducing Claude Fable 5 and Claude Mythos 5\n-for capabilities, API changes, and availability.\n+Claude Fable 5\n+for specifications, pricing, and availability.\n-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n-Migrating from Claude Mythos Preview to Claude Mythos 5\n-.\n+is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error).",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 5,
-      "churn": 11
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sun, 11 Oct 2026 03:16:42 GMT",
-    "run_at": "2026-10-11T03:16:17Z",
-    "run_id": "0a3a8c926fd7441c99cdadab445d9765"
-  },
-  {
-    "id": "0f1939acd3c41de17648a0104522366c01e8477e",
-    "impact": "High",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Plugins\n+Extend ChatGPT and Codex\n-Plugins\n-Extend ChatGPT and Codex\n-Workspace Agents\n-Trigger published ChatGPT workspace agents\n+Workspace Agents\n+Trigger published ChatGPT workspace agents\n+Plugins\n-Plugins\n-Workspace Agents\n+Workspace Agents\n-Home\n-Quickstart\n-Request a client ID\n-Identity\n-On your website\n-In your ChatGPT plugin\n-ChatGPT plan usage\n-Overview\n-UI/UX guidelines\n-Registration and sign-in\n-Accounts and sessions\n-Models and inference\n-Codex app-server\n-Self-hosted VMs\n-Token reference\n-Errors and recovery\n-Preview limitations\n-Get started\n-Trigger workspace agent runs\n-Authenticate with Workspace Agent access tokens\n+Quickstart\n+Request a client ID\n+Identity\n+On your website\n+In your ChatGPT plugin\n+ChatGPT plan usage\n+Overview\n+UI/UX guidelines",
-    "snippet_full": "",
-    "diff": {
-      "added": 26,
-      "removed": 26,
-      "churn": 52
-    },
-    "score": 60,
-    "reasons": [
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sun, 11 Oct 2026 03:16:41 GMT",
-    "run_at": "2026-10-11T03:16:17Z",
-    "run_id": "0a3a8c926fd7441c99cdadab445d9765"
-  },
-  {
-    "id": "948029c611bcc5fa2f390f53edc365a1b413eb05",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+October 9, 2026\n+\n+You can now let a Claude Managed Agents agent use\n+dynamic workflows\n+, in beta with the\n+managed-agents-2026-04-01\n+beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. Th\n+turn dynamic workflows on\n+, set the agent's\n+multiagent\n+field to\n+{\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}\n+. To guide the agent, tell it in its system prompt when to start a run. Follow each run through\n+workflow_run.*\n+events on the session's event stream. See\n+Workflow runs\n+.\n-) returns a 400 error, and adaptive thinking is on by default, so a response can begin with\n+), the sampling parameters\n+temperature\n+,\n+top_p\n+, and\n+top_k\n+, and assistant message prefill can each return a 400 error.\n+computer_20250124\n+also returns a 400 error: use the\n+computer_toolset_20260801\n+toolset on the Claude API and Google Cloud, or\n+computer_20251124\n+on Amazon Bedrock. A request that sends thinking blocks back after a change to\n+system\n+,\n+tools\n+, or earlier turns can also return a 400 error. On Amazon Bedrock, structured outputs aren't available for Claude Haiku 5.5. Adaptive thinking is on by default, so a response can begin with\n-blocks. The same text also counts as more tokens. See the\n+blocks, and their text is omitted unless you set\n+thinking.display\n+to\n+\"summarized\"",
-    "snippet_full": "",
-    "diff": {
-      "added": 41,
-      "removed": 3,
-      "churn": 44
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 10 Oct 2026 03:43:19 GMT",
-    "run_at": "2026-10-10T03:43:18Z",
-    "run_id": "595087d74e2744cfaf48cca1bc9e3815"
   }
 ]
