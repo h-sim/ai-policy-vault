@@ -1,5 +1,95 @@
 [
   {
+    "id": "63c96a6dd5a514e9cc7b5fd8c544729ca1660faf",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+November 5, 2026\n+\n+You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key \n+IP allowlisting\n+for what’s covered and how to set it up.\n+You can now sign a member of your\n+Claude Enterprise\n+(claude.ai) organization out of Claude everywhere with the Admin API (see the\n+Admin API reference\n+).\n+POST /v1/organizations/users/{user_id}/sign_out\n+is in beta, and every request must include the\n+admin-user-sign-out-2026-10-08\n+beta header. It ends the member’s sign-in sessions and trusted devices on every browser and device, and their OAuth tokens for your organization. The member stays in the organization and can sign in \n+Sign a member out everywhere\n+for the key scope that the request needs and for what it doesn’t end.\n-Fast mode\n+Fast mode model availability\n+Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.\n+Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.\n-are now available on\n-Claude Platform on AWS\n+are now\n+available on Claude Platform on AWS\n-Claude on Google Cloud\n+Claude Models on Google Cloud (Google managed)\n-. The same text also counts as more tokens. See the\n-migration guide\n+. Claude Haiku 5.5 also uses a tokenizer that produces more tokens for the same text. See the\n+Claude Haiku 5.5 migration guide\n+Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.\n+Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.\n+Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.\n-Claude on Google Cloud\n+Claude Models on Google Cloud (Google managed)\n-Preserved thinking\n+Thinking blocks stay with the account that produced them\n-Claude on Google Cloud\n+Claude Models on Google Cloud (Google managed)\n-Claude on Google Cloud",
+    "snippet_full": "",
+    "diff": {
+      "added": 86,
+      "removed": 58,
+      "churn": 144
+    },
+    "score": 140,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Nov 2026 04:34:25 GMT",
+    "run_at": "2026-11-06T04:33:28Z",
+    "run_id": "ecf04e3183be426ca8357d162312f0fe"
+  },
+  {
+    "id": "16764d4fb5e024c7614ff461c92e06f06c32990b",
+    "impact": "Breaking",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-openapi: 3.1.0\n-info:\n-  title: OpenAI API\n-  description: >-\n-    The OpenAI REST API. Please see\n-    https://platform.openai.com/docs/api-reference for more details.\n-  version: 2.3.0\n-  termsOfService: https://openai.com/policies/terms-of-use\n-  contact:\n-    name: OpenAI Support\n-    url: https://help.openai.com/\n-  license:\n-    name: MIT\n-    identifier: MIT\n-servers:\n-  - url: https://api.openai.com/v1\n-security:\n-  - ApiKeyAuth: []\n-tags:\n-  - name: Assistants\n-    description: Build Assistants that can call models and use tools.\n-  - name: Audio\n-    description: Turn audio into text or text into audio.\n-  - name: Chat\n-    description: >-\n-      Given a list of messages comprising a conversation, the model will return\n-      a response.\n-  - name: Conversations\n-    description: Manage conversations and conversation items.\n-  - name: Completions\n-    description: >-\n-      Given a prompt, the model will return one or more predicted completions,\n-      and can also return the probabilities of alternative tokens at each\n-      position.\n-  - name: Embeddings\n-    description: >-\n-      Get a vector representation of a given input that can be easily consumed\n-      by machine learning models and algorithms.\n-  - name: Evals\n-    description: Manage and run evals in the OpenAI platform.",
+    "snippet_full": "",
+    "diff": {
+      "added": 394,
+      "removed": 102765,
+      "churn": 103159
+    },
+    "score": 190,
+    "reasons": [
+      "OpenAPI: version変更",
+      "OpenAPI: termsOfService変更",
+      "OpenAPI: servers.url変更",
+      "OpenAPI: security変更",
+      "OpenAPI: tags増減（軽微）"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Nov 2026 04:34:06 GMT",
+    "run_at": "2026-11-06T04:33:28Z",
+    "run_id": "ecf04e3183be426ca8357d162312f0fe"
+  },
+  {
+    "id": "68f71e3b3454a347d1055b95af1f4dd345ce007f",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents\n+title: Flipsnack grows product signups with conversion optimization\n+link: https://openai.com/ads/customers/flipsnack\n+id: https://openai.com/ads/customers/flipsnack\n+date: Thu, 05 Nov 2026 00:45:15 GMT\n+body:\n+#ITEM\n+title: Australian universities are creating AI-native graduates\n+link: https://openai.com/index/australian-universities-ai-native-graduates\n+id: https://openai.com/index/australian-universities-ai-native-graduates\n+date: Thu, 05 Nov 2026 17:00:00 GMT\n+title: Cult.fit builds operational muscle with Codex",
+    "snippet_full": "+title: Flipsnack grows product signups with conversion optimization\n+link: https://openai.com/ads/customers/flipsnack\n+id: https://openai.com/ads/customers/flipsnack\n+date: Thu, 05 Nov 2026 00:45:15 GMT\n+body:\n+#ITEM\n+title: Australian universities are creating AI-native graduates\n+link: https://openai.com/index/australian-universities-ai-native-graduates\n+id: https://openai.com/index/australian-universities-ai-native-graduates\n+date: Thu, 05 Nov 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Cult.fit builds operational muscle with Codex\n+link: https://openai.com/index/cultfit-builds-with-codex\n+id: https://openai.com/index/cultfit-builds-with-codex\n+date: Thu, 05 Nov 2026 20:00:00 GMT\n+body:\n+#ITEM\n+title: Franklin Templeton uses OpenAI to support investment research\n+link: https://openai.com/index/franklin-templeton\n+id: https://openai.com/index/franklin-templeton\n+date: Thu, 05 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents\n+link: https://openai.com/index/introducing-gpt-6-cyber\n+id: https://openai.com/index/introducing-gpt-6-cyber\n+date: Thu, 05 Nov 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Merge builds product and business tools with OpenAI technology\n+link: https://openai.com/index/merge-builds-with-openai\n+id: https://openai.com/index/merge-builds-with-openai\n+date: Thu, 05 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Setting a new standard for responsible AI infrastructure\n+link: https://openai.com/index/setting-new-standard-responsible-ai-infrastructure\n+id: https://openai.com/index/setting-new-standard-responsible-ai-infrastructure\n+date: Thu, 05 Nov 2026 02:00:00 GMT",
+    "diff": {
+      "added": 42,
+      "removed": 0,
+      "churn": 42
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Nov 2026 04:33:48 GMT",
+    "run_at": "2026-11-06T04:33:28Z",
+    "run_id": "ecf04e3183be426ca8357d162312f0fe"
+  },
+  {
+    "id": "1753b7102015543f918627ab9430beef43305b4e",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Model catalogs\n-Deployment and configuration\n+Configuration\n+Advanced deployment\n-Bedrock GovCloud configuration\n+GovCloud deployment\n-Gateway compatibility\n-Bedrock through LiteLLM\n+Nov 5\n+Feature\n+gpt-6-cyber\n+Use\n+GPT-6-Cyber\n+to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes. See\n+Daybreak setup\n+before sending your first request.",
+    "snippet_full": "",
+    "diff": {
+      "added": 11,
+      "removed": 5,
+      "churn": 16
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 06 Nov 2026 04:33:29 GMT",
+    "run_at": "2026-11-06T04:33:28Z",
+    "run_id": "ecf04e3183be426ca8357d162312f0fe"
+  },
+  {
     "id": "9895f9f709c89c00f672e0de6304f9a0a20b3a4c",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -913,83 +1003,5 @@
     "pubDate": "Thu, 15 Oct 2026 02:39:35 GMT",
     "run_at": "2026-10-15T02:39:13Z",
     "run_id": "950a5ed5fc5746b7893a397f58cba84b"
-  },
-  {
-    "id": "a078c125ca714497dbdbd57dd758f80626fa5342",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How Block is building AI-powered security with OpenAI technology\n+link: https://openai.com/index/block-ai-powered-security\n+id: https://openai.com/index/block-ai-powered-security\n+title: Amp puts AI agents to work beyond code with OpenAI models\n+link: https://openai.com/index/amp-beyond-coding\n+id: https://openai.com/index/amp-beyond-coding\n+date: Wed, 14 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM\n+date: Wed, 14 Oct 2026 07:00:00 GMT\n+title: SentinelOne cuts malware analysis from weeks to hours\n+link: https://openai.com/index/sentinelone",
-    "snippet_full": "+title: Amp puts AI agents to work beyond code with OpenAI models\n+link: https://openai.com/index/amp-beyond-coding\n+id: https://openai.com/index/amp-beyond-coding\n+date: Wed, 14 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How Block is building AI-powered security with OpenAI technology\n+link: https://openai.com/index/block-ai-powered-security\n+id: https://openai.com/index/block-ai-powered-security\n+date: Wed, 14 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: SentinelOne cuts malware analysis from weeks to hours\n+link: https://openai.com/index/sentinelone\n+id: https://openai.com/index/sentinelone\n+date: Wed, 14 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: The EU’s next chapter in AI is agentic\n+link: https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic\n+id: https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic\n+date: Wed, 14 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Third Moment Research runs 10,000 agents for 36+ hours\n+link: https://openai.com/index/third-moment-research\n+id: https://openai.com/index/third-moment-research\n+date: Wed, 14 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 30,
-      "removed": 0,
-      "churn": 30
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 15 Oct 2026 02:39:34 GMT",
-    "run_at": "2026-10-15T02:39:13Z",
-    "run_id": "950a5ed5fc5746b7893a397f58cba84b"
-  },
-  {
-    "id": "4da51eceee4711d39cf9594c20bba2cc3f8ec4c5",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Composer Predictions\n+Maintaining software with the GPT-6 family\n-Meet Rosalind Workbench: Empowering every scientist to be their own research team",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 1,
-      "churn": 3
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 15 Oct 2026 02:39:14 GMT",
-    "run_at": "2026-10-15T02:39:13Z",
-    "run_id": "950a5ed5fc5746b7893a397f58cba84b"
-  },
-  {
-    "id": "db7a3d1d5b39f24a82c60054fac1bd24f8ef52e7",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Higgsfield takes AI video from 1 minute to over 10\n+link: https://openai.com/index/higgsfield-longer-videos-voice\n+id: https://openai.com/index/higgsfield-longer-videos-voice\n+date: Tue, 13 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 14 Oct 2026 02:59:32 GMT",
-    "run_at": "2026-10-14T02:59:32Z",
-    "run_id": "769ae7c8640345b7ab6655d6129fe1cb"
-  },
-  {
-    "id": "502337b226786265e0a5ef9a72764e231d5e62b5",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Best practices\n+Evaluation\n+Evaluation best practices\n+Promptfoo\n+Submit desktop-only plugins\n-Best practices",
-    "snippet_full": "",
-    "diff": {
-      "added": 4,
-      "removed": 2,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 14 Oct 2026 02:59:32 GMT",
-    "run_at": "2026-10-14T02:59:32Z",
-    "run_id": "769ae7c8640345b7ab6655d6129fe1cb"
   }
 ]
