@@ -5045,6 +5045,12 @@ id: https://openai.com/index/measuring-goodharts-law
 date: Wed, 13 Apr 2022 07:00:00 GMT
 body:
 #ITEM
+title: Measuring how AI agents handle everyday wet-lab science
+link: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science
+id: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science
+date: Fri, 06 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: Memory and new controls for ChatGPT
 link: https://openai.com/index/memory-and-new-controls-for-chatgpt
 id: https://openai.com/index/memory-and-new-controls-for-chatgpt
@@ -6297,6 +6303,12 @@ title: Partnering with CodeAI to prepare the first AI generation
 link: https://openai.com/index/partnering-with-codeai
 id: https://openai.com/index/partnering-with-codeai
 date: Tue, 18 Aug 2026 11:00:00 GMT
+body:
+#ITEM
+title: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems
+link: https://openai.com/index/partnering-with-hacktron
+id: https://openai.com/index/partnering-with-hacktron
+date: Fri, 06 Nov 2026 08:00:00 GMT
 body:
 #ITEM
 title: Partnership with American Journalism Project to support local news

@@ -1,5 +1,83 @@
 [
   {
+    "id": "a69c22d37b4a9394297c56e9e302959d58002dc6",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-You can now sign a member of your\n-Claude Enterprise\n-(claude.ai) organization out of Claude everywhere with the Admin API (see the\n+You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API. This capability is in beta. See the\n-).\n-POST /v1/organizations/users/{user_id}/sign_out\n-is in beta, and every request must include the\n-admin-user-sign-out-2026-10-08\n-beta header. It ends the member’s sign-in sessions and trusted devices on every browser and device, and their OAuth tokens for your organization. The member stays in the organization and can sign in \n+. The member stays in the organization and can sign in again. See\n-for the key scope that the request needs and for what it doesn’t end.\n+for the beta header and what the request doesn’t end.\n-, an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements.\n-*\n-Learn more in\n+, an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements. Opus 4.1 does not allow both\n+temperature\n+and\n+top_p\n+parameters to be specified. Use only one. Learn more in\n-*Opus 4.1 does not allow both\n-temperature\n-and\n-top_p\n-parameters to be specified. Use only one.\n-April 9th, 2025\n+April 9, 2025\n-March 31st, 2025\n+March 31, 2025\n-February 27th, 2025\n+February 27, 2025\n-February 24th, 2025\n+February 24, 2025\n-February 10th, 2025\n+February 10, 2025\n-January 31st, 2025\n+January 31, 2025\n-January 23rd, 2025\n+January 23, 2025\n-January 21st, 2025",
+    "snippet_full": "",
+    "diff": {
+      "added": 74,
+      "removed": 83,
+      "churn": 157
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 07 Nov 2026 03:59:07 GMT",
+    "run_at": "2026-11-07T03:59:05Z",
+    "run_id": "926c746fce7d471abe64437a27511309"
+  },
+  {
+    "id": "0292d9728825c055e81b17780d901d5140fecc47",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-\t<title>Stainless - Best-in-class developer interfaces for your API</title>\n-    <meta name=\"description\" content=\"Stainless helps you deliver robust and idiomatic SDKs, documentation that keeps up with your API, and token-efficient MCP servers. \">\n+\t<title>Stainless has joined Anthropic</title>\n+    <meta name=\"description\" content=\"Stainless has joined Anthropic to continue our mission to make software better for everyone.\">\n-    <meta property=\"og:title\" content=\"Stainless - Best-in-class developer interfaces for your API\">\n-    <meta property=\"og:description\" content=\"Stainless helps you deliver robust and idiomatic SDKs, documentation that keeps up with your API, and token-efficient MCP servers. \">\n-    <meta property=\"og:image\" content=\"https://framerusercontent.com/assets/oph4zYTnca2Hxb19dSUa4UNv2c.jpg\">\n+    <meta property=\"og:title\" content=\"Stainless has joined Anthropic\">\n+    <meta property=\"og:description\" content=\"Stainless has joined Anthropic to continue our mission to make software better for everyone.\">\n+    <meta property=\"og:image\" content=\"https://www.stainless.com/_external/framerusercontent.com/images/N2kBZRVlIAERBEiMOVxcysqco7U.png\">\n-    <meta name=\"twitter:title\" content=\"Stainless - Best-in-class developer interfaces for your API\">\n-    <meta name=\"twitter:description\" content=\"Stainless helps you deliver robust and idiomatic SDKs, documentation that keeps up with your API, and token-efficient MCP servers. \">\n-    <meta name=\"twitter:image\" content=\"https://framerusercontent.com/assets/oph4zYTnca2Hxb19dSUa4UNv2c.jpg\">\n+    <meta name=\"twitter:title\" content=\"Stainless has joined Anthropic\">\n+    <meta name=\"twitter:description\" content=\"Stainless has joined Anthropic to continue our mission to make software better for everyone.\">\n+    <meta name=\"twitter:image\" content=\"https://www.stainless.com/_external/framerusercontent.com/images/N2kBZRVlIAERBEiMOVxcysqco7U.png\">\n-\t<link href=\"https://fonts.gstatic.com\" rel=\"preconnect\" crossorigin>\n-    <link href=\"https://fonts.gstatic.com\" rel=\"preconnect\" crossorigin>\n+\n+\n-\t<div id=\"main\"><!--$--><style data-framer-html-style>html body { background: var(--token-0ad14cf1-9929-4cbb-bf0a-8e9fdae8789b, rgb(255, 255, 255)); }</style><div data-framer-root class=\"framer-h1hrC\n+\t<div id=\"main\"><!--$--><style data-framer-html-style>html body { background: var(--token-0ad14cf1-9929-4cbb-bf0a-8e9fdae8789b, rgb(255, 255, 255)); }</style><div data-framer-root class=\"framer-h1hrC\n-      <h2 id=\"anthropic-announcement-title\">Stainless is joining Anthropic</h2>\n-      <p>Stainless is joining Anthropic to continue our mission to make software better for everyone.</p>\n+      <h2 id=\"anthropic-announcement-title\">Stainless has joined Anthropic</h2>\n+      <p>Stainless has joined Anthropic to continue our mission to make software better for everyone.</p>\n-</section></main><div class=\"framer-p8w1eu\" data-border=\"true\"><div class=\"framer-1neo9xl-container\"><div class=\"ssr-variant hidden-1o9m2y8 hidden-1nwc5dl\"><footer class=\"framer-PC9Fv framer-vH0VD fr\n+</section></main><div class=\"framer-p8w1eu\" data-border=\"true\"><div class=\"framer-1neo9xl-container\"><div class=\"ssr-variant hidden-1o9m2y8 hidden-1nwc5dl\"><footer class=\"framer-PC9Fv framer-vH0VD fr\n-<script src=\"static/code-widget.js\"></script>\n+",
+    "snippet_full": "",
+    "diff": {
+      "added": 15,
+      "removed": 15,
+      "churn": 30
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 07 Nov 2026 03:59:06 GMT",
+    "run_at": "2026-11-07T03:59:05Z",
+    "run_id": "926c746fce7d471abe64437a27511309"
+  },
+  {
+    "id": "e97bcc9bd6118ddc6952c665f2377f3f9b6fa681",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Measuring how AI agents handle everyday wet-lab science\n+link: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science\n+id: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science\n+date: Fri, 06 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems\n+link: https://openai.com/index/partnering-with-hacktron\n+id: https://openai.com/index/partnering-with-hacktron\n+date: Fri, 06 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 07 Nov 2026 03:59:06 GMT",
+    "run_at": "2026-11-07T03:59:05Z",
+    "run_id": "926c746fce7d471abe64437a27511309"
+  },
+  {
+    "id": "7a4cd558a975797f653d6842f7f3f35ae25ccc48",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Cloud providers\n+Amazon Bedrock\n+Google Cloud\n-Reinforcement fine-tuning\n-RFT use cases\n-Amazon Bedrock\n+Cloud providers\n+Amazon Bedrock\n+Google Cloud\n-Reinforcement fine-tuning\n-RFT use cases\n+Nov 2\n+Feature\n+gpt-live-1\n+v1/live/sessions\n+Outbound SIP calling is now available to all organizations through the Live API. Connect GPT-Live to a phone number through your SIP provider. See the\n+SIP guide\n+.\n+Oct 30\n+Update\n+v1/agents\n+v1/agents/sessions\n+You can now\n+update the tools in an existing session\n+in the Agents API public beta. Updates replace the full tool list. Function tools and MCP servers change on the next model call; built-in tools change by the next turn.\n+Context compaction now runs in the background by default. Set\n+compaction.async\n+to\n+false\n+for blocking compaction. Background compaction may increase token usage.\n+Added opt-in experimental time awareness. Set\n+experimental.time_awareness\n+to\n+true\n+to give the model periodic current-time reminders. It is disabled by default. See the\n+agent configuration reference\n+for compaction and experimental settings.\n+Oct 30\n+Feature\n+v1/agents/sessions",
+    "snippet_full": "",
+    "diff": {
+      "added": 56,
+      "removed": 5,
+      "churn": 61
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 07 Nov 2026 03:59:05 GMT",
+    "run_at": "2026-11-07T03:59:05Z",
+    "run_id": "926c746fce7d471abe64437a27511309"
+  },
+  {
     "id": "63c96a6dd5a514e9cc7b5fd8c544729ca1660faf",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -924,84 +1002,5 @@
     "pubDate": "Sat, 17 Oct 2026 02:27:34 GMT",
     "run_at": "2026-10-17T02:27:33Z",
     "run_id": "626f0ffb9a5f4c149333f2ae44858662"
-  },
-  {
-    "id": "f47408be6f6eb9a0af780a5751b3f4bc75bccd4e",
-    "impact": "High",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+October 15, 2026\n+\n+The\n+Compliance API\n+now returns the text each organization member saved as\n+Instructions for Claude\n+in claude.ai and as\n+Global instructions\n+in Cowork, in beta for Claude Enterprise organizations. Call\n+GET /v1/compliance/organizations/{org_uuid}/user_preferences\n+with your existing Compliance Access Key and the\n+read:compliance_user_data\n+scope. See\n+List user preferences\n+.\n+Fast mode\n+is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the\n+fast-mode-2026-02-01\n+beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in the Start, Build, and Scale usage tiers. Fast mode for Claude Opus 5 and Claude Op\n+Fast mode\n+for Claude Opus 5.5 is now available on\n+Claude in Microsoft Foundry\n+for deployments hosted on Azure.\n+October 15, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 60,
-    "reasons": [
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 16 Oct 2026 02:35:13 GMT",
-    "run_at": "2026-10-16T02:34:50Z",
-    "run_id": "01690ca8d27043e3b1954a98a0aaa31a"
-  },
-  {
-    "id": "092290b016a020f10087ac5d0b531b8f18ea02ad",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Bringing GPT-Rosalind to academic research labs\n+link: https://openai.com/index/introducing-the-rosalind-academic-plan\n+id: https://openai.com/index/introducing-the-rosalind-academic-plan\n+date: Thu, 15 Oct 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: Sullivan & Cromwell brings legal expertise into agreement review\n+link: https://openai.com/index/sullivan-cromwell\n+id: https://openai.com/index/sullivan-cromwell\n+date: Thu, 15 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Teaching students to think and learn through questions\n+link: https://openai.com/index/teaching-students-to-think-and-learn-through-questions\n+id: https://openai.com/index/teaching-students-to-think-and-learn-through-questions\n+date: Thu, 15 Oct 2026 13:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 16 Oct 2026 02:34:51 GMT",
-    "run_at": "2026-10-16T02:34:50Z",
-    "run_id": "01690ca8d27043e3b1954a98a0aaa31a"
-  },
-  {
-    "id": "4007186f91444b215ef11381c1cd830ec2778db8",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Idira\n-Sites\n+Sites\n+Overview\n+Create a site\n+Data and connections\n+Publish and share\n+Manage a site\n-Feature setup\n+Feature Configuration\n+Sites\n-Sites\n-Select...\n+Showcase\n+Oct 15\n+Feature\n+gpt-live-1\n+gpt-6-luna\n+v1/live/sessions\n+Added native\n+Decisions integration in GPT-Live\n+. Your app can act while your user is speaking or react to what Live says. Let Live call Decisions directly through native delegation, or trigger decisions as input or output transcript deltas arrive",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 4,
-      "churn": 22
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 16 Oct 2026 02:34:51 GMT",
-    "run_at": "2026-10-16T02:34:50Z",
-    "run_id": "01690ca8d27043e3b1954a98a0aaa31a"
-  },
-  {
-    "id": "877695d132b8f22e783eb0d089fa309f6c60f0e9",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+October 14, 2026\n+\n+We've launched\n+OpenTelemetry export\n+in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get\n+add an OpenTelemetry destination\n+in the Claude Console.\n+Claude Managed Agents\n+scheduled deployments\n+are now available on\n+Claude Platform on AWS\n+.\n+October 14, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 13,
-      "removed": 0,
-      "churn": 13
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 15 Oct 2026 02:39:35 GMT",
-    "run_at": "2026-10-15T02:39:13Z",
-    "run_id": "950a5ed5fc5746b7893a397f58cba84b"
   }
 ]
