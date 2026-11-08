@@ -1,5 +1,24 @@
 [
   {
+    "id": "c7124a1ea8294c9831370dca08e635fefb481c1b",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Preserved reasoning",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 08 Nov 2026 03:44:41 GMT",
+    "run_at": "2026-11-08T03:44:41Z",
+    "run_id": "9c86ba3dc7954e0f9290e24133645fd0"
+  },
+  {
     "id": "a69c22d37b4a9394297c56e9e302959d58002dc6",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -977,27 +996,6 @@
     },
     "score": 0,
     "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 17 Oct 2026 02:27:34 GMT",
-    "run_at": "2026-10-17T02:27:33Z",
-    "run_id": "626f0ffb9a5f4c149333f2ae44858662"
-  },
-  {
-    "id": "76dd6de1da9ac98b664d4f8d8e74949db9313df9",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Integration recipes\n+Driver reference\n+Codex Security Cloud\n+Setup\n+Security Review\n+Improving the threat model\n+FAQ\n-TypeScript SDK\n-Codex Security Cloud\n-Setup\n-Security Review\n-Improving the threat model\n-FAQ\n+Codex Security SDK\n-Windows app deployment\n+Windows app and CLI deployment\n+Codex security cookbook\n+Designing failover across OpenAI model providers\n-Building games with Astra\n+Oct 16\n+Feature\n+gpt-live-1\n+v1/audio/voices\n+v1/live/sessions\n+Released\n+prompt-to-voice\n+for all API customers. Create a custom voice from a text description through the API or voice Playground, then reuse it in GPT-Live sessions. Creating a prompt-generated voice is free; speech generat\n+Added nine\n+natural voices for GPT-Live\n+: Nuri, Juni, and Flitz (German); Brise and Sillage (French); Nira (Hindi); Harema and Shida (Japanese); and Noeul (Korean).",
-    "snippet_full": "",
-    "diff": {
-      "added": 22,
-      "removed": 8,
-      "churn": 30
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
     "summary_ja": "",
     "pubDate": "Sat, 17 Oct 2026 02:27:34 GMT",
     "run_at": "2026-10-17T02:27:33Z",
