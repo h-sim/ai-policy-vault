@@ -1469,6 +1469,12 @@ id: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sour
 date: Tue, 01 Sep 2026 12:00:00 GMT
 body:
 #ITEM
+title: ChatGPT Enterprise now available in AWS Marketplace
+link: https://openai.com/index/chatgpt-enterprise-aws-marketplace
+id: https://openai.com/index/chatgpt-enterprise-aws-marketplace
+date: Mon, 09 Nov 2026 19:00:00 GMT
+body:
+#ITEM
 title: New usage analytics and updated spend controls for enterprises
 link: https://openai.com/index/chatgpt-enterprise-spend-controls
 id: https://openai.com/index/chatgpt-enterprise-spend-controls
@@ -1643,6 +1649,12 @@ id: https://openai.com/index/coderabbit
 date: Thu, 22 May 2025 10:25:00 GMT
 body:
 #ITEM
+title: CodeRabbit scales agentic software development and ships 20x more
+link: https://openai.com/index/coderabbit-codex-daybreak
+id: https://openai.com/index/coderabbit-codex-daybreak
+date: Mon, 09 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: Powering next generation applications with OpenAI Codex
 link: https://openai.com/index/codex-apps
 id: https://openai.com/index/codex-apps
@@ -1803,6 +1815,12 @@ title: How we built a realtime system for responsive voice AI in six months
 link: https://openai.com/index/continuous-voice-interaction-with-gpt-live
 id: https://openai.com/index/continuous-voice-interaction-with-gpt-live
 date: Mon, 03 Aug 2026 07:00:00 GMT
+body:
+#ITEM
+title: Control Room: A central system to track and stop model workloads across our research infrastructure
+link: https://openai.com/index/control-room
+id: https://openai.com/index/control-room
+date: Mon, 09 Nov 2026 13:00:00 GMT
 body:
 #ITEM
 title: How Cooley is accelerating IPO work with ChatGPT
@@ -4731,6 +4749,12 @@ title: Klarna's AI assistant does the work of 700 full-time agents
 link: https://openai.com/index/klarna
 id: https://openai.com/index/klarna
 date: Fri, 05 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Kuken Industries searches 70 years of drawings in minutes
+link: https://openai.com/index/kuken
+id: https://openai.com/index/kuken
+date: Mon, 09 Nov 2026 08:00:00 GMT
 body:
 #ITEM
 title: Lessons learned on language model safety and misuse

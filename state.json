@@ -1,5 +1,64 @@
 [
   {
+    "id": "712fb8ced0b1dfd6a4c4b1c8f9f9d206c7fedc21",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+November 9, 2026\n+\n+We’ve launched\n+Claude Fable 5.2\n+(\n+claude-fable-5-2\n+), built for demanding reasoning and long-horizon agentic work.\n+Claude Mythos 5.2\n+(\n+claude-mythos-5-2\n+) offers the same capabilities only to organizations verified through Anthropic’s verification programs, such as the\n+Cyber Verification Program\n+. Both models have a\n+1M token context window\n+, 128k max output tokens, and always-on\n+adaptive thinking\n+. They cost $8 USD per MTok of input and $40 USD per MTok of output (Claude Fable 5.1 and Claude Mythos 5.1 cost $10 USD per MTok of input and $50 USD per MTok of output). Claude Fable 5.2 is availab\n+Claude Platform on AWS\n+, and\n+Claude Models on Google Cloud (Anthropic managed)\n+.\n+It’s also available on\n+Claude in Amazon Bedrock\n+.\n+It’s also available on\n+Claude Models on Google Cloud (Google managed)\n+.\n+It’s also available on\n+Claude in Microsoft Foundry\n+.\n+See\n+What’s new in Claude Fable 5.2\n+for API changes and migration guidance. For model-specific prompting patterns, see\n+Prompting Claude Fable 5.2\n+.\n+Claude Fable 5.2 and Claude Mythos 5.2 enforce the\n+prefix check\n+for every account, whatever its age. Claude Fable 5.1 returns the error by default on accounts created on or after August 31, 2026 (see\n+When\n+prefix_mismatch_behavior",
+    "snippet_full": "",
+    "diff": {
+      "added": 82,
+      "removed": 0,
+      "churn": 82
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 10 Nov 2026 05:30:47 GMT",
+    "run_at": "2026-11-10T05:30:27Z",
+    "run_id": "53e0c6e371df42a4900c0c5bb1465d2f"
+  },
+  {
+    "id": "bee7972d025794ac71b3b173dee07ec2da234311",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: ChatGPT Enterprise now available in AWS Marketplace\n+link: https://openai.com/index/chatgpt-enterprise-aws-marketplace\n+id: https://openai.com/index/chatgpt-enterprise-aws-marketplace\n+date: Mon, 09 Nov 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: CodeRabbit scales agentic software development and ships 20x more\n+link: https://openai.com/index/coderabbit-codex-daybreak\n+id: https://openai.com/index/coderabbit-codex-daybreak\n+date: Mon, 09 Nov 2026 08:00:00 GMT\n+title: Control Room: A central system to track and stop model workloads across our research infrastructure\n+link: https://openai.com/index/control-room",
+    "snippet_full": "+title: ChatGPT Enterprise now available in AWS Marketplace\n+link: https://openai.com/index/chatgpt-enterprise-aws-marketplace\n+id: https://openai.com/index/chatgpt-enterprise-aws-marketplace\n+date: Mon, 09 Nov 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: CodeRabbit scales agentic software development and ships 20x more\n+link: https://openai.com/index/coderabbit-codex-daybreak\n+id: https://openai.com/index/coderabbit-codex-daybreak\n+date: Mon, 09 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Control Room: A central system to track and stop model workloads across our research infrastructure\n+link: https://openai.com/index/control-room\n+id: https://openai.com/index/control-room\n+date: Mon, 09 Nov 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: Kuken Industries searches 70 years of drawings in minutes\n+link: https://openai.com/index/kuken\n+id: https://openai.com/index/kuken\n+date: Mon, 09 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 10 Nov 2026 05:30:27 GMT",
+    "run_at": "2026-11-10T05:30:27Z",
+    "run_id": "53e0c6e371df42a4900c0c5bb1465d2f"
+  },
+  {
+    "id": "fbe5a362bd8155f430b7c5561b4218f15aa4b20f",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Preserved reasoning\n+Keep the prefix unchanged\n+Build a retro handheld game with Codex and ModRetro Chromatic\n-Architectural visualization with Astra",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 10 Nov 2026 05:30:27 GMT",
+    "run_at": "2026-11-10T05:30:27Z",
+    "run_id": "53e0c6e371df42a4900c0c5bb1465d2f"
+  },
+  {
     "id": "c7124a1ea8294c9831370dca08e635fefb481c1b",
     "impact": "Medium",
     "name": "OpenAI API Changelog (HTML)",
@@ -943,62 +1002,5 @@
     "pubDate": "Tue, 20 Oct 2026 02:53:11 GMT",
     "run_at": "2026-10-20T02:53:11Z",
     "run_id": "f388fc5381374319a0bf322de38871b4"
-  },
-  {
-    "id": "369db88fded15a47acc59ab317f0cecad60002ae",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Run scans in CI\n+CI/CD\n+Overview\n+GitHub Actions",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 1,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 20 Oct 2026 02:53:11 GMT",
-    "run_at": "2026-10-20T02:53:11Z",
-    "run_id": "f388fc5381374319a0bf322de38871b4"
-  },
-  {
-    "id": "60f4f4a2144fafb2907151b23c109a2c7beb3304",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Benefit Street Partners answers questions faster with Codex\n+link: https://openai.com/index/benefit-street-partners\n+id: https://openai.com/index/benefit-street-partners\n+date: Fri, 16 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 18 Oct 2026 02:27:39 GMT",
-    "run_at": "2026-10-18T02:27:39Z",
-    "run_id": "16a84c3d60f84fb5a166ef8ea8b1f1fe"
-  },
-  {
-    "id": "ce8ae7f7b27443cee89791e21fecd47e04c080bf",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How Itaú is building generative AI for its entire customer base\n+link: https://openai.com/index/itau-generative-ai\n+id: https://openai.com/index/itau-generative-ai\n+date: Fri, 16 Oct 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: Stack Overflow for Agents triples signups with ChatGPT plugin\n+link: https://openai.com/index/stack-overflow-chatgpt-plugin\n+id: https://openai.com/index/stack-overflow-chatgpt-plugin\n+date: Fri, 16 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 17 Oct 2026 02:27:34 GMT",
-    "run_at": "2026-10-17T02:27:33Z",
-    "run_id": "626f0ffb9a5f4c149333f2ae44858662"
   }
 ]
