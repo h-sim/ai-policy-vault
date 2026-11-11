@@ -191,16 +191,16 @@ id: https://openai.com/ads/customers/flipsnack
 date: Thu, 05 Nov 2026 00:45:15 GMT
 body:
 #ITEM
-title: Enabling a data-driven workforce
-link: https://openai.com/business/enabling-a-data-driven-workforce-webinar
-id: https://openai.com/business/enabling-a-data-driven-workforce-webinar
-date: Thu, 08 Aug 2024 00:00:00 GMT
+title: Using GPT-4 to deliver a new customer service standard
+link: https://openai.com/business/customer-stories/ada
+id: https://openai.com/business/customer-stories/ada
+date: Thu, 05 Sep 2024 08:00:00 GMT
 body:
 #ITEM
-title: Fine-tuning GPT-4o webinar
-link: https://openai.com/business/fine-tuning-gpt-4o-webinar
-id: https://openai.com/business/fine-tuning-gpt-4o-webinar
-date: Mon, 26 Aug 2024 00:00:00 GMT
+title: Blue J’s approach for scaling fast in complex, regulated domains
+link: https://openai.com/business/customer-stories/blue-j
+id: https://openai.com/business/customer-stories/blue-j
+date: Thu, 21 Aug 2025 10:00:00 GMT
 body:
 #ITEM
 title: A Practical Guide to Building AI Agents
@@ -231,12 +231,6 @@ title: How enterprises are scaling AI
 link: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
 id: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
 date: Mon, 11 May 2026 10:00:00 GMT
-body:
-#ITEM
-title: How OpenAI Uses Codex to Accelerate Engineering
-link: https://openai.com/business/guides-and-resources/how-openai-uses-codex
-id: https://openai.com/business/guides-and-resources/how-openai-uses-codex
-date: Wed, 14 Jan 2026 21:27:09 GMT
 body:
 #ITEM
 title: Inside GPT-5 for Work
@@ -293,6 +287,18 @@ id: https://openai.com/business/learn/delegate-work-to-chatgpt-agent
 date: Wed, 06 Aug 2025 00:00:00 GMT
 body:
 #ITEM
+title: Enabling a data-driven workforce
+link: https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar
+id: https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar
+date: Thu, 08 Aug 2024 00:00:00 GMT
+body:
+#ITEM
+title: Fine-tuning GPT-4o webinar
+link: https://openai.com/business/learn/fine-tuning-gpt-4o-webinar
+id: https://openai.com/business/learn/fine-tuning-gpt-4o-webinar
+date: Mon, 26 Aug 2024 00:00:00 GMT
+body:
+#ITEM
 title: GPT-5: Our best model for work
 link: https://openai.com/business/learn/gpt-5-our-best-model-for-work
 id: https://openai.com/business/learn/gpt-5-our-best-model-for-work
@@ -305,10 +311,28 @@ id: https://openai.com/business/learn/how-openai-uses-chatgpt-atlas-at-work
 date: Tue, 18 Nov 2025 00:00:00 GMT
 body:
 #ITEM
+title: How OpenAI Uses Codex to Accelerate Engineering
+link: https://openai.com/business/learn/how-openai-uses-codex
+id: https://openai.com/business/learn/how-openai-uses-codex
+date: Wed, 14 Jan 2026 21:27:09 GMT
+body:
+#ITEM
 title: Market research with ChatGPT
 link: https://openai.com/business/learn/market-research-with-chatgpt
 id: https://openai.com/business/learn/market-research-with-chatgpt
 date: Sun, 13 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: New in ChatGPT for Business: April 2025
+link: https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025
+id: https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025
+date: Thu, 24 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: New in ChatGPT for Business: March 2025
+link: https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025
+id: https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025
+date: Tue, 18 Mar 2025 00:00:00 GMT
 body:
 #ITEM
 title: Personalize ChatGPT with custom instructions
@@ -351,18 +375,6 @@ title: Writing with canvas in ChatGPT
 link: https://openai.com/business/learn/writing-with-canvas-in-chatgpt
 id: https://openai.com/business/learn/writing-with-canvas-in-chatgpt
 date: Tue, 08 Apr 2025 00:00:00 GMT
-body:
-#ITEM
-title: New in ChatGPT for Business: April 2025
-link: https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025
-id: https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025
-date: Thu, 24 Apr 2025 00:00:00 GMT
-body:
-#ITEM
-title: New in ChatGPT for Business: March 2025
-link: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
-id: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
-date: Tue, 18 Mar 2025 00:00:00 GMT
 body:
 #ITEM
 title: Put AI to work: Automate and scale financial operations
@@ -695,12 +707,6 @@ id: https://openai.com/index/accenture-partnership
 date: Mon, 01 Dec 2025 05:00:00 GMT
 body:
 #ITEM
-title: Using GPT-4 to deliver a new customer service standard
-link: https://openai.com/index/ada
-id: https://openai.com/index/ada
-date: Thu, 05 Sep 2024 08:00:00 GMT
-body:
-#ITEM
 title: Adebayo Ogunlesi joins OpenAI’s Board of Directors
 link: https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors
 id: https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors
@@ -861,6 +867,12 @@ title: Ensuring AI use in education leads to opportunity
 link: https://openai.com/index/ai-education-opportunity
 id: https://openai.com/index/ai-education-opportunity
 date: Thu, 05 Mar 2026 09:00:00 GMT
+body:
+#ITEM
+title: Work at the Frontier: AI’s effect on freelance work
+link: https://openai.com/index/ai-effect-on-freelance-work
+id: https://openai.com/index/ai-effect-on-freelance-work
+date: Tue, 10 Nov 2026 07:00:00 GMT
 body:
 #ITEM
 title: AI is becoming a first hire for small businesses
@@ -1227,12 +1239,6 @@ title: Block-sparse GPU kernels
 link: https://openai.com/index/block-sparse-gpu-kernels
 id: https://openai.com/index/block-sparse-gpu-kernels
 date: Wed, 06 Dec 2017 08:00:00 GMT
-body:
-#ITEM
-title: Blue J’s approach for scaling fast in complex, regulated domains
-link: https://openai.com/index/blue-j
-id: https://openai.com/index/blue-j
-date: Thu, 21 Aug 2025 10:00:00 GMT
 body:
 #ITEM
 title: BNY builds “AI for everyone, everywhere” with OpenAI
@@ -1623,6 +1629,12 @@ title: CLIP: Connecting text and images
 link: https://openai.com/index/clip
 id: https://openai.com/index/clip
 date: Tue, 05 Jan 2021 08:00:00 GMT
+body:
+#ITEM
+title: Closing the AI guidance gap in education
+link: https://openai.com/index/closing-ai-guidance-gap-education
+id: https://openai.com/index/closing-ai-guidance-gap-education
+date: Tue, 10 Nov 2026 09:00:00 GMT
 body:
 #ITEM
 title: Cloudflare links vulnerability discovery to defense with OpenAI
@@ -3125,6 +3137,12 @@ id: https://openai.com/index/gilbert-tobin
 date: Tue, 01 Sep 2026 01:00:00 GMT
 body:
 #ITEM
+title: Gilbert + Tobin rethinks the business of law with AI
+link: https://openai.com/index/gilbert-tobin-sam-nickless
+id: https://openai.com/index/gilbert-tobin-sam-nickless
+date: Thu, 12 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: Global news partnerships: Le Monde and Prisa Media
 link: https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media
 id: https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media
@@ -3641,6 +3659,12 @@ id: https://openai.com/index/helping-build-shared-standards-for-advanced-ai
 date: Tue, 23 Jun 2026 13:00:00 GMT
 body:
 #ITEM
+title: Helping caregivers use AI in everyday life
+link: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life
+id: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life
+date: Tue, 10 Nov 2026 12:00:00 GMT
+body:
+#ITEM
 title: Helping disaster response teams turn AI into action across Asia
 link: https://openai.com/index/helping-disaster-response-teams-asia
 id: https://openai.com/index/helping-disaster-response-teams-asia
@@ -4059,6 +4083,12 @@ title: How frontier firms are pulling ahead
 link: https://openai.com/index/introducing-b2b-signals
 id: https://openai.com/index/introducing-b2b-signals
 date: Wed, 06 May 2026 00:00:00 GMT
+body:
+#ITEM
+title: Introducing Businesses in ChatGPT
+link: https://openai.com/index/introducing-businesses-chatgpt
+id: https://openai.com/index/introducing-businesses-chatgpt
+date: Tue, 10 Nov 2026 10:00:00 GMT
 body:
 #ITEM
 title: Introducing canvas, a new way to write and code with ChatGPT.

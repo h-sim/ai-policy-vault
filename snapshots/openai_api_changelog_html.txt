@@ -741,11 +741,11 @@ Docs
 Showcase
 All posts
 Recent
-Build a retro handheld game with Codex and ModRetro Chromatic
+Pushing voice agents further: inside four GPT-Live builds
+Building a retro handheld game with Codex and ModRetro Chromatic
 Designing failover across OpenAI model providers
 Maintaining software with the GPT-6 family
 Bringing my LED display to life with GPT-Live-1 and Codex
-Rethinking skills and prompts for GPT-6 Astra
 Topics
 General
 API
@@ -874,7 +874,7 @@ Released
 GPT-Image-2.6 Sunburst
 and
 GPT-Image-2.6 Flare
-for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.
+for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT-Image-2.5 and GPT-Image-2.6 models.
 See the
 image generation guide
 .
@@ -1156,7 +1156,7 @@ Sep 10
 Feature
 gpt-live-1
 v1/live/sessions
-GPT-Live 1
+GPT-Live-1
 is now generally available in the API. Build full-duplex voice conversations that can continue while a backend model or agent handles reasoning and tools.
 Use Responses delegation with an OpenAI model, or client delegation to connect your own backend. Voice sessions cost $0.05 per minute, billed per second; backend model and tool usage is charged separately.
 Start with

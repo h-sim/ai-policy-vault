@@ -1,5 +1,64 @@
 [
   {
+    "id": "0c88bab09f151f0cac66d763ee44e846b3231c13",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+The\n+Compliance API\n+now includes Security posture data, in beta for Claude Enterprise organizations. The\n+Activity Feed\n+records changes to attestations on the\n+Security posture\n+page in claude.ai\n+Organization settings\n+.\n+The\n+GET /v1/compliance/organizations/{organization_id}/security_posture\n+endpoint returns an organization’s current Security posture results.\n+See\n+Security posture in the Compliance API\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 15,
+      "removed": 0,
+      "churn": 15
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 11 Nov 2026 04:01:12 GMT",
+    "run_at": "2026-11-11T04:01:11Z",
+    "run_id": "9f5d269f90e34c0ebeaf8e5830fedef9"
+  },
+  {
+    "id": "fa1d5ad2b6f8283872b11666353bc8c84de66b76",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: Enabling a data-driven workforce\n-link: https://openai.com/business/enabling-a-data-driven-workforce-webinar\n-id: https://openai.com/business/enabling-a-data-driven-workforce-webinar\n-date: Thu, 08 Aug 2024 00:00:00 GMT\n-body:\n-#ITEM\n-title: Fine-tuning GPT-4o webinar\n-link: https://openai.com/business/fine-tuning-gpt-4o-webinar\n-id: https://openai.com/business/fine-tuning-gpt-4o-webinar\n-date: Mon, 26 Aug 2024 00:00:00 GMT\n+title: Using GPT-4 to deliver a new customer service standard\n+link: https://openai.com/business/customer-stories/ada",
+    "snippet_full": "-title: Enabling a data-driven workforce\n-link: https://openai.com/business/enabling-a-data-driven-workforce-webinar\n-id: https://openai.com/business/enabling-a-data-driven-workforce-webinar\n-date: Thu, 08 Aug 2024 00:00:00 GMT\n-body:\n-#ITEM\n-title: Fine-tuning GPT-4o webinar\n-link: https://openai.com/business/fine-tuning-gpt-4o-webinar\n-id: https://openai.com/business/fine-tuning-gpt-4o-webinar\n-date: Mon, 26 Aug 2024 00:00:00 GMT\n+title: Using GPT-4 to deliver a new customer service standard\n+link: https://openai.com/business/customer-stories/ada\n+id: https://openai.com/business/customer-stories/ada\n+date: Thu, 05 Sep 2024 08:00:00 GMT\n+body:\n+#ITEM\n+title: Blue J’s approach for scaling fast in complex, regulated domains\n+link: https://openai.com/business/customer-stories/blue-j\n+id: https://openai.com/business/customer-stories/blue-j\n+date: Thu, 21 Aug 2025 10:00:00 GMT\n-title: How OpenAI Uses Codex to Accelerate Engineering\n-link: https://openai.com/business/guides-and-resources/how-openai-uses-codex\n-id: https://openai.com/business/guides-and-resources/how-openai-uses-codex\n-date: Wed, 14 Jan 2026 21:27:09 GMT\n-body:\n-#ITEM\n+title: Enabling a data-driven workforce\n+link: https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar\n+id: https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar\n+date: Thu, 08 Aug 2024 00:00:00 GMT\n+body:\n+#ITEM\n+title: Fine-tuning GPT-4o webinar\n+link: https://openai.com/business/learn/fine-tuning-gpt-4o-webinar\n+id: https://openai.com/business/learn/fine-tuning-gpt-4o-webinar\n+date: Mon, 26 Aug 2024 00:00:00 GMT\n+body:\n+#ITEM\n+title: How OpenAI Uses Codex to Accelerate Engineering\n+link: https://openai.com/business/learn/how-openai-uses-codex",
+    "diff": {
+      "added": 70,
+      "removed": 40,
+      "churn": 110
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 11 Nov 2026 04:01:11 GMT",
+    "run_at": "2026-11-11T04:01:11Z",
+    "run_id": "9f5d269f90e34c0ebeaf8e5830fedef9"
+  },
+  {
+    "id": "86831fbf4fad34a40fbc357d743b2ca51bdbf977",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Build a retro handheld game with Codex and ModRetro Chromatic\n+Pushing voice agents further: inside four GPT-Live builds\n+Building a retro handheld game with Codex and ModRetro Chromatic\n-Rethinking skills and prompts for GPT-6 Astra\n-for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.\n+for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT-Image-2.5 and GPT-Image-2.6 models.\n-GPT-Live 1\n+GPT-Live-1",
+    "snippet_full": "",
+    "diff": {
+      "added": 4,
+      "removed": 4,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 11 Nov 2026 04:01:11 GMT",
+    "run_at": "2026-11-11T04:01:11Z",
+    "run_id": "9f5d269f90e34c0ebeaf8e5830fedef9"
+  },
+  {
     "id": "712fb8ced0b1dfd6a4c4b1c8f9f9d206c7fedc21",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -943,64 +1002,5 @@
     "pubDate": "Wed, 21 Oct 2026 02:47:25 GMT",
     "run_at": "2026-10-21T02:47:25Z",
     "run_id": "cac4270f91ee43409a49bc92d2a4a36e"
-  },
-  {
-    "id": "9c3e450409ea84c929503e5e9ac76b57159dd112",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Oct 20\n+Feature\n+v1/responses\n+You can now choose 12-hour prompt caching in the API. 12-hour prompt caching keeps shared instructions, tools, and context cached longer to benefit from lower cached-input pricing, even when requests\n+here\n+.\n+Oct 16\n+Feature\n+v1/agents\n+OpenAI-hosted sandboxes\n+in the Agents API now include the Artifact SDK and skills for creating and editing spreadsheets, presentations, and Word documents.\n+Added\n+Ultrafast mode\n+to the Agents API. Set\n+agent.service_tier\n+to\n+ultrafast\n+with a supported model to reduce the time between generated tokens.\n+Oct 9\n+Feature\n+v1/agents\n+You can now\n+pre-warm an OpenAI-hosted sandbox\n+before attaching it to an Agents API session. Prewarming improves latency by creating and configuring the sandbox before a user finishes sending their message. This means the user doesn't have to wai\n+OpenAI-hosted sandbox compute is now billed during active turns. You no longer pay for idle time between turns.",
-    "snippet_full": "",
-    "diff": {
-      "added": 25,
-      "removed": 0,
-      "churn": 25
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 21 Oct 2026 02:47:25 GMT",
-    "run_at": "2026-10-21T02:47:25Z",
-    "run_id": "cac4270f91ee43409a49bc92d2a4a36e"
-  },
-  {
-    "id": "dcd9672d480bf5a9ca9e3ad8a64fa60900eb4497",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+We've added\n+capabilities.thinking.types.between_tools\n+to the\n+Models API\n+.\n+GET /v1/models\n+and\n+GET /v1/models/{model_id}\n+now report whether each model accepts\n+thinking: {type: \"between_tools\"}\n+, which turns off up-front thinking. See\n+Using the Models API\n+.\n-, or earlier turns can also return a 400 error. On Amazon Bedrock, structured outputs aren't available for Claude Haiku 5.5. Adaptive thinking is on by default, so a response can begin with\n+, or earlier turns can also return a 400 error. Adaptive thinking is on by default, so a response can begin with\n-. You can export any data you want to keep from the banner and under your\n+in the Console. You can export any data you want to keep from the banner and under your\n-Console users with the Developer role can now access the\n+In the Console, users with the Developer role can now access the\n-in the\n+in the Console",
-    "snippet_full": "",
-    "diff": {
-      "added": 17,
-      "removed": 4,
-      "churn": 21
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 20 Oct 2026 02:53:12 GMT",
-    "run_at": "2026-10-20T02:53:11Z",
-    "run_id": "f388fc5381374319a0bf322de38871b4"
-  },
-  {
-    "id": "88cbb5fc64e479d8cb5d2f2a28ed8609e77efd62",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Advancing coding in low‑resource programming languages\n+link: https://openai.com/index/low-resource-programming-languages\n+id: https://openai.com/index/low-resource-programming-languages\n+date: Mon, 19 Oct 2026 12:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 20 Oct 2026 02:53:11 GMT",
-    "run_at": "2026-10-20T02:53:11Z",
-    "run_id": "f388fc5381374319a0bf322de38871b4"
   }
 ]
