@@ -1547,6 +1547,12 @@ id: https://openai.com/index/chatgpt-plus
 date: Wed, 01 Feb 2023 08:00:00 GMT
 body:
 #ITEM
+title: ChatGPT Plus for veterans and servicemembers
+link: https://openai.com/index/chatgpt-plus-for-veterans
+id: https://openai.com/index/chatgpt-plus-for-veterans
+date: Wed, 11 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: Helping ChatGPT better recognize context in sensitive conversations
 link: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations
 id: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations
@@ -1725,6 +1731,12 @@ title: Codex Security: now in research preview
 link: https://openai.com/index/codex-security-now-in-research-preview
 id: https://openai.com/index/codex-security-now-in-research-preview
 date: Fri, 06 Mar 2026 10:00:00 GMT
+body:
+#ITEM
+title: Cogent and OpenAI build cyber defense factories for enterprises
+link: https://openai.com/index/cogent-security
+id: https://openai.com/index/cogent-security
+date: Tue, 10 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: Cognition helps Devin test its own work with GPT‑6 Astra
@@ -4739,6 +4751,12 @@ id: https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer
 date: Tue, 03 Nov 2026 00:00:00 GMT
 body:
 #ITEM
+title: JioStar’s chief architect on AI discovery at 500M-user scale
+link: https://openai.com/index/jiostar-vijay-seshadri
+id: https://openai.com/index/jiostar-vijay-seshadri
+date: Wed, 11 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: AI helps John Deere transform agriculture
 link: https://openai.com/index/john-deere-justin-rose
 id: https://openai.com/index/john-deere-justin-rose
@@ -7119,6 +7137,12 @@ title: Simplifying, stabilizing, and scaling continuous-time consistency models
 link: https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models
 id: https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models
 date: Wed, 23 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Singapore Airlines elevates travel & work with OpenAI technology
+link: https://openai.com/index/singapore-airlines-travel-work
+id: https://openai.com/index/singapore-airlines-travel-work
+date: Tue, 10 Nov 2026 08:00:00 GMT
 body:
 #ITEM
 title: Singular Bank helps bankers move fast with ChatGPT and Codex

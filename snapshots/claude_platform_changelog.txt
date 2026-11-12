@@ -69,20 +69,18 @@ Cyber Verification Program
 , 128k max output tokens, and always-on
 adaptive thinking
 . They cost $8 USD per MTok of input and $40 USD per MTok of output (Claude Fable 5.1 and Claude Mythos 5.1 cost $10 USD per MTok of input and $50 USD per MTok of output). Claude Fable 5.2 is available on the Claude API,
+Amazon Bedrock (
+bedrock-runtime
+)
+,
 Claude Platform on AWS
-, and
+,
 Claude Models on Google Cloud (Anthropic managed)
-.
-It’s also available on
-Claude in Amazon Bedrock
-.
-It’s also available on
+,
 Claude Models on Google Cloud (Google managed)
-.
-It’s also available on
+, and
 Claude in Microsoft Foundry
-.
-See
+. See
 What’s new in Claude Fable 5.2
 for API changes and migration guidance. For model-specific prompting patterns, see
 Prompting Claude Fable 5.2
@@ -100,18 +98,15 @@ tools
 , or an earlier message and then sends back a Claude Fable 5.2 or Claude Mythos 5.2 thinking block from a later turn, the request returns a 400 error. Before you switch,
 check whether your code edits the prefix
 .
-On the Claude API
-and Claude Models on Google Cloud (Google managed)
-, a conversation that moves onto Claude Fable 5.2 or Claude Mythos 5.2 keeps the reasoning from other models, including Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5. When the conversation moves the other way, to any other model, including Claude Opus 5.5 and Claude Fable 5.1, the API drops the thinking blocks that Claude Fable 5.2 or Claude Mythos 5.2 produced, and the request still succeeds. See
+Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5.
+No other model reads thinking blocks from Claude Fable 5.2 or Claude Mythos 5.2. When a conversation moves from either one to a model outside this pair, the API drops those blocks. That includes a move to Claude Opus 5.5 or Claude Fable 5.1. The request still succeeds. See
 Switching models mid-conversation
 .
 Claude Fable 5.2 and Claude Mythos 5.2 support computer use through the
 computer_toolset_20260801
 toolset. A request that declares the earlier
 computer_20251124
-tool returns a 400 error
-on every platform except Amazon Bedrock, where the earlier tool still works
-. See
+tool returns a 400 error on every platform except Amazon Bedrock, where the earlier tool still works. See
 Migrate from
 computer_20251124
 .
@@ -127,6 +122,10 @@ Model-specific data retention requirements
 .
 Thinking blocks that Claude Fable 5.2 and Claude Mythos 5.2 produce work only in the account that produced them, or in an account linked to it. See
 Preserved thinking
+.
+Dreams
+(research preview) now supports Claude Fable 5.2. See
+Supported models
 .
 We’ve launched
 fast mode
@@ -908,25 +907,25 @@ We’ve launched
 Claude Fable 5.1
 (
 claude-fable-5-1
-), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside
+), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research. For Project Glasswing participants, we’ve also launched
 Claude Mythos 5.1
 (
 claude-mythos-5-1
-) for Project Glasswing participants. Both models support a
+). Both models support a
 1M token context window
 by default, 128k max output tokens, and always-on
 adaptive thinking
-, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API,
+. They cost $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API,
 Claude in Amazon Bedrock
-,
-Claude Platform on AWS
-,
-Claude Models on Google Cloud (Google managed)
 , and
+Claude Platform on AWS
+. It’s also on
+Claude Models on Google Cloud (Google managed)
+and
 Claude in Microsoft Foundry
 . See
-What’s new in Claude Fable 5.1
-for capabilities, API changes, and migration guidance.
+Claude Fable 5.1
+for specifications.
 Prompt cache reads on Claude Fable 5.1 and Claude Mythos 5.1 cost $0.25 USD per million tokens: 0.025x the base input price, compared with 0.1x on other models. Cache writes are unchanged. See
 Prompt caching pricing
 .
@@ -1386,8 +1385,8 @@ Claude Models on Google Cloud (Google managed)
 , and
 Claude in Microsoft Foundry
 . See
-What’s new in Claude Opus 5
-for new features, behavior changes, and migration guidance, and the
+Claude Opus 5
+and the
 models overview
 for complete specs.
 On Claude Opus 5, disabling thinking is allowed only at effort
@@ -1399,7 +1398,7 @@ xhigh
 or
 max
 returns a 400 error, a breaking change from Claude Opus 4.8. See
-What’s new in Claude Opus 5
+Effort with thinking
 .
 Effort
 is the primary control for steering Claude Opus 5: the model supports the full ladder (
@@ -1631,8 +1630,8 @@ top_p
 ,
 top_k
 ) to non-default values returns a 400 error. Claude Sonnet 5 also uses a new tokenizer that produces approximately 30% more tokens for the same text. The exact increase depends on the content and workload shape. See
-What’s new in Claude Sonnet 5
-for details and migration guidance. For behavioral differences and model-specific prompting patterns, see
+Claude Sonnet 5
+for details. For behavioral differences and model-specific prompting patterns, see
 Prompting Claude Sonnet 5
 .
 Claude Managed Agents session event streams now support

@@ -1,5 +1,66 @@
 [
   {
+    "id": "857a15ea986d1c00aca9a3be464e5cfe6854560e",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+Amazon Bedrock (\n+bedrock-runtime\n+)\n+,\n+,\n+Claude Models on Google Cloud (Anthropic managed)\n+,\n+Claude Models on Google Cloud (Google managed)\n-Claude Models on Google Cloud (Anthropic managed)\n-.\n-It’s also available on\n-Claude in Amazon Bedrock\n-.\n-It’s also available on\n-Claude Models on Google Cloud (Google managed)\n-.\n-It’s also available on\n-.\n-See\n+. See\n-On the Claude API\n-and Claude Models on Google Cloud (Google managed)\n-, a conversation that moves onto Claude Fable 5.2 or Claude Mythos 5.2 keeps the reasoning from other models, including Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5. When the conversation\n+Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto e\n+No other model reads thinking blocks from Claude Fable 5.2 or Claude Mythos 5.2. When a conversation moves from either one to a model outside this pair, the API drops those blocks. That includes a mo\n-tool returns a 400 error\n-on every platform except Amazon Bedrock, where the earlier tool still works\n-. See\n+tool returns a 400 error on every platform except Amazon Bedrock, where the earlier tool still works. See\n+.\n+Dreams\n+(research preview) now supports Claude Fable 5.2. See\n+Supported models\n-), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside\n+), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research. For Project Glasswing participants, we’ve also launched\n-) for Project Glasswing participants. Both models support a\n+). Both models support a\n-, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API,\n+. They cost $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API,\n-,",
+    "snippet_full": "",
+    "diff": {
+      "added": 29,
+      "removed": 30,
+      "churn": 59
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 12 Nov 2026 05:13:41 GMT",
+    "run_at": "2026-11-12T05:13:19Z",
+    "run_id": "e6ab5dd0e60c431c9ced50715325ffc7"
+  },
+  {
+    "id": "52e201841a2ffa76ed6b319da93401e06357b49a",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+link: https://openai.com/index/cogent-security\n+id: https://openai.com/index/cogent-security\n+title: ChatGPT Plus for veterans and servicemembers\n+link: https://openai.com/index/chatgpt-plus-for-veterans\n+id: https://openai.com/index/chatgpt-plus-for-veterans\n+date: Wed, 11 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Cogent and OpenAI build cyber defense factories for enterprises\n+date: Tue, 10 Nov 2026 00:00:00 GMT\n+title: JioStar’s chief architect on AI discovery at 500M-user scale\n+link: https://openai.com/index/jiostar-vijay-seshadri",
+    "snippet_full": "+title: ChatGPT Plus for veterans and servicemembers\n+link: https://openai.com/index/chatgpt-plus-for-veterans\n+id: https://openai.com/index/chatgpt-plus-for-veterans\n+date: Wed, 11 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Cogent and OpenAI build cyber defense factories for enterprises\n+link: https://openai.com/index/cogent-security\n+id: https://openai.com/index/cogent-security\n+date: Tue, 10 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: JioStar’s chief architect on AI discovery at 500M-user scale\n+link: https://openai.com/index/jiostar-vijay-seshadri\n+id: https://openai.com/index/jiostar-vijay-seshadri\n+date: Wed, 11 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Singapore Airlines elevates travel & work with OpenAI technology\n+link: https://openai.com/index/singapore-airlines-travel-work\n+id: https://openai.com/index/singapore-airlines-travel-work\n+date: Tue, 10 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 12 Nov 2026 05:13:40 GMT",
+    "run_at": "2026-11-12T05:13:19Z",
+    "run_id": "e6ab5dd0e60c431c9ced50715325ffc7"
+  },
+  {
+    "id": "41045b07ac46b01a23fcedab9d2d7ba5c6a51d92",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Codex Security Cloud\n+Daybreak Defense Factory\n+Student Collective",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 1,
+      "churn": 3
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 12 Nov 2026 05:13:20 GMT",
+    "run_at": "2026-11-12T05:13:19Z",
+    "run_id": "e6ab5dd0e60c431c9ced50715325ffc7"
+  },
+  {
     "id": "0c88bab09f151f0cac66d763ee44e846b3231c13",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -945,62 +1006,5 @@
     "pubDate": "Thu, 22 Oct 2026 02:46:33 GMT",
     "run_at": "2026-10-22T02:46:10Z",
     "run_id": "e8dc5be479c34d28801ac5375a925735"
-  },
-  {
-    "id": "7716e62361b7106cc11b53e14ba994ec428db3d9",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Oct 21\n+Feature\n+You can now choose which service tiers projects can use in Platform settings. Organization settings can restrict service tiers for all projects. See\n+service tier errors\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 5,
-      "removed": 0,
-      "churn": 5
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 22 Oct 2026 02:46:11 GMT",
-    "run_at": "2026-10-22T02:46:10Z",
-    "run_id": "e8dc5be479c34d28801ac5375a925735"
-  },
-  {
-    "id": "7e29b0f44ff0f36092baef342d5678f5e2db39aa",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+October 20, 2026\n+\n+Inference hooks\n+are out of beta for Claude Enterprise organizations.\n+We've launched\n+user profiles\n+, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end cust\n+ant\n+CLI support the new\n+/v1/user_profiles\n+endpoints\n+.\n+We've added\n+organization webhooks\n+to the\n+Admin API\n+, in beta with the\n+webhooks-2026-10-07\n+beta header. Its\n+/v1/organizations/webhooks\n+endpoints\n+register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, con\n+October 20, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 23,
-      "removed": 0,
-      "churn": 23
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 21 Oct 2026 02:47:27 GMT",
-    "run_at": "2026-10-21T02:47:25Z",
-    "run_id": "cac4270f91ee43409a49bc92d2a4a36e"
-  },
-  {
-    "id": "5bc5edecb1b68ee1dd5315cbfa7b13cc9ac5ce72",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI acquires Orchestra Bio\n+link: https://openai.com/index/openai-to-acquire-orchestra-bio\n+id: https://openai.com/index/openai-to-acquire-orchestra-bio\n+date: Tue, 20 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Franchisee reconciles cash in 94% less time with ChatGPT Work\n+link: https://openai.com/index/ted-taylor-restaurant\n+id: https://openai.com/index/ted-taylor-restaurant\n+date: Tue, 20 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Terminal X matches senior investor judgment 88.6% with GPT-6.1\n+link: https://openai.com/index/terminal-x\n+id: https://openai.com/index/terminal-x\n+date: Tue, 20 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 21 Oct 2026 02:47:25 GMT",
-    "run_at": "2026-10-21T02:47:25Z",
-    "run_id": "cac4270f91ee43409a49bc92d2a4a36e"
   }
 ]
