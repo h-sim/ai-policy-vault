@@ -197,10 +197,28 @@ id: https://openai.com/business/customer-stories/ada
 date: Thu, 05 Sep 2024 08:00:00 GMT
 body:
 #ITEM
+title: How Amplitude ships product improvements in 1–2 days with OpenAI
+link: https://openai.com/business/customer-stories/amplitude
+id: https://openai.com/business/customer-stories/amplitude
+date: Thu, 12 Nov 2026 20:00:00 GMT
+body:
+#ITEM
 title: Blue J’s approach for scaling fast in complex, regulated domains
 link: https://openai.com/business/customer-stories/blue-j
 id: https://openai.com/business/customer-stories/blue-j
 date: Thu, 21 Aug 2025 10:00:00 GMT
+body:
+#ITEM
+title: Gondola doubles revenue as its team builds more with Codex
+link: https://openai.com/business/customer-stories/gondola
+id: https://openai.com/business/customer-stories/gondola
+date: Thu, 12 Nov 2026 12:00:00 GMT
+body:
+#ITEM
+title: Holiday Extras is rethinking what it can build with Codex
+link: https://openai.com/business/customer-stories/holidays-extras-codex
+id: https://openai.com/business/customer-stories/holidays-extras-codex
+date: Thu, 12 Nov 2026 09:30:00 GMT
 body:
 #ITEM
 title: A Practical Guide to Building AI Agents
@@ -1593,6 +1611,12 @@ title: OpenAI’s commitment to child safety: adopting safety by design principl
 link: https://openai.com/index/child-safety-adopting-sbd-principles
 id: https://openai.com/index/child-safety-adopting-sbd-principles
 date: Tue, 23 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Supporting research on AI and children’s safety
+link: https://openai.com/index/children-first-declaration
+id: https://openai.com/index/children-first-declaration
+date: Thu, 12 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: How Chime is redefining marketing through AI

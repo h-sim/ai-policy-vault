@@ -613,8 +613,11 @@ Codex Security
 Overview
 Daybreak Defense Factory
 Setup
+Findings and fixes
+Import scanner findings
 Security Review
 Improving the threat model
+Notifications
 FAQ
 Codex Security plugin
 Quickstart
@@ -666,6 +669,7 @@ Windows app and CLI deployment
 NFS home directories
 Manage app updates
 Managed configuration
+Desktop browser policies
 Self-host configuration
 Codex security cookbook
 Remote connections
@@ -741,11 +745,11 @@ Docs
 Showcase
 All posts
 Recent
+Securing persistent agents like OpenClaw at OpenAI
 Pushing voice agents further: inside four GPT-Live builds
 Building a retro handheld game with Codex and ModRetro Chromatic
 Designing failover across OpenAI model providers
 Maintaining software with the GPT-6 family
-Bringing my LED display to life with GPT-Live-1 and Codex
 Topics
 General
 API
@@ -861,7 +865,7 @@ Nov 5
 Feature
 gpt-6-cyber
 Use
-GPT-6-Cyber
+GPT-6 Cyber
 to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes. See
 Daybreak setup
 before sending your first request.
@@ -1182,9 +1186,9 @@ gpt-image-2.5-flare
 v1/images
 v1/responses
 Released
-GPT Image 2.5 Sunburst
+GPT-Image-2.5 Sunburst
 and
-GPT Image 2.5 Flare
+GPT-Image-2.5 Flare
 for image generation and editing through the Image API and the Responses API image generation tool.
 Use Sunburst for workflows where editing precision matters most, or Flare for fast, high-quality everyday image generation. Both models support the new
 xhigh
@@ -1429,9 +1433,9 @@ gpt-live-transcribe
 v1/audio/transcriptions
 v1/realtime
 Released
-GPT Transcribe
+GPT-Transcribe
 for accurate file transcription and final transcripts of committed Realtime turns, along with
-GPT Live Transcribe
+GPT-Live-Transcribe
 for low-latency streaming transcription.
 Both models support free-form transcription context, keyword hints, and multiple expected input languages. Compare supported outputs and workflows in the
 transcription guide
@@ -2188,7 +2192,7 @@ Released several new features at
 OpenAI DevDay
 :
 Released
-GPT-5 Pro
+GPT-5 pro
 , a version of
 GPT-5
 that uses more compute to think harder and provide consistently better answers.
@@ -2891,7 +2895,7 @@ OpenAI Deno SDK
 Nov 6
 Update
 Released
-GPT-4 Turbo Preview
+GPT-4 Turbo preview
 ,
 updated GPT-3.5 Turbo
 ,

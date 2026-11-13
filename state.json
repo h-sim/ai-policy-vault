@@ -1,5 +1,64 @@
 [
   {
+    "id": "6f2202cb62c8c17db76f9e0b42a08dc5fd0fc125",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+November 12, 2026\n+\n+We’ve launched\n+self-hosted Claude Managed Agents\n+. You run the whole Managed Agents service, not only\n+self-hosted sandboxes\n+, on your own infrastructure, and you store agents, sessions, and session history there. The server sends model requests to the provider that you choose, which is Anthropic by default. To request acc\n+November 12, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 8,
+      "removed": 0,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 13 Nov 2026 04:29:18 GMT",
+    "run_at": "2026-11-13T04:29:00Z",
+    "run_id": "359485b153554d4f86e321d67d77b3f0"
+  },
+  {
+    "id": "8708a1cccfac66595ddef6d6dc02c35eb9019084",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Supporting research on AI and children’s safety\n+title: How Amplitude ships product improvements in 1–2 days with OpenAI\n+link: https://openai.com/business/customer-stories/amplitude\n+id: https://openai.com/business/customer-stories/amplitude\n+date: Thu, 12 Nov 2026 20:00:00 GMT\n+body:\n+#ITEM\n+title: Gondola doubles revenue as its team builds more with Codex\n+link: https://openai.com/business/customer-stories/gondola\n+id: https://openai.com/business/customer-stories/gondola\n+date: Thu, 12 Nov 2026 12:00:00 GMT\n+title: Holiday Extras is rethinking what it can build with Codex",
+    "snippet_full": "+title: How Amplitude ships product improvements in 1–2 days with OpenAI\n+link: https://openai.com/business/customer-stories/amplitude\n+id: https://openai.com/business/customer-stories/amplitude\n+date: Thu, 12 Nov 2026 20:00:00 GMT\n+body:\n+#ITEM\n+title: Gondola doubles revenue as its team builds more with Codex\n+link: https://openai.com/business/customer-stories/gondola\n+id: https://openai.com/business/customer-stories/gondola\n+date: Thu, 12 Nov 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Holiday Extras is rethinking what it can build with Codex\n+link: https://openai.com/business/customer-stories/holidays-extras-codex\n+id: https://openai.com/business/customer-stories/holidays-extras-codex\n+date: Thu, 12 Nov 2026 09:30:00 GMT\n+body:\n+#ITEM\n+title: Supporting research on AI and children’s safety\n+link: https://openai.com/index/children-first-declaration\n+id: https://openai.com/index/children-first-declaration\n+date: Thu, 12 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 13 Nov 2026 04:29:17 GMT",
+    "run_at": "2026-11-13T04:29:00Z",
+    "run_id": "359485b153554d4f86e321d67d77b3f0"
+  },
+  {
+    "id": "3a36507a4f8eaba2c8affa83b71d9b996ebc0b7f",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Findings and fixes\n+Import scanner findings\n+Notifications\n+Desktop browser policies\n+Securing persistent agents like OpenClaw at OpenAI\n-Bringing my LED display to life with GPT-Live-1 and Codex\n-GPT-6-Cyber\n+GPT-6 Cyber\n-GPT Image 2.5 Sunburst\n-and\n-GPT Image 2.5 Flare\n+GPT-Image-2.5 Sunburst\n+and\n+GPT-Image-2.5 Flare\n-GPT Transcribe\n+GPT-Transcribe\n-GPT Live Transcribe\n+GPT-Live-Transcribe\n-GPT-5 Pro\n+GPT-5 pro\n-GPT-4 Turbo Preview\n+GPT-4 Turbo preview",
+    "snippet_full": "",
+    "diff": {
+      "added": 13,
+      "removed": 9,
+      "churn": 22
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 13 Nov 2026 04:29:00 GMT",
+    "run_at": "2026-11-13T04:29:00Z",
+    "run_id": "359485b153554d4f86e321d67d77b3f0"
+  },
+  {
     "id": "857a15ea986d1c00aca9a3be464e5cfe6854560e",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -945,66 +1004,5 @@
     "pubDate": "Fri, 23 Oct 2026 02:50:02 GMT",
     "run_at": "2026-10-23T02:50:01Z",
     "run_id": "b3db7f5aac8a4ef9b892addec319559c"
-  },
-  {
-    "id": "09bcad91338ffdd32e8e6e1ed0e26377b2b0a94c",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+ChatGPT EDU\n+Education plans\n+Higher education setup\n+Oct 22\n+Update\n+gpt-6-luna\n+v1/decisions\n+The\n+Decisions API\n+is now generally available with\n+gpt-6-luna\n+. Cache shared input across requests for prompt-cache discounts, include images in individual question instructions, and pass structured data directly with\n+input_json\n+. Each request now supports up to 400 questions, increased from 200 in public beta. Review the\n+changes since public beta\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 16,
-      "removed": 0,
-      "churn": 16
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 23 Oct 2026 02:50:01 GMT",
-    "run_at": "2026-10-23T02:50:01Z",
-    "run_id": "b3db7f5aac8a4ef9b892addec319559c"
-  },
-  {
-    "id": "434dd975c59c337bac786d2fd2e0c84a83c99ad2",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+Migrating to API version 2026-10-21\n+October 21, 2026\n+\n+We've released API version\n+2026-10-21\n+.\n+Migrating to API version 2026-10-21\n+shows how to upgrade.\n+We've released new versions of the\n+client SDKs\n+and the\n+ant\n+CLI\n+that send API version\n+2026-10-21\n+by default: Python SDK 2.0.0, TypeScript SDK 1.0.0, C# SDK 13.0.0, Go SDK 2.0.0, Java SDK 3.0.0, PHP SDK 1.0.0, Ruby SDK 2.0.0, and\n+ant\n+CLI 2.0.0. See\n+Switch to 2026-10-21\n+.\n+The new SDK and CLI versions also have breaking changes that don't depend on the API version, and they are licensed under Apache 2.0 instead of the MIT License. See\n+SDK and CLI changes\n+.\n+We've added the\n+enforcement_status\n+and\n+enforcement_actions\n+fields to\n+user profiles\n+, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban,\n+list your profiles\n+with the new\n+enforcement_status[]\n+filter. See\n+Check whether Anthropic has restricted or banned a profile\n+.\n+Organization admins can now turn off web fetch for their organization on the\n+Capabilities\n+page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session,\n+web_fetch",
-    "snippet_full": "",
-    "diff": {
-      "added": 75,
-      "removed": 1,
-      "churn": 76
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 22 Oct 2026 02:46:53 GMT",
-    "run_at": "2026-10-22T02:46:10Z",
-    "run_id": "e8dc5be479c34d28801ac5375a925735"
-  },
-  {
-    "id": "75765aaf82f40dbff2a480775a8bb1e68bfe080d",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How we built ChatGPT’s novel ad stack for user trust and relevance\n+title: How AT&T is rethinking in-house legal work with OpenAI\n+link: https://openai.com/index/att-legal\n+id: https://openai.com/index/att-legal\n+date: Wed, 21 Oct 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Broad access through consistent standards\n+link: https://openai.com/index/broad-access-through-consistent-standards\n+id: https://openai.com/index/broad-access-through-consistent-standards\n+date: Wed, 21 Oct 2026 21:00:00 GMT\n+link: https://openai.com/index/building-chatgpt-ad-stack",
-    "snippet_full": "+title: How AT&T is rethinking in-house legal work with OpenAI\n+link: https://openai.com/index/att-legal\n+id: https://openai.com/index/att-legal\n+date: Wed, 21 Oct 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Broad access through consistent standards\n+link: https://openai.com/index/broad-access-through-consistent-standards\n+id: https://openai.com/index/broad-access-through-consistent-standards\n+date: Wed, 21 Oct 2026 21:00:00 GMT\n+body:\n+#ITEM\n+title: How we built ChatGPT’s novel ad stack for user trust and relevance\n+link: https://openai.com/index/building-chatgpt-ad-stack\n+id: https://openai.com/index/building-chatgpt-ad-stack\n+date: Wed, 21 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform\n+link: https://openai.com/index/chatgpt-ads-expands-26-new-countries\n+id: https://openai.com/index/chatgpt-ads-expands-26-new-countries\n+date: Wed, 21 Oct 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: Cloudflare links vulnerability discovery to defense with OpenAI\n+link: https://openai.com/index/cloudflare-cyber\n+id: https://openai.com/index/cloudflare-cyber\n+date: Wed, 21 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Patch the Planet: global response coordination as agents uncover critical vulnerabilities\n+link: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\n+id: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\n+date: Wed, 21 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Democratic governance of frontier AI, part II: Empowering cyber defenders\n+link: https://openai.com/index/empowering-cyber-defenders\n+id: https://openai.com/index/empowering-cyber-defenders\n+date: Wed, 21 Oct 2026 00:00:00 GMT",
-    "diff": {
-      "added": 54,
-      "removed": 0,
-      "churn": 54
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 22 Oct 2026 02:46:33 GMT",
-    "run_at": "2026-10-22T02:46:10Z",
-    "run_id": "e8dc5be479c34d28801ac5375a925735"
   }
 ]

@@ -52,6 +52,13 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+November 12, 2026
+
+We’ve launched
+self-hosted Claude Managed Agents
+. You run the whole Managed Agents service, not only
+self-hosted sandboxes
+, on your own infrastructure, and you store agents, sessions, and session history there. The server sends model requests to the provider that you choose, which is Anthropic by default. To request access, contact your Anthropic account team.
 November 9, 2026
 
 We’ve launched
@@ -3047,6 +3054,7 @@ prompt generator blog post
 Was this page helpful?
 
 
+November 12, 2026
 November 9, 2026
 November 5, 2026
 November 3, 2026
