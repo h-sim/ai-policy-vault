@@ -1,5 +1,62 @@
 [
   {
+    "id": "318945a783c52a7cb9e85332e70c124c525e20f0",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+    "snippet_full": "",
+    "diff": {
+      "added": 0,
+      "removed": 166,
+      "churn": 166
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 14 Nov 2026 04:25:12 GMT",
+    "run_at": "2026-11-14T04:25:10Z",
+    "run_id": "b5e274345fd9405f8eeee72767fe166e"
+  },
+  {
+    "id": "454c21a8e3e68ecf822a736be7ee6f16a490b0be",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Shield helps technicians hand off legacy portal work with OpenAI\n+link: https://openai.com/business/customer-stories/shield\n+id: https://openai.com/business/customer-stories/shield\n+date: Fri, 13 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT Wallet\n+link: https://openai.com/index/introducing-chatgpt-wallet\n+id: https://openai.com/index/introducing-chatgpt-wallet\n+date: Fri, 13 Nov 2026 15:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 14 Nov 2026 04:25:11 GMT",
+    "run_at": "2026-11-14T04:25:10Z",
+    "run_id": "b5e274345fd9405f8eeee72767fe166e"
+  },
+  {
+    "id": "f591848008e75877191883554ba7c29ccb63c75e",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Agent Access\n+Allow verified ChatGPT browser visits to your website\n+Data residency\n+Agent Access\n-Guides\n-Get started\n-Best practices\n-File Upload\n-Overview\n-Products\n-API\n-Overview\n-Feeds\n-Products\n-Promotions\n+Partner Playbook Overview\n+Commerce Partner Playbook\n+Submit product feeds\n+Help ensure cloud browser access\n+Accept payments\n+Build a plugin\n+Integrate Sign in with ChatGPT\n+Claim your business\n+Product feeds · Reference\n+Product feed schema",
+    "snippet_full": "",
+    "diff": {
+      "added": 14,
+      "removed": 11,
+      "churn": 25
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 14 Nov 2026 04:25:11 GMT",
+    "run_at": "2026-11-14T04:25:10Z",
+    "run_id": "b5e274345fd9405f8eeee72767fe166e"
+  },
+  {
     "id": "6f2202cb62c8c17db76f9e0b42a08dc5fd0fc125",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -945,64 +1002,5 @@
     "pubDate": "Sat, 24 Oct 2026 02:47:16 GMT",
     "run_at": "2026-10-24T02:46:55Z",
     "run_id": "a9853110ff6b49438f8d0ea43b5151eb"
-  },
-  {
-    "id": "40ad0c8d3b88c4a0854aeb513d5fff86dcf548ab",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Scheduled automations\n+Model catalogs",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 24 Oct 2026 02:46:55 GMT",
-    "run_at": "2026-10-24T02:46:55Z",
-    "run_id": "a9853110ff6b49438f8d0ea43b5151eb"
-  },
-  {
-    "id": "ef1d6dfdf5009c2477451cdf74cbc93a26384702",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+October 22, 2026\n+\n+We've launched\n+Claude Models on Google Cloud (Anthropic managed)\n+, the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access. Google Cloud Marketplace handles billing.\n+Fast mode\n+is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic managed).\n+October 22, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 8,
-      "removed": 0,
-      "churn": 8
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 23 Oct 2026 02:50:04 GMT",
-    "run_at": "2026-10-23T02:50:01Z",
-    "run_id": "b3db7f5aac8a4ef9b892addec319559c"
-  },
-  {
-    "id": "c08e774c5d861bc931b9bb0800704849cb3b4bfb",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Build more responsive apps with the Decisions API\n+link: https://openai.com/index/decisions-api\n+id: https://openai.com/index/decisions-api\n+date: Thu, 22 Oct 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: What FDE means at OpenAI\n+link: https://openai.com/index/forward-deployed-engineering-means\n+id: https://openai.com/index/forward-deployed-engineering-means\n+date: Thu, 22 Oct 2026 06:00:00 GMT\n-date: Tue, 29 Sep 2026 10:00:00 GMT\n+date: Tue, 29 Sep 2026 17:00:00 GMT",
-    "snippet_full": "+title: Build more responsive apps with the Decisions API\n+link: https://openai.com/index/decisions-api\n+id: https://openai.com/index/decisions-api\n+date: Thu, 22 Oct 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: What FDE means at OpenAI\n+link: https://openai.com/index/forward-deployed-engineering-means\n+id: https://openai.com/index/forward-deployed-engineering-means\n+date: Thu, 22 Oct 2026 06:00:00 GMT\n+body:\n+#ITEM\n-date: Tue, 29 Sep 2026 10:00:00 GMT\n+date: Tue, 29 Sep 2026 17:00:00 GMT\n+title: Uber brings ChatGPT Work to all employees with OpenAI\n+link: https://openai.com/index/uber-chatgpt-work-rollout\n+id: https://openai.com/index/uber-chatgpt-work-rollout\n+date: Thu, 22 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 19,
-      "removed": 1,
-      "churn": 20
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 23 Oct 2026 02:50:02 GMT",
-    "run_at": "2026-10-23T02:50:01Z",
-    "run_id": "b3db7f5aac8a4ef9b892addec319559c"
   }
 ]

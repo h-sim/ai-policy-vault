@@ -221,6 +221,12 @@ id: https://openai.com/business/customer-stories/holidays-extras-codex
 date: Thu, 12 Nov 2026 09:30:00 GMT
 body:
 #ITEM
+title: Shield helps technicians hand off legacy portal work with OpenAI
+link: https://openai.com/business/customer-stories/shield
+id: https://openai.com/business/customer-stories/shield
+date: Fri, 13 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: A Practical Guide to Building AI Agents
 link: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents
 id: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents
@@ -4227,6 +4233,12 @@ title: Introducing ChatGPT Team
 link: https://openai.com/index/introducing-chatgpt-team
 id: https://openai.com/index/introducing-chatgpt-team
 date: Wed, 10 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Wallet
+link: https://openai.com/index/introducing-chatgpt-wallet
+id: https://openai.com/index/introducing-chatgpt-wallet
+date: Fri, 13 Nov 2026 15:00:00 GMT
 body:
 #ITEM
 title: Introducing the Child Safety Blueprint
