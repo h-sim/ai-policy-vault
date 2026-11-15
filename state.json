@@ -1,5 +1,24 @@
 [
   {
+    "id": "8e164d80a046b818bbcaf95eb7bd423ab889b595",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Ask Docs\n-\n+\n+Console",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 15 Nov 2026 04:09:46 GMT",
+    "run_at": "2026-11-15T04:09:45Z",
+    "run_id": "8c5605a85be1463f8bad7e722676a045"
+  },
+  {
     "id": "318945a783c52a7cb9e85332e70c124c525e20f0",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -979,27 +998,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Sat, 24 Oct 2026 02:47:34 GMT",
-    "run_at": "2026-10-24T02:46:55Z",
-    "run_id": "a9853110ff6b49438f8d0ea43b5151eb"
-  },
-  {
-    "id": "8dc1de8e7cbed412ed31374df5e010de05f70d14",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI and Poland’s NASK partner to advance AI safety and security\n+link: https://openai.com/index/openai-nask-ai-safety-security-partnership\n+id: https://openai.com/index/openai-nask-ai-safety-security-partnership\n+date: Fri, 23 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)\n+link: https://openai.com/index/scaling-storage-one-billion-users-part-two\n+id: https://openai.com/index/scaling-storage-one-billion-users-part-two\n+date: Fri, 23 Oct 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Securing our frontier model training environment\n+link: https://openai.com/index/securing-our-frontier-model-training-environment\n+id: https://openai.com/index/securing-our-frontier-model-training-environment\n+date: Fri, 23 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 24 Oct 2026 02:47:16 GMT",
     "run_at": "2026-10-24T02:46:55Z",
     "run_id": "a9853110ff6b49438f8d0ea43b5151eb"
   }
