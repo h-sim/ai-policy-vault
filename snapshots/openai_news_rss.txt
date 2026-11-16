@@ -6335,6 +6335,12 @@ id: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by
 date: Fri, 28 Aug 2026 06:00:00 GMT
 body:
 #ITEM
+title: Our new blog for science
+link: https://openai.com/index/our-new-blog-for-science
+id: https://openai.com/index/our-new-blog-for-science
+date: Sun, 15 Nov 2026 22:00:00 GMT
+body:
+#ITEM
 title: Our principles
 link: https://openai.com/index/our-principles
 id: https://openai.com/index/our-principles
@@ -7389,6 +7395,12 @@ title: Statement on OpenAI’s Nonprofit and PBC
 link: https://openai.com/index/statement-on-openai-nonprofit-and-pbc
 id: https://openai.com/index/statement-on-openai-nonprofit-and-pbc
 date: Thu, 11 Sep 2025 14:00:00 GMT
+body:
+#ITEM
+title: A step toward defining the Standard Model on a lattice
+link: https://openai.com/index/step-toward-defining-the-standard-model
+id: https://openai.com/index/step-toward-defining-the-standard-model
+date: Sun, 15 Nov 2026 22:00:01 GMT
 body:
 #ITEM
 title: Steuerrecht.com delivers client-ready legal analysis with ChatGPT

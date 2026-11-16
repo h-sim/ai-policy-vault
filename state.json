@@ -1,5 +1,45 @@
 [
   {
+    "id": "a699be529424866f07045348be646b65ab56ca7a",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Our new blog for science\n+link: https://openai.com/index/our-new-blog-for-science\n+id: https://openai.com/index/our-new-blog-for-science\n+date: Sun, 15 Nov 2026 22:00:00 GMT\n+body:\n+#ITEM\n+title: A step toward defining the Standard Model on a lattice\n+link: https://openai.com/index/step-toward-defining-the-standard-model\n+id: https://openai.com/index/step-toward-defining-the-standard-model\n+date: Sun, 15 Nov 2026 22:00:01 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 16 Nov 2026 04:08:55 GMT",
+    "run_at": "2026-11-16T04:08:54Z",
+    "run_id": "a588bb039c4c409393cffbdcb41d70fe"
+  },
+  {
+    "id": "67c5814dead47c61be541ed3daf29dca755e217e",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Explore use cases\n-Collections\n+Home\n+All use cases\n-Explore use cases\n+Home\n+All use cases\n+Productivity & Collaboration\n+Business Operations\n+Data Science\n+Web development\n+Game development\n+Native development\n+Production systems\n+Security\n+Finance\n+Sales\n+Life Sciences\n+Education",
+    "snippet_full": "",
+    "diff": {
+      "added": 16,
+      "removed": 3,
+      "churn": 19
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Mon, 16 Nov 2026 04:08:54 GMT",
+    "run_at": "2026-11-16T04:08:54Z",
+    "run_id": "a588bb039c4c409393cffbdcb41d70fe"
+  },
+  {
     "id": "8e164d80a046b818bbcaf95eb7bd423ab889b595",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -956,49 +996,5 @@
     "pubDate": "Tue, 27 Oct 2026 03:11:44 GMT",
     "run_at": "2026-10-27T03:11:04Z",
     "run_id": "48899d6c9cab47bc8263495f2ffd04fe"
-  },
-  {
-    "id": "8c2910a574dce79cad708bfe2811091648bee146",
-    "impact": "Breaking",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Oct 26\n+Feature\n+gpt-6.1-terra\n+v1/responses\n+v1/chat/completions\n+Released\n+GPT-6.1 Terra\n+, a fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.\n+See the\n+GPT-6 guide\n+for prompting and migration guidance.",
-    "snippet_full": "",
-    "diff": {
-      "added": 11,
-      "removed": 0,
-      "churn": 11
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 27 Oct 2026 03:11:26 GMT",
-    "run_at": "2026-10-27T03:11:04Z",
-    "run_id": "48899d6c9cab47bc8263495f2ffd04fe"
-  },
-  {
-    "id": "83186d4f90355d85d79e85fa052550292f9e3bf7",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+The\n+Claude Tag API\n+is available in beta for Claude Enterprise organizations with the\n+experimental-claude-tag-2026-10-21\n+beta header. Its\n+/v1/organizations/claude_tag/\n+endpoints read and change\n+Claude Tag\n+settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner cre\n+read:claude_tag\n+or\n+write:claude_tag\n+scope. It is not available to Claude Platform (Claude Console) organizations.\n+October 20, 2026\n+\n-Web fetch tool\n+How to use web fetch\n-migration guide\n+Claude Sonnet 5.5 migration guide\n-, at $4 / $20 USD per MTok (Claude Opus 5 is $5 / $25). Claude Opus 5.5 is available on the Claude API,\n+, at $4 / $20 USD per MTok (Claude Opus 5 is $5 / $25 USD). Claude Opus 5.5 is available on the Claude API,\n-migration guide\n+Claude Opus 5.5 migration guide\n-, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 per MTok. Claude Fable 5.1 is available on the Claude API,\n+, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API,\n-API keys\n+API keys in Authentication\n-($2 / $10 per MTok) is now the standard price: the previously scheduled increase to $3 / $15 per MTok on September 1, 2026 will not occur. See\n+($2 / $10 USD per MTok) is now the standard price: the previously scheduled increase to $3 / $15 USD per MTok on September 1, 2026, will not occur. See\n-Fast mode\n+Fast mode model availability\n-Subscribe to webhooks\n+Supported event types\n-Authentication\n+Key expiration in Authentication\n-), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 per MTok (made the standard price on August 10, 2026). Claude Sonnet 5 supports a\n+), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 USD per MTok (made the standard price on August 10, 2026). Claude Sonnet 5 supports a\n-Subscribe to webhooks\n+Supported event types\n-Fast mode",
-    "snippet_full": "",
-    "diff": {
-      "added": 70,
-      "removed": 54,
-      "churn": 124
-    },
-    "score": 140,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 24 Oct 2026 02:47:34 GMT",
-    "run_at": "2026-10-24T02:46:55Z",
-    "run_id": "a9853110ff6b49438f8d0ea43b5151eb"
   }
 ]
