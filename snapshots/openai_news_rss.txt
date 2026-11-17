@@ -215,6 +215,12 @@ id: https://openai.com/business/customer-stories/gondola
 date: Thu, 12 Nov 2026 12:00:00 GMT
 body:
 #ITEM
+title: At Holiday Extras, dots get to work before anyone asks
+link: https://openai.com/business/customer-stories/holiday-extras-dots
+id: https://openai.com/business/customer-stories/holiday-extras-dots
+date: Mon, 16 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: Holiday Extras is rethinking what it can build with Codex
 link: https://openai.com/business/customer-stories/holidays-extras-codex
 id: https://openai.com/business/customer-stories/holidays-extras-codex
@@ -747,6 +753,12 @@ title: The US is advancing AI safety through state and federal action
 link: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
 id: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
 date: Wed, 15 Jul 2026 12:00:00 GMT
+body:
+#ITEM
+title: Advancing computer-use agents for healthcare teams
+link: https://openai.com/index/advancing-computer-use-for-healthcare-teams
+id: https://openai.com/index/advancing-computer-use-for-healthcare-teams
+date: Mon, 16 Nov 2026 06:00:00 GMT
 body:
 #ITEM
 title: Advancing computer use with Ironclad
@@ -2847,6 +2859,12 @@ title: Expanding AI access and cyber defense for federal, state, local, and trib
 link: https://openai.com/index/expanding-ai-access-us-government
 id: https://openai.com/index/expanding-ai-access-us-government
 date: Thu, 10 Sep 2026 07:00:00 GMT
+body:
+#ITEM
+title: Broadening access to AI for scientists
+link: https://openai.com/index/expanding-chatgpt-for-academic-researchers
+id: https://openai.com/index/expanding-chatgpt-for-academic-researchers
+date: Mon, 16 Nov 2026 17:00:00 GMT
 body:
 #ITEM
 title: Expanding data residency access to business customers worldwide
@@ -5081,6 +5099,12 @@ id: https://openai.com/index/lseg
 date: Wed, 10 Jun 2026 00:00:00 GMT
 body:
 #ITEM
+title: LVMH’s Media Division announces strategic partnership with OpenAI
+link: https://openai.com/index/lvmh-media-division-partnership
+id: https://openai.com/index/lvmh-media-division-partnership
+date: Mon, 16 Nov 2026 09:00:00 GMT
+body:
+#ITEM
 title: Driving growth and ‘WOW’ moments with OpenAI
 link: https://openai.com/index/ly-corporation
 id: https://openai.com/index/ly-corporation
@@ -5271,6 +5295,12 @@ title: More on Dota 2
 link: https://openai.com/index/more-on-dota-2
 id: https://openai.com/index/more-on-dota-2
 date: Wed, 16 Aug 2017 07:00:00 GMT
+body:
+#ITEM
+title: More ways to move care forward with ChatGPT for Healthcare
+link: https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare
+id: https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare
+date: Mon, 16 Nov 2026 06:00:00 GMT
 body:
 #ITEM
 title: More ways to work with your team and tools in ChatGPT
@@ -6335,6 +6365,12 @@ id: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by
 date: Fri, 28 Aug 2026 06:00:00 GMT
 body:
 #ITEM
+title: Our first phase of embedded assessments
+link: https://openai.com/index/our-first-phase-of-embedded-assessments
+id: https://openai.com/index/our-first-phase-of-embedded-assessments
+date: Mon, 16 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: Our new blog for science
 link: https://openai.com/index/our-new-blog-for-science
 id: https://openai.com/index/our-new-blog-for-science
@@ -7079,6 +7115,12 @@ id: https://openai.com/index/schoolai
 date: Mon, 22 Sep 2025 10:00:00 GMT
 body:
 #ITEM
+title: Science at the Frontier: How scientists use ChatGPT
+link: https://openai.com/index/science-at-the-frontier
+id: https://openai.com/index/science-at-the-frontier
+date: Mon, 16 Nov 2026 12:00:00 GMT
+body:
+#ITEM
 title: Scientific computing in the age of agentic AI
 link: https://openai.com/index/scientific-computing-agentic-ai
 id: https://openai.com/index/scientific-computing-agentic-ai
@@ -7445,6 +7487,12 @@ id: https://openai.com/index/strengthening-democratic-oversight-in-national-secu
 date: Tue, 18 Aug 2026 19:00:00 GMT
 body:
 #ITEM
+title: Strengthening the fight against online child sexual abuse with new tools and support
+link: https://openai.com/index/strengthening-online-child-safety
+id: https://openai.com/index/strengthening-online-child-safety
+date: Mon, 16 Nov 2026 17:00:00 GMT
+body:
+#ITEM
 title: Strengthening our safety ecosystem with external testing
 link: https://openai.com/index/strengthening-safety-with-external-testing
 id: https://openai.com/index/strengthening-safety-with-external-testing
@@ -7743,6 +7791,12 @@ title: The International 2018: Results
 link: https://openai.com/index/the-international-2018-results
 id: https://openai.com/index/the-international-2018-results
 date: Thu, 23 Aug 2018 07:00:00 GMT
+body:
+#ITEM
+title: The King’s Trust and OpenAI launch £1m partnership
+link: https://openai.com/index/the-kings-trust-and-openai
+id: https://openai.com/index/the-kings-trust-and-openai
+date: Mon, 16 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: Awakening Sleeping Beauties at The Met

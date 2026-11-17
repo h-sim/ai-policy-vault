@@ -183,6 +183,7 @@ Voice agents
 Specialized models
 Embeddings
 Moderation
+CSAM classifier
 Overview
 Agents API
 Overview
@@ -877,6 +878,13 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 November, 2026
+Nov 16
+Feature
+omni-moderation-csam-latest
+v1/moderations
+Approved organizations can use the
+OpenAI CSAM Image Classifier
+at no cost to help prioritize images for human review. The model returns separate signals for potential child sexual abuse material (CSAM) and potential AI-generated CSAM.
 Nov 5
 Feature
 gpt-6-cyber
