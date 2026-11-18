@@ -1,5 +1,67 @@
 [
   {
+    "id": "b7d69bbfeacf2a3c274660f98c418186d210c5e0",
+    "impact": "High",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+November 17, 2026\n+We’ve launched\n+Linked billing\n+in beta with the\n+user-profiles-billing-2026-10-01\n+beta header. Your customers can now pay for the Claude usage in your app through their own Claude organization. Once a customer links their organization, set\n+billing_policy\n+on each\n+/v1/messages\n+or\n+/v1/chat/completions\n+request to choose who pays. In the Claude Console, customers can set a spend cap for your app or unlink your app. Linked billing works for customers whose organization pays Anthropic directly for API\n+November 17, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 13,
+      "removed": 0,
+      "churn": 13
+    },
+    "score": 60,
+    "reasons": [
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 18 Nov 2026 05:27:15 GMT",
+    "run_at": "2026-11-18T05:26:36Z",
+    "run_id": "2a3b3a4070a64b79a89b15b319d74bc3"
+  },
+  {
+    "id": "b82acea4d4ef029d066f66b53f846eefb46eccd8",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: ChatGPT Ads increases its market presence in 44 countries\n+link: https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence\n+id: https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence\n+date: Thu, 12 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How VistaPrint helps small businesses get the word out\n+link: https://openai.com/ads/customers/vistaprint\n+id: https://openai.com/ads/customers/vistaprint\n+date: Mon, 09 Nov 2026 00:00:00 GMT\n+title: How Revolut raises ambition without lowering the bar\n+link: https://openai.com/business/customer-stories/revolut",
+    "snippet_full": "+title: ChatGPT Ads increases its market presence in 44 countries\n+link: https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence\n+id: https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence\n+date: Thu, 12 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How VistaPrint helps small businesses get the word out\n+link: https://openai.com/ads/customers/vistaprint\n+id: https://openai.com/ads/customers/vistaprint\n+date: Mon, 09 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Revolut raises ambition without lowering the bar\n+link: https://openai.com/business/customer-stories/revolut\n+id: https://openai.com/business/customer-stories/revolut\n+date: Mon, 16 Nov 2026 09:30:00 GMT\n+body:\n+#ITEM\n+title: Astra for Law leads in legal intelligence\n+link: https://openai.com/index/astra-law-6-2\n+id: https://openai.com/index/astra-law-6-2\n+date: Tue, 17 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing ChatGPT for Sales\n+link: https://openai.com/index/introducing-chatgpt-for-sales\n+id: https://openai.com/index/introducing-chatgpt-for-sales\n+date: Tue, 17 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GPT-6.2 Astra and Sol\n+link: https://openai.com/index/introducing-gpt-6-2-astra-sol\n+id: https://openai.com/index/introducing-gpt-6-2-astra-sol\n+date: Tue, 17 Nov 2026 17:45:00 GMT\n+body:\n+#ITEM\n+title: Introducing OpenAI for Chile\n+link: https://openai.com/index/introducing-openai-for-chile\n+id: https://openai.com/index/introducing-openai-for-chile\n+date: Tue, 17 Nov 2026 00:00:00 GMT",
+    "diff": {
+      "added": 48,
+      "removed": 0,
+      "churn": 48
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 18 Nov 2026 05:26:57 GMT",
+    "run_at": "2026-11-18T05:26:36Z",
+    "run_id": "2a3b3a4070a64b79a89b15b319d74bc3"
+  },
+  {
+    "id": "ca53296b78dffd628d47104bdce0b949c2089ad2",
+    "impact": "Breaking",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Using GPT-6\n+Using GPT-6.2\n+Google Cloud\n-Using GPT-6\n+Using GPT-6.2\n+Nov 17\n+Feature\n+gpt-6.2-astra\n+gpt-6.2-sol\n+v1/responses\n+v1/chat/completions\n+Use\n+GPT-6.2 Astra\n+for demanding reasoning and coding tasks, or\n+GPT-6.2 Sol\n+for everyday coding and agent workflows. Both models support the Responses API and Chat Completions. Tool calling requires the Responses API.\n+GPT-6.2 changes how the Responses API preserves reasoning when you edit a conversation’s prefix and how it handles the top-level\n+instructions\n+field. See the\n+GPT-6.2 migration guide\n+for details and recommended updates to your integration.\n+Nov 17\n+Feature\n+gpt-6.2-astra\n+gpt-6.2-sol\n+gpt-6.1-terra\n+gpt-6-luna\n+v1/responses\n+Choose a two-hour or eight-hour\n+background completion window\n+in the Responses API public beta. Model token rates are 30% lower than Standard for the two-hour window and 40% lower for the eight-hour window.",
+    "snippet_full": "",
+    "diff": {
+      "added": 29,
+      "removed": 2,
+      "churn": 31
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 18 Nov 2026 05:26:57 GMT",
+    "run_at": "2026-11-18T05:26:36Z",
+    "run_id": "2a3b3a4070a64b79a89b15b319d74bc3"
+  },
+  {
     "id": "0f0510649d2f9b9e1f42f989d3cedb9c6eedb32a",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -930,65 +992,5 @@
     "pubDate": "Thu, 29 Oct 2026 03:47:40 GMT",
     "run_at": "2026-10-29T03:47:39Z",
     "run_id": "956fbc39a7f341da947a79d28afdb382"
-  },
-  {
-    "id": "f2bc9835adcf34e196d4093e442b163e9e1a85be",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+API credits for ChatGPT subscribers\n+API credits for ChatGPT subscribers\n+Oct 28\n+Feature\n+Eligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit. Activate the benefit from ChatGPT or API Platform by linking an API org\n+API credits for ChatGPT subscribers\n+for credit amounts, eligibility, and how to claim.",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 0,
-      "churn": 7
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 29 Oct 2026 03:47:39 GMT",
-    "run_at": "2026-10-29T03:47:39Z",
-    "run_id": "956fbc39a7f341da947a79d28afdb382"
-  },
-  {
-    "id": "769867d90305032383d8d2d2bcf9fb7b90bc0017",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-We've launched\n+We’ve launched\n-We've released API version\n+We’ve released API version\n-We've released new versions of the\n+We’ve released new versions of the\n-The new SDK and CLI versions also have breaking changes that don't depend on the API version, and they are licensed under Apache 2.0 instead of the MIT License. See\n+The new SDK and CLI versions also have breaking changes that don’t depend on the API version, and they are licensed under Apache 2.0 instead of the MIT License. See\n-We've added the\n+We’ve added the\n-We've launched\n+We’ve launched\n-We've added\n+We’ve added\n-register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, con\n+register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization’s user profiles, and one for when the restriction or ban ends. To request access, con\n-now follows your organization's web fetch domain restrictions set on the\n+now follows your organization’s web fetch domain restrictions set on the\n-page of the Claude Console. A URL, including one reached by a redirect, must pass both the organization's list and the\n+page of the Claude Console. A URL, including one reached by a redirect, must pass both the organization’s list and the\n-list on the agent's\n+list on the agent’s\n-In Claude Managed Agents, sessions follow your organization's web search settings on the\n+In Claude Managed Agents, sessions follow your organization’s web search settings on the\n-setting since October 6, and its web search domain restrictions since October 14. The agent receives only the search results that both the organization's domain restrictions and the\n+setting since October 6, and its web search domain restrictions since October 14. The agent receives only the search results that both the organization’s domain restrictions and the\n-list on the agent's\n+list on the agent’s\n-We've added\n+We’ve added\n-We've launched\n+We’ve launched\n-, set the agent's\n+, set the agent’s\n-events on the session's event stream. See\n+events on the session’s event stream. See\n-We've lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x. Cache writes and all other prices are un\n+We’ve lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x. Cache writes and all other prices are un\n-We've launched\n+We’ve launched",
-    "snippet_full": "",
-    "diff": {
-      "added": 240,
-      "removed": 225,
-      "churn": 465
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 28 Oct 2026 03:25:58 GMT",
-    "run_at": "2026-10-28T03:25:18Z",
-    "run_id": "cf7f285424e640ad8b7ca8118949763b"
-  },
-  {
-    "id": "664b96af817b14e8b0183f3fa9cec8380f383ef8",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live\n+link: https://openai.com/index/anima\n+id: https://openai.com/index/anima\n+date: Fri, 23 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Check Point accelerates vulnerability research with Daybreak\n+link: https://openai.com/index/check-point-daybreak\n+id: https://openai.com/index/check-point-daybreak\n+date: Tue, 27 Oct 2026 00:00:00 GMT\n+title: How Grupo Boticário uses AI to strengthen human connections\n+link: https://openai.com/index/grupo-boticario",
-    "snippet_full": "+title: Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live\n+link: https://openai.com/index/anima\n+id: https://openai.com/index/anima\n+date: Fri, 23 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Check Point accelerates vulnerability research with Daybreak\n+link: https://openai.com/index/check-point-daybreak\n+id: https://openai.com/index/check-point-daybreak\n+date: Tue, 27 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Grupo Boticário uses AI to strengthen human connections\n+link: https://openai.com/index/grupo-boticario\n+id: https://openai.com/index/grupo-boticario\n+date: Fri, 16 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Localiza reorganized work around generative AI\n+link: https://openai.com/index/localiza-generative-ai\n+id: https://openai.com/index/localiza-generative-ai\n+date: Fri, 16 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI expands partnership with Oracle to bring its apps to ChatGPT\n+link: https://openai.com/index/oracle-apps-in-chatgpt\n+id: https://openai.com/index/oracle-apps-in-chatgpt\n+date: Tue, 27 Oct 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Retell uses OpenAI models to help power 100M monthly calls\n+link: https://openai.com/index/retell-ai\n+id: https://openai.com/index/retell-ai\n+date: Tue, 27 Oct 2026 15:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 36,
-      "removed": 0,
-      "churn": 36
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 28 Oct 2026 03:25:18 GMT",
-    "run_at": "2026-10-28T03:25:18Z",
-    "run_id": "cf7f285424e640ad8b7ca8118949763b"
   }
 ]

@@ -104,7 +104,7 @@ Overview
 Home
 Get started
 Quickstart
-Using GPT-6
+Using GPT-6.2
 Key concepts
 API credits for ChatGPT subscribers
 Core concepts
@@ -680,6 +680,7 @@ Remote connections
 Workspace model availability
 Advanced deployment
 Amazon Bedrock
+Google Cloud
 GovCloud deployment
 Connect to a gateway
 Roll out a gateway
@@ -825,7 +826,7 @@ Try ChatGPT
 Home
 Get started
 Quickstart
-Using GPT-6
+Using GPT-6.2
 Key concepts
 API credits for ChatGPT subscribers
 Core concepts
@@ -878,6 +879,32 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 November, 2026
+Nov 17
+Feature
+gpt-6.2-astra
+gpt-6.2-sol
+v1/responses
+v1/chat/completions
+Use
+GPT-6.2 Astra
+for demanding reasoning and coding tasks, or
+GPT-6.2 Sol
+for everyday coding and agent workflows. Both models support the Responses API and Chat Completions. Tool calling requires the Responses API.
+GPT-6.2 changes how the Responses API preserves reasoning when you edit a conversation’s prefix and how it handles the top-level
+instructions
+field. See the
+GPT-6.2 migration guide
+for details and recommended updates to your integration.
+Nov 17
+Feature
+gpt-6.2-astra
+gpt-6.2-sol
+gpt-6.1-terra
+gpt-6-luna
+v1/responses
+Choose a two-hour or eight-hour
+background completion window
+in the Responses API public beta. Model token rates are 30% lower than Standard for the two-hour window and 40% lower for the eight-hour window.
 Nov 16
 Feature
 omni-moderation-csam-latest
