@@ -251,6 +251,12 @@ id: https://openai.com/business/customer-stories/shield
 date: Fri, 13 Nov 2026 08:00:00 GMT
 body:
 #ITEM
+title: How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise
+link: https://openai.com/business/customer-stories/sumitomo-life
+id: https://openai.com/business/customer-stories/sumitomo-life
+date: Wed, 18 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: A Practical Guide to Building AI Agents
 link: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents
 id: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents
@@ -771,6 +777,12 @@ title: The US is advancing AI safety through state and federal action
 link: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
 id: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
 date: Wed, 15 Jul 2026 12:00:00 GMT
+body:
+#ITEM
+title: Advancing chip design with OpenAI models
+link: https://openai.com/index/advancing-chip-design-with-our-models
+id: https://openai.com/index/advancing-chip-design-with-our-models
+date: Wed, 18 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: Advancing computer-use agents for healthcare teams
@@ -4085,6 +4097,12 @@ id: https://openai.com/index/inside-our-in-house-data-agent
 date: Thu, 29 Jan 2026 10:00:00 GMT
 body:
 #ITEM
+title: Inside the Codex sandbox
+link: https://openai.com/index/inside-the-codex-sandbox
+id: https://openai.com/index/inside-the-codex-sandbox
+date: Wed, 18 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: Insights from global conversations
 link: https://openai.com/index/insights-from-global-conversations
 id: https://openai.com/index/insights-from-global-conversations
@@ -4943,6 +4961,12 @@ id: https://openai.com/index/launching-sora-responsibly
 date: Tue, 30 Sep 2025 00:00:00 GMT
 body:
 #ITEM
+title: Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT
+link: https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership
+id: https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership
+date: Wed, 18 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI Expands Leadership with Fidji Simo
 link: https://openai.com/index/leadership-expansion-with-fidji-simo
 id: https://openai.com/index/leadership-expansion-with-fidji-simo
@@ -5175,6 +5199,12 @@ title: How to manage AI investments in the agentic era
 link: https://openai.com/index/managing-ai-investments-in-agentic-era
 id: https://openai.com/index/managing-ai-investments-in-agentic-era
 date: Tue, 14 Jul 2026 10:00:00 GMT
+body:
+#ITEM
+title: Managing frontier AI risk: From training to deployment
+link: https://openai.com/index/managing-frontier-ai-risk
+id: https://openai.com/index/managing-frontier-ai-risk
+date: Wed, 18 Nov 2026 06:00:00 GMT
 body:
 #ITEM
 title: Mapping Europe’s AI Workforce Opportunity
@@ -6857,6 +6887,12 @@ id: https://openai.com/index/requests-for-research-2
 date: Wed, 31 Jan 2018 08:00:00 GMT
 body:
 #ITEM
+title: Research acceleration: The jagged frontier
+link: https://openai.com/index/research-acceleration-jagged-frontier
+id: https://openai.com/index/research-acceleration-jagged-frontier
+date: Wed, 18 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: Research acceleration: The view inside OpenAI
 link: https://openai.com/index/research-acceleration-view-inside-openai
 id: https://openai.com/index/research-acceleration-view-inside-openai
@@ -7881,6 +7917,12 @@ title: The power of continuous learning
 link: https://openai.com/index/the-power-of-continuous-learning
 id: https://openai.com/index/the-power-of-continuous-learning
 date: Fri, 23 Dec 2022 08:00:00 GMT
+body:
+#ITEM
+title: The Silent Consensus
+link: https://openai.com/index/the-silent-consensus
+id: https://openai.com/index/the-silent-consensus
+date: Wed, 18 Nov 2026 10:00:00 GMT
 body:
 #ITEM
 title: The state of enterprise AI

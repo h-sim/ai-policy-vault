@@ -22,6 +22,8 @@ Log in
 
 
 Search
+⌘
+K
 Ctrl
 K
 Release notes
@@ -170,11 +172,9 @@ records changes to attestations on the
 Security posture
 page in claude.ai
 Organization settings
-.
-The
+. The
 GET /v1/compliance/organizations/{organization_id}/security_posture
-endpoint returns an organization’s current Security posture results.
-See
+endpoint returns an organization’s current Security posture results. See
 Security posture in the Compliance API
 .
 You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used. Add IPv4 and IPv6 addresses or CIDR ranges, up to 1,000 per organization. See
@@ -1877,6 +1877,8 @@ We’ve launched
 Claude Opus 4.8
 (
 claude-opus-4-8
+⁠
+
 ), our most capable model. Claude Opus 4.8 supports a
 1M token context window
 by default on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See the
@@ -2051,7 +2053,7 @@ We’ve released the
 Rate Limits API
 , allowing administrators to programmatically query the rate limits configured for their organization and workspaces.
 April 23, 2026
-Memory for Claude Managed Agents is now in beta under the standard
+Memory for Claude Managed Agents is now available in beta under the standard
 managed-agents-2026-04-01
 header. See
 Using agent memory
@@ -2063,12 +2065,12 @@ claude-3-haiku-20240307
 Claude Haiku 4.5
 .
 April 16, 2026
-We’ve launched
+We’ve
+launched Claude Opus 4.7
+, our most capable model for complex reasoning and agentic coding, at the same $5 / $25 USD per MTok pricing as Claude Opus 4.6. See
 Claude Opus 4.7
-, our most capable model for complex reasoning and agentic coding, at the same $5 / $25 USD per MTok pricing as Opus 4.6. See
-What’s new in Claude Opus 4.7
-for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see the
-migration guide
+for its specifications. Opus 4.7 includes an updated tokenizer and API breaking changes versus Opus 4.6; see
+Migration guides
 before upgrading.
 Claude in Amazon Bedrock
 is now open to all Amazon Bedrock customers. Claude Opus 4.7 and Claude Haiku 4.5 are available self-serve from the Bedrock console through the Messages API endpoint at
@@ -2132,12 +2134,14 @@ Project Glasswing
 . Access is invitation-only.
 The
 Messages API
-is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at
+is now available on Amazon Bedrock in research preview. The new Claude in Amazon Bedrock endpoint at
 /anthropic/v1/messages
-uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in
+uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. It’s available in
 us-east-1
-; contact your Anthropic account executive to request access. Learn more in
-Claude in Amazon Bedrock
+. Contact your Anthropic account executive to request access. Learn more in
+Claude in Amazon Bedrock (
+bedrock-mantle
+)
 .
 March 30, 2026
 We’ve raised the
@@ -2194,7 +2198,7 @@ We’ve launched
 automatic caching
 for the Messages API. Add a single
 cache_control
-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Microsoft Foundry (preview). Learn more in
+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Microsoft Foundry. Learn more in
 Automatic caching
 .
 We’ve retired the Claude Sonnet 3.7 model (
@@ -2222,8 +2226,8 @@ launched Claude Sonnet 4.6
 extended thinking
 and a
 1M token context window
-(beta). See
-Models & Pricing
+, which is in beta. See
+Models overview
 for details.
 API
 code execution
@@ -2253,15 +2257,15 @@ no longer require a beta header.
 February 7, 2026
 We’ve launched
 fast mode
-in research preview for Opus 4.6, providing significantly faster output token generation through the
+in research preview for Claude Opus 4.6, providing significantly faster output token generation through the
 speed
 parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the
-waitlist
+fast mode waitlist
 .
 February 5, 2026
 We’ve
 launched Claude Opus 4.6
-, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends
+, our most intelligent model for complex agentic tasks and long-horizon work. For Opus 4.6, we recommend
 adaptive thinking
 (
 thinking: {type: "adaptive"}
@@ -2270,7 +2274,7 @@ type: "enabled"
 with
 budget_tokens
 ) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more in
-What’s new in Claude 4.6
+Claude Opus 4.6
 .
 The
 effort parameter
@@ -2332,7 +2336,7 @@ programmatic tool calling
 in beta, allowing Claude to call tools from within code execution to reduce latency and token usage in multi-tool workflows.
 We’ve launched the
 tool search tool
-in beta, enabling Claude to dynamically discover and load tools on-demand from large tool catalogs.
+in beta, enabling Claude to dynamically discover and load tools on demand from large tool catalogs.
 We’ve launched the
 effort parameter
 in beta for Claude Opus 4.5, allowing you to control token usage by trading off between response thoroughness and efficiency.
@@ -2380,19 +2384,20 @@ launched Agent Skills
 skills-2025-10-02
 beta), a new way to extend Claude’s capabilities. Skills are organized folders of instructions, scripts, and resources that Claude loads dynamically to perform specialized tasks. The initial release includes:
 Anthropic-managed Skills:
-Pre-built Skills for working with PowerPoint (.pptx), Excel (.xlsx), Word (.docx), and PDF files
+Prebuilt Skills for working with PowerPoint (.pptx), Excel (.xlsx), Word (.docx), and PDF files.
 Custom Skills:
 Upload your own Skills through the Skills API (
 /v1/skills
-endpoints) to package domain expertise and organizational workflows
+endpoints) to package domain expertise and organizational workflows.
 Skills require the
 code execution tool
-to be enabled
+to be enabled.
 Learn more in
 Agent Skills
-and
-API reference
+and the
+Create Skill
 Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.
+API reference.
 October 15, 2025
 We’ve
 launched Claude Haiku 4.5
@@ -2402,16 +2407,16 @@ Models overview
 September 29, 2025
 We’ve launched
 Claude Sonnet 4.5
-, our best model for complex agents and coding, with the highest intelligence across most tasks. Learn more in the
-models overview
+, our best model for complex agents and coding, with the highest intelligence across most tasks. Learn more in
+Models overview
 .
 We’ve introduced
 global endpoint pricing
-for Amazon Bedrock and Vertex AI. The Claude API (1P) pricing is unaffected.
+for Amazon Bedrock and Vertex AI. Claude API pricing is unaffected.
 We’ve introduced a new stop reason
 model_context_window_exceeded
 that allows you to request the maximum possible tokens without calculating input size. Learn more in
-Handling stop reasons
+Stop reasons and fallback
 .
 We’ve launched the memory tool in beta, enabling Claude to store and consult information across conversations. Learn more in
 Memory tool
@@ -2429,11 +2434,11 @@ September 16, 2025
 We’ve unified our developer offerings under the Claude brand. You should see updated naming and URLs across our platform and documentation, but
 our developer interfaces will remain the same
 . Here are some notable changes:
-Claude Console (
+Anthropic Console (
 console.anthropic.com
 ) → Claude Console (
 platform.claude.com
-). The console will be available at both URLs until January 12, 2026. After that date,
+). The Claude Console will be available at both URLs until January 12, 2026. After that date,
 console.anthropic.com
 will automatically redirect to
 platform.claude.com
@@ -2442,24 +2447,24 @@ Anthropic Docs (
 docs.anthropic.com
 ) → Claude Docs (
 docs.claude.com
-)
+).
 Anthropic Help Center (
 support.anthropic.com
 ) → Claude Help Center (
 support.claude.com
-)
+).
 API endpoints, headers, environment variables, and SDKs remain the same. Your existing integrations will continue working without any changes.
 September 10, 2025
-We’ve launched the web fetch tool in beta, allowing Claude to retrieve full content from specified web pages and PDF documents. Learn more in
+We’ve launched the web fetch tool in beta, allowing Claude to retrieve full content from specified webpages and PDF documents. Learn more in
 Web fetch tool
 .
 We’ve launched the
 Claude Code Analytics API
 , enabling organizations to programmatically access daily aggregated usage metrics for Claude Code, including productivity metrics, tool usage statistics, and cost data.
 September 8, 2025
-We launched a beta version of the
+We launched the
 C# SDK
-.
+in beta.
 September 5, 2025
 We’ve launched
 rate limit charts
@@ -2472,12 +2477,12 @@ Handle tool calls
 .
 September 2, 2025
 We’ve launched v2 of the
-Code Execution Tool
+code execution tool
 in beta, replacing the original Python-only tool with Bash command execution and direct file manipulation capabilities, including writing code in other languages.
 August 27, 2025
-We launched a beta version of the
+We launched the
 PHP SDK
-.
+in beta.
 August 26, 2025
 We’ve increased rate limits on the
 1M token context window
@@ -2493,7 +2498,7 @@ Error shapes
 .
 August 18, 2025
 We’ve released the
-Usage & Cost API
+Usage and Cost API
 , allowing administrators to programmatically monitor their organization’s usage and cost data.
 We’ve added a new endpoint to the Admin API for retrieving organization information. For details, see the
 Organization Info Admin API reference
@@ -2533,11 +2538,11 @@ Search results
 August 5, 2025
 We’ve launched
 Claude Opus 4.1
-, an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements. Opus 4.1 does not allow both
+, an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements. On Opus 4.1, you can specify
 temperature
-and
+or
 top_p
-parameters to be specified. Use only one. Learn more in
+, but not both. Learn more in
 Models overview
 .
 July 28, 2025
@@ -2581,7 +2586,7 @@ page, but not the Cost page.
 June 11, 2025
 We’ve launched
 fine-grained tool streaming
-in beta, a feature that enables Claude to stream tool use parameters without buffering / JSON validation. To enable fine-grained tool streaming, use the
+in beta, a feature that enables Claude to stream tool use parameters without buffering or JSON validation. To enable fine-grained tool streaming, use the
 beta header
 fine-grained-tool-streaming-2025-05-14
 .
@@ -2608,8 +2613,8 @@ We’ve launched the
 Files API
 in beta, enabling you to upload files and reference them in the Messages API and code execution tool.
 We’ve launched the
-Code execution tool
-in beta, a tool that enables Claude to execute Python code in a secure, sandboxed environment.
+code execution tool
+in beta, a tool that enables Claude to run Python code in a secure, sandboxed environment.
 We’ve launched the
 MCP connector
 in beta, a feature that allows you to connect to remote MCP servers directly from the Messages API.
@@ -2637,25 +2642,25 @@ We’ve launched a web search tool in the API, allowing Claude to access up-to-d
 Web search tool
 .
 May 1, 2025
-Cache control must now be specified directly in the parent
+You must now specify cache control directly in the parent
 content
 block of
 tool_result
 and
 document.source
-. For backwards compatibility, if cache control is detected on the last block in
+. For backward compatibility, if the API detects cache control on the last block in
 tool_result.content
 or
 document.source.content
-, it will be automatically applied to the parent block instead. Cache control on any other blocks within
+, it will automatically apply that cache control to the parent block instead. Cache control on any other blocks within
 tool_result.content
 and
 document.source.content
 will result in a validation error.
 April 9, 2025
-We launched a beta version of the
+We launched the
 Ruby SDK
-.
+in beta.
 March 31, 2025
 Our
 Java SDK
@@ -2680,7 +2685,7 @@ tool_use
 and
 tool_result
 blocks.
-We’ve launched an OpenAI-compatible API endpoint, allowing you to test Claude models by changing just your API key, base URL, and model name in existing OpenAI integrations. This compatibility layer supports core chat completions functionality. Learn more in
+We’ve launched an OpenAI-compatible API endpoint, allowing you to test Claude models by changing only your API key, base URL, and model name in existing OpenAI integrations. This compatibility layer supports core chat completions functionality. Learn more in
 OpenAI SDK compatibility
 .
 February 24, 2025
@@ -2689,18 +2694,18 @@ Claude Sonnet 3.7
 , our most intelligent model yet. Claude Sonnet 3.7 can produce near-instant responses or show its extended thinking step-by-step. One model, two ways to think. Learn more about all Claude models in
 Models overview
 .
-We’ve added vision support to Claude Haiku 3.5, enabling the model to analyze and understand images.
+We’ve added vision support to Claude Haiku 3.5, enabling the model to analyze images.
 We’ve released a token-efficient tool use implementation, improving overall performance when using tools with Claude. Learn more in
 Tool use with Claude
 .
 We’ve changed the default temperature in the
 Console
 for new prompts from 0 to 1 for consistency with the default temperature in the API. Existing saved prompts are unchanged.
-We’ve released updated versions of our tools that decouple the text edit and bash tools from the computer use system prompt:
+We’ve released updated versions of our tools that decouple the text editor and bash tools from the computer use system prompt:
 bash_20250124
-: Same functionality as previous version but is independent from computer use. Does not require a beta header.
+: Same functionality as the previous version, but independent of computer use. Does not require a beta header.
 text_editor_20250124
-: Same functionality as previous version but is independent from computer use. Does not require a beta header.
+: Same functionality as the previous version, but independent of computer use. Does not require a beta header.
 computer_20250124
 : Updated computer use tool with new command options including
 hold_key
@@ -2716,7 +2721,7 @@ triple_click
 wait
 . This tool requires the
 computer-use-2025-01-24
-anthropic-beta header.
+beta header.
 Learn more in
 Tool use with Claude
 .
@@ -2729,7 +2734,7 @@ We’ve moved our
 Java SDK
 from alpha to beta.
 January 23, 2025
-We’ve launched citations capability in the API, allowing Claude to provide source attribution for information. Learn more in
+We’ve launched the citations capability in the API, allowing Claude to provide source attribution for information. Learn more in
 Citations
 .
 We’ve added support for plain text documents and custom content documents in the Messages API.
@@ -2759,11 +2764,11 @@ Preview with links to the API reference available — press Tab until focus ente
 model aliases
 to their canonical model IDs.
 Message Batches API
-: Process large batches of messages asynchronously at 50% of the standard API cost.
+: Process large batches of messages asynchronously at 50 percent of the standard API cost.
 Token counting API
-: Calculate token counts for Messages before sending them to Claude.
-Prompt Caching
-: Reduce costs by up to 90% and latency by up to 80% by caching and reusing prompt content.
+: Calculate token counts for messages before sending them to Claude.
+Prompt caching
+: Reduce costs by up to 90 percent and latency by up to 80 percent by caching and reusing prompt content.
 PDF support
 : Process PDFs to analyze both text and visual content within documents.
 We also released new official SDKs:
@@ -2827,7 +2832,7 @@ Claude Sonnet 3.5, our most intelligent model yet, just got an upgrade and is no
 Claude Sonnet documentation
 .
 October 8, 2024
-The Message Batches API is now available in beta. Process large batches of queries asynchronously in the Claude API for 50% less cost. Read more in
+The Message Batches API is now available in beta. Process large batches of queries asynchronously in the Claude API for 50 percent less cost. Read more in
 Batch processing
 .
 We’ve loosened restrictions on the ordering of
@@ -2867,12 +2872,12 @@ We’ve added support for usage of the SDK in browsers by returning CORS headers
 dangerouslyAllowBrowser: true
 in the SDK instantiation to enable this feature.
 August 19, 2024
-8,192-token outputs on Claude Sonnet 3.5 are out of beta and no longer require the
+Outputs of 8,192 tokens on Claude Sonnet 3.5 are out of beta and no longer require the
 max-tokens-3-5-sonnet-2024-07-15
 header.
 August 14, 2024
 Prompt caching
-is now available as a beta feature in the Claude API. Cache and re-use prompts to reduce latency by up to 80% and costs by up to 90%.
+is now available as a beta feature in the Claude API. Cache and reuse prompts to reduce latency by up to 80 percent and costs by up to 90 percent.
 July 15, 2024
 Generate outputs up to 8,192 tokens in length from Claude Sonnet 3.5 with the new
 anthropic-beta: max-tokens-3-5-sonnet-2024-07-15

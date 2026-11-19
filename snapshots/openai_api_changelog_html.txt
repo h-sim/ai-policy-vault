@@ -1838,9 +1838,7 @@ generations on
 sora-2-pro
 are billed at
 $0.70
-per second. Learn more
-here
-.
+per second.
 Mar 12
 Update
 sora-2
@@ -1853,9 +1851,7 @@ for editing existing videos. This will replace
 POST /v1/videos/{video_id}/remix
 , which will be deprecated in
 6
-months. Learn more
-here
-.
+months.
 Mar 5
 Feature
 gpt-5.4
@@ -2736,9 +2732,7 @@ August, 2024
 Aug 29
 Feature
 v1/assistants
-Assistants API now supports
-including file search results used by the file search tool, and customizing ranking behavior
-.
+Assistants API now supports including file search results used by the file search tool, and customizing ranking behavior.
 Aug 20
 Feature
 gpt-4o
@@ -2802,9 +2796,7 @@ parallel_tool_calls=false
 launched in Beta.
 Jun 3
 Update
-Added support for
-file search customizations
-.
+Added support for file search customizations.
 May, 2024
 May 15
 Update

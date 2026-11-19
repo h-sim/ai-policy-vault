@@ -1,5 +1,66 @@
 [
   {
+    "id": "cc97f238581d93ac1779a12ea1da7f47d6dcf5c0",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+⌘\n+K\n-.\n-The\n+. The\n-endpoint returns an organization’s current Security posture results.\n-See\n+endpoint returns an organization’s current Security posture results. See\n+⁠\n+\n-Memory for Claude Managed Agents is now in beta under the standard\n+Memory for Claude Managed Agents is now available in beta under the standard\n-We’ve launched\n+We’ve\n+launched Claude Opus 4.7\n+, our most capable model for complex reasoning and agentic coding, at the same $5 / $25 USD per MTok pricing as Claude Opus 4.6. See\n-, our most capable model for complex reasoning and agentic coding, at the same $5 / $25 USD per MTok pricing as Opus 4.6. See\n-What’s new in Claude Opus 4.7\n-for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see the\n-migration guide\n+for its specifications. Opus 4.7 includes an updated tokenizer and API breaking changes versus Opus 4.6; see\n+Migration guides\n-is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at\n+is now available on Amazon Bedrock in research preview. The new Claude in Amazon Bedrock endpoint at\n-uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in\n+uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. It’s available in\n-; contact your Anthropic account executive to request access. Learn more in\n-Claude in Amazon Bedrock\n+. Contact your Anthropic account executive to request access. Learn more in\n+Claude in Amazon Bedrock (\n+bedrock-mantle\n+)\n-field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n+field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongsid\n-(beta). See\n-Models & Pricing\n+, which is in beta. See\n+Models overview\n-in research preview for Opus 4.6, providing significantly faster output token generation through the\n+in research preview for Claude Opus 4.6, providing significantly faster output token generation through the",
+    "snippet_full": "",
+    "diff": {
+      "added": 72,
+      "removed": 67,
+      "churn": 139
+    },
+    "score": 140,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 19 Nov 2026 05:23:38 GMT",
+    "run_at": "2026-11-19T05:23:17Z",
+    "run_id": "9d3be6a5b0b0463c8b7533c7a0b98e21"
+  },
+  {
+    "id": "aa79ce705f15c07ac1774acb804224b98d4f74f7",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise\n+link: https://openai.com/business/customer-stories/sumitomo-life\n+id: https://openai.com/business/customer-stories/sumitomo-life\n+date: Wed, 18 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Advancing chip design with OpenAI models\n+link: https://openai.com/index/advancing-chip-design-with-our-models\n+id: https://openai.com/index/advancing-chip-design-with-our-models\n+date: Wed, 18 Nov 2026 00:00:00 GMT\n+title: Inside the Codex sandbox\n+link: https://openai.com/index/inside-the-codex-sandbox",
+    "snippet_full": "+title: How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise\n+link: https://openai.com/business/customer-stories/sumitomo-life\n+id: https://openai.com/business/customer-stories/sumitomo-life\n+date: Wed, 18 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Advancing chip design with OpenAI models\n+link: https://openai.com/index/advancing-chip-design-with-our-models\n+id: https://openai.com/index/advancing-chip-design-with-our-models\n+date: Wed, 18 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Inside the Codex sandbox\n+link: https://openai.com/index/inside-the-codex-sandbox\n+id: https://openai.com/index/inside-the-codex-sandbox\n+date: Wed, 18 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT\n+link: https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership\n+id: https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership\n+date: Wed, 18 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Managing frontier AI risk: From training to deployment\n+link: https://openai.com/index/managing-frontier-ai-risk\n+id: https://openai.com/index/managing-frontier-ai-risk\n+date: Wed, 18 Nov 2026 06:00:00 GMT\n+body:\n+#ITEM\n+title: Research acceleration: The jagged frontier\n+link: https://openai.com/index/research-acceleration-jagged-frontier\n+id: https://openai.com/index/research-acceleration-jagged-frontier\n+date: Wed, 18 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: The Silent Consensus\n+link: https://openai.com/index/the-silent-consensus\n+id: https://openai.com/index/the-silent-consensus\n+date: Wed, 18 Nov 2026 10:00:00 GMT",
+    "diff": {
+      "added": 42,
+      "removed": 0,
+      "churn": 42
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 19 Nov 2026 05:23:17 GMT",
+    "run_at": "2026-11-19T05:23:17Z",
+    "run_id": "9d3be6a5b0b0463c8b7533c7a0b98e21"
+  },
+  {
+    "id": "ec0a65fd6aa083cafff51fe39ad6c53fec0611c0",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-per second. Learn more\n-here\n-.\n+per second.\n-months. Learn more\n-here\n-.\n+months.\n-Assistants API now supports\n-including file search results used by the file search tool, and customizing ranking behavior\n-.\n+Assistants API now supports including file search results used by the file search tool, and customizing ranking behavior.\n-Added support for\n-file search customizations\n-.\n+Added support for file search customizations.",
+    "snippet_full": "",
+    "diff": {
+      "added": 4,
+      "removed": 12,
+      "churn": 16
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 19 Nov 2026 05:23:17 GMT",
+    "run_at": "2026-11-19T05:23:17Z",
+    "run_id": "9d3be6a5b0b0463c8b7533c7a0b98e21"
+  },
+  {
     "id": "b7d69bbfeacf2a3c274660f98c418186d210c5e0",
     "impact": "High",
     "name": "Claude Platform Changelog",
@@ -935,62 +996,5 @@
     "pubDate": "Fri, 30 Oct 2026 03:50:58 GMT",
     "run_at": "2026-10-30T03:50:58Z",
     "run_id": "ff19af6a4d424d4499a795b0088cbc40"
-  },
-  {
-    "id": "ad6cd9160737265f0e110f42449bc65a0606aba5",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Plugin management\n+Import and sync plugins from GitHub",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 30 Oct 2026 03:50:58 GMT",
-    "run_at": "2026-10-30T03:50:58Z",
-    "run_id": "ff19af6a4d424d4499a795b0088cbc40"
-  },
-  {
-    "id": "8e2f449d5efab3fcf3ab316e3b34a45258345180",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Compatibility\n+API support",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 29 Oct 2026 03:48:00 GMT",
-    "run_at": "2026-10-29T03:47:39Z",
-    "run_id": "956fbc39a7f341da947a79d28afdb382"
-  },
-  {
-    "id": "6052c97c631f0862762a38937e0c2607feb6e8aa",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Legora is building the agentic operating system for legal work\n+link: https://openai.com/index/legora\n+id: https://openai.com/index/legora\n+date: Wed, 28 Oct 2026 09:30:00 GMT\n+body:\n+#ITEM\n+title: OpenAI and ServiceNow expand partnership across enterprise workflows\n+link: https://openai.com/index/openai-servicenow-partnership-expansion\n+id: https://openai.com/index/openai-servicenow-partnership-expansion\n+date: Wed, 28 Oct 2026 13:15:00 GMT\n+body:\n+#ITEM\n+title: The future of the firm\n+link: https://openai.com/index/the-future-of-the-firm\n+id: https://openai.com/index/the-future-of-the-firm\n+date: Wed, 28 Oct 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 29 Oct 2026 03:47:40 GMT",
-    "run_at": "2026-10-29T03:47:39Z",
-    "run_id": "956fbc39a7f341da947a79d28afdb382"
   }
 ]
