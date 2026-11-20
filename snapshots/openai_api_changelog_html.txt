@@ -763,11 +763,11 @@ Docs
 Showcase
 All posts
 Recent
+Prompting GPT-Live for languages and regional accents
 Securing persistent agents like OpenClaw at OpenAI
 Pushing voice agents further: inside four GPT-Live builds
 Building a retro handheld game with Codex and ModRetro Chromatic
 Designing failover across OpenAI model providers
-Maintaining software with the GPT-6 family
 Topics
 General
 API
@@ -879,6 +879,18 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 November, 2026
+Nov 19
+Feature
+gpt-live-1.1
+v1/live/sessions
+GPT-Live-1.1
+improves pronunciation, accent consistency, and transcription in multilingual voice conversations. Use
+gpt-live-1.1
+in an existing Live session configuration and
+describe in plain language when to delegate
+to your backend.
+Configure standby
+for GPT-Live-1 and GPT-Live-1.1 WebRTC sessions to pause inference during inactivity and resume when someone speaks.
 Nov 17
 Feature
 gpt-6.2-astra

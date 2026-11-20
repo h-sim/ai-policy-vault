@@ -311,6 +311,12 @@ id: https://openai.com/business/learn/automate-complex-workflows-with-openai-o3
 date: Thu, 08 May 2025 00:00:00 GMT
 body:
 #ITEM
+title: Explore the Codex Security Plugin
+link: https://openai.com/business/learn/codex-security-plugin-demo
+id: https://openai.com/business/learn/codex-security-plugin-demo
+date: Thu, 19 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: Collaborate and write with GPT-4o
 link: https://openai.com/business/learn/collaborate-and-write-with-gpt-4o
 id: https://openai.com/business/learn/collaborate-and-write-with-gpt-4o
@@ -335,10 +341,22 @@ id: https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt
 date: Sun, 13 Apr 2025 00:00:00 GMT
 body:
 #ITEM
+title: Get started with Daybreak Blue
+link: https://openai.com/business/learn/daybreak-blue-onboarding-demo
+id: https://openai.com/business/learn/daybreak-blue-onboarding-demo
+date: Thu, 19 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: Delegate work to ChatGPT agent
 link: https://openai.com/business/learn/delegate-work-to-chatgpt-agent
 id: https://openai.com/business/learn/delegate-work-to-chatgpt-agent
 date: Wed, 06 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Deploying Daybreak Red
+link: https://openai.com/business/learn/deploying-daybreak-red
+id: https://openai.com/business/learn/deploying-daybreak-red
+date: Thu, 19 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: Enabling a data-driven workforce
@@ -393,6 +411,12 @@ title: Personalize ChatGPT with custom instructions
 link: https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions
 id: https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions
 date: Mon, 12 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: See PR scans in action
+link: https://openai.com/business/learn/pr-scans-demo
+id: https://openai.com/business/learn/pr-scans-demo
+date: Thu, 19 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: Prototyping with canvas in ChatGPT
@@ -3903,6 +3927,12 @@ title: How OpenAI is approaching 2024 worldwide elections
 link: https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections
 id: https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections
 date: Mon, 15 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: How OpenAI’s Performance Factory keeps ChatGPT fast
+link: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
+id: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
+date: Thu, 19 Nov 2026 08:00:00 GMT
 body:
 #ITEM
 title: How people are using ChatGPT
