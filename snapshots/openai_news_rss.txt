@@ -227,6 +227,12 @@ id: https://openai.com/business/customer-stories/gondola
 date: Thu, 12 Nov 2026 12:00:00 GMT
 body:
 #ITEM
+title: Hebbia sees improvements in financial research with GPT-6 Astra
+link: https://openai.com/business/customer-stories/hebbia
+id: https://openai.com/business/customer-stories/hebbia
+date: Fri, 20 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: At Holiday Extras, dots get to work before anyone asks
 link: https://openai.com/business/customer-stories/holiday-extras-dots
 id: https://openai.com/business/customer-stories/holiday-extras-dots
@@ -1863,6 +1869,12 @@ title: Combating online child sexual exploitation & abuse
 link: https://openai.com/index/combating-online-child-sexual-exploitation-abuse
 id: https://openai.com/index/combating-online-child-sexual-exploitation-abuse
 date: Mon, 29 Sep 2025 03:00:00 GMT
+body:
+#ITEM
+title: Combatting adversarial distillation
+link: https://openai.com/index/combatting-adversarial-distillation
+id: https://openai.com/index/combatting-adversarial-distillation
+date: Fri, 20 Nov 2026 10:00:00 GMT
 body:
 #ITEM
 title: Commonwealth Bank of Australia builds AI fluency at scale
@@ -4551,6 +4563,12 @@ title: Introducing Lockdown Mode and Elevated Risk labels in ChatGPT
 link: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt
 id: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt
 date: Fri, 13 Feb 2026 10:00:00 GMT
+body:
+#ITEM
+title: Can AI help scientists identify promising drug candidates?
+link: https://openai.com/index/introducing-medchembench
+id: https://openai.com/index/introducing-medchembench
+date: Fri, 20 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing MentalHealthBench

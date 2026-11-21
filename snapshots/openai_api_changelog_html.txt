@@ -5,13 +5,12 @@ llms.txt
 .md
 to the page URL.
 ChatGPT
-Start searching
 API Dashboard
 Try ChatGPT
+Language
+Loading languages…
 Theme
-Light
-Dark
-System
+Theme
 Home
 API
 Overview
@@ -82,10 +81,6 @@ Use cases
 Training
 Resources
 Resources
-Theme
-Light
-Dark
-System
 Search docs
 Suggested
 responses create
@@ -309,6 +304,7 @@ Prompt caching
 Prompt cache diagnostics
 Batch
 Flex processing
+Reserved Tier
 Safety and governance
 Safety best practices
 Red teaming
@@ -763,11 +759,11 @@ Docs
 Showcase
 All posts
 Recent
+How I stay in the flow with Ultrafast
+Time awareness and async input for personal agents
 Prompting GPT-Live for languages and regional accents
 Securing persistent agents like OpenClaw at OpenAI
 Pushing voice agents further: inside four GPT-Live builds
-Building a retro handheld game with Codex and ModRetro Chromatic
-Designing failover across OpenAI model providers
 Topics
 General
 API
@@ -917,6 +913,9 @@ v1/responses
 Choose a two-hour or eight-hour
 background completion window
 in the Responses API public beta. Model token rates are 30% lower than Standard for the two-hour window and 40% lower for the eight-hour window.
+New models will not support
+Flex processing
+. Flex remains available on supported models while the beta winds down.
 Nov 16
 Feature
 omni-moderation-csam-latest

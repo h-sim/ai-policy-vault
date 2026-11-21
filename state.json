@@ -1,5 +1,43 @@
 [
   {
+    "id": "da6e7373af3a10ddb103fb69a24d678de1cd1ace",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Hebbia sees improvements in financial research with GPT-6 Astra\n+link: https://openai.com/business/customer-stories/hebbia\n+id: https://openai.com/business/customer-stories/hebbia\n+date: Fri, 20 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Combatting adversarial distillation\n+link: https://openai.com/index/combatting-adversarial-distillation\n+id: https://openai.com/index/combatting-adversarial-distillation\n+date: Fri, 20 Nov 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Can AI help scientists identify promising drug candidates?\n+link: https://openai.com/index/introducing-medchembench\n+id: https://openai.com/index/introducing-medchembench\n+date: Fri, 20 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 21 Nov 2026 05:02:52 GMT",
+    "run_at": "2026-11-21T05:02:52Z",
+    "run_id": "ccad9a3f631247ef9bcaefb6d8d089fa"
+  },
+  {
+    "id": "94e8fd45d759c83a4e4d19f3e1603b95bb39c681",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Start searching\n+Language\n+Loading languages…\n-Light\n-Dark\n-System\n+Theme\n-Theme\n-Light\n-Dark\n-System\n+Reserved Tier\n+How I stay in the flow with Ultrafast\n+Time awareness and async input for personal agents\n-Building a retro handheld game with Codex and ModRetro Chromatic\n-Designing failover across OpenAI model providers\n+New models will not support\n+Flex processing\n+. Flex remains available on supported models while the beta winds down.",
+    "snippet_full": "",
+    "diff": {
+      "added": 9,
+      "removed": 10,
+      "churn": 19
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 21 Nov 2026 05:02:52 GMT",
+    "run_at": "2026-11-21T05:02:52Z",
+    "run_id": "ccad9a3f631247ef9bcaefb6d8d089fa"
+  },
+  {
     "id": "8b3dc8338f680e27e911a71430e394d9a6efd563",
     "impact": "High",
     "name": "OpenAI News (RSS)",
@@ -954,48 +992,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Sat, 31 Oct 2026 03:35:35 GMT",
-    "run_at": "2026-10-31T03:34:37Z",
-    "run_id": "3a52d0658c304f00877afcb719bad1f0"
-  },
-  {
-    "id": "465a339c0859b5f15e851659d396477a8c232557",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Community safety report and new protections for teens\n+link: https://openai.com/index/community-safety-report-and-new-protections-for-teens\n+id: https://openai.com/index/community-safety-report-and-new-protections-for-teens\n+date: Fri, 30 Oct 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot\n+link: https://openai.com/index/credit-saison\n+id: https://openai.com/index/credit-saison\n+date: Thu, 29 Oct 2026 00:00:00 GMT\n+title: Fair use benefits everyone\n+link: https://openai.com/index/fair-use-benefits-everyone",
-    "snippet_full": "+title: Community safety report and new protections for teens\n+link: https://openai.com/index/community-safety-report-and-new-protections-for-teens\n+id: https://openai.com/index/community-safety-report-and-new-protections-for-teens\n+date: Fri, 30 Oct 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot\n+link: https://openai.com/index/credit-saison\n+id: https://openai.com/index/credit-saison\n+date: Thu, 29 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Fair use benefits everyone\n+link: https://openai.com/index/fair-use-benefits-everyone\n+id: https://openai.com/index/fair-use-benefits-everyone\n+date: Fri, 30 Oct 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Making it easier for websites to express AI training preferences\n+link: https://openai.com/index/helping-websites-express-ai-training-preferences\n+id: https://openai.com/index/helping-websites-express-ai-training-preferences\n+date: Fri, 30 Oct 2026 09:30:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 31 Oct 2026 03:34:56 GMT",
-    "run_at": "2026-10-31T03:34:37Z",
-    "run_id": "3a52d0658c304f00877afcb719bad1f0"
-  },
-  {
-    "id": "14693ff3d424693ecf609b632f6ea57f21d837d9",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Self-host configuration\n+Oct 30\n+Feature\n+gpt-6-rosalind\n+Released\n+GPT-6 Rosalind\n+, bringing specialized biological reasoning with scientific tool use to complex life sciences research. Access is available to organizations approved for Rosalind Research through the\n+trusted-access program\n+for internal research by authorized users.",
-    "snippet_full": "",
-    "diff": {
-      "added": 9,
-      "removed": 0,
-      "churn": 9
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 31 Oct 2026 03:34:37 GMT",
     "run_at": "2026-10-31T03:34:37Z",
     "run_id": "3a52d0658c304f00877afcb719bad1f0"
   }
