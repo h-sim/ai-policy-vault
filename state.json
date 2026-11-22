@@ -1,5 +1,43 @@
 [
   {
+    "id": "92a5fa01826eae91c9ec56f433bbe60e036edafc",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+We’ve added two event types to\n+organization webhooks\n+, which are in beta. We send\n+external_key.failed\n+when your key management service keeps refusing a customer-managed encryption key, and\n+external_key.recovered\n+when the key works again.",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 0,
+      "churn": 7
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 22 Nov 2026 04:28:18 GMT",
+    "run_at": "2026-11-22T04:28:17Z",
+    "run_id": "51aaa59b9bde45c7a9a2dd11f872c14c"
+  },
+  {
+    "id": "e755f4efb5c159b7ab6afd4ccf77b3b6ae745a70",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Ask AI",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 22 Nov 2026 04:28:17 GMT",
+    "run_at": "2026-11-22T04:28:17Z",
+    "run_id": "51aaa59b9bde45c7a9a2dd11f872c14c"
+  },
+  {
     "id": "da6e7373af3a10ddb103fb69a24d678de1cd1ace",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -954,45 +992,5 @@
     "pubDate": "Tue, 03 Nov 2026 04:50:36 GMT",
     "run_at": "2026-11-03T04:50:14Z",
     "run_id": "e341a0afc5c344ee9cdec700fd4b44d4"
-  },
-  {
-    "id": "b5d273624e32238fb228882e66f758e0b0b6361d",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Automatic review\n+NFS home directories",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 0,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 03 Nov 2026 04:50:14 GMT",
-    "run_at": "2026-11-03T04:50:14Z",
-    "run_id": "e341a0afc5c344ee9cdec700fd4b44d4"
-  },
-  {
-    "id": "91729b59cd31531dff6f49468033f5c2d83f359f",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+October 30, 2026\n+\n+We’ve deprecated\n+fast mode\n+for Claude Opus 4.8, with removal on November 30, 2026. After removal, requests to\n+claude-opus-4-8\n+with\n+speed: \"fast\"\n+will return an error. To continue using fast mode, migrate to\n+Claude Opus 5.5\n+. Read more in\n+Fast mode\n+.\n-Claude Max and Team plans now include monthly API credits. To learn how to claim them, see\n-API credits for Max and Team plans\n+Claude Max, Ultra, and Team plans now include monthly API credits. To learn how to claim them, see\n+API credits for Max, Ultra, and Team plans\n+October 30, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 16,
-      "removed": 2,
-      "churn": 18
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 31 Oct 2026 03:35:35 GMT",
-    "run_at": "2026-10-31T03:34:37Z",
-    "run_id": "3a52d0658c304f00877afcb719bad1f0"
   }
 ]

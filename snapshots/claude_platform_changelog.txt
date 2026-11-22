@@ -78,6 +78,13 @@ top_k
 to a non-default value, the text might not carry the watermark. See
 Text watermark
 .
+We’ve added two event types to
+organization webhooks
+, which are in beta. We send
+external_key.failed
+when your key management service keeps refusing a customer-managed encryption key, and
+external_key.recovered
+when the key works again.
 November 12, 2026
 We’ve launched
 self-hosted Claude Managed Agents
