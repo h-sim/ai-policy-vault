@@ -6617,6 +6617,12 @@ id: https://openai.com/index/people-first-ai-fund-grantees
 date: Wed, 03 Dec 2025 08:00:00 GMT
 body:
 #ITEM
+title: Perplexity and Intelligence
+link: https://openai.com/index/perplexity-and-intelligence
+id: https://openai.com/index/perplexity-and-intelligence
+date: Sun, 22 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: Perplexity trusts GPT-6 Astra with end-to-end systems
 link: https://openai.com/index/perplexity-improving-accuracy-with-astra
 id: https://openai.com/index/perplexity-improving-accuracy-with-astra

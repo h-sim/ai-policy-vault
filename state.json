@@ -1,5 +1,24 @@
 [
   {
+    "id": "e87392fe0ceb11cafda2d0f47fd8c6b8e5c4ecd6",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Perplexity and Intelligence\n+link: https://openai.com/index/perplexity-and-intelligence\n+id: https://openai.com/index/perplexity-and-intelligence\n+date: Sun, 22 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 23 Nov 2026 05:03:07 GMT",
+    "run_at": "2026-11-23T05:03:07Z",
+    "run_id": "05e83792de934c099b1293bbc20fdc3c"
+  },
+  {
     "id": "92a5fa01826eae91c9ec56f433bbe60e036edafc",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -969,27 +988,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 03 Nov 2026 04:50:56 GMT",
-    "run_at": "2026-11-03T04:50:14Z",
-    "run_id": "e341a0afc5c344ee9cdec700fd4b44d4"
-  },
-  {
-    "id": "34657526247b2c720d799b37a650ab52960b1f48",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization\n+title: Preparing our next security sprint to harden OpenAI\n+link: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai\n+id: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai\n+link: https://openai.com/index/dan-driscoll-joins-openai\n+id: https://openai.com/index/dan-driscoll-joins-openai\n+date: Mon, 02 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Grid Protectors Program\n+link: https://openai.com/index/grid-protectors-program\n+id: https://openai.com/index/grid-protectors-program",
-    "snippet_full": "+title: OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization\n+link: https://openai.com/index/dan-driscoll-joins-openai\n+id: https://openai.com/index/dan-driscoll-joins-openai\n+date: Mon, 02 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Grid Protectors Program\n+link: https://openai.com/index/grid-protectors-program\n+id: https://openai.com/index/grid-protectors-program\n+date: Mon, 02 Nov 2026 15:00:00 GMT\n+body:\n+#ITEM\n+title: LifeVal\n+link: https://openai.com/index/lifeval\n+id: https://openai.com/index/lifeval\n+date: Mon, 02 Nov 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Preparing our next security sprint to harden OpenAI\n+link: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai\n+id: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai\n+date: Mon, 02 Nov 2026 18:00:00 GMT\n+body:\n+#ITEM\n+title: Qodo builds context into AI code review with Codex\n+link: https://openai.com/index/qodo-codex-plugin\n+id: https://openai.com/index/qodo-codex-plugin\n+date: Mon, 02 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Rewarding defenders with bigger bug bounties\n+link: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties\n+id: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties\n+date: Mon, 02 Nov 2026 18:00:00 GMT\n+body:\n+#ITEM\n+title: Scaling Git at OpenAI\n+link: https://openai.com/index/scaling-git-at-openai\n+id: https://openai.com/index/scaling-git-at-openai\n+date: Mon, 02 Nov 2026 15:30:00 GMT",
-    "diff": {
-      "added": 42,
-      "removed": 0,
-      "churn": 42
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 03 Nov 2026 04:50:36 GMT",
     "run_at": "2026-11-03T04:50:14Z",
     "run_id": "e341a0afc5c344ee9cdec700fd4b44d4"
   }
