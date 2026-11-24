@@ -1,5 +1,66 @@
 [
   {
+    "id": "16aa4caefdf50edef5b55000814d391f78b9dd96",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+November 23, 2026\n+We announced the deprecation of the Claude Opus 4.5 model (\n+claude-opus-4-5-20251101\n+and\n+claude-opus-4-5\n+), with retirement on the Claude API scheduled for January 22, 2027. We recommend migrating to Claude Opus 5.5. See\n+Migrating from Claude Opus 4.5 or earlier\n+. To check which dates apply on other platforms, see\n+Model deprecations\n+.\n+We’ve launched\n+Enterprise Frontier Safeguards\n+(EFS) in beta on Claude Platform\n+,\n+Claude Platform on AWS\n+, and Claude Models on Google Cloud (Anthropic managed)\n+. EFS is Zero Data Retention (ZDR) for eligible organizations that use\n+Claude’s most capable models\n+. Anthropic doesn’t retain your prompts and responses. Encrypted copies of them, called Sealed Safety Data, go to a bucket in your own cloud account. A workspace on Anthropic-managed storage isn’t on\n+Setup guide\n+.\n+We’ve added two event types to\n+organization webhooks\n+, which are in beta. We send\n+external_storage.failed\n+when a bucket that you use as\n+customer-owned storage\n+fails our daily check, and\n+external_storage.recovered\n+when it passes again.\n+November 23, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 31,
+      "removed": 0,
+      "churn": 31
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 24 Nov 2026 07:51:23 GMT",
+    "run_at": "2026-11-24T07:51:03Z",
+    "run_id": "f0c0961ee6674f62a31be7e09c686435"
+  },
+  {
+    "id": "a2c0de51ad4fa899b8c743633733535e343f5660",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Richpanel helps companies automate 50% of support in 30 days\n+link: https://openai.com/business/customer-stories/richpanel-ai-customer-support\n+id: https://openai.com/business/customer-stories/richpanel-ai-customer-support\n+date: Mon, 23 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Connected intelligence for in-house legal\n+link: https://openai.com/business/learn/connected-intelligence-for-in-house-legal\n+id: https://openai.com/business/learn/connected-intelligence-for-in-house-legal\n+date: Mon, 23 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI and Cisco introduce Shirudo\n+link: https://openai.com/index/introducing-shirudo\n+id: https://openai.com/index/introducing-shirudo\n+date: Mon, 23 Nov 2026 21:20:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 24 Nov 2026 07:51:04 GMT",
+    "run_at": "2026-11-24T07:51:03Z",
+    "run_id": "f0c0961ee6674f62a31be7e09c686435"
+  },
+  {
+    "id": "bf7e2b02d8ee2d22c9b3cbf190cdf7d45716cb5e",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Usage and cost\n+Building security review into your SDLC with Codex Security\n-Pushing voice agents further: inside four GPT-Live builds",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 1,
+      "churn": 3
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 24 Nov 2026 07:51:04 GMT",
+    "run_at": "2026-11-24T07:51:03Z",
+    "run_id": "f0c0961ee6674f62a31be7e09c686435"
+  },
+  {
     "id": "e87392fe0ceb11cafda2d0f47fd8c6b8e5c4ecd6",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -933,62 +994,5 @@
     "pubDate": "Wed, 04 Nov 2026 04:16:35 GMT",
     "run_at": "2026-11-04T04:16:15Z",
     "run_id": "63b54976186c415c9f2daad9effd3916"
-  },
-  {
-    "id": "8caac0f9153a72f7ee7d36becf5bacb8c9cf18d2",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Evernote turns AI-driven discovery into paid subscriptions\n+link: https://openai.com/ads/customers/evernote\n+id: https://openai.com/ads/customers/evernote\n+date: Wed, 28 Oct 2026 19:40:49 GMT\n+body:\n+#ITEM\n+title: Accelerating engineering for the physical world\n+link: https://openai.com/index/accelerating-engineering-for-the-physical-world\n+id: https://openai.com/index/accelerating-engineering-for-the-physical-world\n+date: Tue, 03 Nov 2026 12:00:00 GMT\n+date: Thu, 19 Feb 2026 18:00:00 GMT\n+title: Advancing independent research on AI alignment",
-    "snippet_full": "+title: Evernote turns AI-driven discovery into paid subscriptions\n+link: https://openai.com/ads/customers/evernote\n+id: https://openai.com/ads/customers/evernote\n+date: Wed, 28 Oct 2026 19:40:49 GMT\n+body:\n+#ITEM\n+title: Accelerating engineering for the physical world\n+link: https://openai.com/index/accelerating-engineering-for-the-physical-world\n+id: https://openai.com/index/accelerating-engineering-for-the-physical-world\n+date: Tue, 03 Nov 2026 12:00:00 GMT\n+body:\n+#ITEM\n+date: Thu, 19 Feb 2026 18:00:00 GMT\n+body:\n+#ITEM\n+title: Advancing independent research on AI alignment\n+link: https://openai.com/index/advancing-independent-research-ai-alignment\n+id: https://openai.com/index/advancing-independent-research-ai-alignment\n+title: How Cisco defends at machine speed with OpenAI\n+link: https://openai.com/index/cisco-cyber\n+id: https://openai.com/index/cisco-cyber\n+date: Tue, 03 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Heimstaden is changing residential real estate management with AI\n+link: https://openai.com/index/heimstaden\n+id: https://openai.com/index/heimstaden\n+date: Tue, 03 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n-date: Mon, 26 Oct 2026 00:00:00 GMT\n+date: Mon, 26 Oct 2026 18:00:00 GMT\n+title: OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer\n+link: https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer\n+id: https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer\n+date: Tue, 03 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 37,
-      "removed": 1,
-      "churn": 38
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 04 Nov 2026 04:16:16 GMT",
-    "run_at": "2026-11-04T04:16:15Z",
-    "run_id": "63b54976186c415c9f2daad9effd3916"
-  },
-  {
-    "id": "bbededd2c1fb15671ac62300dc1f7b064195c545",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Theme\n+Light\n+Dark\n+System\n+Theme\n+Light\n+Dark\n+System\n-Local shell\n+API keys and service accounts",
-    "snippet_full": "",
-    "diff": {
-      "added": 9,
-      "removed": 1,
-      "churn": 10
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 04 Nov 2026 04:16:15 GMT",
-    "run_at": "2026-11-04T04:16:15Z",
-    "run_id": "63b54976186c415c9f2daad9effd3916"
-  },
-  {
-    "id": "4f0bd65a1406b1a2ffbb26a59b6eaab3e1749ce7",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+November 2, 2026\n+\n+Long conversations and agent loops on the Messages API can now send smaller requests and get a lower time to first token with\n+message threads\n+, in beta with the\n+message-threads-2026-08-12\n+beta header. The API keeps the conversation on the server, so each later request sends only the new messages. A thread expires 5 minutes after its last request and is deleted no more than 1 hour afte\n+Claude Platform on AWS\n+, Claude Models on Google Cloud (Anthropic managed), and\n+Claude in Microsoft Foundry\n+.\n+November 2, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 03 Nov 2026 04:50:56 GMT",
-    "run_at": "2026-11-03T04:50:14Z",
-    "run_id": "e341a0afc5c344ee9cdec700fd4b44d4"
   }
 ]

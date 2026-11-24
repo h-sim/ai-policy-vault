@@ -54,6 +54,36 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+November 23, 2026
+We announced the deprecation of the Claude Opus 4.5 model (
+claude-opus-4-5-20251101
+and
+claude-opus-4-5
+), with retirement on the Claude API scheduled for January 22, 2027. We recommend migrating to Claude Opus 5.5. See
+Migrating from Claude Opus 4.5 or earlier
+. To check which dates apply on other platforms, see
+Model deprecations
+.
+We’ve launched
+Enterprise Frontier Safeguards
+(EFS) in beta on Claude Platform
+,
+Claude Platform on AWS
+, and Claude Models on Google Cloud (Anthropic managed)
+. EFS is Zero Data Retention (ZDR) for eligible organizations that use
+Claude’s most capable models
+. Anthropic doesn’t retain your prompts and responses. Encrypted copies of them, called Sealed Safety Data, go to a bucket in your own cloud account. A workspace on Anthropic-managed storage isn’t on EFS, because Anthropic stores that workspace’s Sealed Safety Data. To get access, see
+Setup guide
+.
+We’ve added two event types to
+organization webhooks
+, which are in beta. We send
+external_storage.failed
+when a bucket that you use as
+customer-owned storage
+fails our daily check, and
+external_storage.recovered
+when it passes again.
 November 17, 2026
 We’ve launched
 Linked billing
@@ -2924,6 +2954,7 @@ prompt generator blog post
 Was this page helpful?
 
 
+November 23, 2026
 November 17, 2026
 November 16, 2026
 November 12, 2026

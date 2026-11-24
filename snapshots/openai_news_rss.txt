@@ -251,6 +251,12 @@ id: https://openai.com/business/customer-stories/revolut
 date: Mon, 16 Nov 2026 09:30:00 GMT
 body:
 #ITEM
+title: Richpanel helps companies automate 50% of support in 30 days
+link: https://openai.com/business/customer-stories/richpanel-ai-customer-support
+id: https://openai.com/business/customer-stories/richpanel-ai-customer-support
+date: Mon, 23 Nov 2026 08:00:00 GMT
+body:
+#ITEM
 title: Shield helps technicians hand off legacy portal work with OpenAI
 link: https://openai.com/business/customer-stories/shield
 id: https://openai.com/business/customer-stories/shield
@@ -333,6 +339,12 @@ title: Connect internal knowledge from Google Drive
 link: https://openai.com/business/learn/connect-internal-knowledge-from-google-drive
 id: https://openai.com/business/learn/connect-internal-knowledge-from-google-drive
 date: Thu, 08 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: Connected intelligence for in-house legal
+link: https://openai.com/business/learn/connected-intelligence-for-in-house-legal
+id: https://openai.com/business/learn/connected-intelligence-for-in-house-legal
+date: Mon, 23 Nov 2026 08:00:00 GMT
 body:
 #ITEM
 title: Create on-brand visuals with image generation
@@ -4695,6 +4707,12 @@ title: Introducing Prism
 link: https://openai.com/index/introducing-prism
 id: https://openai.com/index/introducing-prism
 date: Tue, 27 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Cisco introduce Shirudo
+link: https://openai.com/index/introducing-shirudo
+id: https://openai.com/index/introducing-shirudo
+date: Mon, 23 Nov 2026 21:20:00 GMT
 body:
 #ITEM
 title: Introducing SimpleQA
