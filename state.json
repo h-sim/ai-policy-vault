@@ -1,5 +1,64 @@
 [
   {
+    "id": "017e1658e0726d7e6da47a7690222d7dcac66079",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+A fix is live for an undercount of web searches in the\n+List User Activity\n+Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.\n+endpoint of the\n+Claude Enterprise Analytics API\n+. The top-level\n+web_search_count\n+did not count every search tool that Claude uses in chats, so it left out some searches. It now includes them, so it can be higher. Most of the added searches come from\n+Chat and Cowork unified\n+.\n+The web search fix applies to data for November 17, 2026 (UTC), and later, so counts that you already pulled for those days can change. It does not recount earlier days.\n+A fix is live for an undercount in the\n+Get Connector Usage\n+Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.\n+endpoint of the\n+Claude Enterprise Analytics API\n+. In chats that the\n+session counting change\n+reached,\n+individual_auth_distinct_user_count\n+and\n+managed_auth_distinct_user_count\n+left out users who used a connector. For most organizations, these counts now include most of those users. They can be higher, and can show a number where they used to be\n+null\n+.\n+The connector fix applies to data for November 19, 2026 (UTC), and later, so counts that you already pulled for those days can change. It does not recount earlier days.\n+On November 24, 2026, a fix for an undercount of project activity in the\n+Claude Enterprise Analytics API\n+will go live. The\n+Get Chat Project Usage\n+Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.\n+endpoint leaves out some messages in project chats. One example is messages sent after a chat moves into a Cowork cloud session. After the fix, it will count most of those messages.\n+message_count\n+,\n+distinct_conversation_count\n+, and\n+distinct_user_count\n+can then be higher, and more projects can appear in the results.\n+The\n+List User Activity",
+    "snippet_full": "",
+    "diff": {
+      "added": 158,
+      "removed": 0,
+      "churn": 158
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 25 Nov 2026 06:24:09 GMT",
+    "run_at": "2026-11-25T06:24:08Z",
+    "run_id": "a30f59a89cec4ecf9e6fd846c98225a0"
+  },
+  {
+    "id": "02a5d59b549d19412fec007bb78bc6cda20621ed",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Clay helps sales teams win with Codex and ChatGPT\n+link: https://openai.com/business/customer-stories/clay-plugins-openai\n+id: https://openai.com/business/customer-stories/clay-plugins-openai\n+date: Tue, 24 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How iFood scales coding agents across 15,000 repositories\n+link: https://openai.com/business/customer-stories/ifood\n+id: https://openai.com/business/customer-stories/ifood\n+title: How Intentful uses dots to make more time for growth\n+link: https://openai.com/business/customer-stories/intentful-dots\n+id: https://openai.com/business/customer-stories/intentful-dots",
+    "snippet_full": "+title: Clay helps sales teams win with Codex and ChatGPT\n+link: https://openai.com/business/customer-stories/clay-plugins-openai\n+id: https://openai.com/business/customer-stories/clay-plugins-openai\n+date: Tue, 24 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How iFood scales coding agents across 15,000 repositories\n+link: https://openai.com/business/customer-stories/ifood\n+id: https://openai.com/business/customer-stories/ifood\n+date: Tue, 24 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How Intentful uses dots to make more time for growth\n+link: https://openai.com/business/customer-stories/intentful-dots\n+id: https://openai.com/business/customer-stories/intentful-dots\n+date: Tue, 24 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-6 models demonstrate intrinsic protein-design capabilities\n+link: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities\n+id: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities\n+date: Tue, 24 Nov 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: Searching for distant planets with Astra\n+link: https://openai.com/index/searching-for-distant-planets-with-astra\n+id: https://openai.com/index/searching-for-distant-planets-with-astra\n+date: Tue, 24 Nov 2026 11:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 30,
+      "removed": 0,
+      "churn": 30
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 25 Nov 2026 06:24:08 GMT",
+    "run_at": "2026-11-25T06:24:08Z",
+    "run_id": "a30f59a89cec4ecf9e6fd846c98225a0"
+  },
+  {
+    "id": "228676bcc61a5651ced26764018fbd58e878b3d8",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Production monitoring with Codex\n-Securing persistent agents like OpenClaw at OpenAI\n+Nov 24\n+Update\n+chat-latest\n+Updated the\n+chat-latest\n+snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users. We recommend leveraging the\n+GPT-6.2 model family\n+for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more\n+here\n+.\n+Nov 24\n+Feature\n+gpt-6.2-astra-healthcare\n+gpt-6.2-sol-healthcare\n+gpt-6-astra-healthcare\n+gpt-6.1-sol-healthcare\n+v1/responses\n+Released\n+Healthcare model configurations\n+for the Responses API, pairing select OpenAI models with a harness tailored to clinical questions. When the model uses\n+web search\n+, it searches a dedicated index of medical sources.",
+    "snippet_full": "",
+    "diff": {
+      "added": 23,
+      "removed": 1,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 25 Nov 2026 06:24:08 GMT",
+    "run_at": "2026-11-25T06:24:08Z",
+    "run_id": "a30f59a89cec4ecf9e6fd846c98225a0"
+  },
+  {
     "id": "16aa4caefdf50edef5b55000814d391f78b9dd96",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -934,65 +993,5 @@
     "pubDate": "Thu, 05 Nov 2026 04:35:35 GMT",
     "run_at": "2026-11-05T04:34:54Z",
     "run_id": "ceea4e6e57a54f6b820d990f801f7d46"
-  },
-  {
-    "id": "dc8f99487d2e8f0385c02067a98f055b1f988463",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: A thousand fewer paths to root\n+link: https://openai.com/index/a-thousand-fewer-paths-to-root\n+id: https://openai.com/index/a-thousand-fewer-paths-to-root\n+date: Wed, 04 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Daybreak Red is now available in AWS GovCloud (US-East)\n+link: https://openai.com/index/daybreak-red-aws-govcloud\n+id: https://openai.com/index/daybreak-red-aws-govcloud\n+date: Wed, 04 Nov 2026 07:00:00 GMT\n+title: DevRev delivers autonomous self-service with GPT-6.1 Sol\n+link: https://openai.com/index/devrev-enterprise-self-service",
-    "snippet_full": "+title: A thousand fewer paths to root\n+link: https://openai.com/index/a-thousand-fewer-paths-to-root\n+id: https://openai.com/index/a-thousand-fewer-paths-to-root\n+date: Wed, 04 Nov 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Daybreak Red is now available in AWS GovCloud (US-East)\n+link: https://openai.com/index/daybreak-red-aws-govcloud\n+id: https://openai.com/index/daybreak-red-aws-govcloud\n+date: Wed, 04 Nov 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: DevRev delivers autonomous self-service with GPT-6.1 Sol\n+link: https://openai.com/index/devrev-enterprise-self-service\n+id: https://openai.com/index/devrev-enterprise-self-service\n+date: Wed, 04 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing Images 2.6\n+link: https://openai.com/index/introducing-images-2-6\n+id: https://openai.com/index/introducing-images-2-6\n+date: Wed, 04 Nov 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI to acquire Pierre Computer Company, Inc.\n+link: https://openai.com/index/openai-to-acquire-pierre\n+id: https://openai.com/index/openai-to-acquire-pierre\n+date: Wed, 04 Nov 2026 14:30:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 30,
-      "removed": 0,
-      "churn": 30
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 05 Nov 2026 04:35:15 GMT",
-    "run_at": "2026-11-05T04:34:54Z",
-    "run_id": "ceea4e6e57a54f6b820d990f801f7d46"
-  },
-  {
-    "id": "65bd00edb94b14897a59608ee285a0b240a14cff",
-    "impact": "Breaking",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Deep research\n+Working with agents\n+Safety and security in dots\n+November, 2026\n+Nov 4\n+Feature\n+gpt-image-2.6-sunburst\n+gpt-image-2.6-flare\n+v1/images/generations\n+v1/images/edits\n+Released\n+GPT-Image-2.6 Sunburst\n+and\n+GPT-Image-2.6 Flare\n+for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.\n+See the\n+image generation guide\n+.\n+Apr 22\n+Update\n+o3-deep-research\n+o3-deep-research-2025-06-26\n+o4-mini-deep-research\n+o4-mini-deep-research-2025-06-26\n+v1/responses\n+Deprecated\n+o3-deep-research\n+and\n+o4-mini-deep-research\n+, including their June 26, 2025 snapshots. These models are scheduled to shut down on July 23, 2026. See the\n+deprecation notice\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 31,
-      "removed": 1,
-      "churn": 32
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 05 Nov 2026 04:35:15 GMT",
-    "run_at": "2026-11-05T04:34:54Z",
-    "run_id": "ceea4e6e57a54f6b820d990f801f7d46"
-  },
-  {
-    "id": "891f85345f09ccfe1056a4f8317d14d3467123ce",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+November 3, 2026\n+\n+Text generated by Claude Mythos 5, Claude Opus 4.7, and Claude Sonnet 4.6 carries Anthropic’s text watermark on the platforms listed in\n+How Claude marks AI-generated content\n+. On Claude Sonnet 4.6, text generated for a request that sets\n+temperature\n+,\n+top_p\n+, or\n+top_k\n+to a non-default value might not carry it. See\n+Text watermark\n+.\n-The Python and TypeScript SDKs now include classes, in beta, for the\n+Python SDK 1.12.0 and TypeScript SDK 0.132.0 add classes, in beta, for the\n+November 3, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 15,
-      "removed": 1,
-      "churn": 16
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 04 Nov 2026 04:16:35 GMT",
-    "run_at": "2026-11-04T04:16:15Z",
-    "run_id": "63b54976186c415c9f2daad9effd3916"
   }
 ]

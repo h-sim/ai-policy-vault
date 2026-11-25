@@ -221,6 +221,12 @@ id: https://openai.com/business/customer-stories/blue-j
 date: Thu, 21 Aug 2025 10:00:00 GMT
 body:
 #ITEM
+title: Clay helps sales teams win with Codex and ChatGPT
+link: https://openai.com/business/customer-stories/clay-plugins-openai
+id: https://openai.com/business/customer-stories/clay-plugins-openai
+date: Tue, 24 Nov 2026 00:00:00 GMT
+body:
+#ITEM
 title: Gondola doubles revenue as its team builds more with Codex
 link: https://openai.com/business/customer-stories/gondola
 id: https://openai.com/business/customer-stories/gondola
@@ -243,6 +249,18 @@ title: Holiday Extras is rethinking what it can build with Codex
 link: https://openai.com/business/customer-stories/holidays-extras-codex
 id: https://openai.com/business/customer-stories/holidays-extras-codex
 date: Thu, 12 Nov 2026 09:30:00 GMT
+body:
+#ITEM
+title: How iFood scales coding agents across 15,000 repositories
+link: https://openai.com/business/customer-stories/ifood
+id: https://openai.com/business/customer-stories/ifood
+date: Tue, 24 Nov 2026 00:00:00 GMT
+body:
+#ITEM
+title: How Intentful uses dots to make more time for growth
+link: https://openai.com/business/customer-stories/intentful-dots
+id: https://openai.com/business/customer-stories/intentful-dots
+date: Tue, 24 Nov 2026 00:00:00 GMT
 body:
 #ITEM
 title: How Revolut raises ambition without lowering the bar
@@ -3645,6 +3663,12 @@ title: GPT-6 and Intelligent UI for everyone
 link: https://openai.com/index/gpt-6-for-everyone
 id: https://openai.com/index/gpt-6-for-everyone
 date: Wed, 07 Oct 2026 00:00:00 GMT
+body:
+#ITEM
+title: GPT-6 models demonstrate intrinsic protein-design capabilities
+link: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
+id: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
+date: Tue, 24 Nov 2026 13:00:00 GMT
 body:
 #ITEM
 title: gpt-oss-120b & gpt-oss-20b Model Card
@@ -7293,6 +7317,12 @@ title: SearchGPT is a prototype of new AI search features
 link: https://openai.com/index/searchgpt-prototype
 id: https://openai.com/index/searchgpt-prototype
 date: Thu, 25 Jul 2024 00:00:00 GMT
+body:
+#ITEM
+title: Searching for distant planets with Astra
+link: https://openai.com/index/searching-for-distant-planets-with-astra
+id: https://openai.com/index/searching-for-distant-planets-with-astra
+date: Tue, 24 Nov 2026 11:00:00 GMT
 body:
 #ITEM
 title: Securing our frontier model training environment
